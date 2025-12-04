@@ -1,0 +1,55 @@
+.contact_btn:hover img,
+.service_data:hover img,
+.banner_btn:hover img,
+.engagement_link:hover i,
+.slider_content_wrap section a:hover img,
+.transparent-btn:hover img,
+.learnmore:hover img {
+  animation: moveBounce 1s linear infinite;
+}
+@keyframes moveBounce {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.animated_logo figure > img {
+  animation: moveTrans 10s linear infinite;
+}
+.animated_span,
+.defi_improve:before {
+  animation: moveTrans 10s linear infinite;
+}
+@keyframes moveTrans {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin {
+  animation: spin 1s linear infinite;
+}

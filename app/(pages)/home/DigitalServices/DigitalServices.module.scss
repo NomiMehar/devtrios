@@ -1,0 +1,157 @@
+@import "../../../../styles/variables.scss";
+
+.digital_services {
+  padding-top: 100px;
+
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding-top: 70px;
+  }
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding-top: 50px;
+  }
+
+  .servicesGrid {
+    display: grid;
+    gap: 20px;
+
+    .card {
+      background-color: $card_color;
+      padding: 20px;
+      border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      transition: all 0.3s;
+
+      &:hover {
+        background-color: #002041;
+        h3 {
+          color: $white_color;
+        }
+        p {
+          color: $white_color;
+        }
+        .icon {
+          filter: grayscale(1);
+        }
+      }
+
+      h3 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.4;
+        color: $dark_color;
+        margin: 0;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 1.6;
+        color: $gray_color;
+        margin: 0;
+      }
+    }
+
+    .icon {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 15px;
+    }
+
+    .firstRow {
+      display: grid;
+      grid-template-columns: 1fr repeat(2, 1fr);
+      gap: 20px;
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        grid-template-columns: auto;
+      }
+      .topSection {
+        h2 {
+          font-size: 38px;
+          font-weight: 700;
+          margin: 0;
+          color: $dark_color;
+          @media screen and (max-width: $breakpoint_tablet) {
+            font-size: 30px;
+          }
+          @media screen and (max-width: $breakpoint_mobile_portrait) {
+            font-size: 28px;
+          }
+        }
+
+        .ctaButton {
+          font-size: 14px;
+          font-weight: 400;
+          background-image: linear-gradient(63deg, #00a3ff 0%, #0045ff 100%);
+          border-radius: 8px;
+          padding: 10px 15px;
+          border: 0;
+          color: $white_color;
+          cursor: default;
+          transition: all 0.3s;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    .secondRow {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(25%, 1fr)) 100px;
+      gap: 20px;
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        grid-template-columns: auto;
+      }
+
+      .viewAll {
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: $card_color;
+        border-radius: 16px;
+        cursor: pointer;
+        padding: 20px;
+        font-weight: 600;
+        text-align: center;
+        transition: all 0.3s;
+        @media screen and (max-width: $breakpoint_mobile_portrait) {
+          width: 100%;
+          flex-direction: row;
+          gap: 15px;
+        }
+        &:hover {
+          background-color: #002041;
+          p {
+            color: $white_color;
+          }
+          span {
+            color: $white_color;
+          }
+        }
+
+        span {
+          background-image: linear-gradient(63deg, #00a3ff 0%, #0045ff 100%);
+          border-radius: 10px;
+          padding: 11px 13px;
+          color: $white_color;
+          display: inline-block;
+          font-size: 14px;
+          margin-bottom: 15px;
+          @media screen and (max-width: $breakpoint_mobile_portrait) {
+            margin-bottom: 0;
+          }
+        }
+        p {
+          margin: 0;
+          color: $dark_color;
+          font-size: 14px;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

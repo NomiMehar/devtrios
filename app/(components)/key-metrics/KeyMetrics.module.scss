@@ -1,0 +1,100 @@
+@import "../../../styles/variables.scss";
+
+.key_metrics {
+  padding-top: 100px;
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding-top: 70px;
+  }
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding-top: 50px;
+  }
+  .content_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    background-image: url(../../../public/assets/images/home/lines-back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+    border-radius: 30px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  /* LEFT SIDE */
+  .left {
+    width: 50%;
+    @media screen and (max-width: $breakpoint_tablet) {
+      width: 100%;
+    }
+    .sub_heading {
+      font-size: 14px;
+      letter-spacing: 1px;
+      margin-bottom: 40px;
+      display: block;
+      color: $white_color;
+      @media screen and (max-width: $breakpoint_tablet) {
+        margin-bottom: 20px;
+      }
+    }
+
+    .heading {
+      font-size: 42px;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 45px;
+      color: $white_color;
+      @media screen and (max-width: $breakpoint_tablet) {
+        font-size: 32px;
+        margin-bottom: 25px;
+      }
+    }
+  }
+
+  /* RIGHT SIDE */
+  .right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    width: 50%;
+    @media screen and (max-width: $breakpoint_tablet) {
+      width: 100%;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .metric_box {
+    display: flex;
+    flex-direction: column;
+
+    .value {
+      font-size: 62px;
+      font-weight: 700;
+      color: $white_color;
+      margin-bottom: -25px;
+      @media screen and (max-width: $breakpoint_tablet) {
+        font-size: 52px;
+      }
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        font-size: 42px;
+      }
+    }
+
+    .label {
+      font-size: 14px;
+      opacity: 0.9;
+      margin-top: 6px;
+      color: $white_color;
+      background: rgba(0, 85, 190, 0.6);
+      backdrop-filter: blur(6px);
+      border-radius: 10px;
+      padding: 12px 12px;
+    }
+  }
+}

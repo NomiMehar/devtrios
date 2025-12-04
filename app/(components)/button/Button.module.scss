@@ -1,0 +1,41 @@
+.button_wrapper {
+  background: linear-gradient(90deg, #00a3ff 0, #0045ff 100%);
+  box-shadow: 7px 9px 21.6px 0 rgba(0, 69, 255, 0.25);
+  border: none;
+  border-radius: 12px;
+  padding: 15px 25px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.5s;
+  width: max-content;
+
+  &:hover {
+    background: linear-gradient(90deg, #0045ff 0, #00a3ff 100%);
+  }
+
+  img {
+    width: 15px;
+    height: 15px;
+  }
+
+  &.secondary {
+    background: #fff;
+    color: #000;
+    img {
+      filter: invert(1);
+      transition: all 0.5s;
+    }
+    &:hover {
+      background: #000;
+      color: #fff;
+      img {
+        filter: none;
+      }
+    }
+  }
+}
