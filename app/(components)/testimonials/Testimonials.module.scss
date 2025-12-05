@@ -1,0 +1,60 @@
+@import "../../../styles/variables.scss";
+
+.testimonials {
+  padding-top: 100px;
+  overflow: hidden;
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding-top: 70px;
+  }
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding-top: 50px;
+  }
+  .content_wrapper {
+    .heading {
+      color: $dark_color;
+      font-size: 38px;
+      font-weight: 700;
+      text-align: center;
+      line-height: 1.4;
+      margin-bottom: 50px;
+      @media screen and (max-width: $breakpoint_tablet) {
+        font-size: 30px;
+      }
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        font-size: 28px;
+      }
+    }
+    .testimonialsSwiper {
+      padding-bottom: 50px;
+      margin-right: -100px;
+
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        padding-bottom: 50px;
+      }
+      .block {
+        border-radius: 32px 120px 32px 32px;
+        background-color: $card_color;
+        padding: 40px;
+        .coma_img {
+          width: 60px;
+          height: 60px;
+          object-fit: contain;
+          margin-bottom: 15px;
+        }
+        h4 {
+          color: $dark_color;
+          font-size: 18px;
+          font-weight: 600;
+          margin: 0;
+        }
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 1.6;
+          color: $gray_color;
+          margin: 0 0 30px;
+        }
+      }
+    }
+  }
+}

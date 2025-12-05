@@ -18,7 +18,6 @@ export default function KeyMetrics() {
             <span className={styles.sub_heading}>
               WHY BUSINESSES TRUST DEVTRIOS
             </span>
-
             <h2 className={styles.heading}>
               From startups to enterprises, across 16+ industries
             </h2>

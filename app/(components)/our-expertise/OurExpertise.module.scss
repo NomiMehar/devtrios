@@ -1,0 +1,94 @@
+@import "../../../styles/variables.scss";
+
+.our_expertise {
+  padding-top: 100px;
+  overflow: hidden;
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding-top: 70px;
+  }
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding-top: 50px;
+  }
+  .content_wrapper {
+    .heading_wrapper {
+      max-width: 700px;
+      @media screen and (max-width: $breakpoint_tablet) {
+        max-width: 570px;
+      }
+      span {
+        font-size: 14px;
+        font-weight: 500;
+        color: $gray_color;
+      }
+      .heading {
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 59px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        color: $dark_color;
+        @media screen and (max-width: $breakpoint_tablet) {
+          font-size: 32px;
+          line-height: 1.4;
+        }
+        @media screen and (max-width: $breakpoint_mobile_portrait) {
+          font-size: 28px;
+        }
+      }
+    }
+    .expertiseSwiper {
+      margin-top: -175px;
+      margin-right: -100px;
+      padding-top: 180px;
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        padding-bottom: 50px;
+      }
+      .block {
+        &:hover {
+          .wrapper {
+            justify-content: space-between;
+            p {
+              display: block;
+            }
+          }
+        }
+        .bg_img {
+          width: 100%;
+          height: auto;
+          border-radius: 20px 50px 10px 10px;
+        }
+        .wrapper {
+          position: absolute;
+          z-index: 9;
+          bottom: 0;
+          padding: 20px;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: end;
+
+          .inner_wrapper {
+            .inner_img {
+              width: 50px;
+              height: 50px;
+              margin-bottom: 15px;
+            }
+            h4 {
+              color: $white_color;
+              font-size: 20px;
+              font-weight: 600;
+            }
+          }
+          p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: $white_color;
+            display: none;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

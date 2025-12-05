@@ -384,3 +384,63 @@ a {
     }
   }
 }
+
+.expertiseSwiper {
+  .swiper-button-next,
+  .swiper-button-prev {
+    right: 140px !important;
+    left: auto !important;
+    bottom: unset !important;
+    top: 50px !important;
+    width: 30px;
+    border: 1px solid #545661;
+    height: 30px;
+    border-radius: 100px;
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      display: none;
+    }
+    svg {
+      width: 10px;
+      height: 10px;
+      path {
+        fill: $dark_color;
+      }
+    }
+  }
+  .swiper-button-next {
+    right: 100px !important;
+    background-color: $dark_color;
+    svg {
+      path {
+        fill: $white_color;
+      }
+    }
+  }
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 23px !important;
+    color: #545661;
+  }
+  .swiper-pagination {
+    display: none;
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      display: block;
+      margin-left: -50px;
+    }
+    .swiper-pagination-bullet {
+      .swiper-pagination-bullet-active {
+        background: $dark_color !important;
+      }
+    }
+  }
+}
+.testimonialsSwiper {
+  .swiper-pagination {
+    margin-left: -50px;
+    .swiper-pagination-bullet {
+      .swiper-pagination-bullet-active {
+        background: $dark_color !important;
+      }
+    }
+  }
+}

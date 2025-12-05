@@ -1,0 +1,129 @@
+@import "../../../styles/variables.scss";
+
+.technology_stack {
+  padding-top: 100px;
+
+  .heading {
+    color: $dark_color;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.4;
+    margin-bottom: 50px;
+    @media screen and (max-width: $breakpoint_tablet) {
+      font-size: 30px;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 28px;
+    }
+  }
+
+  /* --------------------------------------
+     Tabs
+  -------------------------------------- */
+  .tabs {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 18px;
+    flex-wrap: wrap;
+  }
+
+  .tab {
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    color: $gray_color;
+    transition: all 0.22s ease;
+    box-shadow: none;
+    display: inline-flex;
+    align-items: center;
+
+    &:hover {
+      color: #002041;
+      background: rgba(0, 0, 0, 0.06);
+    }
+
+    &.active {
+      background: #002041;
+      color: #fff;
+      transform: translateY(-1px);
+
+      &:hover {
+        background: darken(#002041, 4%);
+      }
+    }
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      padding: 8px 14px;
+      font-size: 14px;
+    }
+  }
+
+  /* --------------------------------------
+     Panel
+  -------------------------------------- */
+  .panel {
+    margin-top: 10px;
+    background: $card_color;
+    border-radius: 22px;
+    padding: 30px 25px;
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      padding: 18px;
+    }
+  }
+
+  .inner_panel {
+    max-width: 100%;
+  }
+
+  /* --------------------------------------
+     Logo Grid
+  -------------------------------------- */
+  .logo_grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 36px 40px;
+    align-items: center;
+    justify-items: center;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 26px;
+    }
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+  }
+
+  .logo_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.22s ease, box-shadow 0.22s ease;
+
+    img {
+      width: 50px;
+      height: 50px;
+      object-fit: contain;
+      transition: all 0.22s ease;
+    }
+
+    &:hover {
+      transform: translateY(-6px);
+    }
+  }
+
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding-top: 50px;
+  }
+}

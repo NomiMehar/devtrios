@@ -1,0 +1,58 @@
+{
+  "AI Development": [
+    "k.png",
+    "pytorch.png",
+    "Tensorflow.png",
+    "julia.png",
+    "Rlogo.png",
+    "Python_logo.png",
+    "Scikit_learn_logo.png",
+    "huggingface.png",
+    "opencv.png",
+    "chat.png",
+    "spark.png",
+    "SpaCy_logo.png",
+    "Vector.png",
+    "google-ai.png",
+    "T1V1LWx.png",
+    "azure.png",
+    "world.png",
+    "cohere.png",
+    "dialogflow-logo.png",
+    "ChatGPT-Logo.png",
+    "grok-icon.png",
+    "anthropic.png",
+    "nvidia.png",
+    "robot.png",
+    "Pinecone.png",
+    "link.png",
+    "Dask_Logo.png",
+    "qdrant-icon-logo.png",
+    "e.png",
+    "chain.png",
+    "redis.png",
+    "FAISS.png",
+    "postgresql-logo-1.png"
+  ],
+  "Web Development": [
+    "k.png",
+    "pytorch.png",
+    "Tensorflow.png",
+    "julia.png"
+  ],
+  "Custom Software Development": [
+    "Rlogo.png",
+    "Python_logo.png",
+    "Scikit_learn_logo.png"
+  ],
+  "Blockchain Development": [
+    "chain.png",
+    "link.png",
+    "e.png"
+  ],
+  "Mobile App Development": [
+    "Vector.png",
+    "chat.png",
+    "robot.png"
+  ]
+}

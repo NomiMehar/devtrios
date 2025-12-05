@@ -8,6 +8,11 @@ import AboutHomeList from "@/app/(components)/about-devtrios/AboutHomeList.json"
 import DigitalServices from "@/app/(pages)/home/DigitalServices/DigitalServices";
 import FeaturedCase from "@/app/(pages)/home/FeaturedCase/FeaturedCase";
 import KeyMetrics from "@/app/(components)/key-metrics/KeyMetrics";
+import OurExpertise from "@/app/(components)/our-expertise/OurExpertise";
+import TechnologyStack from "@/app/(components)/technology-stack/TechnologyStack";
+import Testimonials from "@/app/(components)/testimonials/Testimonials";
+import OurClients from "@/app/(components)/our-clients/OurClients";
+
 export default function Home() {
   return (
     <React.Fragment>
@@ -56,7 +61,11 @@ export default function Home() {
       />
       <DigitalServices />
       <FeaturedCase />
+      <OurExpertise />
       <KeyMetrics />
+      <TechnologyStack />
+      <Testimonials />
+      <OurClients />
     </React.Fragment>
   );
 }
