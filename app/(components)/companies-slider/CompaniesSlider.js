@@ -48,8 +48,8 @@ export default function CompaniesSlider({
             <Image
               src={`${basePath}${img}`}
               alt={img}
-              width={150}
-              height={150}
+              width={1000}
+              height={1000}
               loading="lazy"
             />
           </SwiperSlide>
