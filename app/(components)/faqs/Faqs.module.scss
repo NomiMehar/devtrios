@@ -1,0 +1,102 @@
+@import "../../../styles/variables.scss";
+
+.faqs {
+  padding: 100px 0 100px;
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding: 70px 0 70px;
+  }
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding: 50px 0 50px;
+  }
+  .heading {
+    color: $dark_color;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.4;
+    margin-bottom: 50px;
+    @media screen and (max-width: $breakpoint_tablet) {
+      font-size: 30px;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 28px;
+    }
+  }
+  .wrapper {
+    .faq_item {
+      transition: all 0.3s ease;
+      border-radius: 8px;
+      margin-bottom: 18px;
+      background: #f9f9f9;
+
+      .faq_title {
+        width: 100%;
+        display: flex;
+        text-align: left;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        line-height: 1.4;
+        font-size: 20px;
+        padding: 20px 28px;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        font-weight: 600;
+        color: $dark_color;
+        @media screen and (max-width: $breakpoint_tablet) {
+          font-size: 18px;
+        }
+        @media screen and (max-width: $breakpoint_mobile_portrait) {
+          font-size: 16px;
+        }
+        .icon_wrapper {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: $dark_color;
+          width: 20px;
+          min-width: 20px;
+          height: 20px;
+          border-radius: 100px;
+
+          .icon {
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 1;
+            margin-top: -2px;
+            color: $white_color;
+          }
+        }
+      }
+
+      .faq_desc {
+        background: #eef8ff; // **same light blue as screenshot**
+        padding: 10px 25px 28px;
+        border-radius: 0 0 8px 8px;
+        p {
+          font-size: 18px;
+          line-height: 1.6;
+          color: $gray_color;
+          margin: 0;
+          @media screen and (max-width: $breakpoint_tablet) {
+            font-size: 16px;
+          }
+          @media screen and (max-width: $breakpoint_mobile_portrait) {
+            font-size: 14px;
+          }
+        }
+      }
+      &.active {
+        background: #eef8ff;
+        border-radius: 8px;
+        .icon_wrapper {
+          background-color: #dbdde8;
+          .icon {
+            color: $dark_color;
+          }
+        }
+      }
+    }
+  }
+}

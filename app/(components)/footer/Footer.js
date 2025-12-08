@@ -1,160 +1,228 @@
 import Link from "next/link";
-import React  from "react";
+import React from "react";
 import style from "./Footer.module.scss";
 import Image from "next/image";
 
+// JSON data
+const footerData = {
+  company: {
+    name: "Devtrios",
+    logo: "/assets/images/footer/footer-logo.png",
+    tagline:
+      "Driving business growth through scalable digital solutions, from web and mobile apps to SEO and AI-powered platforms.",
+    contact: {
+      email: "info@devtrios.com",
+      phone: "+44-7470 801776",
+      address: "27 Old Gloucester Street, London WC1N 3AX, United Kingdom",
+    },
+  },
+  menus: {
+    core_solutions: [
+      {
+        title: "Custom Software Development",
+        link: "https://devtrios.com/services/custom-software-development/",
+      },
+      {
+        title: "Website Development",
+        link: "https://devtrios.com/services/website-development/",
+      },
+      {
+        title: "Mobile App Development",
+        link: "https://devtrios.com/services/mobile-app-development/",
+      },
+      {
+        title: "UI UX Design",
+        link: "https://devtrios.com/services/ui-ux-design/",
+      },
+      {
+        title: "AI Solution",
+        link: "https://devtrios.com/services/ai-solution/",
+      },
+      {
+        title: "Blockchain Development",
+        link: "https://devtrios.com/services/blockchain-development/",
+      },
+      {
+        title: "Cloud Services",
+        link: "https://devtrios.com/services/cloud-services/",
+      },
+    ],
+    seo_digital_marketing: [
+      {
+        title: "SEO & Digital Marketing",
+        link: "https://devtrios.com/services/seo-digital-marketing/",
+      },
+      { title: "SEO", link: "https://devtrios.com/services/seo/" },
+      {
+        title: "Social Media Marketing",
+        link: "https://devtrios.com/services/social-media-marketing/",
+      },
+    ],
+    discover_devtrios: [
+      { title: "Home", link: "/" },
+      { title: "About Us", link: "/about" },
+      { title: "Blog", link: "/blog" },
+      { title: "Contact Us", link: "/contact" },
+      { title: "Terms of Use", link: "/terms" },
+      { title: "Privacy Policy", link: "/privacy" },
+      { title: "Cookie Policy", link: "/cookie" },
+    ],
+  },
+  socials: [
+    { name: "facebook", link: "https://facebook.com/devtrios" },
+    { name: "twitter", link: "https://twitter.com/devtrios" },
+    { name: "linkedin", link: "https://linkedin.com/company/devtrios" },
+    { name: "youtube", link: "https://youtube.com/devtrios" },
+    { name: "instagram", link: "https://instagram.com/devtrios" },
+    { name: "pinterest", link: "https://pinterest.com/devtrios" },
+    { name: "tiktok", link: "https://tiktok.com/@devtrios" },
+    { name: "x", link: "https://x.com/devtrios" },
+  ],
+};
+
 function Footer() {
-  const handleMouseEnter = () => {
-    document.body.classList.add('hovered');
-  };
-  const handleMouseLeave = () => {
-    document.body.classList.remove('hovered');
-  };
   return (
-      <>
-        <footer className={style.footer}>
-          <div className="container">
-            <div className={`row flex ${style.row}`}>
-              <div className={style.logo}>
-                <Image width={100} height={100} src="/assets/images/footer/logo.svg" alt="logo" />
-              </div>
-              <div className={style.footer_links_wrap}>
-                <div className="row flex">
-                  <div className={style.footer_links}>
-                    <h4>Expertise</h4>
-                    <ul className="list-none">
-                      <li>
-                        <Link
-                            onMouseEnter={handleMouseEnter}
-                            onMouseLeave={handleMouseLeave}
-                            href="/services/ai-ml/ai-consulting">Artificial Intelligence</Link>
-                      </li>
-                      <li>
-                        <Link
-                            onMouseEnter={handleMouseEnter}
-                            onMouseLeave={handleMouseLeave}
-                            href="/services/innovation/mobility/mobile-development">Mobile App Dev</Link>
-                      </li>
-                      <li>
-                        <Link
-                            onMouseEnter={handleMouseEnter}
-                            onMouseLeave={handleMouseLeave}
-                            href="/services/ai-ml/generative-ai-development">Generative AI</Link>
-                      </li>
-                      <li>
-                        <Link
-                            onMouseEnter={handleMouseEnter}
-                            onMouseLeave={handleMouseLeave}
-                            href="/services/next-gen-tech/blockchain/blockchain-development">Blockchain</Link>
-                      </li>
-                      <li>
-                        <Link
-                            onMouseEnter={handleMouseEnter}
-                            onMouseLeave={handleMouseLeave}
-                            href="/services/next-gen-tech/gamification/mobile-game-development">Gaming</Link>
-                      </li>
-                      {/* <li>
-                        <Link
-                            onMouseEnter={handleMouseEnter}
-                            onMouseLeave={handleMouseLeave}
-                            href="/company/about-us">Branding</Link>
-                      </li> */}
-                    </ul>
-                  </div>
-                  <div className={style.footer_links} style={{paddingLeft: 25}}>
-                    <h4>COMPANY</h4>
-                    <ul className="list-none">
-                      <li>
-                        <Link
-                            onMouseEnter={handleMouseEnter}
-                            onMouseLeave={handleMouseLeave}
-                            href="/company/about-us">About Us</Link>
-                      </li>
-                      <li>
-                        <Link
-                            onMouseEnter={handleMouseEnter}
-                            onMouseLeave={handleMouseLeave}
-                            href="/company/team">Our Team</Link>
-                      </li>
-                      <li>
-                        <Link
-                            onMouseEnter={handleMouseEnter}
-                            onMouseLeave={handleMouseLeave}
-                            href="/contact-us">Contact Us</Link>
-                      </li>
-                      <li>
-                        <Link
-                            onMouseEnter={handleMouseEnter}
-                            onMouseLeave={handleMouseLeave}
-                            href="/case-studies">Case Studies</Link>
-                      </li>
-                    </ul>
-                  </div>
-                 
-                </div>
-              </div>
-              <div className={style.newsletter}>
-                <div className={style.footer_links}>
-                  <h4>Join us</h4>
-                  <p>
-                    By providing your e-mail address, you are consenting to receive press releases.
-                  </p>
-                  <div className={style.input_group}>
-                    <input
-                        type="text"
-                        placeholder="Enter your Email"
-                        name="email"
-                    />
-                    <button
-                        onMouseEnter={handleMouseEnter}
-                        onMouseLeave={handleMouseLeave}
-                        className="btn-green">
-                      SUBSCRIBE <i className="fa fa-arrow-right"></i>
-                    </button>
-                  </div>
-                </div>
-              </div>
+    <footer className={style.footer}>
+      <div className="container">
+        <div className={style.footer_container}>
+          {/* Company Info */}
+          <div className={style.footer_section}>
+            <div className={style["footer-logo"]}>
+              <Link href="/">
+                <Image
+                  src={footerData.company.logo}
+                  alt="Devtrios"
+                  width={1000}
+                  height={1000}
+                />
+              </Link>
             </div>
-            <div className={style.footer_bottom}>
-              <div className={`${style.grid_container_2}`}>
-                {/* <ul className={`list-none flex`}>
-                  <li>
-                    <Link
-                        onMouseEnter={handleMouseEnter}
-                        onMouseLeave={handleMouseLeave}
-                        href="/">Privacy Policy</Link>
-                  </li>
-                  <li>
-                    <Link
-                        onMouseEnter={handleMouseEnter}
-                        onMouseLeave={handleMouseLeave}
-                        href="/">Terms & Conditions</Link>
-                  </li>
-                  <li>
-                    <Link
-                        onMouseEnter={handleMouseEnter}
-                        onMouseLeave={handleMouseLeave}
-                        href="/">Cookies</Link>
-                  </li>
-                </ul> */}
-                <ul className={`list-none flex center justify-end ${style.content}`}>
-                  <li>
-                  <span>
-                  ©2017-2024 DigiMark Developers. All rights reserved.
-                  </span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className={style.live_chat}>
-              <Image width={100} height={100}
-                  src="/assets/images/footer/live-chat-icon.svg"
-                  alt="live-chat-icon"
-              />
+            <p>{footerData.company.tagline}</p>
+            <hr />
+            <div className={style["footer-contact"]}>
+              <p>
+                <Image
+                  src="/assets/images/footer/mail.svg"
+                  alt="icons"
+                  width={20}
+                  height={20}
+                />
+                <Link href={`mailto:${footerData.company.contact.email}`}>
+                  {footerData.company.contact.email}
+                </Link>
+              </p>
+              <p>
+                <Image
+                  src="/assets/images/footer/phone.svg"
+                  alt="icons"
+                  width={20}
+                  height={20}
+                />
+                <Link href={`tel:${footerData.company.contact.phone}`}>
+                  {footerData.company.contact.phone}
+                </Link>
+              </p>
+              <p>
+                <Image
+                  src="/assets/images/footer/location.svg"
+                  alt="icons"
+                  width={20}
+                  height={20}
+                />
+                {footerData.company.contact.address}
+              </p>
             </div>
           </div>
-        </footer>
-      </>
+
+          {/* Core Solutions */}
+          <div className={style.footer_section}>
+            <h4>OUR CORE SOLUTIONS</h4>
+            <ul>
+              {footerData.menus.core_solutions
+                .concat(footerData.menus.seo_digital_marketing)
+                .map((item, index) => (
+                  <li key={index}>
+                    <Link href={item.link}>{item.title}</Link>
+                  </li>
+                ))}
+            </ul>
+          </div>
+
+          {/* Discover Devtrios */}
+          <div className={style.footer_section}>
+            <h4>DISCOVER DEVTRIOS</h4>
+            <ul>
+              {footerData.menus.discover_devtrios.map((item, index) => (
+                <li key={index}>
+                  <Link href={item.link}>{item.title}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Ratings & Socials */}
+          <div className={style.footer_section}>
+            <div className={style.ratings}>
+              <Image
+                src={`/assets/images/footer/ratings.svg`}
+                alt="Devtrios"
+                width={150}
+                height={50}
+              />
+            </div>
+            <h4>OUR SOCIALS</h4>
+            <div className={style.socials}>
+              {footerData.socials.map((item, index) => (
+                <Link
+                  key={index}
+                  href={item.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={style.socialIcon}
+                >
+                  <Image
+                    src={`/assets/images/footer/${item.name}.svg`}
+                    alt={item.name}
+                    width={24}
+                    height={24}
+                  />
+                </Link>
+              ))}
+            </div>
+            <div className={style.other_socials}>
+              <Link
+                href="https://clutch.co/profile/devtrios"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src={`/assets/images/footer/clutch.svg`}
+                  alt="clutch"
+                  width={1000}
+                  height={1000}
+                />
+              </Link>
+              <Link
+                href="https://www.yell.com/biz/devtrios-london-10964943/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src={`/assets/images/footer/yell.jpg`}
+                  alt="yell"
+                  width={1000}
+                  height={1000}
+                />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className={style.footerBottom}>
+        <p>© 2025 Devtrios. All Rights Reserved.</p>
+      </div>
+    </footer>
   );
 }
 

@@ -6,12 +6,16 @@ import CompaniesHomeList from "@/app/(components)/companies-slider/CompaniesHome
 import AboutDevtrios from "@/app/(components)/about-devtrios/AboutDevtrios";
 import AboutHomeList from "@/app/(components)/about-devtrios/AboutHomeList.json";
 import DigitalServices from "@/app/(pages)/home/DigitalServices/DigitalServices";
-import FeaturedCase from "@/app/(pages)/home/FeaturedCase/FeaturedCase";
+import FeaturedCase from "@/app/(components)/featuredCase/FeaturedCase";
 import KeyMetrics from "@/app/(components)/key-metrics/KeyMetrics";
 import OurExpertise from "@/app/(components)/our-expertise/OurExpertise";
 import TechnologyStack from "@/app/(components)/technology-stack/TechnologyStack";
 import Testimonials from "@/app/(components)/testimonials/Testimonials";
 import OurClients from "@/app/(components)/our-clients/OurClients";
+import Cta from "@/app/(components)/cta/Cta";
+import CtaHomeList from "@/app/(components)/cta/CtaHomeList.json";
+import Blogs from "@/app/(components)/blogs/Blogs";
+import Faqs from "@/app/(components)/faqs/Faqs";
 
 export default function Home() {
   return (
@@ -66,6 +70,9 @@ export default function Home() {
       <TechnologyStack />
       <Testimonials />
       <OurClients />
+      <Cta data={CtaHomeList} />
+      <Blogs />
+      <Faqs />
     </React.Fragment>
   );
 }

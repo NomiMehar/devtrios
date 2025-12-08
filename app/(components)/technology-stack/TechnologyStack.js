@@ -67,8 +67,8 @@ export default function TechnologyStack() {
                   <Image
                     src={`/assets/images/technology_stack/${imgName}`}
                     alt={imgName.replace(/\.[^/.]+$/, "")}
-                    width={120}
-                    height={80}
+                    width={1000}
+                    height={1000}
                     loading="lazy"
                     style={{ objectFit: "contain" }}
                   />

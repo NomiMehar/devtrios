@@ -40,31 +40,44 @@
     .left_side {
       max-width: 500px;
       color: $white_color;
-
-      .client_img {
-        width: 200px;
-        height: 200px;
-        border-radius: 10px;
-        margin-right: 20px;
-        object-fit: cover;
+      @media screen and (max-width: $breakpoint_tablet) {
+        max-width: 100%;
       }
+      .description {
+        @media screen and (max-width: $breakpoint_mobile_portrait) {
+          flex-wrap: wrap;
+        }
+        .client_img {
+          width: 200px;
+          height: 200px;
+          border-radius: 10px;
+          margin-right: 20px;
+          object-fit: cover;
+          @media screen and (max-width: $breakpoint_mobile_portrait) {
+            width: 100%;
+          }
+        }
 
-      p {
-        font-size: 12px;
-        line-height: 1.6;
-        margin-bottom: 20px;
-      }
+        p {
+          font-size: 12px;
+          line-height: 1.6;
+          margin-bottom: 20px;
+          color: $white_color;
+          @media screen and (max-width: $breakpoint_tablet) {
+            font-size: 14px;
+          }
+        }
 
-      .services_link {
-        color: $white_color;
-        font-weight: 600;
-        font-size: 12px;
-        text-decoration: none;
-        &:hover {
-          text-decoration: underline;
+        .services_link {
+          color: $white_color;
+          font-weight: 600;
+          font-size: 12px;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
         }
       }
-
       .client_satisfaction {
         margin-top: 20px;
         span {
@@ -103,10 +116,12 @@
       justify-content: center;
 
       @media screen and (max-width: $breakpoint_tablet) {
-        grid-template-columns: repeat(3, 100px);
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
       }
       @media screen and (max-width: $breakpoint_mobile_portrait) {
-        grid-template-columns: repeat(2, 80px);
+        flex-wrap: wrap;
       }
 
       .platform {
@@ -117,7 +132,10 @@
         align-items: center;
         justify-content: center;
         height: 100%;
-
+        @media screen and (max-width: $breakpoint_mobile_portrait) {
+          height: auto;
+          width: 100%;
+        }
         img {
           object-fit: contain;
           max-width: 100%;

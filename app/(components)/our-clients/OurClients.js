@@ -50,7 +50,7 @@ export default function OurClients() {
 
           <div className={styles.inner_content}>
             <div className={styles.left_side}>
-              <div className="flex">
+              <div className={`flex items-center ${styles.description}`}>
                 <img
                   src="/assets/images/home/office-man-handshake-with-business.jpg"
                   alt="Client meeting"

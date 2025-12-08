@@ -1,0 +1,99 @@
+@import "../../../styles/variables.scss";
+
+.blogs {
+  padding-top: 100px;
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding-top: 70px;
+  }
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding-top: 50px;
+  }
+  .heading {
+    color: $dark_color;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.4;
+    margin-bottom: 50px;
+    @media screen and (max-width: $breakpoint_tablet) {
+      font-size: 30px;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 28px;
+    }
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      grid-template-columns: 1fr;
+    }
+    .card {
+      background: $card_color;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+
+      .imageWrapper {
+        img {
+          width: 100%;
+          height: 186px;
+          background-color: #d6d6d6;
+          display: block;
+          border-radius: 15px;
+        }
+      }
+      .content_wrapper {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        gap: 20px;
+        .title {
+          font-size: 22px;
+          font-weight: 700;
+          color: $dark_color;
+          margin-bottom: 10px;
+          @media screen and (max-width: $breakpoint_mobile_portrait) {
+            font-size: 20px;
+          }
+        }
+
+        p {
+          font-size: 16px;
+          color: $gray_color;
+          margin-bottom: 10px;
+          line-height: 1.6;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          @media screen and (max-width: $breakpoint_mobile_portrait) {
+            font-size: 14px;
+          }
+        }
+        a {
+          padding: 0;
+          font-size: 16px;
+          background: none;
+          box-shadow: none;
+          color: $dark_color;
+          img {
+            filter: invert(1);
+          }
+          @media screen and (max-width: $breakpoint_mobile_portrait) {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

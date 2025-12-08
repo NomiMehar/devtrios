@@ -37,18 +37,19 @@
       width: 100%;
     }
     .sub_heading {
-      font-size: 14px;
+      font-size: 16px;
       letter-spacing: 1px;
       margin-bottom: 40px;
       display: block;
       color: $white_color;
       @media screen and (max-width: $breakpoint_tablet) {
         margin-bottom: 20px;
+        font-size: 14px;
       }
     }
 
     .heading {
-      font-size: 42px;
+      font-size: 46px;
       font-weight: 700;
       line-height: 1.2;
       margin-bottom: 45px;
@@ -79,12 +80,12 @@
     flex-direction: column;
 
     .value {
-      font-size: 62px;
+      font-size: 70px;
       font-weight: 700;
       color: $white_color;
       margin-bottom: -25px;
       @media screen and (max-width: $breakpoint_tablet) {
-        font-size: 54px;
+        font-size: 58px;
       }
       @media screen and (max-width: $breakpoint_mobile_portrait) {
         font-size: 52px;
@@ -92,7 +93,7 @@
     }
 
     .label {
-      font-size: 14px;
+      font-size: 16px;
       opacity: 0.9;
       margin-top: 6px;
       color: $white_color;
@@ -100,6 +101,9 @@
       backdrop-filter: blur(6px);
       border-radius: 10px;
       padding: 12px 12px;
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        font-size: 14px;
+      }
     }
   }
 }

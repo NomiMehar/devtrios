@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/images/home/E-Commerce-Growth-sc.svg",
+    "title": "E-Commerce Growth with Devtrios",
+    "description": "40+ projects delivered across retail, food & beverage, lifestyle, and electronics.",
+    "impactTitle": "Impact Numbers",
+    "impactPoints": [
+      "<strong>32%</strong> ↑ Average conversion lift after checkout redesigns",
+      "<strong>18%</strong> ↑ Higher order value with loyalty & subscription features",
+      "<strong>Sub-2s</strong> Load times on headless builds, boosting SEO rankings"
+    ],
+    "button": {
+      "text": "See How 40+ Stores Grew",
+      "link": "https://devtrios.com/e-commerce-growth-with-devtrios/",
+      "icon": "/assets/images/home/arrow-circle-right.svg"
+    }
+  },
+  {
+    "id": 2,
+    "image": "/assets/images/home/Scaling-Apps-sc.svg",
+    "title": "Scaling Apps That Scale Users",
+    "description": "50+ apps launched across fintech, healthtech, travel, beauty, and e-commerce.",
+    "impactTitle": "Impact Numbers",
+    "impactPoints": [
+      "<strong>12–16 Weeks</strong> Average MVP launch timeline",
+      "<strong>27%</strong> ↑ User retention boost with UX-first design",
+      "<strong>40%</strong> ↓ Cost savings via cross-platform builds"
+    ],
+    "button": {
+      "text": "See How We Build Scalable Apps",
+      "link": "https://devtrios.com/scaling-apps-that-scale-users/",
+      "icon": "/assets/images/home/arrow-circle-right.svg"
+    }
+  },
+  {
+    "id": 3,
+    "image": "/assets/images/home/Smarter-Business-sc.svg",
+    "title": "Smarter Business with Custom CRM Platforms",
+    "description": "50+ CRM & workflow automation builds across finance, logistics, healthcare and SaaS.",
+    "impactTitle": "Impact Numbers",
+    "impactPoints": [
+      "<strong>65%</strong> ↑ Efficiency gains within 12 months",
+      "<strong>40%</strong> ↓ Manual work through workflow automation",
+      "<strong>30%</strong> ↑ UX-first user adoption"
+    ],
+    "button": {
+      "text": "Explore Custom CRM Development",
+      "link": "https://devtrios.com/smarter-business-with-custom-crm-platforms/",
+      "icon": "/assets/images/home/arrow-circle-right.svg"
+    }
+  }
+]
