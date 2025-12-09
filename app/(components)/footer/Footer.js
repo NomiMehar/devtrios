@@ -69,14 +69,26 @@ const footerData = {
     ],
   },
   socials: [
-    { name: "facebook", link: "https://facebook.com/devtrios" },
-    { name: "twitter", link: "https://twitter.com/devtrios" },
-    { name: "linkedin", link: "https://linkedin.com/company/devtrios" },
-    { name: "youtube", link: "https://youtube.com/devtrios" },
-    { name: "instagram", link: "https://instagram.com/devtrios" },
-    { name: "pinterest", link: "https://pinterest.com/devtrios" },
-    { name: "tiktok", link: "https://tiktok.com/@devtrios" },
-    { name: "x", link: "https://x.com/devtrios" },
+    {
+      name: "facebook",
+      link: "https://www.facebook.com/share/1BXgdxNpBu/?mibextid=wwXIfr",
+    },
+    { name: "twitter", link: "https://x.com/devtrios_uk?s=21" },
+    { name: "linkedin", link: "https://www.linkedin.com/company/devtrios/" },
+    {
+      name: "youtube",
+      link: "https://youtube.com/@devtrios?si=UgLlfm3ra99HDqY8",
+    },
+    {
+      name: "instagram",
+      link: "https://www.instagram.com/devtrios_uk?igsh=eWJmbXNwaWRodGZy&utm_source=qr",
+    },
+    { name: "pinterest", link: "https://uk.pinterest.com/devtrios/" },
+    {
+      name: "tiktok",
+      link: "https://www.tiktok.com/@devtrios_uk?_t=ZG-8zlgpW9o1kv&_r=1",
+    },
+    { name: "x", link: "https://x.com/devtrios_uk?s=21" },
   ],
 };
 
