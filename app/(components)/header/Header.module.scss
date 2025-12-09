@@ -1,4 +1,4 @@
-@import "../../../styles/variables.scss";
+@use "../../../styles/variables" as *;
 .main_header {
   margin-bottom: -84px;
   z-index: 999;

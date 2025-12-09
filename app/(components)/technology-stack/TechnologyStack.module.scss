@@ -1,4 +1,4 @@
-@import "../../../styles/variables.scss";
+@use "../../../styles/variables" as *;
 
 .technology_stack {
   padding-top: 100px;
@@ -56,7 +56,7 @@
       transform: translateY(-1px);
 
       &:hover {
-        background: darken(#002041, 4%);
+        background: color.adjust(#002041, $lightness: -4%);
       }
     }
 
