@@ -36,8 +36,8 @@ export default function Testimonials() {
                 <Image
                   src={`/assets/images/home/coma.png`}
                   alt="coma"
-                  width={100}
-                  height={100}
+                  width={1000}
+                  height={1000}
                   loading="lazy"
                   className={styles.coma_img}
                 />
@@ -54,8 +54,8 @@ export default function Testimonials() {
                 <Image
                   src={`/assets/images/home/coma.png`}
                   alt="coma"
-                  width={100}
-                  height={100}
+                  width={1000}
+                  height={1000}
                   loading="lazy"
                   className={styles.coma_img}
                 />
@@ -72,8 +72,8 @@ export default function Testimonials() {
                 <Image
                   src={`/assets/images/home/coma.png`}
                   alt="coma"
-                  width={100}
-                  height={100}
+                  width={1000}
+                  height={1000}
                   loading="lazy"
                   className={styles.coma_img}
                 />
@@ -90,8 +90,8 @@ export default function Testimonials() {
                 <Image
                   src={`/assets/images/home/coma.png`}
                   alt="coma"
-                  width={100}
-                  height={100}
+                  width={1000}
+                  height={1000}
                   loading="lazy"
                   className={styles.coma_img}
                 />
@@ -108,8 +108,8 @@ export default function Testimonials() {
                 <Image
                   src={`/assets/images/home/coma.png`}
                   alt="coma"
-                  width={100}
-                  height={100}
+                  width={1000}
+                  height={1000}
                   loading="lazy"
                   className={styles.coma_img}
                 />

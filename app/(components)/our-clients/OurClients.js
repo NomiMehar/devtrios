@@ -95,8 +95,8 @@ export default function OurClients() {
                   className={styles.platform}
                 >
                   <Image
-                    width={100}
-                    height={100}
+                    width={1000}
+                    height={1000}
                     src={platform.img}
                     alt={platform.name}
                   />
