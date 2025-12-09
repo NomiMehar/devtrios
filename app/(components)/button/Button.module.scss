@@ -2,9 +2,9 @@
   background: linear-gradient(90deg, #00a3ff 0, #0045ff 100%);
   box-shadow: 7px 9px 21.6px 0 rgba(0, 69, 255, 0.25);
   border: none;
-  border-radius: 12px;
-  padding: 15px 25px;
-  font-size: 14px;
+  border-radius: 15px;
+  padding: 20px 30px;
+  font-size: 18px;
   color: #fff;
   font-weight: 500;
   display: flex;
@@ -19,8 +19,8 @@
   }
 
   img {
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
   }
 
   &.secondary {
