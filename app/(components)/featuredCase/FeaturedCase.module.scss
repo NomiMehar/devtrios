@@ -1,22 +1,22 @@
 @use "../../../styles/variables" as *;
 
 .featured_case {
-  padding-top: 100px;
+  padding-top: 130px;
   @media screen and (max-width: $breakpoint_tablet) {
-    padding-top: 70px;
+    padding-top: 100px;
   }
   @media screen and (max-width: $breakpoint_mobile_portrait) {
-    padding-top: 50px;
+    padding-top: 70px;
   }
   .heading {
     color: $dark_color;
-    font-size: 38px;
+    font-size: 46px;
     font-weight: 700;
     text-align: center;
     line-height: 1.4;
     margin-bottom: 50px;
     @media screen and (max-width: $breakpoint_tablet) {
-      font-size: 30px;
+      font-size: 38px;
     }
     @media screen and (max-width: $breakpoint_mobile_portrait) {
       font-size: 28px;
@@ -55,7 +55,7 @@
         height: 100%;
         gap: 20px;
         .title {
-          font-size: 22px;
+          font-size: 24px;
           font-weight: 700;
           color: $dark_color;
           margin-bottom: 10px;
@@ -67,6 +67,7 @@
         p {
           font-size: 16px;
           color: $gray_color;
+          font-weight: 400;
           margin-bottom: 20px;
           line-height: 1.6;
           @media screen and (max-width: $breakpoint_mobile_portrait) {
@@ -99,8 +100,10 @@
           }
         }
         a {
-          padding: 12px 15px;
-          font-size: 12px;
+          padding: 18px 20px;
+          font-size: 14px;
+          border-radius: 12px;
+          font-weight: 600;
           @media screen and (max-width: $breakpoint_mobile_portrait) {
             padding: 12px 15px;
             font-size: 12px;

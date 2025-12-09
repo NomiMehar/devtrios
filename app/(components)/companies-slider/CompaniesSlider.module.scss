@@ -1,19 +1,19 @@
 @use "../../../styles/variables" as *;
 
 .trusted_companies_slider {
-  padding-top: 100px;
+  padding-top: 130px;
   @media screen and (max-width: $breakpoint_tablet) {
-    padding-top: 70px;
+    padding-top: 100px;
   }
   @media screen and (max-width: $breakpoint_mobile_portrait) {
-    padding-top: 50px;
+    padding-top: 70px;
   }
   .content_wrapper {
     max-width: 940px;
     margin: 0 auto 60px;
     text-align: center;
     h2 {
-      font-size: 44px;
+      font-size: 46px;
       font-weight: 700;
       line-height: 59px;
       color: $dark_color;

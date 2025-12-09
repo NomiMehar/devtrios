@@ -332,7 +332,7 @@
       padding: 15px 0;
       border-radius: 0;
       background-color: transparent;
-      margin: 10px auto 0;
+      margin: 0 auto 0;
       width: 95%;
       .main_menu {
         & > li {
@@ -366,13 +366,13 @@
     display: flex;
     justify-content: space-between;
     background-color: $card_color;
-    padding: 20px;
+    padding: 15px;
     border-radius: 100px;
     width: 95%;
     margin: 10px auto 0;
     & > a {
       img {
-        width: 55%;
+        width: 155px;
         height: auto;
       }
     }

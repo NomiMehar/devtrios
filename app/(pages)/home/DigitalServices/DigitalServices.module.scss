@@ -1,13 +1,13 @@
 @use "../../../../styles/variables" as *;
 
 .digital_services {
-  padding-top: 100px;
+  padding-top: 130px;
 
   @media screen and (max-width: $breakpoint_tablet) {
-    padding-top: 70px;
+    padding-top: 100px;
   }
   @media screen and (max-width: $breakpoint_mobile_portrait) {
-    padding-top: 50px;
+    padding-top: 70px;
   }
 
   .servicesGrid {
@@ -16,8 +16,8 @@
 
     .card {
       background-color: $card_color;
-      padding: 20px;
-      border-radius: 16px;
+      padding: 25px;
+      border-radius: 27px;
       display: flex;
       flex-direction: column;
       gap: 15px;
@@ -37,24 +37,31 @@
       }
 
       h3 {
-        font-size: 18px;
-        font-weight: 700;
+        font-size: 24px;
+        font-weight: 600;
         line-height: 1.4;
         color: $dark_color;
         margin: 0;
+        @media screen and (max-width: $breakpoint_mobile_portrait) {
+          font-size: 18px;
+        }
       }
 
       p {
-        font-size: 14px;
+        font-size: 18px;
         line-height: 1.6;
         color: $gray_color;
+        font-weight: 400;
         margin: 0;
+        @media screen and (max-width: $breakpoint_mobile_portrait) {
+          font-size: 16px;
+        }
       }
     }
 
     .icon {
-      width: 40px;
-      height: 40px;
+      width: 50px;
+      height: 50px;
       margin-bottom: 15px;
     }
 
@@ -62,17 +69,17 @@
       display: grid;
       grid-template-columns: 1fr repeat(2, 1fr);
       gap: 20px;
-      @media screen and (max-width: $breakpoint_mobile_portrait) {
+      @media screen and (max-width: $breakpoint_tablet) {
         grid-template-columns: auto;
       }
       .topSection {
         h2 {
-          font-size: 38px;
+          font-size: 46px;
           font-weight: 700;
           margin: 0;
           color: $dark_color;
           @media screen and (max-width: $breakpoint_tablet) {
-            font-size: 30px;
+            font-size: 38px;
           }
           @media screen and (max-width: $breakpoint_mobile_portrait) {
             font-size: 28px;
@@ -80,11 +87,11 @@
         }
 
         .ctaButton {
-          font-size: 14px;
+          font-size: 16px;
           font-weight: 400;
           background-image: linear-gradient(63deg, #00a3ff 0%, #0045ff 100%);
-          border-radius: 8px;
-          padding: 10px 15px;
+          border-radius: 10px;
+          padding: 16px;
           border: 0;
           color: $white_color;
           cursor: default;
@@ -93,35 +100,37 @@
           align-items: center;
           gap: 10px;
           margin-bottom: 20px;
+          @media screen and (max-width: $breakpoint_mobile_portrait) {
+            padding: 14px;
+          }
         }
       }
     }
 
     .secondRow {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(25%, 1fr)) 100px;
+      grid-template-columns: repeat(auto-fit, minmax(25%, 1fr)) 150px;
       gap: 20px;
-      @media screen and (max-width: $breakpoint_mobile_portrait) {
+      @media screen and (max-width: $breakpoint_tablet) {
         grid-template-columns: auto;
       }
 
       .viewAll {
-        width: 100px;
+        width: 150px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         background-color: $card_color;
-        border-radius: 16px;
+        border-radius: 27px;
         cursor: pointer;
-        padding: 20px;
+        padding: 25px;
         font-weight: 600;
         text-align: center;
         transition: all 0.3s;
-        @media screen and (max-width: $breakpoint_mobile_portrait) {
+        @media screen and (max-width: $breakpoint_tablet) {
           width: 100%;
-          flex-direction: row;
-          gap: 15px;
+          gap: 20px;
         }
         &:hover {
           background-color: #002041;
@@ -141,14 +150,14 @@
           display: inline-block;
           font-size: 14px;
           margin-bottom: 15px;
-          @media screen and (max-width: $breakpoint_mobile_portrait) {
+          @media screen and (max-width: $breakpoint_tablet) {
             margin-bottom: 0;
           }
         }
         p {
           margin: 0;
           color: $dark_color;
-          font-size: 14px;
+          font-size: 18px;
           text-decoration: underline;
         }
       }

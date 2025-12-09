@@ -1,22 +1,22 @@
 @use "../../../styles/variables" as *;
 
 .blogs {
-  padding-top: 100px;
+  padding-top: 130px;
   @media screen and (max-width: $breakpoint_tablet) {
-    padding-top: 70px;
+    padding-top: 100px;
   }
   @media screen and (max-width: $breakpoint_mobile_portrait) {
-    padding-top: 50px;
+    padding-top: 70px;
   }
   .heading {
     color: $dark_color;
-    font-size: 38px;
+    font-size: 46px;
     font-weight: 700;
     text-align: center;
     line-height: 1.4;
     margin-bottom: 50px;
     @media screen and (max-width: $breakpoint_tablet) {
-      font-size: 30px;
+      font-size: 38px;
     }
     @media screen and (max-width: $breakpoint_mobile_portrait) {
       font-size: 28px;
@@ -43,7 +43,7 @@
       .imageWrapper {
         img {
           width: 100%;
-          height: 186px;
+          height: 250px;
           background-color: #d6d6d6;
           display: block;
           border-radius: 15px;
@@ -57,7 +57,7 @@
         height: 100%;
         gap: 20px;
         .title {
-          font-size: 22px;
+          font-size: 24px;
           font-weight: 700;
           color: $dark_color;
           margin-bottom: 10px;
@@ -86,8 +86,12 @@
           background: none;
           box-shadow: none;
           color: $dark_color;
+          &:hover {
+            color: $blue_color;
+          }
           img {
             filter: invert(1);
+            margin-top: 4px;
           }
           @media screen and (max-width: $breakpoint_mobile_portrait) {
             font-size: 14px;

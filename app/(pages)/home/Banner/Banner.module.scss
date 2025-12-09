@@ -24,7 +24,6 @@
   }
   .banner_content {
     position: relative;
-    padding-top: 60px;
     @media screen and (max-width: $breakpoint_tablet) {
       text-align: center;
       width: 95%;
@@ -104,8 +103,11 @@
         margin-top: 20px;
       }
       a {
+        font-weight: 600;
         @media screen and (max-width: $breakpoint_mobile_portrait) {
           max-width: max-content;
+          font-size: 16px;
+          padding: 16px 30px;
         }
       }
     }

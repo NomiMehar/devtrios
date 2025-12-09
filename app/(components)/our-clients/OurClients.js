@@ -66,7 +66,13 @@ export default function OurClients() {
                     about us.
                   </p>
                   <Link href="/our-services" className={styles.services_link}>
-                    Our Services &rarr;
+                    Our Services{" "}
+                    <Image
+                      width={17}
+                      height={17}
+                      src="/assets/images/home/arrow-circle-right.svg"
+                      alt="arrow"
+                    />
                   </Link>
                 </div>
               </div>

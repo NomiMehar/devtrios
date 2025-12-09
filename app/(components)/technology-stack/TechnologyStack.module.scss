@@ -1,17 +1,22 @@
 @use "../../../styles/variables" as *;
 @use "sass:color";
 .technology_stack {
-  padding-top: 100px;
-
+  padding-top: 130px;
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding-top: 100px;
+  }
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding-top: 70px;
+  }
   .heading {
     color: $dark_color;
-    font-size: 38px;
+    font-size: 46px;
     font-weight: 700;
     text-align: center;
     line-height: 1.4;
     margin-bottom: 50px;
     @media screen and (max-width: $breakpoint_tablet) {
-      font-size: 30px;
+      font-size: 38px;
     }
     @media screen and (max-width: $breakpoint_mobile_portrait) {
       font-size: 28px;
@@ -34,9 +39,9 @@
     background: transparent;
     border: 0;
     outline: none;
-    padding: 10px 18px;
+    padding: 15px 35px;
     border-radius: 8px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     cursor: pointer;
     color: $gray_color;
@@ -59,8 +64,7 @@
         background: color.adjust(#002041, $lightness: -4%);
       }
     }
-
-    @media screen and (max-width: $breakpoint_mobile_portrait) {
+    @media screen and (max-width: $breakpoint_tablet) {
       padding: 8px 14px;
       font-size: 14px;
     }
@@ -73,10 +77,10 @@
     margin-top: 10px;
     background: $card_color;
     border-radius: 22px;
-    padding: 30px 25px;
+    padding: 40px 25px;
 
     @media screen and (max-width: $breakpoint_mobile_portrait) {
-      padding: 18px;
+      padding: 35px 18px;
     }
   }
 
@@ -112,10 +116,14 @@
     transition: transform 0.22s ease, box-shadow 0.22s ease;
 
     img {
-      width: 50px;
-      height: 50px;
+      width: 80px;
+      height: 80px;
       object-fit: contain;
       transition: all 0.22s ease;
+      @media screen and (max-width: $breakpoint_tablet) {
+        width: 50px;
+        height: 50px;
+      }
     }
 
     &:hover {

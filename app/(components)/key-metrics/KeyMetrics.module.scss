@@ -1,12 +1,12 @@
 @use "../../../styles/variables" as *;
 
 .key_metrics {
-  padding-top: 100px;
+  padding-top: 130px;
   @media screen and (max-width: $breakpoint_tablet) {
-    padding-top: 70px;
+    padding-top: 100px;
   }
   @media screen and (max-width: $breakpoint_mobile_portrait) {
-    padding-top: 50px;
+    padding-top: 70px;
   }
   .content_wrapper {
     display: flex;
@@ -16,16 +16,16 @@
     background-image: url(../../../public/assets/images/home/lines-back.png);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 40px;
+    padding: 60px 50px;
     border-radius: 25px;
 
     @media screen and (max-width: $breakpoint_tablet) {
       flex-direction: column;
       align-items: flex-start;
-      padding: 30px;
+      padding: 40px;
     }
     @media screen and (max-width: $breakpoint_mobile_portrait) {
-      padding: 25px;
+      padding: 30px;
       border-radius: 20px;
     }
   }
@@ -40,6 +40,7 @@
       font-size: 16px;
       letter-spacing: 1px;
       margin-bottom: 40px;
+      font-weight: 500;
       display: block;
       color: $white_color;
       @media screen and (max-width: $breakpoint_tablet) {
@@ -62,6 +63,15 @@
         font-size: 28px;
       }
     }
+    a {
+      border-radius: 15px 15px 15px 15px;
+      padding: 22px 44px;
+      font-size: 16px;
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        padding: 15px 25px;
+        border-radius: 10px;
+      }
+    }
   }
 
   /* RIGHT SIDE */
@@ -80,12 +90,12 @@
     flex-direction: column;
 
     .value {
-      font-size: 70px;
+      font-size: 75px;
       font-weight: 700;
       color: $white_color;
-      margin-bottom: -25px;
+      margin-bottom: -30px;
       @media screen and (max-width: $breakpoint_tablet) {
-        font-size: 58px;
+        font-size: 62px;
       }
       @media screen and (max-width: $breakpoint_mobile_portrait) {
         font-size: 52px;
@@ -93,12 +103,12 @@
     }
 
     .label {
-      font-size: 16px;
+      font-size: 20px;
       opacity: 0.9;
       margin-top: 6px;
       color: $white_color;
       background: rgba(0, 85, 190, 0.6);
-      backdrop-filter: blur(6px);
+      backdrop-filter: blur(2px);
       border-radius: 10px;
       padding: 12px 12px;
       @media screen and (max-width: $breakpoint_mobile_portrait) {
