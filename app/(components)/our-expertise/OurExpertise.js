@@ -51,8 +51,8 @@ export default function OurExpertise() {
                   <Image
                     src={`/assets/images/expertise_slider/${item.image}`}
                     alt={item.title}
-                    width={100}
-                    height={100}
+                    width={1000}
+                    height={1000}
                     loading="lazy"
                     className={styles.bg_img}
                   />
@@ -62,8 +62,8 @@ export default function OurExpertise() {
                       <Image
                         src={`/assets/images/expertise_slider/${item.icon}`}
                         alt={`${item.title}-icon`}
-                        width={50}
-                        height={50}
+                        width={1000}
+                        height={1000}
                         loading="lazy"
                         className={styles.inner_img}
                       />
