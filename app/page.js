@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Banner from "@/app/(pages)/home/Banner/Banner";
 import CompaniesSlider from "@/app/(components)/companies-slider/CompaniesSlider";
-import CompaniesHomeList from "@/app/(components)/companies-slider/CompaniesHomeList.json";
+import CompaniesList from "@/app/(components)/companies-slider/CompaniesList.json";
 import AboutDevtrios from "@/app/(components)/about-devtrios/AboutDevtrios";
 import AboutHomeList from "@/app/(components)/about-devtrios/AboutHomeList.json";
 import DigitalServices from "@/app/(pages)/home/DigitalServices/DigitalServices";
@@ -11,6 +11,7 @@ import KeyMetrics from "@/app/(components)/key-metrics/KeyMetrics";
 import OurExpertise from "@/app/(components)/our-expertise/OurExpertise";
 import TechnologyStack from "@/app/(components)/technology-stack/TechnologyStack";
 import Testimonials from "@/app/(components)/testimonials/Testimonials";
+import TestimonialList from "@/app/(components)/testimonials/TestimonialList.json";
 import OurClients from "@/app/(components)/our-clients/OurClients";
 import Cta from "@/app/(components)/cta/Cta";
 import CtaHomeList from "@/app/(components)/cta/CtaHomeList.json";
@@ -18,6 +19,8 @@ import Blogs from "@/app/(components)/blogs/Blogs";
 import Faqs from "@/app/(components)/faqs/Faqs";
 
 export default function Home() {
+  const companiesData = CompaniesList.home;
+
   return (
     <React.Fragment>
       <Head>
@@ -55,9 +58,9 @@ export default function Home() {
       </Head>
       <Banner />
       <CompaniesSlider
-        title={CompaniesHomeList.title}
-        images={CompaniesHomeList.images}
-        basePath={CompaniesHomeList.basePath}
+        title={companiesData.title}
+        images={companiesData.images}
+        basePath={companiesData.basePath}
       />
       <AboutDevtrios
         title={AboutHomeList.title}
@@ -68,7 +71,7 @@ export default function Home() {
       <OurExpertise />
       <KeyMetrics />
       <TechnologyStack />
-      <Testimonials />
+      <Testimonials list={TestimonialList.home} />
       <OurClients />
       <Cta data={CtaHomeList} />
       <Blogs />

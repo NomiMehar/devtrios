@@ -1,0 +1,87 @@
+{
+  "home": [
+    {
+      "text": "Working with Devtrios was wonderful—knowledgeable, professional & responsive with insights that added real value.",
+      "name": "Connie Woo",
+      "image": "/assets/images/home/coma.png"
+    },
+    {
+      "text": "Professional, efficient team! Our company website turned out beautifully and was a pleasure to build with Devtrios.",
+      "name": "Léna Derigent",
+      "image": "/assets/images/home/coma.png"
+    },
+    {
+      "text": "Devtrios understood our vision and turned ideas into actions. A professional, creative, and reliable development partner.",
+      "name": "Juliette Alemany",
+      "image": "/assets/images/home/coma.png"
+    },
+    {
+      "text": "Their SEO & marketing boosted traffic, engagement & conversions. Professional, creative & easy to work with.",
+      "name": "Teddy James",
+      "image": "/assets/images/home/coma.png"
+    },
+    {
+      "text": "Fast, reliable & amazing developers. Everything delivered on time and as expected—my go-to team for projects.",
+      "name": "XM",
+      "image": "/assets/images/home/coma.png"
+    },
+    {
+      "text": "Beyond skill, their communication stood out—friendly, honest & responsive from start to finish.",
+      "name": "Emma1111-6",
+      "image": "/assets/images/home/coma.png"
+    },
+    {
+      "text": "The estimate given was the price we paid—no hidden fees or upselling. Just solid, honest delivery.",
+      "name": "MikeM-3026",
+      "image": "/assets/images/home/coma.png"
+    },
+    {
+      "text": "Devtrios built our MVP in under 6 weeks on a tight budget. Startup-friendly, fast & on point without cutting corners.",
+      "name": "MichelleM-1264",
+      "image": "/assets/images/home/coma.png"
+    }
+  ],
+
+  "about_us": [
+    {
+      "text": "Working with Devtrios was wonderful—knowledgeable, professional & responsive with insights that added real value.",
+      "name": "Connie Woo",
+      "image": "/assets/images/home/coma.png"
+    },
+    {
+      "text": "Professional, efficient team! Our company website turned out beautifully and was a pleasure to build with Devtrios.",
+      "name": "Léna Derigent",
+      "image": "/assets/images/home/coma.png"
+    },
+    {
+      "text": "Devtrios understood our vision and turned ideas into actions. A professional, creative, and reliable development partner.",
+      "name": "Juliette Alemany",
+      "image": "/assets/images/home/coma.png"
+    },
+    {
+      "text": "Fast, reliable & amazing developers. Everything delivered on time and as expected—my go-to team for projects.",
+      "name": "XM",
+      "image": "/assets/images/home/coma.png"
+    },
+    {
+      "text": "Their SEO & marketing boosted traffic, engagement & conversions. Professional, creative & easy to work with.",
+      "name": "Teddy James",
+      "image": "/assets/images/home/coma.png"
+    },
+    {
+      "text": "Beyond skill, their communication stood out—friendly, honest & responsive from start to finish.",
+      "name": "Emma",
+      "image": "/assets/images/home/coma.png"
+    },
+    {
+      "text": "The estimate given was the price we paid—no hidden fees or upselling. Just solid, honest delivery.",
+      "name": "MikeM",
+      "image": "/assets/images/home/coma.png"
+    },
+    {
+      "text": "Devtrios built our MVP in under 6 weeks on a tight budget. Startup-friendly, fast & on point without cutting corners.",
+      "name": "Michelle",
+      "image": "/assets/images/home/coma.png"
+    }
+  ]
+}

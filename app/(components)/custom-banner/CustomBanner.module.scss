@@ -1,0 +1,117 @@
+@use "../../../styles/variables" as *;
+
+.custom_banner {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  padding: 200px 0 100px;
+  border-radius: 0px 0px 80px 80px;
+  background-image: var(--banner-bg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  @media (max-width: $breakpoint_mini_laptop) {
+    padding: 200px 50px 100px;
+  }
+  @media (max-width: $breakpoint_tablet) {
+    padding: 170px 0 100px;
+    border-radius: 0px 0px 60px 60px;
+  }
+  @media (max-width: $breakpoint_mobile_portrait) {
+    padding: 150px 0 70px;
+  }
+  .content_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 200px;
+    @media (max-width: $breakpoint_mini_laptop) {
+      gap: 50px;
+    }
+    @media (max-width: $breakpoint_tablet) {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 20px;
+    }
+    h1 {
+      font-size: 46px;
+      font-weight: 700;
+      color: $white_color;
+      line-height: 1.2;
+      margin: 0;
+      @media screen and (max-width: $breakpoint_tablet) {
+        font-size: 38px;
+      }
+      @media (max-width: $breakpoint_mobile_portrait) {
+        font-size: 28px;
+      }
+    }
+    p {
+      font-size: 22px;
+      line-height: 1.6;
+      color: $white_color;
+      margin-top: 0;
+      @media (max-width: $breakpoint_tablet) {
+        font-size: 18px;
+        line-height: 28px;
+      }
+      @media (max-width: $breakpoint_mobile_portrait) {
+        font-size: 16px;
+      }
+    }
+    .banner_content_btn {
+      margin-top: 40px;
+      display: flex;
+      gap: 15px;
+      @media screen and (max-width: $breakpoint_mini_laptop) {
+        gap: 15px;
+        flex-wrap: wrap;
+        margin-top: 30px;
+      }
+      a {
+        background-color: transparent;
+        background-image: linear-gradient(258deg, #0045ff 0%, #00a3ff 100%);
+        transition-duration: 1s;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #00a3ff;
+        border-radius: 100px;
+        font-weight: 400;
+        line-height: 1;
+        padding: 12px 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        transition: all 0.3s;
+        font-size: 16px;
+        color: $white_color;
+        @media screen and (max-width: $breakpoint_mobile_portrait) {
+        }
+        img {
+          width: 17px;
+          height: 17px;
+        }
+        &:nth-child(2) {
+          backdrop-filter: blur(31px);
+          box-shadow: 0px -0.72px 0.72px 0px rgba(255, 255, 255, 0.25) inset;
+          border: 1.5px solid;
+          border-image-source: linear-gradient(
+            97.86deg,
+            rgba(255, 255, 255, 0.44) -0.97%,
+            rgba(255, 255, 255, 0) 21.18%,
+            rgba(255, 255, 255, 0) 50.6%,
+            rgba(255, 255, 255, 0) 88.54%,
+            rgba(255, 255, 255, 0.37) 102.61%
+          );
+          background: linear-gradient(
+            25.69deg,
+            rgba(157, 157, 157, 0.6) 11.24%,
+            rgba(255, 255, 255, 0) 215.54%
+          );
+        }
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "heading": {
+    "title": "The Experts Behind Devtrios",
+    "description": "Our <strong>35+ member team</strong> combines strategists, engineers, designers, and growth specialists. This part of About Devtrios highlights the expertise behind every solution delivering scalable web, mobile app, UI/UX, and digital growth strategies with measurable results."
+  },
+
+  "values": [
+    {
+      "title": "4+ Leadership & Strategy",
+      "description": "Vision, partnerships, and delivery that shape every Devtrios project.",
+      "background": "/assets/images/about_us/leadership.webp"
+    },
+    {
+      "title": "30+ Engineering",
+      "description": "Web, mobile, AI, blockchain, and cloud expertise built to last.",
+      "background": "/assets/images/about_us/engineering.webp"
+    },
+    {
+      "title": "5+ Design",
+      "description": "UI/UX design that engages users and drives conversions.",
+      "background": "/assets/images/about_us/design.webp"
+    },
+    {
+      "title": "4+ Growth",
+      "description": "SEO, SMM, and CRO specialists turning traffic into results.",
+      "background": "/assets/images/about_us/growth.webp"
+    },
+    {
+      "title": "3+ Client Success",
+      "description": "Project management and support for seamless delivery.",
+      "background": "/assets/images/about_us/client_success.webp"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "about": {
+    "title": "About Devtrios – The Minds Behind Our Digital Agency",
+    "description": "At Devtrios, we’re a London-based digital agency of strategists, engineers, and creatives united by one mission building technology that solves real problems and creates measurable impact. This About Devtrios page shares the story behind our work in web development, mobile apps, custom software, and UI/UX design.",
+    "buttons": [
+      {
+        "text": "Meet the Team & Our Story",
+        "link": "/about-us/#our-work",
+        "icon": "/assets/images/icons/thunder.svg"
+      }
+    ],
+    "background": "/assets/images/about_us/about-us-banner.webp"
+  },
+
+  "services": {
+    "title": "Our Services",
+    "description": "We create powerful digital solutions through development, automation, AI, and strategy.",
+    "buttons": [
+      {
+        "text": "Explore Services",
+        "link": "/services"
+      }
+    ],
+    "background": "/assets/images/services/banner.webp"
+  }
+}

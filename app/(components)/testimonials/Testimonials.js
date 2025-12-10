@@ -8,17 +8,15 @@ import "swiper/css/pagination";
 import Image from "next/image";
 import styles from "./Testimonials.module.scss";
 
-export default function Testimonials() {
+export default function Testimonials({ list }) {
   return (
     <div className={styles.testimonials}>
       <div className="container">
         <div className={styles.content_wrapper}>
           <h2 className={styles.heading}>Testimonials</h2>
+
           <Swiper
-            autoplay={{
-              delay: 5500,
-              disableOnInteraction: false,
-            }}
+            autoplay={{ delay: 5500, disableOnInteraction: false }}
             spaceBetween={10}
             pagination={{ clickable: true }}
             loop={true}
@@ -31,96 +29,22 @@ export default function Testimonials() {
             }}
             className={`testimonialsSwiper ${styles.testimonialsSwiper}`}
           >
-            <SwiperSlide>
-              <div className={styles.block}>
-                <Image
-                  src={`/assets/images/home/coma.png`}
-                  alt="coma"
-                  width={1000}
-                  height={1000}
-                  loading="lazy"
-                  className={styles.coma_img}
-                />
-                <p>
-                  “Working with Devtrios was wonderful—knowledgeable,
-                  professional & responsive with insights that added real
-                  value.”
-                </p>
-                <h4>Connie Woo</h4>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className={styles.block}>
-                <Image
-                  src={`/assets/images/home/coma.png`}
-                  alt="coma"
-                  width={1000}
-                  height={1000}
-                  loading="lazy"
-                  className={styles.coma_img}
-                />
-                <p>
-                  “Working with Devtrios was wonderful—knowledgeable,
-                  professional & responsive with insights that added real
-                  value.”
-                </p>
-                <h4>Connie Woo</h4>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className={styles.block}>
-                <Image
-                  src={`/assets/images/home/coma.png`}
-                  alt="coma"
-                  width={1000}
-                  height={1000}
-                  loading="lazy"
-                  className={styles.coma_img}
-                />
-                <p>
-                  “Working with Devtrios was wonderful—knowledgeable,
-                  professional & responsive with insights that added real
-                  value.”
-                </p>
-                <h4>Connie Woo</h4>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className={styles.block}>
-                <Image
-                  src={`/assets/images/home/coma.png`}
-                  alt="coma"
-                  width={1000}
-                  height={1000}
-                  loading="lazy"
-                  className={styles.coma_img}
-                />
-                <p>
-                  “Working with Devtrios was wonderful—knowledgeable,
-                  professional & responsive with insights that added real
-                  value.”
-                </p>
-                <h4>Connie Woo</h4>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className={styles.block}>
-                <Image
-                  src={`/assets/images/home/coma.png`}
-                  alt="coma"
-                  width={1000}
-                  height={1000}
-                  loading="lazy"
-                  className={styles.coma_img}
-                />
-                <p>
-                  “Working with Devtrios was wonderful—knowledgeable,
-                  professional & responsive with insights that added real
-                  value.”
-                </p>
-                <h4>Connie Woo</h4>
-              </div>
-            </SwiperSlide>
+            {list?.map((item, index) => (
+              <SwiperSlide key={index}>
+                <div className={styles.block}>
+                  <Image
+                    src={item.image}
+                    alt="testimonial icon"
+                    width={1000}
+                    height={1000}
+                    loading="lazy"
+                    className={styles.coma_img}
+                  />
+                  <p>{item.text}</p>
+                  <h3>{item.name}</h3>
+                </div>
+              </SwiperSlide>
+            ))}
           </Swiper>
         </div>
       </div>

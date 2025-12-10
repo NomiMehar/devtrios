@@ -1,0 +1,97 @@
+@use "../../../../styles/variables" as *;
+
+.vision_mission {
+  padding-top: 130px;
+
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding-top: 100px;
+  }
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding-top: 70px;
+  }
+  .content_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    @media screen and (max-width: $breakpoint_tablet) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    h3 {
+      color: $white_color;
+      font-size: 40px;
+      font-weight: 700;
+      margin-top: 50px;
+      @media screen and (max-width: $breakpoint_tablet) {
+        font-size: 32px;
+      }
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        font-size: 28px;
+      }
+    }
+    p {
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 1.6;
+      color: #cecece;
+      margin: 0;
+      @media screen and (max-width: $breakpoint_tablet) {
+        font-size: 18px;
+      }
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        font-size: 16px;
+      }
+    }
+    & > div {
+      border-radius: 25px;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      position: relative;
+      @media screen and (max-width: $breakpoint_tablet) {
+        padding: 25px;
+      }
+    }
+    .story {
+      background: url(../../../../public/assets/images/about_us/our_story.webp);
+      background-repeat: no-repeat;
+      background-size: cover;
+      grid-column: span 2;
+      grid-row: span 2;
+      min-height: 700px;
+      @media screen and (max-width: $breakpoint_tablet) {
+        grid-column: span 1;
+        grid-row: span 1;
+        min-height: 400px;
+      }
+    }
+    .mission {
+      background-color: #002041;
+      &::before {
+        content: "";
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        width: 20%;
+        border-block-start: 2px solid #00a3ff;
+      }
+    }
+    .vision {
+      background-color: #daecff;
+      h3 {
+        color: $dark_color;
+      }
+      p {
+        color: $gray_color;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        width: 20%;
+        border-block-start: 2px solid #00a3ff;
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "heading": {
+    "title": "Our Values",
+    "description": "The principles that guide every solution we design at Devtrios and every partnership we build are central to this about Devtrios story"
+  },
+
+  "values": [
+    {
+      "number": "01",
+      "title": "Transparency",
+      "description": "Open communication and clear processes at every step."
+    },
+    {
+      "number": "02",
+      "title": "Innovation with Purpose",
+      "description": "Creative solutions built to deliver measurable outcomes."
+    },
+    {
+      "number": "03",
+      "title": "Long-Term Partnerships",
+      "description": "We focus on relationships, not transactions."
+    },
+    {
+      "number": "04",
+      "title": "Global-Local Mindset",
+      "description": "From London to the USA, EU, GCC, and Asia, Devtrios delivers consistent, trusted solutions—a core part of About Devtrios."
+    },
+    {
+      "number": "05",
+      "title": "Excellence in Execution",
+      "description": "Quality and reliability you can trust, every time."
+    }
+  ]
+}

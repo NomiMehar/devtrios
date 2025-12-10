@@ -1,0 +1,25 @@
+{
+  "heading": {
+    "title": "How we work",
+    "description": "At Devtrios, every client’s needs are unique. This section of <strong>About Devtrios</strong> shows how we work with flexible methodologies, agile execution, and a focus on delivering future-proof web, app, and software solutions that drive results."
+  },
+
+  "values": [
+    {
+      "title": "Discovery Call",
+      "description": "We begin with a deep-dive discovery call to understand your goals, challenges, and vision. Whether it’s web development, mobile apps, or UI/UX design, this step ensures we’re aligned with your business objectives from the start."
+    },
+    {
+      "title": "Proposal",
+      "description": "Next, we craft a tailored strategy and proposal. Every element from selecting the right tech stack to mapping timelines and UX design choices is designed to deliver efficiency, scalability, and clarity."
+    },
+    {
+      "title": "Execution",
+      "description": "With a clear plan in place, our expert team moves into execution. Using agile methods, we build, test, and refine across web platforms, mobile applications, and software systems, keeping you engaged and informed at every stage."
+    },
+    {
+      "title": "Evaluation and Maintenance",
+      "description": "Post-launch, we rigorously evaluate performance and provide ongoing support. From scaling your platform to improving UI/UX flows, our team ensures your digital solutions continue to evolve with your business."
+    }
+  ]
+}
