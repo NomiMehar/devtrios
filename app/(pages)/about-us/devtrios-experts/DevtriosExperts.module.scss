@@ -87,6 +87,12 @@
       height: 480px;
       &:nth-child(even) {
         margin-top: -30px;
+        @media screen and (max-width: $breakpoint_mini_laptop) {
+          margin-top: 0;
+        }
+      }
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        gap: 10px;
       }
       &:hover {
         transform: translateY(-10px);

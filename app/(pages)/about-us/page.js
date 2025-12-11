@@ -12,6 +12,7 @@ import DevtriosExperts from "@/app/(pages)/about-us/devtrios-experts/DevtriosExp
 import WorldwideSolution from "@/app/(pages)/about-us/worldwide-solution/WorldwideSolution";
 import Cta from "@/app/(components)/cta/Cta";
 import CtaList from "@/app/(components)/cta/CtaList.json";
+import ContactInfoForm from "@/app/(components)/contact-info-form/ContactInfoForm";
 
 export default function AboutUs() {
   const customBannerData = bannerData.about;
@@ -39,6 +40,7 @@ export default function AboutUs() {
       <WorldwideSolution />
       <Testimonials list={TestimonialList.about_us} />
       <Cta data={ctaData} />
+      <ContactInfoForm />
     </React.Fragment>
   );
 }
