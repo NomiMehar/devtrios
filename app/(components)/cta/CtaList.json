@@ -1,0 +1,21 @@
+{
+  "home": {
+    "title": "Let’s Build Your Next Big Digital Product",
+    "description": "As London’s market evolves with innovation and advanced technology, Devtrios is set to debut as a trailblazing mobile app development company.",
+    "button": {
+      "text": "Book a Free Consultation",
+      "href": "/contact-us",
+      "icon": "/assets/images/home/arrow-circle-right.svg"
+    }
+  },
+
+  "about": {
+    "title": "Let’s Build Your Next Success Story",
+    "description": "Partner with Devtrios to transform ideas into measurable results.",
+    "button": {
+      "text": "Start Your Project",
+      "href": "/contact-us",
+      "icon": "/assets/images/home/arrow-circle-right.svg"
+    }
+  }
+}

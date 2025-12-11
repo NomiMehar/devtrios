@@ -14,12 +14,13 @@ import Testimonials from "@/app/(components)/testimonials/Testimonials";
 import TestimonialList from "@/app/(components)/testimonials/TestimonialList.json";
 import OurClients from "@/app/(components)/our-clients/OurClients";
 import Cta from "@/app/(components)/cta/Cta";
-import CtaHomeList from "@/app/(components)/cta/CtaHomeList.json";
+import CtaList from "@/app/(components)/cta/CtaList.json";
 import Blogs from "@/app/(components)/blogs/Blogs";
 import Faqs from "@/app/(components)/faqs/Faqs";
 
 export default function Home() {
   const companiesData = CompaniesList.home;
+  const ctaData = CtaList.home;
 
   return (
     <React.Fragment>
@@ -73,7 +74,7 @@ export default function Home() {
       <TechnologyStack />
       <Testimonials list={TestimonialList.home} />
       <OurClients />
-      <Cta data={CtaHomeList} />
+      <Cta data={ctaData} />
       <Blogs />
       <Faqs />
     </React.Fragment>

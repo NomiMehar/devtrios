@@ -10,9 +10,14 @@ import OurValues from "@/app/(pages)/about-us/our-values/OurValues";
 import HowWeWork from "@/app/(pages)/about-us/how-we-work/HowWeWork";
 import DevtriosExperts from "@/app/(pages)/about-us/devtrios-experts/DevtriosExperts";
 import WorldwideSolution from "@/app/(pages)/about-us/worldwide-solution/WorldwideSolution";
+import Cta from "@/app/(components)/cta/Cta";
+import CtaList from "@/app/(components)/cta/CtaList.json";
+
 export default function AboutUs() {
   const customBannerData = bannerData.about;
   const companiesData = CompaniesList.about;
+  const ctaData = CtaList.about;
+
   return (
     <React.Fragment>
       <CustomBanner
@@ -33,6 +38,7 @@ export default function AboutUs() {
       <DevtriosExperts />
       <WorldwideSolution />
       <Testimonials list={TestimonialList.about_us} />
+      <Cta data={ctaData} />
     </React.Fragment>
   );
 }
