@@ -8,6 +8,10 @@
   @media screen and (max-width: $breakpoint_mobile_portrait) {
     padding: 70px 0;
   }
+  &.no_padding_bottom {
+    padding-bottom: 0 !important;
+  }
+
   .contact_wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -15,6 +19,9 @@
     background: $card_color;
     border-radius: 30px;
     overflow: hidden;
+    @media screen and (max-width: $breakpoint_tablet) {
+      grid-template-columns: repeat(2, 1fr);
+    }
     @media screen and (max-width: $breakpoint_mobile_portrait) {
       grid-template-columns: repeat(1, 1fr);
     }
@@ -28,6 +35,9 @@
       gap: 20px;
       height: 100%;
       justify-content: space-between;
+      @media screen and (max-width: $breakpoint_tablet) {
+        padding: 25px;
+      }
       h2 {
         color: $white_color;
         font-size: 43px;
@@ -105,8 +115,9 @@
     .form_info {
       grid-column: span 2;
       padding: 50px 40px;
-      @media screen and (max-width: $breakpoint_mobile_portrait) {
-        padding: 35px;
+      @media screen and (max-width: $breakpoint_tablet) {
+        padding: 25px;
+        grid-column: auto;
       }
       .form {
         display: flex;
@@ -153,10 +164,10 @@
           select {
             cursor: pointer;
             appearance: none;
-            background-image: url("/assets/images/icons/arrow-down.svg");
+            background-image: url("/assets/images/icons/arrow_down.svg");
             background-repeat: no-repeat;
             background-position: right 0px center;
-            background-size: 15px;
+            background-size: 10px;
           }
 
           textarea {
@@ -215,6 +226,11 @@
           input {
             width: 20px;
             height: 20px;
+            margin: 0;
+            @media screen and (max-width: $breakpoint_tablet) {
+              width: 30px;
+              height: 30px;
+            }
           }
           label {
             font-weight: 600;

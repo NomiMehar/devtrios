@@ -377,10 +377,13 @@ a {
     justify-content: center;
     margin: 0 auto !important;
     img {
-      max-height: 90px;
       width: 150px;
       max-height: 60px;
       object-fit: contain;
+      @media screen and (max-width: $breakpoint_mini_laptop) {
+        width: 115px;
+        max-height: 45px;
+      }
     }
   }
 }

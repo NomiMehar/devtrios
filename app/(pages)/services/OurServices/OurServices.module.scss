@@ -1,0 +1,139 @@
+@use "../../../../styles/variables" as *;
+
+.our_services {
+  padding-top: 130px;
+
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding-top: 100px;
+  }
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding-top: 70px;
+  }
+
+  .servicesGrid {
+    display: grid;
+    gap: 20px;
+
+    .card {
+      background-color: $card_color;
+      padding: 25px;
+      border-radius: 27px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      justify-content: space-between;
+      transition: all 0.3s;
+      .block {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+      &:hover {
+        background-color: #002041;
+        h3 {
+          color: $white_color;
+        }
+        p {
+          color: $white_color;
+        }
+        .icon {
+          filter: grayscale(1);
+        }
+        a {
+          color: $white_color;
+          img {
+            filter: none;
+          }
+        }
+      }
+
+      h3 {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.4;
+        color: $dark_color;
+        margin: 0;
+        @media screen and (max-width: $breakpoint_mobile_portrait) {
+          font-size: 18px;
+        }
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.6;
+        color: $gray_color;
+        font-weight: 400;
+        margin: 0;
+        @media screen and (max-width: $breakpoint_mobile_portrait) {
+          font-size: 16px;
+        }
+      }
+      a {
+        padding: 0;
+        font-size: 16px;
+        background: none;
+        box-shadow: none;
+        color: $dark_color;
+        &:hover {
+          opacity: 0.8;
+        }
+        img {
+          filter: invert(1);
+          margin-top: 4px;
+        }
+        @media screen and (max-width: $breakpoint_mobile_portrait) {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .icon {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 15px;
+    }
+
+    .firstRow {
+      display: grid;
+      grid-template-columns: 1fr repeat(2, 1fr);
+      gap: 20px;
+      @media screen and (max-width: $breakpoint_tablet) {
+        grid-template-columns: auto;
+        gap: 40px;
+      }
+      .topSection {
+        h2 {
+          font-size: 46px;
+          font-weight: 700;
+          margin: 0;
+          color: $dark_color;
+          @media screen and (max-width: $breakpoint_tablet) {
+            font-size: 38px;
+          }
+          @media screen and (max-width: $breakpoint_mobile_portrait) {
+            font-size: 28px;
+          }
+        }
+        p {
+          font-size: 22px;
+          line-height: 1.6;
+          color: $gray_color;
+          font-weight: 400;
+          margin: 0;
+          @media screen and (max-width: $breakpoint_mobile_portrait) {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+
+    .secondRow {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      @media screen and (max-width: $breakpoint_tablet) {
+        grid-template-columns: auto;
+      }
+    }
+  }
+}

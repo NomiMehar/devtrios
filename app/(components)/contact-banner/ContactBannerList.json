@@ -1,0 +1,20 @@
+{
+  "conatct_us": {
+    "title": "Contact Devtrios – Get in Touch with Our Team",
+    "description": "Whether you’re a startup or an enterprise, we’d love to hear about your project. Contact Devtrios our London-based team works with clients worldwide, helping them launch, scale, and optimize digital solutions.",
+    "buttons": [
+      {
+        "text": "Start Your Project",
+        "link": "/get-a-quote"
+      },
+      {
+        "text": "Book a Discovery Call",
+        "link": "/contact-us"
+      }
+    ]
+  },
+  "get_quote": {
+    "title": "Get a Personalized Quote for Your Project",
+    "description": "Submit the below form and we'll get back to you within 12 hours."
+  }
+}

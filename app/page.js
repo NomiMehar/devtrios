@@ -31,8 +31,9 @@ export default function Home() {
         </title>
         <meta
           name="description"
-          content="Expert Web & App Development, UI/UX Design & Digital Marketing."
+          content="From modern websites to powerful apps and marketing Devtrios helps businesses scale with innovative design, technology, and performance-focused solutions."
         />
+        <link rel="canonical" href="https://devtrios.com/" />
         <link
           rel="shortcut icon"
           href="/assets/images/header/favicon.webp"
@@ -41,7 +42,7 @@ export default function Home() {
         <meta property="og:title" content="Devtrios" />
         <meta
           property="og:description"
-          content="Expert Web & App Development, UI/UX Design & Digital Marketing."
+          content="From modern websites to powerful apps and marketing Devtrios helps businesses scale with innovative design, technology, and performance-focused solutions."
         />
         <meta
           property="og:image"
@@ -50,7 +51,7 @@ export default function Home() {
         <meta name="twitter:title" content="Devtrios" />
         <meta
           name="twitter:description"
-          content="Expert Web & App Development, UI/UX Design & Digital Marketing."
+          content="From modern websites to powerful apps and marketing Devtrios helps businesses scale with innovative design, technology, and performance-focused solutions."
         />
         <meta
           name="twitter:image"
