@@ -13,14 +13,19 @@
   },
 
   "services": {
-    "title": "Our Services",
-    "description": "We create powerful digital solutions through development, automation, AI, and strategy.",
+    "title": "Social Media Marketing That Builds Engagement and Drives Growth",
+    "description": "From Instagram and TikTok to LinkedIn and X, our tailored SMM strategies help brands connect with the right audience, boost visibility, and convert followers into customers.",
     "buttons": [
       {
-        "text": "Explore Services",
-        "link": "/services"
+        "text": "Get a Free SMM Strategy Call",
+        "link": "/contact-us",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "See Case Studies",
+        "link": "/contact-us"
       }
     ],
-    "background": "/assets/images/services/banner.webp"
+    "background": "/assets/images/services/services_banner.webp"
   }
 }

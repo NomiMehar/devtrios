@@ -17,5 +17,15 @@
       "href": "/contact-us",
       "icon": "/assets/images/home/arrow-circle-right.svg"
     }
+  },
+
+  "services": {
+    "title": "Build Smarter, Faster, and Stronger with Devtrios Services",
+    "description": "As London’s tech scene advances, Devtrios stands out as a leading mobile app development company, delivering innovative and scalable solutions.",
+    "button": {
+      "text": "Start My Social Growth",
+      "href": "/contact-us",
+      "icon": "/assets/images/home/arrow-circle-right.svg"
+    }
   }
 }

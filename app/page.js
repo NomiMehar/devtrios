@@ -76,7 +76,7 @@ export default function Home() {
       <OurClients />
       <Cta data={ctaData} />
       <Blogs />
-      <Faqs />
+      <Faqs type="home" />
     </React.Fragment>
   );
 }

@@ -1,14 +1,17 @@
 "use client";
 import React, { useState } from "react";
 import styles from "./Faqs.module.scss";
-import faqs from "./FaqsList.json";
+import faqsData from "./FaqsList.json";
 
-export default function Faqs() {
+export default function Faqs({ type = "home" }) {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggle = (index) => {
     setOpenIndex(openIndex === index ? null : index);
   };
+
+  // Load data by page type
+  const faqs = faqsData[type] || [];
 
   return (
     <section className={styles.faqs}>

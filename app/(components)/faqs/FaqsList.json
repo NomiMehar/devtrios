@@ -1,22 +1,46 @@
-[
-  {
-    "title": "What services does Devtrios provide for businesses?",
-    "desc": "Devtrios offers a comprehensive range of services, including custom software development, web development, mobile app development, cloud hosting, AI solutions, UI/UX design, and digital marketing."
-  },
-  {
-    "title": "How can Devtrios help with business growth and digital transformation?",
-    "desc": "Devtrios supports businesses by offering scalable technology solutions that streamline operations, automate processes, and improve customer engagement to drive long-term growth."
-  },
-  {
-    "title": "Which industries does Devtrios serve with its technology solutions?",
-    "desc": "We serve industries such as e-commerce, healthcare, financial services, education, and logistics by delivering industry-specific solutions tailored to their needs."
-  },
-  {
-    "title": "What makes Devtrios different from other technology providers?",
-    "desc": "Devtrios stands out due to its use of cutting-edge technologies, custom-tailored solutions, and a proven track record of delivering scalable, high-quality software on time."
-  },
-  {
-    "title": "Does Devtrios offer ongoing support and maintenance for projects?",
-    "desc": "Yes, we provide long-term maintenance and support for all projects, including regular updates, performance optimizations, and software scalability improvements to meet evolving business needs."
-  }
-]
+{
+  "home": [
+    {
+      "title": "What services does Devtrios provide for businesses?",
+      "desc": "Devtrios offers a comprehensive range of services, including custom software development, web development, mobile app development, cloud hosting, AI solutions, UI/UX design, and digital marketing."
+    },
+    {
+      "title": "How can Devtrios help with business growth and digital transformation?",
+      "desc": "Devtrios supports businesses by offering scalable technology solutions that streamline operations, automate processes, and improve customer engagement to drive long-term growth."
+    },
+    {
+      "title": "Which industries does Devtrios serve with its technology solutions?",
+      "desc": "We serve industries such as e-commerce, healthcare, financial services, education, and logistics by delivering industry-specific solutions tailored to their needs."
+    },
+    {
+      "title": "What makes Devtrios different from other technology providers?",
+      "desc": "Devtrios stands out due to its use of cutting-edge technologies, custom-tailored solutions, and a proven track record of delivering scalable, high-quality software on time."
+    },
+    {
+      "title": "Does Devtrios offer ongoing support and maintenance for projects?",
+      "desc": "Yes, we provide long-term maintenance and support for all projects, including regular updates, performance optimizations, and software scalability improvements to meet evolving business needs."
+    }
+  ],
+  "services": [
+    {
+      "title": "What services does Devtrios provide for businesses?",
+      "desc": "Devtrios offers a comprehensive range of services, including custom software development, web development, mobile app development, cloud hosting, AI solutions, UI/UX design, and digital marketing."
+    },
+    {
+      "title": "How can Devtrios help with business growth and digital transformation?",
+      "desc": "Devtrios supports businesses by offering scalable technology solutions that streamline operations, automate processes, and improve customer engagement to drive long-term growth."
+    },
+    {
+      "title": "Which industries does Devtrios serve with its technology solutions?",
+      "desc": "We serve industries such as e-commerce, healthcare, financial services, education, and logistics by delivering industry-specific solutions tailored to their needs."
+    },
+    {
+      "title": "What makes Devtrios different from other technology providers?",
+      "desc": "Devtrios stands out due to its use of cutting-edge technologies, custom-tailored solutions, and a proven track record of delivering scalable, high-quality software on time."
+    },
+    {
+      "title": "Does Devtrios offer ongoing support and maintenance for projects?",
+      "desc": "Yes, we provide long-term maintenance and support for all projects, including regular updates, performance optimizations, and software scalability improvements to meet evolving business needs."
+    }
+  ]
+}
