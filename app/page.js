@@ -17,10 +17,12 @@ import Cta from "@/app/(components)/cta/Cta";
 import CtaList from "@/app/(components)/cta/CtaList.json";
 import Blogs from "@/app/(components)/blogs/Blogs";
 import Faqs from "@/app/(components)/faqs/Faqs";
+import faqsDataList from "@/app/(components)/faqs/FaqsList.json"
 
 export default function Home() {
   const companiesData = CompaniesList.home;
   const ctaData = CtaList.home;
+  const faqsData = faqsDataList.home_page_faqs
 
   return (
     <React.Fragment>
@@ -76,7 +78,9 @@ export default function Home() {
       <OurClients />
       <Cta data={ctaData} />
       <Blogs />
-      <Faqs />
+      <Faqs
+        faqs = {faqsData}
+       />
     </React.Fragment>
   );
 }

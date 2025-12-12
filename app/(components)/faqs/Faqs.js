@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import styles from "./Faqs.module.scss";
 import faqs from "./FaqsList.json";
 
-export default function Faqs() {
+export default function Faqs({faqs}) {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggle = (index) => {

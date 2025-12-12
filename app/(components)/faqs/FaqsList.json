@@ -1,4 +1,7 @@
-[
+
+
+{
+  "home_page_faqs" : [
   {
     "title": "What services does Devtrios provide for businesses?",
     "desc": "Devtrios offers a comprehensive range of services, including custom software development, web development, mobile app development, cloud hosting, AI solutions, UI/UX design, and digital marketing."
@@ -20,3 +23,5 @@
     "desc": "Yes, we provide long-term maintenance and support for all projects, including regular updates, performance optimizations, and software scalability improvements to meet evolving business needs."
   }
 ]
+
+}

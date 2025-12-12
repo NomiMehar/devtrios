@@ -22,5 +22,24 @@
       }
     ],
     "background": "/assets/images/services/banner.webp"
+  },
+
+  "mobile_app" : {
+    "title": "Mobile App Development That Delivers Speed, Scale & ROI",
+    "description" : "We build iOS, Android, and cross-platform apps designed to launch faster, perform flawlessly, and grow with your business.",
+    "buttons":[
+      {
+        "text": "Free App Strategy Cal",
+        "link": "/services"
+      },
+      {
+        "text": "View Our Portfolio",
+        "link": "/services"
+      }
+    ],
+
+    "background": "/assets/images/mobile_app_development/bannerBackground.webp"
   }
+
+
 }
