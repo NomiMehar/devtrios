@@ -4,7 +4,7 @@ import styles from "./Awards.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 import Script from "next/script";
-import data from "@/app/(components)/Awards/AwardsList.json";
+import data from "./AwardsList.json";
 
 export default function Awards({ noPadding = false }) {
   useEffect(() => {
