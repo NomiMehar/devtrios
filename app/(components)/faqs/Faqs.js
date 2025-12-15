@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import styles from "./Faqs.module.scss";
 import faqsData from "./FaqsList.json";
 
-export default function Faqs({ type = "home" }) {
+export default function Faqs({ type = "home", noPadding = false }) {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggle = (index) => {
@@ -14,7 +14,9 @@ export default function Faqs({ type = "home" }) {
   const faqs = faqsData[type] || [];
 
   return (
-    <section className={styles.faqs}>
+    <section
+      className={`${styles.faqs} ${noPadding ? styles.no_padding_bottom : ""}`}
+    >
       <div className="container">
         <h2 className={styles.heading}>Frequently Asked Questions</h2>
 

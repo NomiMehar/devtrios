@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import CustomBanner from "@/app/(components)/custom-banner/CustomBanner";
 import bannerData from "@/app/(components)/custom-banner/CustomBannerList.json";
 import CompaniesSlider from "@/app/(components)/companies-slider/CompaniesSlider";
@@ -21,6 +22,39 @@ export default function AboutUs() {
 
   return (
     <React.Fragment>
+      <Head>
+        <title>
+          About Devtrios: Trusted Digital Agency Delivering Powerful Results
+        </title>
+        <meta
+          name="description"
+          content="Learn about Devtrios: our vision, expertise in web, apps & AI, and how we drive growth & digital excellence for businesses."
+        />
+        <link rel="canonical" href="https://devtrios.com/about-us/" />
+        <link
+          rel="shortcut icon"
+          href="/assets/images/header/favicon.webp"
+          type="image/x-icon"
+        />
+        <meta property="og:title" content="Devtrios" />
+        <meta
+          property="og:description"
+          content="Learn about Devtrios: our vision, expertise in web, apps & AI, and how we drive growth & digital excellence for businesses."
+        />
+        <meta
+          property="og:image"
+          content="/assets/images/header/favicon.webp"
+        />
+        <meta name="twitter:title" content="Devtrios" />
+        <meta
+          name="twitter:description"
+          content="Learn about Devtrios: our vision, expertise in web, apps & AI, and how we drive growth & digital excellence for businesses."
+        />
+        <meta
+          name="twitter:image"
+          content="/assets/images/header/favicon.webp"
+        />
+      </Head>
       <CustomBanner
         title={customBannerData.title}
         description={customBannerData.description}

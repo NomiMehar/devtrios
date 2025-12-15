@@ -1,0 +1,58 @@
+@use "../../../styles/variables" as *;
+
+.awards {
+  padding: 130px 0;
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding: 100px 0;
+  }
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding: 70px 0;
+  }
+  &.no_padding_bottom {
+    padding-bottom: 0 !important;
+  }
+
+  .heading {
+    color: $dark_color;
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.4;
+    margin-bottom: 50px;
+    @media screen and (max-width: $breakpoint_tablet) {
+      font-size: 38px;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 28px;
+    }
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      grid-template-columns: 1fr;
+    }
+    .card {
+      background: $card_color;
+      border-radius: 18px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+
+      .imageWrapper {
+        background-color: #000;
+        padding: 30px;
+        img {
+          width: 100%;
+          height: auto;
+          display: block;
+        }
+      }
+    }
+  }
+}

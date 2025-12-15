@@ -8,6 +8,10 @@
   @media screen and (max-width: $breakpoint_mobile_portrait) {
     padding: 70px 0 70px;
   }
+  &.no_padding_bottom {
+    padding-bottom: 0 !important;
+  }
+
   .heading {
     color: $dark_color;
     font-size: 46px;
