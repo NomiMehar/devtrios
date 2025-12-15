@@ -1,0 +1,33 @@
+{
+  "home": {
+    "subHeading": "WHY BUSINESSES TRUST DEVTRIOS",
+    "heading": "From startups to enterprises, across 16+ industries",
+    "button": {
+      "label": "See How We Work",
+      "href": "/contact-us"
+    },
+    "metrics": [
+      { "value": "16+", "label": "Years of Experience" },
+      { "value": "200+", "label": "Projects Completed" },
+      { "value": "30+", "label": "Team of Experts" },
+      { "value": "20+", "label": "Tech Stacks" }
+    ]
+  },
+  "website_development": {
+    "subHeading": "Build a Website That Performs",
+    "heading": "Your Growth Partner in Web Development",
+    "button": {
+      "label": "Let’s Build Together",
+      "href": "/contact-us"
+    },
+    "metrics": [
+      { "value": "27%", "label": "Average Conversion Lift After UX Redesigns" },
+      { "value": "60%", "label": "Faster Load Times on Our Website Rebuilds" },
+      { "value": "90+", "label": "PageSpeed Scores Consistently Delivered" },
+      {
+        "value": "16+",
+        "label": "Industries Served With Tailored Web Solutions"
+      }
+    ]
+  }
+}

@@ -42,5 +42,27 @@
       "title": "Does Devtrios offer ongoing support and maintenance for projects?",
       "desc": "Yes, we provide long-term maintenance and support for all projects, including regular updates, performance optimizations, and software scalability improvements to meet evolving business needs."
     }
+  ],
+  "website_development": [
+    {
+      "title": "What types of websites can Devtrios develop for businesses?",
+      "desc": "We develop various websites, including e-commerce platforms, corporate sites, SaaS applications, and interactive portals tailored to your business goals."
+    },
+    {
+      "title": "How long does it take to create a custom website with Devtrios?",
+      "desc": "The timeline depends on the project scope, but a standard custom website typically takes between 8 to 12 weeks from planning to deployment."
+    },
+    {
+      "title": "Does Devtrios provide SEO-optimized and mobile-responsive websites?",
+      "desc": "Yes, all our websites are optimized for search engines and mobile devices to enhance user experience, site speed, and search rankings."
+    },
+    {
+      "title": "Which technologies does Devtrios use for web development projects?",
+      "desc": "We work with technologies like React, Angular, Vue.js, Node.js, Laravel, and CMS platforms such as WordPress and Shopify, depending on your business needs."
+    },
+    {
+      "title": "Does Devtrios offer ongoing support and maintenance for projects?",
+      "desc": "Yes, we provide long-term maintenance and support for all projects, including regular updates, performance optimizations, and software scalability improvements to meet evolving business needs."
+    }
   ]
 }

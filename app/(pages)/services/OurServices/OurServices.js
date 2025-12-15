@@ -13,7 +13,7 @@ const services = [
     button: {
       text: "Read More",
       link: "/services",
-      icon: "/assets/images/home/arrow-circle-right.svg",
+      icon: "/assets/images/home/arrow-circle-right.webp",
     },
   },
   {
@@ -24,7 +24,7 @@ const services = [
     button: {
       text: "Read More",
       link: "/services",
-      icon: "/assets/images/home/arrow-circle-right.svg",
+      icon: "/assets/images/home/arrow-circle-right.webp",
     },
   },
   {
@@ -35,7 +35,7 @@ const services = [
     button: {
       text: "Read More",
       link: "/services",
-      icon: "/assets/images/home/arrow-circle-right.svg",
+      icon: "/assets/images/home/arrow-circle-right.webp",
     },
   },
   {
@@ -45,7 +45,7 @@ const services = [
     button: {
       text: "Read More",
       link: "/services",
-      icon: "/assets/images/home/arrow-circle-right.svg",
+      icon: "/assets/images/home/arrow-circle-right.webp",
     },
   },
   {
@@ -56,7 +56,7 @@ const services = [
     button: {
       text: "Read More",
       link: "/services",
-      icon: "/assets/images/home/arrow-circle-right.svg",
+      icon: "/assets/images/home/arrow-circle-right.webp",
     },
   },
   {
@@ -67,7 +67,7 @@ const services = [
     button: {
       text: "Read More",
       link: "/services",
-      icon: "/assets/images/home/arrow-circle-right.svg",
+      icon: "/assets/images/home/arrow-circle-right.webp",
     },
   },
   {
@@ -78,7 +78,7 @@ const services = [
     button: {
       text: "Read More",
       link: "/services",
-      icon: "/assets/images/home/arrow-circle-right.svg",
+      icon: "/assets/images/home/arrow-circle-right.webp",
     },
   },
   {
@@ -89,7 +89,7 @@ const services = [
     button: {
       text: "Read More",
       link: "/services",
-      icon: "/assets/images/home/arrow-circle-right.svg",
+      icon: "/assets/images/home/arrow-circle-right.webp",
     },
   },
   {
@@ -100,7 +100,7 @@ const services = [
     button: {
       text: "Read More",
       link: "/services",
-      icon: "/assets/images/home/arrow-circle-right.svg",
+      icon: "/assets/images/home/arrow-circle-right.webp",
     },
   },
   {
@@ -111,7 +111,7 @@ const services = [
     button: {
       text: "Read More",
       link: "/services",
-      icon: "/assets/images/home/arrow-circle-right.svg",
+      icon: "/assets/images/home/arrow-circle-right.webp",
     },
   },
 ];

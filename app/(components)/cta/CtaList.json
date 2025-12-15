@@ -5,7 +5,7 @@
     "button": {
       "text": "Book a Free Consultation",
       "href": "/contact-us",
-      "icon": "/assets/images/home/arrow-circle-right.svg"
+      "icon": "/assets/images/home/arrow-circle-right.webp"
     }
   },
 
@@ -15,7 +15,7 @@
     "button": {
       "text": "Start Your Project",
       "href": "/contact-us",
-      "icon": "/assets/images/home/arrow-circle-right.svg"
+      "icon": "/assets/images/home/arrow-circle-right.webp"
     }
   },
 
@@ -25,7 +25,7 @@
     "button": {
       "text": "Start My Social Growth",
       "href": "/contact-us",
-      "icon": "/assets/images/home/arrow-circle-right.svg"
+      "icon": "/assets/images/home/arrow-circle-right.webp"
     }
   },
 
@@ -35,7 +35,17 @@
     "button": {
       "text": "Talk to an Expert",
       "href": "/contact-us",
-      "icon": "/assets/images/home/arrow-circle-right.svg"
+      "icon": "/assets/images/home/arrow-circle-right.webp"
+    }
+  },
+
+  "website_development": {
+    "title": "Build Websites That Drive Growth, Speed, and Conversions",
+    "description": "Devtrios designs and develops high-performance websites that load fast, scale seamlessly, and convert better. Trusted across 16+ industries, we’ve delivered 100+ websites that combine UX, SEO, and security for measurable results.",
+    "button": {
+      "text": "Start Your Website Project",
+      "href": "/contact-us",
+      "icon": "/assets/images/home/arrow-circle-right.webp"
     }
   }
 }

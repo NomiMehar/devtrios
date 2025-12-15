@@ -1,29 +1,25 @@
+"use client";
+
 import React from "react";
 import styles from "./KeyMetrics.module.scss";
 import Button from "@/app/(components)/button/Button";
+import KeyMetricsData from "./KeyMetricsList.json";
 
-const metrics = [
-  { value: "16+", label: "Years of Experience" },
-  { value: "200+", label: "Projects Completed" },
-  { value: "30+", label: "Team of Experts" },
-  { value: "20+", label: "Tech Stacks" },
-];
+export default function KeyMetrics({ type = "home" }) {
+  const data = KeyMetricsData[type] || {};
+  const { subHeading, heading, button, metrics = [] } = data;
 
-export default function KeyMetrics() {
   return (
     <section className={styles.key_metrics}>
       <div className="container">
         <div className={styles.content_wrapper}>
           <div className={styles.left}>
-            <span className={styles.sub_heading}>
-              WHY BUSINESSES TRUST DEVTRIOS
-            </span>
-            <h2 className={styles.heading}>
-              From startups to enterprises, across 16+ industries
-            </h2>
+            <span className={styles.sub_heading}>{subHeading}</span>
+            <h2 className={styles.heading}>{heading}</h2>
 
-            <Button href="/contact-us">See How We Work</Button>
+            {button && <Button href={button.href}>{button.label}</Button>}
           </div>
+
           <div className={styles.right}>
             {metrics.map((item, index) => (
               <div key={index} className={styles.metric_box}>
