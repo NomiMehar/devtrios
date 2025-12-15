@@ -1,12 +1,12 @@
 "use client";
 
 import React from "react";
-import styles from "./ContactInfoForm.module.scss";
+import styles from "./QuoteInfoForm.module.scss";
 import Link from "next/link";
 import Image from "next/image";
-import ContactInfoData from "./ContactInfoFormList.json";
+import ContactInfoData from "./QuoteInfoFormList.json";
 
-export default function ContactInfoForm({ noPadding = false }) {
+export default function QuoteInfoForm({ noPadding = false }) {
   const {
     contactHeading,
     contactDetails,
@@ -19,13 +19,9 @@ export default function ContactInfoForm({ noPadding = false }) {
 
   return (
     <React.Fragment>
-      <div
-        className={`${styles.contact_info_form} ${
-          noPadding ? styles.no_padding_bottom : ""
-        }`}
-      >
+      <div className={styles.quote_info_form}>
         <div className="container">
-          <div className={styles.contact_wrapper}>
+          <div className={styles.quote_wrapper}>
             {/* LEFT SIDE INFO */}
             <div className={styles.info}>
               <div className={styles.heading}>

@@ -13,7 +13,7 @@
       }
     ]
   },
-  "get_quote": {
+  "get_a_quote": {
     "title": "Get a Personalized Quote for Your Project",
     "description": "Submit the below form and we'll get back to you within 12 hours."
   }

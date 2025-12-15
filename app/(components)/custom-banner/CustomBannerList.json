@@ -13,16 +13,16 @@
   },
 
   "services": {
-    "title": "Social Media Marketing That Builds Engagement and Drives Growth",
-    "description": "From Instagram and TikTok to LinkedIn and X, our tailored SMM strategies help brands connect with the right audience, boost visibility, and convert followers into customers.",
+    "title": "Web, Mobile, and Software Development Solutions",
+    "description": "We provide web development, mobile app development, and custom software solutions built for scalability, higher engagement, and measurable business growth.",
     "buttons": [
       {
-        "text": "Get a Free SMM Strategy Call",
-        "link": "/contact-us",
+        "text": "Get a Free Strategy Call",
+        "link": "/get-a-quote",
         "icon": "/assets/images/icons/thunder.svg"
       },
       {
-        "text": "See Case Studies",
+        "text": "Talk to an Expert",
         "link": "/contact-us"
       }
     ],

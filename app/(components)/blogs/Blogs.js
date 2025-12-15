@@ -4,9 +4,11 @@ import Image from "next/image";
 import Button from "@/app/(components)/button/Button";
 import data from "@/app/(components)/blogs/BlogsList.json";
 
-export default function Blogs() {
+export default function Blogs({ noPadding = false }) {
   return (
-    <section className={styles.blogs}>
+    <section
+      className={`${styles.blogs} ${noPadding ? styles.no_padding_top : ""}`}
+    >
       <div className="container">
         <h2 className={styles.heading}>Blogs</h2>
         <div className={styles.grid}>

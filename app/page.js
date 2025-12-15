@@ -15,6 +15,7 @@ import TestimonialList from "@/app/(components)/testimonials/TestimonialList.jso
 import OurClients from "@/app/(components)/our-clients/OurClients";
 import Cta from "@/app/(components)/cta/Cta";
 import CtaList from "@/app/(components)/cta/CtaList.json";
+import Awards from "@/app/(components)/awards/Awards";
 import Blogs from "@/app/(components)/blogs/Blogs";
 import Faqs from "@/app/(components)/faqs/Faqs";
 
@@ -76,7 +77,8 @@ export default function Home() {
       <Testimonials list={TestimonialList.home} />
       <OurClients />
       <Cta data={ctaData} />
-      <Blogs />
+      <Awards noPadding={false} />
+      <Blogs noPadding={true} />
       <Faqs type="home" />
     </React.Fragment>
   );
