@@ -6,7 +6,8 @@ import CompaniesSlider from "@/app/(components)/companies-slider/CompaniesSlider
 import CompaniesList from "@/app/(components)/companies-slider/CompaniesList.json";
 import AboutDevtrios from "@/app/(components)/about-devtrios/AboutDevtrios";
 import AboutList from "@/app/(components)/about-devtrios/AboutList.json";
-import FeaturedCase from "@/app/(components)/featuredCase/FeaturedCase";
+import AboutServices from "@/app/(components)/about-services/AboutServices";
+// import FeaturedCase from "@/app/(components)/featuredCase/FeaturedCase";
 import KeyMetrics from "@/app/(components)/key-metrics/KeyMetrics";
 import OurExpertise from "@/app/(components)/our-expertise/OurExpertise";
 import TechnologyStack from "@/app/(components)/technology-stack/TechnologyStack";
@@ -75,7 +76,8 @@ export default function websiteDevelopment() {
         title={aboutData.title}
         description={aboutData.description}
       />
-      <FeaturedCase />
+      <AboutServices type="mobile_app" />
+      {/* <FeaturedCase /> */}
       <OurExpertise />
       <KeyMetrics type="website_development" />
       <TechnologyStack />
