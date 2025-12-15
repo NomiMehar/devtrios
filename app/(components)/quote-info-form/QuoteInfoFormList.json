@@ -1,71 +1,10 @@
 {
-  "contactHeading": {
-    "title": "Contact Information",
-    "description": "Reach out to us through the form or directly via email, phone, or our London HQ. Contact Devtrios to learn how we also serve clients across Europe, the USA, and GCC."
-  },
-
-  "contactDetails": {
-    "email": "info@devtrios.com",
-    "phone": "+447470801776",
-    "address": {
-      "link": "https://share.google/fZ0HyIrDSQPIuJNUR",
-      "label": "27 Old Gloucester Street, London WC1N 3AX, United Kingdom"
-    }
-  },
-
-  "socialLinks": [
-    {
-      "name": "Facebook",
-      "icon": "/assets/images/footer/facebook.svg",
-      "url": "https://www.facebook.com/share/1BXgdxNpBu/?mibextid=wwXIfr"
-    },
-    {
-      "name": "Twitter",
-      "icon": "/assets/images/footer/twitter.svg",
-      "url": "https://x.com/devtrios_uk?s=21"
-    },
-    {
-      "name": "LinkedIn",
-      "icon": "/assets/images/footer/linkedin.svg",
-      "url": "https://www.linkedin.com/company/devtrios/"
-    },
-    {
-      "name": "YouTube",
-      "icon": "/assets/images/footer/youtube.svg",
-      "url": "https://youtube.com/@devtrios?si=UgLlfm3ra99HDqY8"
-    },
-    {
-      "name": "Instagram",
-      "icon": "/assets/images/footer/instagram.svg",
-      "url": "https://www.instagram.com/devtrios_uk?igsh=eWJmbXNwaWRodGZy&utm_source=qr"
-    },
-    {
-      "name": "Pinterest",
-      "icon": "/assets/images/footer/pinterest.svg",
-      "url": "https://uk.pinterest.com/devtrios/"
-    },
-    {
-      "name": "Tiktok",
-      "icon": "/assets/images/footer/tiktok.svg",
-      "url": "https://www.tiktok.com/@devtrios_uk?_t=ZG-8zlgpW9o1kv&_r=1"
-    },
-    {
-      "name": "X",
-      "icon": "/assets/images/footer/x.svg",
-      "url": "https://x.com/devtrios_uk?s=21"
-    }
-  ],
-
-  "businessTypes": [
-    "Technology / SaaS",
-    "E-commerce / Retail",
-    "Healthcare / Wellness",
-    "Finance / Fintech",
-    "Education / eLearning",
-    "Real Estate / Property",
-    "Hospitality / Travel",
-    "Media / Entertainment",
-    "Nonprofit / NGO"
+  "projectDuration": [
+    "Less than 1 month",
+    "1 – 3 months",
+    "3 – 6 months",
+    "6 – 12 months",
+    "Ongoing / Long-term"
   ],
 
   "projectTypes": [
@@ -87,6 +26,13 @@
     "£150,000+"
   ],
 
+  "timeline": [
+    "ASAP",
+    "Within 1 month",
+    "1 – 3 months",
+    "3 – 6 months",
+    "Flexible / Not decided"
+  ],
   "referralSources": [
     "Google Search",
     "LinkedIn",

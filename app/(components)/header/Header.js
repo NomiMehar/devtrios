@@ -37,7 +37,7 @@ export default function Header() {
           </Link>
           <Navigation />
           <div className={`flex items-center ${style.contact_us}`}>
-            <Link href="/">Contact Us</Link>
+            <Link href="/get-a-quote">Get a Quote</Link>
           </div>
         </div>
       </div>

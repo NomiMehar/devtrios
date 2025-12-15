@@ -138,7 +138,10 @@
         .floating_group {
           position: relative;
           width: 100%;
-
+          &.filled label {
+            font-size: 13px;
+            top: -16px;
+          }
           input,
           select,
           textarea {
@@ -150,8 +153,7 @@
             color: $dark_color;
             box-shadow: none !important;
             border-bottom: 1px solid #9f9f9f !important;
-            font-family: "Plus Jakarta Sans", Sans-serif !important;
-
+            height: auto;
             &:focus {
               border-color: $dark_color;
             }
@@ -192,32 +194,11 @@
           textarea:focus + label,
           input:not(:placeholder-shown) + label,
           textarea:not(:placeholder-shown) + label {
-            top: -10px;
+            top: -16px;
             font-size: 13px;
             color: $dark_color;
           }
-
-          /* Select floating ONLY if value is NOT empty */
-          select:focus + label,
-          select:not([value=""]) + label {
-            top: -10px;
-          }
         }
-
-        // @supports (selector(:has(*))) {
-        //   .floating_group:has(input:not(:placeholder-shown)) label,
-        //   .floating_group:has(textarea:not(:placeholder-shown)) label {
-        //     top: -14px;
-        //     left: 0;
-        //     font-size: 13px;
-        //     color: #030e33;
-        //     border: none;
-        //     border-radius: 0;
-        //     background: transparent;
-        //     box-shadow: none;
-        //     font-family: "Plus Jakarta Sans", Sans-serif !important;
-        //   }
-        // }
         .checkbox_row {
           display: flex;
           gap: 10px;

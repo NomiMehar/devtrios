@@ -27,5 +27,21 @@
       }
     ],
     "background": "/assets/images/services/services_banner.webp"
+  },
+  "website_development": {
+    "title": "Web Development Services in London That Drive Growth",
+    "description": "We build fast, secure, and scalable websites from CMS platforms like WordPress to custom full-stack development.",
+    "buttons": [
+      {
+        "text": "Free Website Audit",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "View Case Study",
+        "link": "/services/website-development/#case-studies"
+      }
+    ],
+    "background": "/assets/images/services/website_devlopment_banner.webp"
   }
 }

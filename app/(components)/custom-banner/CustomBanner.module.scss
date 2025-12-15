@@ -5,7 +5,7 @@
   height: 100%;
   overflow: hidden;
   padding: 200px 0 100px;
-  border-radius: 0px 0px 80px 80px;
+  border-radius: 0px 0px 60px 60px;
   background-image: var(--banner-bg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,7 +15,8 @@
   }
   @media (max-width: $breakpoint_tablet) {
     padding: 170px 0 100px;
-    border-radius: 0px 0px 60px 60px;
+    border-radius: 0px 0px 40px 40px;
+    text-align: center;
   }
   @media (max-width: $breakpoint_mobile_portrait) {
     padding: 150px 0 70px;
@@ -65,6 +66,9 @@
         gap: 15px;
         flex-wrap: wrap;
         margin-top: 30px;
+      }
+      @media (max-width: $breakpoint_tablet) {
+        justify-content: center;
       }
       a {
         background-color: transparent;

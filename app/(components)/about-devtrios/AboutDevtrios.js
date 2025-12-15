@@ -8,7 +8,7 @@ export default function AboutDevtrios({ title, description }) {
         <div className="container">
           <div className={style.content_wrapper}>
             <h3 dangerouslySetInnerHTML={{ __html: title }} />
-            <p>{description}</p>
+            <p dangerouslySetInnerHTML={{ __html: description }} />
           </div>
         </div>
       </div>
