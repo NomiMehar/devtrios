@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useRef, useState } from "react";
 import styles from "./ContactInfoForm.module.scss";
 import Link from "next/link";
 import Image from "next/image";
@@ -17,6 +17,16 @@ export default function ContactInfoForm({ noPadding = false }) {
     referralSources,
   } = ContactInfoData;
 
+  const handleFilled = (e) => {
+    const wrapper = e.target.closest(`.${styles.floating_group}`);
+    if (!wrapper) return;
+
+    if (e.target.value && e.target.value !== "") {
+      wrapper.classList.add(styles.filled);
+    } else {
+      wrapper.classList.remove(styles.filled);
+    }
+  };
   return (
     <React.Fragment>
       <div
@@ -79,12 +89,24 @@ export default function ContactInfoForm({ noPadding = false }) {
                 {/* Full Name + Email */}
                 <div className={styles.form_row}>
                   <div className={styles.floating_group}>
-                    <input type="text" placeholder=" " required />
+                    <input
+                      onBlur={handleFilled}
+                      onChange={handleFilled}
+                      type="text"
+                      placeholder=" "
+                      required
+                    />
                     <label>Full Name</label>
                   </div>
 
                   <div className={styles.floating_group}>
-                    <input type="email" placeholder=" " required />
+                    <input
+                      onBlur={handleFilled}
+                      onChange={handleFilled}
+                      type="email"
+                      placeholder=" "
+                      required
+                    />
                     <label>Email</label>
                   </div>
                 </div>
@@ -92,12 +114,23 @@ export default function ContactInfoForm({ noPadding = false }) {
                 {/* Phone + Company */}
                 <div className={styles.form_row}>
                   <div className={styles.floating_group}>
-                    <input type="text" placeholder=" " required />
+                    <input
+                      onBlur={handleFilled}
+                      onChange={handleFilled}
+                      type="text"
+                      placeholder=" "
+                      required
+                    />
                     <label>Phone No.</label>
                   </div>
 
                   <div className={styles.floating_group}>
-                    <input type="text" placeholder=" " />
+                    <input
+                      onBlur={handleFilled}
+                      onChange={handleFilled}
+                      type="text"
+                      placeholder=" "
+                    />
                     <label>Company Name</label>
                   </div>
                 </div>
@@ -105,7 +138,7 @@ export default function ContactInfoForm({ noPadding = false }) {
                 {/* Business Type + Project Type */}
                 <div className={styles.form_row}>
                   <div className={styles.floating_group}>
-                    <select required>
+                    <select onChange={handleFilled} required>
                       <option value=""></option>
                       {businessTypes.map((type, index) => (
                         <option key={index}>{type}</option>
@@ -115,7 +148,7 @@ export default function ContactInfoForm({ noPadding = false }) {
                   </div>
 
                   <div className={styles.floating_group}>
-                    <select required>
+                    <select onChange={handleFilled} required>
                       <option value=""></option>
                       {projectTypes.map((type, index) => (
                         <option key={index}>{type}</option>
@@ -128,7 +161,7 @@ export default function ContactInfoForm({ noPadding = false }) {
                 {/* Budget + Referral */}
                 <div className={styles.form_row}>
                   <div className={styles.floating_group}>
-                    <select>
+                    <select onChange={handleFilled}>
                       <option value=""></option>
                       {budgetOptions.map((item, index) => (
                         <option key={index}>{item}</option>
@@ -138,7 +171,7 @@ export default function ContactInfoForm({ noPadding = false }) {
                   </div>
 
                   <div className={styles.floating_group}>
-                    <select>
+                    <select onChange={handleFilled}>
                       <option value=""></option>
                       {referralSources.map((item, index) => (
                         <option key={index}>{item}</option>
@@ -150,7 +183,11 @@ export default function ContactInfoForm({ noPadding = false }) {
 
                 {/* About Project */}
                 <div className={styles.floating_group}>
-                  <textarea placeholder=" " required></textarea>
+                  <textarea
+                    onChange={handleFilled}
+                    placeholder=" "
+                    required
+                  ></textarea>
                   <label>About Project</label>
                 </div>
 

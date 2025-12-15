@@ -1,11 +1,11 @@
 import React from "react";
 import Head from "next/head";
-import Banner from "@/app/(pages)/home/Banner/Banner";
+import CustomBanner from "@/app/(components)/custom-banner/CustomBanner";
+import bannerData from "@/app/(components)/custom-banner/CustomBannerList.json";
 import CompaniesSlider from "@/app/(components)/companies-slider/CompaniesSlider";
 import CompaniesList from "@/app/(components)/companies-slider/CompaniesList.json";
 import AboutDevtrios from "@/app/(components)/about-devtrios/AboutDevtrios";
 import AboutList from "@/app/(components)/about-devtrios/AboutList.json";
-import DigitalServices from "@/app/(pages)/home/DigitalServices/DigitalServices";
 import FeaturedCase from "@/app/(components)/featuredCase/FeaturedCase";
 import KeyMetrics from "@/app/(components)/key-metrics/KeyMetrics";
 import OurExpertise from "@/app/(components)/our-expertise/OurExpertise";
@@ -15,13 +15,13 @@ import TestimonialList from "@/app/(components)/testimonials/TestimonialList.jso
 import OurClients from "@/app/(components)/our-clients/OurClients";
 import Cta from "@/app/(components)/cta/Cta";
 import CtaList from "@/app/(components)/cta/CtaList.json";
-import Awards from "@/app/(components)/awards/Awards";
 import Blogs from "@/app/(components)/blogs/Blogs";
 import Faqs from "@/app/(components)/faqs/Faqs";
 
-export default function Home() {
-  const companiesData = CompaniesList.home;
-  const aboutData = AboutList.home;
+export default function websiteDevelopment() {
+  const customBannerData = bannerData.website_development;
+  const companiesData = CompaniesList.website_development;
+  const aboutData = AboutList.website_development;
   const ctaData = CtaList.home;
 
   return (
@@ -60,17 +60,22 @@ export default function Home() {
           content="/assets/images/header/favicon.webp"
         />
       </Head>
-      <Banner />
+      <CustomBanner
+        title={customBannerData.title}
+        description={customBannerData.description}
+        buttons={customBannerData.buttons}
+        background={customBannerData.background}
+      />
       <CompaniesSlider
         title={companiesData.title}
         images={companiesData.images}
+        description={companiesData.description}
         basePath={companiesData.basePath}
       />
       <AboutDevtrios
         title={aboutData.title}
         description={aboutData.description}
       />
-      <DigitalServices />
       <FeaturedCase />
       <OurExpertise />
       <KeyMetrics />
@@ -78,7 +83,6 @@ export default function Home() {
       <Testimonials list={TestimonialList.home} />
       <OurClients />
       <Cta data={ctaData} />
-      <Awards noPadding={false} />
       <Blogs noPadding={true} />
       <Faqs type="home" />
     </React.Fragment>

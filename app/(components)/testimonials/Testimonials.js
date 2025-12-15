@@ -8,9 +8,13 @@ import "swiper/css/pagination";
 import Image from "next/image";
 import styles from "./Testimonials.module.scss";
 
-export default function Testimonials({ list }) {
+export default function Testimonials({ list, padding_bottom = false }) {
   return (
-    <div className={styles.testimonials}>
+    <div
+      className={`${styles.testimonials} ${
+        padding_bottom ? styles.padding_bottom : ""
+      }`}
+    >
       <div className="container">
         <div className={styles.content_wrapper}>
           <h2 className={styles.heading}>Testimonials</h2>
@@ -22,9 +26,9 @@ export default function Testimonials({ list }) {
             loop={true}
             modules={[Autoplay, Pagination]}
             breakpoints={{
-              320: { slidesPerView: 1.2 },
-              480: { slidesPerView: 1.2 },
-              640: { slidesPerView: 2.2 },
+              320: { slidesPerView: 1.4 },
+              480: { slidesPerView: 1.4 },
+              640: { slidesPerView: 2.4 },
               1440: { slidesPerView: 2.2 },
             }}
             className={`testimonialsSwiper ${styles.testimonialsSwiper}`}
