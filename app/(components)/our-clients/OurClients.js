@@ -11,32 +11,32 @@ const reviewPlatforms = [
   },
   {
     name: "Yell",
-    img: "/assets/images/home/Yell_Logo.png",
+    img: "/assets/images/home/Yell_Logo.webp",
     url: "https://www.yell.com/biz/devtrios-london-10964943/",
   },
   {
     name: "Clutch",
-    img: "/assets/images/home/clutch-logo.png",
+    img: "/assets/images/home/clutch-logo.webp",
     url: "https://clutch.co/profile/devtrios",
   },
   {
     name: "GoodFirms",
-    img: "/assets/images/home/Goodfirms-Logo.png",
+    img: "/assets/images/home/Goodfirms-Logo.webp",
     url: "https://www.goodfirms.co/company/devtrios",
   },
   {
     name: "DesignRush",
-    img: "/assets/images/home/designrush-new-logo.png",
+    img: "/assets/images/home/designrush-new-logo.webp",
     url: "https://www.designrush.com/agency/profile/devtrios",
   },
   {
     name: "Tech Behemoths",
-    img: "/assets/images/home/techbehemoths.svg",
+    img: "/assets/images/home/techbehemoths.webp",
     url: "https://techbehemoths.com/company/devtrios",
   },
   {
     name: "Sortlist",
-    img: "/assets/images/home/sotlist.png",
+    img: "/assets/images/home/sotlist.webp",
     url: "https://www.sortlist.co.uk/agency/devtrios",
   },
 ];
@@ -52,7 +52,7 @@ export default function OurClients() {
             <div className={styles.left_side}>
               <div className={`flex items-center ${styles.description}`}>
                 <img
-                  src="/assets/images/home/office-man-handshake-with-business.jpg"
+                  src="/assets/images/home/office-man-handshake-with-business.webp"
                   alt="Client meeting"
                   className={styles.client_img}
                 />
@@ -70,7 +70,7 @@ export default function OurClients() {
                     <Image
                       width={17}
                       height={17}
-                      src="/assets/images/home/arrow-circle-right.svg"
+                      src="/assets/images/home/arrow-circle-right.webp"
                       alt="arrow"
                     />
                   </Link>

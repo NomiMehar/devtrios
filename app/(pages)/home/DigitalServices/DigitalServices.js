@@ -8,30 +8,30 @@ const services = [
     title: "Custom Web Development Services",
     description:
       "High-performance websites built with tools like Next.js, React.js, PHP, and cloud hosting solutions like AWS.",
-    image: "/assets/images/home/web-development.svg",
+    image: "/assets/images/home/web-development.webp",
   },
   {
     title: "Mobile App Development in London",
     description:
       "Custom mobile apps for iOS and Android tailored to enhance user experiences.",
-    image: "/assets/images/home/mobile-app.svg",
+    image: "/assets/images/home/mobile-app.webp",
   },
   {
     title: "UI/UX Design for Startups",
     description: "Creating user-centered, engaging digital experiences",
-    image: "/assets/images/home/ui-ux.svg",
+    image: "/assets/images/home/ui-ux.webp",
   },
   {
     title: "AI & Blockchain Development Agency",
     description:
       "Utilize artificial intelligence to automate business processes, enhance decision-making, and improve efficiency.",
-    image: "/assets/images/home/ai-blockchain.svg",
+    image: "/assets/images/home/ai-blockchain.webp",
   },
   {
     title: "Cloud Services & DevOps UK",
     description:
       "Unlock the power of the cloud with our comprehensive solutions, all while minimizing management and operational costs. Explore our cloud solutions today.",
-    image: "/assets/images/home/cloud-devops.svg",
+    image: "/assets/images/home/cloud-devops.webp",
   },
 ];
 
@@ -44,7 +44,7 @@ export default function DigitalServices() {
             <div className={styles.topSection}>
               <button className={styles.ctaButton}>
                 <Image
-                  src="/assets/images/home/stars.svg"
+                  src="/assets/images/home/stars.webp"
                   alt="star"
                   width={15}
                   height={15}

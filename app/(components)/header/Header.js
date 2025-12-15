@@ -29,7 +29,7 @@ export default function Header() {
         <div className={`flex-between-center ${style.navigation_content}`}>
           <Link href="/">
             <Image
-              src="/assets/images/header/logo.svg"
+              src="/assets/images/header/logo.webp"
               width={120}
               height={40}
               alt="logo"

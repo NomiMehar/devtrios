@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/images/home/E-Commerce-Growth-sc.svg",
+    "image": "/assets/images/home/E-Commerce-Growth-sc.webp",
     "title": "E-Commerce Growth with Devtrios",
     "description": "40+ projects delivered across retail, food & beverage, lifestyle, and electronics.",
     "impactTitle": "Impact Numbers",
@@ -13,12 +13,12 @@
     "button": {
       "text": "See How 40+ Stores Grew",
       "link": "https://devtrios.com/e-commerce-growth-with-devtrios/",
-      "icon": "/assets/images/home/arrow-circle-right.svg"
+      "icon": "/assets/images/home/arrow-circle-right.webp"
     }
   },
   {
     "id": 2,
-    "image": "/assets/images/home/Scaling-Apps-sc.svg",
+    "image": "/assets/images/home/Scaling-Apps-sc.webp",
     "title": "Scaling Apps That Scale Users",
     "description": "50+ apps launched across fintech, healthtech, travel, beauty, and e-commerce.",
     "impactTitle": "Impact Numbers",
@@ -30,12 +30,12 @@
     "button": {
       "text": "See How We Build Scalable Apps",
       "link": "https://devtrios.com/scaling-apps-that-scale-users/",
-      "icon": "/assets/images/home/arrow-circle-right.svg"
+      "icon": "/assets/images/home/arrow-circle-right.webp"
     }
   },
   {
     "id": 3,
-    "image": "/assets/images/home/Smarter-Business-sc.svg",
+    "image": "/assets/images/home/Smarter-Business-sc.webp",
     "title": "Smarter Business with Custom CRM Platforms",
     "description": "50+ CRM & workflow automation builds across finance, logistics, healthcare and SaaS.",
     "impactTitle": "Impact Numbers",
@@ -47,7 +47,7 @@
     "button": {
       "text": "Explore Custom CRM Development",
       "link": "https://devtrios.com/smarter-business-with-custom-crm-platforms/",
-      "icon": "/assets/images/home/arrow-circle-right.svg"
+      "icon": "/assets/images/home/arrow-circle-right.webp"
     }
   }
 ]

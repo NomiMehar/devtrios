@@ -25,14 +25,14 @@ export default function Banner() {
             <div className={`flex justify-center ${style.banner_content_btn}`}>
               <Button
                 href="/contact-us"
-                icon="/assets/images/home/arrow-circle-right.svg"
+                icon="/assets/images/home/arrow-circle-right.webp"
               >
                 Book a Strategy Call
               </Button>
 
               <Button
                 href="/services"
-                icon="/assets/images/home/arrow-circle-right.svg"
+                icon="/assets/images/home/arrow-circle-right.webp"
                 variant="secondary"
               >
                 View Our Services

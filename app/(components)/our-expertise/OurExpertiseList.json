@@ -38,55 +38,55 @@
   {
     "title": "Insurance",
     "description": "Booking engines, hotel apps, and travel marketplaces built for scale.",
-    "image": "insurance.png",
-    "icon": "insurance-icon.png"
+    "image": "insurance.webp",
+    "icon": "insurance-icon.webp"
   },
   {
     "title": "Energy & Utilities",
     "description": "Smart metering systems, grid management software, and consumer platforms for optimizing energy consumption.",
-    "image": "energyutilites.png",
-    "icon": "energyutilites-icon.png"
+    "image": "energyutilites.webp",
+    "icon": "energyutilites-icon.webp"
   },
   {
     "title": "Fintech",
     "description": "Payment gateways, regulatory compliance solutions, and blockchain-based financial services.",
-    "image": "finance-fintech.png",
-    "icon": "finance-fintech-icon.png"
+    "image": "finance-fintech.webp",
+    "icon": "finance-fintech-icon.webp"
   },
   {
     "title": "Healthcare & Pharma",
     "description": "Telemedicine platforms, patient data management systems, and clinical trial software.",
-    "image": "healthcare.png",
-    "icon": "healthcare-icon.png"
+    "image": "healthcare.webp",
+    "icon": "healthcare-icon.webp"
   },
   {
     "title": "Sports & Fitness",
     "description": "Workout tracking apps, fitness marketplaces, and fan engagement platforms.",
-    "image": "sportsfitness.png",
-    "icon": "sportsfitness-icon.png"
+    "image": "sportsfitness.webp",
+    "icon": "sportsfitness-icon.webp"
   },
   {
     "title": "Non-Profit & NGOs",
     "description": "Donation platforms, volunteer portals, and impact tracking dashboards.",
-    "image": "non-profitngo.png",
-    "icon": "non-profitngo-icon.png"
+    "image": "non-profitngo.webp",
+    "icon": "non-profitngo-icon.webp"
   },
   {
     "title": "Real Estate",
     "description": "Property portals, virtual tours, and CRM solutions for real estate firms.",
-    "image": "real-estate.png",
-    "icon": "real-estate-icon.png"
+    "image": "real-estate.webp",
+    "icon": "real-estate-icon.webp"
   },
   {
     "title": "Startups & Scaleups",
     "description": "MVPs, custom apps, and scalable platforms helping startups launch faster and smarter.",
-    "image": "startupscale-up.png",
-    "icon": "startupscale-up-icon.png"
+    "image": "startupscale-up.webp",
+    "icon": "startupscale-up-icon.webp"
   },
   {
     "title": "Education (EdTech)",
     "description": "E-learning platforms, LMS, and mobile apps for interactive learning.",
-    "image": "education.png",
-    "icon": "education-icon.png"
+    "image": "education.webp",
+    "icon": "education-icon.webp"
   }
 ]
