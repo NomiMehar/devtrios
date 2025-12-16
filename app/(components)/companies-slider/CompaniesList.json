@@ -93,5 +93,70 @@
       "viking.png",
       "weobot.png"
     ]
+  },
+
+  "web_development_new" : {
+    "title": "Trusted Globally by Startups & Enterprises",
+    "description": "Rated <strong>5.0</strong> <span>★★★★★</span> on <strong>Clutch, Yell & Google |</strong> Recognized for technical excellence and reliable delivery worldwide.",
+    "basePath": "/assets/images/home/companies_slider/",
+    "images": [
+      "alexander.webp",
+      "dorchester.webp",
+      "Fair-Agora.webp",
+      "logic_mark.webp",
+      "top_shelf_tour.webp",
+      "fabric.webp",
+      "daily_news.webp",
+      "midwest.webp",
+      "nnfcc.webp",
+      "vip.webp",
+      "watch_this_space.webp",
+      "uni_brevity_accuracy.webp"
+    ]
+  },
+
+  "app_development_new" : {
+    "title": "Trusted Globally by Startups & Enterprises",
+    "description": "Rated <strong>5.0</strong> <span>★★★★★</span> on <strong>Clutch, Yell & Google |</strong> Recognized for technical excellence and reliable delivery worldwide.",
+    "basePath": "/assets/images/home/companies_slider/",
+
+    "images": [
+      "dubai-mall.webp",
+      "ryde.webp",
+      "Fair-Agora.webp",
+      "alexandar.webp",
+      "coachbetter.webp",
+      "o_icon.webp",
+      "esm_icon.webp",
+      "billmykart.webp",
+      "senda.webp",
+      "fit_icon.webp",
+      "go_audits.webp",
+      "wala_plus.webp",
+      "elf.webp"
+
+    ]
+  },
+
+  "custom_software_development" : {
+    "title": "Trusted Globally by Startups & Enterprises",
+    "description": "Rated <strong>5.0</strong> <span>★★★★★</span> on <strong>Clutch, Yell & Google |</strong> Recognized for technical excellence and reliable delivery worldwide.",
+    "basePath": "/assets/images/home/companies_slider/",
+
+    "images": [
+      "software_documentation.webp",
+      "ak_icon.webp",
+      "uin_icon.webp",
+      "accademy_of_champions.webp",
+      "godverse.webp",
+      "vip.webp",
+      "top_shelf_tour.webp",
+      "dorchester.webp",
+      "fabric.webp",
+      "superior_university.webp",
+      "asset_planet.webp",
+      "pakistan_travel.webp",
+      "bioang.webp"
+    ]
   }
 }
