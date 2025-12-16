@@ -7,7 +7,7 @@
     "button": {
       "text": "Read More",
       "link": "https://devtrios.com/blog/why-every-business-needs-seo/",
-      "icon": "/assets/images/home/arrow-circle-right.svg"
+      "icon": "/assets/images/home/arrow-circle-right.webp"
     }
   },
   {
@@ -18,7 +18,7 @@
     "button": {
       "text": "Read More",
       "link": "https://devtrios.com/blog/why-every-business-needs-seo/",
-      "icon": "/assets/images/home/arrow-circle-right.svg"
+      "icon": "/assets/images/home/arrow-circle-right.webp"
     }
   },
   {
@@ -29,8 +29,7 @@
     "button": {
       "text": "Read More",
       "link": "https://devtrios.com/blog/why-every-business-needs-seo/",
-      "icon": "/assets/images/home/arrow-circle-right.svg"
+      "icon": "/assets/images/home/arrow-circle-right.webp"
     }
   }
-
 ]

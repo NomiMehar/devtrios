@@ -11,7 +11,7 @@ export default function Faqs({ type = "home", noPadding = false }) {
   };
 
   // Load data by page type
-  const faqs = faqsData[type] || [];
+  const faqs = faqsData?.[type] ?? [];
 
   return (
     <section

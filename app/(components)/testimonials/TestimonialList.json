@@ -83,5 +83,28 @@
       "name": "Michelle",
       "image": "/assets/images/home/coma.webp"
     }
+  ],
+
+  "website_development": [
+    {
+      "text": "We’ve trusted Devtrios across multiple projects—web, apps & APIs. Reliable, skilled & always delivering high-quality work on time.",
+      "name": "William Shepard",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "text": "Devtrios built my 24-page SEO-optimized WordPress site. Now ranking on 20+ keywords, fast & mobile responsive. Five-star work!",
+      "name": "Tech",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "text": "Ali built a modern, functional political website. On time, on budget & exceeded expectations. Highly recommend for public sector.",
+      "name": "Wafa Dridi",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "text": "Our old site looked outdated. Devtrios rebuilt it with Next.js & better SEO—bounce rate cut in half.",
+      "name": "DavidH-5419",
+      "image": "/assets/images/home/coma.webp"
+    }
   ]
 }

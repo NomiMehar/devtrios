@@ -6,13 +6,13 @@ import CompaniesSlider from "@/app/(components)/companies-slider/CompaniesSlider
 import CompaniesList from "@/app/(components)/companies-slider/CompaniesList.json";
 import AboutDevtrios from "@/app/(components)/about-devtrios/AboutDevtrios";
 import AboutList from "@/app/(components)/about-devtrios/AboutList.json";
-import FeaturedCase from "@/app/(components)/featuredCase/FeaturedCase";
+import AboutServices from "@/app/(components)/about-services/AboutServices";
+// import FeaturedCase from "@/app/(components)/featuredCase/FeaturedCase";
 import KeyMetrics from "@/app/(components)/key-metrics/KeyMetrics";
 import OurExpertise from "@/app/(components)/our-expertise/OurExpertise";
 import TechnologyStack from "@/app/(components)/technology-stack/TechnologyStack";
 import Testimonials from "@/app/(components)/testimonials/Testimonials";
 import TestimonialList from "@/app/(components)/testimonials/TestimonialList.json";
-import OurClients from "@/app/(components)/our-clients/OurClients";
 import Cta from "@/app/(components)/cta/Cta";
 import CtaList from "@/app/(components)/cta/CtaList.json";
 import Blogs from "@/app/(components)/blogs/Blogs";
@@ -22,7 +22,7 @@ export default function websiteDevelopment() {
   const customBannerData = bannerData.website_development;
   const companiesData = CompaniesList.website_development;
   const aboutData = AboutList.website_development;
-  const ctaData = CtaList.home;
+  const ctaData = CtaList.website_development;
 
   return (
     <React.Fragment>
@@ -76,15 +76,15 @@ export default function websiteDevelopment() {
         title={aboutData.title}
         description={aboutData.description}
       />
-      <FeaturedCase />
+      <AboutServices type="mobile_app" />
+      {/* <FeaturedCase /> */}
       <OurExpertise />
-      <KeyMetrics />
+      <KeyMetrics type="website_development" />
       <TechnologyStack />
-      <Testimonials list={TestimonialList.home} />
-      <OurClients />
+      <Testimonials list={TestimonialList.website_development} />
       <Cta data={ctaData} />
-      <Blogs noPadding={true} />
-      <Faqs type="home" />
+      <Blogs />
+      <Faqs type="website_development" />
     </React.Fragment>
   );
 }

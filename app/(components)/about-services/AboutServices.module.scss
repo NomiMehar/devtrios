@@ -1,0 +1,86 @@
+@use "../../../styles/variables" as *;
+
+.about_services {
+  padding-top: 130px;
+
+  .layout {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 1fr);
+    gap: 70px;
+    @media screen and (max-width: $breakpoint_tablet) {
+      grid-template-columns: auto;
+      gap: 40px;
+    }
+  }
+
+  /* IMAGE */
+  .image_wrapper {
+    min-width: 530px;
+    img {
+      width: 100%;
+      height: 520px;
+      border-radius: 20px;
+      object-fit: cover;
+    }
+
+    @media (max-width: 1024px) {
+      min-width: 100%;
+    }
+  }
+
+  /* CONTENT */
+  .content {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .text_block {
+    h2 {
+      font-size: 44px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      line-height: 1.3;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 1.6;
+      color: #5b5b5b;
+    }
+  }
+
+  /* STATS */
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 24px;
+    }
+  }
+
+  .stat_item {
+    text-align: left;
+
+    @media (max-width: 1024px) {
+      text-align: center;
+    }
+  }
+
+  .stat_value {
+    display: block;
+    font-size: 48px;
+    font-weight: 700;
+    color: $blue_color;
+  }
+
+  .stat_label {
+    margin-top: 6px;
+    font-size: 16px;
+    color: #444;
+  }
+}

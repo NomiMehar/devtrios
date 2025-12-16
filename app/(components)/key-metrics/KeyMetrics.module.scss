@@ -38,7 +38,8 @@
     }
     .sub_heading {
       font-size: 16px;
-      letter-spacing: 1px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
       margin-bottom: 40px;
       font-weight: 500;
       display: block;
@@ -110,7 +111,8 @@
       background: rgba(0, 85, 190, 0.6);
       backdrop-filter: blur(2px);
       border-radius: 10px;
-      padding: 12px 12px;
+      padding: 12px;
+      line-height: 1.5;
       @media screen and (max-width: $breakpoint_mobile_portrait) {
         font-size: 14px;
       }
