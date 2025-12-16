@@ -9,7 +9,7 @@ const services = [
     title: "Web Development",
     description:
       "High-performance websites built with tools like Next.js, React.js, PHP, and cloud hosting solutions like AWS.",
-    image: "/assets/images/home/web-development.svg",
+    image: "/assets/images/home/web-development.webp",
     button: {
       text: "Read More",
       link: "/services",
@@ -20,7 +20,7 @@ const services = [
     title: "Mobile App Development",
     description:
       "Custom mobile apps for iOS and Android tailored to enhance user experiences.",
-    image: "/assets/images/home/mobile-app.svg",
+    image: "/assets/images/home/mobile-app.webp",
     button: {
       text: "Read More",
       link: "/services",
@@ -31,7 +31,7 @@ const services = [
     title: "Software Development",
     description:
       "Scalable software solutions using Node.js, Laravel, and other powerful frameworks.",
-    image: "/assets/images/home/ui-ux.svg",
+    image: "/assets/images/home/ui-ux.webp",
     button: {
       text: "Read More",
       link: "/services",
@@ -41,7 +41,7 @@ const services = [
   {
     title: "UI/UX Design",
     description: "Creating user-centered, engaging digital experiences.",
-    image: "/assets/images/home/ai-blockchain.svg",
+    image: "/assets/images/home/ai-blockchain.webp",
     button: {
       text: "Read More",
       link: "/services",
@@ -52,7 +52,7 @@ const services = [
     title: "Staff Augmentation",
     description:
       "Utilize artificial intelligence to automate business processes, enhance decision-making, and improve efficiency.",
-    image: "/assets/images/home/cloud-devops.svg",
+    image: "/assets/images/home/cloud-devops.webp",
     button: {
       text: "Read More",
       link: "/services",
@@ -63,7 +63,7 @@ const services = [
     title: "AI/ML",
     description:
       "Utilize artificial intelligence to automate business processes, enhance decision-making, and improve efficiency.",
-    image: "/assets/images/home/cloud-devops.svg",
+    image: "/assets/images/home/ai_ml_icon.webp",
     button: {
       text: "Read More",
       link: "/services",
@@ -74,7 +74,7 @@ const services = [
     title: "Blockchain Development",
     description:
       "Implement secure, decentralized blockchain solutions that increase transparency and drive innovation.",
-    image: "/assets/images/home/cloud-devops.svg",
+    image: "/assets/images/home/blockchain.webp",
     button: {
       text: "Read More",
       link: "/services",
@@ -85,7 +85,7 @@ const services = [
     title: "Cloud Services",
     description:
       "Unlock the power of the cloud with our comprehensive solutions, all while minimizing management and operational costs. Explore our cloud solutions today.",
-    image: "/assets/images/home/cloud-devops.svg",
+    image: "/assets/images/home/cloud_services.webp",
     button: {
       text: "Read More",
       link: "/services",
@@ -96,7 +96,7 @@ const services = [
     title: "SEO",
     description:
       "Enhance website visibility and improve rankings on search engines to drive organic traffic.",
-    image: "/assets/images/home/cloud-devops.svg",
+    image: "/assets/images/home/seo_icon.webp",
     button: {
       text: "Read More",
       link: "/services",
@@ -107,7 +107,7 @@ const services = [
     title: "Mobile App Mangement",
     description:
       "Develop and execute strategies that ensure seamless performance, enhance user experience, and maintain the reliability of your app.",
-    image: "/assets/images/home/cloud-devops.svg",
+    image: "/assets/images/home/mobile_app_management.webp",
     button: {
       text: "Read More",
       link: "/services",
