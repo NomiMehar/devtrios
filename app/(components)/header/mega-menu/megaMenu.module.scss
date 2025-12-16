@@ -9,7 +9,10 @@ ul li {
     }
     & > a,
     .menuwrap {
-      color: #6bb64a !important;
+      color: #4273fc !important;
+      img {
+        filter: none !important;
+      }
       &::after {
         left: 0 !important;
         width: 100% !important;
@@ -23,122 +26,60 @@ ul li {
 .mega_menu_wrapper {
   opacity: 0;
   visibility: hidden;
+  z-index: -1;
+  background: white;
+  border-radius: 55px 55px 24px 24px;
+  width: 95%;
+  height: 500px;
+  padding-top: 140px;
   transition: all 0.5s ease-in-out;
   position: absolute;
-  left: 0;
-  z-index: 9;
-  background: #ffffff;
-  border: 4px solid #1d4354;
-  box-shadow: 0 11px 42px rgba(255, 255, 255, 0.25);
-  border-radius: 20px;
-  width: 100%;
-  height: 500px;
+  top: 0;
+  left: 50%;
   overflow: auto;
-  padding-top: 27px;
-  &:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 20%;
-    height: 100%;
-    background-color: #6bb64a;
-    border-radius: 15px 20px 20px 15px;
+  transform: translateX(-50%);
+  box-shadow: 0 11px 42px #42424240;
+  .mega_menu_inner {
+    padding: 0 25px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 32px;
   }
-  & > li {
-    margin-bottom: 20px;
-    & > a {
-      width: 20%;
-      font-size: 24px;
-      position: relative;
-      line-height: 34px;
-      color: #ffffff;
-      display: flex;
-      transition: all 0.4s ease-in-out;
-      align-items: center;
-      padding: 4px 0 4px 40px;
-      @media (max-width: 1600px) {
-        font-size: 20px;
-        padding-left: 35px;
-      }
-      &.active {
-        background-color: #ffffff;
-        color: #1d4354;
-        img {
-          filter: unset;
-        }
-        & ~ .mega_sub_menu {
-          display: flex;
-        }
-      }
-      img {
-        margin-right: 10px;
-        transition: all 0.4s ease-in-out;
-        object-fit: contain;
-        filter: brightness(20);
-      }
+
+  .column {
+    min-width: 0;
+  }
+
+  .title {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 16px;
+    text-decoration: none;
+
+    &:hover {
+      color: rgba(4, 107, 210, 1);
     }
-    .mega_sub_menu {
-      width: 79%;
-      position: absolute;
-      right: 0;
-      top: 30px;
-      z-index: 9;
-      height: 460px;
-      overflow: auto;
-      display: none;
-      section {
-        width: 33.333%;
-        padding: 0 30px;
-        display: flex;
-        flex-direction: column;
-        @media (max-width: 1600px) {
-          padding: 0 20px;
-        }
+  }
+
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin-bottom: 15px;
+
+      a {
+        font-size: 14px;
+        color: rgba(91, 91, 91, 1);
+        font-weight: 400;
+        text-decoration: none;
+        transition: color 0.2s ease;
+
         &:hover {
-          .nav_title {
-            border-bottom-color: #6bb64a;
-          }
-        }
-        .nav_title {
-          border-bottom: 2px solid transparent;
-          color: #1d4354;
-          transition: all 0.4s ease-in-out;
-          display: flex;
-          margin-bottom: 30px;
-          font-size: 22px;
-          line-height: 31px;
-          justify-content: flex-start;
-          margin-right: auto;
-          @media (max-width: 1600px) {
-            font-size: 18px;
-            margin-bottom: 20px;
-          }
-        }
-        li {
-          line-height: 1;
-          margin-bottom: 16px;
-          @media (max-width: 1600px) {
-            margin-bottom: 10px;
-          }
-          a {
-            color: rgba(29, 67, 84, 0.6);
-            font-size: 20px;
-            line-height: 28px;
-            padding-bottom: 13px;
-            display: flex;
-            transition: all 0.4s ease-in-out;
-            border-bottom: 1px solid #d6d6d6;
-            @media (max-width: 1600px) {
-              font-size: 16px;
-              line-height: 20px;
-            }
-          }
-          &:hover {
-            a {
-              color: rgba(29, 67, 84, 1);
-            }
-          }
+          color: rgba(4, 107, 210, 1);
         }
       }
     }

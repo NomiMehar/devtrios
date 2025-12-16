@@ -14,7 +14,7 @@ export default function AboutServices({ type = "mobile_app" }) {
   return (
     <section className={styles.about_services}>
       <div className="container">
-        <div className={styles.layout}>
+        <div className={styles.content_wrapper}>
           {/* Image */}
           <div className={styles.image_wrapper}>
             <Image
@@ -26,14 +26,14 @@ export default function AboutServices({ type = "mobile_app" }) {
             />
           </div>
 
-          {/* Content */}
           <div className={styles.content}>
             <div className={styles.text_block}>
               <h2>{title}</h2>
-              <p>{description}</p>
+              {description && (
+                <p dangerouslySetInnerHTML={{ __html: description }} />
+              )}
             </div>
 
-            {/* Stats */}
             <div className={styles.stats}>
               {stats.map((item, index) => (
                 <div key={index} className={styles.stat_item}>

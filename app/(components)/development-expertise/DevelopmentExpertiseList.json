@@ -1,0 +1,34 @@
+{
+  "heading": {
+    "title": "Core Web Development Services",
+    "description": "Explore our web development services from CMS builds to custom solutions designed for speed, scalability, and growth.",
+    "button": {
+      "text": "Start Your Web Project Today",
+      "href": "/contact-us",
+      "icon": "/assets/images/home/arrow-circle-right.webp"
+    }
+  },
+
+  "values": [
+    {
+      "title": "Custom Web Development",
+      "description": "From React.js and Next.js to Laravel and Python, we build scalable websites tailored to complex business needs.",
+      "icon": "/assets/images/services/web-dev-expertise-1.svg"
+    },
+    {
+      "title": "E-commerce Solutions",
+      "description": "Seamless online stores built with Shopify, WooCommerce, or Magento optimized for conversions and long-term growth.",
+      "icon": "/assets/images/services/web-dev-expertise-2.svg"
+    },
+    {
+      "title": "Responsive & User-Centric Design",
+      "description": "Websites designed mobile-first, delivering seamless experiences across all devices and browsers.",
+      "icon": "/assets/images/services/web-dev-expertise-3.svg"
+    },
+    {
+      "title": "CMS Development",
+      "description": "WordPress, Drupal, and custom CMS solutions that give your team full control and flexibility to manage content easily.",
+      "icon": "/assets/images/services/web-dev-expertise-4.svg"
+    }
+  ]
+}

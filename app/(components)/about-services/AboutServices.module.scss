@@ -2,85 +2,112 @@
 
 .about_services {
   padding-top: 130px;
-
-  .layout {
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding-top: 100px;
+  }
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding-top: 70px;
+  }
+  .content_wrapper {
     display: grid;
-    grid-template-columns: 1fr repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 70px;
-    @media screen and (max-width: $breakpoint_tablet) {
-      grid-template-columns: auto;
+
+    @media (max-width: $breakpoint_laptop) {
       gap: 40px;
     }
-  }
-
-  /* IMAGE */
-  .image_wrapper {
-    min-width: 530px;
-    img {
-      width: 100%;
-      height: 520px;
-      border-radius: 20px;
-      object-fit: cover;
+    @media screen and (max-width: $breakpoint_tablet) {
+      grid-template-columns: auto;
     }
-
-    @media (max-width: 1024px) {
+    .image_wrapper {
       min-width: 100%;
-    }
-  }
-
-  /* CONTENT */
-  .content {
-    grid-column: span 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .text_block {
-    h2 {
-      font-size: 44px;
-      font-weight: 700;
-      margin-bottom: 20px;
-      line-height: 1.3;
+      @media (max-width: $breakpoint_laptop) {
+        min-width: 100%;
+      }
+      img {
+        width: 100%;
+        height: 520px;
+        border-radius: 20px;
+        object-fit: cover;
+        @media screen and (max-width: $breakpoint_tablet) {
+          height: auto;
+        }
+      }
     }
 
-    p {
-      font-size: 20px;
-      line-height: 1.6;
-      color: #5b5b5b;
-    }
-  }
-
-  /* STATS */
-  .stats {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-
-    @media (max-width: 768px) {
+    .content {
+      display: flex;
       flex-direction: column;
-      gap: 24px;
+      justify-content: space-between;
+      gap: 20px;
+      .text_block {
+        h2 {
+          color: $dark_color;
+          font-size: 42px;
+          font-weight: 700;
+          margin-bottom: 20px;
+          line-height: 1.4;
+          @media screen and (max-width: $breakpoint_tablet) {
+            font-size: 38px;
+          }
+          @media screen and (max-width: $breakpoint_mobile_portrait) {
+            font-size: 28px;
+          }
+        }
+
+        p {
+          font-size: 22px;
+          line-height: 1.6;
+          margin: 0;
+          color: $gray_color;
+          @media screen and (max-width: $breakpoint_tablet) {
+            font-size: 16px;
+          }
+        }
+      }
+
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
+        gap: 20px;
+
+        .stat_item {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          .stat_value {
+            display: block;
+            font-size: 56px;
+            font-weight: 700;
+            background: linear-gradient(
+              331deg,
+              rgba(0, 69, 255, 1),
+              rgba(0, 163, 255, 1)
+            );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+            @media screen and (max-width: $breakpoint_tablet) {
+              font-size: 46px;
+            }
+            @media screen and (max-width: $breakpoint_mobile_portrait) {
+              font-size: 38px;
+            }
+          }
+
+          .stat_label {
+            margin: 0;
+            font-size: 17px;
+            font-weight: 500;
+            color: $dark_color;
+            word-spacing: 100vw;
+            @media screen and (max-width: $breakpoint_tablet) {
+              font-size: 16px;
+            }
+          }
+        }
+      }
     }
-  }
-
-  .stat_item {
-    text-align: left;
-
-    @media (max-width: 1024px) {
-      text-align: center;
-    }
-  }
-
-  .stat_value {
-    display: block;
-    font-size: 48px;
-    font-weight: 700;
-    color: $blue_color;
-  }
-
-  .stat_label {
-    margin-top: 6px;
-    font-size: 16px;
-    color: #444;
   }
 }

@@ -40,23 +40,32 @@
       margin-top: -175px;
       margin-right: -100px;
       padding-top: 180px;
+
       @media screen and (max-width: $breakpoint_mobile_portrait) {
         padding-bottom: 50px;
       }
+
       .block {
+        position: relative;
+
         &:hover {
           .wrapper {
             justify-content: space-between;
+
             p {
-              display: block;
+              opacity: 1;
+              transform: translateY(0);
+              max-height: 120px;
             }
           }
         }
+
         .bg_img {
           width: 100%;
           height: auto;
           border-radius: 20px 50px 10px 10px;
         }
+
         .wrapper {
           position: absolute;
           z-index: 9;
@@ -65,7 +74,7 @@
           height: 100%;
           display: flex;
           flex-direction: column;
-          justify-content: end;
+          justify-content: flex-end;
 
           .inner_wrapper {
             .inner_img {
@@ -73,19 +82,28 @@
               height: 50px;
               margin-bottom: 15px;
             }
+
             h4 {
               color: $white_color;
               font-size: 20px;
               font-weight: 600;
             }
           }
+
           p {
             font-size: 16px;
             font-weight: 400;
             line-height: 24px;
             color: $white_color;
-            display: none;
             margin: 0;
+
+            /* Animation setup */
+            opacity: 0;
+            transform: translateY(10px);
+            max-height: 0;
+            overflow: hidden;
+            transition-delay: 0.1s;
+            transition: opacity 0.7s ease, transform 0.7s ease;
           }
         }
       }

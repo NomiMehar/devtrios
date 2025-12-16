@@ -62,41 +62,67 @@
       margin-top: 40px;
       display: flex;
       gap: 15px;
+
       @media screen and (max-width: $breakpoint_mini_laptop) {
-        gap: 15px;
         flex-wrap: wrap;
         margin-top: 30px;
       }
+
       @media (max-width: $breakpoint_tablet) {
         justify-content: center;
       }
+
       a {
-        background-color: transparent;
         background-image: linear-gradient(258deg, #0045ff 0%, #00a3ff 100%);
-        transition-duration: 1s;
-        border-style: solid;
-        border-width: 1px;
-        border-color: #00a3ff;
+        background-size: 200% 200%;
+        background-position: left center;
+
+        border: 1px solid #00a3ff;
         border-radius: 100px;
-        font-weight: 400;
-        line-height: 1;
         padding: 12px 24px;
+
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 5px;
-        transition: all 0.3s;
+
         font-size: 16px;
+        font-weight: 400;
+        line-height: 1;
         color: $white_color;
-        @media screen and (max-width: $breakpoint_mobile_portrait) {
-        }
+
+        cursor: pointer;
+
+        transition: transform 0.3s ease, box-shadow 0.3s ease,
+          background-position 0.5s ease, opacity 0.3s ease;
+
         img {
           width: 17px;
           height: 17px;
+          transition: transform 0.3s ease;
         }
+
+        /* 🔥 Hover effect */
+        &:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 8px 24px rgba(0, 69, 255, 0.35);
+          background-position: right center;
+          opacity: 1;
+        }
+
+        &:hover img {
+          transform: translateX(-3px);
+        }
+
+        &:active {
+          transform: translateY(0);
+          box-shadow: 0 4px 14px rgba(0, 69, 255, 0.25);
+        }
+
+        /* Secondary button */
         &:nth-child(2) {
           backdrop-filter: blur(31px);
-          box-shadow: 0px -0.72px 0.72px 0px rgba(255, 255, 255, 0.25) inset;
+          box-shadow: 0px -0.72px 0.72px rgba(255, 255, 255, 0.25) inset;
           border: 1.5px solid;
           border-image-source: linear-gradient(
             97.86deg,
@@ -111,9 +137,12 @@
             rgba(157, 157, 157, 0.6) 11.24%,
             rgba(255, 255, 255, 0) 215.54%
           );
-        }
-        &:hover {
-          opacity: 0.8;
+
+          &:hover {
+            box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25);
+            transform: translateY(-2px);
+            opacity: 1;
+          }
         }
       }
     }
