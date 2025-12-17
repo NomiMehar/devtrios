@@ -2,23 +2,22 @@ import Link from "next/link";
 import style from "../Header.module.scss";
 import styleMenu from "../mega-menu/megaMenu.module.scss";
 import ServiceMegaMenu from "../mega-menu/ServiceMegaMenu";
-import { useState } from "react";
-import OutsideClickHandler from "react-outside-click-handler";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 
 export default function Navigation() {
-  const [isActive, setActive] = useState("false");
-  const [companyActive, setCompanyActive] = useState("false");
-  const handleToggle = () => {
-    setActive(!isActive);
-  };
-  const companyToggle = () => {
-    setCompanyActive(!companyActive);
-  };
+  const [isActive, setActive] = useState(false);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    setActive(false);
+  }, [pathname]);
 
   const handleMouseEnter = () => {
     document.body.classList.add("hovered");
   };
+
   const handleMouseLeave = () => {
     document.body.classList.remove("hovered");
   };
@@ -33,42 +32,30 @@ export default function Navigation() {
           Home
         </Link>
       </li>
-      <li className={isActive ? "" : `${styleMenu.menu_active}`}>
-        <OutsideClickHandler
-          onOutsideClick={() => {
-            setActive("false");
-          }}
-        >
-          <button
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-            className={`${style.menuwrap} ${styleMenu.menuwrap}`}
-            onClick={handleToggle}
-          >
-            Services{" "}
-            <Image
-              src="/assets/images/header/chevron.svg"
-              width={12}
-              height={12}
-              alt="chevron"
-            />
-          </button>
-          <ServiceMegaMenu
-            onClick={() => {
-              setActive("false");
-            }}
-          />
-        </OutsideClickHandler>
-      </li>
-      <li>
+
+      <li
+        className={`${isActive ? styleMenu.menu_active : ""}`}
+        onMouseEnter={() => setActive(true)}
+        onMouseLeave={() => setActive(false)}
+      >
         <Link
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
           href="/services"
+          className={style.menuwrap}
         >
           Services
+          <Image
+            src="/assets/images/header/chevron.svg"
+            width={12}
+            height={12}
+            alt="chevron"
+          />
         </Link>
+
+        <ServiceMegaMenu />
       </li>
+
       <li>
         <Link
           onMouseEnter={handleMouseEnter}
@@ -78,6 +65,7 @@ export default function Navigation() {
           About Us
         </Link>
       </li>
+
       <li>
         <Link
           onMouseEnter={handleMouseEnter}
@@ -87,6 +75,7 @@ export default function Navigation() {
           Blog
         </Link>
       </li>
+
       <li>
         <Link
           onMouseEnter={handleMouseEnter}

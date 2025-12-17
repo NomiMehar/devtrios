@@ -244,10 +244,9 @@ export default function ServiceMegaMenu({ onClick }) {
       {serviceItems.map((service) => (
         <li key={service.id} className="flex">
           <Link
-            onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
             className={activeId === service.id ? style.active : ""}
-            onClick={() => setActiveId(service.id)}
+            onMouseEnter={() => setActiveId(service.id)}
             href="#"
           >
             <Image
@@ -262,11 +261,7 @@ export default function ServiceMegaMenu({ onClick }) {
             <div onClick={onClick} className={`flex ${style.mega_sub_menu}`}>
               {service.sections.map((section, index) => (
                 <section key={index}>
-                  <Link
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}
-                    href={service.link}
-                  >
+                  <Link onMouseLeave={handleMouseLeave} href={service.link}>
                     <span className={style.nav_title}>
                       {section.title}
                       <Image
@@ -282,7 +277,6 @@ export default function ServiceMegaMenu({ onClick }) {
                       {section.items.map((item, linkIndex) => (
                         <li key={linkIndex}>
                           <Link
-                            onMouseEnter={handleMouseEnter}
                             onMouseLeave={handleMouseLeave}
                             href={item.link}
                           >
@@ -298,12 +292,14 @@ export default function ServiceMegaMenu({ onClick }) {
                       ))}
                     </ul>
                     <div className={style.service_img}>
-                      <Image
-                        src={service.service_img}
-                        alt={service.title}
-                        width={1000}
-                        height={1000}
-                      />
+                      <Link onMouseLeave={handleMouseLeave} href={service.link}>
+                        <Image
+                          src={service.service_img}
+                          alt={service.title}
+                          width={1000}
+                          height={1000}
+                        />
+                      </Link>
                     </div>
                   </div>
                 </section>
