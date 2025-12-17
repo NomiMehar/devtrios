@@ -71,31 +71,6 @@
     ]
   },
   "website_development": {
-    "title": "Trusted Globally With 200+ Projects Delivered",
-    "description": "Rated <strong>5.0</strong> <span>★★★★★</span> on <strong>Clutch, Yell & Google |</strong> Recognized for technical excellence and reliable delivery across startups, enterprises, and global brands.",
-    "basePath": "/assets/images/home/companies_slider/",
-    "images": [
-      "alexander.png",
-      "allbirds.png",
-      "asphalte.png",
-      "chubbies.png",
-      "dixon.png",
-      "dorchester.png",
-      "dubai-mall.png",
-      "eastern.png",
-      "Fair-Agora.png",
-      "focusrite.png",
-      "kith.png",
-      "matalan.png",
-      "oak.png",
-      "skull-candy.png",
-      "stich.png",
-      "viking.png",
-      "weobot.png"
-    ]
-  },
-
-  "web_development_new" : {
     "title": "Trusted Globally by Startups & Enterprises",
     "description": "Rated <strong>5.0</strong> <span>★★★★★</span> on <strong>Clutch, Yell & Google |</strong> Recognized for technical excellence and reliable delivery worldwide.",
     "basePath": "/assets/images/home/companies_slider/",
@@ -114,8 +89,7 @@
       "uni_brevity_accuracy.webp"
     ]
   },
-
-  "app_development_new" : {
+  "app_development_new": {
     "title": "Trusted Globally by Startups & Enterprises",
     "description": "Rated <strong>5.0</strong> <span>★★★★★</span> on <strong>Clutch, Yell & Google |</strong> Recognized for technical excellence and reliable delivery worldwide.",
     "basePath": "/assets/images/home/companies_slider/",
@@ -134,11 +108,9 @@
       "go_audits.webp",
       "wala_plus.webp",
       "elf.webp"
-
     ]
   },
-
-  "custom_software_development" : {
+  "custom_software_development": {
     "title": "Trusted Globally by Startups & Enterprises",
     "description": "Rated <strong>5.0</strong> <span>★★★★★</span> on <strong>Clutch, Yell & Google |</strong> Recognized for technical excellence and reliable delivery worldwide.",
     "basePath": "/assets/images/home/companies_slider/",

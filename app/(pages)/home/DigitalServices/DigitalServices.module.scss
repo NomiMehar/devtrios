@@ -38,7 +38,7 @@
 
       h3 {
         font-size: 24px;
-        font-weight: 600;
+        font-weight: 500;
         line-height: 1.4;
         color: $dark_color;
         margin: 0;
@@ -75,7 +75,7 @@
       .topSection {
         h2 {
           font-size: 46px;
-          font-weight: 700;
+          font-weight: 600;
           margin: 0;
           color: $dark_color;
           @media screen and (max-width: $breakpoint_tablet) {
@@ -125,7 +125,7 @@
         border-radius: 27px;
         cursor: pointer;
         padding: 25px;
-        font-weight: 600;
+        font-weight: 500;
         text-align: center;
         transition: all 0.3s;
         @media screen and (max-width: $breakpoint_tablet) {

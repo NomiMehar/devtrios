@@ -4,6 +4,7 @@ import styleMenu from "../mega-menu/megaMenu.module.scss";
 import ServiceMegaMenu from "../mega-menu/ServiceMegaMenu";
 import { useState } from "react";
 import OutsideClickHandler from "react-outside-click-handler";
+import Image from "next/image";
 
 export default function Navigation() {
   const [isActive, setActive] = useState("false");
@@ -32,20 +33,33 @@ export default function Navigation() {
           Home
         </Link>
       </li>
-      {/* <li className={isActive ? '' : `${styleMenu.menu_active}`}>
-              <OutsideClickHandler
-                  onOutsideClick={() => {
-                      setActive("false");
-                  }}
-              >
-                  <button
-                      onMouseEnter={handleMouseEnter}
-                      onMouseLeave={handleMouseLeave} className={`${style.menuwrap} ${styleMenu.menuwrap}`} onClick={handleToggle}>
-                      SERVICES<i className="fa fa-chevron-down"></i>
-                  </button>
-                  <ServiceMegaMenu onClick={()=>{setActive("false")}}/>
-              </OutsideClickHandler>
-          </li> */}
+      <li className={isActive ? "" : `${styleMenu.menu_active}`}>
+        <OutsideClickHandler
+          onOutsideClick={() => {
+            setActive("false");
+          }}
+        >
+          <button
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            className={`${style.menuwrap} ${styleMenu.menuwrap}`}
+            onClick={handleToggle}
+          >
+            Services{" "}
+            <Image
+              src="/assets/images/header/chevron.svg"
+              width={12}
+              height={12}
+              alt="chevron"
+            />
+          </button>
+          <ServiceMegaMenu
+            onClick={() => {
+              setActive("false");
+            }}
+          />
+        </OutsideClickHandler>
+      </li>
       <li>
         <Link
           onMouseEnter={handleMouseEnter}

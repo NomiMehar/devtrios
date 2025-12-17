@@ -7,7 +7,8 @@ import CompaniesList from "@/app/(components)/companies-slider/CompaniesList.jso
 import AboutDevtrios from "@/app/(components)/about-devtrios/AboutDevtrios";
 import AboutList from "@/app/(components)/about-devtrios/AboutList.json";
 import AboutServices from "@/app/(components)/about-services/AboutServices";
-// import FeaturedCase from "@/app/(components)/featuredCase/FeaturedCase";
+import DevelopmentExpertise from "@/app/(components)/development-expertise/DevelopmentExpertise";
+import DevelopmentServices from "@/app/(components)/development-services/DevelopmentServices";
 import KeyMetrics from "@/app/(components)/key-metrics/KeyMetrics";
 import OurExpertise from "@/app/(components)/our-expertise/OurExpertise";
 import TechnologyStack from "@/app/(components)/technology-stack/TechnologyStack";
@@ -77,7 +78,8 @@ export default function websiteDevelopment() {
         description={aboutData.description}
       />
       <AboutServices type="mobile_app" />
-      {/* <FeaturedCase /> */}
+      <DevelopmentExpertise />
+      <DevelopmentServices />
       <OurExpertise />
       <KeyMetrics type="website_development" />
       <TechnologyStack />

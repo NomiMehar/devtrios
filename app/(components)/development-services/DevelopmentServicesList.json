@@ -1,0 +1,38 @@
+{
+  "heading": {
+    "title": "Custom Web Development Services That Scale With Your Business",
+    "description": "From front-end experiences to enterprise-grade back-end systems, our development team delivers complete web solutions using modern frameworks and proven best practices.",
+    "button": {
+      "text": "Get Started",
+      "href": "/contact-us",
+      "icon": "/assets/images/home/arrow-circle-right.webp"
+    }
+  },
+
+  "values": [
+    {
+      "title": "Full-Stack Development",
+      "description": "Our full-stack developers work across the entire technology stack, combining React, Next.js, and Node.js to build interactive, scalable web applications tailored to your business goals.",
+      "icon": "/assets/images/services/devtrios_icon.svg",
+      "backgroundImg": "/assets/images/services/fullstack-back.webp"
+    },
+    {
+      "title": "Front-End Development",
+      "description": "We design responsive, user-centric interfaces using React, Vue, and Angular, ensuring fast load times and seamless experiences across all devices and browsers.",
+      "icon": "/assets/images/services/devtrios_icon.svg",
+      "backgroundImg": "/assets/images/services/frontend-back.webp"
+    },
+    {
+      "title": "Back-End Development",
+      "description": "From APIs and CRMs to enterprise platforms, we build secure, high-performance back-end systems using Node.js, Laravel, and Python.",
+      "icon": "/assets/images/services/devtrios_icon.svg",
+      "backgroundImg": "/assets/images/services/backend-back.webp"
+    },
+    {
+      "title": "API & Systems Integration",
+      "description": "We integrate third-party APIs, CRMs, and payment systems into your web applications, ensuring smooth, secure data flow across your business tools.",
+      "icon": "/assets/images/services/devtrios_icon.svg",
+      "backgroundImg": "/assets/images/services/api-back.webp"
+    }
+  ]
+}

@@ -49,7 +49,7 @@
 
       h3 {
         font-size: 24px;
-        font-weight: 600;
+        font-weight: 500;
         line-height: 1.4;
         color: $dark_color;
         margin: 0;
@@ -104,7 +104,7 @@
       .topSection {
         h2 {
           font-size: 46px;
-          font-weight: 700;
+          font-weight: 600;
           margin: 0;
           color: $dark_color;
           @media screen and (max-width: $breakpoint_tablet) {
@@ -115,7 +115,7 @@
           }
         }
         p {
-          font-size: 22px;
+          font-size: 20px;
           line-height: 1.6;
           color: $gray_color;
           font-weight: 400;

@@ -1,20 +1,20 @@
 {
   "mobile_app": {
-    "title": "Tailored Mobile App Development Built Around Your Growth",
-    "description": "At Devtrios, we build mobile apps that perform, scale, and deliver real business results. From consumer apps to enterprise platforms, every build starts with your goals and ends with measurable ROI. Using proven tech like React Native, Flutter, and Firebase, we ensure apps are fast, secure, and future-ready. With 200+ projects delivered over 16+ years, we’ve helped businesses across e-commerce, healthcare, finance, and education launch ideas faster and smarter.",
+    "title": "Web Solutions Tailored to Every Business Need",
+    "description": "At <strong>Devtrios</strong>, we don’t believe in one-size-fits-all websites. Over the years, we’ve delivered corporate portals, e-commerce stores, content platforms, and mobile-first websites that reflect the unique goals of each client. Whether you’re a startup seeking speed or an enterprise scaling globally, our approach ensures your website is built for impact and long-term growth.",
     "image": "/assets/images/services/website_development_about_services.webp",
     "stats": [
       {
-        "value": "15+",
-        "label": "Years of Experience"
-      },
-      {
-        "value": "12+",
-        "label": "Countries, Clients Served"
+        "value": "16+",
+        "label": "Industries Served"
       },
       {
         "value": "35+",
-        "label": "Dedicated Engineers"
+        "label": "Experts Onboard"
+      },
+      {
+        "value": "15+",
+        "label": "Countries Derved"
       }
     ]
   }

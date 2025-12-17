@@ -52,7 +52,7 @@
 
     .heading {
       font-size: 46px;
-      font-weight: 700;
+      font-weight: 600;
       line-height: 1.2;
       margin-bottom: 45px;
       color: $white_color;
@@ -92,7 +92,8 @@
 
     .value {
       font-size: 75px;
-      font-weight: 700;
+      line-height: 1;
+      font-weight: 600;
       color: $white_color;
       margin-bottom: -30px;
       @media screen and (max-width: $breakpoint_tablet) {

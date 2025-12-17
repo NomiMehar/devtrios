@@ -16,7 +16,7 @@ export default function Header() {
   });
 
   const isSticky = () => {
-    const header = document.querySelector(".header-section");
+    const header = document.querySelector(".header-sections");
     const scrollTop = window.scrollY;
     scrollTop >= 80
       ? header.classList.add(`${style.is_sticky}`)
