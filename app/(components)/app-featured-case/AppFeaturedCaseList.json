@@ -1,0 +1,19 @@
+{
+  "title" : "Why 72% of Websites Fail and How We Build the 28% That Grow",
+  "sections" : [
+    {
+      "section_title" : "Tech Stack Highlights",
+      "badges" : ["WordPress", "Drupal", "Laravel", "React", "Next.JS", "Node.JS"]
+    },
+    {
+      "section_title" : "Industries We’ve Served",
+      "badges" : ["Retail", "Fintech", "Healthcare", "Media & Entertainment", "Logistics", "Insurance", "Energy"]
+    },
+    {
+      "section_title" : "Additional Services Provided",
+      "badges" : ["Design", "CRO Audits", "SEO-Ready Structures", "Ongoing Maintenance"]
+    }
+  ],
+
+  "img" : "/assets/images/services/featured_section.webp"
+}

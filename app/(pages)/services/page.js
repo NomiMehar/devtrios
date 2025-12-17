@@ -11,6 +11,7 @@ import Cta from "@/app/(components)/cta/Cta";
 import CtaList from "@/app/(components)/cta/CtaList.json";
 import Blogs from "@/app/(components)/blogs/Blogs";
 import Faqs from "@/app/(components)/faqs/Faqs";
+import AppFeaturedCase from "@/app/(components)/app-featured-case/AppFeaturedCase";
 
 export default function Services() {
   const customBannerData = bannerData.services;
@@ -63,6 +64,7 @@ export default function Services() {
         description={companiesData.description}
       />
       <OurServices />
+      <AppFeaturedCase/>
       <Testimonials list={TestimonialList.about_us} />
       <Cta data={ctaData} />
       <Blogs />

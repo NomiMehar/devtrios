@@ -1,2 +1,86 @@
 @use "../../../styles/variables" as *;
 
+.app_featured_case {
+
+  padding-top: 130px;
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding-top: 100px;
+  }
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding-top: 70px;
+  }
+  
+  .heading {
+    color: $dark_color;
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.4;
+    margin-bottom: 50px;
+    @media screen and (max-width: $breakpoint_tablet) {
+      font-size: 38px;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 28px;
+    }
+  }
+
+  .grid{
+    background-color: $card_color;
+    border-radius: 27px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      grid-template-columns: 1fr;
+    }
+
+    .left_grid{
+      padding-right: 50px;
+      @media screen and (max-width: $breakpoint_tablet) {
+        padding-right: 0;
+      }
+
+      .title{
+        font-size: 24px;
+        color: $dark_color;
+      }
+
+      .section{
+
+        @media screen and (max-width: $breakpoint_tablet) {
+          &:last-child {
+            padding-bottom: 40px;
+          }
+        }
+
+        .section_title{
+          color: $gray_color;
+          font-weight: 400;
+          font-size: 14px;
+          text-transform: uppercase;
+          padding-top: 30px;
+        }
+        .section_badge{
+          background-color: $badge_color;
+          color: $card_color;
+          border-radius: 8px;
+          padding: 12px 24px;
+          margin-right: 10px;
+          display: inline-block;
+          cursor: pointer;
+          margin-top: 10px;
+        }
+      }
+    }
+
+    .image_wrapper{
+      img{
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+      }
+    }
+  }
+}
