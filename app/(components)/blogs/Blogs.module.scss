@@ -14,7 +14,7 @@
   .heading {
     color: $dark_color;
     font-size: 46px;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
     line-height: 1.4;
     margin-bottom: 50px;
@@ -61,7 +61,7 @@
         gap: 20px;
         .title {
           font-size: 24px;
-          font-weight: 700;
+          font-weight: 600;
           color: $dark_color;
           margin-bottom: 10px;
           @media screen and (max-width: $breakpoint_mobile_portrait) {

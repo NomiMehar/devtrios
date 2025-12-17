@@ -31,7 +31,7 @@
     }
     h1 {
       font-size: 65px;
-      font-weight: 600;
+      font-weight: 500;
       text-transform: uppercase;
       font-style: italic;
       color: $white_color;
@@ -46,7 +46,6 @@
       }
       span {
         display: block;
-        font-family: "CloverDisplay-ExtraBold", sans-serif;
       }
     }
     .banner_content_wrapper {
@@ -57,7 +56,7 @@
       }
       h2 {
         font-size: 65px;
-        font-weight: 600;
+        font-weight: 500;
         text-transform: uppercase;
         font-style: italic;
         color: $white_color;
@@ -75,7 +74,6 @@
         }
         span {
           display: block;
-          font-family: "CloverDisplay-ExtraBold", sans-serif;
         }
       }
       p {
@@ -103,7 +101,8 @@
         margin-top: 20px;
       }
       a {
-        font-weight: 600;
+        font-weight: 500;
+        border-radius: 100px;
         @media screen and (max-width: $breakpoint_mobile_portrait) {
           max-width: max-content;
           font-size: 16px;

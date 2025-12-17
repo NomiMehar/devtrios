@@ -30,7 +30,7 @@
       h2 {
         color: $white_color;
         font-size: 36px;
-        font-weight: 700;
+        font-weight: 600;
         line-height: 1.4;
         margin: 0px;
         @media screen and (max-width: $breakpoint_tablet) {
@@ -99,7 +99,7 @@
         h3 {
           color: $white_color;
           font-size: 26px;
-          font-weight: 600;
+          font-weight: 500;
           margin: 25px 0 0;
           @media screen and (max-width: $breakpoint_mobile_portrait) {
             font-size: 18px;

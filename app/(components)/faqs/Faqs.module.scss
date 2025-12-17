@@ -15,7 +15,7 @@
   .heading {
     color: $dark_color;
     font-size: 46px;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
     line-height: 1.4;
     margin-bottom: 50px;
@@ -46,7 +46,7 @@
         border: none;
         background: transparent;
         cursor: pointer;
-        font-weight: 600;
+        font-weight: 500;
         color: $dark_color;
         @media screen and (max-width: $breakpoint_tablet) {
           font-size: 18px;
@@ -68,7 +68,7 @@
             font-size: 14px;
             font-weight: 500;
             line-height: 1;
-            margin-top: -2px;
+            margin-top: 2px;
             color: $white_color;
           }
         }

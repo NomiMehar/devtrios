@@ -1,5 +1,4 @@
 @use "./variables.scss" as *;
-// @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
 * {
   box-sizing: border-box;
@@ -14,8 +13,7 @@ body {
   margin: 0;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: none;
-  // font: 400 16px/24px "Plus Jakarta Sans", sans-serif;
-  font-family: var(--font-plus-jakarta), sans-serif;
+  font-family: var(--font-poppins), sans-serif;
   color: $dark_color;
   overflow-x: clip;
   -webkit-font-smoothing: antialiased;
@@ -36,7 +34,6 @@ body h6 {
   line-height: 1.5;
   margin: 0 0 10px;
   color: $dark_color;
-  // font-family: "Plus Jakarta Sans", sans-serif;
 }
 .img-responsive {
   width: 100%;
@@ -108,7 +105,6 @@ img {
   font-size: 14px !important;
   color: #e33c39;
   font-weight: 600;
-  // font-family: "Plus Jakarta Sans", sans-serif;
 }
 #wrapper {
   width: 100%;
@@ -223,7 +219,7 @@ a {
 input,
 button,
 textarea {
-  font: 400 16px/20px var(--font-plus-jakarta), sans-serif;
+  font: 400 16px/20px var(--font-poppins), sans-serif;
 }
 input,
 textarea,
