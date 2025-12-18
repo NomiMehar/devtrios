@@ -14,12 +14,12 @@
     padding: 200px 50px 100px;
   }
   @media (max-width: $breakpoint_tablet) {
-    padding: 170px 0 100px;
+    padding: 200px 0 100px;
     border-radius: 0px 0px 40px 40px;
     text-align: center;
   }
   @media (max-width: $breakpoint_mobile_portrait) {
-    padding: 150px 0 70px;
+    padding: 170px 0 70px;
   }
   .content_wrapper {
     display: grid;

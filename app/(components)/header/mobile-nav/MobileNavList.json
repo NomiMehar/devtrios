@@ -3,8 +3,6 @@
     "id": 0,
     "title": "Website Development",
     "link": "/services/website-development/",
-    "icon": "/assets/images/header/menu-icon.svg",
-    "service_img": "/assets/images/services/website_development_about_services.webp",
     "sections": [
       {
         "title": "Website Development",
@@ -45,8 +43,6 @@
     "id": 1,
     "title": "Mobile App Development",
     "link": "/services/mobile-app-development/",
-    "icon": "/assets/images/header/menu-icon.svg",
-    "service_img": "/assets/images/services/website_development_about_services.webp",
     "sections": [
       {
         "title": "Mobile App Development",
@@ -79,8 +75,6 @@
     "id": 2,
     "title": "Software Development",
     "link": "/services/software-development/",
-    "icon": "/assets/images/header/menu-icon.svg",
-    "service_img": "/assets/images/services/website_development_about_services.webp",
     "sections": [
       {
         "title": "Software Development",
@@ -113,8 +107,6 @@
     "id": 3,
     "title": "AI & Automation",
     "link": "/services/ai-automation/",
-    "icon": "/assets/images/header/menu-icon.svg",
-    "service_img": "/assets/images/services/website_development_about_services.webp",
     "sections": [
       {
         "title": "AI & Automation",
@@ -143,8 +135,6 @@
     "id": 4,
     "title": "Blockchain Development",
     "link": "/services/blockchain-development/",
-    "icon": "/assets/images/header/menu-icon.svg",
-    "service_img": "/assets/images/services/website_development_about_services.webp",
     "sections": [
       {
         "title": "Blockchain Development",
@@ -177,8 +167,6 @@
     "id": 5,
     "title": "UI & UX Design",
     "link": "/services/ui-ux-design/",
-    "icon": "/assets/images/header/menu-icon.svg",
-    "service_img": "/assets/images/services/website_development_about_services.webp",
     "sections": [
       {
         "title": "UI & UX Design",
@@ -201,8 +189,6 @@
     "id": 6,
     "title": "Digital Marketing",
     "link": "/services/seo/",
-    "icon": "/assets/images/header/menu-icon.svg",
-    "service_img": "/assets/images/services/website_development_about_services.webp",
     "sections": [
       {
         "title": "Digital Marketing",

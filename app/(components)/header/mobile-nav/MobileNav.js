@@ -5,37 +5,38 @@ import { useState, useEffect } from "react";
 import style from "../Header.module.scss";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-import serviceItems from "./MobileNavList.json"; // import your serviceItems
+import serviceItems from "./MobileNavList.json";
 
-// Build menuData using serviceItems
-// Build menuData using serviceItems
 const menuData = [
   { label: "Home", href: "/" },
 
-  // Map each service from serviceItems
-  ...serviceItems.map((service) => ({
-    label: service.title,
-    href: service.link,
-    subMenu: service.sections.flatMap((section, index) => {
-      // If first section has same title as service, just include its items
-      if (index === 0 && section.title === service.title) {
-        return section.items.map((item) => ({
-          label: item.name,
-          href: item.link,
-        }));
-      }
-      // Otherwise, include the section as a submenu
-      return [
-        {
-          label: section.title,
-          subMenu: section.items.map((item) => ({
+  {
+    label: "Services",
+    subMenu: serviceItems.map((service) => ({
+      label: service.title,
+      href: service.link,
+      subMenu: service.sections.flatMap((section, index) => {
+        // If first section matches service title, show items directly
+        if (index === 0 && section.title === service.title) {
+          return section.items.map((item) => ({
             label: item.name,
             href: item.link,
-          })),
-        },
-      ];
-    }),
-  })),
+          }));
+        }
+
+        // Otherwise keep section as nested submenu
+        return [
+          {
+            label: section.title,
+            subMenu: section.items.map((item) => ({
+              label: item.name,
+              href: item.link,
+            })),
+          },
+        ];
+      }),
+    })),
+  },
 
   { label: "About Us", href: "/about-us" },
   { label: "Blog", href: "/blog" },
@@ -106,7 +107,6 @@ export default function MobileNav() {
 
   return (
     <>
-      {/* Mobile Header */}
       <div className={style.mobileHeader}>
         <div className="container">
           <div className={style.mobileHeaderPadding}>
@@ -120,21 +120,10 @@ export default function MobileNav() {
                 priority
               />
             </Link>
-
-            {/* <Image
-              width={30}
-              height={30}
-              className={style.toggleImg}
-              onClick={toggleSidebar}
-              src="/assets/images/header/toggle.svg"
-              alt="toggle"
-            /> */}
             <span onClick={toggleSidebar}>=</span>
           </div>
         </div>
       </div>
-
-      {/* Sidebar */}
       <div className={`${style.sidebar} ${isSidebarOpen ? style.active : ""}`}>
         <div className={style.sidebarHeader}>
           <Link href="/">
@@ -148,15 +137,11 @@ export default function MobileNav() {
           </Link>
           <span onClick={toggleSidebar}>x</span>
         </div>
-
         <div className={style.menu}>{menuData.map(renderSubMenu)}</div>
-
         <div className={style.footerContact}>
-          <Link href="/contact-us">Contact Us</Link>
+          <Link href="/get-a-quote">Get a Quote</Link>
         </div>
       </div>
-
-      {/* Overlay */}
       {isSidebarOpen && (
         <div className={style.overlay} onClick={toggleSidebar} />
       )}

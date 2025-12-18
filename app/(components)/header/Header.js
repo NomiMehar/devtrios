@@ -1,11 +1,11 @@
 "use client";
+import React from "react";
 import { useEffect } from "react";
 import style from "./Header.module.scss";
 import MobileNav from "./mobile-nav/MobileNav";
 import Navigation from "./navigation/Navigation";
 import Link from "next/link";
 import Image from "next/image";
-import React from "react";
 
 export default function Header() {
   useEffect(() => {
@@ -41,7 +41,6 @@ export default function Header() {
           </div>
         </div>
       </div>
-
       <MobileNav />
     </header>
   );
