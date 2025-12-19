@@ -1,0 +1,26 @@
+{
+  "heading": {
+    "title": "Beyond the Build: Long Term Success and Support",
+    "description": "A successful online store requires continuous care. We provide a full range of services to ensure your investment continues to deliver returns long after launch day."
+  },
+  "services": [
+    {
+      "title": "E-Commerce Website Maintenance Services",
+      "description": "Keep your store secure, updated, and running smoothly with our proactive maintenance packages.",
+      "icon": "/assets/images/services/devtrios_icon.svg",
+      "backgroundImg": "/assets/images/services/api-back.webp"
+    },
+    {
+      "title": "eCommerce Website Redesign Services",
+      "description": "Is your current site looking dated or underperforming? We can revitalize your online presence with a strategic redesign focused on modern user experience and improved conversion rates.",
+      "icon": "/assets/images/services/devtrios_icon.svg",
+      "backgroundImg": "/assets/images/services/fullstack-back.webp"
+    },
+    {
+      "title": "eCommerce Store Migration Services",
+      "description": "Seamlessly move your store to a new platform without losing valuable data or search engine rankings. Our meticulous migration process ensures a smooth transition with minimal downtime.",
+      "icon": "/assets/images/services/devtrios_icon.svg",
+      "backgroundImg": "/assets/images/services/backend-back.webp"
+    }
+  ]
+}

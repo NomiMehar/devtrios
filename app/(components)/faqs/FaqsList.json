@@ -64,5 +64,27 @@
       "title": "Does Devtrios offer ongoing support and maintenance for projects?",
       "desc": "Yes, we provide long-term maintenance and support for all projects, including regular updates, performance optimizations, and software scalability improvements to meet evolving business needs."
     }
+  ],
+  "ecommerce_website_development": [
+    {
+      "title": "How long does it take to build a custom eCommerce website?",
+      "desc": "The timeline for custom eCommerce website development can vary from a few weeks to several months. It depends on the complexity of the design, the number of custom features, and the specific platform being used. We provide a detailed project timeline after our initial discovery phase."
+    },
+    {
+      "title": "How much do your eCommerce development services cost?",
+      "desc": "We offer affordable eCommerce website development services tailored to your budget. The final cost depends on the scope of the project. We provide a detailed, transparent quote with no hidden fees after discussing your specific requirements."
+    },
+    {
+      "title": "Which eCommerce platform is right for my business?",
+      "desc": "The best platform depends on your business size, product catalog, technical expertise, and budget. We will work with you to evaluate the options and recommend the ideal solution, whether it's a popular platform or a custom build."
+    },
+    {
+      "title": "Can you help me improve my existing online store?",
+      "desc": "Absolutely. We offer a full range of optimization services, including eCommerce website speed optimization services and complete redesigns. We can help improve your site's performance, user experience, and conversion rates."
+    },
+    {
+      "title": "How do I hire an eCommerce developer from your team?",
+      "desc": "Getting started is easy. Simply contact us through our website or give us a call. We will schedule a free consultation to discuss your project and explain how our team can help you achieve your goals."
+    }
   ]
 }

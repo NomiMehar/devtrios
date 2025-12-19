@@ -1,7 +1,7 @@
 {
   "home": {
-    "title": "Let’s Build Your Next Big Digital Product",
-    "description": "As London’s market evolves with innovation and advanced technology, Devtrios is set to debut as a trailblazing mobile app development company.",
+    "title": "Let's Build Your Next Big Digital Product",
+    "description": "As London's market evolves with innovation and advanced technology, Devtrios is set to debut as a trailblazing mobile app development company.",
     "button": {
       "text": "Book a Free Consultation",
       "href": "/contact-us",
@@ -10,7 +10,7 @@
   },
 
   "about": {
-    "title": "Let’s Build Your Next Success Story",
+    "title": "Let's Build Your Next Success Story",
     "description": "Partner with Devtrios to transform ideas into measurable results.",
     "button": {
       "text": "Start Your Project",
@@ -21,7 +21,7 @@
 
   "services": {
     "title": "Build Smarter, Faster, and Stronger with Devtrios Services",
-    "description": "As London’s tech scene advances, Devtrios stands out as a leading mobile app development company, delivering innovative and scalable solutions.",
+    "description": "As London's tech scene advances, Devtrios stands out as a leading mobile app development company, delivering innovative and scalable solutions.",
     "button": {
       "text": "Start My Social Growth",
       "href": "/contact-us",
@@ -30,7 +30,7 @@
   },
 
   "contact_us": {
-    "title": "Let’s Build Something Exceptional Together",
+    "title": "Let's Build Something Exceptional Together",
     "description": "From custom software to scalable web solutions, our team is ready to help you move faster and smarter.",
     "button": {
       "text": "Talk to an Expert",
@@ -41,10 +41,19 @@
 
   "website_development": {
     "title": "Build Websites That Drive Growth, Speed, and Conversions",
-    "description": "Devtrios designs and develops high-performance websites that load fast, scale seamlessly, and convert better. Trusted across 16+ industries, we’ve delivered 100+ websites that combine UX, SEO, and security for measurable results.",
+    "description": "Devtrios designs and develops high-performance websites that load fast, scale seamlessly, and convert better. Trusted across 16+ industries, we've delivered 100+ websites that combine UX, SEO, and security for measurable results.",
     "button": {
       "text": "Start Your Website Project",
       "href": "/contact-us",
+      "icon": "/assets/images/home/arrow-circle-right.webp"
+    }
+  },
+  "ecommerce_website_development": {
+    "title": "Ready to Build Your High-Growth Online Store?",
+    "description": "Stop letting an underperforming website hold your business back. Partner with a leading eCommerce website development agency that is committed to your success. Our team of expert developers is ready to build the powerful, profitable online store you have always envisioned.",
+    "button": {
+      "text": "Request a Free Consultation",
+      "href": "/get-a-quote",
       "icon": "/assets/images/home/arrow-circle-right.webp"
     }
   }

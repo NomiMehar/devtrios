@@ -8,20 +8,20 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function Header() {
-  useEffect(() => {
-    window.addEventListener("scroll", isSticky);
-    return () => {
-      window.removeEventListener("scroll", isSticky);
-    };
-  });
+  // useEffect(() => {
+  //   window.addEventListener("scroll", isSticky);
+  //   return () => {
+  //     window.removeEventListener("scroll", isSticky);
+  //   };
+  // });
 
-  const isSticky = () => {
-    const header = document.querySelector(".header-sections");
-    const scrollTop = window.scrollY;
-    scrollTop >= 80
-      ? header.classList.add(`${style.is_sticky}`)
-      : header.classList.remove(`${style.is_sticky}`);
-  };
+  // const isSticky = () => {
+  //   const header = document.querySelector(".header-sections");
+  //   const scrollTop = window.scrollY;
+  //   scrollTop >= 80
+  //     ? header.classList.add(`${style.is_sticky}`)
+  //     : header.classList.remove(`${style.is_sticky}`);
+  // };
 
   return (
     <header className={`${style.main_header}`}>

@@ -1,7 +1,7 @@
 {
   "about": {
     "title": "About Devtrios – The Minds Behind Our Digital Agency",
-    "description": "At Devtrios, we’re a London-based digital agency of strategists, engineers, and creatives united by one mission building technology that solves real problems and creates measurable impact. This About Devtrios page shares the story behind our work in web development, mobile apps, custom software, and UI/UX design.",
+    "description": "At Devtrios, we're a London-based digital agency of strategists, engineers, and creatives united by one mission building technology that solves real problems and creates measurable impact. This About Devtrios page shares the story behind our work in web development, mobile apps, custom software, and UI/UX design.",
     "buttons": [
       {
         "text": "Meet the Team & Our Story",
@@ -40,6 +40,18 @@
       {
         "text": "View Case Study",
         "link": "/services/website-development/#case-studies"
+      }
+    ],
+    "background": "/assets/images/services/website_devlopment_banner.webp"
+  },
+  "ecommerce_website_development": {
+    "title": "Superior E-Commerce Website Development Services to Build Your Online Empire",
+    "description": "In the competitive world of online retail, a generic, off-the-shelf website is not enough to succeed. You need a powerful, scalable, and engaging online store that turns visitors into loyal customers. We are a professional eCommerce website development company dedicated to building high performance digital storefronts. We partner with businesses like yours to create custom online experiences that drive sales, enhance brand loyalty, and deliver measurable results. Choosing the right eCommerce development services is the most critical investment you can make for your business’s future.",
+    "buttons": [
+      {
+        "text": "Request a Free Consultation",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
       }
     ],
     "background": "/assets/images/services/website_devlopment_banner.webp"

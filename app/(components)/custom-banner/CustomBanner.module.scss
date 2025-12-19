@@ -147,4 +147,17 @@
       }
     }
   }
+
+  // Long content styles
+  &.long_content {
+    .content_wrapper {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      text-align: center;
+    }
+
+    .banner_content_btn {
+      justify-content: center;
+    }
+  }
 }

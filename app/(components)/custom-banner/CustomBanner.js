@@ -8,11 +8,12 @@ export default function CustomBanner({
   description,
   buttons,
   background,
+  isLongContent = false,
 }) {
   return (
     <React.Fragment>
       <div
-        className={styles.custom_banner}
+        className={`${styles.custom_banner} ${isLongContent ? styles.long_content : ""}`}
         style={{ backgroundImage: `url(${background})` }}
       >
         <div className="container">
