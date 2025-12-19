@@ -87,7 +87,7 @@
 
   "website_development": [
     {
-      "text": "We’ve trusted Devtrios across multiple projects—web, apps & APIs. Reliable, skilled & always delivering high-quality work on time.",
+      "text": "We've trusted Devtrios across multiple projects—web, apps & APIs. Reliable, skilled & always delivering high-quality work on time.",
       "name": "William Shepard",
       "image": "/assets/images/home/coma.webp"
     },
@@ -104,6 +104,18 @@
     {
       "text": "Our old site looked outdated. Devtrios rebuilt it with Next.js & better SEO—bounce rate cut in half.",
       "name": "DavidH-5419",
+      "image": "/assets/images/home/coma.webp"
+    }
+  ],
+  "wordpress_development": [
+    {
+      "text": "Working with this WordPress development company transformed our digital presence. Our site speed improved by 200%, and lead generation doubled within three months. They are true experts.",
+      "name": "Sarah Jenkins, VP of Marketing, TechFlow Solutions",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "text": "We needed to hire a dedicated WordPress developer for a complex migration. The team handled it flawlessly with zero downtime. Highly recommended for enterprise projects.",
+      "name": "Mark Alistair, CTO, Global Ventures",
       "image": "/assets/images/home/coma.webp"
     }
   ]

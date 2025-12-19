@@ -46,10 +46,22 @@
   },
   "ecommerce_website_development": {
     "title": "Superior E-Commerce Website Development Services to Build Your Online Empire",
-    "description": "In the competitive world of online retail, a generic, off-the-shelf website is not enough to succeed. You need a powerful, scalable, and engaging online store that turns visitors into loyal customers. We are a professional eCommerce website development company dedicated to building high performance digital storefronts. We partner with businesses like yours to create custom online experiences that drive sales, enhance brand loyalty, and deliver measurable results. Choosing the right eCommerce development services is the most critical investment you can make for your business’s future.",
+    "description": "In the competitive world of online retail, a generic, off-the-shelf website is not enough to succeed. You need a powerful, scalable, and engaging online store that turns visitors into loyal customers. We are a professional eCommerce website development company dedicated to building high performance digital storefronts. We partner with businesses like yours to create custom online experiences that drive sales, enhance brand loyalty, and deliver measurable results. Choosing the right eCommerce development services is the most critical investment you can make for your business's future.",
     "buttons": [
       {
         "text": "Request a Free Consultation",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      }
+    ],
+    "background": "/assets/images/services/website_devlopment_banner.webp"
+  },
+  "wordpress_development": {
+    "title": "Trusted WordPress Development Company for Scalable Growth",
+    "description": "You need more than a website; you need a reliable business asset. As a WordPress development company, we build high-performance sites designed to convert visitors into customers. Whether you're launching a new brand or scaling an enterprise-level platform, our team delivers custom solutions built around your goals. Stop settling for cookie-cutter themes that slow you down. It's time to build a platform that works as hard as you do.",
+    "buttons": [
+      {
+        "text": "Get a Free Quote",
         "link": "/get-a-quote",
         "icon": "/assets/images/icons/thunder.svg"
       }

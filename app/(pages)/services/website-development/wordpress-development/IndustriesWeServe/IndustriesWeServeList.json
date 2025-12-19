@@ -1,0 +1,59 @@
+
+
+
+{
+    "heading": {
+      "title": "Industries We Serve",
+      "description": "Our versatile team has delivered successful projects across various sectors:"
+    },
+    "industries": [
+      {
+        "title": "Healthcare & Medical",
+        "description": "HIPAA-compliant portals and patient booking systems."
+      },
+      {
+        "title": "FinTech & Finance",
+        "description": "Secure, data-heavy platforms with complex calculators."
+      },
+      {
+        "title": "Real Estate",
+        "description": "High-performance listing sites with advanced search filters."
+      },
+      {
+        "title": "SaaS & Tech",
+        "description": "Conversion-focused marketing sites for software products."
+      },
+      {
+        "title": "Retail & E-commerce",
+        "description": "High-volume stores with custom functionality."
+      },
+      {
+        "title": "Education & E-Learning",
+        "description": "Platforms for course delivery, student onboarding, and digital assessments."
+      },
+      {
+        "title": "Hospitality & Travel",
+        "description": "Booking engines, reservation systems, and high-speed content-heavy sites."
+      },
+      {
+        "title": "Professional Services",
+        "description": "Corporate websites for law firms, consultants, and service-based businesses."
+      },
+      {
+        "title": "Nonprofits & NGOs",
+        "description": "Donation systems, membership portals, and awareness-driven sites."
+      },
+      {
+        "title": "Logistics & Supply Chain",
+        "description": "Tracking dashboards, partner portals, and operations-focused interfaces."
+      },
+      {
+        "title": "Automotive & Dealerships",
+        "description": "Inventory listings, comparison tools, and enquiry-driven pages."
+      },
+      {
+        "title": "And many more",
+        "description": "Depending on your requirements."
+      }
+    ]
+  }

@@ -13,27 +13,33 @@ export default function CoreServices() {
             <p>{data.heading.description}</p>
           </div>
 
-          <div className={styles.services_grid}>
-            {data.services.map((service, index) => (
-              <div
-                key={index}
-                className={styles.service_card}
-                style={{ backgroundImage: `url(${service.backgroundImg})` }}
-              >
-                <div className={styles.icon_wrapper}>
-                  <Image
-                    src={service.icon}
-                    alt={service.title}
-                    width={60}
-                    height={60}
-                  />
+          <div className={styles.services_container}>
+            {data.services.map((service, index) => {
+              const isEven = index % 2 === 0;
+              return (
+                <div key={index} className={`${styles.service_item} ${isEven ? styles.left_align : styles.right_align}`}>
+                  <div className={styles.content_box}>
+                    <div className={styles.number_section}>
+                      <span className={styles.number}>{String(index + 1).padStart(2, '0')}</span>
+                    </div>
+                    <div className={styles.text_content}>
+                      <h3>{service.title}</h3>
+                      <p>{service.description}</p>
+                    </div>
+                  </div>
+                  <div className={styles.icon_box}>
+                    <div className={styles.icon_wrapper}>
+                      <Image
+                        src={service.icon}
+                        alt={service.title}
+                        width={100}
+                        height={100}
+                      />
+                    </div>
+                  </div>
                 </div>
-                <div className={styles.card_content}>
-                  <h3>{service.title}</h3>
-                  <p>{service.description}</p>
-                </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </div>

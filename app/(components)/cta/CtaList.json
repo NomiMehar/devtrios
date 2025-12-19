@@ -56,5 +56,14 @@
       "href": "/get-a-quote",
       "icon": "/assets/images/home/arrow-circle-right.webp"
     }
+  },
+  "wordpress_development": {
+    "title": "Ready to Build Your High-Performance WordPress Site?",
+    "description": "Stop settling for cookie-cutter themes. Partner with a trusted WordPress development company that prioritizes performance, security, and your ROI. Hire expert WordPress developers today and build a platform that works as hard as you do.",
+    "button": {
+      "text": "Book a Consultation",
+      "href": "/get-a-quote",
+      "icon": "/assets/images/home/arrow-circle-right.webp"
+    }
   }
 }

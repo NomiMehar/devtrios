@@ -1,0 +1,32 @@
+{
+  "heading": {
+    "title": "The Process: How We Work With You",
+    "description": "Transparency is key to our partnership. Here is what happens when you choose us as your WordPress website development agency:"
+  },
+  "steps": [
+    {
+      "title": "Discovery & Strategy",
+      "description": "We dive deep into your business goals, audience, and competitors."
+    },
+    {
+      "title": "Design & UI/UX",
+      "description": "We create wireframes and high-fidelity mockups focused on user journey and conversion."
+    },
+    {
+      "title": "Development",
+      "description": "Our professional WordPress developer team builds your site on a staging server using clean, standard-compliant code."
+    },
+    {
+      "title": "QA & Testing",
+      "description": "We rigorously test for responsiveness, speed, and bugs across all devices and browsers."
+    },
+    {
+      "title": "Launch & Training",
+      "description": "We deploy your site seamlessly and train your team on how to manage it."
+    },
+    {
+      "title": "Growth & Support",
+      "description": "We stay by your side for ongoing improvements and scaling."
+    }
+  ]
+}

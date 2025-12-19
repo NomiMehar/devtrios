@@ -86,5 +86,35 @@
       "title": "How do I hire an eCommerce developer from your team?",
       "desc": "Getting started is easy. Simply contact us through our website or give us a call. We will schedule a free consultation to discuss your project and explain how our team can help you achieve your goals."
     }
+  ],
+  "wordpress_development": [
+    {
+      "title": "What makes you different from other WordPress development companies?",
+      "desc": "We combine technical excellence with business strategy. Unlike a generic WordPress development agency, we focus on your ROI. We write custom code for better performance and security, rather than relying on bloated plugins. Our team consists of senior developers with years of specialized experience."
+    },
+    {
+      "title": "How much do your custom WordPress development services cost?",
+      "desc": "Pricing varies based on project complexity. Affordable WordPress development services doesn't mean \"cheap\"; it means value. We offer competitive rates for high-quality, custom work. Projects can range from simple brochure sites to complex enterprise applications. Contact us for a precise quote based on your needs."
+    },
+    {
+      "title": "Can you help migrate my site from another platform to WordPress?",
+      "desc": "Yes, absolutely. We specialize in seamless migrations from platforms like Drupal, Joomla, Shopify, and Wix. Our WordPress CMS development services ensure all your data—content, images, SEO metadata, and users transfers correctly without losing search rankings."
+    },
+    {
+      "title": "Do you provide ongoing support after the website is launched?",
+      "desc": "Yes. We believe in long-term partnerships. You can hire a dedicated WordPress developer for ongoing retainers or choose one of our maintenance packages. We handle security updates, backups, performance monitoring, and content updates to keep your site secure and fast."
+    },
+    {
+      "title": "How long does it take to build a custom WordPress website?",
+      "desc": "Timelines depend on the scope. A standard custom brochure site typically takes 4–6 weeks, while complex WordPress eCommerce development services or enterprise portals may take 10–14 weeks. We provide a detailed timeline during the discovery phase and adhere strictly to deadlines."
+    },
+    {
+      "title": "Do you offer white-label services for other agencies?",
+      "desc": "Yes, we often partner with marketing and design agencies as their technical arm. You can use our team as your backend WordPress website design & development company. We work strictly behind the scenes to deliver high-quality code under your brand name."
+    },
+    {
+      "title": "Is WordPress secure enough for enterprise businesses?",
+      "desc": "When built correctly, yes. WordPress powers over 40% of the web, including major enterprise brands. As an enterprise WordPress development company, we implement advanced security measures, secure hosting environments, and strict coding standards to ensure your site is fortress-secure."
+    }
   ]
 }
