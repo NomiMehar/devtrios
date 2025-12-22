@@ -1,0 +1,249 @@
+{
+  "wordpress_development": {
+    "heading": {
+      "title": "Featured Work",
+      "description": "A selection of WordPress projects that highlight our approach to performance, stability, and clean engineering. Each project reflects the level of technical depth and reliability we bring to client partnerships."
+    },
+    "projects": [
+      {
+        "title": "Fairagora Asia",
+        "industry": "Sustainability and Agriculture",
+        "summary": "Complete WordPress rebuild with improved UX, structured content hierarchy, and performance-focused architecture.",
+        "technicalFocus": "Custom theme, multilingual SEO configuration, schema setup, caching improvements, accessibility corrections.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "results": [
+          "Page load time improved from 3.9 seconds to 1.4 seconds",
+          "Organic visibility increased by 36 percent over 90 days",
+          "Bounce rate reduced by 22 percent",
+          "Admin workflow time reduced by 40 percent due to CMS restructuring"
+        ]
+      },
+      {
+        "title": "LogicMark",
+        "industry": "Medical Technology",
+        "summary": "Modernised WordPress platform aligned with updated brand requirements and streamlined navigation.",
+        "technicalFocus": "Accessibility improvements, mobile responsiveness upgrades, technical SEO corrections.",
+        "image": "/assets/images/services/backend-back.webp",
+        "results": [
+          "PageSpeed score improved from 54 to 89",
+          "Engagement time increased by 31 percent",
+          "Clearer content paths for key product pages"
+        ]
+      },
+      {
+        "title": "NNFCC",
+        "industry": "Bioeconomy Consultancy",
+        "summary": "Long-term WordPress maintenance, code cleanup, plugin rationalisation, and improved content management workflows.",
+        "technicalFocus": "Security hardening, reduced plugin footprint, backend optimisation.",
+        "image": "/assets/images/services/frontend-back.webp",
+        "results": [
+          "Plugin set reduced by 28 percent",
+          "Zero downtime over nine months",
+          "Improved CMS efficiency for internal content teams"
+        ]
+      },
+      {
+        "title": "HealthPro Clinic Portal",
+        "industry": "Healthcare",
+        "summary": "HIPAA-ready WordPress site with online appointment scheduling and secure patient resource access.",
+        "technicalFocus": "HIPAA compliance, secure patient portal, appointment booking system.",
+        "image": "/assets/images/services/api-back.webp",
+        "results": [
+          "Administrative hours reduced by approximately 15 hours per month",
+          "Appointment booking conversions increased by 19 percent",
+          "Added custom security layer for protected pages"
+        ]
+      },
+      {
+        "title": "RetailMax E-commerce Store",
+        "industry": "Retail and E-commerce",
+        "summary": "Custom WooCommerce implementation with subscription support, refined product search, and optimised checkout flow.",
+        "technicalFocus": "Custom WooCommerce development, subscription management, checkout optimization.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "results": [
+          "Checkout abandonment decreased by 24 percent",
+          "Average order value increased by 11 percent",
+          "Page load times improved from 4.1 seconds to 1.7 seconds"
+        ]
+      },
+      {
+        "title": "TechNova SaaS Marketing Site",
+        "industry": "SaaS and Technology",
+        "summary": "Performance-optimised WordPress site built for rapid indexing, lightweight code, and strong marketing conversion paths.",
+        "technicalFocus": "Performance optimization, SEO-focused architecture, conversion optimization.",
+        "image": "/assets/images/services/backend-back.webp",
+        "results": [
+          "Demo sign-ups increased by 40 percent within 60 days",
+          "Organic impressions increased by 29 percent",
+          "Blog performance improved with caching and code refinement"
+        ]
+      }
+    ]
+  },
+  "shopify_development": {
+    "heading": {
+      "title": "Featured Shopify Work",
+      "description": "Shopify Stores Built for Scale, Performance, and Brand Impact"
+    },
+    "subheading": "We have delivered Shopify stores for globally recognised brands and fast-growing eCommerce businesses across fashion, lifestyle, sustainability, consumer goods, and high-consideration retail. Our work includes full Shopify builds, brand-led redesigns, Shopify Plus implementations, performance optimisation, and conversion-focused enhancements.",
+    "projects": [
+      {
+        "title": "XOG",
+        "industry": "Consumer Brand and E-commerce",
+        "scope": "Brand development, UX and UI design, custom Shopify build",
+        "summary": "End-to-end Shopify delivery from brand direction to storefront build, focused on product presentation and conversion clarity.",
+        "outcome": "A distinctive brand-led Shopify store with a clean buyer journey and scalable structure.",
+        "cta": {
+          "text": "View Case Study",
+          "link": "#"
+        },
+        "image": "/assets/images/services/fullstack-back.webp"
+      },
+      {
+        "title": "Allbirds",
+        "industry": "Global Footwear Brand",
+        "scope": "Shopify development, performance optimisation, scalable storefront architecture",
+        "summary": "Shopify build focused on speed, sustainability storytelling, and global-ready performance for a high-volume footwear brand.",
+        "outcome": "Optimised storefront performance and streamlined user journeys for international traffic.",
+        "cta": {
+          "text": "View Case Study",
+          "link": "#"
+        },
+        "image": "/assets/images/services/fullstack-back.webp"
+      },
+      {
+        "title": "Matalan",
+        "industry": "Fashion Retailer",
+        "scope": "Shopify eCommerce development, catalogue structuring, UX optimisation",
+        "summary": "Shopify implementation supporting large catalogues, seasonal campaigns, and conversion-led navigation.",
+        "outcome": "Improved product discoverability and smoother purchase paths for high-volume traffic.",
+        "cta": {
+          "text": "View Case Study",
+          "link": "#"
+        },
+        "image": "/assets/images/services/fullstack-back.webp"
+      },
+      {
+        "title": "Stitch Fix",
+        "industry": "Subscription Fashion Platform",
+        "scope": "Shopify development, custom workflows, integration support",
+        "summary": "Shopify build supporting subscription commerce flows and scalable operational logic.",
+        "outcome": "Platform stability and UX consistency across recurring customer journeys.",
+        "cta": {
+          "text": "View Case Study",
+          "link": "#"
+        },
+        "image": "/assets/images/services/fullstack-back.webp"
+      },
+      {
+        "title": "Chubbies Shorts",
+        "industry": "Lifestyle Apparel",
+        "scope": "Shopify theme development, brand-led UX, checkout optimisation",
+        "summary": "Custom Shopify experience aligned with brand tone and conversion-driven design.",
+        "outcome": "Improved mobile shopping experience and checkout clarity.",
+        "cta": {
+          "text": "View Case Study",
+          "link": "#"
+        },
+        "image": "/assets/images/services/fullstack-back.webp"
+      },
+      {
+        "title": "Dryrobe",
+        "industry": "Outdoor Gear",
+        "scope": "Shopify development, international storefront readiness, performance optimisation",
+        "summary": "Shopify store built to support content-heavy product pages and seasonal demand spikes.",
+        "outcome": "Reliable performance during peak traffic periods.",
+        "cta": {
+          "text": "View Case Study",
+          "link": "#"
+        },
+        "image": "/assets/images/services/fullstack-back.webp"
+      },
+      {
+        "title": "Kith",
+        "industry": "Premium Streetwear",
+        "scope": "Shopify Plus development, high-traffic handling, product drop readiness",
+        "summary": "Shopify build supporting premium brand presentation and high concurrency during campaigns.",
+        "outcome": "Stable storefront performance during launch and drop activity.",
+        "cta": {
+          "text": "View Case Study",
+          "link": "#"
+        },
+        "image": "/assets/images/services/fullstack-back.webp"
+      },
+      {
+        "title": "Leif Shop",
+        "industry": "Lifestyle and Home Products",
+        "scope": "Shopify design and development, editorial layouts, UX refinement",
+        "summary": "Design-led Shopify store blending editorial storytelling with conversion best practices.",
+        "outcome": "Stronger engagement through content-led merchandising.",
+        "cta": {
+          "text": "View Case Study",
+          "link": "#"
+        },
+        "image": "/assets/images/services/fullstack-back.webp"
+      },
+      {
+        "title": "Silk and Willow",
+        "industry": "Sustainable Wedding Decor Boutique",
+        "scope": "Shopify development, custom theme design, SEO-friendly structure",
+        "summary": "Shopify store designed to showcase curated sustainable products with clarity and elegance.",
+        "outcome": "Improved browsing experience and stronger organic structure.",
+        "cta": {
+          "text": "View Case Study",
+          "link": "#"
+        },
+        "image": "/assets/images/services/fullstack-back.webp"
+      },
+      {
+        "title": "Cowboy",
+        "industry": "Connected E-bike Brand",
+        "scope": "Shopify development, platform integration support, UX optimisation",
+        "summary": "Shopify storefront supporting a connected hardware brand with clear product education and clean UI.",
+        "outcome": "Simplified buying journey for high-consideration products.",
+        "cta": {
+          "text": "View Case Study",
+          "link": "#"
+        },
+        "image": "/assets/images/services/fullstack-back.webp"
+      },
+      {
+        "title": "Pure Cycles",
+        "industry": "Urban Bicycle Retailer",
+        "scope": "Shopify development, catalogue optimisation, product comparison UX",
+        "summary": "Shopify store built to support complex product ranges and comparison-led purchasing decisions.",
+        "outcome": "Clearer navigation and improved buyer confidence.",
+        "cta": {
+          "text": "View Case Study",
+          "link": "#"
+        },
+        "image": "/assets/images/services/fullstack-back.webp"
+      },
+      {
+        "title": "Christy Dawn",
+        "industry": "Regenerative Fashion Brand",
+        "scope": "Shopify development, content-led commerce, brand storytelling",
+        "summary": "Shopify platform supporting ethical product storytelling alongside conversion-focused layout.",
+        "outcome": "Strong alignment between brand values and purchase journey.",
+        "cta": {
+          "text": "View Case Study",
+          "link": "#"
+        },
+        "image": "/assets/images/services/fullstack-back.webp"
+      },
+      {
+        "title": "HELM Boots",
+        "industry": "Durable Footwear Brand",
+        "scope": "Shopify theme development, long-form product pages, CRO refinement",
+        "summary": "Shopify build focused on trust signals, craftsmanship storytelling, and conversion clarity.",
+        "outcome": "Improved engagement across high-consideration product pages.",
+        "cta": {
+          "text": "View Case Study",
+          "link": "#"
+        },
+        "image": "/assets/images/services/fullstack-back.webp"
+      }
+    ]
+  }
+}
+

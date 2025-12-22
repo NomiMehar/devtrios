@@ -2,59 +2,44 @@ import React from "react";
 import Head from "next/head";
 import CustomBanner from "@/app/(components)/custom-banner/CustomBanner";
 import bannerData from "@/app/(components)/custom-banner/CustomBannerList.json";
-import CompaniesSlider from "@/app/(components)/companies-slider/CompaniesSlider";
-import CompaniesList from "@/app/(components)/companies-slider/CompaniesList.json";
-import AboutDevtrios from "@/app/(components)/about-devtrios/AboutDevtrios";
-import AboutList from "@/app/(components)/about-devtrios/AboutList.json";
-import AboutServices from "@/app/(components)/about-services/AboutServices";
-import DevelopmentExpertise from "@/app/(components)/development-expertise/DevelopmentExpertise";
-import DevelopmentServices from "@/app/(components)/development-services/DevelopmentServices";
-import KeyMetrics from "@/app/(components)/key-metrics/KeyMetrics";
-import OurExpertise from "@/app/(components)/our-expertise/OurExpertise";
-import TechnologyStack from "@/app/(components)/technology-stack/TechnologyStack";
-import Testimonials from "@/app/(components)/testimonials/Testimonials";
-import TestimonialList from "@/app/(components)/testimonials/TestimonialList.json";
+import WebsiteFeatures from "@/app/(components)/website-features/WebsiteFeatures";
+import WebsiteServices from "@/app/(components)/website-services/WebsiteServices";
+import WebsiteWhyChoose from "@/app/(components)/website-why-choose/WebsiteWhyChoose";
 import Cta from "@/app/(components)/cta/Cta";
 import CtaList from "@/app/(components)/cta/CtaList.json";
-import Blogs from "@/app/(components)/blogs/Blogs";
-import Faqs from "@/app/(components)/faqs/Faqs";
 
 export default function websiteDevelopment() {
   const customBannerData = bannerData.website_development;
-  const companiesData = CompaniesList.website_development;
-  const aboutData = AboutList.website_development;
   const ctaData = CtaList.website_development;
-
   return (
     <React.Fragment>
       <Head>
         <title>
-          Devtrios | Expert Web & App Development, UI/UX Design & Digital
-          Marketing
+          Website Development Services | High-Performance Websites That Convert
         </title>
         <meta
           name="description"
-          content="From modern websites to powerful apps and marketing Devtrios helps businesses scale with innovative design, technology, and performance-focused solutions."
+          content="We design and develop fast, secure, and conversion-focused websites that help businesses attract traffic, engage users, and turn visitors into customers."
         />
-        <link rel="canonical" href="https://devtrios.com/" />
+        <link rel="canonical" href="https://devtrios.com/services/website-development/" />
         <link
           rel="shortcut icon"
           href="/assets/images/header/favicon.webp"
           type="image/x-icon"
         />
-        <meta property="og:title" content="Devtrios" />
+        <meta property="og:title" content="Website Development Services | High-Performance Websites That Convert" />
         <meta
           property="og:description"
-          content="From modern websites to powerful apps and marketing Devtrios helps businesses scale with innovative design, technology, and performance-focused solutions."
+          content="We design and develop fast, secure, and conversion-focused websites that help businesses attract traffic, engage users, and turn visitors into customers."
         />
         <meta
           property="og:image"
           content="/assets/images/header/favicon.webp"
         />
-        <meta name="twitter:title" content="Devtrios" />
+        <meta name="twitter:title" content="Website Development Services | High-Performance Websites That Convert" />
         <meta
           name="twitter:description"
-          content="From modern websites to powerful apps and marketing Devtrios helps businesses scale with innovative design, technology, and performance-focused solutions."
+          content="We design and develop fast, secure, and conversion-focused websites that help businesses attract traffic, engage users, and turn visitors into customers."
         />
         <meta
           name="twitter:image"
@@ -66,27 +51,12 @@ export default function websiteDevelopment() {
         description={customBannerData.description}
         buttons={customBannerData.buttons}
         background={customBannerData.background}
+        isLongContent={true}
       />
-      <CompaniesSlider
-        title={companiesData.title}
-        images={companiesData.images}
-        description={companiesData.description}
-        basePath={companiesData.basePath}
-      />
-      <AboutDevtrios
-        title={aboutData.title}
-        description={aboutData.description}
-      />
-      <AboutServices type="mobile_app" />
-      <DevelopmentExpertise />
-      <DevelopmentServices />
-      <OurExpertise />
-      <KeyMetrics type="website_development" />
-      <TechnologyStack />
-      <Testimonials list={TestimonialList.website_development} />
-      <Cta data={ctaData} />
-      <Blogs />
-      <Faqs type="website_development" />
+      <WebsiteFeatures />
+      <WebsiteServices />
+      <WebsiteWhyChoose />
+        <Cta data={ctaData} />
     </React.Fragment>
   );
 }

@@ -1,0 +1,94 @@
+{
+  "wordpress_development": {
+    "heading": {
+      "title": "Maintenance, Performance & Security Services",
+      "description": "A launch is just the beginning. To keep your site performing at its peak, you need ongoing care."
+    },
+    "services": [
+      {
+        "title": "Performance Optimisation",
+        "description": "We audit and refine code, images, and server settings to ensure top-tier speed.",
+        "icon": "/assets/images/services/devtrios_icon.svg",
+        "backgroundImg": "/assets/images/services/api-back.webp"
+      },
+      {
+        "title": "Security Hardening",
+        "description": "Regular malware scans, firewall setup, and vulnerability patching keep bad actors out.",
+        "icon": "/assets/images/services/devtrios_icon.svg",
+        "backgroundImg": "/assets/images/services/fullstack-back.webp"
+      },
+      {
+        "title": "Updates & Backups",
+        "description": "We manage core, theme, and plugin updates safely, with daily backups to ensure business continuity.",
+        "icon": "/assets/images/services/devtrios_icon.svg",
+        "backgroundImg": "/assets/images/services/backend-back.webp"
+      },
+      {
+        "title": "24/7 Monitoring",
+        "description": "We watch your site around the clock so you can sleep soundly.",
+        "icon": "/assets/images/services/devtrios_icon.svg",
+        "backgroundImg": "/assets/images/services/frontend-back.webp"
+      }
+    ],
+    "closing": "Our WordPress maintenance services help prevent costly downtime and keep your site secure, stable, and fast."
+  },
+  "ecommerce_website_development": {
+    "heading": {
+      "title": "Beyond the Build: Long Term Success and Support",
+      "description": "A successful online store requires continuous care. We provide a full range of services to ensure your investment continues to deliver returns long after launch day."
+    },
+    "services": [
+      {
+        "title": "E-Commerce Website Maintenance Services",
+        "description": "Keep your store secure, updated, and running smoothly with our proactive maintenance packages.",
+        "icon": "/assets/images/services/devtrios_icon.svg",
+        "backgroundImg": "/assets/images/services/api-back.webp"
+      },
+      {
+        "title": "eCommerce Website Redesign Services",
+        "description": "Is your current site looking dated or underperforming? We can revitalize your online presence with a strategic redesign focused on modern user experience and improved conversion rates.",
+        "icon": "/assets/images/services/devtrios_icon.svg",
+        "backgroundImg": "/assets/images/services/fullstack-back.webp"
+      },
+      {
+        "title": "eCommerce Store Migration Services",
+        "description": "Seamlessly move your store to a new platform without losing valuable data or search engine rankings. Our meticulous migration process ensures a smooth transition with minimal downtime.",
+        "icon": "/assets/images/services/devtrios_icon.svg",
+        "backgroundImg": "/assets/images/services/backend-back.webp"
+      }
+    ]
+  },
+  "shopify_development": {
+    "heading": {
+      "title": "Ongoing Support and Growth",
+      "description": "A successful launch is just the beginning. To keep your store performing at its peak, you need continuous care. We offer reliable Shopify maintenance services to keep your plugins updated and your security tight."
+    },
+    "services": [
+      {
+        "title": "Shopify Store Performance and Security",
+        "description": "Our Shopify store performance and security services are designed to prevent downtime, protect customer data, and maintain consistent speed under load.",
+        "icon": "/assets/images/services/devtrios_icon.svg",
+        "backgroundImg": "/assets/images/services/api-back.webp"
+      },
+      {
+        "title": "Shopify Speed Optimization Services",
+        "description": "Speed kills the competition but a slow site kills conversions. We analyze your store performance and implement technical fixes to slash load times. Faster sites rank better in Google and keep customers happy.",
+        "icon": "/assets/images/services/devtrios_icon.svg",
+        "backgroundImg": "/assets/images/services/fullstack-back.webp"
+      },
+      {
+        "title": "Shopify Store Redesign Services",
+        "description": "Is your current site looking outdated? We breathe new life into existing stores. Our redesign process improves navigation, modernizes visuals, and optimizes conversion paths to refresh your brand image.",
+        "icon": "/assets/images/services/devtrios_icon.svg",
+        "backgroundImg": "/assets/images/services/backend-back.webp"
+      },
+      {
+        "title": "Shopify Checkout Optimisation & Conversion Performance",
+        "description": "A fast store means nothing if checkout friction kills conversions. We analyse and optimise Shopify checkout flows to reduce drop-offs, improve payment success rates, and increase completed purchases. Our Shopify checkout optimisation for conversions focuses on speed, clarity, and trust, ensuring customers complete their purchase without hesitation.",
+        "icon": "/assets/images/services/devtrios_icon.svg",
+        "backgroundImg": "/assets/images/services/frontend-back.webp"
+      }
+    ]
+  }
+}
+

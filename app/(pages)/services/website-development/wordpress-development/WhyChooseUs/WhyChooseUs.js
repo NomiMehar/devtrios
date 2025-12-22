@@ -42,7 +42,6 @@ export default function WhyChooseUs() {
             </div>
 
             <div className={styles.central_image}>
-              <div className={styles.image_background}></div>
               <div className={styles.image_wrapper}>
                 <Image
                   src="/assets/images/services/fullstack-back.webp"

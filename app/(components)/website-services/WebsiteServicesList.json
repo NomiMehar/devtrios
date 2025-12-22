@@ -1,0 +1,51 @@
+{
+  "heading": {
+    "title": "Our Website Development Solutions",
+    "description": "We offer end-to-end website development services to support businesses at every stage — from startups to growing enterprises."
+  },
+  "services": [
+    {
+      "title": "WordPress Development",
+      "description": "Flexible, scalable, and easy to manage. We build custom WordPress websites optimized for speed, SEO, and long-term growth.",
+      "link": "/services/website-development/wordpress-development",
+      "linkText": "Explore WordPress Development"
+    },
+    {
+      "title": "Shopify Development",
+      "description": "Sell smarter with a powerful Shopify store. From custom themes to advanced integrations, we create eCommerce experiences that convert.",
+      "link": "/services/website-development/shopify-development",
+      "linkText": "View Shopify Solutions"
+    },
+    {
+      "title": "E-Commerce Website Development",
+      "description": "Robust, secure, and conversion-optimized online stores tailored to your business model and audience.",
+      "link": "/services/website-development/ecommerce-website-development",
+      "linkText": "Build Your Online Store"
+    },
+    {
+      "title": "Landing Page Development",
+      "description": "High-impact landing pages designed to generate leads, boost conversions, and support paid marketing campaigns.",
+      "link": "/services/website-development/landing-page-development",
+      "linkText": "Create High-Converting Pages"
+    },
+    {
+      "title": "Custom Website Development",
+      "description": "Need something unique? We develop fully custom websites with tailored functionality, integrations, and performance optimization.",
+      "link": "/services/website-development/custom-website-development",
+      "linkText": "Custom Website Solutions"
+    },
+    {
+      "title": "Webflow Development",
+      "description": "Modern, visually stunning, and lightning-fast Webflow websites with complete design flexibility and clean performance.",
+      "link": "/services/website-development/webflow-development",
+      "linkText": "Explore Webflow Development"
+    },
+    {
+      "title": "Website Maintenance & Support",
+      "description": "Keep your website secure, updated, and running smoothly with ongoing maintenance, backups, and performance monitoring.",
+      "link": "/services/website-development/website-maintenance",
+      "linkText": "View Maintenance Plans"
+    }
+  ]
+}
+

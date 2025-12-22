@@ -1,0 +1,91 @@
+{
+  "wordpress_development": {
+    "heading": {
+      "title": "The Process: How We Work With You",
+      "description": "Transparency is key to our partnership. Here is what happens when you choose us as your WordPress website development agency:"
+    },
+    "steps": [
+      {
+        "title": "Discovery & Strategy",
+        "description": "We dive deep into your business goals, audience, and competitors."
+      },
+      {
+        "title": "Design & UI/UX",
+        "description": "We create wireframes and high-fidelity mockups focused on user journey and conversion."
+      },
+      {
+        "title": "Development",
+        "description": "Our professional WordPress developer team builds your site on a staging server using clean, standard-compliant code."
+      },
+      {
+        "title": "QA & Testing",
+        "description": "We rigorously test for responsiveness, speed, and bugs across all devices and browsers."
+      },
+      {
+        "title": "Launch & Training",
+        "description": "We deploy your site seamlessly and train your team on how to manage it."
+      },
+      {
+        "title": "Growth & Support",
+        "description": "We stay by your side for ongoing improvements and scaling."
+      }
+    ]
+  },
+  "ecommerce_website_development": {
+    "heading": {
+      "title": "From Concept to Conversion: Our Proven Process",
+      "description": "We believe that a successful eCommerce store is built on a foundation of strategy, design, and technology. Our approach to eCommerce website design and development ensures every element of your site is optimized for performance and conversion."
+    },
+    "steps": [
+      {
+        "title": "Discovery and Strategy",
+        "description": "We start by understanding your vision, target market, and business objectives. This allows us to create a strategic roadmap for your project."
+      },
+      {
+        "title": "Design and User Experience",
+        "description": "Our eCommerce website design company creates visually stunning and intuitive interfaces that guide users effortlessly from browsing to checkout."
+      },
+      {
+        "title": "Development and Integration",
+        "description": "Our expert developers bring the designs to life, building clean code and integrating essential tools, from payment gateways to inventory management systems. We specialize in everything from eCommerce shopping cart development to complex third party API connections."
+      },
+      {
+        "title": "Launch and Optimization",
+        "description": "We don't just build and walk away. After a rigorous testing phase, we launch your site and provide ongoing eCommerce website speed optimization services to ensure peak performance."
+      }
+    ]
+  },
+  "shopify_development": {
+    "heading": {
+      "title": "From Vision to Launch: Our Shopify Development Process",
+      "description": "We believe in a transparent, collaborative approach. Here's how we transform your vision into a high-performing Shopify store:"
+    },
+    "steps": [
+      {
+        "title": "Discovery & Strategy",
+        "description": "We dive deep into your brand, target audience, and business goals to create a strategic roadmap for your Shopify store."
+      },
+      {
+        "title": "Design & UX",
+        "description": "Our design team creates stunning, conversion-focused interfaces that reflect your brand identity and guide customers seamlessly to checkout."
+      },
+      {
+        "title": "Development & Customization",
+        "description": "We build custom themes, apps, and features tailored to your business needs, ensuring your store operates exactly how you envision it."
+      },
+      {
+        "title": "Integration & Setup",
+        "description": "We integrate payment gateways, shipping providers, and third-party systems, configuring everything for optimal performance."
+      },
+      {
+        "title": "Testing & Optimization",
+        "description": "Rigorous testing across devices and browsers ensures flawless functionality, speed, and user experience."
+      },
+      {
+        "title": "Launch & Growth",
+        "description": "We launch your store seamlessly and provide ongoing support to help you scale and optimize for continued growth."
+      }
+    ]
+  }
+}
+

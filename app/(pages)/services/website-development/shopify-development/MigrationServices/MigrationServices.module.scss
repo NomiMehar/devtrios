@@ -1,0 +1,251 @@
+@use "../../../../../../styles/variables" as *;
+
+.migration_services {
+  padding-top: 130px;
+  
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding-top: 100px;
+  }
+  
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding-top: 70px;
+  }
+
+  .section_wrapper {
+    .section_header {
+      margin: 0 auto 65px;
+      max-width: 1000px;
+      text-align: center;
+      
+      @media screen and (max-width: $breakpoint_tablet) {
+        margin: 0 auto 50px;
+      }
+      
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        margin: 0 auto 40px;
+      }
+
+      h2 {
+        color: $dark_color;
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 1.4;
+        margin-bottom: 20px;
+        
+        @media screen and (max-width: $breakpoint_tablet) {
+          font-size: 38px;
+        }
+        
+        @media screen and (max-width: $breakpoint_mobile_portrait) {
+          font-size: 28px;
+        }
+      }
+
+      p {
+        font-size: 22px;
+        line-height: 1.6;
+        color: $gray_color;
+        margin: 0;
+        
+        @media screen and (max-width: $breakpoint_tablet) {
+          font-size: 18px;
+        }
+        
+        @media screen and (max-width: $breakpoint_mobile_portrait) {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .content_wrapper {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 35px;
+      
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        gap: 30px;
+      }
+
+      .content_section {
+        .content_block {
+          background: $white_color;
+          border-radius: 24px;
+          padding: 50px 60px;
+          position: relative;
+          border-left: 6px solid #0045ff;
+          box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+          transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+          
+          @media screen and (max-width: $breakpoint_tablet) {
+            padding: 40px 50px;
+          }
+          
+          @media screen and (max-width: $breakpoint_mobile_portrait) {
+            padding: 35px 30px;
+            border-radius: 20px;
+            border-left-width: 4px;
+          }
+
+          &:hover {
+            transform: translateX(8px);
+            box-shadow: 0 15px 45px rgba(0, 69, 255, 0.15);
+            border-left-color: #00a3ff;
+          }
+
+          .description {
+            font-size: 18px;
+            line-height: 1.9;
+            color: $gray_color;
+            margin: 0;
+            position: relative;
+            z-index: 2;
+            
+            @media screen and (max-width: $breakpoint_tablet) {
+              font-size: 17px;
+            }
+            
+            @media screen and (max-width: $breakpoint_mobile_portrait) {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+
+      .highlight_section {
+        .highlight_wrapper {
+          background: linear-gradient(135deg, rgba(66, 115, 252, 0.06) 0%, rgba(0, 163, 255, 0.06) 100%);
+          border: 2px solid rgba(66, 115, 252, 0.12);
+          border-radius: 24px;
+          padding: 40px 50px;
+          display: flex;
+          gap: 30px;
+          align-items: flex-start;
+          position: relative;
+          overflow: hidden;
+          transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+          
+          @media screen and (max-width: $breakpoint_tablet) {
+            padding: 35px 40px;
+            gap: 25px;
+          }
+          
+          @media screen and (max-width: $breakpoint_mobile_portrait) {
+            padding: 30px;
+            flex-direction: column;
+            gap: 20px;
+            border-radius: 20px;
+          }
+
+          &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 100%;
+            background: linear-gradient(90deg, rgba(0, 69, 255, 0.1) 0%, rgba(0, 163, 255, 0.1) 100%);
+            transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+          }
+
+          &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(66, 115, 252, 0.15);
+            border-color: rgba(66, 115, 252, 0.25);
+
+            &::before {
+              width: 100%;
+            }
+
+            .highlight_icon {
+              background: linear-gradient(135deg, #0045ff 0%, #00a3ff 100%);
+              &::before {
+                color: $white_color;
+              }
+            }
+          }
+
+          .highlight_icon_wrapper {
+            flex-shrink: 0;
+            position: relative;
+            z-index: 2;
+          }
+
+          .highlight_icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 20px;
+            background: linear-gradient(135deg, rgba(66, 115, 252, 0.15) 0%, rgba(0, 163, 255, 0.15) 100%);
+            border: 3px solid rgba(66, 115, 252, 0.2);
+            position: relative;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            
+            @media screen and (max-width: $breakpoint_mobile_portrait) {
+              width: 70px;
+              height: 70px;
+              border-radius: 18px;
+            }
+
+            &::before {
+              content: "✓";
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              font-size: 36px;
+              font-weight: 700;
+              color: #0045ff;
+              transition: all 0.3s ease;
+              
+              @media screen and (max-width: $breakpoint_mobile_portrait) {
+                font-size: 32px;
+              }
+            }
+
+            &:hover::before {
+              color: $white_color;
+            }
+          }
+
+          .highlight_content {
+            flex: 1;
+            position: relative;
+            z-index: 2;
+            
+            .highlight_label {
+              font-size: 14px;
+              font-weight: 700;
+              color: #0045ff;
+              text-transform: uppercase;
+              letter-spacing: 1px;
+              margin-bottom: 15px;
+              
+              @media screen and (max-width: $breakpoint_mobile_portrait) {
+                font-size: 13px;
+                margin-bottom: 12px;
+              }
+            }
+
+            .highlight_text {
+              font-size: 19px;
+              line-height: 1.8;
+              color: $dark_color;
+              margin: 0;
+              font-weight: 600;
+              
+              @media screen and (max-width: $breakpoint_tablet) {
+                font-size: 18px;
+              }
+              
+              @media screen and (max-width: $breakpoint_mobile_portrait) {
+                font-size: 17px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

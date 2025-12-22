@@ -11,9 +11,19 @@ export default function Cta({ data }) {
             <h2>{data.title}</h2>
             <p>{data.description}</p>
             <div className={styles.button_wrapper}>
-              <Button href={data.button.href} icon={data.button.icon}>
-                {data.button.text}
-              </Button>
+              {data.buttons && data.buttons.length > 0 ? (
+                data.buttons.map((button, index) => (
+                  <Button key={index} href={button.href} icon={button.icon}>
+                    {button.text}
+                  </Button>
+                ))
+              ) : (
+                data.button && (
+                  <Button href={data.button.href} icon={data.button.icon}>
+                    {data.button.text}
+                  </Button>
+                )
+              )}
             </div>
           </div>
         </div>

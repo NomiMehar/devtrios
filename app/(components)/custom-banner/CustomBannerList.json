@@ -29,19 +29,9 @@
     "background": "/assets/images/services/services_banner.webp"
   },
   "website_development": {
-    "title": "Web Development Services in London That Drive Growth",
-    "description": "We build fast, secure, and scalable websites from CMS platforms like WordPress to custom full-stack development.",
-    "buttons": [
-      {
-        "text": "Free Website Audit",
-        "link": "/get-a-quote",
-        "icon": "/assets/images/icons/thunder.svg"
-      },
-      {
-        "text": "View Case Study",
-        "link": "/services/website-development/#case-studies"
-      }
-    ],
+    "title": "High-Performance Websites Built to Convert, Scale & Grow",
+    "description": "Your website is more than just an online presence — it's your digital sales engine. We design and develop fast, secure, and conversion-focused websites that help businesses attract traffic, engage users, and turn visitors into customers. Whether you need a custom-built platform, an eCommerce store, or a high-converting landing page, our website development services are tailored to meet your business goals — not just look good.",
+    "buttons": [],
     "background": "/assets/images/services/website_devlopment_banner.webp"
   },
   "ecommerce_website_development": {
@@ -62,6 +52,18 @@
     "buttons": [
       {
         "text": "Get a Free Quote",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      }
+    ],
+    "background": "/assets/images/services/website_devlopment_banner.webp"
+  },
+  "shopify_development": {
+    "title": "Expert Shopify Development Services That Drive Sales and Growth",
+    "description": "You have a vision for your brand. You want an online store that looks stunning and converts visitors into loyal customers. We are a Shopify development partner that turns that vision into reality. In the fast moving world of digital retail, your website is the heart of your business. It needs to be fast, secure, and built to scale. Our team provides top tier Shopify website development services tailored to your unique goals. We do not just build stores. We create digital experiences that elevate your brand and maximize your revenue. As a leading Shopify development agency, we understand that every business is different. Whether you are a startup launching your first product or an established enterprise seeking a platform overhaul, we have the expertise you need. Our approach combines technical precision with creative strategy to deliver a store that stands out in a crowded market.",
+    "buttons": [
+      {
+        "text": "Request a Free Consultation",
         "link": "/get-a-quote",
         "icon": "/assets/images/icons/thunder.svg"
       }

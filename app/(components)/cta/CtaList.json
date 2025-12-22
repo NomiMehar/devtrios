@@ -40,13 +40,20 @@
   },
 
   "website_development": {
-    "title": "Build Websites That Drive Growth, Speed, and Conversions",
-    "description": "Devtrios designs and develops high-performance websites that load fast, scale seamlessly, and convert better. Trusted across 16+ industries, we've delivered 100+ websites that combine UX, SEO, and security for measurable results.",
-    "button": {
-      "text": "Start Your Website Project",
-      "href": "/contact-us",
-      "icon": "/assets/images/home/arrow-circle-right.webp"
-    }
+    "title": "Ready to Build Your Website?",
+    "description": "Whether you’re launching a new site or upgrading an existing one, our team is ready to help you create a website that delivers real results.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+        {
+          "text": "Get Started",
+          "href": "/contact-us",
+          "icon": "/assets/images/home/arrow-circle-right.webp"
+        }
+    ]
   },
   "ecommerce_website_development": {
     "title": "Ready to Build Your High-Growth Online Store?",
@@ -57,13 +64,20 @@
       "icon": "/assets/images/home/arrow-circle-right.webp"
     }
   },
-  "wordpress_development": {
-    "title": "Ready to Build Your High-Performance WordPress Site?",
-    "description": "Stop settling for cookie-cutter themes. Partner with a trusted WordPress development company that prioritizes performance, security, and your ROI. Hire expert WordPress developers today and build a platform that works as hard as you do.",
-    "button": {
-      "text": "Book a Consultation",
-      "href": "/get-a-quote",
-      "icon": "/assets/images/home/arrow-circle-right.webp"
-    }
+  "shopify_development": {
+    "title": "Ready to Scale Your Business?",
+    "description": "Your dream store is just a conversation away. Do not let technical limitations hold your business back. Partner with a team that has the passion and expertise to deliver excellence. If you want to dominate your niche, the time to act is now. Hire Shopify development agency experts who deliver proven results. Let us build a powerful sales engine for your brand. Contact Our Shopify Experts today to discuss your project.",
+    "buttons": [
+      {
+        "text": "Request a Free Consultation",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Get Started",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
   }
 }

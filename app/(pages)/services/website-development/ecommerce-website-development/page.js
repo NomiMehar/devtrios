@@ -5,8 +5,8 @@ import bannerData from "@/app/(components)/custom-banner/CustomBannerList.json";
 import Cta from "@/app/(components)/cta/Cta";
 import CtaList from "@/app/(components)/cta/CtaList.json";
 import CoreServices from "./CoreServices/CoreServices";
-import ProcessSteps from "./ProcessSteps/ProcessSteps";
-import SupportServices from "./SupportServices/SupportServices";
+import ProcessSteps from "@/app/(components)/process-steps/ProcessSteps";
+import SupportServices from "@/app/(components)/support-services/SupportServices";
 import Faqs from "@/app/(components)/faqs/Faqs";
 
 export default function EcommerceWebsiteDevelopment() {
@@ -56,8 +56,8 @@ export default function EcommerceWebsiteDevelopment() {
         isLongContent={true}
       />
       <CoreServices />
-      <ProcessSteps />
-      <SupportServices />
+      <ProcessSteps type="ecommerce_website_development" />
+      <SupportServices type="ecommerce_website_development" />
       <Cta data={ctaData} />
       <Faqs type="ecommerce_website_development" />
     </React.Fragment>

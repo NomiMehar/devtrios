@@ -79,9 +79,9 @@ ul li {
         margin-right: 10px;
         transition: all 0.4s ease-in-out;
         object-fit: contain;
-        filter: brightness(0.3);
-        width: 30px;
-        height: 30px;
+        filter: contrast(0);
+        width: 25px;
+        height: 25px;
       }
     }
     .mega_sub_menu {

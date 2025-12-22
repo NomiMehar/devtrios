@@ -1,0 +1,205 @@
+@use "../../../styles/variables" as *;
+
+.support_services {
+  padding-top: 130px;
+  
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding-top: 100px;
+  }
+  
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding-top: 70px;
+  }
+
+  .section_wrapper {
+    .section_header {
+      margin: 0 auto 65px;
+      max-width: 1000px;
+      text-align: center;
+      
+      @media screen and (max-width: $breakpoint_tablet) {
+        margin: 0 auto 50px;
+      }
+      
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        margin: 0 auto 40px;
+      }
+
+      h2 {
+        color: $dark_color;
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 1.4;
+        margin-bottom: 20px;
+        
+        @media screen and (max-width: $breakpoint_tablet) {
+          font-size: 38px;
+        }
+        
+        @media screen and (max-width: $breakpoint_mobile_portrait) {
+          font-size: 28px;
+        }
+      }
+
+      p {
+        font-size: 22px;
+        line-height: 1.6;
+        color: $gray_color;
+        margin: 0;
+        
+        @media screen and (max-width: $breakpoint_tablet) {
+          font-size: 18px;
+        }
+        
+        @media screen and (max-width: $breakpoint_mobile_portrait) {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .support_grid {
+    display: grid;
+    gap: 20px;
+    
+    &.grid_2 {
+      grid-template-columns: repeat(2, 1fr);
+      
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+    
+    &.grid_4 {
+      grid-template-columns: repeat(4, 1fr);
+      
+      @media screen and (max-width: $breakpoint_mini_laptop) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
+    &.grid_3 {
+      grid-template-columns: repeat(3, 1fr);
+      
+      @media screen and (max-width: $breakpoint_mini_laptop) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
+    .support_card {
+      border-radius: 30px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding: 35px;
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      position: relative;
+      overflow: hidden;
+      min-height: 250px;
+      
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        padding: 25px;
+        min-height: 220px;
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(135deg, #000000eb 0%, #135479e0 100%);
+        opacity: 0.9;
+        transition: opacity 0.3s ease;
+      }
+
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 20px 40px rgba(0, 69, 255, 0.25);
+        
+        &::before {
+          opacity: 1;
+        }
+
+        .support_icon img {
+          transform: scale(1.15) rotate(-5deg);
+        }
+      }
+
+      .support_icon {
+        position: relative;
+        z-index: 2;
+        width: 55px;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5px;
+
+        img {
+          transition: all 0.3s ease;
+          filter: brightness(0) invert(1);
+        }
+      }
+
+      .support_content {
+        position: relative;
+        z-index: 2;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        &::before {
+          content: "";
+          position: absolute;
+          bottom: 0px;
+          left: 0;
+          width: 60px;
+          border-block-start: 2px solid $white_color;
+        }
+
+        h4 {
+          color: $white_color;
+          font-size: 24px;
+          font-weight: 600;
+          line-height: 1.3;
+          margin: 0;
+          
+          @media screen and (max-width: $breakpoint_tablet) {
+            font-size: 22px;
+          }
+          
+          @media screen and (max-width: $breakpoint_mobile_portrait) {
+            font-size: 20px;
+          }
+        }
+
+        p {
+          color: $white_color;
+          font-size: 15px;
+          line-height: 1.6;
+          margin: 0 0 25px;
+          opacity: 0.95;
+          
+          @media screen and (max-width: $breakpoint_tablet) {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+

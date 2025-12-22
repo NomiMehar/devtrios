@@ -116,5 +116,27 @@
       "title": "Is WordPress secure enough for enterprise businesses?",
       "desc": "When built correctly, yes. WordPress powers over 40% of the web, including major enterprise brands. As an enterprise WordPress development company, we implement advanced security measures, secure hosting environments, and strict coding standards to ensure your site is fortress-secure."
     }
+  ],
+  "shopify_development": [
+    {
+      "title": "Why should I hire a specialized Shopify development agency instead of a freelancer?",
+      "desc": "An agency provides a full team of experts including designers, developers, and project managers. You get reliability, diverse skill sets, and guaranteed support that a single freelancer often cannot match. We ensure your project is completed on time and to the highest standard."
+    },
+    {
+      "title": "How long does a custom Shopify build take?",
+      "desc": "The timeline varies based on complexity. A basic setup might take a few weeks while a fully custom enterprise build could take several months. We provide a detailed timeline during our consultation so you know exactly what to expect."
+    },
+    {
+      "title": "Can you help with SEO for my Shopify store?",
+      "desc": "Yes, absolutely. All our builds follow strict SEO best practices. We optimize site structure, loading speed, and mobile responsiveness. We also offer ongoing SEO strategies to help you climb the search rankings."
+    },
+    {
+      "title": "Do you work with Shopify Plus?",
+      "desc": "Yes, we have extensive experience with Shopify Plus. We help high growth merchants leverage the exclusive features of the Plus platform to scale their operations efficiently."
+    },
+    {
+      "title": "What happens after my site goes live?",
+      "desc": "We do not disappear after launch. We offer various support packages to handle updates, bug fixes, and new feature requests. We are your long term partner in digital growth."
+    }
   ]
 }

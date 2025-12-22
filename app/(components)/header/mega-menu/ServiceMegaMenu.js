@@ -8,7 +8,7 @@ const serviceItems = [
     id: 0,
     title: "Website Development",
     link: "/services/website-development/",
-    icon: "/assets/images/header/menu-icon.svg",
+    icon: "/assets/images/header/nav-icon-1.svg",
     service_img:
       "/assets/images/services/website_development_about_services.webp",
     sections: [
@@ -51,7 +51,7 @@ const serviceItems = [
     id: 1,
     title: "Mobile App Development",
     link: "/services/mobile-app-development/",
-    icon: "/assets/images/header/menu-icon.svg",
+    icon: "/assets/images/header/nav-icon-2.svg",
     service_img:
       "/assets/images/services/website_development_about_services.webp",
     sections: [
@@ -86,7 +86,7 @@ const serviceItems = [
     id: 2,
     title: "Software Development",
     link: "/services/software-development/",
-    icon: "/assets/images/header/menu-icon.svg",
+    icon: "/assets/images/header/nav-icon-3.svg",
     service_img:
       "/assets/images/services/website_development_about_services.webp",
     sections: [
@@ -121,7 +121,7 @@ const serviceItems = [
     id: 3,
     title: "AI & Automation",
     link: "/services/ai-automation/",
-    icon: "/assets/images/header/menu-icon.svg",
+    icon: "/assets/images/header/nav-icon-4.svg",
     service_img:
       "/assets/images/services/website_development_about_services.webp",
     sections: [
@@ -149,7 +149,7 @@ const serviceItems = [
     id: 4,
     title: "Blockchain Development",
     link: "/services/blockchain-development/",
-    icon: "/assets/images/header/menu-icon.svg",
+    icon: "/assets/images/header/nav-icon-5.svg",
     service_img:
       "/assets/images/services/website_development_about_services.webp",
     sections: [
@@ -184,7 +184,7 @@ const serviceItems = [
     id: 5,
     title: "UI & UX Design",
     link: "/services/ui-ux-design/",
-    icon: "/assets/images/header/menu-icon.svg",
+    icon: "/assets/images/header/nav-icon-6.svg",
     service_img:
       "/assets/images/services/website_development_about_services.webp",
     sections: [
@@ -206,7 +206,7 @@ const serviceItems = [
     id: 6,
     title: "Digital Marketing",
     link: "/services/seo/",
-    icon: "/assets/images/header/menu-icon.svg",
+    icon: "/assets/images/header/nav-icon-7.svg",
     service_img:
       "/assets/images/services/website_development_about_services.webp",
     sections: [
@@ -283,8 +283,8 @@ export default function ServiceMegaMenu({ onClick }) {
                             <Image
                               src={service.icon}
                               alt={service.title}
-                              width={30}
-                              height={30}
+                              width={25}
+                              height={25}
                             />
                             {item.name}
                           </Link>
