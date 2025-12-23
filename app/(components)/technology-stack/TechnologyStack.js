@@ -27,7 +27,7 @@ export default function TechnologyStack() {
   return (
     <div className={styles.technology_stack}>
       <div className="container">
-        <h2 className={styles.heading}>Technology Stack</h2>
+        <h2 className={`section-heading ${styles.heading}`}>Technology Stack</h2>
 
         {/* Tabs */}
         <div

@@ -4,22 +4,17 @@
   position: relative;
   height: 100%;
   overflow: hidden;
-  padding: 200px 0 100px;
-  border-radius: 0px 0px 60px 60px;
+  padding: 120px 0;
   background-image: var(--banner-bg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  @media (max-width: $breakpoint_mini_laptop) {
-    padding: 200px 50px 100px;
-  }
   @media (max-width: $breakpoint_tablet) {
-    padding: 200px 0 100px;
-    border-radius: 0px 0px 40px 40px;
+    padding: 100px 0;
     text-align: center;
   }
   @media (max-width: $breakpoint_mobile_portrait) {
-    padding: 170px 0 70px;
+    padding: 90px 0;
   }
   .content_wrapper {
     display: grid;
@@ -33,7 +28,7 @@
       gap: 20px;
     }
     h1 {
-      font-size: 46px;
+      font-size: 42px;
       font-weight: 600;
       color: $white_color;
       line-height: 1.2;
@@ -78,7 +73,7 @@
         background-position: left center;
 
         border: 1px solid #00a3ff;
-        border-radius: 100px;
+        border-radius: 10px;
         padding: 12px 24px;
 
         display: flex;

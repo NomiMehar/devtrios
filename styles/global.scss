@@ -20,6 +20,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: $body_color;
 }
+
 #layout_wrapper {
   overflow: hidden;
   position: relative;
@@ -112,13 +113,15 @@ img {
   overflow: hidden;
 }
 .container {
-  max-width: 100%;
+  max-width: 1680px;
   margin: 0 auto;
-  padding: 0 86px;
+  padding: 0 52px;
   width: 100%;
-  @media (max-width: $breakpoint_mini_laptop) {
-    max-width: 100%;
-    padding: 0 15px;
+  @media (max-width: 1600px) {
+    padding: 0 32px;
+  }
+  @media (max-width: 1024px) {
+    padding: 0 20px;
   }
 }
 .container.fluid {
@@ -230,7 +233,7 @@ select {
   font-size: 16px;
   background: #fcfcfc;
   border: 1px solid #dbdbdb;
-  border-radius: 5px;
+  border-radius: 12px;
   resize: none;
   @media (max-width: $breakpoint_laptop) {
     height: 45px;
@@ -293,7 +296,7 @@ select {
 .btn-green {
   color: white;
   background-color: #6bb64a;
-  border-radius: 10px;
+  border-radius: 12px;
   border: 1px solid #6bb64a;
   padding: 10px 22px;
   font-size: 14px;
@@ -393,7 +396,7 @@ a {
     width: 30px;
     border: 1px solid #545661;
     height: 30px;
-    border-radius: 100px;
+    border-radius: 12px;;
     @media screen and (max-width: $breakpoint_mobile_portrait) {
       display: none;
     }
@@ -440,5 +443,37 @@ a {
         background: $dark_color !important;
       }
     }
+  }
+}
+
+// Section heading and description styles (reusable across components)
+.section-heading {
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: $dark_color;
+  @media screen and (max-width: $breakpoint_tablet) {
+    font-size: 36px;
+  }
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    font-size: 28px;
+  }
+}
+
+.section-description {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 0;
+  color: #5b5b5b;
+  span {
+    color: #f7a623;
+  }
+  @media screen and (max-width: $breakpoint_tablet) {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    font-size: 16px;
   }
 }

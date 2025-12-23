@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import style from "./Header.module.scss";
 import MobileNav from "./mobile-nav/MobileNav";
 import Navigation from "./navigation/Navigation";
@@ -22,25 +22,34 @@ export default function Header() {
   //     ? header.classList.add(`${style.is_sticky}`)
   //     : header.classList.remove(`${style.is_sticky}`);
   // };
-
+  const [isServiceActive, setIsServiceActive] = useState(false);
   return (
-    <header className={`${style.main_header}`}>
+    <header
+      className={`main_header ${style.main_header} ${
+        isServiceActive ? style.service_active : ""
+      }`}
+    >
       <div className={`header-section ${style.navigation_wrapper}`}>
-        <div className={`flex-between-center ${style.navigation_content}`}>
-          <Link href="/">
-            <Image
-              src="/assets/images/header/logo.webp"
-              width={120}
-              height={40}
-              alt="logo"
-            />
-          </Link>
-          <Navigation />
-          <div className={`flex items-center ${style.contact_us}`}>
-            <Link href="/get-a-quote">Get a Quote</Link>
+        <div className="container">
+          <div className={`flex-between-center ${style.navigation_content}`}>
+            <Link href="/">
+              <Image
+                src="/assets/images/header/logo.webp"
+                width={120}
+                height={40}
+                alt="logo"
+              />
+            </Link>
+
+            <Navigation setIsServiceActive={setIsServiceActive} />
+
+            <div className={`flex items-center ${style.contact_us}`}>
+              <Link href="/get-a-quote">Get a Quote</Link>
+            </div>
           </div>
         </div>
       </div>
+
       <MobileNav />
     </header>
   );

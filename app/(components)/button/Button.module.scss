@@ -4,7 +4,7 @@
   background-position: left center;
   box-shadow: 7px 9px 21.6px 0 rgba(0, 69, 255, 0.25);
   border: none;
-  border-radius: 15px;
+  border-radius: 10px;
   padding: 20px 30px;
   font-size: 18px;
   color: #fff;
@@ -20,7 +20,7 @@
     background-position 0.5s ease;
 
   &:hover {
-    transform: translateY(-3px);
+    
     box-shadow: 7px 9px 21.6px 0 rgba(0, 69, 255, 0.25);
     background-position: right center;
   }
@@ -55,7 +55,7 @@
     }
 
     &:hover {
-      background: #000;
+      background: #424242;
       color: #fff;
       box-shadow: 12px 16px 32px rgba(0, 0, 0, 0.35);
 

@@ -13,23 +13,16 @@
   }
 
   .heading {
-    color: $dark_color;
-    font-size: 46px;
-    font-weight: 600;
     text-align: center;
-    line-height: 1.4;
     margin-bottom: 50px;
-    @media screen and (max-width: $breakpoint_tablet) {
-      font-size: 38px;
-    }
     @media screen and (max-width: $breakpoint_mobile_portrait) {
-      font-size: 28px;
+      margin-bottom: 30px;
     }
   }
   .wrapper {
     .faq_item {
       transition: all 0.3s ease;
-      border-radius: 8px;
+      border-radius: 12px;
       margin-bottom: 18px;
       background: #f9f9f9;
 
@@ -62,7 +55,7 @@
           width: 20px;
           min-width: 20px;
           height: 20px;
-          border-radius: 100px;
+          border-radius: 12px;;
 
           .icon {
             font-size: 14px;
@@ -93,7 +86,7 @@
       }
       &.active {
         background: #eef8ff;
-        border-radius: 8px;
+        border-radius: 12px;
         .icon_wrapper {
           background-color: #dbdde8;
           .icon {

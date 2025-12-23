@@ -51,7 +51,7 @@ export default function DigitalServices() {
                 />
                 Let’s Build Something
               </button>
-              <h2>Our Full-Stack Digital Services</h2>
+              <h2 className="section-heading">Our Full-Stack Digital Services</h2>
             </div>
 
             {services.slice(0, 2).map((service, idx) => (

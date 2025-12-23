@@ -75,7 +75,7 @@
 
       .feature_card {
         background: $white_color;
-        border-radius: 24px;
+        border-radius: 12px;
         padding: 40px;
         display: flex;
         align-items: flex-start;
@@ -88,7 +88,7 @@
         
         @media screen and (max-width: $breakpoint_mobile_portrait) {
           padding: 30px;
-          border-radius: 20px;
+          border-radius: 12px;
           gap: 20px;
         }
 
@@ -146,7 +146,7 @@
         .feature_icon {
           width: 60px;
           height: 60px;
-          border-radius: 16px;
+          border-radius: 12px;
           background: linear-gradient(135deg, rgba(0, 69, 255, 0.12) 0%, rgba(0, 163, 255, 0.12) 100%);
           display: flex;
           align-items: center;
@@ -160,7 +160,7 @@
           @media screen and (max-width: $breakpoint_mobile_portrait) {
             width: 55px;
             height: 55px;
-            border-radius: 14px;
+            border-radius: 12px;
           }
 
           svg {

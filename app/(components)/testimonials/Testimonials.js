@@ -17,7 +17,7 @@ export default function Testimonials({ list, padding_bottom = false }) {
     >
       <div className="container">
         <div className={styles.content_wrapper}>
-          <h2 className={styles.heading}>Testimonials</h2>
+          <h2 className={`section-heading ${styles.heading}`}>Testimonials</h2>
 
           <Swiper
             autoplay={{ delay: 5500, disableOnInteraction: false }}

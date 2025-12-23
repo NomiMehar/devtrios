@@ -11,7 +11,7 @@
   }
   .wrapper {
     padding: 50px;
-    border-radius: 32px;
+    border-radius: 12px;
     background-color: $card_color;
     position: relative;
     &::before {
@@ -76,7 +76,7 @@
         .button_wrapper {
           a {
             padding: 12px 20px;
-            border-radius: 100px;
+            border-radius: 10px;
             font-size: 16px;
             font-weight: 500;
             box-shadow: none;
@@ -108,7 +108,7 @@
         position: relative;
         @media screen and (max-width: $breakpoint_mobile_portrait) {
           padding: 20px;
-          border-radius: 25px;
+          border-radius: 12px;
         }
         &:hover {
           img {

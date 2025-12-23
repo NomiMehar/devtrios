@@ -18,7 +18,7 @@ export default function Faqs({ type = "home", noPadding = false }) {
       className={`${styles.faqs} ${noPadding ? styles.no_padding_bottom : ""}`}
     >
       <div className="container">
-        <h2 className={styles.heading}>Frequently Asked Questions</h2>
+        <h2 className={`section-heading ${styles.heading}`}>Frequently Asked Questions</h2>
 
         <div className={styles.wrapper}>
           {faqs.map((item, index) => {

@@ -234,80 +234,75 @@ const serviceItems = [
 ];
 
 export default function ServiceMegaMenu({ onClick }) {
-  const [activeId, setActiveId] = useState(0);
-
-  const handleMouseEnter = () => document.body.classList.add("hovered");
-  const handleMouseLeave = () => document.body.classList.remove("hovered");
-
   return (
     <ul className={`list-none ${style.mega_menu_wrapper}`}>
-      {serviceItems.map((service) => (
-        <li key={service.id} className="flex">
-          <Link
-            onMouseLeave={handleMouseLeave}
-            className={activeId === service.id ? style.active : ""}
-            onMouseEnter={() => setActiveId(service.id)}
-            href="#"
-          >
-            <Image
-              src={service.icon}
-              alt={service.title}
-              width={31}
-              height={35}
-            />
-            {service.title}
-          </Link>
-          {activeId === service.id && (
-            <div onClick={onClick} className={`flex ${style.mega_sub_menu}`}>
-              {service.sections.map((section, index) => (
-                <section key={index}>
-                  <Link onMouseLeave={handleMouseLeave} href={service.link}>
-                    <span className={style.nav_title}>
-                      {section.title}
-                      <Image
-                        src="/assets/images/header/arrow_link.svg"
-                        alt={service.title}
-                        width={31}
-                        height={35}
-                      />
-                    </span>
+      <li>
+        <div className={style.mega_menu_wrp}>
+          {/* LEFT SIDE */}
+          <div className={style.menu_left}>
+            <div className={style.menu_blocks}>
+              {serviceItems.map((service) => (
+                <div key={service.id} className={style.menu_links_wrp}>
+                  <Image
+                    src={service.icon}
+                    alt={service.title}
+                    width={42}
+                    height={42}
+                    className={style.sub_menu_icon}
+                  />
+
+                  <Link href={service.link} className={style.menu_heading}>
+                    {service.title}
                   </Link>
-                  <div className={style.section_wrapper}>
-                    <ul className="list-none">
-                      {section.items.map((item, linkIndex) => (
-                        <li key={linkIndex}>
-                          <Link
-                            onMouseLeave={handleMouseLeave}
-                            href={item.link}
-                          >
-                            <Image
-                              src={service.icon}
-                              alt={service.title}
-                              width={25}
-                              height={25}
-                            />
-                            {item.name}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                    <div className={style.service_img}>
-                      <Link onMouseLeave={handleMouseLeave} href={service.link}>
-                        <Image
-                          src={service.service_img}
-                          alt={service.title}
-                          width={1000}
-                          height={1000}
-                        />
-                      </Link>
-                    </div>
-                  </div>
-                </section>
+
+                  <ul>
+                    {service.sections[0].items.map((item, i) => (
+                      <li key={i}>
+                        <Link href={item.link}>{item.name}</Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               ))}
             </div>
-          )}
-        </li>
-      ))}
+          </div>
+
+          {/* RIGHT SIDE */}
+          <div className={style.menu_right}>
+            <div className={style.expertise_and_solutions}>
+              <div className={style.side_menu_links_wrp}>
+                <h2 className={style.menu_heading}>Solutions</h2>
+                <ul>
+                  <li>
+                    <Link href="#">Shopify</Link>
+                  </li>
+                  <li>
+                    <Link href="#">AWS</Link>
+                  </li>
+                  <li>
+                    <Link href="#">Salesforce</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className={style.whats_new}>
+              <h2 className={style.menu_heading}>What’s New?</h2>
+              <div className={style.featured_box}>
+                <h3>Award Winning Agency</h3>
+                <Link href="https://techbehemoths.com/awards-2025/certificates/389f4be7-21b0-4f0c-92e7-dcf7c8260b01" target="_blank">
+                <Image
+                  src="/assets/images/header/winner.png"
+                  alt="Webinar"
+                  width={1000}
+                  height={1000}
+                />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
     </ul>
   );
 }

@@ -73,7 +73,7 @@
 
       .industry_item {
         background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 249, 255, 0.98) 100%);
-        border-radius: 18px;
+        border-radius: 12px;
         padding: 30px;
         display: flex;
         align-items: flex-start;
@@ -139,7 +139,7 @@
         .industry_badge {
           width: 60px;
           height: 60px;
-          border-radius: 14px;
+          border-radius: 12px;
           background: linear-gradient(135deg, rgba(66, 115, 252, 0.1) 0%, rgba(0, 163, 255, 0.1) 100%);
           display: flex;
           align-items: center;
@@ -159,7 +159,7 @@
           @media screen and (max-width: $breakpoint_mobile_portrait) {
             width: 50px;
             height: 50px;
-            border-radius: 10px;
+            border-radius: 12px;
           }
 
           .badge_number {

@@ -17,7 +17,7 @@
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     background: $card_color;
-    border-radius: 30px;
+    border-radius: 12px;
     overflow: hidden;
     @media screen and (max-width: $breakpoint_tablet) {
       grid-template-columns: repeat(2, 1fr);
@@ -99,7 +99,7 @@
             display: inline-flex;
             padding: 8px;
             background-color: $white_color;
-            border-radius: 50%;
+            border-radius: 10px;
             transition: 0.3s;
             img {
               width: 15px;
@@ -146,7 +146,7 @@
           select,
           textarea {
             padding: 8px 0 !important;
-            border-radius: 0;
+            border-radius: 12px;
             background-color: transparent !important;
             border: 0 !important;
             font-size: 16px;
@@ -226,7 +226,7 @@
           color: #fff;
           padding: 16px 30px;
           width: 250px;
-          border-radius: 30px;
+          border-radius: 12px;
           border: none;
           cursor: pointer;
           font-size: 16px;

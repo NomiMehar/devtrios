@@ -6,23 +6,19 @@ import Button from "@/app/(components)/button/Button";
 export default function Banner() {
   return (
     <React.Fragment>
+      <div className="container">
       <div
         className={`flex direction-column justify-center ${style.banner_wrapper}`}
       >
-        <div className="flex direction-column container">
+        <div className="container">
           <section className={style.banner_content}>
-            <h1 className="font-white">Web & App Development</h1>
-            <div
-              className={`flex justify-center ${style.banner_content_wrapper}`}
-            >
-              <h2>Experts in London</h2>
+            <h1 className="font-white">Web & App Development Experts in London</h1>
               <p className="font-white">
                 <strong>200+</strong> projects delivered across web, mobile,
                 AI,marketing and cloud. We help startups and enterprises turn
                 ideas into scalable digital products
               </p>
-            </div>
-            <div className={`flex justify-center ${style.banner_content_btn}`}>
+            <div className={`${style.banner_content_btn}`}>
               <Button
                 href="/contact-us"
                 icon="/assets/images/home/arrow-circle-right.webp"
@@ -40,6 +36,7 @@ export default function Banner() {
             </div>
           </section>
         </div>
+      </div>
       </div>
     </React.Fragment>
   );

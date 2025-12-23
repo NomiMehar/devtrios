@@ -17,7 +17,7 @@
     .card {
       background-color: $card_color;
       padding: 25px;
-      border-radius: 27px;
+      border-radius: 12px;
       display: flex;
       flex-direction: column;
       gap: 15px;
@@ -38,7 +38,7 @@
 
       h3 {
         font-size: 24px;
-        font-weight: 500;
+        font-weight: 600;
         line-height: 1.4;
         color: $dark_color;
         margin: 0;
@@ -74,16 +74,7 @@
       }
       .topSection {
         h2 {
-          font-size: 46px;
-          font-weight: 600;
           margin: 0;
-          color: $dark_color;
-          @media screen and (max-width: $breakpoint_tablet) {
-            font-size: 38px;
-          }
-          @media screen and (max-width: $breakpoint_mobile_portrait) {
-            font-size: 28px;
-          }
         }
 
         .ctaButton {
@@ -122,7 +113,7 @@
         align-items: center;
         justify-content: center;
         background-color: $card_color;
-        border-radius: 27px;
+        border-radius: 12px;
         cursor: pointer;
         padding: 25px;
         font-weight: 500;
@@ -144,7 +135,7 @@
 
         span {
           background-image: linear-gradient(63deg, #00a3ff 0%, #0045ff 100%);
-          border-radius: 10px;
+          border-radius: 12px;
           padding: 11px 13px;
           color: $white_color;
           display: inline-block;

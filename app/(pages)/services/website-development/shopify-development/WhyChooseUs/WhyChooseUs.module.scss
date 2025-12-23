@@ -71,7 +71,7 @@
 
       .content_card {
         background: $white_color;
-        border-radius: 20px;
+        border-radius: 12px;
         padding: 35px 40px;
         position: relative;
         display: flex;
@@ -133,7 +133,7 @@
         .card_icon {
           width: 60px;
           height: 60px;
-          border-radius: 14px;
+          border-radius: 12px;
           background: linear-gradient(135deg, rgba(66, 115, 252, 0.1) 0%, rgba(0, 163, 255, 0.1) 100%);
           display: flex;
           align-items: center;
@@ -151,7 +151,7 @@
           @media screen and (max-width: $breakpoint_mobile_portrait) {
             width: 50px;
             height: 50px;
-            border-radius: 10px;
+            border-radius: 12px;
           }
 
           img {

@@ -122,7 +122,7 @@
           &:global(.swiper-pagination-bullet-active) {
             background: $blue_color;
             width: 40px;
-            border-radius: 20px;
+            border-radius: 12px;
           }
         }
       }
@@ -195,7 +195,7 @@
 
     .case_study_card {
       background: $white_color;
-      border-radius: 32px;
+      border-radius: 12px;
       overflow: hidden;
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -206,11 +206,11 @@
       @media screen and (max-width: $breakpoint_tablet) {
         grid-template-columns: 1fr;
         min-height: auto;
-        border-radius: 28px;
+        border-radius: 12px;
       }
       
       @media screen and (max-width: $breakpoint_mobile_portrait) {
-        border-radius: 24px;
+        border-radius: 12px;
       }
 
       .image_section {
@@ -311,7 +311,7 @@
             padding: 6px 16px;
             background: rgba(255, 255, 255, 0.15);
             backdrop-filter: blur(10px);
-            border-radius: 8px;
+            border-radius: 12px;
             border: 1px solid rgba(255, 255, 255, 0.2);
             
             @media screen and (max-width: $breakpoint_tablet) {
@@ -491,7 +491,7 @@
               color: $white_color;
               font-size: 16px;
               font-weight: 600;
-              border-radius: 50px;
+              border-radius: 12px;
               text-decoration: none;
               transition: all 0.3s ease;
               

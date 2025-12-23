@@ -12,35 +12,5 @@
     max-width: 970px;
     margin: 0 auto 60px;
     text-align: center;
-    h2 {
-      font-size: 46px;
-      font-weight: 600;
-      line-height: 59px;
-      color: $dark_color;
-      @media screen and (max-width: $breakpoint_tablet) {
-        font-size: 38px;
-        line-height: 1.4;
-      }
-      @media screen and (max-width: $breakpoint_mobile_portrait) {
-        font-size: 28px;
-      }
-    }
-    p {
-      font-size: 22px;
-      font-weight: 500;
-      line-height: 36px;
-      margin-bottom: 0;
-      color: #5b5b5b;
-      span {
-        color: #f7a623;
-      }
-      @media screen and (max-width: $breakpoint_tablet) {
-        font-size: 18px;
-        line-height: 1.6;
-      }
-      @media screen and (max-width: $breakpoint_mobile_portrait) {
-        font-size: 16px;
-      }
-    }
   }
 }

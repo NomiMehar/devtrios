@@ -20,9 +20,9 @@ export default function CompaniesSlider({
       >
         <div className={style.content_wrapper}>
           <div className="container">
-            <h2>{title}</h2>
+            <h2 className="section-heading">{title}</h2>
             {description && (
-              <p dangerouslySetInnerHTML={{ __html: description }} />
+              <p className="section-description" dangerouslySetInnerHTML={{ __html: description }} />
             )}
           </div>
         </div>

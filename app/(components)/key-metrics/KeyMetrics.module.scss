@@ -17,7 +17,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding: 60px 50px;
-    border-radius: 25px;
+    border-radius: 12px;
 
     @media screen and (max-width: $breakpoint_tablet) {
       flex-direction: column;
@@ -26,7 +26,7 @@
     }
     @media screen and (max-width: $breakpoint_mobile_portrait) {
       padding: 30px;
-      border-radius: 20px;
+      border-radius: 12px;
     }
   }
 
@@ -51,7 +51,7 @@
     }
 
     .heading {
-      font-size: 46px;
+      font-size: 42px;
       font-weight: 600;
       line-height: 1.2;
       margin-bottom: 45px;
@@ -65,12 +65,12 @@
       }
     }
     a {
-      border-radius: 15px 15px 15px 15px;
-      padding: 22px 44px;
+      border-radius: 10px;
+      padding: 15px 25px;
       font-size: 16px;
       @media screen and (max-width: $breakpoint_mobile_portrait) {
         padding: 15px 25px;
-        border-radius: 10px;
+        border-radius: 12px;
       }
     }
   }
@@ -105,13 +105,13 @@
     }
 
     .label {
-      font-size: 20px;
+      font-size: 18px;
       opacity: 0.9;
       margin-top: 6px;
       color: $white_color;
       background: rgba(0, 85, 190, 0.6);
       backdrop-filter: blur(2px);
-      border-radius: 10px;
+      border-radius: 12px;
       padding: 12px;
       line-height: 1.5;
       @media screen and (max-width: $breakpoint_mobile_portrait) {

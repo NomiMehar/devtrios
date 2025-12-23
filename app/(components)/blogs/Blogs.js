@@ -10,7 +10,7 @@ export default function Blogs({ noPadding = false }) {
       className={`${styles.blogs} ${noPadding ? styles.no_padding_top : ""}`}
     >
       <div className="container">
-        <h2 className={styles.heading}>Blogs</h2>
+        <h2 className={`section-heading ${styles.heading}`}>Blogs</h2>
         <div className={styles.grid}>
           {data.map((item) => (
             <div key={item.id} className={styles.card}>

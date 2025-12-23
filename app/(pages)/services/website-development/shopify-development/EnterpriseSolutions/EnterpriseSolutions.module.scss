@@ -70,7 +70,7 @@
 
       .main_content {
         background: linear-gradient(135deg, rgba(0, 69, 255, 0.03) 0%, rgba(0, 163, 255, 0.03) 100%);
-        border-radius: 28px;
+        border-radius: 12px;
         padding: 50px 60px;
         position: relative;
         border: 1px solid rgba(66, 115, 252, 0.1);
@@ -82,7 +82,7 @@
         
         @media screen and (max-width: $breakpoint_mobile_portrait) {
           padding: 35px 30px;
-          border-radius: 24px;
+          border-radius: 12px;
         }
 
         &::before {
@@ -129,7 +129,7 @@
 
       .highlight_card {
         background: linear-gradient(135deg, #0045ff 0%, #00a3ff 100%);
-        border-radius: 28px;
+        border-radius: 12px;
         padding: 45px 50px;
         position: relative;
         overflow: hidden;
@@ -142,7 +142,7 @@
         
         @media screen and (max-width: $breakpoint_mobile_portrait) {
           padding: 35px 30px;
-          border-radius: 24px;
+          border-radius: 12px;
         }
 
         &:hover {
@@ -162,7 +162,7 @@
           font-size: 14px;
           font-weight: 600;
           padding: 8px 20px;
-          border-radius: 50px;
+          border-radius: 12px;
           margin-bottom: 25px;
           border: 1px solid rgba(255, 255, 255, 0.3);
           letter-spacing: 0.5px;

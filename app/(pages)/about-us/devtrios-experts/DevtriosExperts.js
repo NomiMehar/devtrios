@@ -8,7 +8,7 @@ export default function DevtriosExperts() {
     <div className={styles.devtrios_experts}>
       <div className="container">
         <div className={styles.heading_wrapper}>
-          <h2>{data.heading.title}</h2>
+          <h2 className="section-heading">{data.heading.title}</h2>
           <p dangerouslySetInnerHTML={{ __html: data.heading.description }} />
           <Button href="/contact-us">Talk to a Specialist</Button>
         </div>

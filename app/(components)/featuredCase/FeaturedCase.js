@@ -8,7 +8,7 @@ export default function FeaturedCase() {
   return (
     <section className={styles.featured_case}>
       <div className="container">
-        <h2 className={styles.heading}>Featured Case</h2>
+        <h2 className={`section-heading ${styles.heading}`}>Featured Case</h2>
         <div className={styles.grid}>
           {data.map((item) => (
             <div key={item.id} className={styles.card}>

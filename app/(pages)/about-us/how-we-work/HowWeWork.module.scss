@@ -11,7 +11,7 @@
   }
   .wrapper {
     padding: 50px;
-    border-radius: 32px;
+    border-radius: 12px;
     background-color: #002041;
     @media screen and (max-width: $breakpoint_tablet) {
       padding: 30px;
@@ -65,7 +65,7 @@
         margin-top: 40px;
       }
       .block {
-        border-radius: 32px;
+        border-radius: 12px;
         background-color: #0d2d4d;
         padding: 30px;
         transition: all 0.3s;
@@ -75,7 +75,7 @@
         position: relative;
         @media screen and (max-width: $breakpoint_mobile_portrait) {
           padding: 20px;
-          border-radius: 25px;
+          border-radius: 12px;
         }
         &:hover {
           background-color: transparent;

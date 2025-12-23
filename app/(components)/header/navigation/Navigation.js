@@ -6,12 +6,13 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
-export default function Navigation() {
+export default function Navigation({ setIsServiceActive }) {
   const [isActive, setActive] = useState(false);
   const pathname = usePathname();
 
   useEffect(() => {
     setActive(false);
+    setIsServiceActive(false);
   }, [pathname]);
 
   const handleMouseEnter = () => {
@@ -35,8 +36,14 @@ export default function Navigation() {
 
       <li
         className={`${isActive ? styleMenu.menu_active : ""}`}
-        onMouseEnter={() => setActive(true)}
-        onMouseLeave={() => setActive(false)}
+        onMouseEnter={() => {
+          setActive(true);
+          setIsServiceActive(true);
+        }}
+        onMouseLeave={() => {
+          setActive(false);
+          setIsServiceActive(false);
+        }}
       >
         <Link
           onMouseEnter={handleMouseEnter}

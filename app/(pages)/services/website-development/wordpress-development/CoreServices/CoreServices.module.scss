@@ -215,7 +215,7 @@
             .icon_wrapper {
               width: 100px;
               height: 100px;
-              border-radius: 20px;
+              border-radius: 12px;
               background: rgba(255, 255, 255, 0.15);
               backdrop-filter: blur(10px);
               display: flex;
@@ -228,13 +228,13 @@
               @media screen and (max-width: $breakpoint_tablet) {
                 width: 90px;
                 height: 90px;
-                border-radius: 18px;
+                border-radius: 12px;
               }
               
               @media screen and (max-width: $breakpoint_mobile_portrait) {
                 width: 80px;
                 height: 80px;
-                border-radius: 16px;
+                border-radius: 12px;
               }
 
               img {

@@ -107,7 +107,7 @@
 
         .image_wrapper {
           position: relative;
-          border-radius: 24px;
+          border-radius: 12px;
           overflow: hidden;
           height: 400px;
           box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
@@ -123,14 +123,14 @@
             z-index: 1;
             background: linear-gradient(#0045ff4d 0%, #00a3ff80 100%);
             inset: 0;
-            border-radius: 24px;          }
+            border-radius: 12px;          }
           @media screen and (max-width: $breakpoint_mini_laptop) {
             max-width: 500px;
             margin: 0 auto;
           }
           
           @media screen and (max-width: $breakpoint_mobile_portrait) {
-            border-radius: 20px;
+            border-radius: 12px;
             max-width: 100%;
           }
 
@@ -201,7 +201,7 @@
           @media screen and (max-width: $breakpoint_mobile_portrait) {
             width: 50px;
             height: 50px;
-            border-radius: 10px;
+            border-radius: 12px;
           }
 
           img {
@@ -294,7 +294,7 @@
         text-align: center;
         background: linear-gradient(135deg, #4273fc14 0%, #00a3ff14 100%);
         border: 1px solid #4273fc26;
-        border-radius: 16px;
+        border-radius: 12px;
         padding: 25px;
         max-width: 1000px;
         margin: 0 auto 0;

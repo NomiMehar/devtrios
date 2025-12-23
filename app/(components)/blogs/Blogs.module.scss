@@ -12,18 +12,11 @@
     padding-top: 0 !important;
   }
   .heading {
-    color: $dark_color;
-    font-size: 46px;
-    font-weight: 600;
-    text-align: center;
-    line-height: 1.4;
-    margin-bottom: 50px;
-    @media screen and (max-width: $breakpoint_tablet) {
-      font-size: 38px;
-    }
-    @media screen and (max-width: $breakpoint_mobile_portrait) {
-      font-size: 28px;
-    }
+      text-align: center;
+      margin-bottom: 50px;
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        margin-bottom: 30px;
+      }
   }
   .grid {
     display: grid;
@@ -38,7 +31,7 @@
     }
     .card {
       background: $card_color;
-      border-radius: 15px;
+      border-radius: 12px;
       display: flex;
       flex-direction: column;
       overflow: hidden;
@@ -49,7 +42,7 @@
           height: 250px;
           background-color: #d6d6d6;
           display: block;
-          border-radius: 15px;
+          border-radius: 12px;
         }
       }
       .content_wrapper {
