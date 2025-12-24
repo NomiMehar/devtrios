@@ -1,6 +1,130 @@
 [
   {
     "id": 0,
+    "title": "AI & Automation",
+    "link": "/services/ai-automation/",
+    "sections": [
+      {
+        "title": "AI & Automation",
+        "items": [
+          {
+            "name": "AI Chatbots",
+            "link": "/services/ai-automation/ai-chatbots/"
+          },
+          {
+            "name": "LLM Development",
+            "link": "/services/ai-automation/llm-development/"
+          },
+          {
+            "name": "Automation & Workflow Engineering",
+            "link": "/services/ai-automation/automation-workflows/"
+          },
+          {
+            "name": "Generative AI",
+            "link": "/services/ai-automation/generative-ai/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Blockchain Development",
+    "link": "/services/blockchain-development/",
+    "sections": [
+      {
+        "title": "Blockchain Development",
+        "items": [
+          {
+            "name": "Smart Contract Development",
+            "link": "/services/blockchain-development/smart-contract-development/"
+          },
+          {
+            "name": "Web3 App Development",
+            "link": "/services/blockchain-development/web3-app-development/"
+          },
+          {
+            "name": "NFT Development",
+            "link": "/services/blockchain-development/nft-development/"
+          },
+          {
+            "name": "Crypto Wallet Development",
+            "link": "/services/blockchain-development/wallet-integration/"
+          },
+          {
+            "name": "Smart Contract Audit",
+            "link": "/services/blockchain-development/smart-contract-audits/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Mobile App Development",
+    "link": "/services/mobile-app-development/",
+    "sections": [
+      {
+        "title": "Mobile App Development",
+        "items": [
+          {
+            "name": "iOS App Development",
+            "link": "/services/mobile-app-development/ios-app-development/"
+          },
+          {
+            "name": "Android App Development",
+            "link": "/services/mobile-app-development/android-app-development/"
+          },
+          {
+            "name": "Flutter App Development",
+            "link": "/services/mobile-app-development/flutter-app-development/"
+          },
+          {
+            "name": "App UI/UX",
+            "link": "/services/mobile-app-development/app-ui-ux/"
+          },
+          {
+            "name": "App Maintenance",
+            "link": "/services/mobile-app-development/app-maintenance/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Software Development",
+    "link": "/services/software-development/",
+    "sections": [
+      {
+        "title": "Software Development",
+        "items": [
+          {
+            "name": "Custom Software Development",
+            "link": "/services/software-development/custom-software-development/"
+          },
+          {
+            "name": "Web App Development",
+            "link": "/services/software-development/web-app-development/"
+          },
+          {
+            "name": "SaaS Development",
+            "link": "/services/software-development/saas-development/"
+          },
+          {
+            "name": "MVP Development",
+            "link": "/services/software-development/mvp-development/"
+          },
+          {
+            "name": "API Development",
+            "link": "/services/software-development/api-development/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
     "title": "Website Development",
     "link": "/services/website-development/",
     "sections": [
@@ -34,130 +158,6 @@
           {
             "name": "Webflow Development",
             "link": "/services/website-development/webflow-development/"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Mobile App Development",
-    "link": "/services/mobile-app-development/",
-    "sections": [
-      {
-        "title": "Mobile App Development",
-        "items": [
-          {
-            "name": "iOS App Development",
-            "link": "/services/mobile-app-development/ios-app-development/"
-          },
-          {
-            "name": "Android App Development",
-            "link": "/services/mobile-app-development/android-app-development/"
-          },
-          {
-            "name": "Flutter App Development",
-            "link": "/services/mobile-app-development/flutter-app-development/"
-          },
-          {
-            "name": "App UI/UX",
-            "link": "/services/mobile-app-development/app-ui-ux/"
-          },
-          {
-            "name": "App Maintenance",
-            "link": "/services/mobile-app-development/app-maintenance/"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Software Development",
-    "link": "/services/software-development/",
-    "sections": [
-      {
-        "title": "Software Development",
-        "items": [
-          {
-            "name": "Custom Software Development",
-            "link": "/services/software-development/custom-software-development/"
-          },
-          {
-            "name": "Web App Development",
-            "link": "/services/software-development/web-app-development/"
-          },
-          {
-            "name": "SaaS Development",
-            "link": "/services/software-development/saas-development/"
-          },
-          {
-            "name": "MVP Development",
-            "link": "/services/software-development/mvp-development/"
-          },
-          {
-            "name": "API Development",
-            "link": "/services/software-development/api-development/"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "title": "AI & Automation",
-    "link": "/services/ai-automation/",
-    "sections": [
-      {
-        "title": "AI & Automation",
-        "items": [
-          {
-            "name": "AI Chatbots",
-            "link": "/services/ai-automation/ai-chatbots/"
-          },
-          {
-            "name": "LLM Development",
-            "link": "/services/ai-automation/llm-development/"
-          },
-          {
-            "name": "Automation & Workflow Engineering",
-            "link": "/services/ai-automation/automation-workflows/"
-          },
-          {
-            "name": "Generative AI",
-            "link": "/services/ai-automation/generative-ai/"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Blockchain Development",
-    "link": "/services/blockchain-development/",
-    "sections": [
-      {
-        "title": "Blockchain Development",
-        "items": [
-          {
-            "name": "Smart Contract Development",
-            "link": "/services/blockchain-development/smart-contract-development/"
-          },
-          {
-            "name": "Web3 App Development",
-            "link": "/services/blockchain-development/web3-app-development/"
-          },
-          {
-            "name": "NFT Development",
-            "link": "/services/blockchain-development/nft-development/"
-          },
-          {
-            "name": "Crypto Wallet Development",
-            "link": "/services/blockchain-development/wallet-integration/"
-          },
-          {
-            "name": "Smart Contract Audit",
-            "link": "/services/blockchain-development/smart-contract-audits/"
           }
         ]
       }

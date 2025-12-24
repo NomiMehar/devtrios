@@ -244,6 +244,62 @@
         "image": "/assets/images/services/fullstack-back.webp"
       }
     ]
+  },
+  "home": {
+    "heading": {
+      "title": "Featured Case",
+      "description": ""
+    },
+    "projects": [
+      {
+        "title": "E-Commerce Growth with Devtrios",
+        "industry": "E-Commerce",
+        "summary": "40+ projects delivered across retail, food & beverage, lifestyle, and electronics.",
+        "technicalFocus": "Impact Numbers",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "results": [
+          "<strong>32%</strong> ↑ Average conversion lift after checkout redesigns",
+          "<strong>18%</strong> ↑ Higher order value with loyalty & subscription features",
+          "<strong>Sub-2s</strong> Load times on headless builds, boosting SEO rankings"
+        ],
+        "cta": {
+          "text": "See How 40+ Stores Grew",
+          "link": "https://devtrios.com/e-commerce-growth-with-devtrios/"
+        }
+      },
+      {
+        "title": "Scaling Apps That Scale Users",
+        "industry": "Mobile Applications",
+        "summary": "50+ apps launched across fintech, healthtech, travel, beauty, and e-commerce.",
+        "technicalFocus": "Impact Numbers",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "results": [
+          "<strong>12–16 Weeks</strong> Average MVP launch timeline",
+          "<strong>27%</strong> ↑ User retention boost with UX-first design",
+          "<strong>40%</strong> ↓ Cost savings via cross-platform builds"
+        ],
+        "cta": {
+          "text": "See How We Build Scalable Apps",
+          "link": "https://devtrios.com/scaling-apps-that-scale-users/"
+        }
+      },
+      {
+        "title": "Smarter Business with Custom CRM Platforms",
+        "industry": "CRM & Automation",
+        "summary": "50+ CRM & workflow automation builds across finance, logistics, healthcare and SaaS.",
+        "technicalFocus": "Impact Numbers",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "results": [
+          "<strong>65%</strong> ↑ Efficiency gains within 12 months",
+          "<strong>40%</strong> ↓ Manual work through workflow automation",
+          "<strong>30%</strong> ↑ UX-first user adoption"
+        ],
+        "cta": {
+          "text": "Explore Custom CRM Development",
+          "link": "https://devtrios.com/smarter-business-with-custom-crm-platforms/"
+        }
+      }
+    ]
   }
 }
 

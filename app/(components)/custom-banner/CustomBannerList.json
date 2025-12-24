@@ -1,17 +1,4 @@
 {
-  "about": {
-    "title": "About Devtrios – The Minds Behind Our Digital Agency",
-    "description": "At Devtrios, we're a London-based digital agency of strategists, engineers, and creatives united by one mission building technology that solves real problems and creates measurable impact. This About Devtrios page shares the story behind our work in web development, mobile apps, custom software, and UI/UX design.",
-    "buttons": [
-      {
-        "text": "Meet the Team & Our Story",
-        "link": "/about-us/#our-work",
-        "icon": "/assets/images/icons/thunder.svg"
-      }
-    ],
-    "background": "/assets/images/about_us/about-us-banner.webp"
-  },
-
   "services": {
     "title": "Web, Mobile, and Software Development Solutions",
     "description": "We provide web development, mobile app development, and custom software solutions built for scalability, higher engagement, and measurable business growth.",
@@ -26,14 +13,29 @@
         "link": "/contact-us"
       }
     ],
-    "background": "/assets/images/services/services_banner.webp"
+    "background": "#243a72"
   },
+
+  "about": {
+    "title": "About Devtrios – The Minds Behind Our Digital Agency",
+    "description": "At Devtrios, we're a London-based digital agency of strategists, engineers, and creatives united by one mission building technology that solves real problems and creates measurable impact. This About Devtrios page shares the story behind our work in web development, mobile apps, custom software, and UI/UX design.",
+    "buttons": [
+      {
+        "text": "Meet the Team & Our Story",
+        "link": "/about-us/#our-work",
+        "icon": "/assets/images/icons/thunder.svg"
+      }
+    ],
+    "background": "#1c2432"
+  },
+
   "website_development": {
     "title": "High-Performance Websites Built to Convert, Scale & Grow",
     "description": "Your website is more than just an online presence — it's your digital sales engine. We design and develop fast, secure, and conversion-focused websites that help businesses attract traffic, engage users, and turn visitors into customers. Whether you need a custom-built platform, an eCommerce store, or a high-converting landing page, our website development services are tailored to meet your business goals — not just look good.",
     "buttons": [],
-    "background": "/assets/images/services/website_devlopment_banner.webp"
+    "background": "#11439a"
   },
+
   "ecommerce_website_development": {
     "title": "Superior E-Commerce Website Development Services to Build Your Online Empire",
     "description": "In the competitive world of online retail, a generic, off-the-shelf website is not enough to succeed. You need a powerful, scalable, and engaging online store that turns visitors into loyal customers. We are a professional eCommerce website development company dedicated to building high performance digital storefronts. We partner with businesses like yours to create custom online experiences that drive sales, enhance brand loyalty, and deliver measurable results. Choosing the right eCommerce development services is the most critical investment you can make for your business's future.",
@@ -44,8 +46,9 @@
         "icon": "/assets/images/icons/thunder.svg"
       }
     ],
-    "background": "/assets/images/services/website_devlopment_banner.webp"
+    "background": "#272727"
   },
+
   "wordpress_development": {
     "title": "Trusted WordPress Development Company for Scalable Growth",
     "description": "You need more than a website; you need a reliable business asset. As a WordPress development company, we build high-performance sites designed to convert visitors into customers. Whether you're launching a new brand or scaling an enterprise-level platform, our team delivers custom solutions built around your goals. Stop settling for cookie-cutter themes that slow you down. It's time to build a platform that works as hard as you do.",
@@ -56,8 +59,9 @@
         "icon": "/assets/images/icons/thunder.svg"
       }
     ],
-    "background": "/assets/images/services/website_devlopment_banner.webp"
+    "background": "#0088ff"
   },
+
   "shopify_development": {
     "title": "Expert Shopify Development Services That Drive Sales and Growth",
     "description": "You have a vision for your brand. You want an online store that looks stunning and converts visitors into loyal customers. We are a Shopify development partner that turns that vision into reality. In the fast moving world of digital retail, your website is the heart of your business. It needs to be fast, secure, and built to scale. Our team provides top tier Shopify website development services tailored to your unique goals. We do not just build stores. We create digital experiences that elevate your brand and maximize your revenue. As a leading Shopify development agency, we understand that every business is different. Whether you are a startup launching your first product or an established enterprise seeking a platform overhaul, we have the expertise you need. Our approach combines technical precision with creative strategy to deliver a store that stands out in a crowded market.",
@@ -68,6 +72,6 @@
         "icon": "/assets/images/icons/thunder.svg"
       }
     ],
-    "background": "/assets/images/services/website_devlopment_banner.webp"
+    "background": "#2674ac"
   }
 }

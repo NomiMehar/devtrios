@@ -1,0 +1,29 @@
+{
+  "website_development": {
+    "heading": "Our Website Development Process",
+    "description": "Every successful website starts with clarity. Our website development process is designed to reduce risk, improve outcomes, and ensure your site performs long after launch.",
+    "steps": [
+      {
+        "title": "Discovery & Strategy",
+        "description": "We begin by understanding your business, users, and objectives. This includes technical requirements, SEO considerations, conversion goals, and long-term scalability needs. The goal is alignment before design or development begins."
+      },
+      {
+        "title": "UX, UI & Information Architecture",
+        "description": "We design user journeys, page structures, and interfaces that prioritise usability, clarity, and conversions. Every decision is informed by user intent, performance best practices, and SEO-friendly architecture."
+      },
+      {
+        "title": "Website Development & Integration",
+        "description": "Our developers build your website using clean, scalable code and modern frameworks or CMS platforms. We integrate third-party tools, CMS functionality, and performance optimisation from the ground up."
+      },
+      {
+        "title": "Testing, Performance & SEO Optimisation",
+        "description": "Before launch, we test across devices, browsers, and screen sizes. Performance, security, and technical SEO are reviewed to ensure fast load times, clean structure, and search-readiness."
+      },
+      {
+        "title": "Launch, Support & Continuous Improvement",
+        "description": "Once live, we monitor performance and provide ongoing support, maintenance, and optimisation. As your business grows, your website evolves with it."
+      }
+    ]
+  }
+}
+

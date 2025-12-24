@@ -1,35 +1,29 @@
 import React from "react";
 import styles from "./ProcessSteps.module.scss";
-import data from "./ProcessStepsList.json";
+import ProcessStepsList from "./ProcessStepsList.json";
 
 export default function ProcessSteps({ type }) {
-  const processData = data[type];
-
-  if (!processData) {
-    return null;
-  }
-
+  const data = ProcessStepsList[type];
   return (
-    <div className={styles.process_steps}>
+    <section className={styles.process_steps}>
       <div className="container">
-        <div className={styles.section_wrapper}>
-          <div className={styles.section_header}>
-            <h2>{processData.heading.title}</h2>
-            <p>{processData.heading.description}</p>
-          </div>
+        <div className={styles.heading_wrapper}>
+          <h2>{data.heading.title}</h2>
+          <p>{data.heading.description}</p>
+        </div>
 
-          <div className={styles.process_grid}>
-            {processData.steps.map((step, index) => (
-              <div key={index} className={styles.process_card}>
-                <div className={styles.process_number}>{index + 1}</div>
-                <h4>{step.title}</h4>
-                <p>{step.description}</p>
+        <div className={styles.steps_grid}>
+          {data.steps.map((step, index) => (
+            <div key={index} className={styles.step_card}>
+              <div className={styles.step_number}>
+                {String(index + 1).padStart(2, "0")}
               </div>
-            ))}
-          </div>
+              <h3>{step.title}</h3>
+              <p>{step.description}</p>
+            </div>
+          ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
-

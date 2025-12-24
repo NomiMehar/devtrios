@@ -40,20 +40,13 @@
   },
 
   "website_development": {
-    "title": "Ready to Build Your Website?",
-    "description": "Whether you’re launching a new site or upgrading an existing one, our team is ready to help you create a website that delivers real results.",
-    "buttons": [
-      {
-        "text": "Book a Free Strategy Call",
-        "href": "/contact-us",
-        "icon": "/assets/images/home/arrow-circle-right.webp"
-      },
-        {
-          "text": "Get Started",
-          "href": "/contact-us",
-          "icon": "/assets/images/home/arrow-circle-right.webp"
-        }
-    ]
+    "title": "Ready to Build a Website That Delivers Results?",
+    "description": "Whether you're launching a new website or rebuilding an existing one, our website development team is ready to help you create a fast, scalable, and conversion-focused platform. Let's talk about your goals, your users, and how your website can better support your business.",
+    "button": {
+      "text": "Who We Build Websites For",
+      "href": "/contact-us",
+      "icon": "/assets/images/home/arrow-circle-right.webp"
+    }
   },
   "ecommerce_website_development": {
     "title": "Ready to Build Your High-Growth Online Store?",

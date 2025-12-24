@@ -1,0 +1,127 @@
+@use "../../../styles/variables" as *;
+
+.why_choose {
+  padding: 130px 0;
+  background: $card_color;
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding: 100px 0;
+  }
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding: 70px 0;
+  }
+
+  .content_wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .heading_block {
+    margin-bottom: 40px;
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      font-size: 42px;
+      font-weight: 600;
+      line-height: 1.4;
+      color: $dark_color;
+      margin: 0 0 20px;
+
+      @media screen and (max-width: $breakpoint_tablet) {
+        font-size: 38px;
+      }
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        font-size: 28px;
+        margin-bottom: 15px;
+      }
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 1.7;
+      color: $gray_color;
+      margin: 0;
+
+      @media screen and (max-width: $breakpoint_tablet) {
+        font-size: 18px;
+      }
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .features_list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    text-align: left;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+
+    li {
+      font-size: 18px;
+      line-height: 1.7;
+      color: $dark_color;
+      padding-left: 35px;
+      position: relative;
+
+      @media screen and (max-width: $breakpoint_tablet) {
+        font-size: 17px;
+        padding-left: 30px;
+      }
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        font-size: 16px;
+        padding-left: 28px;
+      }
+
+      &::before {
+        content: "✓";
+        position: absolute;
+        left: 0;
+        top: 2px;
+        width: 24px;
+        height: 24px;
+        background: linear-gradient(135deg, #0045ff 0%, #00a3ff 100%);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 700;
+        color: $white_color;
+        flex-shrink: 0;
+
+        @media screen and (max-width: $breakpoint_mobile_portrait) {
+          width: 22px;
+          height: 22px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .closing_text {
+    font-size: 18px;
+    line-height: 1.7;
+    color: $gray_color;
+    margin: 0;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      font-size: 17px;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 16px;
+    }
+  }
+}
+

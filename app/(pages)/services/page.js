@@ -4,7 +4,7 @@ import CustomBanner from "@/app/(components)/custom-banner/CustomBanner";
 import bannerData from "@/app/(components)/custom-banner/CustomBannerList.json";
 import CompaniesSlider from "@/app/(components)/companies-slider/CompaniesSlider";
 import CompaniesList from "@/app/(components)/companies-slider/CompaniesList.json";
-import OurServices from "@/app/(pages)/services/OurServices/OurServices";
+import OurServices from "@/app/(pages)/services/our-services/OurServices";
 import Testimonials from "@/app/(components)/testimonials/Testimonials";
 import TestimonialList from "@/app/(components)/testimonials/TestimonialList.json";
 import Cta from "@/app/(components)/cta/Cta";

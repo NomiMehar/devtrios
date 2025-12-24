@@ -5,7 +5,8 @@
   height: 100%;
   overflow: hidden;
   padding: 120px 0;
-  background-image: var(--banner-bg);
+  background-color: var(--banner-bg);
+  background-image: url("../../../public/assets/images/services/services_banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -41,10 +42,10 @@
       }
     }
     p {
-      font-size: 22px;
+      font-size: 20px;
       line-height: 1.6;
       color: $white_color;
-      margin-top: 0;
+      margin: 0;
       @media (max-width: $breakpoint_tablet) {
         font-size: 18px;
         line-height: 28px;

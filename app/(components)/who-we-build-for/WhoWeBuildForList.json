@@ -1,0 +1,26 @@
+{
+  "website_development": {
+    "heading": "Who We Build Websites For",
+    "description": "We work with businesses that see their website as a growth asset, not just a marketing expense. Our website development services are most often chosen by:",
+    "audiences": [
+      "Startups launching their first scalable platform",
+      "Growing businesses outgrowing template-based websites",
+      "SaaS and tech companies needing performance and flexibility",
+      "eCommerce brands focused on conversion and scale",
+      "Service-based businesses generating leads online"
+    ],
+    "closingText": "If your website needs to support growth, integrations, and long-term performance, our approach is built for that.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Get a Custom Quote",
+        "link": "/get-a-quote"
+      }
+    ]
+  }
+}
+

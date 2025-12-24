@@ -1,0 +1,28 @@
+{
+  "website_development": {
+    "title": "Website Development Services Built for Performance, Scale, and Conversions",
+    "titleStart": "Website Development Services Built for",
+    "titleEnd": "Performance, Scale, and Conversions",
+    "subtitle": "Your website should do more than look good. It should load fast, rank well, and convert consistently.",
+    "description": "At Devtrios, we deliver professional website development services for businesses that need speed, scalability, and measurable results. We design and build high-performance websites that support SEO, user experience, and long-term growth, not just launch day aesthetics. Whether you need a custom business website, a scalable CMS platform, or a conversion-focused landing experience, our team builds websites engineered to support revenue, not vanity metrics.",
+    "benefits": [
+      "Scalable, future-proof architecture",
+      "SEO-ready foundations from day one",
+      "Mobile-first, performance-led design",
+      "Conversion-focused UX informed by data"
+    ],
+    "closingText": "Let's build a website that works as hard as your business does.",
+    "buttons": [
+      {
+        "text": "Get a Free Consultation",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Quote",
+        "link": "/get-a-quote"
+      }
+    ]
+  }
+}
+

@@ -13,11 +13,13 @@
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    background-image: url(../../../public/assets/images/home/lines-back.webp);
+    background-image: url(../../../public/assets/images/home/key-metrics-back.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 60px 50px;
     border-radius: 12px;
+    position: relative;
+
 
     @media screen and (max-width: $breakpoint_tablet) {
       flex-direction: column;
@@ -33,6 +35,7 @@
   /* LEFT SIDE */
   .left {
     width: 50%;
+    z-index: 1;
     @media screen and (max-width: $breakpoint_tablet) {
       width: 100%;
     }
@@ -91,11 +94,12 @@
     flex-direction: column;
 
     .value {
-      font-size: 75px;
-      line-height: 1;
-      font-weight: 600;
       color: $white_color;
-      margin-bottom: -30px;
+      margin-bottom: -24px;
+      font-size: 65px;
+      font-weight: 600;
+      line-height: 1;
+      z-index: 1;
       @media screen and (max-width: $breakpoint_tablet) {
         font-size: 62px;
       }
@@ -109,11 +113,12 @@
       opacity: 0.9;
       margin-top: 6px;
       color: $white_color;
-      background: rgba(0, 85, 190, 0.6);
+      background: #0e0e0e63;
       backdrop-filter: blur(2px);
       border-radius: 12px;
       padding: 12px;
       line-height: 1.5;
+      z-index: 0;
       @media screen and (max-width: $breakpoint_mobile_portrait) {
         font-size: 14px;
       }

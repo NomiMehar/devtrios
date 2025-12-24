@@ -1,16 +1,30 @@
 import React from "react";
 import Head from "next/head";
-import CustomBanner from "@/app/(components)/custom-banner/CustomBanner";
-import bannerData from "@/app/(components)/custom-banner/CustomBannerList.json";
-import WebsiteFeatures from "@/app/(components)/website-features/WebsiteFeatures";
-import WebsiteServices from "@/app/(components)/website-services/WebsiteServices";
-import WebsiteWhyChoose from "@/app/(components)/website-why-choose/WebsiteWhyChoose";
+import ServiceBanner from "@/app/(components)/service-banner/ServiceBanner";
+import ServiceBannerList from "@/app/(components)/service-banner/ServiceBannerList.json";
+import ServiceList from "@/app/(components)/service-list/ServiceList";
+import ServiceListList from "@/app/(components)/service-list/ServiceListList.json";
+import WhyChoose from "@/app/(components)/why-choose/WhyChoose";
+import WhyChooseList from "@/app/(components)/why-choose/WhyChooseList.json";
+import ProcessSection from "@/app/(components)/process-section/ProcessSection";
+import ProcessSectionList from "@/app/(components)/process-section/ProcessSectionList.json";
+import CaseStudy from "@/app/(components)/case-study/CaseStudy";
+import CaseStudyList from "@/app/(components)/case-study/CaseStudyList.json";
+import WhoWeBuildFor from "@/app/(components)/who-we-build-for/WhoWeBuildFor";
+import WhoWeBuildForList from "@/app/(components)/who-we-build-for/WhoWeBuildForList.json";
+import Faqs from "@/app/(components)/faqs/Faqs";
 import Cta from "@/app/(components)/cta/Cta";
 import CtaList from "@/app/(components)/cta/CtaList.json";
 
 export default function websiteDevelopment() {
-  const customBannerData = bannerData.website_development;
+  const bannerData = ServiceBannerList.website_development;
+  const serviceListData = ServiceListList.website_development;
+  const whyChooseData = WhyChooseList.website_development;
+  const processData = ProcessSectionList.website_development;
+  const caseStudyData = CaseStudyList.website_development;
+  const whoWeBuildForData = WhoWeBuildForList.website_development;
   const ctaData = CtaList.website_development;
+  
   return (
     <React.Fragment>
       <Head>
@@ -46,17 +60,14 @@ export default function websiteDevelopment() {
           content="/assets/images/header/favicon.webp"
         />
       </Head>
-      <CustomBanner
-        title={customBannerData.title}
-        description={customBannerData.description}
-        buttons={customBannerData.buttons}
-        background={customBannerData.background}
-        isLongContent={true}
-      />
-      <WebsiteFeatures />
-      <WebsiteServices />
-      <WebsiteWhyChoose />
-        <Cta data={ctaData} />
+      <ServiceBanner data={bannerData} />
+      <ServiceList data={serviceListData} />
+      <WhyChoose data={whyChooseData} />
+      <ProcessSection data={processData} />
+      <CaseStudy data={caseStudyData} />
+      <WhoWeBuildFor data={whoWeBuildForData} />
+      <Cta data={ctaData} />
+      <Faqs type="website_development" />
     </React.Fragment>
   );
 }

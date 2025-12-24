@@ -24,13 +24,39 @@
       margin-bottom: 50px;
     }
     .testimonialsSwiper {
-      padding-bottom: 50px;
+      padding-bottom: 80px;
       margin-right: -100px;
-      @media screen and (max-width: $breakpoint_tablet) {
-        // margin-right: 0;
-      }
-      @media screen and (max-width: $breakpoint_mobile_portrait) {
-        padding-bottom: 50px;
+
+      :global(.swiper-pagination) {
+        bottom: 20px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        
+        @media screen and (max-width: $breakpoint_mobile_portrait) {
+          bottom: 45px !important;
+        }
+        
+        :global(.swiper-pagination-bullet) {
+          width: 10px;
+          height: 10px;
+          background: rgba(39, 39, 39, 0.25);
+          opacity: 1;
+          transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+          border-radius: 50%;
+          margin: 0;
+          &:hover {
+            background: rgba(66, 115, 252, 0.5);
+            transform: scale(1.1);
+          }
+          
+          &:global(.swiper-pagination-bullet-active) {
+            background: $blue_color;
+            width: 40px;
+            border-radius: 12px;
+          }
+        }
       }
       .block {
         border-radius: 12px 50px 12px 12px;

@@ -14,15 +14,17 @@ export default function Awards({ noPadding = false }) {
         }`}
       >
         <div className="container">
-          <h2 className={`section-heading ${styles.heading}`}>Awards</h2>
+          <h2 className={`section-heading ${styles.heading}`}>
+            Awards
+          </h2>
           <div className={styles.grid}>
             {data.map((item) => (
               <div key={item.id} className={styles.card}>
-                <Link href={item.link}>
+                <Link href={item.link} className={styles.cardLink}>
                   <div className={styles.imageWrapper}>
                     <Image
                       src={item.image}
-                      alt="banner-award-2025-black-winner-devtrios"
+                      alt="Award badge"
                       width={1000}
                       height={1000}
                     />

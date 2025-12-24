@@ -1,0 +1,64 @@
+{
+  "website_development": {
+    "heading": "Our Website Development Services",
+    "description": "At Devtrios, we're a website development company delivering professional website development services for businesses that need speed, scalability, and measurable results. We provide end-to-end website development services for startups, growing companies, and established businesses. From strategy and UX to development, optimisation, and long-term support, our websites are built to scale with your business, not limit it. Each solution below is delivered with performance, SEO, and maintainability in mind.",
+    "services": [
+      {
+        "title": "WordPress Website Development",
+        "description": "We build custom WordPress websites that are fast, secure, and easy to manage. Our WordPress development focuses on clean architecture, performance optimisation, and SEO-friendly structures, giving you full control without sacrificing speed or scalability.",
+        "idealFor": "content-driven businesses, service providers, and marketing-led teams that need flexibility without technical complexity.",
+        "link": "/services/website-development/wordpress-development/",
+        "linkText": "Explore WordPress Development",
+        "image": "/assets/images/services/fullstack-back.webp"
+      },
+      {
+        "title": "Shopify Website Development",
+        "description": "Our Shopify development services help brands launch and scale high-converting eCommerce stores. From custom themes and UX optimisation to payment gateways and third-party integrations, we build Shopify stores designed to increase conversions and average order value.",
+        "idealFor": "brands that want reliable performance with room to grow.",
+        "link": "/services/website-development/shopify-development/",
+        "linkText": "View Shopify Solutions",
+        "image": "/assets/images/services/frontend-back.webp"
+      },
+      {
+        "title": "Custom E-Commerce Website Development",
+        "description": "For businesses that need more than off-the-shelf solutions, we deliver custom eCommerce website development tailored to your products, workflows, and customers. We focus on security, performance, and conversion optimisation across every touchpoint.",
+        "builtFor": "scale, integrations, and long-term growth.",
+        "link": "/services/website-development/ecommerce-website-development/",
+        "linkText": "Build Your Online Store",
+        "image": "/assets/images/services/backend-back.webp"
+      },
+      {
+        "title": "Landing Page Development for Lead Generation",
+        "description": "We design and develop high-converting landing pages built for paid traffic, campaigns, and product launches. Every landing page is structured around user intent, speed, and conversion psychology, ensuring maximum ROI from your traffic.",
+        "idealFor": "marketing campaigns, SaaS launches, and lead generation funnels.",
+        "link": "/services/website-development/landing-page-development/",
+        "linkText": "Create High-Converting Pages",
+        "image": "/assets/images/services/api-back.webp"
+      },
+      {
+        "title": "Custom Website Development",
+        "description": "When templates aren't enough, we deliver fully custom website development using modern frameworks and clean codebases. These solutions are built for unique functionality, complex integrations, and long-term scalability.",
+        "bestFor": "businesses with specific technical requirements or growth plans.",
+        "link": "/services/website-development/custom-website-development/",
+        "linkText": "Custom Website Solutions",
+        "image": "/assets/images/services/fullstack-back.webp"
+      },
+      {
+        "title": "Webflow Website Development",
+        "description": "Our Webflow development services combine design freedom with clean performance. We build visually refined, fast-loading Webflow websites that are easy to maintain and optimised for SEO and responsiveness.",
+        "ideal": "design-led brands and marketing teams that value speed and flexibility.",
+        "link": "/services/website-development/webflow-development/",
+        "linkText": "Explore Webflow Development",
+        "image": "/assets/images/services/fullstack-back.webp"
+      },
+      {
+        "title": "Website Maintenance and Support Services",
+        "description": "A website should evolve, not decay. Our website maintenance services keep your site secure, updated, and performing at its best. We handle updates, monitoring, backups, and ongoing improvements so your team can focus on growth.",
+        "link": "/services/website-development/website-maintenance/",
+        "linkText": "View Maintenance Plans",
+        "image": "/assets/images/services/fullstack-back.webp"
+      }
+    ]
+  }
+}
+

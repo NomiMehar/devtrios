@@ -44,7 +44,7 @@
       }
 
       p {
-        font-size: 22px;
+        font-size: 20px;
         line-height: 1.6;
         color: $gray_color;
         margin: 0;
@@ -84,11 +84,11 @@
       overflow: visible;
       
       @media screen and (max-width: $breakpoint_tablet) {
-        padding: 0 80px 70px;
+        padding: 0 80px 80px;
       }
       
       @media screen and (max-width: $breakpoint_mobile_portrait) {
-        padding: 0 20px 60px;
+        padding: 0 0px 80px;
       }
 
       :global(.swiper-slide) {

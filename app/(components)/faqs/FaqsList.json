@@ -45,24 +45,24 @@
   ],
   "website_development": [
     {
-      "title": "What types of websites can Devtrios develop for businesses?",
-      "desc": "We develop various websites, including e-commerce platforms, corporate sites, SaaS applications, and interactive portals tailored to your business goals."
+      "title": "How long does a website development project take?",
+      "desc": "Most website development projects take between 4 to 8 weeks, depending on complexity, features, and integrations. Larger or custom platforms may require additional time."
     },
     {
-      "title": "How long does it take to create a custom website with Devtrios?",
-      "desc": "The timeline depends on the project scope, but a standard custom website typically takes between 8 to 12 weeks from planning to deployment."
+      "title": "Do you build SEO into your website development?",
+      "desc": "Yes. SEO is integrated into every website we build, including clean site architecture, mobile optimisation, performance best practices, and SEO-friendly page structures."
     },
     {
-      "title": "Does Devtrios provide SEO-optimized and mobile-responsive websites?",
-      "desc": "Yes, all our websites are optimized for search engines and mobile devices to enhance user experience, site speed, and search rankings."
+      "title": "Can you redesign or rebuild an existing website?",
+      "desc": "Absolutely. We regularly rebuild or redesign existing websites to improve performance, usability, and conversions while preserving valuable SEO equity where possible."
     },
     {
-      "title": "Which technologies does Devtrios use for web development projects?",
-      "desc": "We work with technologies like React, Angular, Vue.js, Node.js, Laravel, and CMS platforms such as WordPress and Shopify, depending on your business needs."
+      "title": "Which platforms do you use for website development?",
+      "desc": "We work with platforms such as WordPress, Shopify, Webflow, and fully custom solutions depending on your requirements, scalability needs, and long-term goals."
     },
     {
-      "title": "Does Devtrios offer ongoing support and maintenance for projects?",
-      "desc": "Yes, we provide long-term maintenance and support for all projects, including regular updates, performance optimizations, and software scalability improvements to meet evolving business needs."
+      "title": "Do you provide ongoing website support after launch?",
+      "desc": "Yes. We offer website maintenance and support services to ensure your site remains secure, updated, and optimised as your business grows."
     }
   ],
   "ecommerce_website_development": [

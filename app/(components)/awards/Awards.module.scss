@@ -23,6 +23,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
 
     @media screen and (max-width: $breakpoint_tablet) {
       grid-template-columns: repeat(2, 1fr);
@@ -31,19 +33,44 @@
       grid-template-columns: 1fr;
     }
     .card {
-      background: $card_color;
-      border-radius: 12px;
       display: flex;
       flex-direction: column;
-      overflow: hidden;
+      align-items: center;
+      justify-content: center;
+
+      .cardLink {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        width: 100%;
+        transition: transform 0.3s ease;
+
+        &:hover {
+          transform: translateY(-5px);
+        }
+      }
 
       .imageWrapper {
-        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background: #0b2240;
+        border-radius: 12px;
         padding: 30px;
+        transition: background 0.3s ease;
+
+        @media screen and (max-width: $breakpoint_mobile_portrait) {
+          padding: 20px;
+        }
+
         img {
           width: 100%;
           height: auto;
           display: block;
+          object-fit: contain;
         }
       }
     }

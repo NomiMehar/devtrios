@@ -14,7 +14,7 @@ export default function CustomBanner({
     <React.Fragment>
       <div
         className={`${styles.custom_banner} ${isLongContent ? styles.long_content : ""}`}
-        style={{ backgroundImage: `url(${background})` }}
+        style={{ backgroundColor: `${background}` }}
       >
         <div className="container">
           <div className={styles.content_wrapper}>
@@ -25,7 +25,7 @@ export default function CustomBanner({
             <div className={styles.block}>
               <p>{description}</p>
 
-              <div className={styles.banner_content_btn}>
+              {buttons && buttons.length > 0 && <div className={styles.banner_content_btn}>
                 {buttons?.map((btn, index) => (
                   <Link key={index} href={btn.link}>
                     {btn.icon && (
@@ -34,7 +34,7 @@ export default function CustomBanner({
                     {btn.text}
                   </Link>
                 ))}
-              </div>
+              </div>}
             </div>
           </div>
         </div>

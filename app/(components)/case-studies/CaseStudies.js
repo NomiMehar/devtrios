@@ -69,7 +69,7 @@ export default function CaseStudies({ type }) {
                               <h5>Project Summary</h5>
                               <p className={styles.summary}>{project.summary}</p>
                             </div>
-                            {project.technicalFocus && (
+                            {project.technicalFocus && !project.cta && (
                               <div className={styles.technical_box}>
                                 <h5>Technical Focus</h5>
                                 <p>{project.technicalFocus}</p>
@@ -82,10 +82,17 @@ export default function CaseStudies({ type }) {
                                   {project.results.map((result, idx) => (
                                     <li key={idx}>
                                       <span className={styles.check_icon}>✓</span>
-                                      {result}
+                                      <span dangerouslySetInnerHTML={{ __html: result }} />
                                     </li>
                                   ))}
                                 </ul>
+                              </div>
+                            )}
+                            {project.cta && (
+                              <div className={styles.cta_box}>
+                                <a href={project.cta.link} className={styles.cta_button}>
+                                  {project.cta.text}
+                                </a>
                               </div>
                             )}
                           </>
