@@ -1,5 +1,5 @@
 {
-  "home": {
+  "home_1": {
     "title": "Trusted by startups, enterprises, & governments worldwide",
     "basePath": "/assets/images/home/companies_slider/",
     "images": [
@@ -20,6 +20,22 @@
       "stich.webp",
       "viking.webp",
       "weobot.webp"
+    ]
+  },
+  "home": {
+    "title": "Trusted by startups, enterprises, & governments worldwide",
+    "basePath": "/assets/images/home/companies_slider/",
+    "images": [
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png",
+      "5.png",
+      "6.png",
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
     ]
   },
   "about": {

@@ -10,6 +10,22 @@
     padding-top: 70px;
   }
   .content_wrapper {
+    .header {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      margin-bottom: 50px;
+      z-index: 99;
+      position: relative;
+
+      @media screen and (max-width: $breakpoint_tablet) {
+        margin-bottom: 40px;
+      }
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        margin-bottom: 30px;
+      }
+    }
+
     .heading_wrapper {
       max-width: 700px;
       @media screen and (max-width: $breakpoint_tablet) {
@@ -25,7 +41,7 @@
         font-weight: 600;
         line-height: 59px;
         margin-top: 25px;
-        margin-bottom: 50px;
+        margin-bottom: 0;
         color: $dark_color;
         @media screen and (max-width: $breakpoint_tablet) {
           font-size: 38px;
@@ -34,6 +50,60 @@
         @media screen and (max-width: $breakpoint_mobile_portrait) {
           font-size: 28px;
         }
+      }
+    }
+
+    .header_actions {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      justify-content: flex-end;
+    }
+
+    .navigation_buttons {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .nav_button {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: none;
+      background: linear-gradient(135deg, #0045ff 0%, #00a3ff 100%);
+      color: $white_color;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 0 4px 16px rgba(66, 115, 252, 0.4);
+      padding: 0;
+      flex-shrink: 0;
+
+      @media screen and (max-width: $breakpoint_tablet) {
+        width: 40px;
+        height: 40px;
+      }
+
+      svg {
+        width: 16px;
+        height: 16px;
+      }
+
+      &:hover:not(:disabled) {
+        transform: scale(1.15);
+        box-shadow: 0 4px 16px rgba(66, 115, 252, 0.6);
+      }
+
+      &:active {
+        transform: scale(0.95);
+      }
+
+      &:disabled {
+        opacity: 0.4;
+        cursor: not-allowed;
       }
     }
     .expertiseSwiper {
@@ -63,7 +133,7 @@
         .bg_img {
           width: 100%;
           height: auto;
-          border-radius: 12px 50px 12px 12px;
+          border-radius: 12px;
         }
 
         .wrapper {
@@ -87,6 +157,7 @@
               color: $white_color;
               font-size: 20px;
               font-weight: 500;
+              margin: 0;
             }
           }
 

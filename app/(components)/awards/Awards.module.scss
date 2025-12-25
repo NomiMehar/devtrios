@@ -23,8 +23,9 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
-    max-width: 1200px;
-    margin: 0 auto;
+    // max-width: 1000px;
+    // margin: 0 auto;
+    overflow: hidden;
 
     @media screen and (max-width: $breakpoint_tablet) {
       grid-template-columns: repeat(2, 1fr);
@@ -32,11 +33,30 @@
     @media screen and (max-width: $breakpoint_mobile_portrait) {
       grid-template-columns: 1fr;
     }
+
     .card {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      background: $white_color;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      padding: 10px;
+      transition: all 0.3s ease;
+      position: relative;
+
+      @media screen and (max-width: $breakpoint_tablet) {
+        padding: 10px;
+      }
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        padding: 15px;
+      }
+
+      &:hover {        
+        .cardLink {
+          transform: scale(1.05);
+        }
+      }
 
       .cardLink {
         display: flex;
@@ -46,10 +66,6 @@
         text-decoration: none;
         width: 100%;
         transition: transform 0.3s ease;
-
-        &:hover {
-          transform: translateY(-5px);
-        }
       }
 
       .imageWrapper {
@@ -57,21 +73,35 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        background: #0b2240;
-        border-radius: 12px;
-        padding: 30px;
-        transition: background 0.3s ease;
+        height: 100%;
+        min-height: 200px;
 
+        @media screen and (max-width: $breakpoint_tablet) {
+          min-height: 180px;
+        }
         @media screen and (max-width: $breakpoint_mobile_portrait) {
-          padding: 20px;
+          min-height: 160px;
         }
 
         img {
           width: 100%;
           height: auto;
+          max-width: 220px;
           display: block;
           object-fit: contain;
+          transition: transform 0.3s ease;
+
+          @media screen and (max-width: $breakpoint_tablet) {
+            max-width: 200px;
+          }
+          @media screen and (max-width: $breakpoint_mobile_portrait) {
+            max-width: 180px;
+          }
         }
+      }
+
+      &:hover .imageWrapper img {
+        transform: scale(1.08);
       }
     }
   }

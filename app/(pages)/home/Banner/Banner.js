@@ -12,7 +12,8 @@ export default function Banner() {
       >
         <div className="container">
           <section className={style.banner_content}>
-            <h1 className="font-white">Web & App Development Experts in London</h1>
+            <h1 className="font-white">Software, AI & Automation
+            Engineering Partner</h1>
               <p className="font-white">
                 <strong>200+</strong> projects delivered across web, mobile,
                 AI,marketing and cloud. We help startups and enterprises turn

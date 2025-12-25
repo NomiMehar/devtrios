@@ -13,36 +13,38 @@ export default function ServiceList({ data }) {
         </div>
 
         <div className={styles.services_list}>
-          {data.services.map((service, index) => (
+          {data.services.map((service, index) => {
+            const isLastCard = index === data.services.length - 1;
+            const totalCards = data.services.length;
+            const isSingleInLastRow = totalCards % 3 === 1 && isLastCard;
+            
+            return (
             <Link 
               key={index} 
               href={service.link || '#'} 
-              className={`${styles.service_item} ${index % 2 === 0 ? styles.left_image : styles.right_image}`}
+              className={`${styles.service_item} ${isSingleInLastRow ? styles.last_card_span : ''}`}
             >
-              <div className={styles.service_image}>
-                {service.image && (
-                  <Image
-                    src={service.image}
-                    alt={service.title}
-                    fill
-                    className={styles.image}
-                  />
+              <div className={styles.service_icon_wrapper}>
+                {service.icon && (
+                  <div className={styles.icon_container}>
+                    <Image
+                      src={service.icon}
+                      alt={service.title}
+                      width={56}
+                      height={56}
+                      className={styles.service_icon}
+                    />
+                  </div>
                 )}
-                <div className={styles.image_gradient}></div>
               </div>
               <div className={styles.service_content}>
-                <div className={styles.service_number}>
-                  {String(index + 1).padStart(2, '0')}
-                </div>
                 <h3>{service.title}</h3>
                 <p className={styles.description}>{service.description}</p>
                 {(service.idealFor || service.builtFor || service.bestFor || service.ideal) && (
                   <div className={styles.target_badge}>
-                    {(service.idealFor || service.builtFor || service.bestFor || service.ideal) && (
-                      <span className={styles.badge_text}>
-                        {service.idealFor || service.builtFor || service.bestFor || service.ideal}
-                      </span>
-                    )}
+                    <span className={styles.badge_text}>
+                      {service.idealFor || service.builtFor || service.bestFor || service.ideal}
+                    </span>
                   </div>
                 )}
                 <div className={styles.service_footer}>
@@ -55,7 +57,8 @@ export default function ServiceList({ data }) {
                 </div>
               </div>
             </Link>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

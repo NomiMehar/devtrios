@@ -9,7 +9,6 @@ import DigitalServices from "@/app/(pages)/home/DigitalServices/DigitalServices"
 import CaseStudies from "@/app/(components)/case-studies/CaseStudies";
 import KeyMetrics from "@/app/(components)/key-metrics/KeyMetrics";
 import OurExpertise from "@/app/(components)/our-expertise/OurExpertise";
-import TechnologyStack from "@/app/(components)/technology-stack/TechnologyStack";
 import Testimonials from "@/app/(components)/testimonials/Testimonials";
 import TestimonialList from "@/app/(components)/testimonials/TestimonialList.json";
 import OurClients from "@/app/(components)/our-clients/OurClients";
@@ -74,7 +73,6 @@ export default function Home() {
       <CaseStudies type="home" />
       <OurExpertise />
       <KeyMetrics />
-      <TechnologyStack />
       <Testimonials list={TestimonialList.home} />
       <OurClients />
       <Cta data={ctaData} />

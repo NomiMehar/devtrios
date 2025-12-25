@@ -2,7 +2,8 @@
   {
     "id": 1,
     "image": "/assets/images/home/Why-Every-Business-Needs-SEO.webp",
-    "title": "Why Every Business Needs SEO",
+    "category": "APPLICATION DEVELOPMENT",
+    "title": "What is Enterprise Application Development? A Complete Guide",
     "description": "Learn why SEO is important for business growth in 2025. Discover the key benefits of SEO and how Devtrios helps",
     "button": {
       "text": "Read More",
@@ -13,7 +14,8 @@
   {
     "id": 2,
     "image": "/assets/images/home/Why-Every-Business-Needs-SEO.webp",
-    "title": "Why Every Business Needs SEO",
+    "category": "APPLICATION DEVELOPMENT",
+    "title": "Software Development Security Standards: A Complete Guide for...",
     "description": "Learn why SEO is important for business growth in 2025. Discover the key benefits of SEO and how Devtrios helps",
     "button": {
       "text": "Read More",
@@ -24,7 +26,56 @@
   {
     "id": 3,
     "image": "/assets/images/home/Why-Every-Business-Needs-SEO.webp",
-    "title": "Why Every Business Needs SEO",
+    "category": "APPLICATION DEVELOPMENT",
+    "title": "Tips for Choosing the Right Mobile App Development Company",
+    "description": "Learn why SEO is important for business growth in 2025. Discover the key benefits of SEO and how Devtrios helps",
+    "button": {
+      "text": "Read More",
+      "link": "https://devtrios.com/blog/why-every-business-needs-seo/",
+      "icon": "/assets/images/home/arrow-circle-right.webp"
+    }
+  },
+  {
+    "id": 4,
+    "image": "/assets/images/home/Why-Every-Business-Needs-SEO.webp",
+    "category": "APPLICATION DEVELOPMENT",
+    "title": "How to Outsource Mobile Development: A Complete Guide",
+    "description": "Learn why SEO is important for business growth in 2025. Discover the key benefits of SEO and how Devtrios helps",
+    "button": {
+      "text": "Read More",
+      "link": "https://devtrios.com/blog/why-every-business-needs-seo/",
+      "icon": "/assets/images/home/arrow-circle-right.webp"
+    }
+  },
+  {
+    "id": 5,
+    "image": "/assets/images/home/Why-Every-Business-Needs-SEO.webp",
+    "category": "APPLICATION DEVELOPMENT",
+    "title": "How to Outsource Mobile Development: A Complete Guide",
+    "description": "Learn why SEO is important for business growth in 2025. Discover the key benefits of SEO and how Devtrios helps",
+    "button": {
+      "text": "Read More",
+      "link": "https://devtrios.com/blog/why-every-business-needs-seo/",
+      "icon": "/assets/images/home/arrow-circle-right.webp"
+    }
+  },
+  {
+    "id": 6,
+    "image": "/assets/images/home/Why-Every-Business-Needs-SEO.webp",
+    "category": "APPLICATION DEVELOPMENT",
+    "title": "How to Outsource Mobile Development: A Complete Guide",
+    "description": "Learn why SEO is important for business growth in 2025. Discover the key benefits of SEO and how Devtrios helps",
+    "button": {
+      "text": "Read More",
+      "link": "https://devtrios.com/blog/why-every-business-needs-seo/",
+      "icon": "/assets/images/home/arrow-circle-right.webp"
+    }
+  },
+  {
+    "id": 7,
+    "image": "/assets/images/home/Why-Every-Business-Needs-SEO.webp",
+    "category": "APPLICATION DEVELOPMENT",
+    "title": "How to Outsource Mobile Development: A Complete Guide",
     "description": "Learn why SEO is important for business growth in 2025. Discover the key benefits of SEO and how Devtrios helps",
     "button": {
       "text": "Read More",

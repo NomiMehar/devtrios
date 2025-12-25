@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
@@ -13,24 +13,75 @@ import styles from "./OurExpertise.module.scss";
 import expertiseData from "@/app/(components)/our-expertise/OurExpertiseList.json";
 
 export default function OurExpertise() {
+  const [swiperInstance, setSwiperInstance] = useState(null);
+
   return (
     <div className={styles.our_expertise}>
       <div className="container">
         <div className={styles.content_wrapper}>
-          <div className={styles.heading_wrapper}>
-            <span>Proven Expertise Across 16+ Industries</span>
-            <h2 className={styles.heading}>
-              We don’t just build websites, we understand your industry
-            </h2>
+          <div className={styles.header}>
+            <div className={styles.heading_wrapper}>
+              <span>Proven Expertise Across 16+ Industries</span>
+              <h2 className={styles.heading}>
+                We don't just build websites, we understand your industry
+              </h2>
+            </div>
+            <div className={styles.header_actions}>
+              <div className={styles.navigation_buttons}>
+                <button
+                  className={`${styles.nav_button} ${styles.nav_prev}`}
+                  onClick={() => swiperInstance?.slidePrev()}
+                  aria-label="Previous slide"
+                >
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15 18L9 12L15 6"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </button>
+                <button
+                  className={`${styles.nav_button} ${styles.nav_next}`}
+                  onClick={() => swiperInstance?.slideNext()}
+                  aria-label="Next slide"
+                >
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9 18L15 12L9 6"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
           </div>
 
           <Swiper
+            onSwiper={setSwiperInstance}
             autoplay={{
               delay: 5500,
               disableOnInteraction: false,
             }}
             spaceBetween={10}
-            navigation={{ clickable: true }}
+            navigation={false}
             pagination={{ clickable: true }}
             loop={true}
             modules={[Autoplay, Navigation, Pagination]}

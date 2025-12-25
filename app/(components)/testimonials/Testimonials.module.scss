@@ -59,9 +59,9 @@
         }
       }
       .block {
-        border-radius: 12px 50px 12px 12px;
+        border-radius: 12px;
         background-color: $card_color;
-        padding: 40px;
+        padding: 30px;
         transition: all 0.3s;
         @media screen and (max-width: $breakpoint_mobile_portrait) {
           padding: 25px;

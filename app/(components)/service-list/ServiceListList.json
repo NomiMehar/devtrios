@@ -9,7 +9,7 @@
         "idealFor": "content-driven businesses, service providers, and marketing-led teams that need flexibility without technical complexity.",
         "link": "/services/website-development/wordpress-development/",
         "linkText": "Explore WordPress Development",
-        "image": "/assets/images/services/fullstack-back.webp"
+        "icon": "/assets/images/header/nav-icon-3.svg"
       },
       {
         "title": "Shopify Website Development",
@@ -17,7 +17,7 @@
         "idealFor": "brands that want reliable performance with room to grow.",
         "link": "/services/website-development/shopify-development/",
         "linkText": "View Shopify Solutions",
-        "image": "/assets/images/services/frontend-back.webp"
+        "icon": "/assets/images/header/nav-icon-3.svg"
       },
       {
         "title": "Custom E-Commerce Website Development",
@@ -25,7 +25,7 @@
         "builtFor": "scale, integrations, and long-term growth.",
         "link": "/services/website-development/ecommerce-website-development/",
         "linkText": "Build Your Online Store",
-        "image": "/assets/images/services/backend-back.webp"
+        "icon": "/assets/images/header/nav-icon-3.svg"
       },
       {
         "title": "Landing Page Development for Lead Generation",
@@ -33,7 +33,7 @@
         "idealFor": "marketing campaigns, SaaS launches, and lead generation funnels.",
         "link": "/services/website-development/landing-page-development/",
         "linkText": "Create High-Converting Pages",
-        "image": "/assets/images/services/api-back.webp"
+        "icon": "/assets/images/header/nav-icon-3.svg"
       },
       {
         "title": "Custom Website Development",
@@ -41,7 +41,7 @@
         "bestFor": "businesses with specific technical requirements or growth plans.",
         "link": "/services/website-development/custom-website-development/",
         "linkText": "Custom Website Solutions",
-        "image": "/assets/images/services/fullstack-back.webp"
+        "icon": "/assets/images/header/nav-icon-3.svg"
       },
       {
         "title": "Webflow Website Development",
@@ -49,14 +49,14 @@
         "ideal": "design-led brands and marketing teams that value speed and flexibility.",
         "link": "/services/website-development/webflow-development/",
         "linkText": "Explore Webflow Development",
-        "image": "/assets/images/services/fullstack-back.webp"
+        "icon": "/assets/images/header/nav-icon-3.svg"
       },
       {
         "title": "Website Maintenance and Support Services",
         "description": "A website should evolve, not decay. Our website maintenance services keep your site secure, updated, and performing at its best. We handle updates, monitoring, backups, and ongoing improvements so your team can focus on growth.",
         "link": "/services/website-development/website-maintenance/",
         "linkText": "View Maintenance Plans",
-        "image": "/assets/images/services/fullstack-back.webp"
+        "icon": "/assets/images/header/nav-icon-3.svg"
       }
     ]
   }
