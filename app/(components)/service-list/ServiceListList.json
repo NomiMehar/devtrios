@@ -2,6 +2,11 @@
   "website_development": {
     "heading": "Our Website Development Services",
     "description": "At Devtrios, we're a website development company delivering professional website development services for businesses that need speed, scalability, and measurable results. We provide end-to-end website development services for startups, growing companies, and established businesses. From strategy and UX to development, optimisation, and long-term support, our websites are built to scale with your business, not limit it. Each solution below is delivered with performance, SEO, and maintainability in mind.",
+    "cta": {
+      "text": "Get a Free Consultation",
+      "href": "/get-a-quote",
+      "icon": "/assets/images/icons/thunder.svg"
+    },
     "services": [
       {
         "title": "WordPress Website Development",
@@ -9,7 +14,8 @@
         "idealFor": "content-driven businesses, service providers, and marketing-led teams that need flexibility without technical complexity.",
         "link": "/services/website-development/wordpress-development/",
         "linkText": "Explore WordPress Development",
-        "icon": "/assets/images/header/nav-icon-3.svg"
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#ccf1e5"
       },
       {
         "title": "Shopify Website Development",
@@ -17,7 +23,8 @@
         "idealFor": "brands that want reliable performance with room to grow.",
         "link": "/services/website-development/shopify-development/",
         "linkText": "View Shopify Solutions",
-        "icon": "/assets/images/header/nav-icon-3.svg"
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#e8f0ff"
       },
       {
         "title": "Custom E-Commerce Website Development",
@@ -25,7 +32,8 @@
         "builtFor": "scale, integrations, and long-term growth.",
         "link": "/services/website-development/ecommerce-website-development/",
         "linkText": "Build Your Online Store",
-        "icon": "/assets/images/header/nav-icon-3.svg"
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#fff4e6"
       },
       {
         "title": "Landing Page Development for Lead Generation",
@@ -33,7 +41,8 @@
         "idealFor": "marketing campaigns, SaaS launches, and lead generation funnels.",
         "link": "/services/website-development/landing-page-development/",
         "linkText": "Create High-Converting Pages",
-        "icon": "/assets/images/header/nav-icon-3.svg"
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#e6f9f0"
       },
       {
         "title": "Custom Website Development",
@@ -41,7 +50,8 @@
         "bestFor": "businesses with specific technical requirements or growth plans.",
         "link": "/services/website-development/custom-website-development/",
         "linkText": "Custom Website Solutions",
-        "icon": "/assets/images/header/nav-icon-3.svg"
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#f0f0ff"
       },
       {
         "title": "Webflow Website Development",
@@ -49,14 +59,16 @@
         "ideal": "design-led brands and marketing teams that value speed and flexibility.",
         "link": "/services/website-development/webflow-development/",
         "linkText": "Explore Webflow Development",
-        "icon": "/assets/images/header/nav-icon-3.svg"
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#ffe6f5"
       },
       {
         "title": "Website Maintenance and Support Services",
         "description": "A website should evolve, not decay. Our website maintenance services keep your site secure, updated, and performing at its best. We handle updates, monitoring, backups, and ongoing improvements so your team can focus on growth.",
         "link": "/services/website-development/website-maintenance/",
         "linkText": "View Maintenance Plans",
-        "icon": "/assets/images/header/nav-icon-3.svg"
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#f8f8f8"
       }
     ]
   }
