@@ -13,6 +13,8 @@ export default function BlogDetail() {
   const blog = blogsData.find((b) => b.slug === slug);
   const [isFollowing, setIsFollowing] = useState(false);
   const [tableOfContents, setTableOfContents] = useState([]);
+  const [isTocExpanded, setIsTocExpanded] = useState(true);
+  const [activeHeadingId, setActiveHeadingId] = useState(null);
   const contentRef = useRef(null);
 
   useEffect(() => {
@@ -20,22 +22,138 @@ export default function BlogDetail() {
     const timer = setTimeout(() => {
       if (contentRef.current) {
         const headings = contentRef.current.querySelectorAll("h2, h3");
-        const toc = Array.from(headings).map((heading, index) => ({
-          id: `heading-${index}`,
-          text: heading.textContent,
-          level: heading.tagName.toLowerCase(),
-        }));
-        setTableOfContents(toc);
-
-        // Add IDs to headings for anchor links
-        headings.forEach((heading, index) => {
-          heading.id = `heading-${index}`;
+        
+        if (headings.length === 0) {
+          setTableOfContents([]);
+          return;
+        }
+        
+        // Create a map to ensure unique IDs
+        const headingMap = new Map();
+        const toc = Array.from(headings).map((heading, index) => {
+          // Create a slug from the heading text for a more meaningful ID
+          const text = heading.textContent.trim();
+          const slug = text
+            .toLowerCase()
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/^-+|-+$/g, '') || `heading-${index}`;
+          
+          let id = `heading-${slug}`;
+          let counter = 1;
+          
+          // Ensure unique ID
+          while (headingMap.has(id)) {
+            id = `heading-${slug}-${counter}`;
+            counter++;
+          }
+          headingMap.set(id, true);
+          
+          // Add ID to heading element (force set)
+          heading.setAttribute('id', id);
+          heading.id = id;
+          
+          // Add scroll-margin-top for better scroll positioning
+          heading.style.scrollMarginTop = '150px';
+          heading.style.scrollMarginBottom = '50px';
+          
+          return {
+            id: id,
+            text: text,
+            level: heading.tagName.toLowerCase(),
+          };
         });
+        setTableOfContents(toc);
       }
-    }, 100);
+    }, 600);
 
     return () => clearTimeout(timer);
   }, [blog]);
+
+  // Scroll spy to detect active heading
+  useEffect(() => {
+    if (tableOfContents.length === 0) return;
+
+    let ticking = false;
+
+    const handleScroll = () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          if (!contentRef.current) {
+            ticking = false;
+            return;
+          }
+
+          const headings = contentRef.current.querySelectorAll("h2, h3");
+          if (headings.length === 0) {
+            ticking = false;
+            return;
+          }
+
+          const offset = 200; // Offset for sticky header and padding
+          let currentHeading = null;
+          let lastPassedHeading = null;
+
+          // Find the heading that's currently in the viewport
+          for (let i = 0; i < headings.length; i++) {
+            const heading = headings[i];
+            const rect = heading.getBoundingClientRect();
+            
+            // Track the last heading we've scrolled past
+            if (rect.top < offset) {
+              lastPassedHeading = heading.id;
+            }
+            
+            // If heading is currently visible near the top
+            if (rect.top <= offset && rect.top >= 0) {
+              currentHeading = heading.id;
+              break;
+            }
+          }
+
+          // Use the last passed heading if no heading is currently at the offset
+          if (!currentHeading && lastPassedHeading) {
+            currentHeading = lastPassedHeading;
+          }
+
+          // Set the first heading as active if we're at the very top
+          if (!currentHeading && headings.length > 0) {
+            const scrollY = window.scrollY || window.pageYOffset;
+            if (scrollY < 300) {
+              currentHeading = headings[0].id;
+            } else if (lastPassedHeading) {
+              currentHeading = lastPassedHeading;
+            }
+          }
+
+          if (currentHeading && currentHeading !== activeHeadingId) {
+            setActiveHeadingId(currentHeading);
+          }
+
+          ticking = false;
+        });
+        ticking = true;
+      }
+    };
+
+    // Initial check after headings are set up
+    const initTimer = setTimeout(() => {
+      // Set first heading as active initially
+      if (tableOfContents.length > 0 && !activeHeadingId) {
+        setActiveHeadingId(tableOfContents[0].id);
+      }
+      handleScroll();
+    }, 800);
+
+    // Add scroll listener with throttling
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    window.addEventListener("resize", handleScroll, { passive: true });
+
+    return () => {
+      clearTimeout(initTimer);
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleScroll);
+    };
+  }, [blog, tableOfContents, activeHeadingId]);
 
   if (!blog) {
     notFound();
@@ -67,9 +185,63 @@ export default function BlogDetail() {
   };
 
   const scrollToHeading = (id) => {
-    const element = document.getElementById(id);
+    // Try multiple methods to find the element
+    let element = document.getElementById(id);
+    
+    // If not found by ID, try querySelector within content
+    if (!element && contentRef.current) {
+      element = contentRef.current.querySelector(`#${id}`);
+    }
+    
+    // If still not found, try finding by matching text from TOC
+    if (!element && contentRef.current) {
+      const headings = contentRef.current.querySelectorAll("h2, h3");
+      const tocItem = tableOfContents.find(item => item.id === id);
+      if (tocItem) {
+        Array.from(headings).forEach(heading => {
+          if (heading.textContent.trim() === tocItem.text) {
+            // Ensure it has the ID
+            if (!heading.id) {
+              heading.id = id;
+              heading.setAttribute('id', id);
+            }
+            element = heading;
+          }
+        });
+      }
+    }
+    
     if (element) {
-      element.scrollIntoView({ behavior: "smooth", block: "start" });
+      // Ensure element has the ID attribute
+      if (!element.id || element.id !== id) {
+        element.id = id;
+        element.setAttribute('id', id);
+      }
+      
+      // Calculate offset for sticky header and sidebar
+      const offset = 20;
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+      // Scroll to the element
+      window.scrollTo({
+        top: Math.max(0, offsetPosition),
+        behavior: "smooth"
+      });
+
+      // Update active heading immediately
+      setActiveHeadingId(id);
+      
+      // Also update after scroll completes to ensure it sticks
+      setTimeout(() => {
+        setActiveHeadingId(id);
+        // Force a scroll check
+        window.dispatchEvent(new Event('scroll'));
+      }, 600);
+    } else {
+      console.warn(`Heading with id "${id}" not found. Available headings:`, 
+        Array.from(contentRef.current?.querySelectorAll("h2, h3") || []).map(h => ({ id: h.id, text: h.textContent }))
+      );
     }
   };
 
@@ -268,26 +440,47 @@ export default function BlogDetail() {
             {/* Right Sticky Sidebar - Table of Contents */}
             <aside className={styles.right_sidebar}>
               <div className={styles.toc_section}>
-                <div className={styles.toc_header}>
+                <button
+                  className={styles.toc_header}
+                  onClick={() => setIsTocExpanded(!isTocExpanded)}
+                  aria-expanded={isTocExpanded}
+                  aria-label="Toggle table of contents"
+                >
                   <h3>In this article</h3>
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    className={`${styles.toc_arrow} ${isTocExpanded ? styles.expanded : ""}`}
+                  >
                     <polyline points="18 15 12 9 6 15" stroke="currentColor" strokeWidth="2" />
                   </svg>
-                </div>
-                <nav className={styles.toc_list}>
-                  {tableOfContents.map((item) => (
-                    <a
-                      key={item.id}
-                      href={`#${item.id}`}
-                      className={`${styles.toc_item} ${item.level === "h3" ? styles.toc_subitem : ""}`}
-                      onClick={(e) => {
-                        e.preventDefault();
-                        scrollToHeading(item.id);
-                      }}
-                    >
-                      {item.text}
-                    </a>
-                  ))}
+                </button>
+                <nav
+                  className={`${styles.toc_list} ${isTocExpanded ? styles.expanded : styles.collapsed}`}
+                >
+                  {tableOfContents.length > 0 ? (
+                    tableOfContents.map((item) => (
+                      <a
+                        key={item.id}
+                        href={`#${item.id}`}
+                        className={`${styles.toc_item} ${item.level === "h3" ? styles.toc_subitem : ""} ${
+                          activeHeadingId === item.id ? styles.active : ""
+                        }`}
+                        onClick={(e) => {
+                          e.preventDefault();
+                          scrollToHeading(item.id);
+                          // Update active heading immediately when clicked
+                          setActiveHeadingId(item.id);
+                        }}
+                      >
+                        {item.text}
+                      </a>
+                    ))
+                  ) : (
+                    <p className={styles.toc_empty}>No headings found</p>
+                  )}
                 </nav>
               </div>
 
