@@ -312,7 +312,7 @@ export default function BlogDetail() {
                 </div>
                 <div className={styles.author_info}>
                   <div className={styles.author_label}>Facts Checked by:</div>
-                  <div className={styles.author_name}>Sohaib</div>
+                  <div className={styles.author_name}>Faz</div>
                   <div className={styles.author_role}>Associate Digital Marketing Manager</div>
                 </div>
               </div>
