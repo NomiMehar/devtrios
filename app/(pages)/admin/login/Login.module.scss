@@ -1,0 +1,127 @@
+@use "../../../../styles/variables" as *;
+
+.login_page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, rgba(66, 115, 252, 0.05) 0%, rgba(0, 163, 255, 0.05) 100%);
+}
+
+.login_container {
+  width: 100%;
+  max-width: 450px;
+  background: $white_color;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding: 30px 20px;
+    border-radius: 12px;
+  }
+}
+
+.login_header {
+  text-align: center;
+  margin-bottom: 40px;
+
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: $dark_color;
+    margin: 0 0 10px;
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 28px;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    color: $gray_color;
+    margin: 0;
+  }
+}
+
+.login_form {
+  .error_message {
+    background: rgba(255, 62, 62, 0.1);
+    color: $error_color;
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .form_group {
+    margin-bottom: 24px;
+
+    label {
+      display: block;
+      font-size: 14px;
+      font-weight: 600;
+      color: $dark_color;
+      margin-bottom: 8px;
+    }
+
+    input {
+      width: 100%;
+      padding: 14px 16px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      font-size: 15px;
+      color: $dark_color;
+      background: $white_color;
+      transition: all 0.3s ease;
+
+      &:focus {
+        outline: none;
+        border-color: $blue_color;
+        box-shadow: 0 0 0 3px rgba(66, 115, 252, 0.1);
+      }
+
+      &::placeholder {
+        color: $gray_color;
+      }
+    }
+  }
+
+  .submit_button {
+    width: 100%;
+    padding: 16px;
+    background: linear-gradient(135deg, $blue_color 0%, #00a3ff 100%);
+    color: $white_color;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 16px rgba(66, 115, 252, 0.3);
+
+    &:hover:not(:disabled) {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(66, 115, 252, 0.4);
+    }
+
+    &:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+  }
+}
+
+.login_footer {
+  margin-top: 30px;
+  text-align: center;
+
+  p {
+    font-size: 13px;
+    color: $gray_color;
+    margin: 0;
+  }
+}
+

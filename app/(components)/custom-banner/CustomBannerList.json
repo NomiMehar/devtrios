@@ -73,5 +73,12 @@
       }
     ],
     "background": "#2674ac"
+  },
+
+  "blog": {
+    "title": "Our Blog",
+    "description": "Stay updated with the latest insights, trends, and expert advice on web development, mobile apps, and digital marketing.",
+    "buttons": [],
+    "background": "#243a72"
   }
 }

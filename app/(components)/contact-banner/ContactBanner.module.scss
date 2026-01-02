@@ -4,16 +4,16 @@
   position: relative;
   height: 100%;
   overflow: hidden;
-  padding: 200px 0 0;
+  padding: 130px 0 0;
   background-position: center;
   @media (max-width: $breakpoint_mini_laptop) {
-    padding: 200px 50px 0;
+    padding: 130px 0 0;
   }
   @media (max-width: $breakpoint_tablet) {
-    padding: 170px 0 0;
+    padding: 100px 0 0;
   }
   @media (max-width: $breakpoint_mobile_portrait) {
-    padding: 150px 0 0;
+    padding: 70px 0 0;
   }
   .content_wrapper {
     display: flex;

@@ -1,0 +1,112 @@
+@use "../../../../styles/variables" as *;
+
+.dashboard {
+  padding: 130px 0 100px;
+  min-height: 100vh;
+
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding: 100px 0 80px;
+  }
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding: 70px 0 60px;
+  }
+}
+
+.dashboard_header {
+  margin-bottom: 50px;
+
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    margin-bottom: 40px;
+  }
+
+  h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: $dark_color;
+    margin: 0 0 10px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      font-size: 36px;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 28px;
+    }
+  }
+
+  p {
+    font-size: 18px;
+    color: $gray_color;
+    margin: 0;
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 16px;
+    }
+  }
+}
+
+.dashboard_content {
+  .info_card {
+    background: $white_color;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      padding: 30px 20px;
+      border-radius: 12px;
+    }
+
+    h2 {
+      font-size: 28px;
+      font-weight: 700;
+      color: $dark_color;
+      margin: 0 0 20px;
+
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        font-size: 24px;
+      }
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.7;
+      color: $gray_color;
+      margin: 0 0 20px;
+    }
+
+    ul {
+      margin: 20px 0;
+      padding-left: 30px;
+      color: $gray_color;
+
+      li {
+        margin-bottom: 10px;
+        font-size: 15px;
+        line-height: 1.6;
+      }
+    }
+
+    .actions {
+      margin-top: 30px;
+    }
+
+    .action_button {
+      display: inline-block;
+      padding: 14px 28px;
+      background: linear-gradient(135deg, $blue_color 0%, #00a3ff 100%);
+      color: $white_color;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 16px rgba(66, 115, 252, 0.3);
+
+      &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(66, 115, 252, 0.4);
+      }
+    }
+  }
+}
+
