@@ -5,11 +5,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import styles from "./ServiceBanner.module.scss";
+import styles from "./ServiceBannerWithBlogs.module.scss";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function ServiceBanner({ data }) {
+export default function ServiceBannerWithBlogs({ data }) {
   const [swiperInstance, setSwiperInstance] = useState(null);
   const [activeIndex, setActiveIndex] = useState(0);
   const paginationRef = useRef(null);
@@ -38,7 +38,7 @@ export default function ServiceBanner({ data }) {
   }, [swiperInstance, filteredBlogs]);
 
   return (
-    <section className={styles.service_banner}>
+    <section className={styles.service_banner_with_blogs}>
       <div className="container">
         <div className={styles.content_wrapper}>
           <div className={styles.left_column}>
@@ -48,8 +48,8 @@ export default function ServiceBanner({ data }) {
                   <Image
                     src={data.badge.icon}
                     alt=""
-                    width={1000}
-                    height={1000}
+                    width={16}
+                    height={16}
                     className={styles.badge_icon}
                   />
                 )}
@@ -67,6 +67,7 @@ export default function ServiceBanner({ data }) {
             </div>
 
             <div className={styles.description_block}>
+              <p>{data.subtitle}</p>
               <p>{data.description}</p>
             </div>
 
@@ -219,14 +220,15 @@ export default function ServiceBanner({ data }) {
                   <p>No blogs available.</p>
                 </div>
               )}
-            </div>
 
-            {data.footerText && (
-              <p className={styles.footer_text}>{data.footerText}</p>
-            )}
+              {data.footerText && (
+                <p className={styles.footer_text}>{data.footerText}</p>
+              )}
+            </div>
           </div>
         </div>
       </div>
     </section>
   );
 }
+

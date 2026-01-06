@@ -1,29 +1,28 @@
 @use "../../../styles/variables" as *;
 
-.service_banner {
-  padding: 15px 0;
+.service_banner_with_blogs {
+  padding: 100px 0;
   position: relative;
   overflow: hidden;
 
   @media screen and (max-width: $breakpoint_tablet) {
-    padding: 15px 0;
+    padding: 80px 0;
   }
   @media screen and (max-width: $breakpoint_mobile_portrait) {
-    padding: 20px 0;
+    padding: 60px 0;
   }
 
   .content_wrapper {
-    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 410px;
-    gap: 20px;
+    gap: 30px;
     position: relative;
     z-index: 1;
-    align-items: stretch;
+    align-items: flex-start;
 
     @media screen and (max-width: $breakpoint_tablet) {
       grid-template-columns: 1fr;
-      gap: 15px;
+      gap: 30px;
     }
   }
 
@@ -32,11 +31,10 @@
     flex-direction: column;
     gap: 20px;
     background: linear-gradient(180deg, #3150B3 0%, #091336 100%);
-    padding: 60px 40px;
+    padding: 60px 50px;
     border-radius: 12px;
 
     @media screen and (max-width: $breakpoint_tablet) {
-      gap: 20px;
       padding: 50px 40px;
     }
     @media screen and (max-width: $breakpoint_mobile_portrait) {
@@ -51,12 +49,11 @@
     padding: 8px 16px;
     background: linear-gradient(64.79deg, rgba(157, 157, 157, 0.6) 11.24%, rgba(157, 157, 157, 0) 100%);
     border-radius: 8px;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 500;
     color: rgba(255, 255, 255, 0.95);
     width: fit-content;
     margin-bottom: 10px;
-    border: 1px solid $white_color;
 
     @media screen and (max-width: $breakpoint_mobile_portrait) {
       font-size: 13px;
@@ -67,7 +64,6 @@
       width: 16px;
       height: 16px;
       opacity: 0.9;
-      filter: brightness(0) invert(1);
     }
   }
 
@@ -78,7 +74,7 @@
       line-height: 1.2;
       margin: 0;
       color: $white_color;
-      
+
       @media screen and (max-width: $breakpoint_tablet) {
         font-size: 32px;
         margin-bottom: 18px;
@@ -87,7 +83,7 @@
         font-size: 28px;
         margin-bottom: 15px;
       }
-      
+
       .title_highlight {
         background: rgba(0, 156, 255, 1);
         padding: 4px 12px;
@@ -111,7 +107,7 @@
       }
     }
   }
-  
+
   .buttons_wrapper {
     display: flex;
     gap: 15px;
@@ -138,7 +134,7 @@
     transition: all 0.3s ease;
     border: 1px solid transparent;
     line-height: 1;
-    
+
     @media screen and (max-width: $breakpoint_mobile_portrait) {
       padding: 12px 20px;
       font-size: 15px;
@@ -216,7 +212,7 @@
       }
 
       .bullet {
-        color: $white_color;
+        color: $blue_color;
         font-size: 20px;
         line-height: 1;
         flex-shrink: 0;
@@ -239,9 +235,31 @@
     width: 410px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
     gap: 20px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      width: 100%;
+    }
+  }
+
+  .blog_section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: linear-gradient(180deg, #3150B3 0%, #091336 100%);
+    border-radius: 12px;
+    padding: 30px;
+    min-height: 500px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      padding: 25px;
+      min-height: 450px;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      padding: 20px;
+      min-height: 400px;
+      gap: 15px;
+    }
   }
 
   .blog_section_title {
@@ -259,32 +277,12 @@
     }
   }
 
-  .blog_section {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    background: linear-gradient(180deg, #3150B3 0%, #091336 100%);
-    border-radius: 12px;
-    padding: 30px;
-    min-height: 480px;
-
-    @media screen and (max-width: $breakpoint_tablet) {
-      padding: 25px;
-      min-height: 450px;
-    }
-    @media screen and (max-width: $breakpoint_mobile_portrait) {
-      padding: 20px;
-      min-height: 400px;
-      gap: 15px;
-    }
-  }
-
   .blog_section_description {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.6;
     color: rgba(255, 255, 255, 0.85);
-    margin: 0;
+    margin: 0 0 20px;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     line-clamp: 3;
@@ -294,14 +292,19 @@
 
     @media screen and (max-width: $breakpoint_mobile_portrait) {
       font-size: 15px;
+      margin-bottom: 15px;
     }
   }
 
   .blog_slider_wrapper {
     position: relative;
     width: 100%;
+    margin: 20px 0;
     overflow: hidden;
-    border-radius: 10px;
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      margin: 15px 0;
+    }
   }
 
   .blog_swiper {
@@ -325,21 +328,25 @@
     width: 100%;
     text-decoration: none;
     transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.02);
+    }
   }
 
   .blog_image_wrapper {
     width: 100%;
-    height: 190px;
+    height: 300px;
     overflow: hidden;
     border-radius: 10px;
     position: relative;
     background: rgba(0, 0, 0, 0.2);
 
     @media screen and (max-width: $breakpoint_tablet) {
-      height: 190px;
+      height: 250px;
     }
     @media screen and (max-width: $breakpoint_mobile_portrait) {
-      height: 190px;
+      height: 200px;
     }
   }
 
@@ -349,6 +356,10 @@
     object-fit: cover;
     transition: transform 0.4s ease;
     display: block;
+
+    .blog_card:hover & {
+      transform: scale(1.05);
+    }
   }
 
   .blog_navigation {
@@ -367,56 +378,58 @@
   .pagination_dots {
     display: flex !important;
     align-items: center;
-    gap: 5px;
+    gap: 8px;
     flex: 1;
+    justify-content: center;
     position: relative;
     min-height: 12px;
 
     @media screen and (max-width: $breakpoint_mobile_portrait) {
-      gap: 5px;
+      gap: 6px;
     }
   }
 
   .pagination_bullet {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: $white_color;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    border: none;
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    display: block;
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50% !important;
+    background: rgba(255, 255, 255, 0.3) !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    opacity: 1 !important;
+    display: block !important;
 
     @media screen and (max-width: $breakpoint_mobile_portrait) {
-      width: 6px;
-      height: 6px;
+      width: 6px !important;
+      height: 6px !important;
     }
 
     &:hover {
-      transform: scale(1.1);
+      background: rgba(255, 255, 255, 0.5) !important;
+      transform: scale(1.2);
     }
   }
 
   .pagination_bullet_active {
-    background: #009cff;
-    width: 24px;
-    border-radius: 4px;
+    background: $blue_color !important;
+    width: 24px !important;
+    border-radius: 4px !important;
 
     @media screen and (max-width: $breakpoint_mobile_portrait) {
-      width: 20px;
+      width: 20px !important;
     }
   }
 
   .navigation_arrows {
     display: flex;
-    gap: 5px;
+    gap: 10px;
     align-items: center;
 
     @media screen and (max-width: $breakpoint_mobile_portrait) {
-      gap: 5px;
+      gap: 8px;
     }
   }
 
@@ -425,7 +438,7 @@
     height: 40px;
     border-radius: 50%;
     border: none;
-    background: rgba(255, 255, 255, 0.219);
+    background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     color: $white_color;
     display: flex;
@@ -473,15 +486,16 @@
   }
 
   .footer_text {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 1.6;
-    color: rgba(54, 54, 54, 1);
-    margin: 0;
+    color: $dark_color;
+    margin: 20px 0 0;
     padding: 0;
 
     @media screen and (max-width: $breakpoint_mobile_portrait) {
-      font-size: 14px;
+      font-size: 13px;
+      margin: 15px 0 0;
     }
   }
 }

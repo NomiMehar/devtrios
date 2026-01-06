@@ -61,11 +61,11 @@ export default function websiteDevelopment() {
         />
       </Head>
       <ServiceBanner data={bannerData} />
-      <ServiceList data={serviceListData} />
+      {/* <ServiceList data={serviceListData} />
       <WhyChoose data={whyChooseData} />
       <ProcessSection data={processData} />
       <CaseStudy data={caseStudyData} />
-      <WhoWeBuildFor data={whoWeBuildForData} />
+      <WhoWeBuildFor data={whoWeBuildForData} /> */}
       <Cta data={ctaData} />
       <Faqs type="website_development" />
     </React.Fragment>

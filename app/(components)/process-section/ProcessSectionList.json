@@ -2,6 +2,10 @@
   "website_development": {
     "heading": "Our Website Development Process",
     "description": "Every successful website starts with clarity. Our website development process is designed to reduce risk, improve outcomes, and ensure your site performs long after launch.",
+    "button": {
+      "text": "Book a Consultation",
+      "link": "#contact"
+    },
     "steps": [
       {
         "title": "Discovery & Strategy",

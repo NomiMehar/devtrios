@@ -1,136 +1,556 @@
 @use "../../../styles/variables" as *;
 
-.process_section {
-  padding: 130px 0;
+.section_our_process {
+  padding: 100px 0;
+  background: linear-gradient(180deg, #3150B3 0%, #091336 100%);
+  position: relative;
+  width: 100%;
+
   @media screen and (max-width: $breakpoint_tablet) {
-    padding: 100px 0;
+    padding: 80px 0;
   }
   @media screen and (max-width: $breakpoint_mobile_portrait) {
-    padding: 70px 0;
+    padding: 60px 0;
   }
 
-  .heading_wrapper {
-    max-width: 1000px;
-    margin: 0 auto 60px;
-    text-align: center;
+  .section_name {
+    border-bottom: 1px solid $white_color;
+    padding: 0 0 30px;
+    margin: 0 0 30px;
 
     @media screen and (max-width: $breakpoint_tablet) {
-      margin-bottom: 50px;
-    }
-    @media screen and (max-width: $breakpoint_mobile_portrait) {
-      margin-bottom: 40px;
+      padding: 0 0 25px;
+      margin: 0 0 25px;
     }
 
-    h2 {
-      font-size: 42px;
-      font-weight: 600;
-      line-height: 1.4;
-      color: $dark_color;
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      padding: 0 0 20px;
       margin: 0 0 20px;
+    }
+
+    span {
+      font-size: 14px;
+      font-weight: 500;
+      color: $white_color;
+      text-transform: uppercase;
+      letter-spacing: 1px;
 
       @media screen and (max-width: $breakpoint_tablet) {
-        font-size: 38px;
+        font-size: 13px;
       }
+
       @media screen and (max-width: $breakpoint_mobile_portrait) {
-        font-size: 28px;
-        margin-bottom: 15px;
+        font-size: 12px;
       }
     }
+  }
 
+  .section_header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 60px;
+    align-items: start;
+    border-bottom: 1px solid $white_color;
+    padding-bottom: 30px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      gap: 25px;
+      margin-bottom: 50px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid $white_color;
+    }
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: none;
+    }
+  }
+
+  .section_title {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: $white_color;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      font-size: 36px;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 28px;
+    }
+  }
+
+  .section_description {
     p {
-      font-size: 20px;
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 16px;
       line-height: 1.7;
-      color: $gray_color;
       margin: 0;
 
       @media screen and (max-width: $breakpoint_tablet) {
-        font-size: 18px;
-      }
-      @media screen and (max-width: $breakpoint_mobile_portrait) {
-        font-size: 16px;
+        font-size: 15px;
       }
     }
   }
 
-  .steps_grid {
+  .our_process_slider {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
+    grid-template-columns: 40% 60%;
+    gap: 0;
+    width: 100%;
 
-    @media screen and (max-width: $breakpoint_laptop) {
-      grid-template-columns: repeat(3, 1fr);
-    }
     @media screen and (max-width: $breakpoint_tablet) {
-      grid-template-columns: repeat(2, 1fr);
-    }
-    @media screen and (max-width: $breakpoint_mobile_portrait) {
       grid-template-columns: 1fr;
     }
+  }
 
-    .step_card {
-      background: $card_color;
-      border-radius: 12px;
-      padding: 30px;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      position: relative;
+  .slider_body {
+    width: 100%;
+    position: relative;
+    padding-right: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid $white_color;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      padding-right: 20px;
+      border-right: none;
+      border-bottom: 1px solid $white_color;
+    }
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      padding-right: 20px;  
+    }
+  }
+
+  .slider_main {
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    flex: 1;
+
+  }
+
+  .slider_count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 1;
+    color: $white_color;
+    pointer-events: none;
+    font-family: sans-serif;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      font-size: 120px;
+    }
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 80px;
+    }
+
+    .span_md {
+      font-size: inherit;
+      color: inherit;
+      font-weight: inherit;
+    }
+  }
+
+  .slider_title {
+    margin: 0 0 20px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: $white_color;
+    position: relative;
+    z-index: 2;
+    padding-top: 120px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      font-size: 28px;
+      padding-top: 90px;
+    }
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 20px;
+      padding-top: 50px;
+      margin-bottom: 15px;
+    }
+
+    .span_md {
+      display: none;
+    }
+  }
+
+  .slider_text {
+    font-size: 16px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0;
+    position: relative;
+    z-index: 2;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      font-size: 15px;
+      line-height: 1.65;
+    }
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+  }
+
+  .slider_nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    z-index: 2;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      gap: 12px;
+      margin-top: 15px;
+    }
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      gap: 10px;
+      margin-top: 10px;
+    }
+  }
+
+  .nav_dots {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    width: auto;
+  }
+
+  .pagination_bullet {
+    display: block !important;
+    width: 8px;
+    height: 8px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      width: 7px;
+      height: 7px;
+    }
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      width: 6px;
+      height: 6px;
+    }
+  }
+
+  .pagination_bullet_active {
+    width: 24px;
+    height: 8px;
+    background-color: $blue_color;
+    border: 2px solid $blue_color;
+    border-radius: 12px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      width: 22px;
+      height: 7px;
+    }
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      width: 20px;
+      height: 6px;
+    }
+  }
+
+  .nav_button_prev,
+  .nav_button_next {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: $white_color;
+    color: $white_color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0;
+    flex-shrink: 0;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      width: 38px;
+      height: 38px;
+    }
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      width: 36px;
+      height: 36px;
+    }
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.2);
+      border-color: rgba(255, 255, 255, 0.4);
+    }
+
+    svg {
+      width: 16px;
+      height: 16px;
 
       @media screen and (max-width: $breakpoint_mobile_portrait) {
-        padding: 25px;
-      }
-
-      &:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-      }
-
-      .step_number {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        background: linear-gradient(135deg, #0045ff 0%, #00a3ff 100%);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 20px;
-        font-weight: 700;
-        color: $white_color;
-        margin-bottom: 20px;
-
-        @media screen and (max-width: $breakpoint_mobile_portrait) {
-          width: 40px;
-          height: 40px;
-          font-size: 18px;
-          margin-bottom: 15px;
-        }
-      }
-
-      h3 {
-        font-size: 20px;
-        font-weight: 600;
-        color: $dark_color;
-        margin: 0 0 12px;
-        line-height: 1.3;
-
-        @media screen and (max-width: $breakpoint_tablet) {
-          font-size: 18px;
-        }
-        @media screen and (max-width: $breakpoint_mobile_portrait) {
-          font-size: 16px;
-          margin-bottom: 10px;
-        }
-      }
-
-      p {
-        font-size: 15px;
-        line-height: 1.7;
-        color: $gray_color;
-        margin: 0;
-
-        @media screen and (max-width: $breakpoint_tablet) {
-          font-size: 14px;
-        }
+        width: 14px;
+        height: 14px;
       }
     }
   }
-}
 
+  .slider_figure {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding-left: 30px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      padding-left: 20px;
+    }
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      padding-left: 20px;
+    }
+  }
+
+  .figure_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    position: relative;
+    min-width: 615px;
+
+    li {
+      position: relative;
+      width: 100%;
+    }
+
+    // First item on top (highest z-index), last item at bottom (lowest z-index)
+    li:nth-child(1) {
+      z-index: 8;
+    }
+    li:nth-child(2) {
+      z-index: 7;
+    }
+    li:nth-child(3) {
+      z-index: 6;
+    }
+    li:nth-child(4) {
+      z-index: 5;
+    }
+    li:nth-child(5) {
+      z-index: 4;
+    }
+    li:nth-child(6) {
+      z-index: 3;
+    }
+    li:nth-child(7) {
+      z-index: 2;
+    }
+    li:nth-child(8) {
+      z-index: 1;
+    }
+  }
+
+  .figure_item {
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 0;
+    cursor: pointer;
+    margin-bottom: -30px;
+    width: 100%;
+    justify-content: center;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      margin-bottom: -22px;
+    }
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      margin-bottom: -15px;
+    }
+  }
+
+  .figure_text {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+
+    &.text_left {
+      left: -100px;
+      right: auto;
+    }
+
+    &.text_right {
+      right: -100px;
+      left: auto;
+    }
+
+    span {
+      cursor: pointer;
+      font-size: 16px;
+      display: inline-block;
+      background-color: rgba(42, 42, 42, 0.8);
+      padding: 8px 20px;
+      border-radius: 20px;
+      transition: all 0.3s ease;
+      color: $white_color;
+      position: relative;
+      font-weight: 500;
+      max-width: 260px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+
+      @media screen and (max-width: $breakpoint_tablet) {
+        font-size: 14px;
+        padding: 6px 16px;
+      }
+
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        font-size: 11px;
+        padding: 4px 12px;
+      }
+      p{
+        margin: 0;
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        height: 2px;
+        border-bottom: 2px dashed rgba(255, 255, 255, 0.3);
+        transform: translateY(-50%);
+        transition: border-color 0.3s ease;
+      }
+    }
+  }
+
+  .figure_text.text_left span::before {
+    left: 100%;
+    right: auto;
+    width: 80px;
+    margin-right: 15px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      width: 50px;
+      margin-right: 12px;
+    }
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      width: 30px;
+      margin-right: 10px;
+    }
+  }
+
+  .figure_text.text_right span::before {
+    right: 100%;
+    left: auto;
+    width: 80px;
+    margin-left: 15px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      width: 50px;
+      margin-left: 12px;
+    }
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      width: 30px;
+      margin-left: 10px;
+    }
+  }
+
+  .figure_svg {
+    flex: 0 0 auto;
+    position: relative;
+    width: 200px;
+    height: 75px;
+    z-index: 99;
+    margin: 0 auto;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      width: 200px;
+      height: 75px;
+    }
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      width: 100px;
+      height: 35px;
+    }
+
+    svg {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transition: fill 0.3s ease;
+      display: block;
+    }
+  }
+
+  .figure_item.active .figure_text span {
+    background-color: $blue_color;
+    color: $white_color;
+    border-color: $blue_color;
+
+    &::before {
+      border-color: $blue_color;
+    }
+  }
+
+  .figure_item.hovered .figure_text span,
+  .figure_item:hover .figure_text span {
+    background-color: $blue_color;
+    color: $white_color;
+    border-color: $blue_color;
+    transition: all 0.3s ease;
+
+    &::before {
+      border-color: $blue_color;
+      transition: border-color 0.3s ease;
+    }
+  }
+
+  .swiper {
+    overflow: hidden !important;
+    width: 100%;
+    height: 100%;
+  }
+
+  :global(.swiper-slide) {
+    width: 100% !important;
+    display: block !important;
+    height: auto !important;
+  }
+
+  :global(.swiper-wrapper) {
+    height: auto !important;
+  }
+}

@@ -1,17 +1,15 @@
 {
   "website_development": {
     "title": "Website Development Services Built for Performance, Scale, and Conversions",
-    "titleStart": "Website Development Services Built for",
-    "titleEnd": "Performance, Scale, and Conversions",
-    "subtitle": "Your website should do more than look good. It should load fast, rank well, and convert consistently.",
-    "description": "At Devtrios, we deliver professional website development services for businesses that need speed, scalability, and measurable results. We design and build high-performance websites that support SEO, user experience, and long-term growth, not just launch day aesthetics. Whether you need a custom business website, a scalable CMS platform, or a conversion-focused landing experience, our team builds websites engineered to support revenue, not vanity metrics.",
+    "titleStart": "Website Development Services",
+    "titleEnd": "Built for Performance, Scale, and Conversions",
+    "description": "Your website should do more than look good. It should load fast, rank well, and convert consistently. At Devtrios, we deliver professional website development services for businesses that need speed, scalability, and measurable results. We design and build high-performance websites that support SEO, user experience, and long-term growth, not just launch day aesthetics. Whether you need a custom business website, a scalable CMS platform, or a conversion-focused landing experience, our team builds websites engineered to support revenue, not vanity metrics.",
     "benefits": [
       "Scalable, future-proof architecture",
       "SEO-ready foundations from day one",
       "Mobile-first, performance-led design",
       "Conversion-focused UX informed by data"
     ],
-    "closingText": "Let's build a website that works as hard as your business does.",
     "buttons": [
       {
         "text": "Get a Free Consultation",
@@ -21,6 +19,60 @@
       {
         "text": "Request a Quote",
         "link": "/get-a-quote"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "blogSectionTitle": "Blog Article",
+    "blogSectionDescription": "Explore insights on development costs, pricing strategies, and budget planning for your next digital project.",
+    "footerText": "Devtrios participates in the United Nations Global Compact, embedding responsible, transparent, and ethical practices across its work.",
+    "blogs": [
+      {
+        "id": 1,
+        "image": "/assets/images/home/Why-Every-Business-Needs-SEO.webp",
+        "title": "Website Development Best Practices for 2025",
+        "description": "Discover the latest website development best practices for 2025. Learn about modern frameworks, performance optimization, and user experience strategies that will help you build websites that convert and scale.",
+        "button": {
+          "link": "/blog/website-development-best-practices-2025"
+        }
+      },
+      {
+        "id": 2,
+        "image": "/assets/images/home/Why-Every-Business-Needs-SEO.webp",
+        "title": "Mobile App Development Trends",
+        "description": "Explore the latest mobile app development trends shaping the industry. From cross-platform solutions to AI integration, stay ahead with cutting-edge mobile technologies.",
+        "button": {
+          "link": "/blog/mobile-app-development-trends"
+        }
+      },
+      {
+        "id": 3,
+        "image": "/assets/images/home/Why-Every-Business-Needs-SEO.webp",
+        "title": "AI in Web Development",
+        "description": "Learn how artificial intelligence is revolutionizing web development. Discover AI-powered tools, automation techniques, and intelligent features that enhance user experiences.",
+        "button": {
+          "link": "/blog/ai-in-web-development"
+        }
+      },
+      {
+        "id": 4,
+        "image": "/assets/images/home/Why-Every-Business-Needs-SEO.webp",
+        "title": "Social Media Marketing Strategies",
+        "description": "Master social media marketing with proven strategies that drive engagement and conversions. Learn about content creation, audience targeting, and platform-specific tactics.",
+        "button": {
+          "link": "/blog/social-media-marketing-strategies"
+        }
+      },
+      {
+        "id": 5,
+        "image": "/assets/images/home/Why-Every-Business-Needs-SEO.webp",
+        "title": "E-commerce Development in KSA",
+        "description": "Navigate the e-commerce landscape in Saudi Arabia with expert insights. Understand local market dynamics, payment solutions, and cultural considerations for successful online stores.",
+        "button": {
+          "link": "/blog/ecommerce-development-ksa"
+        }
       }
     ]
   }
