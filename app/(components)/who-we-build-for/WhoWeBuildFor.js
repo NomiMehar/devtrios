@@ -1,14 +1,16 @@
 import React from "react";
 import styles from "./WhoWeBuildFor.module.scss";
 import Button from "@/app/(components)/button/Button";
+import Image from "next/image";
 
 export default function WhoWeBuildFor({ data }) {
   return (
     <section className={styles.who_we_build_for}>
       <div className="container">
-        <div className={styles.content_wrapper}>
+      <div className={styles.block_wrapper}>
+      <div className={styles.content_wrapper}>
           <div className={styles.heading_wrapper}>
-            <h2>{data.heading}</h2>
+            <h2 dangerouslySetInnerHTML={{__html:data.heading}} />
             <p>{data.description}</p>
           </div>
 
@@ -32,6 +34,10 @@ export default function WhoWeBuildFor({ data }) {
             </div>
           )}
         </div>
+        <div className={styles.image_wrapper}>
+          <Image src="/assets/images/services/who-we-build.png" width={1000} height={1000} alt="who-we-build" />
+        </div>
+      </div>
       </div>
     </section>
   );

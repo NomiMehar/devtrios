@@ -30,11 +30,11 @@ export default function CaseStudies({ type }) {
           <div className={styles.slider_container}>
             <Swiper
               spaceBetween={20}
-              pagination={{ clickable: true }}
-              navigation={true}
+              pagination={caseData.projects.length > 1 ? { clickable: true } : false}
+              navigation={caseData.projects.length > 1}
               modules={[Autoplay, Pagination, Navigation]}
               slidesPerView={1}
-              className={`caseStudiesSwiper ${styles.case_studies_swiper}`}
+              className={`caseStudiesSwiper ${styles.case_studies_swiper} ${type === "website_development" ? styles.no_padding : ""}`}
             >
               {caseData.projects.map((project, index) => (
                 <SwiperSlide key={index}>
@@ -62,8 +62,42 @@ export default function CaseStudies({ type }) {
                     </div>
                     <div className={styles.content_section}>
                       <div className={styles.content_wrapper}>
+                        {/* Case Study structure: challenge, solution, outcomes, closingText */}
+                        {project.challenge && (
+                          <>
+                            <div className={styles.summary_box}>
+                              <h5>Challenge:</h5>
+                              <p className={styles.summary}>{project.challenge}</p>
+                            </div>
+                            {project.solution && (
+                              <div className={styles.technical_box}>
+                                <h5>Solution:</h5>
+                                <p>{project.solution}</p>
+                              </div>
+                            )}
+                            {project.outcomes && project.outcomes.length > 0 && (
+                              <div className={styles.results_box}>
+                                <h5>Outcome:</h5>
+                                <ul>
+                                  {project.outcomes.map((outcome, idx) => (
+                                    <li key={idx}>
+                                      <span className={styles.check_icon}>✓</span>
+                                      <span>{outcome}</span>
+                                    </li>
+                                  ))}
+                                </ul>
+                              </div>
+                            )}
+                            {project.closingText && (
+                              <div className={styles.closing_box}>
+                                <p className={styles.closing_text}>{project.closingText}</p>
+                              </div>
+                            )}
+                          </>
+                        )}
+                        
                         {/* WordPress structure: summary, technicalFocus, results */}
-                        {project.summary && !project.scope && (
+                        {project.summary && !project.scope && !project.challenge && (
                           <>
                             <div className={styles.summary_box}>
                               <h5>Project Summary</h5>
@@ -99,7 +133,7 @@ export default function CaseStudies({ type }) {
                         )}
                         
                         {/* Shopify structure: scope, summary, outcome, cta */}
-                        {project.scope && (
+                        {project.scope && !project.challenge && (
                           <>
                             <div className={styles.summary_box}>
                               <h5>Scope</h5>

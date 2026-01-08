@@ -81,15 +81,15 @@ export default function ProcessSection({ data }) {
             <g opacity="0.95">
               <path
                 d="M260 43.2L130 86.3L0 43.2L130 0L260 43.2Z"
-                fill={shouldHighlight ? "#4273fc" : "#2a2a2a"}
+                fill={shouldHighlight ? "rgba(0, 163, 255, 1)" : "#2a2a2a"}
               />
               <path
                 d="M0 43.2002V55.0002L130 98.1002V86.3002L0 43.2002Z"
-                fill={shouldHighlight ? "#3560d9" : "#1f1f1f"}
+                fill={shouldHighlight ? "rgb(0, 123, 194)" : "#1f1f1f"}
               />
               <path
                 d="M260 43.2002V55.0002L130 98.1002V86.3002L260 43.2002Z"
-                fill={shouldHighlight ? "#2a4db5" : "#151515"}
+                fill={shouldHighlight ? "rgb(0, 123, 194)" : "#151515"}
               />
             </g>
           </svg>

@@ -8,8 +8,8 @@ import WhyChoose from "@/app/(components)/why-choose/WhyChoose";
 import WhyChooseList from "@/app/(components)/why-choose/WhyChooseList.json";
 import ProcessSection from "@/app/(components)/process-section/ProcessSection";
 import ProcessSectionList from "@/app/(components)/process-section/ProcessSectionList.json";
-import CaseStudy from "@/app/(components)/case-study/CaseStudy";
-import CaseStudyList from "@/app/(components)/case-study/CaseStudyList.json";
+import CaseStudies from "@/app/(components)/case-studies/CaseStudies";
+import OurExpertise from "@/app/(components)/our-expertise/OurExpertise"
 import WhoWeBuildFor from "@/app/(components)/who-we-build-for/WhoWeBuildFor";
 import WhoWeBuildForList from "@/app/(components)/who-we-build-for/WhoWeBuildForList.json";
 import Faqs from "@/app/(components)/faqs/Faqs";
@@ -21,7 +21,6 @@ export default function websiteDevelopment() {
   const serviceListData = ServiceListList.website_development;
   const whyChooseData = WhyChooseList.website_development;
   const processData = ProcessSectionList.website_development;
-  const caseStudyData = CaseStudyList.website_development;
   const whoWeBuildForData = WhoWeBuildForList.website_development;
   const ctaData = CtaList.website_development;
   
@@ -61,11 +60,12 @@ export default function websiteDevelopment() {
         />
       </Head>
       <ServiceBanner data={bannerData} />
-      {/* <ServiceList data={serviceListData} />
+      <ServiceList data={serviceListData} />
       <WhyChoose data={whyChooseData} />
       <ProcessSection data={processData} />
-      <CaseStudy data={caseStudyData} />
-      <WhoWeBuildFor data={whoWeBuildForData} /> */}
+      <CaseStudies type="website_development" />
+      <OurExpertise />
+      <WhoWeBuildFor data={whoWeBuildForData} />
       <Cta data={ctaData} />
       <Faqs type="website_development" />
     </React.Fragment>

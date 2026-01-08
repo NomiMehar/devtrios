@@ -91,6 +91,18 @@
         padding: 0 0px 80px;
       }
 
+      &.no_padding {
+        padding: 0;
+        
+        @media screen and (max-width: $breakpoint_tablet) {
+          padding: 0;
+        }
+        
+        @media screen and (max-width: $breakpoint_mobile_portrait) {
+          padding: 0;
+        }
+      }
+
       :global(.swiper-slide) {
         height: auto;
       }
@@ -355,6 +367,43 @@
             gap: 25px;
           }
 
+          .client_box {
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid rgba(66, 115, 252, 0.1);
+            
+            @media screen and (max-width: $breakpoint_mobile_portrait) {
+              margin-bottom: 25px;
+              padding-bottom: 25px;
+            }
+
+            h5 {
+              font-size: 24px;
+              font-weight: 600;
+              color: $dark_color;
+              margin: 0 0 10px;
+              
+              @media screen and (max-width: $breakpoint_tablet) {
+                font-size: 22px;
+              }
+              
+              @media screen and (max-width: $breakpoint_mobile_portrait) {
+                font-size: 20px;
+              }
+            }
+
+            .client_description {
+              font-size: 16px;
+              line-height: 1.7;
+              color: $gray_color;
+              margin: 0;
+              
+              @media screen and (max-width: $breakpoint_mobile_portrait) {
+                font-size: 15px;
+              }
+            }
+          }
+
           .summary_box,
           .technical_box,
           .results_box {
@@ -461,6 +510,31 @@
               line-height: 1.8;
               color: $gray_color;
               margin: 0;
+              
+              @media screen and (max-width: $breakpoint_tablet) {
+                font-size: 15px;
+              }
+              
+              @media screen and (max-width: $breakpoint_mobile_portrait) {
+                font-size: 14px;
+              }
+            }
+          }
+
+          .closing_box {
+            padding-top: 30px;
+            border-top: 1px solid rgba(66, 115, 252, 0.1);
+            
+            @media screen and (max-width: $breakpoint_mobile_portrait) {
+              padding-top: 25px;
+            }
+
+            .closing_text {
+              font-size: 16px;
+              line-height: 1.8;
+              color: $gray_color;
+              margin: 0;
+              font-style: italic;
               
               @media screen and (max-width: $breakpoint_tablet) {
                 font-size: 15px;
