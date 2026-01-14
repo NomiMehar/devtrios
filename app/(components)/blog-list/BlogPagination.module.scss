@@ -1,0 +1,86 @@
+@use "../../../styles/variables" as *;
+
+.pagination_wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+  @media screen and (max-width: $breakpoint_tablet) {
+    margin-top: 40px;
+  }
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    margin-top: 30px;
+  }
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pagination_button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: $white_color;
+  color: $gray_color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  font-weight: 500;
+
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    width: 36px;
+    height: 36px;
+    font-size: 13px;
+  }
+
+  svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  &:hover:not(:disabled) {
+    border-color: $blue_color;
+    color: $blue_color;
+    background: rgba(66, 115, 252, 0.05);
+  }
+
+  &:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+
+  &.pagination_number {
+    &.active {
+      border: 2px solid $blue_color;
+      background: $white_color;
+      color: $blue_color;
+      font-weight: 600;
+    }
+  }
+}
+
+.pagination_ellipsis {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $gray_color;
+  font-size: 14px;
+
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    width: 36px;
+    height: 36px;
+    font-size: 13px;
+  }
+}
+

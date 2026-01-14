@@ -11,6 +11,13 @@
         "summary": "Complete WordPress rebuild with improved UX, structured content hierarchy, and performance-focused architecture.",
         "technicalFocus": "Custom theme, multilingual SEO configuration, schema setup, caching improvements, accessibility corrections.",
         "image": "/assets/images/services/fullstack-back.webp",
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ],
         "results": [
           "Page load time improved from 3.9 seconds to 1.4 seconds",
           "Organic visibility increased by 36 percent over 90 days",
@@ -28,6 +35,13 @@
           "PageSpeed score improved from 54 to 89",
           "Engagement time increased by 31 percent",
           "Clearer content paths for key product pages"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=111",
+          "https://picsum.photos/800/600?random=122",
+          "https://picsum.photos/800/600?random=133",
+          "https://picsum.photos/800/600?random=144",
+          "https://picsum.photos/800/600?random=155"
         ]
       },
       {
@@ -40,6 +54,13 @@
           "Plugin set reduced by 28 percent",
           "Zero downtime over nine months",
           "Improved CMS efficiency for internal content teams"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=211",
+          "https://picsum.photos/800/600?random=222",
+          "https://picsum.photos/800/600?random=233",
+          "https://picsum.photos/800/600?random=244",
+          "https://picsum.photos/800/600?random=255"
         ]
       },
       {
@@ -52,6 +73,13 @@
           "Administrative hours reduced by approximately 15 hours per month",
           "Appointment booking conversions increased by 19 percent",
           "Added custom security layer for protected pages"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=311",
+          "https://picsum.photos/800/600?random=322",
+          "https://picsum.photos/800/600?random=333",
+          "https://picsum.photos/800/600?random=344",
+          "https://picsum.photos/800/600?random=355"
         ]
       },
       {
@@ -64,6 +92,13 @@
           "Checkout abandonment decreased by 24 percent",
           "Average order value increased by 11 percent",
           "Page load times improved from 4.1 seconds to 1.7 seconds"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=411",
+          "https://picsum.photos/800/600?random=422",
+          "https://picsum.photos/800/600?random=433",
+          "https://picsum.photos/800/600?random=444",
+          "https://picsum.photos/800/600?random=455"
         ]
       },
       {
@@ -76,6 +111,13 @@
           "Demo sign-ups increased by 40 percent within 60 days",
           "Organic impressions increased by 29 percent",
           "Blog performance improved with caching and code refinement"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=511",
+          "https://picsum.photos/800/600?random=522",
+          "https://picsum.photos/800/600?random=533",
+          "https://picsum.photos/800/600?random=544",
+          "https://picsum.photos/800/600?random=555"
         ]
       }
     ]
@@ -97,7 +139,14 @@
           "text": "View Case Study",
           "link": "#"
         },
-        "image": "/assets/images/services/fullstack-back.webp"
+        "image": "/assets/images/services/fullstack-back.webp",
+        "images": [
+          "https://picsum.photos/800/600?random=11",
+          "https://picsum.photos/800/600?random=22",
+          "https://picsum.photos/800/600?random=33",
+          "https://picsum.photos/800/600?random=44",
+          "https://picsum.photos/800/600?random=55"
+        ]
       },
       {
         "title": "Allbirds",
@@ -109,7 +158,14 @@
           "text": "View Case Study",
           "link": "#"
         },
-        "image": "/assets/images/services/fullstack-back.webp"
+        "image": "/assets/images/services/fullstack-back.webp",
+        "images": [
+          "https://picsum.photos/800/600?random=111",
+          "https://picsum.photos/800/600?random=122",
+          "https://picsum.photos/800/600?random=133",
+          "https://picsum.photos/800/600?random=144",
+          "https://picsum.photos/800/600?random=155"
+        ]
       },
       {
         "title": "Matalan",
@@ -121,7 +177,14 @@
           "text": "View Case Study",
           "link": "#"
         },
-        "image": "/assets/images/services/fullstack-back.webp"
+        "image": "/assets/images/services/fullstack-back.webp",
+        "images": [
+          "https://picsum.photos/800/600?random=211",
+          "https://picsum.photos/800/600?random=222",
+          "https://picsum.photos/800/600?random=233",
+          "https://picsum.photos/800/600?random=244",
+          "https://picsum.photos/800/600?random=255"
+        ]
       },
       {
         "title": "Stitch Fix",
@@ -133,7 +196,14 @@
           "text": "View Case Study",
           "link": "#"
         },
-        "image": "/assets/images/services/fullstack-back.webp"
+        "image": "/assets/images/services/fullstack-back.webp",
+        "images": [
+          "https://picsum.photos/800/600?random=311",
+          "https://picsum.photos/800/600?random=322",
+          "https://picsum.photos/800/600?random=333",
+          "https://picsum.photos/800/600?random=344",
+          "https://picsum.photos/800/600?random=355"
+        ]
       },
       {
         "title": "Chubbies Shorts",
@@ -145,7 +215,14 @@
           "text": "View Case Study",
           "link": "#"
         },
-        "image": "/assets/images/services/fullstack-back.webp"
+        "image": "/assets/images/services/fullstack-back.webp",
+        "images": [
+          "https://picsum.photos/800/600?random=411",
+          "https://picsum.photos/800/600?random=422",
+          "https://picsum.photos/800/600?random=433",
+          "https://picsum.photos/800/600?random=444",
+          "https://picsum.photos/800/600?random=455"
+        ]
       },
       {
         "title": "Dryrobe",
@@ -157,7 +234,14 @@
           "text": "View Case Study",
           "link": "#"
         },
-        "image": "/assets/images/services/fullstack-back.webp"
+        "image": "/assets/images/services/fullstack-back.webp",
+        "images": [
+          "https://picsum.photos/800/600?random=511",
+          "https://picsum.photos/800/600?random=522",
+          "https://picsum.photos/800/600?random=533",
+          "https://picsum.photos/800/600?random=544",
+          "https://picsum.photos/800/600?random=555"
+        ]
       },
       {
         "title": "Kith",
@@ -169,7 +253,14 @@
           "text": "View Case Study",
           "link": "#"
         },
-        "image": "/assets/images/services/fullstack-back.webp"
+        "image": "/assets/images/services/fullstack-back.webp",
+        "images": [
+          "https://picsum.photos/800/600?random=611",
+          "https://picsum.photos/800/600?random=622",
+          "https://picsum.photos/800/600?random=633",
+          "https://picsum.photos/800/600?random=644",
+          "https://picsum.photos/800/600?random=655"
+        ]
       },
       {
         "title": "Leif Shop",
@@ -181,7 +272,14 @@
           "text": "View Case Study",
           "link": "#"
         },
-        "image": "/assets/images/services/fullstack-back.webp"
+        "image": "/assets/images/services/fullstack-back.webp",
+        "images": [
+          "https://picsum.photos/800/600?random=711",
+          "https://picsum.photos/800/600?random=722",
+          "https://picsum.photos/800/600?random=733",
+          "https://picsum.photos/800/600?random=744",
+          "https://picsum.photos/800/600?random=755"
+        ]
       },
       {
         "title": "Silk and Willow",
@@ -193,7 +291,14 @@
           "text": "View Case Study",
           "link": "#"
         },
-        "image": "/assets/images/services/fullstack-back.webp"
+        "image": "/assets/images/services/fullstack-back.webp",
+        "images": [
+          "https://picsum.photos/800/600?random=811",
+          "https://picsum.photos/800/600?random=822",
+          "https://picsum.photos/800/600?random=833",
+          "https://picsum.photos/800/600?random=844",
+          "https://picsum.photos/800/600?random=855"
+        ]
       },
       {
         "title": "Cowboy",
@@ -205,7 +310,14 @@
           "text": "View Case Study",
           "link": "#"
         },
-        "image": "/assets/images/services/fullstack-back.webp"
+        "image": "/assets/images/services/fullstack-back.webp",
+        "images": [
+          "https://picsum.photos/800/600?random=911",
+          "https://picsum.photos/800/600?random=922",
+          "https://picsum.photos/800/600?random=933",
+          "https://picsum.photos/800/600?random=944",
+          "https://picsum.photos/800/600?random=955"
+        ]
       },
       {
         "title": "Pure Cycles",
@@ -217,7 +329,14 @@
           "text": "View Case Study",
           "link": "#"
         },
-        "image": "/assets/images/services/fullstack-back.webp"
+        "image": "/assets/images/services/fullstack-back.webp",
+        "images": [
+          "https://picsum.photos/800/600?random=1011",
+          "https://picsum.photos/800/600?random=1022",
+          "https://picsum.photos/800/600?random=1033",
+          "https://picsum.photos/800/600?random=1044",
+          "https://picsum.photos/800/600?random=1055"
+        ]
       },
       {
         "title": "Christy Dawn",
@@ -229,7 +348,14 @@
           "text": "View Case Study",
           "link": "#"
         },
-        "image": "/assets/images/services/fullstack-back.webp"
+        "image": "/assets/images/services/fullstack-back.webp",
+        "images": [
+          "https://picsum.photos/800/600?random=1111",
+          "https://picsum.photos/800/600?random=1122",
+          "https://picsum.photos/800/600?random=1133",
+          "https://picsum.photos/800/600?random=1144",
+          "https://picsum.photos/800/600?random=1155"
+        ]
       },
       {
         "title": "HELM Boots",
@@ -241,7 +367,14 @@
           "text": "View Case Study",
           "link": "#"
         },
-        "image": "/assets/images/services/fullstack-back.webp"
+        "image": "/assets/images/services/fullstack-back.webp",
+        "images": [
+          "https://picsum.photos/800/600?random=1211",
+          "https://picsum.photos/800/600?random=1222",
+          "https://picsum.photos/800/600?random=1233",
+          "https://picsum.photos/800/600?random=1244",
+          "https://picsum.photos/800/600?random=1255"
+        ]
       }
     ]
   },
@@ -265,7 +398,14 @@
           "The site is now easier to manage, scale, and expand as Fairagora grows"
         ],
         "closingText": "This approach reflects how we build websites designed for long-term performance, not short-term launches.",
-        "image": "/assets/images/services/fullstack-back.webp"
+        "image": "/assets/images/services/fullstack-back.webp",
+        "images": [
+          "https://picsum.photos/800/600?random=11",
+          "https://picsum.photos/800/600?random=22",
+          "https://picsum.photos/800/600?random=33",
+          "https://picsum.photos/800/600?random=44",
+          "https://picsum.photos/800/600?random=55"
+        ]
       }
     ]
   },
@@ -289,7 +429,14 @@
         "cta": {
           "text": "See How 40+ Stores Grew",
           "link": "https://devtrios.com/e-commerce-growth-with-devtrios/"
-        }
+        },
+        "images": [
+          "https://picsum.photos/800/600?random=11",
+          "https://picsum.photos/800/600?random=22",
+          "https://picsum.photos/800/600?random=33",
+          "https://picsum.photos/800/600?random=44",
+          "https://picsum.photos/800/600?random=55"
+        ]
       },
       {
         "title": "Scaling Apps That Scale Users",
@@ -305,7 +452,14 @@
         "cta": {
           "text": "See How We Build Scalable Apps",
           "link": "https://devtrios.com/scaling-apps-that-scale-users/"
-        }
+        },
+        "images": [
+          "https://picsum.photos/800/600?random=111",
+          "https://picsum.photos/800/600?random=122",
+          "https://picsum.photos/800/600?random=133",
+          "https://picsum.photos/800/600?random=144",
+          "https://picsum.photos/800/600?random=155"
+        ]
       },
       {
         "title": "Smarter Business with Custom CRM Platforms",
@@ -321,9 +475,15 @@
         "cta": {
           "text": "Explore Custom CRM Development",
           "link": "https://devtrios.com/smarter-business-with-custom-crm-platforms/"
-        }
+        },
+        "images": [
+          "https://picsum.photos/800/600?random=211",
+          "https://picsum.photos/800/600?random=222",
+          "https://picsum.photos/800/600?random=233",
+          "https://picsum.photos/800/600?random=244",
+          "https://picsum.photos/800/600?random=255"
+        ]
       }
     ]
   }
 }
-

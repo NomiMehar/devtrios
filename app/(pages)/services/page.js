@@ -9,7 +9,7 @@ import Testimonials from "@/app/(components)/testimonials/Testimonials";
 import TestimonialList from "@/app/(components)/testimonials/TestimonialList.json";
 import Cta from "@/app/(components)/cta/Cta";
 import CtaList from "@/app/(components)/cta/CtaList.json";
-import Blogs from "@/app/(components)/blogs/Blogs";
+import BlogsSlider from "@/app/(components)/blogs-slider/BlogsSlider";
 import Faqs from "@/app/(components)/faqs/Faqs";
 
 export default function Services() {
@@ -65,7 +65,7 @@ export default function Services() {
       <OurServices />
       <Testimonials list={TestimonialList.about_us} />
       <Cta data={ctaData} />
-      <Blogs />
+      <BlogsSlider />
       <Faqs type="services" />
     </React.Fragment>
   );

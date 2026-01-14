@@ -15,9 +15,11 @@ import OurClients from "@/app/(components)/our-clients/OurClients";
 import Cta from "@/app/(components)/cta/Cta";
 import CtaList from "@/app/(components)/cta/CtaList.json";
 import Awards from "@/app/(components)/awards/Awards";
-import Blogs from "@/app/(components)/blogs/Blogs";
+import BlogsSlider from "@/app/(components)/blogs-slider/BlogsSlider";
 import Faqs from "@/app/(components)/faqs/Faqs";
-
+import TechnologyStack from "@/app/(components)/technology-stack/TechnologyStack";
+import Sustainability from "@/app/(components)/sustainability/Sustainability";
+    
 export default function Home() {
   const companiesData = CompaniesList.home;
   const aboutData = AboutList.home;
@@ -72,12 +74,14 @@ export default function Home() {
       <DigitalServices />
       <CaseStudies type="home" />
       <OurExpertise />
+      <Sustainability />
+      <TechnologyStack />
       <KeyMetrics />
       <Testimonials list={TestimonialList.home} />
       <OurClients />
       <Cta data={ctaData} />
       <Awards noPadding={false} />
-      <Blogs noPadding={true} />
+      <BlogsSlider noPadding={true} />
       <Faqs type="home" />
     </React.Fragment>
   );

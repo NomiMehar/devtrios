@@ -34,6 +34,7 @@ export default function ServiceList({ data }) {
                 <p className={styles.left_description}>
                   Each solution below is delivered with performance, SEO, and maintainability in mind.
                 </p>
+                <Image src="/assets/images/services/development-pg-banner.avif" alt="services-section-bg" width={1000} height={1000} />
               </div>
             </div>
 

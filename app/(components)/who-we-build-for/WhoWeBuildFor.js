@@ -27,7 +27,12 @@ export default function WhoWeBuildFor({ data }) {
           {data.buttons && data.buttons.length > 0 && (
             <div className={styles.buttons_wrapper}>
               {data.buttons.map((button, index) => (
-                <Button key={index} href={button.link} icon={button.icon}>
+                <Button 
+                  key={index} 
+                  href={button.link} 
+                  icon={button.icon}
+                  variant={button.text === "Get a Custom Quote" ? "secondary" : "primary"}
+                >
                   {button.text}
                 </Button>
               ))}

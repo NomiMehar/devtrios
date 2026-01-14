@@ -7,6 +7,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Image from "next/image";
+import Button from "@/app/(components)/button/Button";
 import styles from "./CaseStudies.module.scss";
 import data from "./CaseStudiesList.json";
 
@@ -40,22 +41,55 @@ export default function CaseStudies({ type }) {
                 <SwiperSlide key={index}>
                   <div className={styles.case_study_card}>
                     <div className={styles.image_section}>
-                      {project.image && (
-                        <div className={styles.image_wrapper}>
-                          <Image
-                            src={project.image}
-                            alt={project.title}
-                            width={800}
-                            height={600}
-                            className={styles.project_image}
-                          />
-                          <div className={styles.image_overlay}></div>
+                      {(project.images && project.images.length > 0) || project.image ? (
+                        <div className={styles.image_gallery_wrapper}>
+                          <Swiper
+                            spaceBetween={0}
+                            slidesPerView={1}
+                            pagination={(project.images && project.images.length > 1) ? { clickable: true } : false}
+                            navigation={false}
+                            autoplay={{
+                              delay: 3000,
+                              disableOnInteraction: false,
+                              pauseOnMouseEnter: true
+                            }}
+                            loop={(project.images && project.images.length > 1) ? true : false}
+                            modules={[Pagination, Autoplay]}
+                            className={styles.image_gallery_swiper}
+                          >
+                            {project.images && project.images.length > 0 ? (
+                              project.images.map((img, imgIndex) => (
+                                <SwiperSlide key={imgIndex}>
+                                  <div className={styles.image_wrapper}>
+                                    <Image
+                                      src={img}
+                                      alt={`${project.title} - Image ${imgIndex + 1}`}
+                                      width={800}
+                                      height={600}
+                                      className={styles.project_image}
+                                    />
+                                    <div className={styles.image_overlay}></div>
+                                  </div>
+                                </SwiperSlide>
+                              ))
+                            ) : (
+                              <SwiperSlide>
+                                <div className={styles.image_wrapper}>
+                                  <Image
+                                    src={project.image}
+                                    alt={project.title}
+                                    width={800}
+                                    height={600}
+                                    className={styles.project_image}
+                                  />
+                                  <div className={styles.image_overlay}></div>
+                                </div>
+                              </SwiperSlide>
+                            )}
+                          </Swiper>
                         </div>
-                      )}
+                      ) : null}
                       <div className={styles.image_content}>
-                        <div className={styles.project_number}>
-                          {String(index + 1).padStart(2, '0')}
-                        </div>
                         <h4>{project.title}</h4>
                         <p className={styles.industry}>{project.industry}</p>
                       </div>
@@ -93,6 +127,13 @@ export default function CaseStudies({ type }) {
                                 <p className={styles.closing_text}>{project.closingText}</p>
                               </div>
                             )}
+                            {type === "website_development" && (
+                              <div className={styles.cta_box}>
+                                <Button href="/get-a-quote">
+                                  Request a Quote
+                                </Button>
+                              </div>
+                            )}
                           </>
                         )}
                         
@@ -124,9 +165,9 @@ export default function CaseStudies({ type }) {
                             )}
                             {project.cta && (
                               <div className={styles.cta_box}>
-                                <a href={project.cta.link} className={styles.cta_button}>
+                                <Button href={project.cta.link}>
                                   {project.cta.text}
-                                </a>
+                                </Button>
                               </div>
                             )}
                           </>
@@ -153,9 +194,9 @@ export default function CaseStudies({ type }) {
                             )}
                             {project.cta && (
                               <div className={styles.cta_box}>
-                                <a href={project.cta.link} className={styles.cta_button}>
+                                <Button href={project.cta.link}>
                                   {project.cta.text}
-                                </a>
+                                </Button>
                               </div>
                             )}
                           </>

@@ -1,0 +1,90 @@
+{
+  "Frontend": [
+    {
+      "name": "HTML",
+      "logo": "/assets/images/technology_stack/html5-icon.webp"
+    },
+    {
+      "name": "CSS",
+      "logo": "/assets/images/technology_stack/css.webp"
+    },
+    {
+      "name": "JavaScript",
+      "logo": "/assets/images/technology_stack/javascript.webp"
+    },
+    {
+      "name": "jQuery",
+      "logo": "/assets/images/technology_stack/JQuery.webp"
+    },
+    {
+      "name": "React.js",
+      "logo": "/assets/images/technology_stack/React.webp"
+    },
+    {
+      "name": "Angular",
+      "logo": "/assets/images/technology_stack/angular.webp"
+    }
+  ],
+  "Backend": [
+    {
+      "name": "Node.js",
+      "logo": "/assets/images/technology_stack/Node.js.webp"
+    },
+    {
+      "name": "Express",
+      "logo": "/assets/images/technology_stack/express.webp"
+    },
+    {
+      "name": "Django",
+      "logo": "/assets/images/technology_stack/django-logo.webp"
+    },
+    {
+      "name": "Laravel",
+      "logo": "/assets/images/technology_stack/laravel.webp"
+    },
+    {
+      "name": "ASP.NET",
+      "logo": "/assets/images/technology_stack/asp.net.webp"
+    },
+    {
+      "name": "Ruby on Rails",
+      "logo": "/assets/images/technology_stack/ruby-on-rails.webp"
+    }
+  ],
+  "Database": [
+    {
+      "name": "MongoDB",
+      "logo": "/assets/images/technology_stack/mongodb.webp"
+    },
+    {
+      "name": "PostgreSQL",
+      "logo": "/assets/images/technology_stack/postgresql-logo-1.webp"
+    },
+    {
+      "name": "MySQL",
+      "logo": "/assets/images/technology_stack/mysql-5-logo.webp"
+    },
+    {
+      "name": "Redis",
+      "logo": "/assets/images/technology_stack/redis.webp"
+    }
+  ],
+  "Cloud": [
+    {
+      "name": "AWS",
+      "logo": "/assets/images/technology_stack/Amazon_Web_Services.webp"
+    },
+    {
+      "name": "Azure",
+      "logo": "/assets/images/technology_stack/azure.webp"
+    },
+    {
+      "name": "Google Cloud",
+      "logo": "/assets/images/technology_stack/google_cloud.webp"
+    },
+    {
+      "name": "Vercel",
+      "logo": "/assets/images/technology_stack/vercel_logo.webp"
+    }
+  ]
+}

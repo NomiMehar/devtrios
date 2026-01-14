@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import Button from "@/app/(components)/button/Button";
 import styles from "./WhyChoose.module.scss";
 
 export default function WhyChoose({ data }) {
@@ -44,6 +45,13 @@ export default function WhyChoose({ data }) {
           </div>
           <div className={styles.description_block}>
             <p>{data.description}</p>
+            {data.cta && (
+              <div className={styles.cta_section}>
+                <Button href={data.cta.url || "/contact"}>
+                  {data.cta.text || "Request a Quote"}
+                </Button>
+              </div>
+            )}
           </div>
         </div>
 

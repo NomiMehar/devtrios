@@ -1,0 +1,202 @@
+@use "../../../styles/variables" as *;
+
+.tech_stack {
+  padding: 130px 0;
+  margin-top: 130px;
+  background: linear-gradient(180deg, #3150B3 0%, #091336 100%);
+  position: relative;
+
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding: 100px 0;
+    margin-top: 100px;
+  }
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding: 70px 0;
+    margin-top: 70px;
+  }
+
+  .heading {
+    font-size: 42px;
+    font-weight: 600;
+    color: $white_color;
+    text-align: center;
+    margin: 0 0 20px;
+    line-height: 1.3;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      font-size: 36px;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+  }
+
+  .description {
+    font-size: 18px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 40px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      font-size: 16px;
+      margin-bottom: 35px;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 15px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .divider {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 0 auto 30px;
+    max-width: 1200px;
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      margin-bottom: 25px;
+    }
+  }
+
+  .tabs_wrapper {
+    margin-bottom: 40px;
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      margin-bottom: 30px;
+    }
+  }
+
+  .tabs {
+    display: flex;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      justify-content: flex-start;
+    }
+  }
+
+  .tab {
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+    position: relative;
+    border-bottom: 3px solid transparent;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      padding: 12px 24px;
+      font-size: 15px;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+
+    &:hover {
+      color: $white_color;
+    }
+
+    &.active {
+      color: $white_color;
+      border-bottom-color: $blue_color;
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: $blue_color;
+      }
+    }
+  }
+
+  .logos_container {
+    margin-top: 40px;
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      margin-top: 30px;
+    }
+  }
+
+  .logos_row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      gap: 30px;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      gap: 25px;
+    }
+  }
+
+  .logo_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    transition: transform 0.3s ease;
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      gap: 10px;
+    }
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
+
+  .logo_image {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255);
+    border-radius: 12px;
+    padding: 10px;
+    transition: all 0.3s ease;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      width: 70px;
+      height: 70px;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      width: 60px;
+      height: 60px;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .logo_name {
+    font-size: 14px;
+    font-weight: 500;
+    color: $white_color;
+    text-align: center;
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 13px;
+    }
+  }
+}

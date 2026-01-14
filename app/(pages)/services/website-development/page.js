@@ -9,12 +9,15 @@ import WhyChooseList from "@/app/(components)/why-choose/WhyChooseList.json";
 import ProcessSection from "@/app/(components)/process-section/ProcessSection";
 import ProcessSectionList from "@/app/(components)/process-section/ProcessSectionList.json";
 import CaseStudies from "@/app/(components)/case-studies/CaseStudies";
+import WebsiteTechStack from "@/app/(components)/website-tech-stack/WebsiteTechStack";
 import OurExpertise from "@/app/(components)/our-expertise/OurExpertise"
 import WhoWeBuildFor from "@/app/(components)/who-we-build-for/WhoWeBuildFor";
 import WhoWeBuildForList from "@/app/(components)/who-we-build-for/WhoWeBuildForList.json";
 import Faqs from "@/app/(components)/faqs/Faqs";
 import Cta from "@/app/(components)/cta/Cta";
 import CtaList from "@/app/(components)/cta/CtaList.json";
+import WebsiteContactForm from "@/app/(components)/website-contact-form/WebsiteContactForm";
+import BlogsSlider from "@/app/(components)/blogs-slider/BlogsSlider";
 
 export default function websiteDevelopment() {
   const bannerData = ServiceBannerList.website_development;
@@ -64,10 +67,13 @@ export default function websiteDevelopment() {
       <WhyChoose data={whyChooseData} />
       <ProcessSection data={processData} />
       <CaseStudies type="website_development" />
+      <WebsiteTechStack />
       <OurExpertise />
       <WhoWeBuildFor data={whoWeBuildForData} />
       <Cta data={ctaData} />
+      <BlogsSlider />
       <Faqs type="website_development" />
+      <WebsiteContactForm />
     </React.Fragment>
   );
 }

@@ -119,13 +119,17 @@
      display: flex;
      gap: 20px;
      flex-wrap: wrap;
- 
+
      a{
        padding: 13px 22px;
        font-size: 16px;
-       font-weight: 400;
+       font-weight: 400; 
+      }
+
+     a:nth-child(2){
+      border: 1px solid #363636;
      }
- 
+
      @media screen and (max-width: $breakpoint_mobile_portrait) {
        gap: 15px;
      }

@@ -238,6 +238,67 @@
           min-height: 300px;
         }
 
+        .image_gallery_wrapper {
+          width: 100%;
+          height: 100%;
+          position: relative;
+          z-index: 1;
+          pointer-events: none;
+        }
+
+        .image_gallery_swiper {
+          width: 100%;
+          height: 100%;
+          z-index: 1;
+          position: relative;
+          pointer-events: none;
+          
+          :global(.swiper-wrapper) {
+            pointer-events: none;
+          }
+          
+          :global(.swiper-slide) {
+            height: 100%;
+            pointer-events: none;
+          }
+          
+          :global(.swiper-button-disabled) {
+            opacity: 0.35 !important;
+          }
+          
+          // Re-enable pointer events for pagination elements
+          :global(.swiper-pagination),
+          :global(.swiper-pagination-bullet) {
+            pointer-events: auto !important;
+          }
+
+          :global(.swiper-pagination) {
+            bottom: 20px !important;
+            z-index: 999 !important;
+            pointer-events: auto !important;
+            position: absolute !important;
+            display: flex !important;
+            opacity: 1 !important;
+            
+            :global(.swiper-pagination-bullet) {
+              width: 10px;
+              height: 10px;
+              background: rgba(255, 255, 255, 0.5);
+              opacity: 1;
+              transition: all 0.3s ease;
+              pointer-events: auto !important;
+              cursor: pointer;
+              
+              &:global(.swiper-pagination-bullet-active) {
+                background: $white_color;
+                width: 30px;
+                border-radius: 5px;
+              }
+            }
+          }
+
+        }
+
         .image_wrapper {
           width: 100%;
           height: 100%;
@@ -257,8 +318,9 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: linear-gradient(180deg, rgba(0, 69, 255, 0.3) 0%, rgba(0, 163, 255, 0.5) 100%);
+            background: linear-gradient(#0000004d 0%, #00000080 100%);
             z-index: 1;
+            pointer-events: none;
           }
         }
 
@@ -268,34 +330,18 @@
           left: 0;
           right: 0;
           padding: 50px 40px;
-          z-index: 2;
           color: $white_color;
+          pointer-events: auto;
+          
+          // Don't block pagination area
+          padding-bottom: 70px;
           
           @media screen and (max-width: $breakpoint_tablet) {
-            padding: 40px 35px;
+            padding: 40px 35px 60px;
           }
           
           @media screen and (max-width: $breakpoint_mobile_portrait) {
-            padding: 30px 25px;
-          }
-
-          .project_number {
-            font-size: 120px;
-            font-weight: 900;
-            line-height: 1;
-            color: rgba(255, 255, 255, 0.2);
-            margin-bottom: 20px;
-            display: block;
-            
-            @media screen and (max-width: $breakpoint_tablet) {
-              font-size: 100px;
-              margin-bottom: 15px;
-            }
-            
-            @media screen and (max-width: $breakpoint_mobile_portrait) {
-              font-size: 80px;
-              margin-bottom: 10px;
-            }
+            padding: 30px 25px 50px;
           }
 
           h4 {
@@ -304,6 +350,8 @@
             line-height: 1.2;
             margin: 0 0 12px;
             color: $white_color;
+            position: relative;
+            z-index: 2;
             
             @media screen and (max-width: $breakpoint_tablet) {
               font-size: 32px;
@@ -323,8 +371,10 @@
             padding: 6px 16px;
             background: rgba(255, 255, 255, 0.15);
             backdrop-filter: blur(10px);
-            border-radius: 12px;
+            border-radius: 8px;
             border: 1px solid rgba(255, 255, 255, 0.2);
+            position: relative;
+            z-index: 2;
             
             @media screen and (max-width: $breakpoint_tablet) {
               font-size: 16px;
@@ -357,7 +407,7 @@
           width: 100%;
           display: flex;
           flex-direction: column;
-          gap: 35px;
+          gap: 25px;
           
           @media screen and (max-width: $breakpoint_tablet) {
             gap: 30px;
@@ -369,8 +419,8 @@
 
           .client_box {
             margin-bottom: 30px;
-            padding-bottom: 30px;
-            border-bottom: 2px solid rgba(66, 115, 252, 0.1);
+            // padding-bottom: 30px;
+            // border-bottom: 2px solid rgba(66, 115, 252, 0.1);
             
             @media screen and (max-width: $breakpoint_mobile_portrait) {
               margin-bottom: 25px;
@@ -439,8 +489,8 @@
           }
 
           .summary_box {
-            padding-bottom: 30px;
-            border-bottom: 2px solid rgba(66, 115, 252, 0.1);
+            // padding-bottom: 30px;
+            // border-bottom: 2px solid rgba(66, 115, 252, 0.1);
             
             @media screen and (max-width: $breakpoint_mobile_portrait) {
               padding-bottom: 25px;
@@ -522,8 +572,8 @@
           }
 
           .closing_box {
-            padding-top: 30px;
-            border-top: 1px solid rgba(66, 115, 252, 0.1);
+            // padding-top: 30px;
+            // border-top: 1px solid rgba(66, 115, 252, 0.1);
             
             @media screen and (max-width: $breakpoint_mobile_portrait) {
               padding-top: 25px;
@@ -547,37 +597,21 @@
           }
 
           .cta_box {
-            margin-top: 30px;
             padding-top: 30px;
             border-top: 1px solid rgba(66, 115, 252, 0.1);
             
             @media screen and (max-width: $breakpoint_mobile_portrait) {
-              margin-top: 25px;
               padding-top: 25px;
             }
 
-            .cta_button {
-              display: inline-flex;
-              align-items: center;
-              gap: 10px;
-              padding: 14px 28px;
-              background: linear-gradient(135deg, #0045ff 0%, #00a3ff 100%);
-              color: $white_color;
+            a{
+              padding: 15px 25px;
               font-size: 16px;
-              font-weight: 600;
-              border-radius: 12px;
-              text-decoration: none;
-              transition: all 0.3s ease;
-              
-              @media screen and (max-width: $breakpoint_mobile_portrait) {
-                padding: 12px 24px;
-                font-size: 15px;
-              }
+            }
 
-              &:hover {
-                transform: translateY(-2px);
-                box-shadow: 0 8px 24px rgba(0, 69, 255, 0.3);
-              }
+            :global(.button_wrapper) {
+              padding: 15px 25px;
+              font-size: 16px;
             }
           }
         }

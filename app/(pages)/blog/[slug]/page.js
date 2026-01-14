@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound, useParams } from "next/navigation";
 import styles from "./BlogDetail.module.scss";
-import blogsData from "@/app/(components)/blogs/BlogsList.json";
+import blogsData from "@/app/(components)/blogs-slider/BlogsSliderList.json";
 
 export default function BlogDetail() {
   const params = useParams();

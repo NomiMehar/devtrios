@@ -1,0 +1,116 @@
+@use "../../../styles/variables" as *;
+
+.right_section {
+  @media screen and (max-width: $breakpoint_tablet) {
+    order: -1;
+  }
+}
+
+.sidebar_title {
+  font-size: 28px;
+  font-weight: 600;
+  color: $dark_color;
+  margin: 0 0 30px;
+  line-height: 1.3;
+
+  @media screen and (max-width: $breakpoint_tablet) {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+}
+
+.statistical_blogs_list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    gap: 15px;
+  }
+}
+
+.statistical_blog_item {
+  display: flex;
+  gap: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    gap: 12px;
+  }
+
+  &:hover {
+    transform: translateX(4px);
+  }
+}
+
+.statistical_image_wrapper {
+  width: 160px;
+  height: 85px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: $card_color;
+  position: relative;
+
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    width: 140px;
+    height: 75px;
+  }
+
+  .statistical_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.statistical_content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: space-between;
+  flex: 1;
+  min-width: 0;
+}
+
+.statistical_category {
+  display: inline-block;
+  padding: 4px 10px;
+  background: linear-gradient(135deg, $blue_color 0%, #00a3ff 100%);
+  color: $white_color;
+  border-radius: 6px;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  width: fit-content;
+
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    font-size: 10px;
+    padding: 3px 8px;
+  }
+}
+
+.statistical_title {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: $dark_color;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    font-size: 14px;
+  }
+}
+
