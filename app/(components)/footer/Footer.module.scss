@@ -10,22 +10,24 @@
   }
   .footer_container {
     display: flex;
-    gap: 40px;
+    gap: 50px;
     justify-content: space-between;
 
     @media (max-width: $breakpoint_tablet) {
       flex-wrap: wrap;
+      gap: 40px;
     }
     @media (max-width: $breakpoint_mobile_portrait) {
-      gap: 20px;
+      gap: 30px;
     }
     .footer_section {
-      width: 25%;
+      flex: 1;
+      min-width: 0;
       @media (max-width: $breakpoint_tablet) {
-        width: 45%;
+        flex: 0 0 calc(50% - 20px);
       }
       @media (max-width: $breakpoint_mobile_portrait) {
-        width: 100%;
+        flex: 0 0 100%;
       }
       h4 {
         font-size: 18px;
