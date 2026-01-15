@@ -12,6 +12,19 @@ export default function Sustainability() {
         <div className={styles.content_wrapper}>
           {/* Left Section - Text Content */}
           <div className={styles.text_section}>
+            <div className={styles.un_logo_header}>
+              <Image
+                src="/assets/images/services/un-logo.png"
+                alt="UN Global Compact"
+                width={80}
+                height={80}
+                className={styles.un_logo}
+              />
+              <div className={styles.un_logo_text}>
+                <span className={styles.un_logo_title}>UNITED NATIONS</span>
+                <span className={styles.un_logo_subtitle}>GLOBAL COMPACT</span>
+              </div>
+            </div>
             <h2 className={styles.title}>
               Responsible &<br />
               Sustainable Technology
@@ -22,6 +35,9 @@ export default function Sustainability() {
             <div className={styles.button_wrapper}>
               <Button href="http://un.yourdevz.com/" target="_blank" rel="noopener noreferrer">
                 View Our Sustainability & UN Commitment
+              </Button>
+              <Button href="https://unglobalcompact.org/" target="_blank" rel="noopener noreferrer" variant="secondary">
+                Visit UN Global Compact
               </Button>
             </div>
           </div>

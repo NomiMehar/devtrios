@@ -31,7 +31,7 @@
     "blogs": [
       {
         "id": 1,
-        "image": "/assets/images/home/Why-Every-Business-Needs-SEO.webp",
+        "image": "/assets/images/home/blogs.png",
         "title": "Website Development Best Practices for 2025",
         "description": "Discover the latest website development best practices for 2025. Learn about modern frameworks, performance optimization, and user experience strategies that will help you build websites that convert and scale.",
         "button": {
@@ -40,7 +40,7 @@
       },
       {
         "id": 2,
-        "image": "/assets/images/home/Why-Every-Business-Needs-SEO.webp",
+        "image": "/assets/images/home/blogs.png",
         "title": "Mobile App Development Trends",
         "description": "Explore the latest mobile app development trends shaping the industry. From cross-platform solutions to AI integration, stay ahead with cutting-edge mobile technologies.",
         "button": {
@@ -49,7 +49,7 @@
       },
       {
         "id": 3,
-        "image": "/assets/images/home/Why-Every-Business-Needs-SEO.webp",
+        "image": "/assets/images/home/blogs.png",
         "title": "AI in Web Development",
         "description": "Learn how artificial intelligence is revolutionizing web development. Discover AI-powered tools, automation techniques, and intelligent features that enhance user experiences.",
         "button": {
@@ -58,7 +58,7 @@
       },
       {
         "id": 4,
-        "image": "/assets/images/home/Why-Every-Business-Needs-SEO.webp",
+        "image": "/assets/images/home/blogs.png",
         "title": "Social Media Marketing Strategies",
         "description": "Master social media marketing with proven strategies that drive engagement and conversions. Learn about content creation, audience targeting, and platform-specific tactics.",
         "button": {
@@ -67,7 +67,7 @@
       },
       {
         "id": 5,
-        "image": "/assets/images/home/Why-Every-Business-Needs-SEO.webp",
+        "image": "/assets/images/home/blogs.png",
         "title": "E-commerce Development in KSA",
         "description": "Navigate the e-commerce landscape in Saudi Arabia with expert insights. Understand local market dynamics, payment solutions, and cultural considerations for successful online stores.",
         "button": {
