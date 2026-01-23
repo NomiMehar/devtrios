@@ -14,11 +14,38 @@
       {
         "text": "Book a Free Strategy Call",
         "link": "/contact-us",
-        "icon": "/assets/images/icons/thunder.svg"
+        "icon": "/assets/images/icons/thunder.svg",
+        "variant": "primary"
       },
       {
         "text": "Get a Custom Quote",
-        "link": "/get-a-quote"
+        "link": "/get-a-quote",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "software_development": {
+    "heading": "Who Our <span>Software Development Services</span> Are For",
+    "description": "Our custom software development services are best suited for:",
+    "audiences": [
+      "Startups needing a scalable and efficient solution for rapid growth",
+      "Enterprises requiring modernized, integrated systems for complex workflows",
+      "SaaS businesses looking to build a multi-tenant platform",
+      "E-commerce and on-demand service platforms needing secure, high-performance applications",
+      "Organizations seeking long-term technical partnerships"
+    ],
+    "closingText": "If your business needs custom software to drive operational success, we build it right.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "link": "/contact-us",
+        "icon": "/assets/images/icons/thunder.svg",
+        "variant": "primary"
+      },
+      {
+        "text": "Start Your Software Project",
+        "link": "/get-a-quote",
+        "variant": "secondary"
       }
     ]
   }

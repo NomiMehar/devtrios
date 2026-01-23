@@ -1,0 +1,23 @@
+@use "../../../styles/variables" as *;
+
+.case_studies_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+
+  @media screen and (max-width: $breakpoint_tablet) {
+    gap: 25px;
+  }
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+.no_results {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 60px 20px;
+  color: $gray_color;
+  font-size: 16px;
+}

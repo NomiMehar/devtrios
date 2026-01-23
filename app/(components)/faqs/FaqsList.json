@@ -67,76 +67,177 @@
   ],
   "ecommerce_website_development": [
     {
-      "title": "How long does it take to build a custom eCommerce website?",
-      "desc": "The timeline for custom eCommerce website development can vary from a few weeks to several months. It depends on the complexity of the design, the number of custom features, and the specific platform being used. We provide a detailed project timeline after our initial discovery phase."
+      "title": "How long does an e-commerce website project take?",
+      "desc": "Most e-commerce projects take between 6 and 10 weeks, depending on platform, catalogue size, and integrations."
     },
     {
-      "title": "How much do your eCommerce development services cost?",
-      "desc": "We offer affordable eCommerce website development services tailored to your budget. The final cost depends on the scope of the project. We provide a detailed, transparent quote with no hidden fees after discussing your specific requirements."
+      "title": "Which e-commerce platform should I use?",
+      "desc": "That depends on your business model, growth plans, and operational complexity. We help you choose the right platform."
     },
     {
-      "title": "Which eCommerce platform is right for my business?",
-      "desc": "The best platform depends on your business size, product catalog, technical expertise, and budget. We will work with you to evaluate the options and recommend the ideal solution, whether it's a popular platform or a custom build."
+      "title": "Can you rebuild or improve an existing e-commerce store?",
+      "desc": "Yes. We regularly rebuild or optimise existing stores to improve performance, usability, and conversions."
     },
     {
-      "title": "Can you help me improve my existing online store?",
-      "desc": "Absolutely. We offer a full range of optimization services, including eCommerce website speed optimization services and complete redesigns. We can help improve your site's performance, user experience, and conversion rates."
-    },
-    {
-      "title": "How do I hire an eCommerce developer from your team?",
-      "desc": "Getting started is easy. Simply contact us through our website or give us a call. We will schedule a free consultation to discuss your project and explain how our team can help you achieve your goals."
+      "title": "Do you provide ongoing e-commerce support?",
+      "desc": "Yes. We offer ongoing maintenance, optimisation, and feature development."
     }
   ],
   "wordpress_development": [
     {
-      "title": "What makes you different from other WordPress development companies?",
-      "desc": "We combine technical excellence with business strategy. Unlike a generic WordPress development agency, we focus on your ROI. We write custom code for better performance and security, rather than relying on bloated plugins. Our team consists of senior developers with years of specialized experience."
+      "title": "How long does a WordPress website project take?",
+      "desc": "Most WordPress website projects take between 4–8 weeks, depending on complexity, third-party integrations, and content readiness. Larger or highly customized builds may require additional time. We define clear milestones and timelines during the discovery phase."
     },
     {
-      "title": "How much do your custom WordPress development services cost?",
-      "desc": "Pricing varies based on project complexity. Affordable WordPress development services doesn't mean \"cheap\"; it means value. We offer competitive rates for high-quality, custom work. Projects can range from simple brochure sites to complex enterprise applications. Contact us for a precise quote based on your needs."
+      "title": "Do you use pre-built themes or custom WordPress themes?",
+      "desc": "We primarily develop custom WordPress themes tailored to your business needs. Custom themes provide better performance, stronger security, cleaner code, and long-term flexibility compared to pre-built themes."
     },
     {
-      "title": "Can you help migrate my site from another platform to WordPress?",
-      "desc": "Yes, absolutely. We specialize in seamless migrations from platforms like Drupal, Joomla, Shopify, and Wix. Our WordPress CMS development services ensure all your data—content, images, SEO metadata, and users transfers correctly without losing search rankings."
+      "title": "Is WordPress suitable for large or enterprise websites?",
+      "desc": "Yes. When properly architected, WordPress can support enterprise-level traffic, complex content structures, and advanced integrations. We design scalable solutions using best practices to ensure stability, speed, and security at scale."
     },
     {
-      "title": "Do you provide ongoing support after the website is launched?",
-      "desc": "Yes. We believe in long-term partnerships. You can hire a dedicated WordPress developer for ongoing retainers or choose one of our maintenance packages. We handle security updates, backups, performance monitoring, and content updates to keep your site secure and fast."
-    },
-    {
-      "title": "How long does it take to build a custom WordPress website?",
-      "desc": "Timelines depend on the scope. A standard custom brochure site typically takes 4–6 weeks, while complex WordPress eCommerce development services or enterprise portals may take 10–14 weeks. We provide a detailed timeline during the discovery phase and adhere strictly to deadlines."
-    },
-    {
-      "title": "Do you offer white-label services for other agencies?",
-      "desc": "Yes, we often partner with marketing and design agencies as their technical arm. You can use our team as your backend WordPress website design & development company. We work strictly behind the scenes to deliver high-quality code under your brand name."
-    },
-    {
-      "title": "Is WordPress secure enough for enterprise businesses?",
-      "desc": "When built correctly, yes. WordPress powers over 40% of the web, including major enterprise brands. As an enterprise WordPress development company, we implement advanced security measures, secure hosting environments, and strict coding standards to ensure your site is fortress-secure."
+      "title": "Do you provide ongoing WordPress maintenance?",
+      "desc": "Yes. We offer ongoing WordPress maintenance services, including security monitoring, regular updates, backups, performance optimization, and technical support to keep your website running smoothly."
     }
+    
   ],
   "shopify_development": [
     {
-      "title": "Why should I hire a specialized Shopify development agency instead of a freelancer?",
-      "desc": "An agency provides a full team of experts including designers, developers, and project managers. You get reliability, diverse skill sets, and guaranteed support that a single freelancer often cannot match. We ensure your project is completed on time and to the highest standard."
+      "title": "How long does a Shopify development project take?",
+      "desc": "Most Shopify projects take between 4 and 8 weeks, depending on catalogue size, customisation, and integrations."
     },
     {
-      "title": "How long does a custom Shopify build take?",
-      "desc": "The timeline varies based on complexity. A basic setup might take a few weeks while a fully custom enterprise build could take several months. We provide a detailed timeline during our consultation so you know exactly what to expect."
+      "title": "Do you build custom Shopify themes or use templates?",
+      "desc": "We primarily build custom or heavily customised themes to ensure performance, flexibility, and brand consistency."
     },
     {
-      "title": "Can you help with SEO for my Shopify store?",
-      "desc": "Yes, absolutely. All our builds follow strict SEO best practices. We optimize site structure, loading speed, and mobile responsiveness. We also offer ongoing SEO strategies to help you climb the search rankings."
+      "title": "Can you migrate my store to Shopify?",
+      "desc": "Yes. We handle full Shopify migrations, including products, customers, orders, and SEO-safe URL mapping."
     },
     {
-      "title": "Do you work with Shopify Plus?",
-      "desc": "Yes, we have extensive experience with Shopify Plus. We help high growth merchants leverage the exclusive features of the Plus platform to scale their operations efficiently."
+      "title": "Do you offer ongoing Shopify support?",
+      "desc": "Yes. We provide ongoing maintenance, performance optimisation, updates, and feature enhancements."
+    }
+  ],
+  "mobile_app_development": [
+    {
+      "title": "How long does a mobile app development project take?",
+      "desc": "Most mobile app projects take between 8 and 16 weeks, depending on features, integrations, and platform requirements."
     },
     {
-      "title": "What happens after my site goes live?",
-      "desc": "We do not disappear after launch. We offer various support packages to handle updates, bug fixes, and new feature requests. We are your long term partner in digital growth."
+      "title": "Do you build native or cross-platform apps?",
+      "desc": "We build both. The choice depends on performance needs, timelines, and long-term scalability."
+    },
+    {
+      "title": "Can you improve or rebuild an existing mobile app?",
+      "desc": "Yes. We regularly rebuild and optimise existing apps to improve performance, usability, and stability."
+    },
+    {
+      "title": "Do you handle App Store and Play Store submissions?",
+      "desc": "Yes. We support app preparation, compliance, and submission for both platforms."
+    }
+  ],
+  "software_development": [
+    {
+      "title": "How long does a custom software development project take?",
+      "desc": "Project timelines vary based on complexity and scope. Custom software development typically takes 8–16 weeks, with larger enterprise solutions requiring more time."
+    },
+    {
+      "title": "What technologies do you use for custom software development?",
+      "desc": "We work with a wide range of technologies including React, Node.js, Python, Java, and Ruby on Rails to build scalable, secure, and high-performance applications."
+    },
+    {
+      "title": "Can you help me migrate my existing software to a new platform?",
+      "desc": "Yes. We specialize in migrating legacy systems to modern platforms with minimal disruption and data loss. We ensure data integrity and continuity during the migration process."
+    },
+    {
+      "title": "Will I be able to update and maintain the software myself?",
+      "desc": "Yes. We ensure the software is easy to maintain with a user-friendly backend and provide training to your team to manage the platform independently."
+    },
+    {
+      "title": "Do you provide ongoing support after the software is launched?",
+      "desc": "Yes. We offer continuous support, including bug fixes, updates, and feature expansions, to ensure your software remains secure and relevant."
+    }
+  ],
+  "landing_page_development": [
+    {
+      "title": "How long does it take to build a landing page?",
+      "desc": "Most landing pages are completed within 1 to 2 weeks, depending on complexity and feedback cycles."
+    },
+    {
+      "title": "Do you design landing pages for paid ads?",
+      "desc": "Yes. We build landing pages specifically aligned to Google Ads, Meta Ads, and LinkedIn campaigns."
+    },
+    {
+      "title": "Can you optimize an existing landing page?",
+      "desc": "Absolutely. We regularly optimize existing landing pages to improve speed, usability, and conversion rates."
+    },
+    {
+      "title": "Do you provide A/B testing support?",
+      "desc": "Yes. We support ongoing testing and optimisation based on performance data."
+    }
+  ],
+  "website_maintenance": [
+    {
+      "title": "Why do I need ongoing website maintenance?",
+      "desc": "Regular maintenance prevents security issues, performance degradation, and compatibility problems before they affect users or rankings."
+    },
+    {
+      "title": "How often do you perform updates?",
+      "desc": "Updates are performed on a scheduled basis, with priority fixes applied immediately when needed."
+    },
+    {
+      "title": "Can you fix an already compromised website?",
+      "desc": "Yes. We handle malware removal, recovery, and security hardening as part of our support services."
+    },
+    {
+      "title": "Do you provide emergency support?",
+      "desc": "Yes. Our maintenance plans include rapid-response support for critical issues."
+    },
+    {
+      "title": "Can you maintain websites built by other agencies?",
+      "desc": "Absolutely. We regularly take over maintenance for existing websites built on various platforms."
+    }
+  ],
+  "custom_website_development": [
+    {
+      "title": "How long does a custom website project take?",
+      "desc": "Most custom website projects take between 6 and 10 weeks, depending on complexity and integrations."
+    },
+    {
+      "title": "Will we own the website code?",
+      "desc": "Yes. You retain full ownership of the codebase and intellectual property."
+    },
+    {
+      "title": "Can our team manage content after launch?",
+      "desc": "Absolutely. We build intuitive CMS solutions and provide training where required."
+    },
+    {
+      "title": "Do you build SEO-ready custom websites?",
+      "desc": "Yes. Technical SEO is built into every custom project from the start."
+    },
+    {
+      "title": "Do you provide ongoing support?",
+      "desc": "Yes. We offer ongoing maintenance and development support post-launch."
+    }
+  ],
+  "webflow_development": [
+    {
+      "title": "How long does a Webflow website take to build?",
+      "desc": "Most Webflow projects take between 3 and 6 weeks, depending on complexity and CMS requirements."
+    },
+    {
+      "title": "Can you migrate my existing site to Webflow?",
+      "desc": "Yes. We handle full Webflow migrations while preserving SEO and content structure."
+    },
+    {
+      "title": "Is Webflow good for SEO?",
+      "desc": "Yes. When built correctly, Webflow supports clean markup, fast load times, and strong technical SEO foundations."
+    },
+    {
+      "title": "Do you offer ongoing Webflow support?",
+      "desc": "Yes. We provide maintenance, optimisation, and ongoing enhancements."
     }
   ]
 }

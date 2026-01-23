@@ -1,16 +1,16 @@
 @use "../../../styles/variables" as *;
 
 .why_choose {
-  padding: 100px 0;
+  padding: 100px 0 0;
   background: $white_color;
   overflow: hidden;
   
   @media screen and (max-width: $breakpoint_tablet) {
-    padding: 80px 0;
+    padding: 80px 0 0;
   }
   
   @media screen and (max-width: $breakpoint_mobile_portrait) {
-    padding: 60px 0;
+    padding: 60px 0 0;
   }
 
   .section_header {
@@ -48,7 +48,7 @@
         font-size: 26px;
       }
 
-      .highlight {
+     span {
         color: $blue_color;
       }
     }
@@ -83,16 +83,11 @@
 
   .cards_container {
     position: relative;
-    padding-bottom: 50px;
-
-    @media screen and (max-width: $breakpoint_mobile_portrait) {
-      padding-bottom: 40px;
-    }
   }
 
   .swiper {
     overflow: visible;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 
     :global(.swiper-slide) {
       height: auto;
@@ -168,7 +163,7 @@
     line-height: 1.6;
     color: $dark_color;
     margin: 0;
-    font-weight: 500;
+    font-weight: 400;
 
     @media screen and (max-width: $breakpoint_tablet) {
       font-size: 17px;
@@ -176,6 +171,11 @@
 
     @media screen and (max-width: $breakpoint_mobile_portrait) {
       font-size: 16px;
+    }
+    strong{
+      display: block;
+      font-weight: 600;
+      margin-bottom: 10px;
     }
   }
 

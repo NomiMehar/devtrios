@@ -1,6 +1,6 @@
 {
   "website_development": {
-    "heading": "Why Choose Devtrios for Website Development?",
+    "heading": "Why Choose <span>Devtrios</span> for Website Development?",
     "description": "We don't treat website development as a one-off project. We approach it as a long-term business asset. Our team works closely with you to ensure your website aligns with your commercial goals, user expectations, and technical requirements, both now and as you scale. We don't just build websites. We build platforms designed to grow with your business.",
     "features": [
       "Strategy-led development, not template reuse",
@@ -11,6 +11,21 @@
     ],
     "cta": {
       "text": "Get a Free Consultation",
+      "url": "/get-a-quote"
+    }
+  },
+  "software_development": {
+    "heading": "Why Choose <span>Devtrios</span> for Software Development?",
+    "description": "We don't just build software, we create solutions that drive efficiency and growth.",
+    "features": [
+      "<strong>Business-focused development approach:</strong> We align software development with your strategic goals.",
+      "<strong>Scalable and secure code:</strong> Our software is built to handle increasing demands while ensuring data security.",
+      "<strong>Agile development process:</strong> We deliver software iteratively with full transparency, ensuring continuous improvements.",
+      "<strong>Modern technology stack & best practices:</strong> We use the latest technologies and follow industry best practices to ensure future-proof software.",
+      "<strong>Long-term support and product evolution:</strong> We provide ongoing support to help your product grow and evolve with your business."
+    ],
+    "cta": {
+      "text": "Get a Free Software Consultation",
       "url": "/get-a-quote"
     }
   }

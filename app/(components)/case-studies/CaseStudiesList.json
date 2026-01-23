@@ -1,379 +1,72 @@
 {
   "wordpress_development": {
     "heading": {
-      "title": "Featured Work",
-      "description": "A selection of WordPress projects that highlight our approach to performance, stability, and clean engineering. Each project reflects the level of technical depth and reliability we bring to client partnerships."
+      "title": "WordPress Development in Practice",
+      "description": "Here's an example of how our WordPress development services support performance, brand positioning, and long-term scalability."
     },
     "projects": [
       {
-        "title": "Fairagora Asia",
-        "industry": "Sustainability and Agriculture",
-        "summary": "Complete WordPress rebuild with improved UX, structured content hierarchy, and performance-focused architecture.",
-        "technicalFocus": "Custom theme, multilingual SEO configuration, schema setup, caching improvements, accessibility corrections.",
+        "title": "Alexander Kraft",
+        "industry": "Luxury Lifestyle Brand",
+        "summary": "Custom WordPress rebuild focused on premium brand identity, performance optimization, and streamlined content management. This project demonstrates how WordPress can deliver premium digital experiences without compromising performance or maintainability.",
+        "technicalFocus": "Custom WordPress architecture, lightweight code, mobile performance, SEO-ready content structures, plugin optimization, refined UI execution.",
         "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "The existing website needed to reflect a premium brand identity while improving performance, mobile usability, and content management. The previous setup limited page speed optimisation and made ongoing editorial updates inefficient.",
+        "solution": "We rebuilt the website using a custom WordPress architecture focused on lightweight code, refined UI execution, and SEO-ready content structures. Particular attention was given to mobile performance, clean templates, and reducing unnecessary plugin overhead.",
+        "outcomes": [
+          "Page load times improved by approximately 30–40% across key pages",
+          "Improved mobile performance and Core Web Vitals scores",
+          "Streamlined content management reduced reliance on developers",
+          "A scalable WordPress foundation aligned with long-term brand growth"
+        ],
+        "results": [
+          "Page load times improved by approximately 30–40% across key pages",
+          "Improved mobile performance and Core Web Vitals scores",
+          "Streamlined content management reduced reliance on developers",
+          "A scalable WordPress foundation aligned with long-term brand growth"
+        ],
         "images": [
           "https://picsum.photos/800/600?random=1",
           "https://picsum.photos/800/600?random=2",
           "https://picsum.photos/800/600?random=3",
           "https://picsum.photos/800/600?random=4",
           "https://picsum.photos/800/600?random=5"
-        ],
-        "results": [
-          "Page load time improved from 3.9 seconds to 1.4 seconds",
-          "Organic visibility increased by 36 percent over 90 days",
-          "Bounce rate reduced by 22 percent",
-          "Admin workflow time reduced by 40 percent due to CMS restructuring"
-        ]
-      },
-      {
-        "title": "LogicMark",
-        "industry": "Medical Technology",
-        "summary": "Modernised WordPress platform aligned with updated brand requirements and streamlined navigation.",
-        "technicalFocus": "Accessibility improvements, mobile responsiveness upgrades, technical SEO corrections.",
-        "image": "/assets/images/services/backend-back.webp",
-        "results": [
-          "PageSpeed score improved from 54 to 89",
-          "Engagement time increased by 31 percent",
-          "Clearer content paths for key product pages"
-        ],
-        "images": [
-          "https://picsum.photos/800/600?random=111",
-          "https://picsum.photos/800/600?random=122",
-          "https://picsum.photos/800/600?random=133",
-          "https://picsum.photos/800/600?random=144",
-          "https://picsum.photos/800/600?random=155"
-        ]
-      },
-      {
-        "title": "NNFCC",
-        "industry": "Bioeconomy Consultancy",
-        "summary": "Long-term WordPress maintenance, code cleanup, plugin rationalisation, and improved content management workflows.",
-        "technicalFocus": "Security hardening, reduced plugin footprint, backend optimisation.",
-        "image": "/assets/images/services/frontend-back.webp",
-        "results": [
-          "Plugin set reduced by 28 percent",
-          "Zero downtime over nine months",
-          "Improved CMS efficiency for internal content teams"
-        ],
-        "images": [
-          "https://picsum.photos/800/600?random=211",
-          "https://picsum.photos/800/600?random=222",
-          "https://picsum.photos/800/600?random=233",
-          "https://picsum.photos/800/600?random=244",
-          "https://picsum.photos/800/600?random=255"
-        ]
-      },
-      {
-        "title": "HealthPro Clinic Portal",
-        "industry": "Healthcare",
-        "summary": "HIPAA-ready WordPress site with online appointment scheduling and secure patient resource access.",
-        "technicalFocus": "HIPAA compliance, secure patient portal, appointment booking system.",
-        "image": "/assets/images/services/api-back.webp",
-        "results": [
-          "Administrative hours reduced by approximately 15 hours per month",
-          "Appointment booking conversions increased by 19 percent",
-          "Added custom security layer for protected pages"
-        ],
-        "images": [
-          "https://picsum.photos/800/600?random=311",
-          "https://picsum.photos/800/600?random=322",
-          "https://picsum.photos/800/600?random=333",
-          "https://picsum.photos/800/600?random=344",
-          "https://picsum.photos/800/600?random=355"
-        ]
-      },
-      {
-        "title": "RetailMax E-commerce Store",
-        "industry": "Retail and E-commerce",
-        "summary": "Custom WooCommerce implementation with subscription support, refined product search, and optimised checkout flow.",
-        "technicalFocus": "Custom WooCommerce development, subscription management, checkout optimization.",
-        "image": "/assets/images/services/fullstack-back.webp",
-        "results": [
-          "Checkout abandonment decreased by 24 percent",
-          "Average order value increased by 11 percent",
-          "Page load times improved from 4.1 seconds to 1.7 seconds"
-        ],
-        "images": [
-          "https://picsum.photos/800/600?random=411",
-          "https://picsum.photos/800/600?random=422",
-          "https://picsum.photos/800/600?random=433",
-          "https://picsum.photos/800/600?random=444",
-          "https://picsum.photos/800/600?random=455"
-        ]
-      },
-      {
-        "title": "TechNova SaaS Marketing Site",
-        "industry": "SaaS and Technology",
-        "summary": "Performance-optimised WordPress site built for rapid indexing, lightweight code, and strong marketing conversion paths.",
-        "technicalFocus": "Performance optimization, SEO-focused architecture, conversion optimization.",
-        "image": "/assets/images/services/backend-back.webp",
-        "results": [
-          "Demo sign-ups increased by 40 percent within 60 days",
-          "Organic impressions increased by 29 percent",
-          "Blog performance improved with caching and code refinement"
-        ],
-        "images": [
-          "https://picsum.photos/800/600?random=511",
-          "https://picsum.photos/800/600?random=522",
-          "https://picsum.photos/800/600?random=533",
-          "https://picsum.photos/800/600?random=544",
-          "https://picsum.photos/800/600?random=555"
         ]
       }
     ]
   },
   "shopify_development": {
     "heading": {
-      "title": "Featured Shopify Work",
-      "description": "Shopify Stores Built for Scale, Performance, and Brand Impact"
+      "title": "Shopify Development in Practice",
+      "description": "Here's an example of how our Shopify development services support scale, performance, and brand growth."
     },
-    "subheading": "We have delivered Shopify stores for globally recognised brands and fast-growing eCommerce businesses across fashion, lifestyle, sustainability, consumer goods, and high-consideration retail. Our work includes full Shopify builds, brand-led redesigns, Shopify Plus implementations, performance optimisation, and conversion-focused enhancements.",
     "projects": [
       {
-        "title": "XOG",
-        "industry": "Consumer Brand and E-commerce",
-        "scope": "Brand development, UX and UI design, custom Shopify build",
-        "summary": "End-to-end Shopify delivery from brand direction to storefront build, focused on product presentation and conversion clarity.",
-        "outcome": "A distinctive brand-led Shopify store with a clean buyer journey and scalable structure.",
-        "cta": {
-          "text": "View Case Study",
-          "link": "#"
-        },
-        "image": "/assets/images/services/fullstack-back.webp",
-        "images": [
-          "https://picsum.photos/800/600?random=11",
-          "https://picsum.photos/800/600?random=22",
-          "https://picsum.photos/800/600?random=33",
-          "https://picsum.photos/800/600?random=44",
-          "https://picsum.photos/800/600?random=55"
-        ]
-      },
-      {
         "title": "Allbirds",
-        "industry": "Global Footwear Brand",
-        "scope": "Shopify development, performance optimisation, scalable storefront architecture",
-        "summary": "Shopify build focused on speed, sustainability storytelling, and global-ready performance for a high-volume footwear brand.",
-        "outcome": "Optimised storefront performance and streamlined user journeys for international traffic.",
-        "cta": {
-          "text": "View Case Study",
-          "link": "#"
-        },
+        "industry": "Global sustainable footwear brand",
+        "summary": "This reflects how we approach Shopify as a long-term eCommerce platform, not just a storefront.",
+        "technicalFocus": "Scalable Shopify architecture, performance optimization, clean theme customisation, mobile optimisation, checkout reliability, streamlined app usage.",
         "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "A fast-growing eCommerce brand needed a Shopify platform capable of handling high traffic volumes, delivering a seamless mobile experience, and supporting global expansion without compromising performance or brand consistency.",
+        "solution": "We implemented a scalable Shopify architecture focused on performance, clean theme customisation, and streamlined app usage. Particular attention was given to mobile optimisation, checkout reliability, and maintaining a consistent brand experience across regions.",
+        "outcomes": [
+          "Improved page load performance across mobile and desktop",
+          "Smoother checkout experience supporting higher-volume traffic",
+          "A Shopify foundation built to scale with product expansion and international growth",
+          "A cleaner, more maintainable store architecture"
+        ],
+        "results": [
+          "Improved page load performance across mobile and desktop",
+          "Smoother checkout experience supporting higher-volume traffic",
+          "A Shopify foundation built to scale with product expansion and international growth",
+          "A cleaner, more maintainable store architecture"
+        ],
         "images": [
-          "https://picsum.photos/800/600?random=111",
-          "https://picsum.photos/800/600?random=122",
-          "https://picsum.photos/800/600?random=133",
-          "https://picsum.photos/800/600?random=144",
-          "https://picsum.photos/800/600?random=155"
-        ]
-      },
-      {
-        "title": "Matalan",
-        "industry": "Fashion Retailer",
-        "scope": "Shopify eCommerce development, catalogue structuring, UX optimisation",
-        "summary": "Shopify implementation supporting large catalogues, seasonal campaigns, and conversion-led navigation.",
-        "outcome": "Improved product discoverability and smoother purchase paths for high-volume traffic.",
-        "cta": {
-          "text": "View Case Study",
-          "link": "#"
-        },
-        "image": "/assets/images/services/fullstack-back.webp",
-        "images": [
-          "https://picsum.photos/800/600?random=211",
-          "https://picsum.photos/800/600?random=222",
-          "https://picsum.photos/800/600?random=233",
-          "https://picsum.photos/800/600?random=244",
-          "https://picsum.photos/800/600?random=255"
-        ]
-      },
-      {
-        "title": "Stitch Fix",
-        "industry": "Subscription Fashion Platform",
-        "scope": "Shopify development, custom workflows, integration support",
-        "summary": "Shopify build supporting subscription commerce flows and scalable operational logic.",
-        "outcome": "Platform stability and UX consistency across recurring customer journeys.",
-        "cta": {
-          "text": "View Case Study",
-          "link": "#"
-        },
-        "image": "/assets/images/services/fullstack-back.webp",
-        "images": [
-          "https://picsum.photos/800/600?random=311",
-          "https://picsum.photos/800/600?random=322",
-          "https://picsum.photos/800/600?random=333",
-          "https://picsum.photos/800/600?random=344",
-          "https://picsum.photos/800/600?random=355"
-        ]
-      },
-      {
-        "title": "Chubbies Shorts",
-        "industry": "Lifestyle Apparel",
-        "scope": "Shopify theme development, brand-led UX, checkout optimisation",
-        "summary": "Custom Shopify experience aligned with brand tone and conversion-driven design.",
-        "outcome": "Improved mobile shopping experience and checkout clarity.",
-        "cta": {
-          "text": "View Case Study",
-          "link": "#"
-        },
-        "image": "/assets/images/services/fullstack-back.webp",
-        "images": [
-          "https://picsum.photos/800/600?random=411",
-          "https://picsum.photos/800/600?random=422",
-          "https://picsum.photos/800/600?random=433",
-          "https://picsum.photos/800/600?random=444",
-          "https://picsum.photos/800/600?random=455"
-        ]
-      },
-      {
-        "title": "Dryrobe",
-        "industry": "Outdoor Gear",
-        "scope": "Shopify development, international storefront readiness, performance optimisation",
-        "summary": "Shopify store built to support content-heavy product pages and seasonal demand spikes.",
-        "outcome": "Reliable performance during peak traffic periods.",
-        "cta": {
-          "text": "View Case Study",
-          "link": "#"
-        },
-        "image": "/assets/images/services/fullstack-back.webp",
-        "images": [
-          "https://picsum.photos/800/600?random=511",
-          "https://picsum.photos/800/600?random=522",
-          "https://picsum.photos/800/600?random=533",
-          "https://picsum.photos/800/600?random=544",
-          "https://picsum.photos/800/600?random=555"
-        ]
-      },
-      {
-        "title": "Kith",
-        "industry": "Premium Streetwear",
-        "scope": "Shopify Plus development, high-traffic handling, product drop readiness",
-        "summary": "Shopify build supporting premium brand presentation and high concurrency during campaigns.",
-        "outcome": "Stable storefront performance during launch and drop activity.",
-        "cta": {
-          "text": "View Case Study",
-          "link": "#"
-        },
-        "image": "/assets/images/services/fullstack-back.webp",
-        "images": [
-          "https://picsum.photos/800/600?random=611",
-          "https://picsum.photos/800/600?random=622",
-          "https://picsum.photos/800/600?random=633",
-          "https://picsum.photos/800/600?random=644",
-          "https://picsum.photos/800/600?random=655"
-        ]
-      },
-      {
-        "title": "Leif Shop",
-        "industry": "Lifestyle and Home Products",
-        "scope": "Shopify design and development, editorial layouts, UX refinement",
-        "summary": "Design-led Shopify store blending editorial storytelling with conversion best practices.",
-        "outcome": "Stronger engagement through content-led merchandising.",
-        "cta": {
-          "text": "View Case Study",
-          "link": "#"
-        },
-        "image": "/assets/images/services/fullstack-back.webp",
-        "images": [
-          "https://picsum.photos/800/600?random=711",
-          "https://picsum.photos/800/600?random=722",
-          "https://picsum.photos/800/600?random=733",
-          "https://picsum.photos/800/600?random=744",
-          "https://picsum.photos/800/600?random=755"
-        ]
-      },
-      {
-        "title": "Silk and Willow",
-        "industry": "Sustainable Wedding Decor Boutique",
-        "scope": "Shopify development, custom theme design, SEO-friendly structure",
-        "summary": "Shopify store designed to showcase curated sustainable products with clarity and elegance.",
-        "outcome": "Improved browsing experience and stronger organic structure.",
-        "cta": {
-          "text": "View Case Study",
-          "link": "#"
-        },
-        "image": "/assets/images/services/fullstack-back.webp",
-        "images": [
-          "https://picsum.photos/800/600?random=811",
-          "https://picsum.photos/800/600?random=822",
-          "https://picsum.photos/800/600?random=833",
-          "https://picsum.photos/800/600?random=844",
-          "https://picsum.photos/800/600?random=855"
-        ]
-      },
-      {
-        "title": "Cowboy",
-        "industry": "Connected E-bike Brand",
-        "scope": "Shopify development, platform integration support, UX optimisation",
-        "summary": "Shopify storefront supporting a connected hardware brand with clear product education and clean UI.",
-        "outcome": "Simplified buying journey for high-consideration products.",
-        "cta": {
-          "text": "View Case Study",
-          "link": "#"
-        },
-        "image": "/assets/images/services/fullstack-back.webp",
-        "images": [
-          "https://picsum.photos/800/600?random=911",
-          "https://picsum.photos/800/600?random=922",
-          "https://picsum.photos/800/600?random=933",
-          "https://picsum.photos/800/600?random=944",
-          "https://picsum.photos/800/600?random=955"
-        ]
-      },
-      {
-        "title": "Pure Cycles",
-        "industry": "Urban Bicycle Retailer",
-        "scope": "Shopify development, catalogue optimisation, product comparison UX",
-        "summary": "Shopify store built to support complex product ranges and comparison-led purchasing decisions.",
-        "outcome": "Clearer navigation and improved buyer confidence.",
-        "cta": {
-          "text": "View Case Study",
-          "link": "#"
-        },
-        "image": "/assets/images/services/fullstack-back.webp",
-        "images": [
-          "https://picsum.photos/800/600?random=1011",
-          "https://picsum.photos/800/600?random=1022",
-          "https://picsum.photos/800/600?random=1033",
-          "https://picsum.photos/800/600?random=1044",
-          "https://picsum.photos/800/600?random=1055"
-        ]
-      },
-      {
-        "title": "Christy Dawn",
-        "industry": "Regenerative Fashion Brand",
-        "scope": "Shopify development, content-led commerce, brand storytelling",
-        "summary": "Shopify platform supporting ethical product storytelling alongside conversion-focused layout.",
-        "outcome": "Strong alignment between brand values and purchase journey.",
-        "cta": {
-          "text": "View Case Study",
-          "link": "#"
-        },
-        "image": "/assets/images/services/fullstack-back.webp",
-        "images": [
-          "https://picsum.photos/800/600?random=1111",
-          "https://picsum.photos/800/600?random=1122",
-          "https://picsum.photos/800/600?random=1133",
-          "https://picsum.photos/800/600?random=1144",
-          "https://picsum.photos/800/600?random=1155"
-        ]
-      },
-      {
-        "title": "HELM Boots",
-        "industry": "Durable Footwear Brand",
-        "scope": "Shopify theme development, long-form product pages, CRO refinement",
-        "summary": "Shopify build focused on trust signals, craftsmanship storytelling, and conversion clarity.",
-        "outcome": "Improved engagement across high-consideration product pages.",
-        "cta": {
-          "text": "View Case Study",
-          "link": "#"
-        },
-        "image": "/assets/images/services/fullstack-back.webp",
-        "images": [
-          "https://picsum.photos/800/600?random=1211",
-          "https://picsum.photos/800/600?random=1222",
-          "https://picsum.photos/800/600?random=1233",
-          "https://picsum.photos/800/600?random=1244",
-          "https://picsum.photos/800/600?random=1255"
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
         ]
       }
     ]
@@ -405,6 +98,42 @@
           "https://picsum.photos/800/600?random=33",
           "https://picsum.photos/800/600?random=44",
           "https://picsum.photos/800/600?random=55"
+        ]
+      }
+    ]
+  },
+  "ecommerce_website_development": {
+    "heading": {
+      "title": "E-Commerce Development in Practice",
+      "description": "Here's an example of how our e-commerce development services support performance, brand alignment, and scale."
+    },
+    "projects": [
+      {
+        "title": "Christy Dawn",
+        "industry": "Sustainable fashion brand",
+        "summary": "This reflects our approach to building e-commerce platforms designed for longevity, not quick launches.",
+        "technicalFocus": "Scalable e-commerce architecture, clean design execution, mobile-first performance, site speed optimisation, streamlined product and checkout flows, usability and conversion optimisation.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "A fast-growing fashion brand needed an e-commerce platform capable of supporting high traffic volumes, mobile shoppers, and a strong brand narrative without compromising performance or usability.",
+        "solution": "We implemented a scalable e-commerce architecture focused on clean design execution, mobile-first performance, and streamlined product and checkout flows. Particular attention was given to site speed, usability, and maintaining a consistent brand experience.",
+        "outcomes": [
+          "Improved page load performance across mobile and desktop",
+          "Smoother browsing and checkout experience for high-intent shoppers",
+          "A scalable e-commerce foundation aligned with brand growth",
+          "A cleaner, more maintainable store architecture"
+        ],
+        "results": [
+          "Improved page load performance across mobile and desktop",
+          "Smoother browsing and checkout experience for high-intent shoppers",
+          "A scalable e-commerce foundation aligned with brand growth",
+          "A cleaner, more maintainable store architecture"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=21",
+          "https://picsum.photos/800/600?random=22",
+          "https://picsum.photos/800/600?random=23",
+          "https://picsum.photos/800/600?random=24",
+          "https://picsum.photos/800/600?random=25"
         ]
       }
     ]
@@ -482,6 +211,222 @@
           "https://picsum.photos/800/600?random=233",
           "https://picsum.photos/800/600?random=244",
           "https://picsum.photos/800/600?random=255"
+        ]
+      }
+    ]
+  },
+  "mobile_app_development": {
+    "heading": {
+      "title": "Mobile App Development in Practice",
+      "description": "Here's an example of how our mobile app development services deliver real-world performance and usability."
+    },
+    "projects": [
+      {
+        "title": "Taxif",
+        "industry": "Ride-Hailing Platform",
+        "summary": "Scalable mobile app architecture focused on real-time functionality, smooth user experience, and backend stability. This reflects our approach to building mobile apps designed for real-world usage, not just launch-day demos.",
+        "technicalFocus": "Real-time functionality, performance optimization, intuitive UI flows, secure data handling, scalable architecture.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "A ride-hailing platform required a reliable, user-friendly mobile application capable of handling real-time bookings, location tracking, and high user concurrency without performance issues.",
+        "solution": "We developed a scalable mobile app architecture focused on real-time functionality, smooth user experience, and backend stability. Particular attention was given to performance optimisation, intuitive UI flows, and secure data handling.",
+        "outcomes": [
+          "Stable performance under high user activity",
+          "Improved app responsiveness across devices",
+          "Reliable real-time booking and tracking experience",
+          "A scalable mobile foundation supporting ongoing feature growth"
+        ],
+        "results": [
+          "Stable performance under high user activity",
+          "Improved app responsiveness across devices",
+          "Reliable real-time booking and tracking experience",
+          "A scalable mobile foundation supporting ongoing feature growth"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "software_development": {
+    "heading": {
+      "title": "Software Development in Practice",
+      "description": "Here's an example of how our custom software development services deliver real-world results."
+    },
+    "projects": [
+      {
+        "title": "Fairagrisys",
+        "industry": "Agriculture & Sustainability",
+        "summary": "Custom web platform that streamlined data entry, automated reporting, and integrated with multiple data sources. This reflects our commitment to creating software solutions that help businesses grow and evolve in a competitive market.",
+        "technicalFocus": "Custom web platform, data integration, automated reporting, scalable architecture, multi-region support.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "Fairagrisys, a company focused on agricultural sustainability, needed a software platform to streamline data collection, reporting, and compliance management across multiple regions. Their existing systems were outdated and lacked integration, causing inefficiencies and errors in reporting.",
+        "solution": "We built a custom web platform that streamlined data entry, automated reporting, and integrated with multiple data sources. The platform was designed to scale across regions, enabling Fairagrisys to manage compliance and data collection in a unified, user-friendly system.",
+        "outcomes": [
+          "Reduced manual data entry by 45%",
+          "Improved reporting efficiency by 35%",
+          "Enhanced data accuracy with automated data integration",
+          "A scalable platform supporting regional growth and future expansion"
+        ],
+        "results": [
+          "Reduced manual data entry by 45%",
+          "Improved reporting efficiency by 35%",
+          "Enhanced data accuracy with automated data integration",
+          "A scalable platform supporting regional growth and future expansion"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "landing_page_development": {
+    "heading": {
+      "title": "Landing Page Development in Practice",
+      "description": "Here's a representative example of how our landing page development services drive measurable results."
+    },
+    "projects": [
+      {
+        "title": "Multi-channel digital business",
+        "industry": "Digital Marketing",
+        "summary": "This reflects our approach to landing pages as performance assets, not design exercises.",
+        "technicalFocus": "Conversion-first structure, simplified messaging, mobile-optimised layouts, improved load performance, clear CTAs, form optimisation.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "Paid traffic was driving clicks, but existing landing pages were slow, unfocused, and converting poorly across mobile devices.",
+        "solution": "We rebuilt the landing pages with a conversion-first structure, simplified messaging, mobile-optimised layouts, and improved load performance. Clear CTAs and form optimisation were implemented to reduce friction.",
+        "outcomes": [
+          "Conversion rates improved by approximately 25–40%",
+          "Page load times reduced significantly across mobile and desktop",
+          "Improved lead quality from paid and organic traffic",
+          "Landing pages easier to test, update, and scale across campaigns"
+        ],
+        "results": [
+          "Conversion rates improved by approximately 25–40%",
+          "Page load times reduced significantly across mobile and desktop",
+          "Improved lead quality from paid and organic traffic",
+          "Landing pages easier to test, update, and scale across campaigns"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "website_maintenance": {
+    "heading": {
+      "title": "Website Maintenance in Practice",
+      "description": "Here's a representative example of how our website maintenance services deliver measurable stability and performance improvements."
+    },
+    "projects": [
+      {
+        "title": "Multi-page business website",
+        "industry": "Business Website",
+        "summary": "This reflects our approach to website maintenance as a preventative investment, not a reactive fix.",
+        "technicalFocus": "Regular updates, security monitoring, performance optimisation, automated backups, proactive uptime monitoring.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "The website experienced frequent plugin conflicts, inconsistent performance, and increasing security risks due to outdated components and lack of monitoring.",
+        "solution": "We implemented a structured maintenance plan covering regular updates, security monitoring, performance optimisation, and automated backups, supported by proactive uptime monitoring.",
+        "outcomes": [
+          "Security vulnerabilities reduced by approximately 60% within the first three months",
+          "Average page load times improved by 25–35% following performance optimisation",
+          "Website uptime stabilised above 99.9%",
+          "Faster issue resolution reduced downtime and support disruptions"
+        ],
+        "results": [
+          "Security vulnerabilities reduced by approximately 60% within the first three months",
+          "Average page load times improved by 25–35% following performance optimisation",
+          "Website uptime stabilised above 99.9%",
+          "Faster issue resolution reduced downtime and support disruptions"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "custom_website_development": {
+    "heading": {
+      "title": "Custom Website Development in Practice",
+      "description": "Here's an example of how our custom website development services support performance, brand alignment, and scalability."
+    },
+    "projects": [
+      {
+        "title": "Pure eMaison",
+        "industry": "Luxury Home Fragrance Brand",
+        "summary": "This reflects our approach to custom development as a long-term investment, not a one-off build.",
+        "technicalFocus": "Clean design execution, performance optimisation, flexible content management, speed, usability, refined brand experience.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "A luxury home fragrance brand required a bespoke digital platform that reflected premium brand positioning while supporting content-led storytelling, performance, and future scalability.",
+        "solution": "We delivered a fully custom website architecture focused on clean design execution, performance optimisation, and flexible content management. Particular attention was given to speed, usability, and maintaining a refined brand experience across devices.",
+        "outcomes": [
+          "Improved page load performance across mobile and desktop",
+          "Enhanced user experience aligned with a luxury brand standard",
+          "A scalable platform capable of supporting future growth",
+          "A cleaner, more maintainable codebase and CMS structure"
+        ],
+        "results": [
+          "Improved page load performance across mobile and desktop",
+          "Enhanced user experience aligned with a luxury brand standard",
+          "A scalable platform capable of supporting future growth",
+          "A cleaner, more maintainable codebase and CMS structure"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "webflow_development": {
+    "heading": {
+      "title": "Webflow Development in Practice",
+      "description": "Here's an example of how our Webflow development services deliver real performance improvements."
+    },
+    "projects": [
+      {
+        "title": "Penumbra Zone",
+        "industry": "Design-Led Digital Brand",
+        "summary": "This reflects our approach to Webflow as a performance platform, not just a design tool.",
+        "technicalFocus": "Clean interactions, optimised assets, scalable CMS structure, performance optimisation, visual consistency.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "A design-led digital brand required a visually rich Webflow website that maintained fast performance, mobile responsiveness, and ease of content management without sacrificing creative flexibility.",
+        "solution": "We built a fully custom Webflow website focused on clean interactions, optimised assets, and a scalable CMS structure. Particular attention was given to performance optimisation and maintaining visual consistency across devices.",
+        "outcomes": [
+          "Page load times improved by approximately 30–40%",
+          "Improved mobile performance and Core Web Vitals scores",
+          "A cleaner CMS setup enabling faster content updates",
+          "A scalable Webflow foundation supporting future growth"
+        ],
+        "results": [
+          "Page load times improved by approximately 30–40%",
+          "Improved mobile performance and Core Web Vitals scores",
+          "A cleaner CMS setup enabling faster content updates",
+          "A scalable Webflow foundation supporting future growth"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
         ]
       }
     ]

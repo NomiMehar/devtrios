@@ -13,7 +13,12 @@ export default function Cta({ data }) {
             <div className={styles.button_wrapper}>
               {data.buttons && data.buttons.length > 0 ? (
                 data.buttons.map((button, index) => (
-                  <Button key={index} href={button.href} icon={button.icon}>
+                  <Button 
+                    key={index} 
+                    href={button.href} 
+                    icon={button.icon}
+                    variant={index === 1 ? "secondary" : "primary"}
+                  >
                     {button.text}
                   </Button>
                 ))

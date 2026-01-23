@@ -1,90 +1,338 @@
 {
-  "Frontend": [
-    {
-      "name": "HTML",
-      "logo": "/assets/images/technology_stack/html5-icon.webp"
-    },
-    {
-      "name": "CSS",
-      "logo": "/assets/images/technology_stack/css.webp"
-    },
-    {
-      "name": "JavaScript",
-      "logo": "/assets/images/technology_stack/javascript.webp"
-    },
-    {
-      "name": "jQuery",
-      "logo": "/assets/images/technology_stack/JQuery.webp"
-    },
-    {
-      "name": "React.js",
-      "logo": "/assets/images/technology_stack/React.webp"
-    },
-    {
-      "name": "Angular",
-      "logo": "/assets/images/technology_stack/angular.webp"
+  "website_development": {
+    "title": "Tech Stack That Powers Our Web Development Services",
+    "description": "At Devtrios our web developers use the latest technologies to help businesses stay ahead of the curve. Our robust tech stack ensures high-quality web development services, delivering innovative solutions tailored to meet diverse business needs.",
+    "categories": {
+      "Frontend": [
+        {
+          "name": "HTML",
+          "logo": "/assets/images/technology_stack/html5-icon.webp"
+        },
+        {
+          "name": "CSS",
+          "logo": "/assets/images/technology_stack/css.webp"
+        },
+        {
+          "name": "JavaScript",
+          "logo": "/assets/images/technology_stack/javascript.webp"
+        },
+        {
+          "name": "jQuery",
+          "logo": "/assets/images/technology_stack/JQuery.webp"
+        },
+        {
+          "name": "React.js",
+          "logo": "/assets/images/technology_stack/React.webp"
+        },
+        {
+          "name": "Angular",
+          "logo": "/assets/images/technology_stack/angular.webp"
+        }
+      ],
+      "Backend": [
+        {
+          "name": "Node.js",
+          "logo": "/assets/images/technology_stack/Node.js.webp"
+        },
+        {
+          "name": "Express",
+          "logo": "/assets/images/technology_stack/express.webp"
+        },
+        {
+          "name": "Django",
+          "logo": "/assets/images/technology_stack/django-logo.webp"
+        },
+        {
+          "name": "Laravel",
+          "logo": "/assets/images/technology_stack/laravel.webp"
+        },
+        {
+          "name": "ASP.NET",
+          "logo": "/assets/images/technology_stack/asp.net.webp"
+        },
+        {
+          "name": "Ruby on Rails",
+          "logo": "/assets/images/technology_stack/ruby-on-rails.webp"
+        }
+      ],
+      "Database": [
+        {
+          "name": "MongoDB",
+          "logo": "/assets/images/technology_stack/mongodb.webp"
+        },
+        {
+          "name": "PostgreSQL",
+          "logo": "/assets/images/technology_stack/postgresql-logo-1.webp"
+        },
+        {
+          "name": "MySQL",
+          "logo": "/assets/images/technology_stack/mysql-5-logo.webp"
+        },
+        {
+          "name": "Redis",
+          "logo": "/assets/images/technology_stack/redis.webp"
+        }
+      ],
+      "Cloud": [
+        {
+          "name": "AWS",
+          "logo": "/assets/images/technology_stack/Amazon_Web_Services.webp"
+        },
+        {
+          "name": "Azure",
+          "logo": "/assets/images/technology_stack/azure.webp"
+        },
+        {
+          "name": "Google Cloud",
+          "logo": "/assets/images/technology_stack/google_cloud.webp"
+        },
+        {
+          "name": "Vercel",
+          "logo": "/assets/images/technology_stack/vercel_logo.webp"
+        }
+      ]
     }
-  ],
-  "Backend": [
-    {
-      "name": "Node.js",
-      "logo": "/assets/images/technology_stack/Node.js.webp"
-    },
-    {
-      "name": "Express",
-      "logo": "/assets/images/technology_stack/express.webp"
-    },
-    {
-      "name": "Django",
-      "logo": "/assets/images/technology_stack/django-logo.webp"
-    },
-    {
-      "name": "Laravel",
-      "logo": "/assets/images/technology_stack/laravel.webp"
-    },
-    {
-      "name": "ASP.NET",
-      "logo": "/assets/images/technology_stack/asp.net.webp"
-    },
-    {
-      "name": "Ruby on Rails",
-      "logo": "/assets/images/technology_stack/ruby-on-rails.webp"
+  },
+  "software_development": {
+    "title": "Tech Stack That Powers Our Software Development Services",
+    "description": "We leverage modern technologies and proven frameworks to build scalable, secure, and high-performance software solutions. Our tech stack enables us to deliver custom software that meets enterprise-grade standards.",
+    "categories": {
+      "Programming Languages": [
+        {
+          "name": "Python",
+          "logo": "/assets/images/technology_stack/Python_logo.webp"
+        },
+        {
+          "name": "Java",
+          "logo": "/assets/images/technology_stack/Java_logo.webp"
+        },
+        {
+          "name": "C#",
+          "logo": "/assets/images/technology_stack/csharp_logo.webp"
+        },
+        {
+          "name": "C++",
+          "logo": "/assets/images/technology_stack/C++_logo.webp"
+        },
+        {
+          "name": "PHP",
+          "logo": "/assets/images/technology_stack/php.webp"
+        },
+        {
+          "name": "Go",
+          "logo": "/assets/images/technology_stack/Go_Logo_Blue.webp"
+        },
+        {
+          "name": "Rust",
+          "logo": "/assets/images/technology_stack/Rust_logo.webp"
+        }
+      ],
+      "Frameworks & Libraries": [
+        {
+          "name": ".NET",
+          "logo": "/assets/images/technology_stack/NET-Framework-Logo.webp"
+        },
+        {
+          "name": "ASP.NET",
+          "logo": "/assets/images/technology_stack/asp.net.webp"
+        },
+        {
+          "name": "Laravel",
+          "logo": "/assets/images/technology_stack/laravel.webp"
+        },
+        {
+          "name": "Django",
+          "logo": "/assets/images/technology_stack/django-logo.webp"
+        },
+        {
+          "name": "Node.js",
+          "logo": "/assets/images/technology_stack/Node.js.webp"
+        },
+        {
+          "name": "Express",
+          "logo": "/assets/images/technology_stack/express.webp"
+        },
+        {
+          "name": "React",
+          "logo": "/assets/images/technology_stack/React.webp"
+        }
+      ],
+      "Databases": [
+        {
+          "name": "MongoDB",
+          "logo": "/assets/images/technology_stack/mongodb.webp"
+        },
+        {
+          "name": "PostgreSQL",
+          "logo": "/assets/images/technology_stack/postgresql-logo-1.webp"
+        },
+        {
+          "name": "MySQL",
+          "logo": "/assets/images/technology_stack/mysql-5-logo.webp"
+        },
+        {
+          "name": "Redis",
+          "logo": "/assets/images/technology_stack/redis.webp"
+        }
+      ],
+      "APIs & Integration": [
+        {
+          "name": "GraphQL",
+          "logo": "/assets/images/technology_stack/graphql.webp"
+        },
+        {
+          "name": "REST API",
+          "logo": "/assets/images/technology_stack/rest_api.webp"
+        }
+      ],
+      "Cloud & DevOps": [
+        {
+          "name": "AWS",
+          "logo": "/assets/images/technology_stack/Amazon_Web_Services.webp"
+        },
+        {
+          "name": "Azure",
+          "logo": "/assets/images/technology_stack/azure.webp"
+        },
+        {
+          "name": "Google Cloud",
+          "logo": "/assets/images/technology_stack/google_cloud.webp"
+        },
+        {
+          "name": "Docker",
+          "logo": "/assets/images/technology_stack/docker.webp"
+        },
+        {
+          "name": "Kubernetes",
+          "logo": "/assets/images/technology_stack/kubernetes.webp"
+        },
+        {
+          "name": "Jenkins",
+          "logo": "/assets/images/technology_stack/jenkins.webp"
+        },
+        {
+          "name": "Git",
+          "logo": "/assets/images/technology_stack/Git.webp"
+        }
+      ]
     }
-  ],
-  "Database": [
-    {
-      "name": "MongoDB",
-      "logo": "/assets/images/technology_stack/mongodb.webp"
-    },
-    {
-      "name": "PostgreSQL",
-      "logo": "/assets/images/technology_stack/postgresql-logo-1.webp"
-    },
-    {
-      "name": "MySQL",
-      "logo": "/assets/images/technology_stack/mysql-5-logo.webp"
-    },
-    {
-      "name": "Redis",
-      "logo": "/assets/images/technology_stack/redis.webp"
+  },
+  "mobile_app_development": {
+    "title": "Tech Stack That Powers Our Mobile App Development Services",
+    "description": "We use cutting-edge mobile technologies and frameworks to build native and cross-platform applications. Our mobile app development stack ensures optimal performance, seamless user experiences, and rapid deployment across iOS and Android platforms.",
+    "categories": {
+      "Native Development": [
+        {
+          "name": "iOS (Swift)",
+          "logo": "/assets/images/technology_stack/swift.webp"
+        },
+        {
+          "name": "iOS (Objective-C)",
+          "logo": "/assets/images/technology_stack/objc.webp"
+        },
+        {
+          "name": "Android (Kotlin)",
+          "logo": "/assets/images/technology_stack/kotlin-icon.webp"
+        },
+        {
+          "name": "Android (Java)",
+          "logo": "/assets/images/technology_stack/Java_logo.webp"
+        }
+      ],
+      "Cross-Platform": [
+        {
+          "name": "Flutter",
+          "logo": "/assets/images/technology_stack/flutter.webp"
+        },
+        {
+          "name": "React Native",
+          "logo": "/assets/images/technology_stack/React.webp"
+        },
+        {
+          "name": "Xamarin",
+          "logo": "/assets/images/technology_stack/xamarin-logo.webp"
+        },
+        {
+          "name": "Ionic",
+          "logo": "/assets/images/technology_stack/free-ionic-logo.webp"
+        },
+        {
+          "name": "Cordova",
+          "logo": "/assets/images/technology_stack/cordova-logo.webp"
+        }
+      ],
+      "Backend & APIs": [
+        {
+          "name": "Node.js",
+          "logo": "/assets/images/technology_stack/Node.js.webp"
+        },
+        {
+          "name": "GraphQL",
+          "logo": "/assets/images/technology_stack/graphql.webp"
+        },
+        {
+          "name": "REST API",
+          "logo": "/assets/images/technology_stack/rest_api.webp"
+        },
+        {
+          "name": "AWS Amplify",
+          "logo": "/assets/images/technology_stack/aws-amplify.webp"
+        }
+      ],
+      "Databases": [
+        {
+          "name": "MongoDB",
+          "logo": "/assets/images/technology_stack/mongodb.webp"
+        },
+        {
+          "name": "PostgreSQL",
+          "logo": "/assets/images/technology_stack/postgresql-logo-1.webp"
+        },
+        {
+          "name": "MySQL",
+          "logo": "/assets/images/technology_stack/mysql-5-logo.webp"
+        },
+        {
+          "name": "Redis",
+          "logo": "/assets/images/technology_stack/redis.webp"
+        }
+      ],
+      "Cloud & Services": [
+        {
+          "name": "AWS",
+          "logo": "/assets/images/technology_stack/Amazon_Web_Services.webp"
+        },
+        {
+          "name": "Azure",
+          "logo": "/assets/images/technology_stack/microsoft_azure_logo.webp"
+        },
+        {
+          "name": "Google Cloud",
+          "logo": "/assets/images/technology_stack/google_cloud.webp"
+        },
+        {
+          "name": "Firebase",
+          "logo": "/assets/images/technology_stack/e.webp"
+        }
+      ],
+      "App Stores & Tools": [
+        {
+          "name": "Google Play Console",
+          "logo": "/assets/images/technology_stack/Google_Play_Console_icon.webp"
+        },
+        {
+          "name": "TestFlight",
+          "logo": "/assets/images/technology_stack/testflight.webp"
+        },
+        {
+          "name": "Jenkins",
+          "logo": "/assets/images/technology_stack/jenkins.webp"
+        },
+        {
+          "name": "OneSignal",
+          "logo": "/assets/images/technology_stack/onesignal-logo.webp"
+        }
+      ]
     }
-  ],
-  "Cloud": [
-    {
-      "name": "AWS",
-      "logo": "/assets/images/technology_stack/Amazon_Web_Services.webp"
-    },
-    {
-      "name": "Azure",
-      "logo": "/assets/images/technology_stack/azure.webp"
-    },
-    {
-      "name": "Google Cloud",
-      "logo": "/assets/images/technology_stack/google_cloud.webp"
-    },
-    {
-      "name": "Vercel",
-      "logo": "/assets/images/technology_stack/vercel_logo.webp"
-    }
-  ]
+  }
 }

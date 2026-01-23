@@ -1,0 +1,218 @@
+{
+  "wordpress_development": {
+    "title": "Our WordPress Development Process",
+    "description": "Our WordPress development process is designed to reduce risk and support sustainable growth.",
+    "items": [
+      {
+        "title": "Brands Scaling Online Revenue",
+        "codePreview": "import mongoose, { Schema } from 'mongoose'\n\nexport const collection = 'Product'\n\nconst schema = new Schema({\n  name: { type: String, required: true },\n  description: { type: String }\n}, { timestamps: true })\n\nexport default mongoose.model(collection, schema, collection)"
+      },
+      {
+        "title": "Fashion, retail, and lifestyle e-commerce businesses",
+        "codePreview": "const ProductCatalog = {\n  categories: ['Fashion', 'Retail', 'Lifestyle'],\n  products: [],\n  \n  addProduct(product) {\n    this.products.push(product)\n  }\n}"
+      },
+      {
+        "title": "High-Traffic Or High-Volume Online Stores",
+        "codePreview": "class TrafficManager {\n  constructor() {\n    this.traffic = 0\n    this.capacity = 10000\n  }\n  \n  handleRequest() {\n    if (this.traffic < this.capacity) {\n      this.traffic++\n      return true\n    }\n    return false\n  }\n}"
+      },
+      {
+        "title": "Businesses Migrating From Legacy Platforms",
+        "codePreview": "async function migratePlatform(oldData, newPlatform) {\n  const migrated = await transformData(oldData)\n  await newPlatform.import(migrated)\n  return { success: true, records: migrated.length }\n}"
+      },
+      {
+        "title": "Teams Needing Reliable Long-Term E-Commerce Support",
+        "codePreview": "const SupportSystem = {\n  team: [],\n  \n  addSupportMember(member) {\n    this.team.push({\n      ...member,\n      available: true,\n      expertise: member.skills\n    })\n  }\n}"
+      }
+    ],
+    "closingText": "We define your business goals, customer journeys, catalogue structure, and scalability requirements."
+  },
+  "mobile_app_development": {
+    "title": "Our Mobile App Development Process",
+    "description": "Our mobile app development process is designed to reduce risk and support long-term scalability.",
+    "items": [
+      {
+        "title": "Startups launching mobile-first products",
+        "codePreview": "import { useState } from 'react'\n\nfunction MobileApp() {\n  const [features, setFeatures] = useState([])\n  \n  return (\n    <div>\n      <h2>Mobile-First Product</h2>\n      <button onClick={() => setFeatures([...features, 'New Feature'])}>\n        Add Feature\n      </button>\n    </div>\n  )\n}"
+      },
+      {
+        "title": "Platforms requiring real-time functionality",
+        "codePreview": "class RealtimePlatform {\n  constructor() {\n    this.connections = 0\n    this.capacity = 5000\n  }\n  \n  handleConnection() {\n    if (this.connections < this.capacity) {\n      this.connections++\n      return true\n    }\n    return false\n  }\n}"
+      },
+      {
+        "title": "Businesses digitising services through mobile apps",
+        "codePreview": "async function digitizeService(service) {\n  const digital = await transformToDigital(service)\n  await mobileApp.integrate(digital)\n  return { success: true, service: digital.name }\n}"
+      },
+      {
+        "title": "Companies scaling existing mobile applications",
+        "codePreview": "const ScalableApp = {\n  users: 0,\n  \n  scale() {\n    this.users += 1000\n    return this.users\n  }\n}"
+      },
+      {
+        "title": "Teams needing long-term app support and evolution",
+        "codePreview": "const SupportTeam = {\n  team: [],\n  \n  addMember(member) {\n    this.team.push({\n      ...member,\n      available: true,\n      expertise: member.skills\n    })\n  }\n}"
+      }
+    ],
+    "closingText": "If your app needs to perform in real conditions, we build it properly."
+  },
+  "shopify_development": {
+    "title": "Who Our Shopify Services Are For",
+    "description": "Here's an example of how our Shopify development services support scale, performance, and brand growth.",
+    "items": [
+      {
+        "title": "eCommerce brands ready to scale revenue",
+        "codePreview": "const ShopifyStore = {\n  revenue: 0,\n  products: [],\n  \n  scaleRevenue() {\n    this.revenue += 10000\n    return this.revenue\n  }\n}"
+      },
+      {
+        "title": "High-volume Shopify or Shopify Plus stores",
+        "codePreview": "class HighVolumeStore {\n  constructor() {\n    this.orders = 0\n    this.capacity = 50000\n  }\n  \n  handleOrder() {\n    if (this.orders < this.capacity) {\n      this.orders++\n      return true\n    }\n    return false\n  }\n}"
+      },
+      {
+        "title": "Brands migrating from WooCommerce, Magento, or custom platforms",
+        "codePreview": "async function migrateToShopify(oldPlatform) {\n  const products = await oldPlatform.exportProducts()\n  await shopify.import(products)\n  return { success: true, products: products.length }\n}"
+      },
+      {
+        "title": "Retailers focused on mobile and conversion performance",
+        "codePreview": "const MobileOptimized = {\n  mobileTraffic: 0,\n  conversions: 0,\n  \n  optimize() {\n    this.conversions = this.mobileTraffic * 0.15\n    return this.conversions\n  }\n}"
+      },
+      {
+        "title": "Teams needing reliable Shopify support long-term",
+        "codePreview": "const ShopifySupport = {\n  team: [],\n  \n  addSupportMember(member) {\n    this.team.push({\n      ...member,\n      available: true,\n      expertise: 'Shopify'\n    })\n  }\n}"
+      }
+    ],
+    "closingText": "If Shopify is core to your growth strategy, we build it properly."
+  },
+  "ecommerce_website_development": {
+    "title": "Who Our E-Commerce Services Are For",
+    "description": "Our e-commerce website development services are best suited for:",
+    "items": [
+      {
+        "title": "Brands scaling online revenue",
+        "codePreview": "const StoreGrowth = {\\n  revenue: 0,\\n  optimizeConversion(rate) {\\n    this.revenue = this.revenue + (this.revenue * rate)\\n    return this.revenue\\n  }\\n}"
+      },
+      {
+        "title": "Fashion, retail, and lifestyle e-commerce businesses",
+        "codePreview": "const Catalog = {\\n  categories: ['Fashion', 'Retail', 'Lifestyle'],\\n  products: [],\\n  add(product) {\\n    this.products.push(product)\\n  }\\n}"
+      },
+      {
+        "title": "High-traffic or high-volume online stores",
+        "codePreview": "class TrafficHandler {\\n  constructor() {\\n    this.concurrentUsers = 0\\n    this.max = 50000\\n  }\\n  allow() {\\n    return this.concurrentUsers < this.max\\n  }\\n}"
+      },
+      {
+        "title": "Businesses migrating from legacy platforms",
+        "codePreview": "async function migrateStore(data) {\\n  const mapped = await mapToNewPlatform(data)\\n  return { success: true, records: mapped.length }\\n}"
+      },
+      {
+        "title": "Teams needing reliable long-term e-commerce support",
+        "codePreview": "const SupportPlan = {\\n  monitoring: true,\\n  updates: true,\\n  optimisation: true\\n}"
+      }
+    ],
+    "closingText": "If e-commerce is central to your growth strategy, we build it properly."
+  },
+  "landing_page_development": {
+    "title": "Who Our Landing Page Services Are For",
+    "description": "Our landing page development services are best suited for:",
+    "items": [
+      {
+        "title": "Businesses running paid advertising campaigns",
+        "codePreview": "const AdCampaign = {\n  platform: 'Google Ads',\n  landingPage: null,\n  \n  setLandingPage(page) {\n    this.landingPage = page\n    return this\n  }\n}"
+      },
+      {
+        "title": "SaaS and product launches",
+        "codePreview": "class ProductLaunch {\n  constructor(product) {\n    this.product = product\n    this.landingPage = null\n  }\n  \n  createLandingPage() {\n    this.landingPage = 'conversion-optimized'\n    return this\n  }\n}"
+      },
+      {
+        "title": "Lead generation and sales funnels",
+        "codePreview": "const SalesFunnel = {\n  traffic: 0,\n  leads: 0,\n  \n  convert() {\n    this.leads = this.traffic * 0.15\n    return this.leads\n  }\n}"
+      },
+      {
+        "title": "Marketing teams testing new offers",
+        "codePreview": "const OfferTest = {\n  variants: [],\n  \n  addVariant(variant) {\n    this.variants.push(variant)\n    return this\n  }\n}"
+      },
+      {
+        "title": "Brands optimising conversion performance",
+        "codePreview": "const ConversionOptimizer = {\n  currentRate: 0.02,\n  \n  optimize() {\n    this.currentRate = 0.04\n    return this.currentRate\n  }\n}"
+      }
+    ],
+    "closingText": "If conversion is the goal, we build pages that support it."
+  },
+  "website_maintenance": {
+    "title": "Who Our Website Maintenance Services Are For",
+    "description": "Our website maintenance services are best suited for:",
+    "items": [
+      {
+        "title": "Business-critical websites and platforms",
+        "codePreview": "const CriticalWebsite = {\n  uptime: 99.9,\n  monitoring: true,\n  \n  ensureStability() {\n    this.uptime = 99.99\n    return this\n  }\n}"
+      },
+      {
+        "title": "eCommerce stores requiring stability and security",
+        "codePreview": "class EcommerceMaintenance {\n  constructor() {\n    this.security = 'high'\n    this.performance = 'optimized'\n  }\n  \n  maintain() {\n    return { secure: true, fast: true }\n  }\n}"
+      },
+      {
+        "title": "Marketing-led websites with frequent updates",
+        "codePreview": "const MarketingSite = {\n  updates: 0,\n  \n  scheduleUpdate() {\n    this.updates++\n    return 'scheduled'\n  }\n}"
+      },
+      {
+        "title": "Organisations without in-house technical teams",
+        "codePreview": "const MaintenancePlan = {\n  team: 'Devtrios',\n  support: '24/7',\n  \n  provideSupport() {\n    return { available: true, responsive: true }\n  }\n}"
+      },
+      {
+        "title": "Businesses seeking predictable, ongoing support",
+        "codePreview": "const OngoingSupport = {\n  schedule: 'monthly',\n  response: 'fast',\n  \n  deliver() {\n    return { reliable: true, consistent: true }\n  }\n}"
+      }
+    ],
+    "closingText": "If your website plays an important role in your operations or revenue, ongoing maintenance is essential."
+  },
+  "custom_website_development": {
+    "title": "Who Our Custom Website Services Are For",
+    "description": "Our custom website development services are best suited for:",
+    "items": [
+      {
+        "title": "Businesses outgrowing template-based platforms",
+        "codePreview": "const CustomPlatform = {\n  template: false,\n  scalability: 'high',\n  \n  build() {\n    return { custom: true, flexible: true }\n  }\n}"
+      },
+      {
+        "title": "Brands with complex technical or integration needs",
+        "codePreview": "class ComplexIntegration {\n  constructor() {\n    this.integrations = []\n    this.technical = true\n  }\n  \n  integrate() {\n    return { seamless: true, reliable: true }\n  }\n}"
+      },
+      {
+        "title": "Enterprises requiring scalability and control",
+        "codePreview": "const EnterpriseSolution = {\n  scale: 'unlimited',\n  control: 'full',\n  \n  grow() {\n    this.scale = 'enterprise'\n    return this\n  }\n}"
+      },
+      {
+        "title": "Luxury, lifestyle, and premium brands",
+        "codePreview": "const PremiumBrand = {\n  positioning: 'luxury',\n  experience: 'refined',\n  \n  deliver() {\n    return { premium: true, bespoke: true }\n  }\n}"
+      },
+      {
+        "title": "Teams seeking long-term development support",
+        "codePreview": "const LongTermSupport = {\n  duration: 'ongoing',\n  partnership: true,\n  \n  provide() {\n    return { continuous: true, reliable: true }\n  }\n}"
+      }
+    ],
+    "closingText": "If your website needs to adapt as your business evolves, custom development is the right approach."
+  },
+  "webflow_development": {
+    "title": "Who Our Webflow Services Are For",
+    "description": "Our Webflow development services are best suited for:",
+    "items": [
+      {
+        "title": "Design-led brands and creative studios",
+        "codePreview": "const DesignBrand = {\n  focus: 'visual excellence',\n  performance: 'high',\n  \n  build() {\n    return { beautiful: true, fast: true }\n  }\n}"
+      },
+      {
+        "title": "Marketing teams needing CMS flexibility",
+        "codePreview": "class MarketingCMS {\n  constructor() {\n    this.flexibility = 'high'\n    this.ease = 'intuitive'\n  }\n  \n  publish() {\n    return { quick: true, easy: true }\n  }\n}"
+      },
+      {
+        "title": "Startups launching fast, scalable websites",
+        "codePreview": "const StartupSite = {\n  speed: 'fast',\n  scale: 'unlimited',\n  \n  launch() {\n    this.speed = 'instant'\n    return this\n  }\n}"
+      },
+      {
+        "title": "Businesses migrating from legacy builders",
+        "codePreview": "const Migration = {\n  from: 'legacy',\n  to: 'webflow',\n  \n  migrate() {\n    return { seamless: true, improved: true }\n  }\n}"
+      },
+      {
+        "title": "Teams seeking low-maintenance, high-performance sites",
+        "codePreview": "const LowMaintenance = {\n  maintenance: 'minimal',\n  performance: 'high',\n  \n  deliver() {\n    return { reliable: true, fast: true }\n  }\n}"
+      }
+    ],
+    "closingText": "If design quality and performance matter equally, Webflow is the right platform."
+  }
+}

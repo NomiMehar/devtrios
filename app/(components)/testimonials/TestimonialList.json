@@ -119,5 +119,77 @@
       "name": "Mark Alistair, CTO, Global Ventures",
       "image": "/assets/images/home/coma.webp"
     }
+  ],
+  "shopify_development": [
+    {
+      "text": "Devtrios transformed our Shopify store with a custom build that increased our conversion rate by 35%. Their expertise in Shopify Plus and performance optimization is unmatched.",
+      "name": "Emily Chen, E-commerce Director, Allbirds",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "text": "We migrated from WooCommerce to Shopify with zero data loss. The team's attention to SEO-safe URL mapping and checkout optimization exceeded our expectations.",
+      "name": "James Rodriguez, Founder, Sustainable Brands Co.",
+      "image": "/assets/images/home/coma.webp"
+    }
+  ],
+  "ecommerce_website_development": [
+    {
+      "text": "Devtrios rebuilt our e-commerce platform for performance and conversion. Mobile load times improved dramatically and the checkout flow is now smooth and reliable.",
+      "name": "Operations Lead, Retail Brand",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "text": "They handled our migration end-to-end, including SEO-safe URL mapping. We maintained rankings and improved site speed and usability across key pages.",
+      "name": "Marketing Director, E-commerce Company",
+      "image": "/assets/images/home/coma.webp"
+    }
+  ],
+  "landing_page_development": [
+    {
+      "text": "Devtrios rebuilt our landing pages with a conversion-first approach. Our conversion rates improved by 35% and page load times dropped significantly. The team's focus on mobile optimization and clear CTAs made all the difference.",
+      "name": "Marketing Director, Digital Agency",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "text": "We needed landing pages for our paid ad campaigns. Devtrios delivered fast, focused pages aligned with our ad messaging. Quality Score improved and lead quality increased substantially.",
+      "name": "Growth Marketing Lead, SaaS Company",
+      "image": "/assets/images/home/coma.webp"
+    }
+  ],
+  "website_maintenance": [
+    {
+      "text": "Devtrios took over our website maintenance and transformed our site's stability. Security vulnerabilities dropped by 60%, uptime improved to 99.9%, and we haven't had a single downtime incident since. Their proactive approach is exactly what we needed.",
+      "name": "IT Director, Business Services Company",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "text": "We had constant plugin conflicts and performance issues. Devtrios implemented a structured maintenance plan that eliminated conflicts, improved page load times by 30%, and gave us peace of mind. Highly recommend their maintenance services.",
+      "name": "Operations Manager, E-commerce Business",
+      "image": "/assets/images/home/coma.webp"
+    }
+  ],
+  "custom_website_development": [
+    {
+      "text": "Devtrios built our custom website from the ground up, and the results exceeded our expectations. The site loads incredibly fast, the design perfectly reflects our brand, and we have complete control over content management. The team's attention to detail and technical expertise is outstanding.",
+      "name": "Brand Director, Luxury Lifestyle Brand",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "text": "We needed a custom platform that could scale with our business. Devtrios delivered a bespoke solution that not only meets our current needs but is built to grow with us. The codebase is clean, maintainable, and we own everything. Highly recommend for businesses that need flexibility and long-term value.",
+      "name": "CTO, Growing Technology Company",
+      "image": "/assets/images/home/coma.webp"
+    }
+  ],
+  "webflow_development": [
+    {
+      "text": "Devtrios transformed our brand with a stunning Webflow website that loads incredibly fast and looks pixel-perfect on every device. The CMS is intuitive, and our team can update content without any developer help. The performance improvements have been remarkable.",
+      "name": "Creative Director, Design Studio",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "text": "We migrated from WordPress to Webflow with Devtrios, and it was seamless. Our site is now faster, easier to manage, and our SEO rankings actually improved. The team's expertise in Webflow development is evident in every detail.",
+      "name": "Marketing Manager, Tech Startup",
+      "image": "/assets/images/home/coma.webp"
+    }
   ]
 }

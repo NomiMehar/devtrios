@@ -1,15 +1,26 @@
 @use "../../../styles/variables" as *;
 
 .service_banner {
-  padding: 15px 0;
+  padding: 70px 0 180px;
   position: relative;
   overflow: hidden;
-
+  background: linear-gradient(180deg, #3150B3 0%, #091336 100%);
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -97px;
+    width: 300px;
+    height: 300px;
+    background: url("../../../public/assets/images/services/service_banner-shape-1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
   @media screen and (max-width: $breakpoint_tablet) {
-    padding: 15px 0;
+    padding: 100px 0;
   }
   @media screen and (max-width: $breakpoint_mobile_portrait) {
-    padding: 20px 0;
+    padding: 70px 0;
   }
 
   .content_wrapper {
@@ -27,21 +38,10 @@
     }
   }
 
-  .left_column {
+  .top_section {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background: linear-gradient(180deg, #3150B3 0%, #091336 100%);
-    padding: 60px 40px;
-    border-radius: 12px;
-
-    @media screen and (max-width: $breakpoint_tablet) {
-      gap: 20px;
-      padding: 50px 40px;
-    }
-    @media screen and (max-width: $breakpoint_mobile_portrait) {
-      padding: 40px 30px;
-    }
   }
 
   .badge {
@@ -184,305 +184,184 @@
     &:hover .button_icon {
       transform: translateX(3px);
     }
-  }
-
-  .benefits_list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5px 20px;
-
-    @media screen and (max-width: $breakpoint_tablet) {
-      grid-template-columns: 1fr;
-      gap: 12px;
+  }  
+}
+.overview_section{
+  padding: 0 0 80px;
+  .content_wrapper{
+    background: $white_color;
+    border-radius: 12px;
+    box-shadow: 0 100px 80px rgba(0, 0, 0, .07), 0 22.3363px 17.869px rgba(0, 0, 0, .042), 0 6.6501px 5.32008px rgba(0, 0, 0, .028);
+    padding: 35px;
+    margin-top: -100px;
+    z-index: 9;
+    position: relative;
+    h2{
+      color: rgba(0, 163, 255, 1);
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1.2;
+      text-transform: uppercase;
+      margin: 0 0 20px;
     }
-
-    li {
-      display: flex;
-      align-items: flex-start;
-      gap: 12px;
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 1.6;
-      color: rgba(255, 255, 255, 0.95);
-
+    h3{
+      color: $dark_color;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1.2;
+      margin: 0 0 30px;
+    }
+    .benefits_list {
+      max-width: 800px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 5px 20px;
+      margin-bottom: 50px;
+  
       @media screen and (max-width: $breakpoint_tablet) {
-        font-size: 18px;
+        grid-template-columns: 1fr;
+        gap: 12px;
       }
-      @media screen and (max-width: $breakpoint_mobile_portrait) {
+  
+      li {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
         font-size: 16px;
-      }
-
-      .bullet {
-        color: $white_color;
-        font-size: 20px;
-        line-height: 1;
-        flex-shrink: 0;
-        margin-top: 4px;
-        font-weight: 700;
-
-        @media screen and (max-width: $breakpoint_mobile_portrait) {
+        font-weight: 400;
+        line-height: 1.6;
+        color: $dark_color;
+  
+        @media screen and (max-width: $breakpoint_tablet) {
           font-size: 18px;
         }
+        @media screen and (max-width: $breakpoint_mobile_portrait) {
+          font-size: 16px;
+        }
+  
+        .bullet {
+          color: rgba(0, 163, 255, 1);
+          font-size: 20px;
+          line-height: 1;
+          flex-shrink: 0;
+          margin-top: 4px;
+          font-weight: 700;
+  
+          @media screen and (max-width: $breakpoint_mobile_portrait) {
+            font-size: 18px;
+          }
+        }
+  
+        span:last-child {
+          flex: 1;
+        }
       }
-
-      span:last-child {
-        flex: 1;
-      }
     }
-  }
-
-  .right_column {
-    position: relative;
-    width: 410px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    gap: 20px;
-  }
-
-  .blog_section_title {
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 1.2;
-    margin: 0;
-    color: $white_color;
-
-    @media screen and (max-width: $breakpoint_tablet) {
-      font-size: 28px;
-    }
-    @media screen and (max-width: $breakpoint_mobile_portrait) {
-      font-size: 24px;
-    }
-  }
-
-  .blog_section {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    background: linear-gradient(180deg, #3150B3 0%, #091336 100%);
-    border-radius: 12px;
-    padding: 30px;
-    min-height: 480px;
-
-    @media screen and (max-width: $breakpoint_tablet) {
-      padding: 25px;
-      min-height: 450px;
-    }
-    @media screen and (max-width: $breakpoint_mobile_portrait) {
-      padding: 20px;
-      min-height: 400px;
-      gap: 15px;
-    }
-  }
-
-  .blog_section_description {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.6;
-    color: rgba(255, 255, 255, 0.85);
-    margin: 0;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-
-    @media screen and (max-width: $breakpoint_mobile_portrait) {
-      font-size: 15px;
-    }
-  }
-
-  .blog_slider_wrapper {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    border-radius: 10px;
-  }
-
-  .blog_swiper {
-    width: 100%;
-    overflow: visible;
-    padding: 0;
-
-    :global(.swiper-wrapper) {
-      display: flex;
-    }
-
-    :global(.swiper-slide) {
-      height: auto;
-      width: 100%;
-      flex-shrink: 0;
-    }
-  }
-
-  .blog_card {
-    display: block;
-    width: 100%;
-    text-decoration: none;
-    transition: transform 0.3s ease;
-  }
-
-  .blog_image_wrapper {
-    width: 100%;
-    height: 190px;
-    overflow: hidden;
-    border-radius: 10px;
-    position: relative;
-    background: rgba(0, 0, 0, 0.2);
-
-    @media screen and (max-width: $breakpoint_tablet) {
-      height: 190px;
-    }
-    @media screen and (max-width: $breakpoint_mobile_portrait) {
-      height: 190px;
-    }
-  }
-
-  .blog_image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.4s ease;
-    display: block;
-  }
-
-  .blog_navigation {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 15px;
-    margin-top: 20px;
-
-    @media screen and (max-width: $breakpoint_mobile_portrait) {
-      margin-top: 15px;
-      gap: 10px;
-    }
-  }
-
-  .pagination_dots {
-    display: flex !important;
-    align-items: center;
-    gap: 5px;
-    flex: 1;
-    position: relative;
-    min-height: 12px;
-
-    @media screen and (max-width: $breakpoint_mobile_portrait) {
-      gap: 5px;
-    }
-  }
-
-  .pagination_bullet {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: $white_color;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    border: none;
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    display: block;
-
-    @media screen and (max-width: $breakpoint_mobile_portrait) {
-      width: 6px;
-      height: 6px;
-    }
-
-    &:hover {
-      transform: scale(1.1);
-    }
-  }
-
-  .pagination_bullet_active {
-    background: #009cff;
-    width: 24px;
-    border-radius: 4px;
-
-    @media screen and (max-width: $breakpoint_mobile_portrait) {
-      width: 20px;
-    }
-  }
-
-  .navigation_arrows {
-    display: flex;
-    gap: 5px;
-    align-items: center;
-
-    @media screen and (max-width: $breakpoint_mobile_portrait) {
-      gap: 5px;
-    }
-  }
-
-  .nav_button {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: none;
-    background: rgba(255, 255, 255, 0.219);
-    backdrop-filter: blur(10px);
-    color: $white_color;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    padding: 0;
-    flex-shrink: 0;
-
-    @media screen and (max-width: $breakpoint_mobile_portrait) {
-      width: 36px;
-      height: 36px;
-    }
-
-    svg {
-      width: 16px;
-      height: 16px;
-    }
-
-    &:hover:not(:disabled) {
-      background: rgba(255, 255, 255, 0.2);
-      transform: scale(1.1);
-    }
-
-    &:active:not(:disabled) {
-      transform: scale(0.95);
-    }
-
-    &:disabled {
-      opacity: 0.3;
-      cursor: not-allowed;
-    }
-  }
-
-  .no_blogs {
-    padding: 40px 20px;
-    text-align: center;
-
-    p {
-      color: rgba(255, 255, 255, 0.7);
-      font-size: 16px;
+    .overview_grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+      list-style: none;
+      padding: 0;
       margin: 0;
+      
+      @media screen and (max-width: $breakpoint_tablet) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        grid-template-columns: 1fr;
+      }
+      
+      li {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 12px;
+        padding-right: 30px;
+        margin-right: 30px;
+        border-right: 1px solid rgba(221, 221, 221, 0.673);
+        
+        &:last-child {
+          border-right: none;
+        }
+        
+        @media screen and (max-width: $breakpoint_tablet) {
+          &:nth-child(2n) {
+            border-right: none;
+          }
+        }
+        
+        @media screen and (max-width: $breakpoint_mobile_portrait) {
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          border-right: none;
+          border-bottom: 1px solid rgba(221, 221, 221, 0.5);
+          
+          &:last-child {
+            border-bottom: none;
+          }
+        }
+        
+        figure {
+          background: linear-gradient(268.09deg, #0045FF 0%, #00A3FF 100%);
+          border: 1px solid rgba(221, 221, 221, 1);
+          border-radius: 12px;
+          padding: 12px;
+          width: 56px;
+          height: 56px;
+          min-width: 56px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-shrink: 0;
+          margin: 0;
+          
+          
+          img {
+            width: 30px;
+            height: 30px;
+            object-fit: contain;
+            filter: brightness(0) invert(1);
+          }
+        }
+        
+        section {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          gap: 3px;
+          
+          span {
+            color: $dark_color;
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 1.2;
+            display: flex;
+            align-items: baseline;
+            gap: 2px;
+            
+            small {
+              font-size: inherit;
+              font-weight: inherit;
+            }
+          }
+          
+          p {
+            color: $dark_color;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.5;
+            margin: 0;
+          }
+        }
+      }
     }
   }
-
-  .footer_text {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.6;
-    color: rgba(54, 54, 54, 1);
-    margin: 0;
-    padding: 0;
-
-    @media screen and (max-width: $breakpoint_mobile_portrait) {
-      font-size: 14px;
-    }
-  }
+ 
 }
 

@@ -1,0 +1,226 @@
+{
+  "wordpress_development": [
+    {
+      "process_number": "01",
+      "process_name": "Discovery and Technical Planning",
+      "process_description": "We define business goals, user requirements, SEO considerations, and scalability needs before development begins.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "02",
+      "process_name": "UX, UI, and Site Architecture",
+      "process_description": "We design page structures, templates, and user journeys that support usability, performance, and conversions.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "03",
+      "process_name": "WordPress Development",
+      "process_description": "Our developers build your site on a staging environment using clean, scalable WordPress code and modern best practices.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "04",
+      "process_name": "Testing, Performance, and SEO Review",
+      "process_description": "We test across devices and browsers, optimise Core Web Vitals, and review technical SEO prior to launch.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "05",
+      "process_name": "Launch, Training, and Ongoing Support",
+      "process_description": "After launch, we provide training, monitoring, and continuous optimisation as your website evolves.",
+      "process_image": "/assets/images/services/d-process.svg"
+    }
+  ],
+  "shopify_development": [
+    {
+      "process_number": "01",
+      "process_name": "Discovery & eCommerce Strategy",
+      "process_description": "We define your business goals, target customers, catalogue structure, conversion priorities, and scalability requirements.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "02",
+      "process_name": "UX, UI & Store Architecture",
+      "process_description": "We design user journeys, navigation, and layouts that reduce friction and support higher conversion rates.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "03",
+      "process_name": "Shopify Development & Integration",
+      "process_description": "Our developers build your store using clean Shopify code, custom themes, and carefully selected apps and integrations.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "04",
+      "process_name": "Testing, Performance & SEO Review",
+      "process_description": "We test across devices, optimize speed, review technical SEO, and ensure checkout stability before launch.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "05",
+      "process_name": "Launch, Optimisation & Growth Support",
+      "process_description": "After launch, we support continuous optimisation, performance tuning, and feature expansion as your store grows.",
+      "process_image": "/assets/images/services/d-process.svg"
+    }
+  ],
+  "ecommerce_website_development": [
+    {
+      "process_number": "01",
+      "process_name": "Discovery & Commerce Strategy",
+      "process_description": "We define your business goals, customer journeys, catalogue structure, and scalability requirements.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "02",
+      "process_name": "UX, UI & Conversion Architecture",
+      "process_description": "We design store layouts, navigation, and flows that reduce friction and support higher conversion rates.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "03",
+      "process_name": "Development & Integrations",
+      "process_description": "Our developers build your store with clean code, secure payment systems, inventory tools, and third-party integrations.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "04",
+      "process_name": "Testing, Performance & SEO Review",
+      "process_description": "We test across devices, optimise speed, validate checkout flows, and review technical SEO before launch.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "05",
+      "process_name": "Launch, Optimisation & Support",
+      "process_description": "After launch, we support ongoing optimisation, feature expansion, and performance monitoring.",
+      "process_image": "/assets/images/services/d-process.svg"
+    }
+  ],
+  "landing_page_development": [
+    {
+      "process_number": "01",
+      "process_name": "Offer & Audience Alignment",
+      "process_description": "We define the goal of the page, target audience, traffic source, and desired action before design begins.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "02",
+      "process_name": "Messaging & Page Structure",
+      "process_description": "We structure the page around user intent, attention flow, and conversion principles.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "03",
+      "process_name": "Design & Development",
+      "process_description": "We build the page using clean, lightweight code optimised for speed and responsiveness.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "04",
+      "process_name": "Testing, Performance & Tracking",
+      "process_description": "We test load speed, mobile experience, form functionality, and tracking setup before launch.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "05",
+      "process_name": "Launch, Optimisation & Iteration",
+      "process_description": "After launch, we support ongoing improvements based on data and performance insights.",
+      "process_image": "/assets/images/services/d-process.svg"
+    }
+  ],
+  "website_maintenance": [
+    {
+      "process_number": "01",
+      "process_name": "Website Audit & Baseline Review",
+      "process_description": "We assess your website's current performance, security posture, update status, and technical risks.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "02",
+      "process_name": "Maintenance Setup & Monitoring",
+      "process_description": "We configure monitoring, backups, security layers, and staging environments for safe ongoing maintenance.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "03",
+      "process_name": "Ongoing Updates & Optimisation",
+      "process_description": "We perform regular updates, performance tuning, and preventative maintenance based on best practices.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "04",
+      "process_name": "Issue Resolution & Support",
+      "process_description": "When issues arise, our team investigates and resolves them quickly to minimise disruption.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "05",
+      "process_name": "Continuous Improvement",
+      "process_description": "We review trends, performance, and risks over time to keep your website stable and scalable.",
+      "process_image": "/assets/images/services/d-process.svg"
+    }
+  ],
+  "custom_website_development": [
+    {
+      "process_number": "01",
+      "process_name": "Discovery & Technical Planning",
+      "process_description": "We define business goals, system requirements, integrations, and scalability needs before development begins.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "02",
+      "process_name": "UX, UI & Information Architecture",
+      "process_description": "We design user journeys, layouts, and structures that support usability, clarity, and conversion.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "03",
+      "process_name": "Custom Development & Integration",
+      "process_description": "Our developers build your platform using clean, scalable code and integrate required third-party systems.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "04",
+      "process_name": "Testing, Performance & SEO Review",
+      "process_description": "We test across devices, optimise performance, validate security, and review technical SEO prior to launch.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "05",
+      "process_name": "Launch, Support & Iteration",
+      "process_description": "After launch, we provide ongoing support, optimisation, and feature expansion as your platform evolves.",
+      "process_image": "/assets/images/services/d-process.svg"
+    }
+  ],
+  "webflow_development": [
+    {
+      "process_number": "01",
+      "process_name": "Discovery & Technical Planning",
+      "process_description": "We define goals, design requirements, CMS needs, and scalability expectations.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "02",
+      "process_name": "UX, UI & Page Structure",
+      "process_description": "We map layouts, interactions, and content flow for clarity and conversion.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "03",
+      "process_name": "Webflow Development",
+      "process_description": "Our developers build your site using clean Webflow components and best practices.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "04",
+      "process_name": "Testing, Performance & SEO Review",
+      "process_description": "We optimise speed, responsiveness, and technical SEO before launch.",
+      "process_image": "/assets/images/services/d-process.svg"
+    },
+    {
+      "process_number": "05",
+      "process_name": "Launch, Training & Support",
+      "process_description": "We launch, train your team, and provide ongoing optimisation support.",
+      "process_image": "/assets/images/services/d-process.svg"
+    }
+  ]
+}

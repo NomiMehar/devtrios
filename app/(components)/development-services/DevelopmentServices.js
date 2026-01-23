@@ -1,54 +1,42 @@
-import React from "react";
-import styles from "./DevelopmentServices.module.scss";
-import Button from "@/app/(components)/button/Button";
-import Image from "next/image";
-import data from "./DevelopmentServicesList.json";
+"use client";
 
-export default function DevelopmentServices() {
-  return (
-    <div className={styles.development_services}>
+import style from "./DevelopmentServices.module.scss"
+import React from "react";
+import DevelopmentServicesData from "./DevelopmentServicesData.json";
+
+export default function DevelopmentServices({ type = "wordpress_development" }) {
+    const data = DevelopmentServicesData[type] || DevelopmentServicesData.wordpress_development;
+
+    if (!data) {
+        return null;
+    }
+
+    return(
+      <div className={`flex flex-wrap ${style.development_services}`}>
       <div className="container">
-        <div className={styles.wrapper}>
-          <div className={styles.heading_wrapper}>
-            <h2>{data.heading.title}</h2>
-            <div className={styles.block}>
-              <p
-                dangerouslySetInnerHTML={{ __html: data.heading.description }}
-              />
-              {data.heading.button && (
-                <div className={styles.button_wrapper}>
-                  <Button
-                    href={data.heading.button.href}
-                    icon={data.heading.button.icon}
-                  >
-                    {data.heading.button.text}
-                  </Button>
-                </div>
-              )}
-            </div>
+          <div className={style.section_title}>
+              <h2>{data.title}</h2>
+              <p>{data.description}</p>
           </div>
-          <div className={styles.content_wrapper}>
-            {data.values.map((item, index) => (
-              <div
-                className={styles.block}
-                key={index}
-                style={{ backgroundImage: `url(${item.backgroundImg})` }}
-              >
-                <Image
-                  src={item.icon}
-                  alt={item.title}
-                  width={100}
-                  height={100}
-                />
-                <div className={styles.content}>
-                  <h3>{item.title}</h3>
-                  <p>{item.description}</p>
-                </div>
-              </div>
-            ))}
+          <div className={`${style.development_services_text}`}>
+              <section>
+                  <span><small>{data.firstService.number}</small> {data.firstService.title}</span>
+              </section>
+              <section className={style.left_section}>
+                  <p>{data.firstServiceDescription}</p>
+              </section>
+              <section className={style.right_section}>
+                  <ul className="list-none">
+                      {data.services && data.services.map((service, index) => (
+                          <li key={index}>
+                              <span><small>{service.number}</small> {service.title}</span>
+                              <p>{service.description}</p>
+                          </li>
+                      ))}
+                  </ul>
+              </section>
           </div>
-        </div>
       </div>
-    </div>
-  );
+  </div>
+    )
 }

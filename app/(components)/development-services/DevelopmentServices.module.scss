@@ -1,177 +1,206 @@
 @use "../../../styles/variables" as *;
 
 .development_services {
-  padding-top: 130px;
-
-  @media screen and (max-width: $breakpoint_tablet) {
-    padding-top: 100px;
+  background: url("../../../public/assets/images/services/gray_bg.png") center fixed;
+  background-size: cover;
+  padding: 100px 0 0;
+  @media (max-width: $breakpoint_tablet) {
+   padding: 60px 0 0;
   }
-  @media screen and (max-width: $breakpoint_mobile_portrait) {
-    padding-top: 70px;
-  }
-  .wrapper {
-    padding: 50px;
-    border-radius: 12px;
-    background-color: $card_color;
-    position: relative;
-    &::before {
-      content: "";
-      background-image: url(../../../public/assets/images/icons/folder-shape.svg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      border-top-left-radius: 30px;
-      width: 95%;
-      height: 98px;
-      position: absolute;
-      top: -30px;
-      left: 0;
-      z-index: -99;
-      @media screen and (max-width: $breakpoint_mobile_portrait) {
-        display: none;
+  .section_title {
+    max-width: 1250px;
+    margin: 0 auto 60px;
+    text-align: center;
+    @media (max-width: $breakpoint_tablet) {
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 42px;
+      font-weight: 600;
+      line-height: 1.4;
+      margin-bottom: 20px;
+      color: $dark_color;
+      @media (max-width: $breakpoint_tablet) {
+        font-size: 38px;
+      }
+      @media (max-width: $breakpoint_mobile_portrait) {
+        font-size: 28px;
       }
     }
-    @media screen and (max-width: $breakpoint_tablet) {
-      padding: 30px;
-    }
-    @media screen and (max-width: $breakpoint_mobile_portrait) {
-      padding: 30px 20px;
-    }
-    .heading_wrapper {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
-      @media screen and (max-width: $breakpoint_mini_laptop) {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 10px;
+    p {
+      font-size: 20px;
+      line-height: 1.6;
+      color: $gray_color;
+      margin: 0;
+      @media (max-width: $breakpoint_tablet) {
+        font-size: 18px;
       }
-      h2 {
+      @media (max-width: $breakpoint_mobile_portrait) {
+        font-size: 16px;
+      }
+  }
+  }
+  .development_services_text {
+    max-width: 1250px;
+    margin: 0 auto;
+    @media (max-width: $breakpoint_tablet) {
+      margin-top: 80px;
+    }
+    section {
+      &:first-child {
+        width: 82%;
+        @media (max-width: $breakpoint_tablet) {
+          width: 100%;
+          margin: 0 auto;
+        }
+      }
+      width: 100%;
+      position: relative;
+      padding-left: 67px;
+      margin-bottom: 68px;
+      @media (max-width: $breakpoint_tablet) {
+       padding-left: 0;
+      }
+      p {
         color: $dark_color;
-        font-size: 36px;
-        font-weight: 600;
-        line-height: 1.4;
-        margin: 0px;
-        @media screen and (max-width: $breakpoint_tablet) {
-          font-size: 32px;
-        }
-        @media screen and (max-width: $breakpoint_mobile_portrait) {
-          font-size: 28px;
-        }
-      }
-      .block {
-        display: flex;
-        gap: 20px;
-        @media screen and (max-width: $breakpoint_mini_laptop) {
-          flex-wrap: wrap;
-        }
-        p {
+        opacity: 0.9;
+        font-size: 24px;
+        line-height: 40px;
+        margin: 0;
+        @media (max-width: $breakpoint_laptop) {
           font-size: 18px;
-          color: $gray_color;
-          font-weight: 400;
-          margin: 0;
-          line-height: 1.6;
-          @media screen and (max-width: $breakpoint_tablet) {
-            font-size: 16px;
-          }
+          line-height: 32px;
         }
-        .button_wrapper {
-          a {
-            padding: 12px 20px;
-            border-radius: 10px;
-            font-size: 16px;
-            font-weight: 500;
-            box-shadow: none;
-          }
+        @media (max-width: $breakpoint_tablet) {
+          margin-top: 20px;
         }
       }
-    }
-    .content_wrapper {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-      margin-top: 65px;
-
-      @media screen and (max-width: $breakpoint_mini_laptop) {
-        grid-template-columns: repeat(2, 1fr);
-        margin-top: 60px;
-      }
-      @media screen and (max-width: $breakpoint_mobile_portrait) {
-        grid-template-columns: repeat(1, 1fr);
-        margin-top: 40px;
-      }
-      .block {
-        border-radius: 12px;
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding: 30px;
-        transition: all 0.3s;
+      span {
+        background: linear-gradient(268.09deg, #0045FF 0%, #00A3FF 100%);
+        border-radius: 50px;
+        border: 2px solid $white_color;
+        color: $white_color;
+        font-size: 28px;
+        line-height: 39px;
+        padding: 13px 40px;
+        width: 100%;
         display: flex;
-        flex-direction: column;
-        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        min-height: 83px;
         position: relative;
-        @media screen and (max-width: $breakpoint_mobile_portrait) {
-          padding: 20px;
-          border-radius: 12px;
-        }
-        &:last-child {
-          flex-direction: row;
-          grid-column: span 3;
-          align-items: center;
-          gap: 50px;
-          .content {
-            width: 40%;
-            @media screen and (max-width: $breakpoint_mini_laptop) {
-              width: 100%;
-            }
-          }
-          @media screen and (max-width: $breakpoint_mini_laptop) {
-            grid-column: auto;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 20px;
-          }
-        }
+        margin-bottom: 10px;
+        transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        overflow: visible;
         &:hover {
-          img {
-            transform: scale(1.2);
+          background: $white_color;
+          border-color: rgba(0, 69, 255, 0.5);
+          color: $dark_color;
+          small {
+            background: $white_color;
+            border-color: rgba(0, 69, 255, 0.5);
+            color: $dark_color;
           }
         }
-        img {
-          width: 40px;
-          height: 40px;
-          margin-bottom: 10px;
-          transition: all 0.3s;
+        @media (max-width: $breakpoint_laptop) {
+          min-height: 55px;
+          font-size: 22px;
+          line-height: 30px;
+          padding: 10px 40px;
         }
-        .content {
+        @media (max-width: $breakpoint_tablet) {
+          font-size: 20px;
+        }
+        small {
+          position: absolute;
+          transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+          left: -67px;
+          background: linear-gradient(268.09deg, #0045FF 0%, #00A3FF 100%);
+          border: 2px solid $white_color;
+          width: 47px;
+          height: 47px;
+          border-radius: 100%;
           display: flex;
-          flex-direction: column;
-          gap: 20px;
-          position: relative;
-          margin-bottom: 30px;
-          &::before {
-            content: "";
-            position: absolute;
-            bottom: -30px;
+          align-items: center;
+          justify-content: center;
+          top: 50%;
+          transform: translateY(-50%);
+          color: $white_color;
+          @media (max-width: $breakpoint_tablet) {
             left: 0;
-            width: 70px;
-            border-block-start: 2px solid $white_color;
+            top: -16px;
           }
-          h3 {
-            color: $white_color;
-            font-size: 26px;
-            font-weight: 500;
-            margin: 0;
-            line-height: 1.2;
-            @media screen and (max-width: $breakpoint_mobile_portrait) {
-              font-size: 18px;
+        }
+      }
+      ul {
+        li {
+          position: relative;
+          padding-left: 67px;
+          margin-bottom: 60px;
+          width: 100%;
+          @media (max-width: $breakpoint_laptop) {
+            margin-bottom: 60px;
+          }
+          @media (max-width: $breakpoint_tablet) {
+            width: 100%;
+            padding-left: 0;
+          }
+          &:hover {
+            span {
+              background: $white_color;
+              border-color: rgba(0, 69, 255, 0.5);
+              color: $dark_color;
+              small {
+                background: $white_color;
+                border-color: rgba(0, 69, 255, 0.5);
+                color: $dark_color;
+              }
             }
           }
-          p {
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 1.6;
-            color: $white_color;
-            margin: 0;
+        }
+      }
+      &.left_section {
+        width: 26%;
+        float: left;
+        padding-left: 0;
+        @media (max-width: $breakpoint_laptop) {
+          width: 30%;
+        }
+        @media (max-width: $breakpoint_tablet) {
+          width: 100%;
+          margin: 0 auto 60px auto;
+          float: initial;
+        }
+        &:before {
+          content: '';
+          position: absolute;
+          right: -70px;
+          top: -35px;
+          pointer-events: none;
+          width: 432px;
+          height: 600px;
+          background: url("../../../public/assets/images/services/dot_line.svg");
+          @media (max-width: $breakpoint_tablet) {
+           content: none;
           }
+          @media (max-width: $breakpoint_mini_laptop) {
+            left: 12px;
+           }
+        }
+      }
+      &.right_section {
+        width: 74%;
+        float: right;
+        padding-left: 40px;
+        @media (max-width: $breakpoint_laptop) {
+          width: 70%;
+        }
+        @media (max-width: $breakpoint_tablet) {
+          width: 100%;
+    padding-left: 0;
+    float: initial;
+    margin: 0 auto;
         }
       }
     }

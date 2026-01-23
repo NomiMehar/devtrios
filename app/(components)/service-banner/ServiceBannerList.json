@@ -13,7 +13,7 @@
     "buttons": [
       {
         "text": "Get a Free Consultation",
-        "link": "/get-a-quote",
+        "link": "/contact-us",
         "icon": "/assets/images/icons/thunder.svg"
       },
       {
@@ -25,54 +25,525 @@
       "text": "Generative Business Intelligence for Analysts",
       "icon": "/assets/images/home/stars.webp"
     },
-    "blogSectionTitle": "Blog Article",
-    "blogSectionDescription": "Explore insights on development costs, pricing strategies, and budget planning for your next digital project.",
-    "footerText": "Devtrios participates in the United Nations Global Compact, embedding responsible, transparent, and ethical practices across its work.",
-    "blogs": [
+    "overview": "What our WordPress builds deliver",
+    "overviewList": [
       {
-        "id": 1,
-        "image": "/assets/images/home/blogs.png",
-        "title": "Website Development Best Practices for 2025",
-        "description": "Discover the latest website development best practices for 2025. Learn about modern frameworks, performance optimization, and user experience strategies that will help you build websites that convert and scale.",
-        "button": {
-          "link": "/blog/website-development-best-practices-2025"
-        }
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": 100,
+        "overViewSign": "+",
+        "overViewDescription": "Scalable, future-proof architecture"
       },
       {
-        "id": 2,
-        "image": "/assets/images/home/blogs.png",
-        "title": "Mobile App Development Trends",
-        "description": "Explore the latest mobile app development trends shaping the industry. From cross-platform solutions to AI integration, stay ahead with cutting-edge mobile technologies.",
-        "button": {
-          "link": "/blog/mobile-app-development-trends"
-        }
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": 100,
+        "overViewSign": "+",
+        "overViewDescription": "SEO-ready foundations from day one"
       },
       {
-        "id": 3,
-        "image": "/assets/images/home/blogs.png",
-        "title": "AI in Web Development",
-        "description": "Learn how artificial intelligence is revolutionizing web development. Discover AI-powered tools, automation techniques, and intelligent features that enhance user experiences.",
-        "button": {
-          "link": "/blog/ai-in-web-development"
-        }
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": 100,
+        "overViewSign": "+",
+        "overViewDescription": "Mobile-first, performance-led design"
       },
       {
-        "id": 4,
-        "image": "/assets/images/home/blogs.png",
-        "title": "Social Media Marketing Strategies",
-        "description": "Master social media marketing with proven strategies that drive engagement and conversions. Learn about content creation, audience targeting, and platform-specific tactics.",
-        "button": {
-          "link": "/blog/social-media-marketing-strategies"
-        }
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": 100,
+        "overViewSign": "+",
+        "overViewDescription": "Conversion-focused UX informed by data"
+      }
+    ]
+  },
+  "wordpress_development": {
+    "title": "WordPress Development Services for Fast, Secure, and Scalable Websites",
+    "titleStart": "WordPress Development Services",
+    "titleEnd": "for Fast, Secure, and Scalable Websites",
+    "description": "Your WordPress website should be a reliable business platform, not a fragile collection of themes and plugins.\n\nAs a WordPress development company, Devtrios provides professional WordPress development services focused on performance, security, and long-term scalability. We build custom WordPress websites that load quickly, rank well in search engines, and support real business growth, not just launch-day visuals.\nWhether you are rebuilding an underperforming site or launching a new WordPress platform, our approach ensures your website is engineered to scale with your business.",
+    "benefits": [
+      "Lightweight, custom WordPress architecture",
+      "Core Web Vitals-optimised performance",
+      "SEO-ready site structure",
+      "Secure, maintainable codebase",
+      "Clean and intuitive admin experience"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free Quote",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
       },
       {
-        "id": 5,
-        "image": "/assets/images/home/blogs.png",
-        "title": "E-commerce Development in KSA",
-        "description": "Navigate the e-commerce landscape in Saudi Arabia with expert insights. Understand local market dynamics, payment solutions, and cultural considerations for successful online stores.",
-        "button": {
-          "link": "/blog/ecommerce-development-ksa"
-        }
+        "text": "Speak to a WordPress Specialist",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What our WordPress builds deliver:",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Lightweight, custom WordPress architecture"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Core Web Vitals-optimised performance"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "SEO-ready site structure"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Secure, maintainable codebase"
+      }
+    ]
+  },
+  "mobile_app_development": {
+    "title": "Mobile App Development Services for Scalable, High-Performance Applications",
+    "titleStart": "Mobile App Development Services",
+    "titleEnd": "for Scalable, High-Performance Applications",
+    "description": "A mobile app should do more than launch. It should perform reliably, scale smoothly, and deliver a great user experience from day one.\n\nAs a mobile app development company, Devtrios delivers professional mobile app development services for businesses building consumer and enterprise-grade applications. We design and develop mobile apps focused on usability, performance, security, and long-term growth.\nWhether you're launching a startup app or rebuilding an existing product, we turn ideas into robust mobile applications engineered for real-world use.",
+    "benefits": [
+      "Native and cross-platform development",
+      "User-centric UI and UX design",
+      "Scalable, secure backend architecture",
+      "Performance-led builds",
+      "App Store and Play Store readiness"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free App Consultation",
+        "link": "/contact-us",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Project Quote",
+        "link": "/get-a-quote"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What our mobile apps deliver:",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Native and cross-platform development"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "User-centric UI and UX design"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Scalable, secure backend architecture"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Performance-led builds"
+      }
+    ]
+  },
+  "software_development": {
+    "title": "Software Development Services for Scalable, High-Performance Solutions",
+    "titleStart": "Software Development Services",
+    "titleEnd": "for Scalable, High-Performance Solutions",
+    "description": "In today's fast-paced digital world, software solutions must be more than just functional—they must drive business growth and performance. At Devtrios, we specialize in custom software development services that are built to scale, secure, and perform reliably. From developing web-based platforms to sophisticated SaaS products, we create solutions that streamline your business, improve operational efficiency, and help you launch new products faster.\nWhether you are a startup building an MVP or an enterprise modernizing your systems, we offer tailored software solutions designed for long-term growth.",
+    "benefits": [
+      "Custom-built solutions tailored to your business needs",
+      "Scalable, clean, and maintainable code",
+      "Secure, high-performance development",
+      "Future-proof architecture that grows with your business"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free Software Consultation",
+        "link": "/contact-us",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Custom Quote",
+        "link": "/get-a-quote"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What our software solutions deliver:",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Custom-built solutions tailored to your business needs"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Scalable, clean, and maintainable code"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Secure, high-performance development"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Future-proof architecture that grows with your business"
+      }
+    ]
+  },
+  "shopify_development": {
+    "title": "Shopify Development Services for High-Conversion, Scalable eCommerce Stores",
+    "titleStart": "Shopify Development Services",
+    "titleEnd": "for High-Conversion, Scalable eCommerce Stores",
+    "description": "Your Shopify store should do more than look good. It should load fast, convert consistently, and scale without friction.\n\nAs a Shopify development company, Devtrios delivers professional Shopify development services for brands that take eCommerce seriously. We design and build Shopify stores focused on performance, conversion optimisation, and long-term growth, not just launch-day aesthetics.\nWhether you are launching a new Shopify store, migrating from another platform, or scaling an established brand, we build Shopify experiences engineered to drive revenue and repeat customers.",
+    "benefits": [
+      "Conversion-focused Shopify architecture",
+      "Fast, mobile-optimised performance",
+      "Clean, scalable theme and app setup",
+      "SEO-ready product and collection structures",
+      "Reliable checkout and payment flows"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free Quote",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Speak to a Shopify Specialist",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What our Shopify builds deliver:",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Conversion-focused Shopify architecture"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Fast, mobile-optimised performance"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Clean, scalable theme and app setup"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "SEO-ready product and collection structures"
+      }
+    ]
+  },
+  "ecommerce_website_development": {
+    "title": "E-Commerce Website Development Services for Scalable, High-Performance Online Stores",
+    "titleStart": "E-Commerce Website Development Services",
+    "titleEnd": "for Scalable, High-Performance Online Stores",
+    "description": "Your e-commerce website should do more than sell products. It should perform reliably, scale smoothly, and convert consistently.\nAs an e-commerce website development company, Devtrios delivers professional e-commerce development services for brands that want long-term growth, not short-term fixes. We design and build high-performance online stores focused on speed, usability, and conversion, across platforms and custom solutions.\nWhether you’re launching a new online store, migrating platforms, or rebuilding an underperforming site, we create e-commerce experiences engineered to support revenue, retention, and scale.",
+    "benefits": [
+      "Conversion-focused store architecture",
+      "Fast, mobile-optimised performance",
+      "Secure checkout and payment flows",
+      "SEO-ready product and category structures",
+      "Scalable platforms built for growth"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free Quote",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Speak to an e-Commerce Specialist",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What our e-commerce builds deliver:",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Conversion-focused store architecture"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Fast, mobile-optimised performance"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Secure checkout and payment flows"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "SEO-ready product and category structures"
+      }
+    ]
+  },
+  "landing_page_development": {
+    "title": "Landing Page Development Services Built to Convert Traffic Into Leads and Sales",
+    "titleStart": "Landing Page Development Services",
+    "titleEnd": "Built to Convert Traffic Into Leads and Sales",
+    "description": "As a landing page development company, Devtrios designs and builds high-converting landing pages for campaigns, product launches, and lead generation. Every landing page we create is engineered around user intent, speed, and conversion psychology, not templates or guesswork.\nWhether you're running paid ads, launching a product, or validating an offer, we build landing pages designed to turn clicks into customers.",
+    "benefits": [
+      "Conversion-focused page structure",
+      "Fast, mobile-optimised performance",
+      "Clear messaging aligned to user intent",
+      "SEO-ready and campaign-ready builds",
+      "Clean analytics and tracking integration"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free Quote",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Speak to a Conversion Specialist",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What our landing pages deliver:",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Conversion-focused page structure"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Fast, mobile-optimised performance"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Clear messaging aligned to user intent"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "SEO-ready and campaign-ready builds"
+      }
+    ]
+  },
+  "website_maintenance": {
+    "title": "Website Maintenance Services That Keep Your Website Secure, Fast, and Reliable",
+    "titleStart": "Website Maintenance Services",
+    "titleEnd": "That Keep Your Website Secure, Fast, and Reliable",
+    "description": "Your website is a business asset. Like any asset, it needs ongoing care to perform reliably and securely.\nAs a website maintenance company, Devtrios provides professional website maintenance services designed to prevent issues before they impact performance, security, or user experience. We manage updates, monitoring, optimisation, and support so your website remains stable, fast, and protected.\nWhether your site supports lead generation, e-commerce, or critical operations, our maintenance services ensure it continues to work as intended, day after day.",
+    "benefits": [
+      "Proactive security monitoring and protection",
+      "Ongoing performance optimisation",
+      "Safe updates and compatibility testing",
+      "Reliable backups and recovery",
+      "Fast response when issues arise"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free Quote",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Speak to a Website Maintenance Specialist",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What our website maintenance services deliver:",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Proactive security monitoring and protection"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Ongoing performance optimisation"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Safe updates and compatibility testing"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Reliable backups and recovery"
+      }
+    ]
+  },
+  "custom_website_development": {
+    "title": "Custom Website Development Services for Scalable, High-Performance Digital Platforms",
+    "titleStart": "Custom Website Development Services",
+    "titleEnd": "for Scalable, High-Performance Digital Platforms",
+    "description": "Your business is unique. Your website should be built that way.\nAs a custom website development company, Devtrios delivers professional custom website development services for businesses that need flexibility, performance, and long-term scalability. We design and build bespoke websites engineered around your workflows, integrations, and growth plans, not templates or shortcuts.\nWhether you're launching a new digital platform or replacing a restrictive, off-the-shelf site, we build custom websites designed to support real business outcomes.",
+    "benefits": [
+      "Fully bespoke architecture and design",
+      "Clean, scalable codebases",
+      "Performance-led builds",
+      "SEO-ready technical foundations",
+      "Complete ownership and flexibility"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free Quote",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Speak to a Custom Development Specialist",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What our custom websites deliver:",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Fully bespoke architecture and design"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Clean, scalable codebases"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Performance-led builds"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "SEO-ready technical foundations"
+      }
+    ]
+  },
+  "webflow_development": {
+    "title": "Webflow Development Services for Fast, Scalable, Design-Led Websites",
+    "titleStart": "Webflow Development Services",
+    "titleEnd": "for Fast, Scalable, Design-Led Websites",
+    "description": "Webflow is powerful, but only when it's built properly.\nAs a Webflow development company, Devtrios delivers professional Webflow development services for brands that need speed, design precision, and long-term scalability. We transform static designs into clean, high-performance Webflow websites that are easy to manage, fast to load, and built to convert.\nWhether you're launching a new brand site, migrating from another platform, or rebuilding an underperforming website, we build Webflow experiences engineered for performance and growth.",
+    "benefits": [
+      "Pixel-perfect, custom Webflow builds",
+      "Fast, mobile-optimised performance",
+      "SEO-ready structure and clean markup",
+      "Scalable CMS for marketing teams",
+      "Easy long-term maintenance"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free Quote",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Speak to a Webflow Specialist",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What our Webflow builds deliver:",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Pixel-perfect, custom Webflow builds"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Fast, mobile-optimised performance"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "SEO-ready structure and clean markup"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Scalable CMS for marketing teams"
       }
     ]
   }

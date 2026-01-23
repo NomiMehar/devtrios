@@ -50,19 +50,20 @@
     }
   }
 
-  .divider {
-    height: 1px;
-    background: rgba(255, 255, 255, 0.2);
-    margin: 0 auto 30px;
-    max-width: 1200px;
-
-    @media screen and (max-width: $breakpoint_mobile_portrait) {
-      margin-bottom: 25px;
-    }
-  }
-
   .tabs_wrapper {
     margin-bottom: 40px;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background: rgba(255, 255, 255, 0.2);
+    }
 
     @media screen and (max-width: $breakpoint_mobile_portrait) {
       margin-bottom: 30px;
@@ -75,10 +76,21 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    position: relative;
 
     @media screen and (max-width: $breakpoint_tablet) {
       justify-content: flex-start;
     }
+  }
+
+  .tab_indicator {
+    position: absolute;
+    bottom: 0;
+    height: 3px;
+    background: linear-gradient(268.09deg, #0045FF 0%, #00A3FF 100%);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 2px 2px 0 0;
+    z-index: 1;
   }
 
   .tab {
@@ -89,10 +101,10 @@
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.7);
     transition: all 0.3s ease;
     position: relative;
-    border-bottom: 3px solid transparent;
+    z-index: 2;
 
     @media screen and (max-width: $breakpoint_tablet) {
       padding: 12px 24px;
@@ -109,17 +121,6 @@
 
     &.active {
       color: $white_color;
-      border-bottom-color: $blue_color;
-
-      &::after {
-        content: '';
-        position: absolute;
-        bottom: -3px;
-        left: 0;
-        right: 0;
-        height: 3px;
-        background: $blue_color;
-      }
     }
   }
 

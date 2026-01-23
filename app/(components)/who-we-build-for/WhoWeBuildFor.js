@@ -31,7 +31,7 @@ export default function WhoWeBuildFor({ data }) {
                   key={index} 
                   href={button.link} 
                   icon={button.icon}
-                  variant={button.text === "Get a Custom Quote" ? "secondary" : "primary"}
+                  variant={button.variant || "primary"}
                 >
                   {button.text}
                 </Button>

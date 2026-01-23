@@ -1,33 +1,33 @@
 import React from "react";
 import Head from "next/head";
-import CustomBanner from "@/app/(components)/custom-banner/CustomBanner";
-import bannerData from "@/app/(components)/custom-banner/CustomBannerList.json";
-import WhyChooseUs from "./WhyChooseUs/WhyChooseUs";
-import CoreServices from "./CoreServices/CoreServices";
-import ComprehensiveServices from "./ComprehensiveServices/ComprehensiveServices";
-import EnterpriseSolutions from "./EnterpriseSolutions/EnterpriseSolutions";
-import MigrationServices from "./MigrationServices/MigrationServices";
-import RealResults from "./RealResults/RealResults";
-import ProcessSteps from "@/app/(components)/process-steps/ProcessSteps";
-import SupportServices from "@/app/(components)/support-services/SupportServices";
+import ServiceBanner from "@/app/(components)/service-banner/ServiceBanner";
+import ServiceBannerList from "@/app/(components)/service-banner/ServiceBannerList.json";
 import CaseStudies from "@/app/(components)/case-studies/CaseStudies";
+import Testimonials from "@/app/(components)/testimonials/Testimonials";
+import TestimonialList from "@/app/(components)/testimonials/TestimonialList.json";
 import Faqs from "@/app/(components)/faqs/Faqs";
+import DevelopmentServices from "@/app/(components)/development-services/DevelopmentServices";
+import DevelopmentProcess from "@/app/(components)/development-process/DevelopmentProcess";
+import DevelopmentProcessList from "@/app/(components)/development-process/DevelopmentProcessData.json";
+import ProcessShowcase from "@/app/(components)/process-showcase/ProcessShowcase";
+import ProcessShowcaseList from "@/app/(components)/process-showcase/ProcessShowcaseList.json";
+import BlogsSlider from "@/app/(components)/blogs-slider/BlogsSlider";
 import Cta from "@/app/(components)/cta/Cta";
 import CtaList from "@/app/(components)/cta/CtaList.json";
+import WebsiteContactForm from "@/app/(components)/website-contact-form/WebsiteContactForm";
 
 export default function ShopifyDevelopment() {
-  const customBannerData = bannerData.shopify_development;
+  const serviceBannerData = ServiceBannerList.shopify_development;
   const ctaData = CtaList.shopify_development;
-
   return (
     <React.Fragment>
       <Head>
         <title>
-          Expert Shopify Development Services | Shopify Store Development Company
+          Trusted Shopify Development Company | Custom Shopify Development Services
         </title>
         <meta
           name="description"
-          content="Partner with a leading Shopify development agency for custom stores, Shopify Plus solutions, and migration services. Hire expert Shopify developers to drive sales and growth."
+          content="Partner with a leading Shopify development company for custom, scalable, and conversion-focused eCommerce stores. Hire expert Shopify developers to boost your ROI today."
         />
         <link rel="canonical" href="https://devtrios.com/services/website-development/shopify-development/" />
         <link
@@ -35,44 +35,40 @@ export default function ShopifyDevelopment() {
           href="/assets/images/header/favicon.webp"
           type="image/x-icon"
         />
-        <meta property="og:title" content="Expert Shopify Development Services | Shopify Store Development Company" />
+        <meta property="og:title" content="Trusted Shopify Development Company | Custom Shopify Development Services" />
         <meta
           property="og:description"
-          content="Partner with a leading Shopify development agency for custom stores, Shopify Plus solutions, and migration services. Hire expert Shopify developers to drive sales and growth."
+          content="Partner with a leading Shopify development company for custom, scalable, and conversion-focused eCommerce stores. Hire expert Shopify developers to boost your ROI today."
         />
         <meta
           property="og:image"
           content="/assets/images/header/favicon.webp"
         />
-        <meta name="twitter:title" content="Expert Shopify Development Services | Shopify Store Development Company" />
+        <meta name="twitter:title" content="Trusted Shopify Development Company | Custom Shopify Development Services" />
         <meta
           name="twitter:description"
-          content="Partner with a leading Shopify development agency for custom stores, Shopify Plus solutions, and migration services. Hire expert Shopify developers to drive sales and growth."
+          content="Partner with a leading Shopify development company for custom, scalable, and conversion-focused eCommerce stores. Hire expert Shopify developers to boost your ROI today."
         />
         <meta
           name="twitter:image"
           content="/assets/images/header/favicon.webp"
         />
       </Head>
-      <CustomBanner
-        title={customBannerData.title}
-        description={customBannerData.description}
-        buttons={customBannerData.buttons}
-        background={customBannerData.background}
-        isLongContent={true}
+      <ServiceBanner data={serviceBannerData} />
+      <DevelopmentServices type="shopify_development" />
+      <DevelopmentProcess
+        appName="Our Shopify Development Process"
+        description="Our Shopify development process is designed to reduce risk and maximise commercial outcomes."
+        classes="ios_development_process"
+        DevelopmentProcessList={DevelopmentProcessList.shopify_development}
       />
-      <WhyChooseUs />
-      <CoreServices />
-      <ComprehensiveServices />
-      <EnterpriseSolutions />
-      <MigrationServices />
-      <ProcessSteps type="shopify_development" />
-      <RealResults />
-      <SupportServices type="shopify_development" />
       <CaseStudies type="shopify_development" />
+      <ProcessShowcase data={ProcessShowcaseList.shopify_development} />
+      <Testimonials list={TestimonialList.shopify_development} />
+      <BlogsSlider />
       <Cta data={ctaData} />
       <Faqs type="shopify_development" />
+      <WebsiteContactForm />
     </React.Fragment>
   );
 }
-

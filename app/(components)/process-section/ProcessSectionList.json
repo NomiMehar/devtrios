@@ -28,6 +28,36 @@
         "description": "Once live, we monitor performance and provide ongoing support, maintenance, and optimisation. As your business grows, your website evolves with it."
       }
     ]
+  },
+  "mobile_app_development": {
+    "heading": "Our Mobile App Development Process",
+    "description": "Our mobile app development process is designed to reduce risk and support long-term scalability.",
+    "button": {
+      "text": "Book a Consultation",
+      "link": "#contact"
+    },
+    "steps": [
+      {
+        "title": "Discovery & Product Strategy",
+        "description": "We define business goals, target users, feature requirements, and technical constraints before development begins."
+      },
+      {
+        "title": "UX, UI & User Flow Design",
+        "description": "We design app interfaces, interactions, and flows that prioritise usability and engagement."
+      },
+      {
+        "title": "App Development & Integration",
+        "description": "Our developers build your app using clean, scalable code and integrate APIs, third-party services, and backend systems."
+      },
+      {
+        "title": "Testing, Performance & Security Review",
+        "description": "We test across devices, optimise performance, and validate security before submission."
+      },
+      {
+        "title": "Launch, Support & Iteration",
+        "description": "After launch, we support updates, improvements, and feature expansion as your app evolves."
+      }
+    ]
   }
 }
 

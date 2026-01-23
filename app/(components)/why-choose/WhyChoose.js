@@ -15,11 +15,6 @@ export default function WhyChoose({ data }) {
     return null;
   }
 
-  // Split heading to highlight "Devtrios"
-  const headingParts = data.heading.split("Devtrios");
-  const beforeDevtrios = headingParts[0];
-  const afterDevtrios = headingParts[1] || "";
-
   const handleMouseEnter = () => {
     if (swiperRef.current && swiperRef.current.autoplay) {
       swiperRef.current.autoplay.stop();
@@ -37,11 +32,7 @@ export default function WhyChoose({ data }) {
       <div className="container">
         <div className={styles.section_header}>
           <div className={styles.heading_block}>
-            <h2>
-              {beforeDevtrios}
-              <span className={styles.highlight}>Devtrios</span>
-              {afterDevtrios}
-            </h2>
+            <h2 dangerouslySetInnerHTML={{ __html: data.heading }} />
           </div>
           <div className={styles.description_block}>
             <p>{data.description}</p>
@@ -100,7 +91,7 @@ export default function WhyChoose({ data }) {
                 <SwiperSlide key={index}>
                   <div className={styles.card}>
                     <div className={styles.card_number}>{cardNumber}</div>
-                    <p className={styles.card_text}>{feature}</p>
+                    <p className={styles.card_text} dangerouslySetInnerHTML={{ __html: feature }} />
                   </div>
                 </SwiperSlide>
               );

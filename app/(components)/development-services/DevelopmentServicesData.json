@@ -1,0 +1,302 @@
+{
+  "wordpress_development": {
+    "title": "Our WordPress Development Services",
+    "description": "We offer end-to-end WordPress website development services for businesses that need flexibility without compromising speed, security, or scalability.",
+    "firstService": {
+      "number": 1,
+      "title": "Custom WordPress Development"
+    },
+    "firstServiceDescription": "We design and develop fully custom WordPress themes and plugins from scratch. This eliminates unnecessary bloat and ensures your site is tailored precisely to your design, performance, and functional requirements.",
+    "services": [
+      {
+        "number": 2,
+        "title": "Enterprise WordPress Solutions",
+        "description": "For high-traffic or complex platforms, we deliver enterprise-grade WordPress development, including multisite configurations, advanced integrations, and scalable hosting architectures."
+      },
+      {
+        "number": 3,
+        "title": "WordPress CMS Customisation",
+        "description": "We customise the WordPress backend to match your workflows, allowing your team to manage content, pages, and products efficiently without constant developer support."
+      },
+      {
+        "number": 4,
+        "title": "WooCommerce Development",
+        "description": "Our WooCommerce development services focus on performance and conversion optimisation, from simple product catalogues to complex subscriptions and custom checkout experiences."
+      },
+      {
+        "number": 5,
+        "title": "WordPress Maintenance and Support",
+        "description": "We provide ongoing WordPress maintenance covering updates, backups, security hardening, performance optimisation, and monitoring to keep your website stable and secure post-launch."
+      }
+    ]
+  },
+  "mobile_app_development": {
+    "title": "Our Mobile App Development Services",
+    "description": "We provide end-to-end mobile app development services, from strategy and design to development and ongoing support.",
+    "firstService": {
+      "number": 1,
+      "title": "iOS App Development"
+    },
+    "firstServiceDescription": "High-performance iOS apps built for iPhone and iPad using modern Apple standards, optimised for security, performance, and App Store compliance.",
+    "services": [
+      {
+        "number": 2,
+        "title": "Android App Development",
+        "description": "Custom Android applications designed to perform consistently across devices, screen sizes, and OS versions."
+      },
+      {
+        "number": 3,
+        "title": "Cross-Platform App Development",
+        "description": "We build cross-platform apps using technologies such as Flutter to deliver native-like performance on both iOS and Android from a single codebase."
+      },
+      {
+        "number": 4,
+        "title": "Mobile App UI & UX Design",
+        "description": "Intuitive, engaging app design focused on usability, retention, and clear user flows."
+      },
+      {
+        "number": 5,
+        "title": "Mobile App Maintenance & Support",
+        "description": "Ongoing support covering updates, performance monitoring, bug fixes, and feature enhancements."
+      }
+    ]
+  },
+  "software_development": {
+    "title": "Our Software Development Solutions",
+    "description": "We offer end-to-end software development services that cover the entire product lifecycle—from idea validation and architecture to deployment and continuous support.",
+    "firstService": {
+      "number": 1,
+      "title": "Custom Software Development"
+    },
+    "firstServiceDescription": "Tailor-made software solutions built to address your specific business workflows, user requirements, and challenges. Whether it's a desktop solution or a complex enterprise system, we design software that works for you.",
+    "services": [
+      {
+        "number": 2,
+        "title": "Web Application Development",
+        "description": "Build secure, high-performance web applications that are scalable, intuitive, and ready for integrations. We focus on seamless user experiences, performance optimization, and robust security."
+      },
+      {
+        "number": 3,
+        "title": "SaaS Development",
+        "description": "End-to-end development of SaaS products, including architecture, multi-tenancy, subscription billing systems, security protocols, and scalability. We help bring your SaaS vision to life with the flexibility and growth potential your business needs."
+      },
+      {
+        "number": 4,
+        "title": "MVP Development",
+        "description": "Get your product to market faster with a lean, cost-effective MVP. We focus on validating your idea, attracting early users, and securing investment so you can scale with confidence."
+      },
+      {
+        "number": 5,
+        "title": "API Development & Integration",
+        "description": "Develop secure and scalable APIs that allow different systems, applications, and platforms to communicate seamlessly. We integrate APIs with your existing infrastructure for smooth data flow and functionality."
+      }
+    ]
+  },
+  "shopify_development": {
+    "title": "Our Shopify Development Services",
+    "description": "We provide end-to-end Shopify website development services for growing and established eCommerce brands.",
+    "firstService": {
+      "number": 1,
+      "title": "Custom Shopify Development"
+    },
+    "firstServiceDescription": "We build custom Shopify themes and features tailored to your brand, catalogue size, and operational workflows. No unnecessary bloat, no forced templates.",
+    "services": [
+      {
+        "number": 2,
+        "title": "Shopify Theme Development",
+        "description": "Our custom themes are lightweight, responsive, and built for speed across mobile and desktop, ensuring a consistent shopping experience at every touchpoint."
+      },
+      {
+        "number": 3,
+        "title": "Shopify App Development & Integrations",
+        "description": "We develop custom public and private Shopify apps and integrate third-party systems for inventory, fulfilment, subscriptions, analytics, and automation."
+      },
+      {
+        "number": 4,
+        "title": "Shopify Plus Development",
+        "description": "For high-volume merchants, we deliver Shopify Plus solutions including advanced checkout customisation, wholesale channels, and scalable store architecture."
+      },
+      {
+        "number": 5,
+        "title": "Shopify Store Setup & Configuration",
+        "description": "From payment gateways and tax rules to shipping logic and inventory management, we configure your Shopify store correctly from day one."
+      },
+      {
+        "number": 6,
+        "title": "Shopify Maintenance & Optimisation",
+        "description": "We provide ongoing Shopify maintenance, performance optimisation, updates, and monitoring to keep your store fast, secure, and conversion-ready."
+      }
+    ]
+  },
+  "ecommerce_website_development": {
+    "title": "Our E-Commerce Website Development Services",
+    "description": "We provide end-to-end e-commerce website development services for growing and established online businesses.",
+    "firstService": {
+      "number": 1,
+      "title": "Custom E-Commerce Website Development"
+    },
+    "firstServiceDescription": "We design and develop fully custom e-commerce websites tailored to your brand, audience, and operational workflows, without forcing you into rigid templates.",
+    "services": [
+      {
+        "number": 2,
+        "title": "Enterprise E-Commerce Solutions",
+        "description": "For high-volume businesses, we build scalable e-commerce platforms capable of handling large catalogues, complex integrations, and heavy traffic loads."
+      },
+      {
+        "number": 3,
+        "title": "Platform-Agnostic E-Commerce Development",
+        "description": "We work across Shopify, Shopify Plus, BigCommerce, Magento, and custom builds. We recommend the platform that fits your business, not what’s easiest for us."
+      },
+      {
+        "number": 4,
+        "title": "E-Commerce Migration Services",
+        "description": "We handle full e-commerce migrations, including products, customers, orders, and SEO-safe URL mapping to protect rankings and traffic."
+      },
+      {
+        "number": 5,
+        "title": "E-Commerce Maintenance & Optimisation",
+        "description": "Ongoing support covering performance optimisation, security updates, platform upgrades, and conversion improvements."
+      }
+    ]
+  },
+  "landing_page_development": {
+    "title": "Our Landing Page Development Services",
+    "description": "We provide landing page development services for businesses that care about measurable outcomes.",
+    "firstService": {
+      "number": 1,
+      "title": "Custom Landing Page Development"
+    },
+    "firstServiceDescription": "We design and build custom landing pages tailored to your offer, audience, and campaign goals. No recycled templates, no bloated builders.",
+    "services": [
+      {
+        "number": 2,
+        "title": "Lead Generation Landing Pages",
+        "description": "Optimised for form fills, sign-ups, and enquiries, with clear CTAs and friction-reducing UX."
+      },
+      {
+        "number": 3,
+        "title": "Sales and Product Launch Pages",
+        "description": "Designed to support product launches, promotions, and time-sensitive campaigns with persuasive copy and conversion-led layouts."
+      },
+      {
+        "number": 4,
+        "title": "Paid Ads Landing Pages",
+        "description": "Landing pages built specifically for Google Ads, Meta Ads, and LinkedIn campaigns, aligned with ad messaging and Quality Score best practices."
+      },
+      {
+        "number": 5,
+        "title": "Landing Page Optimisation & Testing",
+        "description": "We improve existing landing pages through performance optimisation, UX refinements, and conversion rate improvements."
+      }
+    ]
+  },
+  "website_maintenance": {
+    "title": "Our Website Maintenance Services",
+    "description": "We provide end-to-end website maintenance and support services tailored to your business needs and technical setup.",
+    "firstService": {
+      "number": 1,
+      "title": "Website Security & Protection"
+    },
+    "firstServiceDescription": "We implement layered security measures including malware scanning, firewall configuration, vulnerability patching, and monitoring to reduce risk and prevent breaches.",
+    "services": [
+      {
+        "number": 2,
+        "title": "Website Updates & Compatibility Management",
+        "description": "We manage CMS core, plugin, theme, and dependency updates, testing changes in staging environments to avoid downtime or conflicts."
+      },
+      {
+        "number": 3,
+        "title": "Website Performance Optimisation",
+        "description": "Ongoing performance improvements including image optimisation, caching, database clean-up, and code refinement to keep your site fast and responsive."
+      },
+      {
+        "number": 4,
+        "title": "Bug Fixes & Technical Support",
+        "description": "We diagnose and resolve issues such as broken forms, layout errors, and functionality problems quickly and safely."
+      },
+      {
+        "number": 5,
+        "title": "Website Backups & Recovery",
+        "description": "Automated, secure backups ensure your site can be restored quickly in the event of data loss, errors, or security incidents."
+      },
+      {
+        "number": 6,
+        "title": "Website Uptime Monitoring",
+        "description": "24/7 monitoring alerts us immediately if your site goes offline so issues can be addressed before they impact users."
+      },
+      {
+        "number": 7,
+        "title": "Content Updates & Minor Changes",
+        "description": "We handle routine content updates, text changes, image swaps, and page edits to keep your site current."
+      }
+    ]
+  },
+  "custom_website_development": {
+    "title": "Our Custom Website Development Services",
+    "description": "We provide end-to-end custom website development services for businesses with specific technical, operational, or growth requirements.",
+    "firstService": {
+      "number": 1,
+      "title": "Custom Website Design & Development"
+    },
+    "firstServiceDescription": "We design and develop fully custom websites that align visual identity with functionality, performance, and usability.",
+    "services": [
+      {
+        "number": 2,
+        "title": "Enterprise Custom Website Development",
+        "description": "For complex platforms, we build enterprise-grade solutions supporting high traffic, advanced permissions, and system integrations."
+      },
+      {
+        "number": 3,
+        "title": "Custom E-Commerce Website Development",
+        "description": "Bespoke e-commerce platforms with tailored checkout flows, inventory logic, and secure payment systems."
+      },
+      {
+        "number": 4,
+        "title": "Custom Web Application Development",
+        "description": "We engineer web-based platforms such as client portals, dashboards, and internal tools that function like native software."
+      },
+      {
+        "number": 5,
+        "title": "Custom CMS Development",
+        "description": "We build custom CMS solutions, including headless or fully tailored WordPress setups, giving your team control without technical dependency."
+      },
+      {
+        "number": 6,
+        "title": "Responsive Custom Website Development",
+        "description": "Mobile-first builds ensuring consistent performance across devices while supporting SEO and accessibility best practices."
+      }
+    ]
+  },
+  "webflow_development": {
+    "title": "Our Webflow Development Services",
+    "description": "We provide end-to-end Webflow website development services for startups, scale-ups, and established brands.",
+    "firstService": {
+      "number": 1,
+      "title": "Custom Webflow Development"
+    },
+    "firstServiceDescription": "Fully custom Webflow builds with no templates, tailored to your brand, layout, and functionality requirements.",
+    "services": [
+      {
+        "number": 2,
+        "title": "Webflow CMS Development",
+        "description": "Custom CMS structures designed for easy content publishing without developer dependency."
+      },
+      {
+        "number": 3,
+        "title": "Webflow Website Redesign",
+        "description": "Modernise outdated websites with improved performance, usability, and conversion flow."
+      },
+      {
+        "number": 4,
+        "title": "Webflow Migration Services",
+        "description": "Seamless migration from WordPress, Squarespace, or Wix to Webflow, with SEO-safe URL mapping and content transfer."
+      },
+      {
+        "number": 5,
+        "title": "Webflow Maintenance & Support",
+        "description": "Ongoing support covering updates, performance optimisation, fixes, and enhancements."
+      }
+    ]
+  }
+}
+  

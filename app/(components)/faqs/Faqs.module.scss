@@ -1,6 +1,8 @@
 @use "../../../styles/variables" as *;
 
 .faqs {
+  background: url("../../../public/assets/images/services/gray_bg.png") center fixed;
+  background-size: cover;
   padding: 130px 0 130px;
   @media screen and (max-width: $breakpoint_tablet) {
     padding: 100px 0 100px;
@@ -20,11 +22,14 @@
     }
   }
   .wrapper {
+    max-width: 860px;
+    margin: 0 auto;
     .faq_item {
-      transition: all 0.3s ease;
-      border-radius: 12px;
+      background: none;
+      border-radius: 0;
       margin-bottom: 18px;
-      background: #f9f9f9;
+      transition: all .3s;
+      border-bottom: 2px solid rgba(227, 227, 227, 1);
 
       .faq_title {
         width: 100%;
@@ -35,11 +40,11 @@
         gap: 20px;
         line-height: 1.4;
         font-size: 20px;
-        padding: 20px 28px;
+        padding: 20px 0 38px;
         border: none;
         background: transparent;
         cursor: pointer;
-        font-weight: 500;
+        font-weight: 400;
         color: $dark_color;
         @media screen and (max-width: $breakpoint_tablet) {
           font-size: 18px;
@@ -51,26 +56,26 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          background-color: $dark_color;
+          background: transparent;
           width: 20px;
           min-width: 20px;
           height: 20px;
-          border-radius: 12px;;
+          border-radius: 0;
 
           .icon {
-            font-size: 14px;
-            font-weight: 500;
+            font-size: 24px;
+            font-weight: 400;
             line-height: 1;
             margin-top: 2px;
-            color: $white_color;
+            color: $dark_color;
           }
         }
       }
 
       .faq_desc {
-        background: #eef8ff; // **same light blue as screenshot**
-        padding: 10px 25px 28px;
-        border-radius: 0 0 8px 8px;
+        background: transparent;
+        padding: 10px 0 28px;
+        border-radius: 0;
         p {
           font-size: 20px;
           line-height: 1.6;
@@ -85,10 +90,10 @@
         }
       }
       &.active {
-        background: #eef8ff;
-        border-radius: 12px;
+        background: transparent;
+        border-radius: 0;
         .icon_wrapper {
-          background-color: #dbdde8;
+          background-color: transparent;
           .icon {
             color: $dark_color;
           }

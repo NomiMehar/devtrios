@@ -49,25 +49,144 @@
     }
   },
   "ecommerce_website_development": {
-    "title": "Ready to Build Your High-Growth Online Store?",
-    "description": "Stop letting an underperforming website hold your business back. Partner with a leading eCommerce website development agency that is committed to your success. Our team of expert developers is ready to build the powerful, profitable online store you have always envisioned.",
-    "button": {
-      "text": "Request a Free Consultation",
-      "href": "/get-a-quote",
-      "icon": "/assets/images/home/arrow-circle-right.webp"
-    }
-  },
-  "shopify_development": {
-    "title": "Ready to Scale Your Business?",
-    "description": "Your dream store is just a conversation away. Do not let technical limitations hold your business back. Partner with a team that has the passion and expertise to deliver excellence. If you want to dominate your niche, the time to act is now. Hire Shopify development agency experts who deliver proven results. Let us build a powerful sales engine for your brand. Contact Our Shopify Experts today to discuss your project.",
+    "title": "Ready to Build or Scale Your Online Store?",
+    "description": "Whether you’re launching a new e-commerce website or rebuilding an existing one, our team can help you create a fast, scalable, and conversion-focused platform.",
     "buttons": [
       {
-        "text": "Request a Free Consultation",
+        "text": "Get a Free Quote",
         "href": "/get-a-quote",
         "icon": "/assets/images/home/arrow-circle-right.webp"
       },
       {
-        "text": "Get Started",
+        "text": "Speak to an e-Commerce Specialist",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "shopify_development": {
+    "title": "Ready to Build or Scale Your Shopify Store?",
+    "description": "Whether you are launching a new Shopify store or rebuilding an existing one, our team can help you create a fast, scalable, and conversion-focused eCommerce platform.",
+    "buttons": [
+      {
+        "text": "Get a Free Quote",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Speak to a Shopify Specialist",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "wordpress_development": {
+    "title": "Ready to Build or Improve Your WordPress Website?",
+    "description": "Whether you are launching a new WordPress site or rebuilding an existing one, our team can help you create a fast, secure, and scalable platform that supports real business growth.",
+    "buttons": [
+      {
+        "text": "Get a Free Consultation",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Speak to a WordPress Expert",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "mobile_app_development": {
+    "title": "Ready to Build Your Mobile App?",
+    "description": "Whether you're launching a new app or improving an existing one, our team can help you create a scalable, high-performance mobile application.",
+    "buttons": [
+      {
+        "text": "Get a Free App Consultation",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your App Project",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "software_development": {
+    "title": "Ready to Build Your Software Product?",
+    "description": "Let's turn your idea into a powerful software solution designed to scale and succeed. Whether you need a custom platform, web application, or SaaS product, we're ready to help you build the right solution for your business.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your Software Project",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "landing_page_development": {
+    "title": "Ready to Build a Landing Page That Converts?",
+    "description": "Whether you need a new landing page or want to improve an existing one, our team can help you create a fast, focused, and conversion-driven experience.",
+    "buttons": [
+      {
+        "text": "Get a Free Quote",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Speak to a Conversion Specialist",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "website_maintenance": {
+    "title": "Ready to Protect and Maintain Your Website?",
+    "description": "Stop worrying about security risks, slow performance, and unexpected issues. Let our team keep your website stable, secure, and performing at its best.",
+    "buttons": [
+      {
+        "text": "Get a Free Quote",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Speak to a Website Maintenance Specialist",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "custom_website_development": {
+    "title": "Ready to Build a Website Designed for Growth?",
+    "description": "If you need a custom website that delivers flexibility, performance, and long-term value, our team is ready to help.",
+    "buttons": [
+      {
+        "text": "Get a Free Quote",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Speak to a Custom Development Specialist",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "webflow_development": {
+    "title": "Ready to Build a High-Performance Webflow Website?",
+    "description": "Whether you're launching or rebuilding, our team can help you create a fast, scalable, and design-driven Webflow website.",
+    "buttons": [
+      {
+        "text": "Get a Free Quote",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Speak to a Webflow Specialist",
         "href": "/contact-us",
         "icon": "/assets/images/home/arrow-circle-right.webp"
       }

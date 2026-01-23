@@ -1,24 +1,24 @@
 import React from "react";
 import Head from "next/head";
-import CustomBanner from "@/app/(components)/custom-banner/CustomBanner";
-import bannerData from "@/app/(components)/custom-banner/CustomBannerList.json";
-import WhyChooseUs from "./WhyChooseUs/WhyChooseUs";
-import CoreServices from "./CoreServices/CoreServices";
-import EcommerceServices from "./EcommerceServices/EcommerceServices";
-import ProcessSteps from "@/app/(components)/process-steps/ProcessSteps";
-import SupportServices from "@/app/(components)/support-services/SupportServices";
-import IndustriesWeServe from "./IndustriesWeServe/IndustriesWeServe";
-import CompaniesSlider from "@/app/(components)/companies-slider/CompaniesSlider";
-import CompaniesList from "@/app/(components)/companies-slider/CompaniesList.json";
+import ServiceBanner from "@/app/(components)/service-banner/ServiceBanner";
+import ServiceBannerList from "@/app/(components)/service-banner/ServiceBannerList.json";
 import CaseStudies from "@/app/(components)/case-studies/CaseStudies";
 import Testimonials from "@/app/(components)/testimonials/Testimonials";
 import TestimonialList from "@/app/(components)/testimonials/TestimonialList.json";
 import Faqs from "@/app/(components)/faqs/Faqs";
+import DevelopmentServices from "@/app/(components)/development-services/DevelopmentServices";
+import DevelopmentProcess from "@/app/(components)/development-process/DevelopmentProcess";
+import DevelopmentProcessList from "@/app/(components)/development-process/DevelopmentProcessData.json";
+import ProcessShowcase from "@/app/(components)/process-showcase/ProcessShowcase";
+import ProcessShowcaseList from "@/app/(components)/process-showcase/ProcessShowcaseList.json";
+import BlogsSlider from "@/app/(components)/blogs-slider/BlogsSlider";
+import Cta from "@/app/(components)/cta/Cta";
+import CtaList from "@/app/(components)/cta/CtaList.json";
+import WebsiteContactForm from "@/app/(components)/website-contact-form/WebsiteContactForm";
 
 export default function WordPressDevelopment() {
-  const customBannerData = bannerData.wordpress_development;
-  const companiesData = CompaniesList.website_development;
-
+  const serviceBannerData = ServiceBannerList.wordpress_development;
+  const ctaData = CtaList.wordpress_development;
   return (
     <React.Fragment>
       <Head>
@@ -54,28 +54,21 @@ export default function WordPressDevelopment() {
           content="/assets/images/header/favicon.webp"
         />
       </Head>
-      <CustomBanner
-        title={customBannerData.title}
-        description={customBannerData.description}
-        buttons={customBannerData.buttons}
-        background={customBannerData.background}
-        isLongContent={true}
-      />
-      <WhyChooseUs />
-      <CoreServices />
-      <EcommerceServices />
-      <ProcessSteps type="wordpress_development" />
-      <SupportServices type="wordpress_development" />
-      <IndustriesWeServe />
-      <CompaniesSlider
-        title="Trusted by Companies Across Industries"
-        images={companiesData.images}
-        description="We have delivered reliable work for organisations of all sizes, across sectors including consulting, finance, sustainability, media, healthcare, and technology."
-        basePath={companiesData.basePath}
+      <ServiceBanner data={serviceBannerData} />
+      <DevelopmentServices type="wordpress_development" />
+      <DevelopmentProcess
+        appName={["Our ", <span>Proven Process,</span>, " Products Results"]}
+        description="Our structured WordPress development process reduces risk and ensures consistent, high-quality outcomes."
+        classes="ios_development_process"
+        DevelopmentProcessList={DevelopmentProcessList.wordpress_development}
       />
       <CaseStudies type="wordpress_development" />
+      <ProcessShowcase data={ProcessShowcaseList.wordpress_development} />
       <Testimonials list={TestimonialList.wordpress_development} />
+      <BlogsSlider />
+      <Cta data={ctaData} />
       <Faqs type="wordpress_development" />
+      <WebsiteContactForm />
     </React.Fragment>
   );
 }

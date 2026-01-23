@@ -1,17 +1,20 @@
 @use "../../../styles/variables" as *;
 
 .section_our_process {
-  padding: 100px 0;
+  padding: 130px 0;
   background: linear-gradient(180deg, #3150B3 0%, #091336 100%);
   position: relative;
   width: 100%;
   overflow: hidden;
+  margin-top: 130px;
 
   @media screen and (max-width: $breakpoint_tablet) {
-    padding: 80px 0;
+    padding: 100px 0;
+    margin-top: 100px;
   }
   @media screen and (max-width: $breakpoint_mobile_portrait) {
-    padding: 60px 0;
+    padding: 70px 0;
+    margin-top: 70px;
   }
 
   .section_name {
