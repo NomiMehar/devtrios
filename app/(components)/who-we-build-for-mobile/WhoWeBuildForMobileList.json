@@ -1,0 +1,137 @@
+{
+  "ios_app_development": {
+    "heading": "Who Our <span>iOS App Development Services</span> Are For",
+    "description": "Our iOS app development services are best suited for:",
+    "mobileImage": "/assets/images/services/ios-service-1.webp",
+    "audiences": [
+      {
+        "text": "Startups launching mobile-first products",
+        "icon": "/assets/images/services/ios-for-1.svg"
+      },
+      {
+        "text": "Retail, lifestyle, and service-based applications",
+        "icon": "/assets/images/services/ios-for-2.svg"
+      },
+      {
+        "text": "Apps with real-time data or user interaction",
+        "icon": "/assets/images/services/ios-for-3.svg"
+      },
+      {
+        "text": "Enterprise platforms requiring stability and performance",
+        "icon": "/assets/images/services/ios-for-1.svg"
+      },
+      {
+        "text": "Teams needing long-term iOS support and iteration",
+        "icon": "/assets/images/services/ios-for-5.svg"
+      }
+    ]
+  },
+  "android_app_development": {
+    "heading": "Who Our <span>Android App Development Services</span> Are For",
+    "description": "Our Android app development services are best suited for:",
+    "mobileImage": "/assets/images/services/ios-service-1.webp",
+    "audiences": [
+      {
+        "text": "Marketplaces and content-heavy platforms",
+        "icon": "/assets/images/services/ios-for-1.svg"
+      },
+      {
+        "text": "Startups launching Android-first products",
+        "icon": "/assets/images/services/ios-for-2.svg"
+      },
+      {
+        "text": "Enterprise applications requiring stability and scale",
+        "icon": "/assets/images/services/ios-for-3.svg"
+      },
+      {
+        "text": "Businesses serving diverse Android device ecosystems",
+        "icon": "/assets/images/services/ios-for-1.svg"
+      },
+      {
+        "text": "Teams needing long-term Android support and evolution",
+        "icon": "/assets/images/services/ios-for-5.svg"
+      }
+    ]
+  },
+  "flutter_app_development": {
+    "heading": "Who Our <span>Flutter App Development Services</span> Are For",
+    "description": "Our Flutter app development services are best suited for:",
+    "mobileImage": "/assets/images/services/ios-service-1.webp",
+    "audiences": [
+      {
+        "text": "Startups needing faster time to market",
+        "icon": "/assets/images/services/ios-for-1.svg"
+      },
+      {
+        "text": "Products launching simultaneously on iOS and Android",
+        "icon": "/assets/images/services/ios-for-2.svg"
+      },
+      {
+        "text": "Businesses optimising development and maintenance costs",
+        "icon": "/assets/images/services/ios-for-3.svg"
+      },
+      {
+        "text": "Platforms requiring consistent cross-platform UX",
+        "icon": "/assets/images/services/ios-for-1.svg"
+      },
+      {
+        "text": "Teams needing long-term app scalability",
+        "icon": "/assets/images/services/ios-for-5.svg"
+      }
+    ]
+  },
+  "app_ui_ux": {
+    "heading": "Who Our <span>App UI UX Design Services</span> Are For",
+    "description": "Our app UI UX design services are best suited for:",
+    "mobileImage": "/assets/images/services/ios-service-1.webp",
+    "audiences": [
+      {
+        "text": "Startups launching mobile-first products",
+        "icon": "/assets/images/services/ios-for-1.svg"
+      },
+      {
+        "text": "SaaS and CRM platforms",
+        "icon": "/assets/images/services/ios-for-2.svg"
+      },
+      {
+        "text": "Apps with complex data or workflows",
+        "icon": "/assets/images/services/ios-for-3.svg"
+      },
+      {
+        "text": "Products struggling with retention or usability",
+        "icon": "/assets/images/services/ios-for-1.svg"
+      },
+      {
+        "text": "Teams preparing apps for development or rebuilds",
+        "icon": "/assets/images/services/ios-for-5.svg"
+      }
+    ]
+  },
+  "app_maintenance": {
+    "heading": "Who Our <span>App Maintenance Services</span> Are For",
+    "description": "Our mobile app maintenance services are best suited for:",
+    "mobileImage": "/assets/images/services/ios-service-1.webp",
+    "audiences": [
+      {
+        "text": "Business-critical mobile applications",
+        "icon": "/assets/images/services/ios-for-1.svg"
+      },
+      {
+        "text": "e-commerce and on-demand service apps",
+        "icon": "/assets/images/services/ios-for-2.svg"
+      },
+      {
+        "text": "Apps with frequent updates or active user bases",
+        "icon": "/assets/images/services/ios-for-3.svg"
+      },
+      {
+        "text": "Teams without dedicated in-house maintenance resources",
+        "icon": "/assets/images/services/ios-for-1.svg"
+      },
+      {
+        "text": "Businesses planning long-term app growth",
+        "icon": "/assets/images/services/ios-for-5.svg"
+      }
+    ]
+  }
+}

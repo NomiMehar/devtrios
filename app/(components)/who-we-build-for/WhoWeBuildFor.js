@@ -40,7 +40,7 @@ export default function WhoWeBuildFor({ data }) {
           )}
         </div>
         <div className={styles.image_wrapper}>
-          <Image src="/assets/images/services/who-we-build.png" width={1000} height={1000} alt="who-we-build" />
+          <Image src="/assets/images/services/who-we-build.webp" width={1000} height={1000} alt="who-we-build" />
         </div>
       </div>
       </div>

@@ -1,0 +1,116 @@
+{
+  "web_app_solutions": {
+    "heading": "Our Web App Development Solutions",
+    "description": "At Devtrios, we offer end-to-end web application development services, from the initial planning phase to ongoing post-launch support.",
+    "solutions": [
+      {
+        "title": "Custom Business Web Application Solutions",
+        "description": "We specialize in creating tailor-made solutions that address the specific needs of your business. Our team works with you to develop web apps that streamline processes, boost productivity, and provide you with a competitive edge.",
+        "image": "/assets/images/services/web-app-solutions.webp"
+      },
+      {
+        "title": "Full Stack Web App Development",
+        "description": "Our full stack web development capabilities allow us to design and build both the front-end (UI) and back-end (server-side) of web applications. This cohesive approach ensures that your app is seamless, reliable, and scalable.",
+        "image": "/assets/images/services/who-we-build.webp"
+      },
+      {
+        "title": "Enterprise Web Application Development",
+        "description": "We help large organizations create mission-critical, high-performance applications that improve workflow automation and integration. From enterprise resource planning (ERP) systems to customer relationship management (CRM) software, we build applications that support your core business functions.",
+        "image": "/assets/images/services/web-app-solutions.webp"
+      },
+      {
+        "title": "Advanced Integration and Support",
+        "description": "API Development and Integration Services: We connect your web app with internal and third-party services, creating an efficient, unified system.\n\nCloud-Based Web Application Development: Leverage the power of cloud platforms like AWS or Azure to scale and optimize performance at a reduced cost.\n\nProgressive Web App (PWA) Development: PWAs provide an app-like experience directly through the web, offering superior performance, offline accessibility, and cross-platform consistency.",
+        "image": "/assets/images/services/who-we-build.webp",
+        "points": [
+          "API Development and Integration Services: We connect your web app with internal and third-party services, creating an efficient, unified system.",
+          "Cloud-Based Web Application Development: Leverage the power of cloud platforms like AWS or Azure to scale and optimize performance at a reduced cost.",
+          "Progressive Web App (PWA) Development: PWAs provide an app-like experience directly through the web, offering superior performance, offline accessibility, and cross-platform consistency."
+        ]
+      }
+    ]
+  },
+  "saas_solutions": {
+    "heading": "Our SaaS Development Solutions",
+    "description": "We offer a comprehensive suite of SaaS development services, providing the expertise and support you need throughout your product's lifecycle. From initial strategy to long-term maintenance, we are your trusted partner in building a successful SaaS product.",
+    "solutions": [
+      {
+        "title": "SaaS Consulting and Strategy",
+        "description": "We begin by understanding your business goals and create a roadmap that ensures your SaaS product is positioned for success. This includes market analysis, product strategy, and a focus on building an intuitive UI/UX design.",
+        "image": "/assets/images/services/web-app-solutions.webp"
+      },
+      {
+        "title": "SaaS MVP Development",
+        "description": "Get to market faster with a lean MVP. We help you validate your business idea, attract early users, and secure funding by building a Minimum Viable Product with core features. This gives you a strong foundation to test the waters before full-scale development.",
+        "image": "/assets/images/services/who-we-build.webp"
+      },
+      {
+        "title": "Scalable SaaS Architecture Development",
+        "description": "We design scalable SaaS architectures that are optimized for growth, handling increasing user loads while maintaining speed, security, and usability. This future-proof approach ensures your platform can handle both present and future demands.",
+        "image": "/assets/images/services/web-app-solutions.webp"
+      },
+      {
+        "title": "Multi-Tenant SaaS Application Development",
+        "description": "We specialize in multi-tenant SaaS applications, allowing you to serve multiple customers from a single instance while ensuring security, scalability, and a seamless user experience.",
+        "image": "/assets/images/services/who-we-build.webp"
+      },
+      {
+        "title": "SaaS Integration and Migration Services",
+        "description": "We ensure that your SaaS product integrates seamlessly with third-party APIs and systems. Additionally, we offer migration services to help you transition your legacy systems to modern, cloud-based SaaS platforms with minimal disruption.",
+        "image": "/assets/images/services/web-app-solutions.webp"
+      },
+      {
+        "title": "Subscription Management System Development",
+        "description": "We build robust subscription management systems for your SaaS business, including billing cycles, user subscriptions, recurring revenue management, and integrations with payment gateways.",
+        "image": "/assets/images/services/who-we-build.webp"
+      },
+      {
+        "title": "SaaS Product Modernization",
+        "description": "If you're looking to refresh your existing software, our SaaS product modernization services breathe new life into outdated systems. We update your technology stack, improve the UI/UX design, and add new features to make your platform competitive in today's market.",
+        "image": "/assets/images/services/web-app-solutions.webp"
+      },
+      {
+        "title": "SaaS Maintenance and Support Services",
+        "description": "After launch, we continue to support and improve your SaaS product through regular updates, performance monitoring, security patching, and scaling solutions to ensure your platform remains up-to-date and performing at its best.",
+        "image": "/assets/images/services/who-we-build.webp"
+      }
+    ]
+  },
+  "custom_software_solutions": {
+    "heading": "Our Core Custom Software Solutions",
+    "description": "We offer end-to-end custom software development services that are designed to address the full lifecycle of your digital product, from concept through to deployment and ongoing support.",
+    "solutions": [
+      {
+        "title": "Custom Software Product Development",
+        "description": "Have a game-changing idea? We turn it into a reality. Our team handles the entire product lifecycle, from ideation to market launch, ensuring your solution is ready for user adoption.",
+        "image": "/assets/images/services/web-app-solutions.webp"
+      },
+      {
+        "title": "Enterprise Custom Software Development",
+        "description": "Large businesses require robust, scalable solutions. We specialize in building powerful enterprise applications that integrate seamlessly into your existing infrastructure. Whether it's a custom CRM or ERP system, our solutions streamline operations, improve cross-department collaboration, and optimize workflows.",
+        "image": "/assets/images/services/who-we-build.webp"
+      },
+      {
+        "title": "Legacy System Modernization",
+        "description": "Outdated technology holding you back? We migrate legacy systems to modern, flexible platforms, helping you reduce risks, improve efficiency, and future-proof your business.",
+        "image": "/assets/images/services/web-app-solutions.webp"
+      },
+      {
+        "title": "Custom Software Integration Services",
+        "description": "We ensure that all your systems and data communicate flawlessly. From connecting various applications and databases to integrating third-party APIs, our solutions create a unified ecosystem that enhances efficiency and reduces manual effort.",
+        "image": "/assets/images/services/who-we-build.webp"
+      },
+      {
+        "title": "Custom Software Design and Development",
+        "description": "Great software begins with exceptional design. We focus on creating intuitive and engaging interfaces (UI) and seamless user experiences (UX) that drive adoption and engagement.",
+        "image": "/assets/images/services/web-app-solutions.webp"
+      },
+      {
+        "title": "Custom Software Maintenance & Support",
+        "description": "We provide ongoing maintenance to keep your software secure, up-to-date, and optimized for peak performance as your business grows.",
+        "image": "/assets/images/services/who-we-build.webp"
+      }
+    ]
+  }
+}
+

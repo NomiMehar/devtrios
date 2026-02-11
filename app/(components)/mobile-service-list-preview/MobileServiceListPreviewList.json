@@ -1,0 +1,182 @@
+{
+  "ios_app_development": {
+    "heading": "Our iOS App Development Services",
+    "description": "We provide end-to-end iOS app development services, covering strategy, design, development, testing, and ongoing support.",
+    "services": [
+      {
+        "number": "01",
+        "title": "Native iOS App Development",
+        "description": "High-performance native iOS applications built for iPhone and iPad using Swift and Apple best practices. Designed for speed, stability, and long-term maintainability.",
+        "image": "/assets/images/services/ios-service-1.webp"
+      },
+      {
+        "number": "02",
+        "title": "iOS UI & UX Design",
+        "description": "User-centric app design focused on intuitive navigation, accessibility, and clear user flows aligned with Apple Human Interface Guidelines.",
+        "image": "/assets/images/services/ios-service-2.webp"
+      },
+      {
+        "number": "03",
+        "title": "Enterprise iOS App Development",
+        "description": "Robust iOS solutions for enterprise use cases, supporting complex workflows, integrations, and high user concurrency.",
+        "image": "/assets/images/services/ios-service-3.webp"
+      },
+      {
+        "number": "04",
+        "title": "iOS App Testing & Deployment",
+        "description": "Comprehensive testing across devices and OS versions, followed by App Store compliance checks and submission support.",
+        "image": "/assets/images/services/ios-service-4.webp"
+      },
+      {
+        "number": "05",
+        "title": "iOS App Maintenance & Support",
+        "description": "Ongoing support covering updates, performance monitoring, bug fixes, and feature enhancements as your app evolves.",
+        "image": "/assets/images/services/ios-service-5.webp"
+      }
+    ]
+  },
+  "android_app_development": {
+    "heading": "Our Android App Development Services",
+    "description": "We provide end-to-end Android app development services, from initial planning through development, testing, launch, and ongoing support.",
+    "services": [
+      {
+        "number": "01",
+        "title": "Native Android App Development",
+        "description": "High-performance Android applications built using Kotlin and Android best practices, optimised for stability, speed, and long-term maintainability.",
+        "image": "/assets/images/services/ios-service-1.webp"
+      },
+      {
+        "number": "02",
+        "title": "Android UI & UX Design",
+        "description": "Intuitive app design focused on usability, accessibility, and smooth user flows across different screen sizes and device types.",
+        "image": "/assets/images/services/ios-service-2.webp"
+      },
+      {
+        "number": "03",
+        "title": "Enterprise Android App Development",
+        "description": "Scalable Android solutions for enterprise use cases, supporting complex workflows, high user concurrency, and secure integrations.",
+        "image": "/assets/images/services/ios-service-3.webp"
+      },
+      {
+        "number": "04",
+        "title": "Android App Testing & Deployment",
+        "description": "Comprehensive testing across devices and Android versions, followed by Play Store compliance checks and release management.",
+        "image": "/assets/images/services/ios-service-4.webp"
+      },
+      {
+        "number": "05",
+        "title": "Android App Maintenance & Support",
+        "description": "Ongoing support covering updates, performance optimisation, bug fixes, and feature enhancements.",
+        "image": "/assets/images/services/ios-service-5.webp"
+      }
+    ]
+  },
+  "flutter_app_development": {
+    "heading": "Our Flutter App Development Services",
+    "description": "We provide end-to-end Flutter application development services, from planning and design to deployment and ongoing support.",
+    "services": [
+      {
+        "number": "01",
+        "title": "Custom Flutter App Development",
+        "description": "Fully custom Flutter applications built around your product requirements, business logic, and growth plans.",
+        "image": "/assets/images/services/ios-service-1.webp"
+      },
+      {
+        "number": "02",
+        "title": "Flutter UI & UX Design",
+        "description": "User-centric app design focused on usability, performance, and consistent experience across platforms.",
+        "image": "/assets/images/services/ios-service-2.webp"
+      },
+      {
+        "number": "03",
+        "title": "Enterprise Flutter App Development",
+        "description": "Scalable Flutter solutions for enterprise use cases, supporting complex workflows, integrations, and high user concurrency.",
+        "image": "/assets/images/services/ios-service-3.webp"
+      },
+      {
+        "number": "04",
+        "title": "Flutter App Testing & Deployment",
+        "description": "Comprehensive testing across devices and OS versions, followed by App Store and Play Store deployment support.",
+        "image": "/assets/images/services/ios-service-4.webp"
+      },
+      {
+        "number": "05",
+        "title": "Flutter App Maintenance & Support",
+        "description": "Ongoing support covering updates, performance optimisation, bug fixes, and feature enhancements.",
+        "image": "/assets/images/services/ios-service-5.webp"
+      }
+    ]
+  },
+  "app_ui_ux": {
+    "heading": "Our App UI UX Design Services",
+    "description": "We provide end-to-end mobile app UI UX design services covering research, design, validation, and optimisation.",
+    "services": [
+      {
+        "number": "01",
+        "title": "Mobile App UI Design",
+        "description": "Clean, modern interface design focused on clarity, accessibility, and visual hierarchy across iOS and Android platforms.",
+        "image": "/assets/images/services/ios-service-1.webp"
+      },
+      {
+        "number": "02",
+        "title": "Mobile App UX Design",
+        "description": "User experience design driven by research, user journeys, and behavioural patterns to reduce friction and improve usability.",
+        "image": "/assets/images/services/ios-service-2.webp"
+      },
+      {
+        "number": "03",
+        "title": "Wireframing & User Flows",
+        "description": "Low and mid-fidelity wireframes mapping structure, navigation, and interactions before visual design begins.",
+        "image": "/assets/images/services/ios-service-3.webp"
+      },
+      {
+        "number": "04",
+        "title": "Interactive Prototyping",
+        "description": "Clickable prototypes used to validate design decisions, gather feedback, and reduce development risk.",
+        "image": "/assets/images/services/ios-service-4.webp"
+      },
+      {
+        "number": "05",
+        "title": "App UI UX Redesign",
+        "description": "Redesigns for underperforming apps to improve usability, modernise visuals, and increase engagement.",
+        "image": "/assets/images/services/ios-service-5.webp"
+      }
+    ]
+  },
+  "app_maintenance": {
+    "heading": "Our App Maintenance & Support Services",
+    "description": "We provide end-to-end mobile app maintenance services tailored to your platform, users, and business requirements.",
+    "services": [
+      {
+        "number": "01",
+        "title": "App Monitoring & Performance Optimisation",
+        "description": "24/7 monitoring of uptime, performance, and resource usage to identify issues before users experience them.",
+        "image": "/assets/images/services/ios-service-1.webp"
+      },
+      {
+        "number": "02",
+        "title": "Bug Fixes & Technical Support",
+        "description": "Rapid diagnosis and resolution of crashes, functional issues, and unexpected behaviour to maintain stability.",
+        "image": "/assets/images/services/ios-service-2.webp"
+      },
+      {
+        "number": "03",
+        "title": "App Updates & OS Compatibility",
+        "description": "Ongoing updates to ensure compatibility with the latest iOS and Android versions, APIs, and third-party services.",
+        "image": "/assets/images/services/ios-service-3.webp"
+      },
+      {
+        "number": "04",
+        "title": "App Security Maintenance",
+        "description": "Regular security reviews, vulnerability patching, and best-practice implementation to protect user data and app integrity.",
+        "image": "/assets/images/services/ios-service-4.webp"
+      },
+      {
+        "number": "05",
+        "title": "App Backup & Recovery",
+        "description": "Automated backups and recovery planning to ensure business continuity in case of failures or incidents.",
+        "image": "/assets/images/services/ios-service-5.webp"
+      }
+    ]
+  }
+}

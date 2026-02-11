@@ -1,0 +1,108 @@
+{
+  "web_app_development": {
+    "heading": "Who Our Web App Development Services Are For",
+    "description": "Our web application services are perfect for businesses seeking to optimize their digital presence, streamline workflows, and drive growth. We are a trusted partner for:",
+    "closingText": "If you’re looking for a solution that supports your business goals, we build web applications that grow with your company.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Startups",
+        "description": "launching new web platforms",
+        "icon": "/assets/images/services/table.svg"
+      },
+      {
+        "number": "02",
+        "title": "Enterprises",
+        "description": "requiring scalable, secure solutions",
+        "icon": "/assets/images/services/pulse.svg"
+      },
+      {
+        "number": "03",
+        "title": "E-commerce platforms",
+        "description": "needing a reliable checkout process",
+        "icon": "/assets/images/services/table.svg"
+      },
+      {
+        "number": "04",
+        "title": "Companies",
+        "description": "looking to modernize legacy systems",
+        "icon": "/assets/images/services/pulse.svg"
+      }
+    ]
+  },
+  "saas_development": {
+    "heading": "Who Our SaaS Development Services Are For",
+    "description": "Our SaaS development services are ideal for:",
+    "closingText": "If you need a custom SaaS solution to support your business, we build it right.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Startups",
+        "description": "looking to build scalable SaaS MVPs",
+        "icon": "/assets/images/services/table.svg"
+      },
+      {
+        "number": "02",
+        "title": "Enterprises",
+        "description": "seeking to modernize legacy systems",
+        "icon": "/assets/images/services/pulse.svg"
+      },
+      {
+        "number": "03",
+        "title": "SaaS businesses",
+        "description": "needing multi-tenant platform solutions",
+        "icon": "/assets/images/services/table.svg"
+      },
+      {
+        "number": "04",
+        "title": "E-commerce and on-demand services",
+        "description": "looking for secure, high-performance applications",
+        "icon": "/assets/images/services/pulse.svg"
+      },
+      {
+        "number": "05",
+        "title": "Organizations",
+        "description": "needing long-term SaaS product support",
+        "icon": "/assets/images/services/table.svg"
+      }
+    ]
+  },
+  "custom_software_development": {
+    "heading": "Who Our Custom Software Development Services Are For",
+    "description": "Our services are ideal for businesses that need custom solutions to drive growth, efficiency, and innovation. We specialize in working with:",
+    "closingText": "If your business needs software that adapts to your specific needs, we're the partner for you.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Startups",
+        "description": "requiring scalable and efficient solutions for rapid growth",
+        "icon": "/assets/images/services/table.svg"
+      },
+      {
+        "number": "02",
+        "title": "Enterprises",
+        "description": "looking to modernize and integrate their systems",
+        "icon": "/assets/images/services/pulse.svg"
+      },
+      {
+        "number": "03",
+        "title": "SaaS businesses",
+        "description": "looking to develop multi-tenant platforms",
+        "icon": "/assets/images/services/table.svg"
+      },
+      {
+        "number": "04",
+        "title": "E-commerce and on-demand services",
+        "description": "needing high-performance, secure applications",
+        "icon": "/assets/images/services/pulse.svg"
+      },
+      {
+        "number": "05",
+        "title": "Organizations",
+        "description": "seeking long-term technical partners to drive ongoing innovation",
+        "icon": "/assets/images/services/table.svg"
+      }
+    ]
+  }
+}
+

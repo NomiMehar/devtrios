@@ -1,0 +1,223 @@
+@use "../../../styles/variables" as *;
+
+.who_we_build_for_mobile {
+  padding: 130px 0 80px;
+  background: linear-gradient(180deg, #3150B3 0%, #091336 100%);
+  position: relative;
+  overflow: hidden;
+  margin-top: 130px;
+
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding: 100px 0 60px;
+    margin-top: 100px;
+  }
+
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding: 80px 0 40px;
+    margin-top: 80px;
+  }
+
+  .heading_wrapper {
+    text-align: center;
+    margin-bottom: 80px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      margin-bottom: 60px;
+    }
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 42px;
+      font-weight: 600;
+      line-height: 1.4;
+      color: $white_color;
+      margin: 0 0 20px;
+
+      @media screen and (max-width: $breakpoint_tablet) {
+        font-size: 36px;
+      }
+
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        font-size: 28px;
+        margin-bottom: 15px;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.7;
+      color: rgba(255, 255, 255, 0.9);
+      margin: 0;
+
+      @media screen and (max-width: $breakpoint_tablet) {
+        font-size: 16px;
+      }
+
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        font-size: 15px;
+      }
+    }
+  }
+  .content_wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+
+  .mobile_section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .spinning_circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+    background: url("../../../public/assets/images/services/spinning-circle.svg") no-repeat center center;
+    background-size: cover;
+    animation: spin 20s linear infinite;
+    z-index: 1;
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      width: 450px;
+      height: 450px;
+    }
+
+  }
+
+  .mobile_image_wrapper {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .mobile_image {
+      width: 100%;
+      height: auto;
+      min-width: 480px;
+      filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.3));
+
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+       min-width: 400px;
+      }
+    }
+  }
+
+  .floating_box {
+    position: absolute;
+    background: $white_color;
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    z-index: 4;
+    animation: bounceFloat 3s ease-in-out infinite;
+    max-width: 400px;
+    pointer-events: auto;
+    filter: drop-shadow(0 20px 40px #0000004d);
+
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 14px;
+    }
+
+    .box_icon {
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .icon_image {
+        width: 45px;
+        height: 45px;
+        object-fit: contain;
+
+        @media screen and (max-width: $breakpoint_mobile_portrait) {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+
+    .box_text {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      color: $dark_color;
+      margin: 0;
+
+      @media screen and (max-width: $breakpoint_tablet) {
+        font-size: 15px;
+      }
+
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        font-size: 13px;
+      }
+    }
+      // Specific positioning for each box
+  &.box_1 {
+    top: 30%;
+    left: 0;
+    
+
+  }
+
+  &.box_2 {
+    top: 12%;
+    right: 0;
+    
+
+  }
+
+  &.box_3 {
+    bottom: 28%;
+    left: 0;
+
+  }
+
+  &.box_4 {
+    bottom: 42%;
+    right: 0;
+    
+
+  }
+
+  &.box_5 {
+    bottom: 11%;
+    right: 0;
+
+
+  }
+  }
+
+
+}
+
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes bounceFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+

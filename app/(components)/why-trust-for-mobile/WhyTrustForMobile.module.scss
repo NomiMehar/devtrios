@@ -1,0 +1,145 @@
+@use "../../../styles/variables" as *;
+
+.why_trust_for_mobile {
+  padding: 130px 0 0;
+  background-color: $white_color;
+
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding: 100px 0 0;
+  }
+
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding: 70px 0 0;
+  }
+
+  .content_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+
+    @media screen and (max-width: $breakpoint_laptop) {
+      gap: 60px;
+    }
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      grid-template-columns: 1fr;
+      gap: 50px;
+    }
+  }
+
+  .left_column {
+    .heading {
+      font-size: 42px;
+      font-weight: 600;
+      line-height: 1.4;
+      color: $dark_color;
+      margin: 0 0 20px 0;
+
+      @media screen and (max-width: $breakpoint_tablet) {
+        font-size: 36px;
+      }
+
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        font-size: 28px;
+        margin-bottom: 15px;
+      }
+    }
+
+    .tagline {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1.7;
+      color: $gray_color;
+      margin: 0 0 40px 0;
+
+      @media screen and (max-width: $breakpoint_tablet) {
+        font-size: 16px;
+        margin-bottom: 30px;
+      }
+
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        font-size: 15px;
+        margin-bottom: 25px;
+      }
+    }
+
+    .trust_list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+
+      @media screen and (max-width: $breakpoint_tablet) {
+        gap: 20px;
+      }
+
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        gap: 18px;
+      }
+    }
+
+    .trust_item {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        gap: 15px;
+      }
+
+      .icon_wrapper {
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .icon_circle {
+        .icon_image {
+          width: 20px;
+          height: 20px;
+          object-fit: contain;
+          @media screen and (max-width: $breakpoint_mobile_portrait) {
+            width: 18px;
+            height: 18px;
+          }
+        }
+      }
+
+      .feature_text {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.2;
+        color: $dark_color;
+        margin: 0;
+
+        @media screen and (max-width: $breakpoint_tablet) {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .right_column {
+    @media screen and (max-width: $breakpoint_tablet) {
+      order: -1; // Show image first on mobile
+    }
+
+    .image_wrapper {
+      border-radius: 12px;
+      border: 2px dashed #363636;
+      padding: 10px;
+      
+
+      .trust_image {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+      }
+
+    }
+  }
+}

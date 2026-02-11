@@ -12,14 +12,14 @@
 
   // Top Section - Light Theme
   .top_section {
-    padding: 80px 0;
+    padding: 25px 0;
     background: $white_color;
 
     @media screen and (max-width: $breakpoint_tablet) {
-      padding: 60px 0;
+      padding: 20px 0;
     }
     @media screen and (max-width: $breakpoint_mobile_portrait) {
-      padding: 40px 0;
+      padding: 10px 0;
     }
 
     .top_content {
@@ -110,7 +110,7 @@
     // Left Column - Sticky
     .left_column {
       position: sticky;
-      top: 100px;
+      top: 50px;
       align-self: flex-start;
       height: fit-content;
 

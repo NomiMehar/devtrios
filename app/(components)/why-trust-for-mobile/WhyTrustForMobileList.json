@@ -1,0 +1,62 @@
+{
+  "ios_app_development": {
+    "heading": "Why Businesses Trust Devtrios for iOS App Development",
+    "tagline": "We treat iOS apps as long-term products, not one-off builds.",
+    "iconPath": "/assets/images/services/ios-trust-icon.svg",
+    "imagePath": "/assets/images/services/ios-trusts.png",
+    "features": [
+      "Proven experience delivering native iOS applications",
+      "Strong focus on performance, security, and maintainability",
+      "Clear development process with predictable delivery",
+      "Ongoing support beyond launch, not project abandonment"
+    ]
+  },
+  "android_app_development": {
+    "heading": "Why Businesses Choose Devtrios for Android App Development",
+    "tagline": "We treat Android applications as long-term products, not short-term projects.",
+    "iconPath": "/assets/images/services/ios-trust-icon.svg",
+    "imagePath": "/assets/images/services/ios-trusts.png",
+    "features": [
+      "Proven experience delivering native Android applications",
+      "Strong focus on performance, stability, and maintainability",
+      "Clear development process with predictable delivery",
+      "Ongoing support beyond launch"
+    ]
+  },
+  "flutter_app_development": {
+    "heading": "Why Businesses Choose Devtrios for Flutter App Development",
+    "tagline": "We treat Flutter apps as long-term products, not quick builds.",
+    "iconPath": "/assets/images/services/ios-trust-icon.svg",
+    "imagePath": "/assets/images/services/ios-trusts.png",
+    "features": [
+      "Proven experience delivering production-grade Flutter applications",
+      "Strong focus on performance, maintainability, and architecture",
+      "Clear, structured development process",
+      "Ongoing support beyond launch"
+    ]
+  },
+  "app_ui_ux": {
+    "heading": "Why Businesses Choose Devtrios for App UI UX Design",
+    "tagline": "We design interfaces that users understand instinctively.",
+    "iconPath": "/assets/images/services/ios-trust-icon.svg",
+    "imagePath": "/assets/images/services/ios-trusts.png",
+    "features": [
+      "Strong focus on usability, clarity, and real-world usage",
+      "Experience designing complex, data-driven mobile interfaces",
+      "Structured design process with predictable outcomes",
+      "Designs built to support development, not block it"
+    ]
+  },
+  "app_maintenance": {
+    "heading": "Why Businesses Choose Devtrios for App Maintenance",
+    "tagline": "We don’t just keep apps running. We keep them reliable.",
+    "iconPath": "/assets/images/services/ios-trust-icon.svg",
+    "imagePath": "/assets/images/services/ios-trusts.png",
+    "features": [
+      "Experience maintaining production-grade mobile applications",
+      "Strong focus on stability, performance, and security",
+      "Clear maintenance processes and predictable response times",
+      "Ongoing support aligned with business growth"
+    ]
+  }
+}

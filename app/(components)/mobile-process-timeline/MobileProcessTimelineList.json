@@ -1,0 +1,157 @@
+{
+  "ios_app_development": {
+    "heading": "Our iOS App Development Process",
+    "description": "Our structured iOS development process reduces risk and ensures consistent, high-quality outcomes.",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Product Discovery & Technical Planning",
+        "description": "We define business goals, target users, feature scope, and technical constraints before development begins."
+      },
+      {
+        "number": 2,
+        "title": "UX, UI & User Flow Design",
+        "description": "We design iOS-native interfaces and interaction flows that prioritise usability, clarity, and engagement."
+      },
+      {
+        "number": 3,
+        "title": "Native iOS Development",
+        "description": "Our developers build your app using clean, scalable Swift code, integrating APIs, backend systems, and third-party services."
+      },
+      {
+        "number": 4,
+        "title": "Testing, Performance & Security Review",
+        "description": "We test across devices, optimise performance, and validate security and App Store requirements."
+      },
+      {
+        "number": 5,
+        "title": "Launch, Monitoring & Iteration",
+        "description": "After launch, we support monitoring, updates, and continuous improvements as your product grows."
+      }
+    ]
+  },
+  "android_app_development": {
+    "heading": "Our Android App Development Process",
+    "description": "Our Android development process is designed to reduce risk and ensure predictable, high-quality delivery.",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Discovery & Technical Planning",
+        "description": "We define business goals, user requirements, feature scope, and technical constraints before development begins."
+      },
+      {
+        "number": 2,
+        "title": "UX, UI & User Flow Design",
+        "description": "We design Android-first interfaces and interaction flows prioritising clarity, usability, and engagement."
+      },
+      {
+        "number": 3,
+        "title": "Android App Development",
+        "description": "Our developers build your app using clean, scalable Kotlin code and integrate APIs, backend systems, and third-party services."
+      },
+      {
+        "number": 4,
+        "title": "Testing, Performance & Security Review",
+        "description": "We test across devices and OS versions, optimise performance, and validate security and Play Store requirements."
+      },
+      {
+        "number": 5,
+        "title": "Launch, Support & Iteration",
+        "description": "After launch, we support updates, improvements, and feature expansion as your application evolves."
+      }
+    ]
+  },
+  "flutter_app_development": {
+    "heading": "Our Flutter App Development Process",
+    "description": "Our Flutter development process is designed to reduce risk and deliver predictable outcomes.",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Discovery & Product Strategy",
+        "description": "We define business goals, user needs, feature scope, and platform requirements."
+      },
+      {
+        "number": 2,
+        "title": "UX, UI & Cross-Platform Design",
+        "description": "We design interfaces and user flows optimised for both iOS and Android while maintaining platform consistency."
+      },
+      {
+        "number": 3,
+        "title": "Flutter App Development",
+        "description": "Our developers build your app using clean, scalable Flutter code with carefully structured architecture."
+      },
+      {
+        "number": 4,
+        "title": "Testing, Performance & Security Review",
+        "description": "We test across devices, optimise performance, and validate security and store compliance."
+      },
+      {
+        "number": 5,
+        "title": "Launch, Support & Iteration",
+        "description": "After launch, we support updates, improvements, and feature expansion as your product evolves."
+      }
+    ]
+  },
+  "app_ui_ux": {
+    "heading": "Our App UI UX Design Process",
+    "description": "Our design process is structured to reduce guesswork and deliver measurable improvements.",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Product & User Discovery",
+        "description": "We analyse business goals, target users, use cases, and existing pain points."
+      },
+      {
+        "number": 2,
+        "title": "UX Strategy & Information Architecture",
+        "description": "We define user journeys, navigation models, and interaction logic."
+      },
+      {
+        "number": 3,
+        "title": "Wireframing & Prototyping",
+        "description": "We create wireframes and interactive prototypes to validate flows before visual design."
+      },
+      {
+        "number": 4,
+        "title": "UI Design & Design Systems",
+        "description": "We design high-fidelity interfaces and scalable design systems aligned with platform guidelines."
+      },
+      {
+        "number": 5,
+        "title": "Validation & Handover",
+        "description": "We test usability, refine interactions, and prepare developer-ready design assets."
+      }
+    ]
+  },
+  "app_maintenance": {
+    "heading": "Our App Maintenance Process",
+    "description": "Our app maintenance process is proactive, structured, and predictable.",
+    "steps": [
+      {
+        "number": 1,
+        "title": "App Audit & Baseline Assessment",
+        "description": "We review code quality, performance metrics, security posture, and current risks."
+      },
+      {
+        "number": 2,
+        "title": "Monitoring & Maintenance Setup",
+        "description": "We configure monitoring tools, backup schedules, and update pipelines."
+      },
+      {
+        "number": 3,
+        "title": "Ongoing Updates & Optimisation",
+        "description": "We perform regular updates, performance tuning, and preventative maintenance."
+      },
+      {
+        "number": 4,
+        "title": "Issue Resolution & Support",
+        "description": "When issues arise, our team responds quickly to minimise disruption."
+      },
+      {
+        "number": 5,
+        "title": "Continuous Improvement",
+        "description": "We track trends, user impact, and technical debt to keep your app stable as it scales."
+      }
+    ]
+  }
+}

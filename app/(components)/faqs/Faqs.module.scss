@@ -1,7 +1,7 @@
 @use "../../../styles/variables" as *;
 
 .faqs {
-  background: url("../../../public/assets/images/services/gray_bg.png") center fixed;
+  background: url("../../../public/assets/images/services/faqs_back.svg") center ;
   background-size: cover;
   padding: 130px 0 130px;
   @media screen and (max-width: $breakpoint_tablet) {

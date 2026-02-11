@@ -58,9 +58,6 @@
         max-width: 90%;
         margin: 0 auto;
   
-        @media screen and (max-width: $breakpoint_tablet) {
-          font-size: 18px;
-        }
         @media screen and (max-width: $breakpoint_mobile_portrait) {
           font-size: 16px;
           max-width: 100%;

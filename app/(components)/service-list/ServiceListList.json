@@ -85,31 +85,36 @@
         "title": "iOS App Development",
         "description": "High-performance iOS apps built for iPhone and iPad using modern Apple standards, optimised for security, performance, and App Store compliance.",
         "icon": "/assets/images/header/nav-icon-3.svg",
-        "backgroundColor": "#ccf1e5"
+        "backgroundColor": "#ccf1e5",
+        "link": "/services/mobile-app-development/ios-app-development/"
       },
       {
         "title": "Android App Development",
         "description": "Custom Android applications designed to perform consistently across devices, screen sizes, and OS versions.",
         "icon": "/assets/images/header/nav-icon-3.svg",
-        "backgroundColor": "#e8f0ff"
+        "backgroundColor": "#e8f0ff",
+        "link": "/services/mobile-app-development/android-app-development/"
       },
       {
         "title": "Cross-Platform App Development",
         "description": "We build cross-platform apps using technologies such as Flutter to deliver native-like performance on both iOS and Android from a single codebase.",
         "icon": "/assets/images/header/nav-icon-3.svg",
-        "backgroundColor": "#fff4e6"
+        "backgroundColor": "#fff4e6",
+        "link": "/services/mobile-app-development/flutter-app-development/"
       },
       {
         "title": "Mobile App UI & UX Design",
         "description": "Intuitive, engaging app design focused on usability, retention, and clear user flows.",
         "icon": "/assets/images/header/nav-icon-3.svg",
-        "backgroundColor": "#e6f9f0"
+        "backgroundColor": "#e6f9f0",
+        "link": "/services/mobile-app-development/app-ui-ux/"
       },
       {
         "title": "Mobile App Maintenance & Support",
         "description": "Ongoing support covering updates, performance monitoring, bug fixes, and feature enhancements.",
         "icon": "/assets/images/header/nav-icon-3.svg",
-        "backgroundColor": "#f0f0ff"
+        "backgroundColor": "#f0f0ff",
+        "link": "/services/mobile-app-development/app-maintenance/"
       }
     ]
   },
@@ -126,31 +131,36 @@
         "title": "Custom Software Development",
         "description": "Tailor-made software solutions built to address your specific business workflows, user requirements, and challenges. Whether it's a desktop solution or a complex enterprise system, we design software that works for you.",
         "icon": "/assets/images/header/nav-icon-3.svg",
-        "backgroundColor": "#ccf1e5"
+        "backgroundColor": "#ccf1e5",
+        "link": "/services/software-development/custom-software-development/"
       },
       {
         "title": "Web Application Development",
         "description": "Build secure, high-performance web applications that are scalable, intuitive, and ready for integrations. We focus on seamless user experiences, performance optimization, and robust security.",
         "icon": "/assets/images/header/nav-icon-3.svg",
-        "backgroundColor": "#e8f0ff"
+        "backgroundColor": "#e8f0ff",
+        "link": "/services/software-development/web-app-development/"
       },
       {
         "title": "SaaS Development",
         "description": "End-to-end development of SaaS products, including architecture, multi-tenancy, subscription billing systems, security protocols, and scalability. We help bring your SaaS vision to life with the flexibility and growth potential your business needs.",
         "icon": "/assets/images/header/nav-icon-3.svg",
-        "backgroundColor": "#fff4e6"
+        "backgroundColor": "#fff4e6",
+        "link": "/services/software-development/saas-development/"
       },
       {
         "title": "MVP Development",
         "description": "Get your product to market faster with a lean, cost-effective MVP. We focus on validating your idea, attracting early users, and securing investment so you can scale with confidence.",
         "icon": "/assets/images/header/nav-icon-3.svg",
-        "backgroundColor": "#e6f9f0"
+        "backgroundColor": "#e6f9f0",
+        "link": "/services/software-development/mvp-development/"
       },
       {
         "title": "API Development & Integration",
         "description": "Develop secure and scalable APIs that allow different systems, applications, and platforms to communicate seamlessly. We integrate APIs with your existing infrastructure for smooth data flow and functionality.",
         "icon": "/assets/images/header/nav-icon-3.svg",
-        "backgroundColor": "#f0f0ff"
+        "backgroundColor": "#f0f0ff",
+        "link": "/services/software-development/api-development/"
       }
     ]
   }

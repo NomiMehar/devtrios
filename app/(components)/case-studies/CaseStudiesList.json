@@ -430,5 +430,291 @@
         ]
       }
     ]
+  },
+  "ios_app_development": {
+    "heading": {
+      "title": "iOS App Development in Practice",
+      "description": "Here's an example of how our iOS app development services deliver real-world performance and scalability."
+    },
+    "projects": [
+      {
+        "title": "Dubai Mall",
+        "industry": "Retail, Lifestyle, Large-Scale Consumer Platform",
+        "summary": "This reflects our approach to building iOS apps designed for real-world usage, not launch-day demos.",
+        "technicalFocus": "Native iOS development, real-time updates, location-aware features, high concurrency, performance optimization, scalability.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "Dubai Mall required a native iOS application capable of supporting high user volumes, real-time content updates, and a smooth browsing experience for visitors navigating retail, dining, and entertainment options within one of the world's busiest malls.",
+        "solution": "We delivered a native iOS application built for performance and reliability. The architecture supported real-time updates, location-aware features, and high concurrency without compromising stability or user experience.",
+        "outcomes": [
+          "Stable performance during peak usage periods",
+          "Improved responsiveness across iPhone and iPad devices",
+          "Reduced friction in content discovery and navigation",
+          "A scalable iOS foundation supporting ongoing feature expansion"
+        ],
+        "results": [
+          "Stable performance during peak usage periods",
+          "Improved responsiveness across iPhone and iPad devices",
+          "Reduced friction in content discovery and navigation",
+          "A scalable iOS foundation supporting ongoing feature expansion"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "android_app_development": {
+    "heading": {
+      "title": "Android App Development in Practice",
+      "description": "Here's an example of how our Android app development services deliver real-world performance and scalability."
+    },
+    "projects": [
+      {
+        "title": "LuxuryEstate",
+        "industry": "Luxury Real Estate Marketplace",
+        "summary": "This demonstrates our approach to building Android apps designed for real usage at scale, not just controlled environments.",
+        "technicalFocus": "Native Android development, advanced search, high-resolution media, smooth navigation, performance optimization, scalability.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "LuxuryEstate required an Android application capable of delivering a premium browsing experience for high-value property listings, while handling large volumes of images, search filters, and international user traffic without performance degradation.",
+        "solution": "We developed a native Android application focused on performance, usability, and content-heavy optimisation. The architecture supported advanced search, high-resolution media, and smooth navigation across a wide range of Android devices.",
+        "outcomes": [
+          "Consistent performance across diverse Android devices and screen sizes",
+          "Improved responsiveness when browsing large property catalogues",
+          "Smooth image-heavy experiences without compromising load times",
+          "A scalable Android foundation supporting international growth"
+        ],
+        "results": [
+          "Consistent performance across diverse Android devices and screen sizes",
+          "Improved responsiveness when browsing large property catalogues",
+          "Smooth image-heavy experiences without compromising load times",
+          "A scalable Android foundation supporting international growth"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "flutter_app_development": {
+    "heading": {
+      "title": "Flutter App Development in Practice",
+      "description": "Here's an example of how our Flutter app development services deliver real-world performance and scale."
+    },
+    "projects": [
+      {
+        "title": "WalaPlus",
+        "industry": "Loyalty, Rewards & Digital Services",
+        "summary": "This reflects our approach to Flutter as a strategic platform choice, not a shortcut.",
+        "technicalFocus": "Flutter development, cross-platform architecture, real-time interactions, smooth UI transitions, secure backend integrations, performance optimization.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "WalaPlus required a cross-platform mobile application capable of supporting frequent user interactions, real-time rewards, and consistent performance across iOS and Android without maintaining separate codebases.",
+        "solution": "We built a Flutter-based mobile application focused on performance, usability, and scalability. The architecture supported real-time interactions, smooth UI transitions, and secure backend integrations while allowing faster feature iteration.",
+        "outcomes": [
+          "Faster development cycles using a single Flutter codebase",
+          "Consistent user experience across iOS and Android",
+          "Improved app responsiveness under active user engagement",
+          "A scalable foundation supporting future feature growth"
+        ],
+        "results": [
+          "Faster development cycles using a single Flutter codebase",
+          "Consistent user experience across iOS and Android",
+          "Improved app responsiveness under active user engagement",
+          "A scalable foundation supporting future feature growth"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "app_ui_ux": {
+    "heading": {
+      "title": "App UI UX Design in Practice",
+      "description": "Here's an example of how our app UI UX design services improve usability and product clarity."
+    },
+    "projects": [
+      {
+        "title": "Sales CRM Mobile App (UI UX Concept)",
+        "industry": "Sales, CRM & Business Productivity",
+        "summary": "This demonstrates our approach to UI UX as a performance driver, not decoration.",
+        "technicalFocus": "Mobile UI design, UX strategy, information architecture, interaction design, usability optimisation, design systems.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "The CRM app required a clean, intuitive mobile interface that could present complex sales data, pipelines, and tasks without overwhelming users or slowing daily workflows.",
+        "solution": "We designed a mobile-first UI UX system focused on clarity, hierarchy, and usability. The interface simplified data presentation, prioritised key actions, and reduced interaction friction for sales teams using the app daily.",
+        "outcomes": [
+          "Clearer navigation across CRM features",
+          "Reduced cognitive load when managing pipelines and tasks",
+          "Improved usability for frequent, daily interactions",
+          "A scalable UI UX foundation ready for development"
+        ],
+        "results": [
+          "Clearer navigation across CRM features",
+          "Reduced cognitive load when managing pipelines and tasks",
+          "Improved usability for frequent, daily interactions",
+          "A scalable UI UX foundation ready for development"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "app_maintenance": {
+    "heading": {
+      "title": "App Maintenance in Practice",
+      "description": "Here's a representative example of how our app maintenance services improve stability and performance."
+    },
+    "projects": [
+      {
+        "title": "Food delivery / e-commerce mobile app (Eeats-style platform)",
+        "industry": "On-Demand Services",
+        "summary": "This reflects our approach to app maintenance as a preventative investment, not reactive firefighting.",
+        "technicalFocus": "App monitoring, performance optimisation, security maintenance, backup and recovery, OS compatibility updates, incident response.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "The app experienced performance degradation during peak hours, increasing crash rates after OS updates, and slow response to production issues due to lack of monitoring and maintenance processes.",
+        "solution": "We implemented a structured maintenance plan covering performance monitoring, regular updates, security patching, and proactive optimisation. Automated alerts and backups were added to reduce downtime and recovery time.",
+        "outcomes": [
+          "App crash rates reduced by approximately 45–55% within three months",
+          "Average app response times improved by 25–35% during peak usage",
+          "App uptime stabilised above 99.8%",
+          "Faster issue resolution reduced user complaints and support tickets"
+        ],
+        "results": [
+          "App crash rates reduced by approximately 45–55% within three months",
+          "Average app response times improved by 25–35% during peak usage",
+          "App uptime stabilised above 99.8%",
+          "Faster issue resolution reduced user complaints and support tickets"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "web_app_development": {
+    "heading": {
+      "title": "Web App Development in Practice",
+      "description": "This case study demonstrates how we focus on the performance, usability, and scalability of web applications to deliver measurable business results."
+    },
+    "projects": [
+      {
+        "title": "E-commerce Checkout Flow Optimization",
+        "industry": "E-commerce",
+        "summary": "This case study demonstrates how we focus on the performance, usability, and scalability of web applications to deliver measurable business results.",
+        "technicalFocus": "Checkout flow optimization, payment gateway integration, user experience design, conversion rate optimization, web application development.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "An e-commerce business needed a more efficient and user-friendly checkout flow. Their existing system was complicated, leading to high cart abandonment rates and frustrated customers.",
+        "solution": "We revamped the checkout flow by simplifying the process, integrating real-time payment gateways, and streamlining the entire experience from product selection to order confirmation.",
+        "outcomes": [
+          "Reduced cart abandonment rate by 25%",
+          "Improved conversion rate by 20%",
+          "Increased overall customer satisfaction and repeat purchases"
+        ],
+        "results": [
+          "Reduced cart abandonment rate by 25%",
+          "Improved conversion rate by 20%",
+          "Increased overall customer satisfaction and repeat purchases"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "saas_development": {
+    "heading": {
+      "title": "SaaS Development in Practice",
+      "description": "This case highlights how we deliver SaaS products that improve business operations, boost productivity, and support long-term growth."
+    },
+    "projects": [
+      {
+        "title": "Generic SaaS Platform",
+        "industry": "Business Services",
+        "summary": "This case highlights how we deliver SaaS products that improve business operations, boost productivity, and support long-term growth.",
+        "technicalFocus": "Custom SaaS development, data automation, system integration, reporting, workflow optimization, scalable architecture.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "The client needed a custom platform to streamline its internal processes, improve reporting, and manage data across multiple departments. Their existing systems were outdated and lacked integration, which led to inefficiencies and errors in data handling.",
+        "solution": "We developed a custom SaaS solution designed to automate data collection, reporting, and streamline workflows. The platform was built to integrate with multiple internal systems, improving data flow and providing a single source of truth for all business operations.",
+        "outcomes": [
+          "Reduced manual data entry by 40%",
+          "Improved operational efficiency by 30%",
+          "Enhanced data accuracy through automated integrations",
+          "Scalable platform capable of supporting future expansion"
+        ],
+        "results": [
+          "Reduced manual data entry by 40%",
+          "Improved operational efficiency by 30%",
+          "Enhanced data accuracy through automated integrations",
+          "Scalable platform capable of supporting future expansion"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "custom_software_development": {
+    "heading": {
+      "title": "Custom Software Development in Practice",
+      "description": "This case study demonstrates how Devtrios built a custom software solution that enhanced operational efficiency, improved user experience, and provided long-term scalability for Task Hub."
+    },
+    "projects": [
+      {
+        "title": "Task Hub",
+        "industry": "Task Management & Productivity",
+        "summary": "This case study demonstrates how Devtrios built a custom software solution that enhanced operational efficiency, improved user experience, and provided long-term scalability for Task Hub.",
+        "technicalFocus": "Custom task management system, real-time collaboration, automated workflows, third-party integrations, scalable architecture.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "Task Hub, a platform focused on task management and productivity, faced difficulties in scaling their system to handle a growing user base and complex task workflows. Their existing solution lacked automation and integration, leading to inefficiencies and limited flexibility for users. They needed a scalable platform to improve user engagement, streamline workflows, and enable collaboration.",
+        "solution": "We developed a custom task management system tailored to Task Hub's needs, incorporating real-time collaboration, automated workflows, and seamless integrations with third-party tools. The platform was designed to scale, ensuring a smooth user experience even as the user base grew and their needs evolved.",
+        "outcomes": [
+          "Reduced task completion time by 40%",
+          "Increased user engagement by 30% due to improved collaboration features",
+          "Streamlined workflow automation, reducing manual interventions by 50%",
+          "Scalable architecture supporting future feature growth and user base expansion"
+        ],
+        "results": [
+          "Reduced task completion time by 40%",
+          "Increased user engagement by 30% due to improved collaboration features",
+          "Streamlined workflow automation, reducing manual interventions by 50%",
+          "Scalable architecture supporting future feature growth and user base expansion"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
   }
 }

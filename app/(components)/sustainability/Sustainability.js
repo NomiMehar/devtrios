@@ -14,7 +14,7 @@ export default function Sustainability() {
           <div className={styles.text_section}>
             <div className={styles.un_logo_header}>
               <Image
-                src="/assets/images/services/un-logo.png"
+                src="/assets/images/services/un-logo.webp"
                 alt="UN Global Compact"
                 width={80}
                 height={80}
@@ -44,7 +44,7 @@ export default function Sustainability() {
 
           {/* Right Section - Visual Content */}
           <div className={styles.visual_section}>
-            <Image src="/assets/images/services/global.png" alt="sustainability-section-bg" width={1000} height={1000} />
+            <Image src="/assets/images/services/global.webp" alt="sustainability-section-bg" width={1000} height={1000} />
           </div>
         </div>
       </div>

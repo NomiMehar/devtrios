@@ -1,0 +1,96 @@
+{
+  "web_app_development": {
+    "heading": "Web App Development Process",
+    "description": "Our structured approach to web app development ensures quality, performance, and alignment with your business objectives.",
+    "steps": [
+      {
+        "number": "Step 1",
+        "title": "Discovery & Technical Planning",
+        "description": "We begin by understanding your goals, user requirements, and technical constraints. This helps us define the project scope and lay the groundwork for success."
+      },
+      {
+        "number": "Step 2",
+        "title": "UX, UI & User Flow Design",
+        "description": "We design a user experience that is seamless, intuitive, and optimized for conversions. This includes crafting the wireframes and visual design elements that support your business objectives."
+      },
+      {
+        "number": "Step 3",
+        "title": "Web App Development & Integration",
+        "description": "Our developers bring the designs to life using modern frameworks, integrating necessary third-party services, APIs, and backend systems."
+      },
+      {
+        "number": "Step 4",
+        "title": "Testing, Performance & Security Review",
+        "description": "We rigorously test the app for bugs, performance bottlenecks, and security vulnerabilities to ensure it's ready for production."
+      },
+      {
+        "number": "Step 5",
+        "title": "Launch, Support & Iteration",
+        "description": "After launch, we continue to monitor the application’s performance and provide ongoing updates, enhancements, and bug fixes as required."
+      }
+    ]
+  },
+  "saas_development": {
+    "heading": "From Strategy to Scale: Our Proven SaaS Development Process",
+    "description": "Building a successful SaaS product starts with a solid foundation. Our approach is focused on clarity, strategy, and future growth, ensuring your product evolves with your business needs.",
+    "steps": [
+      {
+        "number": "Step 1",
+        "title": "Product Strategy & Discovery",
+        "description": "We work closely with you to define the value proposition, user personas, monetization strategy, and feature requirements. This ensures the SaaS platform is aligned with your business goals and customer expectations."
+      },
+      {
+        "number": "Step 2",
+        "title": "UX/UI Design & Information Architecture",
+        "description": "We design intuitive and engaging UI/UX to enhance usability and optimize the user journey, ensuring your SaaS product is easy to navigate and accessible across all devices."
+      },
+      {
+        "number": "Step 3",
+        "title": "Scalable SaaS Development",
+        "description": "Our developers build clean, scalable code, integrating essential backend systems, APIs, and security protocols to ensure your product is high-performance, secure, and optimized for future growth."
+      },
+      {
+        "number": "Step 4",
+        "title": "Testing & Quality Assurance",
+        "description": "We conduct extensive testing across devices and browsers to ensure functionality, performance, and security. We validate that your SaaS product meets all industry standards and is fully compliant with regulations."
+      },
+      {
+        "number": "Step 5",
+        "title": "Launch, Support, & Iteration",
+        "description": "Once your SaaS platform is live, we provide ongoing support, monitoring, and iteration to ensure it continues to evolve, scale, and meet user expectations."
+      }
+    ]
+  },
+  "custom_software_development": {
+    "heading": "Our Approach: Your Vision, Our Expertise",
+    "description": "At Devtrios, we see ourselves as your dedicated partner, not just a vendor. Our process is designed to ensure we align with your vision at every stage, from initial consultation to final deployment. We are committed to transparency, collaboration, and delivering exceptional software solutions on time and within budget.",
+    "steps": [
+      {
+        "number": "Step 1",
+        "title": "Discovery & Consultation",
+        "description": "We begin by understanding your business goals, challenges, and requirements. This helps us define the project scope and create a roadmap that aligns with your vision and objectives."
+      },
+      {
+        "number": "Step 2",
+        "title": "Design & Architecture Planning",
+        "description": "We design intuitive interfaces and create a scalable architecture that supports your business needs. Our focus is on creating exceptional UI/UX that drives adoption and engagement."
+      },
+      {
+        "number": "Step 3",
+        "title": "Development & Integration",
+        "description": "Our developers build clean, scalable code using cutting-edge technology and agile methodologies. We integrate seamlessly with your existing systems and third-party services."
+      },
+      {
+        "number": "Step 4",
+        "title": "Testing & Quality Assurance",
+        "description": "We conduct rigorous testing to ensure functionality, performance, and security. We validate that your software meets all industry standards and is ready for deployment."
+      },
+      {
+        "number": "Step 5",
+        "title": "Deployment & Ongoing Support",
+        "description": "After launch, we provide comprehensive support including bug fixes, performance monitoring, and feature updates to ensure your software remains secure and effective."
+      }
+    ]
+  }
+}
+

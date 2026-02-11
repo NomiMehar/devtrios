@@ -11,14 +11,14 @@ export default function ServiceList({ data }) {
       {/* Top Section - Light Theme */}
       <div className={styles.top_section}>
         <div className="container">
-          <div className={styles.top_content}>
+          {/* <div className={styles.top_content}>
             <div className={styles.top_heading}>
               <h2>{data.heading}</h2>
             </div>
             <div className={styles.top_description}>
               <p>{data.description}</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -29,10 +29,10 @@ export default function ServiceList({ data }) {
             {/* Left Column - Sticky */}
             <div className={styles.left_column}>
               <div className={styles.left_content}>
-                <span className={styles.services_label}>OUR SERVICES</span>
-                <h3 className={styles.left_heading}>Discover Our Expertise</h3>
+                {/* <span className={styles.services_label}>OUR SERVICES</span> */}
+                <h3 className={styles.left_heading}>{data.heading}</h3>
                 <p className={styles.left_description}>
-                  Each solution below is delivered with performance, SEO, and maintainability in mind.
+                {data.description}
                 </p>
                 <Image src="/assets/images/services/development-pg-banner.avif" alt="services-section-bg" width={1000} height={1000} />
               </div>

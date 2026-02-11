@@ -235,7 +235,7 @@ function Footer() {
                 className={style.un_badge}
               >
                 <Image
-                  src="/assets/images/services/un-logo.png"
+                  src="/assets/images/services/un-logo.webp"
                   alt="UN Global Compact"
                   width={50}
                   height={50}

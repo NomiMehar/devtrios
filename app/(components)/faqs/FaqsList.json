@@ -239,5 +239,181 @@
       "title": "Do you offer ongoing Webflow support?",
       "desc": "Yes. We provide maintenance, optimisation, and ongoing enhancements."
     }
+  ],
+  "web_app_development": [
+    {
+      "title": "How long does a web app development project take?",
+      "desc": "Project timelines vary based on complexity and scope. Most web app projects take between 8–16 weeks, with larger enterprise solutions requiring more time."
+    },
+    {
+      "title": "What technologies do you use for web app development?",
+      "desc": "We work with modern technologies including React, Next.js, Node.js, Python, and other frameworks to build scalable, secure, and high-performance web applications."
+    },
+    {
+      "title": "Can you integrate my web app with third-party services?",
+      "desc": "Yes. We specialize in API development and integration, allowing seamless communication between your web app and external services, platforms, and systems."
+    },
+    {
+      "title": "Are your web apps mobile-optimized?",
+      "desc": "Yes. All our web applications are built with a mobile-first approach, ensuring optimal performance and user experience across all devices and screen sizes."
+    },
+    {
+      "title": "Do you provide ongoing support after launch?",
+      "desc": "Yes. We offer continuous support including bug fixes, updates, performance optimization, and feature expansions to ensure your web app remains secure and relevant."
+    }
+  ],
+  "saas_development": [
+    {
+      "title": "How long does SaaS application development take?",
+      "desc": "Development time varies depending on complexity. A simple MVP takes around 3-6 months, while a fully-featured SaaS product can take longer. We provide a detailed timeline after our initial consultation."
+    },
+    {
+      "title": "What is the cost of building a SaaS application?",
+      "desc": "Costs vary based on the scope and features required. After an initial consultation, we provide an estimate tailored to your project needs."
+    },
+    {
+      "title": "Can you help me scale my existing SaaS product?",
+      "desc": "Yes. We offer SaaS modernization services and can scale your existing platform to improve performance and accommodate a growing user base."
+    },
+    {
+      "title": "What technologies do you use?",
+      "desc": "We use a variety of modern technologies including React, Node.js, AWS, and Google Cloud, choosing the best stack based on your project needs."
+    },
+    {
+      "title": "Do you provide ongoing support after launch?",
+      "desc": "Yes. We offer SaaS maintenance, security updates, and performance optimization as part of our ongoing support."
+    }
+  ],
+  "custom_software_development": [
+    {
+      "title": "What is custom software development?",
+      "desc": "Custom software development is the process of designing, creating, deploying, and maintaining software that is tailored to meet the specific needs of a business or user."
+    },
+    {
+      "title": "How long does it take to build a custom application?",
+      "desc": "The timeline depends on the project's complexity. Simple applications might take a few months, while enterprise solutions could take a year or more. We provide a detailed project timeline during the consultation phase."
+    },
+    {
+      "title": "Is custom software more expensive than off-the-shelf solutions?",
+      "desc": "While the upfront cost of custom software is higher, it provides a greater return on investment over time. Custom software eliminates licensing fees and can scale with your business, reducing the need for costly replacements."
+    },
+    {
+      "title": "Can you work with my existing software and systems?",
+      "desc": "Yes. We specialize in integrating custom software with your current systems, creating a seamless and unified IT environment."
+    },
+    {
+      "title": "What kind of support do you offer after the software is launched?",
+      "desc": "We offer comprehensive post-launch support, including bug fixes, performance monitoring, and feature updates to ensure your software remains secure and effective."
+    }
+  ],
+  "ios_app_development": [
+    {
+      "title": "How long does an iOS app development project take?",
+      "desc": "Most iOS app projects take between 8 and 16 weeks, depending on features, integrations, and complexity."
+    },
+    {
+      "title": "Do you build fully native iOS apps?",
+      "desc": "Yes. We specialise in native iOS development using Swift and modern Apple frameworks."
+    },
+    {
+      "title": "Can you rebuild or improve an existing iOS app?",
+      "desc": "Absolutely. We regularly refactor, rebuild, and optimise existing apps to improve performance, usability, and stability."
+    },
+    {
+      "title": "Do you handle App Store submission and compliance?",
+      "desc": "Yes. We support app preparation, App Store compliance checks, and submission."
+    },
+    {
+      "title": "Do you provide ongoing iOS app support after launch?",
+      "desc": "Yes. We offer maintenance, monitoring, updates, and feature enhancements as part of our ongoing support services."
+    }
+  ],
+  "android_app_development": [
+    {
+      "title": "How long does an Android app development project take?",
+      "desc": "Most Android app projects take between 8 and 16 weeks, depending on complexity, features, and integrations."
+    },
+    {
+      "title": "Do you build fully native Android apps?",
+      "desc": "Yes. We specialise in native Android development using Kotlin and modern Android frameworks."
+    },
+    {
+      "title": "Can you rebuild or optimise an existing Android app?",
+      "desc": "Yes. We regularly refactor, rebuild, and optimise existing Android apps to improve performance and usability."
+    },
+    {
+      "title": "Do you handle Google Play Store submission?",
+      "desc": "Yes. We support app preparation, compliance checks, and Play Store submission."
+    },
+    {
+      "title": "Do you provide ongoing Android app support after launch?",
+      "desc": "Yes. We offer maintenance, monitoring, updates, and feature enhancements."
+    }
+  ],
+  "flutter_app_development": [
+    {
+      "title": "Is Flutter suitable for large-scale applications?",
+      "desc": "Yes. When architected properly, Flutter can support complex, high-traffic applications across platforms."
+    },
+    {
+      "title": "How long does a Flutter app development project take?",
+      "desc": "Most Flutter projects take between 8 and 14 weeks, depending on features and integrations."
+    },
+    {
+      "title": "Will my Flutter app feel native on iOS and Android?",
+      "desc": "Yes. Flutter enables native-like performance and smooth UI when implemented correctly."
+    },
+    {
+      "title": "Can you migrate an existing app to Flutter?",
+      "desc": "Yes. We support Flutter migrations and rebuilds where cross-platform efficiency makes sense."
+    },
+    {
+      "title": "Do you provide ongoing Flutter app support?",
+      "desc": "Yes. We offer maintenance, optimisation, and feature development post-launch."
+    }
+  ],
+  "app_ui_ux": [
+    {
+      "title": "Do you design for both iOS and Android?",
+      "desc": "Yes. Our designs align with both iOS Human Interface Guidelines and Android Material Design principles."
+    },
+    {
+      "title": "Can you redesign an existing app UI UX?",
+      "desc": "Absolutely. We regularly redesign apps to improve usability, engagement, and conversion."
+    },
+    {
+      "title": "Do you provide developer-ready design files?",
+      "desc": "Yes. All designs are delivered with clear specifications and assets ready for development."
+    },
+    {
+      "title": "Can you work with our existing development team?",
+      "desc": "Yes. We collaborate closely with in-house or external development teams."
+    },
+    {
+      "title": "Do you offer UX testing and validation?",
+      "desc": "Yes. Prototyping and usability validation are part of our process."
+    }
+  ],
+  "app_maintenance": [
+    {
+      "title": "What is included in your app maintenance services?",
+      "desc": "Monitoring, bug fixes, performance optimisation, security updates, backups, and OS compatibility updates."
+    },
+    {
+      "title": "Why do I need ongoing app maintenance?",
+      "desc": "Regular maintenance prevents crashes, security issues, and performance decline that negatively impact users and revenue."
+    },
+    {
+      "title": "How quickly do you respond to critical issues?",
+      "desc": "We offer rapid-response support with defined SLAs for critical incidents."
+    },
+    {
+      "title": "Can you take over maintenance for an existing app?",
+      "desc": "Yes. We regularly take over maintenance for apps built by other teams after an initial audit."
+    },
+    {
+      "title": "Do you support both iOS and Android apps?",
+      "desc": "Yes. We maintain native and cross-platform applications across both platforms."
+    }
   ]
 }

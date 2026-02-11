@@ -546,6 +546,445 @@
         "overViewDescription": "Scalable CMS for marketing teams"
       }
     ]
+  },
+  "web_app_development": {
+    "title": "Web App Development Services for Scalable, High-Performance Solutions",
+    "titleStart": "Web App Development Services",
+    "titleEnd": "for Scalable, High-Performance Solutions",
+    "description": "In today's fast-evolving digital landscape, having a robust web application is critical for businesses to stay competitive. At Devtrios, we deliver high-performance custom web applications designed to solve unique business challenges and drive efficiency, growth, and user engagement.\nWhether you're launching a new digital platform, optimizing an existing one, or need complex enterprise solutions, we are here to bring your ideas to life with tailored, secure, and scalable web app development.",
+    "benefits": [
+      "Scalable and secure architecture",
+      "Seamless, intuitive user interface (UI)",
+      "Performance-driven development",
+      "Integration with third-party services and APIs",
+      "Mobile-optimized web applications"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free Quote",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Speak to a Web App Specialist",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What Our Web Apps Deliver:",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Scalable and secure architecture"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Seamless, intuitive user interface (UI)"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Performance-driven development"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Integration with third-party services and APIs"
+      }
+    ]
+  },
+  "saas_development": {
+    "title": "Custom SaaS Development Services for Scalable, High-Performance Solutions",
+    "titleStart": "Custom SaaS Development Services",
+    "titleEnd": "for Scalable, High-Performance Solutions",
+    "description": "In today's fast-evolving digital landscape, having a scalable, secure, and user-centric SaaS product is no longer a luxury, it's a necessity. At Devtrios, we specialize in custom SaaS development services designed to help businesses create high-performing software solutions that drive growth and efficiency. From building MVPs to scaling enterprise-level platforms, we provide end-to-end SaaS product development services that are tailored to meet your unique business needs.\nWhether you're launching a new SaaS product or modernizing an existing system, we craft custom SaaS solutions that scale with your business and deliver continuous value to your users. Our team ensures your SaaS platform is not only functional but optimized for long-term success.",
+    "benefits": [
+      "Custom-built solutions tailored to your business goals",
+      "Scalable architecture that grows with your business needs",
+      "Secure, performance-optimized development to ensure reliability",
+      "Future-proof software designed for evolving market demands",
+      "Seamless integration with third-party services and APIs"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free SaaS Consultation",
+        "link": "/contact-us",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Custom Quote",
+        "link": "/get-a-quote"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What Our SaaS Development Services Deliver:",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Custom-built solutions tailored to your business goals"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Scalable architecture that grows with your business needs"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Secure, performance-optimized development to ensure reliability"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Future-proof software designed for evolving market demands"
+      }
+    ]
+  },
+  "custom_software_development": {
+    "title": "Custom Software Development Services Tailored for Your Business Success",
+    "titleStart": "Custom Software Development Services",
+    "titleEnd": "Tailored for Your Business Success",
+    "description": "In a world full of generic, off-the-shelf solutions, your business deserves software designed specifically for your needs. Generic software forces your business to adapt, but custom solutions work to streamline your processes, enhance productivity, and deliver real results.\nAt Devtrios, we specialize in custom software development services that are built to scale, secure, and perform reliably. We help businesses of all sizes, from startups to enterprises, solve complex challenges with tailored digital solutions that unlock growth, efficiency, and opportunity. Whether you're looking to create a minimum viable product (MVP) or modernize your legacy systems, we are here to help you build software that grows with your business.",
+    "benefits": [
+      "Tailored solutions designed for your specific business needs",
+      "Scalable architecture that grows with your business",
+      "Secure, high-performance development",
+      "Seamless integration with existing systems",
+      "Long-term support and maintenance"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free Software Consultation",
+        "link": "/contact-us",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Start Your Software Project",
+        "link": "/get-a-quote"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "Why Choose Custom Software? The Devtrios Advantage:",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Tailored solutions designed for your specific business needs"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Scalable architecture that grows with your business"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Secure, high-performance development"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Seamless integration with existing systems"
+      }
+    ]
+  },
+  "ios_app_development": {
+    "title": "iOS App Development Services for Scalable, High-Performance Applications",
+    "titleStart": "iOS App Development Services",
+    "titleEnd": "for Scalable, High-Performance Applications",
+    "description": "Your iOS app should do more than launch. It should perform reliably under real-world usage, scale smoothly as demand grows, and deliver a seamless user experience from day one.\nAs an iOS app development company, Devtrios delivers professional iOS app development services for businesses building consumer and enterprise-grade applications. We design and develop native iPhone and iPad apps focused on usability, performance, security, and long-term growth.\nWhether you're launching a new iOS product or rebuilding an existing app, we create mobile applications engineered for stability, speed, and scale.",
+    "benefits": [
+      "Native iOS development using Swift and modern frameworks",
+      "Performance-led UI and UX design",
+      "Secure, scalable backend architecture",
+      "Clean, maintainable codebases",
+      "App Store readiness and submission support"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free App Consultation",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Project Quote",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What our iOS apps deliver:",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Native iOS development using Swift and modern frameworks"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Performance-led UI and UX design"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Secure, scalable backend architecture"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Clean, maintainable codebases"
+      }
+    ]
+  },
+  "android_app_development": {
+    "title": "Android App Development Services for Scalable, High-Performance Applications",
+    "titleStart": "Android App Development Services",
+    "titleEnd": "for Scalable, High-Performance Applications",
+    "description": "An Android app should do more than work on launch day. It should perform consistently across devices, scale smoothly as usage grows, and deliver a reliable user experience in real-world conditions.\nAs an Android application development company, Devtrios delivers professional Android app development services for businesses building consumer and enterprise-grade mobile applications. We design and develop native Android apps focused on performance, usability, security, and long-term maintainability.\nWhether you're launching a new Android product or rebuilding an existing application, we create mobile solutions engineered for stability, scale, and sustained growth.",
+    "benefits": [
+      "Native Android development using Kotlin and modern frameworks",
+      "Consistent performance across devices and OS versions",
+      "User-centric UI and UX aligned with Material Design",
+      "Secure, scalable backend integrations",
+      "Google Play Store readiness and deployment support"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free App Consultation",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Project Quote",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What our Android apps deliver:",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Native Android development using Kotlin and modern frameworks"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Consistent performance across devices and OS versions"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "User-centric UI and UX aligned with Material Design"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Secure, scalable backend integrations"
+      }
+    ]
+  },
+  "flutter_app_development": {
+    "title": "Flutter App Development Services for Scalable, Cross-Platform Applications",
+    "titleStart": "Flutter App Development Services",
+    "titleEnd": "for Scalable, Cross-Platform Applications",
+    "description": "Flutter is powerful when it's implemented correctly. A single codebase should not mean compromised performance or generic user experience.\nAs a Flutter app development company, Devtrios delivers professional Flutter app development services for businesses that need speed, scalability, and consistency across iOS and Android. We build cross-platform mobile applications that perform reliably in real-world conditions while reducing development complexity and time to market.\nWhether you're launching a new product or rebuilding an existing mobile app, we create Flutter applications engineered for long-term growth.",
+    "benefits": [
+      "Cross-platform development for iOS and Android from a single codebase",
+      "Native-like performance and smooth UI",
+      "Scalable, secure backend integrations",
+      "Faster time to market without sacrificing quality",
+      "Simplified long-term maintenance"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free App Consultation",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Project Quote",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What our Flutter apps deliver:",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Cross-platform development for iOS and Android from a single codebase"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Native-like performance and smooth UI"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Scalable, secure backend integrations"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Faster time to market without sacrificing quality"
+      }
+    ]
+  },
+  "app_ui_ux": {
+    "title": "Mobile App UI UX Design Services for Engagement, Retention, and Growth",
+    "titleStart": "Mobile App UI UX Design Services",
+    "titleEnd": "for Engagement, Retention, and Growth",
+    "description": "Great apps are not defined by features. They're defined by how easily users achieve what they came for.\nAs a mobile app UI UX design company, Devtrios delivers professional app UI UX design services for businesses that want intuitive, conversion-focused, and scalable mobile experiences. We design interfaces that reduce friction, improve usability, and support long-term product growth.\nWhether you're launching a new mobile app or improving an existing product, our UI UX design approach ensures your app is easy to use, visually clear, and built around real user behaviour.",
+    "benefits": [
+      "User-centric interface and experience design",
+      "Clear navigation and interaction flows",
+      "Design systems aligned with iOS and Android standards",
+      "Improved engagement and retention",
+      "UX foundations that support scalable development"
+    ],
+    "buttons": [
+      {
+        "text": "Get a UI UX Consultation",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Design Quote",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What our app UI UX design delivers:",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "User-centric interface and experience design"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Clear navigation and interaction flows"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Design systems aligned with iOS and Android standards"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Improved engagement and retention"
+      }
+    ]
+  },
+  "app_maintenance": {
+    "title": "Mobile App Maintenance Services That Keep Your App Secure, Stable, and Scalable",
+    "titleStart": "Mobile App Maintenance Services",
+    "titleEnd": "That Keep Your App Secure, Stable, and Scalable",
+    "description": "Your mobile app is a business asset. Launching it is only the beginning.\nWithout ongoing maintenance, performance degrades, security risks increase, and users leave.\nAs a mobile app maintenance company, Devtrios provides professional app maintenance services designed to keep applications secure, reliable, and performant over time. We manage updates, monitoring, optimisation, and support so your app continues to deliver value long after launch.\nWhether your app supports e-commerce, on-demand services, or internal operations, our maintenance services ensure it performs reliably in real-world conditions.",
+    "benefits": [
+      "Proactive monitoring and issue prevention",
+      "Ongoing performance optimisation",
+      "Secure updates and platform compatibility",
+      "Reliable backups and recovery",
+      "Fast response to critical issues"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Maintenance Consultation",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Support Quote",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What our app maintenance services deliver:",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Proactive monitoring and issue prevention"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Ongoing performance optimisation"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Secure updates and platform compatibility"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Reliable backups and recovery"
+      }
+    ]
   }
 }
-

@@ -191,5 +191,133 @@
         "icon": "/assets/images/home/arrow-circle-right.webp"
       }
     ]
+  },
+  "web_app_development": {
+    "title": "Ready to Build Your High-Performance Web Application?",
+    "description": "Whether you're launching a new web app or optimizing an existing one, our team can help you create a scalable, secure, and user-friendly solution.",
+    "buttons": [
+      {
+        "text": "Get a Free Quote",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Speak to a Web App Specialist",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "saas_development": {
+    "title": "Ready to Build Your SaaS Product?",
+    "description": "Stop searching for a SaaS development company. Let's turn your idea into a successful, scalable SaaS product.",
+    "buttons": [
+      {
+        "text": "Get a Free SaaS Consultation",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your SaaS Project",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "custom_software_development": {
+    "title": "Ready to Build Your Custom Software Solution?",
+    "description": "Start your journey towards building a scalable, secure, and high-performance software platform today.",
+    "buttons": [
+      {
+        "text": "Get a Free Software Consultation",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your Software Project",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "ios_app_development": {
+    "title": "Ready to Build or Improve Your iOS App?",
+    "description": "Whether you're launching a new iOS application or rebuilding an existing one, our team can help you create a scalable, high-performance mobile product built for real-world use.",
+    "buttons": [
+      {
+        "text": "Get a Free App Consultation",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your App Project",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "android_app_development": {
+    "title": "Ready to Build or Improve Your Android App?",
+    "description": "Whether you're launching a new Android application or rebuilding an existing one, our team can help you create a scalable, high-performance mobile product built for real-world usage.",
+    "buttons": [
+      {
+        "text": "Get a Free App Consultation",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your App Project",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "flutter_app_development": {
+    "title": "Ready to Build or Scale a Flutter App?",
+    "description": "Whether you're launching a new cross-platform product or rebuilding an existing app, our team can help you create a fast, scalable Flutter application built for real-world use.",
+    "buttons": [
+      {
+        "text": "Get a Free App Consultation",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your App Project",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "app_ui_ux": {
+    "title": "Ready to Design a Mobile App Users Actually Enjoy Using?",
+    "description": "Whether you're building a new app or improving an existing one, our UI UX team can help you design an experience that supports adoption, engagement, and growth.",
+    "buttons": [
+      {
+        "text": "Get a UI UX Consultation",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your Design Project",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "app_maintenance": {
+    "title": "Ready to Keep Your Mobile App Running at Its Best?",
+    "description": "Protect your app’s performance, security, and user experience with a dedicated maintenance partner.",
+    "buttons": [
+      {
+        "text": "Get a Maintenance Consultation",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start App Support",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
   }
 }

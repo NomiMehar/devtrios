@@ -1,7 +1,7 @@
 @use "../../../styles/variables" as *;
 
 .development_services {
-  background: url("../../../public/assets/images/services/gray_bg.png") center fixed;
+  background: url("../../../public/assets/images/services/gray_bg.webp") center fixed;
   background-size: cover;
   padding: 100px 0 0;
   @media (max-width: $breakpoint_tablet) {
