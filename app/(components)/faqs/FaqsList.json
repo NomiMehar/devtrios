@@ -306,6 +306,182 @@
       "desc": "We offer comprehensive post-launch support, including bug fixes, performance monitoring, and feature updates to ensure your software remains secure and effective."
     }
   ],
+  "mvp_development": [
+    {
+      "title": "What is the average timeline for building an MVP?",
+      "desc": "Most MVPs we build take between six to twelve weeks. The exact time depends on the complexity of the features. We focus on the core value proposition to ensure we launch as fast as possible without compromising stability."
+    },
+    {
+      "title": "How much does MVP development cost?",
+      "desc": "Costs vary based on the scope but we pride ourselves on offering minimum viable product development services that fit startup budgets. We provide transparent pricing and help you prioritize features to keep costs manageable."
+    },
+    {
+      "title": "Do I own the code after the project is finished?",
+      "desc": "Yes, absolutely. You own 100% of the code and intellectual property. We are here to build your asset. Once the project is complete and paid for, everything belongs to you."
+    },
+    {
+      "title": "Can you help with updates after launch?",
+      "desc": "Yes, we love long-term partnerships. Many clients retain us for ongoing maintenance and feature additions. We can continue to support your growth as your technical team."
+    },
+    {
+      "title": "Do I need technical knowledge to work with you?",
+      "desc": "No, you do not. We handle all the technical heavy lifting. We communicate in plain English and keep you updated on progress so you can focus on marketing and business development."
+    }
+  ],
+  "api_development": [
+    {
+      "title": "What is API development?",
+      "desc": "API development is the process of building Application Programming Interfaces (APIs), which act as a set of rules and tools for building software applications. APIs allow different software systems to communicate and share data in a structured and secure way."
+    },
+    {
+      "title": "Why are API integration services important?",
+      "desc": "API integration is crucial for connecting various systems and platforms, enabling automation, data synchronization, and enhanced functionality without having to build new features from scratch."
+    },
+    {
+      "title": "What is the difference between REST and GraphQL APIs?",
+      "desc": "REST and GraphQL are two popular API styles. REST is a widely used standard that creates scalable and reliable web services, while GraphQL allows clients to request only the data they need, making it more efficient for complex applications."
+    },
+    {
+      "title": "How do you ensure the security of the APIs you build?",
+      "desc": "We implement industry-standard security practices, including authentication (OAuth 2.0), data encryption, rate limiting, and input validation, to ensure your data and API interactions remain secure."
+    },
+    {
+      "title": "What does the API testing and maintenance process involve?",
+      "desc": "Our API testing services include functional testing, performance testing, and security audits. Post-launch, we offer ongoing maintenance to handle updates, monitor performance, and ensure compatibility with evolving systems."
+    }
+  ],
+  "ai_automation": [
+    {
+      "title": "What types of businesses benefit most from AI & automation?",
+      "desc": "Organisations with repeatable processes, operational complexity, or growing data volumes see the strongest ROI."
+    },
+    {
+      "title": "Do you work with existing tools and systems?",
+      "desc": "Yes. Most solutions integrate directly with CRMs, ERPs, internal platforms, and third-party tools."
+    },
+    {
+      "title": "Is AI automation secure for enterprise use?",
+      "desc": "Yes, when designed properly. We implement access controls, data governance, and secure deployment models."
+    },
+    {
+      "title": "Can we start with one AI use case?",
+      "desc": "Absolutely. Many clients begin with a single automation or agent and expand over time."
+    },
+    {
+      "title": "Do you provide ongoing support?",
+      "desc": "Yes. We offer monitoring, optimisation, and continuous improvement for all AI systems we build."
+    }
+  ],
+  "ai_chatbots": [
+    {
+      "title": "What types of chatbots do you build?",
+      "desc": "Customer support bots, sales and lead qualification bots, transactional bots, and internal AI assistants."
+    },
+    {
+      "title": "Do your chatbots use NLP and machine learning?",
+      "desc": "Yes. We implement natural language understanding to interpret intent, context, and variations in user input."
+    },
+    {
+      "title": "Can the chatbot integrate with our CRM or support tools?",
+      "desc": "Yes. We integrate with CRMs, ticketing systems, databases, and custom APIs."
+    },
+    {
+      "title": "How long does chatbot development take?",
+      "desc": "Simple use cases can launch in 3–5 weeks. More complex implementations typically take 8–12 weeks."
+    },
+    {
+      "title": "Do you provide post-launch support?",
+      "desc": "Yes. We provide monitoring, retraining, optimisation, and feature expansion."
+    }
+  ],
+  "llm_development": [
+    {
+      "title": "What is the difference between custom LLM development and fine-tuning?",
+      "desc": "Custom development builds a model specifically for your data and use cases, while fine-tuning adapts an existing model for better accuracy and relevance."
+    },
+    {
+      "title": "Can you deploy LLMs privately?",
+      "desc": "Yes. We support private cloud and on-premise LLM deployments to maintain data control and compliance."
+    },
+    {
+      "title": "How long does LLM development take?",
+      "desc": "Most projects take between 6 and 16 weeks, depending on data readiness, model complexity, and integrations."
+    },
+    {
+      "title": "Do you integrate LLMs with existing systems?",
+      "desc": "Yes. We integrate LLMs with CRMs, ERPs, internal tools, and custom platforms via secure APIs."
+    },
+    {
+      "title": "Do you provide ongoing optimisation and support?",
+      "desc": "Yes. We offer continuous monitoring, retraining, and optimisation to maintain accuracy and performance."
+    }
+  ],
+  "automation_workflows": [
+    {
+      "title": "What is automation and workflow engineering?",
+      "desc": "It is the design and implementation of systems that automate repetitive processes, integrate tools, and orchestrate how work flows across a business."
+    },
+    {
+      "title": "Can you automate complex or legacy systems?",
+      "desc": "Yes. We regularly integrate modern automation platforms with legacy systems using APIs, RPA, or custom connectors."
+    },
+    {
+      "title": "How long does an automation project take?",
+      "desc": "Simple workflows may take weeks. More complex, cross-system automation typically runs over several phases. Timelines are defined during discovery."
+    },
+    {
+      "title": "Is automation secure?",
+      "desc": "Security is built into every workflow, including access controls, auditability, and compliance requirements."
+    },
+    {
+      "title": "What happens after deployment?",
+      "desc": "We provide monitoring, optimisation, and ongoing support to ensure automation remains reliable and effective."
+    }
+  ],
+  "blockchain_development": [
+    {
+      "title": "Do you support multiple blockchain networks?",
+      "desc": "Yes. We work across leading public and private blockchains depending on the use case."
+    },
+    {
+      "title": "Do you audit smart contracts you build?",
+      "desc": "Yes. Security reviews and audits are part of our delivery process."
+    },
+    {
+      "title": "Can you integrate blockchain into existing systems?",
+      "desc": "Yes. We regularly integrate blockchain components with existing platforms and APIs."
+    },
+    {
+      "title": "Do you provide post-launch support?",
+      "desc": "Yes. We offer maintenance, upgrades, and monitoring."
+    },
+    {
+      "title": "Is blockchain suitable for regulated industries?",
+      "desc": "Yes, when designed correctly. We factor compliance and security into architecture decisions."
+    }
+  ],
+  "generative_ai": [
+    {
+      "title": "What is Generative AI development?",
+      "desc": "Generative AI development involves building systems that can generate text, data, or other outputs using AI models, engineered to operate reliably within real business environments."
+    },
+    {
+      "title": "Do you use public models like GPT?",
+      "desc": "We can use leading models where appropriate, but always within controlled architectures, often combined with private data and Retrieval Augmented Generation to ensure accuracy and security."
+    },
+    {
+      "title": "Is our data kept private?",
+      "desc": "Yes. We design solutions that respect data ownership, security, and compliance. Models can be deployed within your private cloud or infrastructure."
+    },
+    {
+      "title": "Can Generative AI integrate with our existing systems?",
+      "desc": "Absolutely. We specialise in integrating Generative AI into existing software, workflows, CRMs, ERPs, and internal tools."
+    },
+    {
+      "title": "Is this suitable for enterprise use?",
+      "desc": "Yes. Our Generative AI solutions are designed for production, scalability, and governance, not experimentation."
+    }
+  ],
   "ios_app_development": [
     {
       "title": "How long does an iOS app development project take?",

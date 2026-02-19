@@ -712,6 +712,452 @@
       }
     ]
   },
+  "mvp_development": {
+    "title": "Launch Your Startup Faster with Expert MVP Development Services",
+    "titleStart": "Launch Your Startup Faster",
+    "titleEnd": "with Expert MVP Development Services",
+    "description": "You have a groundbreaking idea. You see a gap in the market that no one else is filling. But having an idea and building a successful business are two very different things. The bridge between your vision and a thriving product is execution. That is where Devtrios comes in.\nWe are more than just a coding shop. We are a dedicated MVP development company built for founders who want to win. At Devtrios, we understand the high-stakes world of startups. You cannot afford to waste months building features that users might not want. You need to validate your concept quickly and efficiently.\nOur team partners with visionary founders to turn rough concepts into market-ready products. We focus on what matters most: solving real problems for real users. If you are looking for a partner who cares as much about your success as you do, then you are in the right place. Let us help you build the right product the first time.",
+    "benefits": [
+      "Rapid MVP development to get to market faster",
+      "Product validation and strategy services",
+      "SaaS and mobile app MVP development",
+      "Scalable architecture built for growth",
+      "Cost-effective solutions for startups"
+    ],
+    "buttons": [
+      {
+        "text": "Request a Free Consultation",
+        "link": "/contact-us",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Contact Our MVP Experts",
+        "link": "/get-a-quote"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "Why Choose Devtrios as Your Startup MVP Development Company:",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Rapid MVP development to get to market faster"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Product validation and strategy services"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "SaaS and mobile app MVP development"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Scalable architecture built for growth"
+      }
+    ]
+  },
+  "ai_automation": {
+    "title": "AI & Automation Services",
+    "titleStart": "AI & Automation Services",
+    "titleEnd": "Engineering intelligent systems that reduce cost, increase speed, and scale execution",
+    "description": "AI is no longer experimental.\n It is now an operational advantage.\nAt Devtrios, we design and build AI and automation systems that replace manual effort, reduce operational friction, and enable businesses to operate faster and smarter. From AI agents and large language models to workflow automation and generative AI, we focus on production-ready systems that integrate cleanly into your existing infrastructure.\nThis is not about tools.\n It is about engineered systems that work under real business conditions.",
+    "benefits": [
+      "AI Chatbots for intelligent conversational systems",
+      "AI Agents for task-driven automation",
+      "LLM Development for custom language models",
+      "Automation & Workflow Engineering",
+      "Generative AI solutions with governance"
+    ],
+    "buttons": [
+      {
+        "text": "Book a Free AI Strategy Call",
+        "link": "/contact-us",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Custom AI Solution",
+        "link": "/get-a-quote"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What We Deliver with AI & Automation:",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "AI Chatbots for intelligent conversational systems"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "AI Agents for task-driven automation"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "LLM Development for custom language models"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Automation & Workflow Engineering"
+      }
+    ]
+  },
+  "ai_chatbots": {
+    "title": "AI Chatbot Development Services for Automation, Sales, and Scalable Support",
+    "titleStart": "AI Chatbot Development Services",
+    "titleEnd": "for Automation, Sales, and Scalable Support",
+    "description": "AI chatbots are no longer a nice-to-have. They are operational infrastructure.\n When implemented correctly, they reduce support load, qualify leads, and handle high-volume conversations without degrading customer experience.\nAs an AI chatbot development company, Devtrios builds production-grade chatbots designed to integrate into real business workflows. We focus on reliability, accuracy, and measurable outcomes, not novelty or scripted demos.\nWhether you need customer support automation, sales qualification, or internal process automation, our AI chatbot solutions are built to scale with your business.",
+    "benefits": [
+      "Automated customer conversations without loss of quality",
+      "Reduced support workload and faster response times",
+      "Lead qualification and sales enablement",
+      "Secure integration with existing systems",
+      "Continuous improvement through learning and optimisation"
+    ],
+    "buttons": [
+      {
+        "text": "Get an AI Chatbot Consultation",
+        "link": "/contact-us",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Custom Quote",
+        "link": "/get-a-quote"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What our AI chatbot solutions deliver:",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Automated customer conversations without loss of quality"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Reduced support workload and faster response times"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Lead qualification and sales enablement"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Secure integration with existing systems"
+      }
+    ]
+  },
+  "llm_development": {
+    "title": "LLM Development Services for Secure, Scalable Enterprise AI Solutions",
+    "titleStart": "LLM Development Services",
+    "titleEnd": "for Secure, Scalable Enterprise AI Solutions",
+    "description": "Large Language Models are only valuable when they are accurate, secure, and embedded into real business workflows.\n At Devtrios, we provide professional LLM development services for organisations that need reliable, production-ready AI, not experiments.\nAs an LLM development company, we design and build custom large language model solutions that automate operations, improve decision-making, and scale safely across teams, customers, and systems.\nWhether you are fine-tuning an existing model or building a private enterprise LLM, we focus on control, performance, and long-term maintainability.",
+    "benefits": [
+      "Custom LLMs trained on proprietary business data",
+      "Secure private deployment (cloud or on-premise)",
+      "Fine-tuned accuracy for domain-specific use cases",
+      "Scalable inference and cost-controlled architecture",
+      "Seamless integration with existing business systems"
+    ],
+    "buttons": [
+      {
+        "text": "Get an LLM Strategy Consultation",
+        "link": "/contact-us",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Custom LLM Quote",
+        "link": "/get-a-quote"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What our LLM development services deliver",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Custom LLMs trained on proprietary business data"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Secure private deployment (cloud or on-premise)"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Fine-tuned accuracy for domain-specific use cases"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Scalable inference and cost-controlled architecture"
+      }
+    ]
+  },
+  "automation_workflows": {
+    "title": "Automation & Workflow Engineering Built for Scale and Control",
+    "titleStart": "Automation & Workflow Engineering",
+    "titleEnd": "Built for Scale and Control",
+    "description": "Manual processes slow teams down, introduce risk, and make growth expensive. Automation is not about replacing people. It is about removing friction from how work actually gets done.\nAt Devtrios, we design and engineer automation workflows that connect systems, remove repetitive tasks, and create predictable, scalable operations. From internal business processes to cross-platform integrations, we build automation that works quietly in the background and delivers measurable operational impact.",
+    "benefits": [
+      "Repetitive manual work consuming senior team time",
+      "Errors caused by manual data entry and handoffs",
+      "Disconnected tools across CRM, finance, operations, and support",
+      "Processes that work at small scale but collapse under growth",
+      "Teams compensating with spreadsheets, emails, and workarounds"
+    ],
+    "buttons": [
+      {
+        "text": "Book a Free Automation Consultation",
+        "link": "/contact-us",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Custom Automation Plan",
+        "link": "/get-a-quote"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What Breaks Without Automation",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Repetitive manual work consuming senior team time"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Errors caused by manual data entry and handoffs"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Disconnected tools across CRM, finance, operations, and support"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Processes that work at small scale but collapse under growth"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Teams compensating with spreadsheets, emails, and workarounds"
+      }
+    ]
+  },
+  "generative_ai": {
+    "title": "Generative AI Development Services for Accuracy, Control, and Real Business Impact",
+    "titleStart": "Generative AI Development Services",
+    "titleEnd": "Production-ready systems built for accuracy, control, and real business impact",
+    "description": "Generative AI is no longer about experimentation. Businesses now expect systems that reliably generate content, insights, and decisions at scale, without compromising security, accuracy, or brand control.\nAt Devtrios, we design and build custom Generative AI solutions that integrate directly into your products, workflows, and data environments. From internal knowledge systems to customer-facing AI features, we help organisations deploy Generative AI that delivers measurable value, not novelty.",
+    "benefits": [
+      "Inconsistent or unreliable AI outputs",
+      "Lack of grounding in internal data and knowledge",
+      "Security and compliance risks with public models",
+      "AI systems that cannot scale beyond pilot use",
+      "High operational cost without clear ROI"
+    ],
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "link": "/contact-us",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Talk to Our AI Engineering Team",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What Generative AI Solves for Your Business",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Inconsistent or unreliable AI outputs"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Lack of grounding in internal data and knowledge"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Security and compliance risks with public models"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "AI systems that cannot scale beyond pilot use"
+      }
+    ]
+  },
+  "blockchain_development": {
+    "title": "Blockchain Development Services for Secure, Scalable, Real-World Products",
+    "titleStart": "Blockchain Development Services",
+    "titleEnd": "for Secure, Scalable, Real-World Products",
+    "description": "Blockchain is not about hype. It's about trust, automation, and verifiable systems that remove friction from complex processes.\nAs a blockchain development company, Devtrios delivers secure, scalable blockchain development services for businesses that need real-world applications, not experiments. We build decentralised systems, smart contracts, and Web3 platforms that are production-ready, auditable, and designed for long-term adoption.\nWhether you're launching a Web3 product, tokenised platform, or integrating blockchain into existing infrastructure, we focus on reliability, security, and business outcomes.",
+    "benefits": [
+      "Secure, decentralised system architecture",
+      "Audited, production-ready smart contracts",
+      "Web3 and blockchain integrations",
+      "Scalable infrastructure built for real usage",
+      "Compliance-aware design from day one"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free Blockchain Consultation",
+        "link": "/contact-us",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Project Quote",
+        "link": "/get-a-quote"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What our blockchain solutions deliver:",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Secure, decentralised system architecture"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Audited, production-ready smart contracts"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Web3 and blockchain integrations"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Scalable infrastructure built for real usage"
+      }
+    ]
+  },
+  "api_development": {
+    "title": "Premier API Development Services for Seamless Connectivity",
+    "titleStart": "Premier API Development Services",
+    "titleEnd": "for Seamless Connectivity",
+    "description": "In today's interconnected ecosystem, your applications need to communicate flawlessly. Your data must flow securely, and your operations need to be automated for maximum efficiency. This is where a powerful, well-built API becomes your greatest asset.\nAt Devtrios, we are more than just an API development company; we are your strategic partners in building the digital bridges that power your business growth. We specialize in creating robust, scalable, and secure APIs that unlock new revenue streams, enhance user experiences, and streamline your operations. Without a professional partner, you risk creating data silos, security vulnerabilities, and inefficient workflows that hold your business back.",
+    "benefits": [
+      "Custom API development tailored to your business needs",
+      "Third-party API integration services",
+      "Secure, enterprise-grade API solutions",
+      "API modernization and migration services",
+      "Comprehensive API testing and maintenance"
+    ],
+    "buttons": [
+      {
+        "text": "Hire API Developers from Devtrios",
+        "link": "/contact-us",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Contact Our API Experts",
+        "link": "/get-a-quote"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "Unlock Your Business Potential with Expert API Solutions:",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Custom API development tailored to your business needs"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Third-party API integration services"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Secure, enterprise-grade API solutions"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "API modernization and migration services"
+      }
+    ]
+  },
   "ios_app_development": {
     "title": "iOS App Development Services for Scalable, High-Performance Applications",
     "titleStart": "iOS App Development Services",

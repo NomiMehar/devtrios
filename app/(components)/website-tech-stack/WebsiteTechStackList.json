@@ -334,5 +334,63 @@
         }
       ]
     }
+  },
+  "blockchain_development": {
+    "title": "Tech Stack That Powers Our Blockchain Development Services",
+    "description": "We use proven blockchain and Web3 technologies to build secure, scalable decentralised systems, smart contracts, and integrations.",
+    "categories": {
+      "Blockchain & Web3": [
+        {
+          "name": "Ethereum",
+          "logo": "/assets/images/technology_stack/Node.js.webp"
+        },
+        {
+          "name": "Smart Contracts",
+          "logo": "/assets/images/technology_stack/express.webp"
+        },
+        {
+          "name": "Web3.js",
+          "logo": "/assets/images/technology_stack/javascript.webp"
+        },
+        {
+          "name": "IPFS",
+          "logo": "/assets/images/technology_stack/graphql.webp"
+        }
+      ],
+      "Backend & APIs": [
+        {
+          "name": "Node.js",
+          "logo": "/assets/images/technology_stack/Node.js.webp"
+        },
+        {
+          "name": "REST API",
+          "logo": "/assets/images/technology_stack/rest_api.webp"
+        },
+        {
+          "name": "GraphQL",
+          "logo": "/assets/images/technology_stack/graphql.webp"
+        }
+      ],
+      "Databases": [
+        {
+          "name": "PostgreSQL",
+          "logo": "/assets/images/technology_stack/postgresql-logo-1.webp"
+        },
+        {
+          "name": "MongoDB",
+          "logo": "/assets/images/technology_stack/mongodb.webp"
+        }
+      ],
+      "Cloud & Infrastructure": [
+        {
+          "name": "AWS",
+          "logo": "/assets/images/technology_stack/Amazon_Web_Services.webp"
+        },
+        {
+          "name": "Azure",
+          "logo": "/assets/images/technology_stack/microsoft_azure_logo.webp"
+        }
+      ]
+    }
   }
 }

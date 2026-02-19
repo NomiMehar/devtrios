@@ -111,6 +111,64 @@
         "image": "/assets/images/services/who-we-build.webp"
       }
     ]
+  },
+  "mvp_solutions": {
+    "heading": "Our Core MVP Development Services",
+    "description": "We offer a full suite of options to get you from zero to one. Our MVP software development services cover every stage of the product lifecycle.",
+    "solutions": [
+      {
+        "title": "Product Validation and Strategy",
+        "description": "Before writing a single line of code, we help you test your assumptions. Our MVP consulting and strategy services ensure you are solving a painful problem for a market willing to pay. We help you define your core value proposition and map out the user journey. This crucial step saves you time and money by preventing you from building the wrong thing.",
+        "image": "/assets/images/services/web-app-solutions.webp"
+      },
+      {
+        "title": "Rapid Prototyping",
+        "description": "You need to see your idea to believe in it. We offer MVP prototype development services that bring your vision to life visually. This is perfect for pitching to investors or getting early feedback from potential customers without the cost of full development.",
+        "image": "/assets/images/services/who-we-build.webp"
+      },
+      {
+        "title": "SaaS and Mobile App Development",
+        "description": "We are experts in both web and mobile platforms. As a specialized SaaS MVP development services provider, we build scalable cloud-based platforms that can handle growth. If your focus is mobile, we act as your MVP app development company to create intuitive iOS and Android experiences that users love.",
+        "image": "/assets/images/services/web-app-solutions.webp"
+      }
+    ]
+  },
+  "api_solutions": {
+    "heading": "Our Core API Development and Integration Services",
+    "description": "We offer a full spectrum of services to meet your specific needs, from initial concept to long-term maintenance.",
+    "solutions": [
+      {
+        "title": "Custom API Development Services",
+        "description": "We build bespoke APIs from the ground up, tailored to your unique business logic and objectives. Whether you need REST API development or expertise in GraphQL API development, our team delivers solutions that fit you perfectly.",
+        "image": "/assets/images/services/web-app-solutions.webp"
+      },
+      {
+        "title": "Third-Party API Integration Services",
+        "description": "Seamlessly connect your applications with popular platforms and services. We handle the complexities of integrating with external APIs, ensuring your software ecosystem works as one cohesive unit.",
+        "image": "/assets/images/services/who-we-build.webp"
+      },
+      {
+        "title": "Backend API Development Services",
+        "description": "Power your mobile and web applications with a robust and scalable backend. We build the server-side logic that ensures your applications are fast, reliable, and ready to grow with your user base.",
+        "image": "/assets/images/services/web-app-solutions.webp"
+      },
+      {
+        "title": "API Architecture Design Services",
+        "description": "A great API starts with a great plan. Our experts design future-proof API architectures focused on security, performance, and scalability, laying a solid foundation for your digital products.",
+        "image": "/assets/images/services/who-we-build.webp"
+      },
+      {
+        "title": "Secure, Scalable, and Built for the Enterprise",
+        "description": "Security is not an afterthought; it's at the core of our process. We implement best-in-class security protocols to protect your data and your users. Our secure API development services ensure your connections are authenticated, authorized, and encrypted against threats.\n\nFor larger organizations, our enterprise API development solutions provide the governance, control, and performance needed to operate at scale. We understand the demands of complex corporate environments and deliver APIs that integrate smoothly with your existing infrastructure, including offering comprehensive cloud API development services for platforms like AWS, Azure, and Google Cloud.",
+        "image": "/assets/images/services/web-app-solutions.webp",
+        "points": [
+          "Security is not an afterthought; it's at the core of our process. We implement best-in-class security protocols to protect your data and your users.",
+          "Our secure API development services ensure your connections are authenticated, authorized, and encrypted against threats.",
+          "For larger organizations, our enterprise API development solutions provide the governance, control, and performance needed to operate at scale.",
+          "We offer comprehensive cloud API development services for platforms like AWS, Azure, and Google Cloud."
+        ]
+      }
+    ]
   }
 }
 

@@ -48,6 +48,76 @@
         "variant": "secondary"
       }
     ]
+  },
+  "mvp_speed_to_market": {
+    "heading": "Speed to Market Matters",
+    "description": "In the startup world, speed is your best weapon. Our rapid MVP development services are designed to launch your product in weeks, not months. We use agile methodologies to deliver value quickly. This approach lets you start marketing and selling sooner.",
+    "audiences": [
+      "We act as a product MVP development agency that respects your runway",
+      "We know that every day spent in development is a day you are burning cash without revenue",
+      "Our process is streamlined to remove bottlenecks and keep momentum high"
+    ],
+    "image": "/assets/images/services/web-app-solutions.webp",
+    "imageAlt": "Speed to Market"
+  },
+  "mvp_building_for_future": {
+    "heading": "Building for the Future",
+    "description": "An MVP is just the beginning. We do not just hand over code and disappear. We offer tech startup MVP development that scales with you. Our architecture is built to handle growth so you do not have to rebuild when you hit your first ten thousand users.",
+    "audiences": [
+      "We provide MVP iteration and scaling services to help you grow",
+      "Once your product is live, we analyze user behavior and help you decide what features to build next",
+      "This data-driven approach ensures you are always adding value"
+    ],
+    "image": "/assets/images/services/who-we-build.webp",
+    "imageAlt": "Building for the Future"
+  },
+  "mvp_why_founders_trust": {
+    "heading": "Why Founders Trust Devtrios",
+    "description": "We have walked in your shoes. We know the anxiety of launch day and the thrill of the first paying customer. This empathy drives everything we do. We are an MVP design and development company that puts business outcomes first.",
+    "audiences": [
+      "Our clients choose us because we offer cost-effective MVP development services without sacrificing quality",
+      "We use modern tech stacks that allow for faster development and easier maintenance",
+      "When you hire us, you get a dedicated MVP development team that works as an extension of your own company",
+      "We celebrate your wins and hustle to solve your challenges"
+    ],
+    "image": "/assets/images/services/web-app-solutions.webp",
+    "imageAlt": "Why Founders Trust Devtrios"
+  },
+  "mvp_success_stories": {
+    "heading": "Success Stories",
+    "description": "We have helped dozens of startups validate their ideas and secure funding. From healthcare platforms that simplify patient intake to e-commerce tools that boost conversion rates, our work speaks for itself. We take pride in being the engine behind successful product launches.",
+    "audiences": [
+      "Our MVP product launch services ensure that when you go live, everything runs smoothly",
+      "We have helped startups secure funding based on MVP demonstrations",
+      "Our clients have successfully validated concepts and attracted early users"
+    ],
+    "image": "/assets/images/services/who-we-build.webp",
+    "imageAlt": "Success Stories"
+  },
+  "api_modernization": {
+    "heading": "From Modernization to Maintenance: Your Full-Lifecycle Partner",
+    "description": "Is your existing API landscape holding you back? We specialize in API modernization and migration services, helping you transition from legacy systems to modern, agile, and more efficient architectures without disrupting your business operations.",
+    "audiences": [
+      "Our commitment doesn't end at launch. We provide thorough API testing and maintenance services to ensure your integrations remain flawless",
+      "Through API automation and orchestration services, we help you manage and monitor your connections",
+      "We guarantee uptime and peak performance long after deployment"
+    ],
+    "image": "/assets/images/services/web-app-solutions.webp",
+    "imageAlt": "API Modernization and Maintenance"
+  },
+  "ai_automation": {
+    "heading": "Why Choose Devtrios for AI & Automation",
+    "description": "We are not a tooling reseller or a prompt-engineering shop.\n We are an engineering partner.",
+    "audiences": [
+      "Business-first AI system design",
+      "Strong focus on architecture, security, and scalability",
+      "Experience deploying AI in production environments",
+      "Clear communication with technical and non-technical stakeholders",
+      "Long-term support and ownership clarity",
+      "We build AI systems executives can rely on."
+    ],
+    "image": "/assets/images/services/who-we-build.webp",
+    "imageAlt": "Why Choose Devtrios for AI & Automation"
   }
 }
 

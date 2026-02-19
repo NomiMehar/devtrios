@@ -716,5 +716,291 @@
         ]
       }
     ]
+  },
+  "mvp_development": {
+    "heading": {
+      "title": "MVP Development in Practice",
+      "description": "We have helped dozens of startups validate their ideas and secure funding. From healthcare platforms that simplify patient intake to e-commerce tools that boost conversion rates, our work speaks for itself."
+    },
+    "projects": [
+      {
+        "title": "Healthcare Platform MVP",
+        "industry": "Healthcare & Patient Management",
+        "summary": "We have helped dozens of startups validate their ideas and secure funding. From healthcare platforms that simplify patient intake to e-commerce tools that boost conversion rates, our work speaks for itself.",
+        "technicalFocus": "MVP development, patient intake system, healthcare platform, rapid prototyping, scalable architecture.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "A healthcare startup needed to quickly validate their concept for a patient intake platform. They required an MVP that could demonstrate value to investors and early users while maintaining healthcare compliance standards.",
+        "solution": "We developed a rapid MVP that simplified patient intake processes, focusing on core features that demonstrated value. The platform was built with scalability in mind and included essential compliance features from day one.",
+        "outcomes": [
+          "Successfully validated concept with early users",
+          "Secured funding based on MVP demonstration",
+          "Reduced patient intake time by 50%",
+          "Scalable architecture ready for growth"
+        ],
+        "results": [
+          "Successfully validated concept with early users",
+          "Secured funding based on MVP demonstration",
+          "Reduced patient intake time by 50%",
+          "Scalable architecture ready for growth"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "api_development": {
+    "heading": {
+      "title": "API Development in Practice",
+      "description": "Here's an example of how our API development services deliver real-world performance and efficiency."
+    },
+    "projects": [
+      {
+        "title": "E-commerce Checkout Flow",
+        "industry": "E-commerce and Retail",
+        "summary": "Here's an example of how our API development services deliver real-world performance and efficiency.",
+        "technicalFocus": "Custom API development, third-party integration, checkout automation, inventory management, real-time updates.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "The client's existing e-commerce platform faced issues with order processing speed, manual inventory management, and poor user experience at checkout. These inefficiencies were affecting their conversion rates, causing high cart abandonment and increasing operational costs.",
+        "solution": "We developed and integrated a custom API solution to streamline the checkout process and automate inventory management. The new system connected the front-end user experience to the back-end inventory system, ensuring smooth order processing and real-time stock updates.",
+        "outcomes": [
+          "Improved Checkout Speed: Reduced checkout times by 30% by automating order processing",
+          "Increased Conversion Rate: Improved conversion rates by 20% due to faster, seamless checkout",
+          "Operational Efficiency: Automated inventory management, reducing manual errors and operational costs by 25%"
+        ],
+        "results": [
+          "Improved Checkout Speed: Reduced checkout times by 30% by automating order processing",
+          "Increased Conversion Rate: Improved conversion rates by 20% due to faster, seamless checkout",
+          "Operational Efficiency: Automated inventory management, reducing manual errors and operational costs by 25%"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "ai_automation": {
+    "heading": {
+      "title": "AI & Automation in Practice",
+      "description": "This is what practical AI implementation looks like."
+    },
+    "projects": [
+      {
+        "title": "Internal Operations Automation",
+        "industry": "B2B Services",
+        "summary": "This is what practical AI implementation looks like.",
+        "technicalFocus": "AI-driven automation, workflow orchestration, AI agents, task routing, data summarization, system integration.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "The organisation relied on manual coordination across reporting, task assignment, and internal approvals. Processes were slow, inconsistent, and difficult to scale.",
+        "solution": "We designed an AI-driven automation system combining workflow orchestration and AI agents. The system automated task routing, summarised internal data, and coordinated actions across existing tools.",
+        "outcomes": [
+          "Reduced manual operational tasks by 40–50%",
+          "Improved internal response times by 30%",
+          "Lowered error rates through automated decision logic",
+          "Established a scalable foundation for future AI agents"
+        ],
+        "results": [
+          "Reduced manual operational tasks by 40–50%",
+          "Improved internal response times by 30%",
+          "Lowered error rates through automated decision logic",
+          "Established a scalable foundation for future AI agents"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "ai_chatbots": {
+    "heading": {
+      "title": "AI Chatbots in Practice",
+      "description": "Here's a representative example of how our AI chatbot development services deliver measurable business impact."
+    },
+    "projects": [
+      {
+        "title": "Customer Support & Lead Qualification Chatbot",
+        "industry": "SaaS / Online Services",
+        "summary": "Here's a representative example of how our AI chatbot development services deliver measurable business impact.",
+        "technicalFocus": "AI-powered chatbot, customer support automation, lead qualification, CRM integration, ticketing system integration.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "The business faced increasing support volumes, slow response times outside office hours, and inconsistent lead qualification from website traffic.",
+        "solution": "We deployed an AI-powered chatbot capable of handling common support queries, qualifying inbound leads, and integrating directly with the CRM and ticketing system.",
+        "outcomes": [
+          "Automated handling of approximately 60–70% of inbound support queries",
+          "Reduced average response time by 40%",
+          "Increased qualified lead capture by 25–30%",
+          "Improved consistency across customer interactions"
+        ],
+        "results": [
+          "Automated handling of approximately 60–70% of inbound support queries",
+          "Reduced average response time by 40%",
+          "Increased qualified lead capture by 25–30%",
+          "Improved consistency across customer interactions"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "llm_development": {
+    "heading": {
+      "title": "LLM Development in Practice",
+      "description": "Here's a representative example of how our LLM development services deliver measurable business impact."
+    },
+    "projects": [
+      {
+        "title": "Internal Knowledge & Automation Platform",
+        "industry": "Enterprise Operations & SaaS",
+        "summary": "Here's a representative example of how our LLM development services deliver measurable business impact.",
+        "technicalFocus": "Private LLM, internal documentation, operational data, search, summarisation, workflow automation.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "The organisation struggled with fragmented internal documentation, manual reporting processes, and slow access to operational knowledge across teams.",
+        "solution": "We developed a private LLM trained on internal documentation, operational data, and structured knowledge sources. The model was integrated into internal tools to support search, summarisation, and workflow automation.",
+        "outcomes": [
+          "Reduced internal search and documentation time by approximately 40–50%",
+          "Automated recurring reporting tasks, reducing manual effort by 35%",
+          "Improved response accuracy for internal queries by over 45%",
+          "Secure, private deployment supporting future AI use cases"
+        ],
+        "results": [
+          "Reduced internal search and documentation time by approximately 40–50%",
+          "Automated recurring reporting tasks, reducing manual effort by 35%",
+          "Improved response accuracy for internal queries by over 45%",
+          "Secure, private deployment supporting future AI use cases"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "automation_workflows": {
+    "heading": {
+      "title": "Automation in Practice",
+      "description": "A generic case example of how our automation and workflow engineering delivers measurable operational impact."
+    },
+    "projects": [
+      {
+        "title": "Internal Operations Automation",
+        "industry": "B2B Services",
+        "summary": "The client relied on manual workflows across CRM, billing, reporting, and internal approvals. We designed and implemented a multi-step automation workflow that connected CRM, finance tools, and internal dashboards.",
+        "technicalFocus": "Multi-step automation, CRM integration, finance tools, internal dashboards, validation rules, exception handling.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "The client relied on manual workflows across CRM, billing, reporting, and internal approvals. Processes were slow, error-prone, and required constant human intervention as volumes increased.",
+        "solution": "We designed and implemented a multi-step automation workflow that connected CRM, finance tools, and internal dashboards. Manual handoffs were replaced with automated triggers, validation rules, and exception handling.",
+        "outcomes": [
+          "Reduced manual processing time by 48%",
+          "Lowered data-related errors by 35%",
+          "Improved turnaround time for internal requests by 40%",
+          "Enabled scalable operations without increasing headcount"
+        ],
+        "results": [
+          "Reduced manual processing time by 48%",
+          "Lowered data-related errors by 35%",
+          "Improved turnaround time for internal requests by 40%",
+          "Enabled scalable operations without increasing headcount"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "blockchain_development": {
+    "heading": {
+      "title": "Blockchain Development in Practice",
+      "description": "Here's an example of how our blockchain development services deliver real-world value."
+    },
+    "projects": [
+      {
+        "title": "Tokenised digital platform",
+        "industry": "Digital Assets & Web3",
+        "summary": "The client required a secure decentralised platform to automate transactions, reduce reliance on intermediaries, and ensure transparent on-chain records. We designed a blockchain architecture with audited smart contracts, wallet integrations, and secure transaction workflows.",
+        "technicalFocus": "Blockchain architecture, audited smart contracts, wallet integrations, secure transaction workflows, gas efficiency, scalability.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "The client required a secure decentralised platform to automate transactions, reduce reliance on intermediaries, and ensure transparent on-chain records. Security, scalability, and compliance were critical concerns.",
+        "solution": "We designed a blockchain architecture with audited smart contracts, wallet integrations, and secure transaction workflows. The system was optimised for gas efficiency and built to scale as user activity increased.",
+        "outcomes": [
+          "Automated trustless transactions via smart contracts",
+          "Improved transparency through on-chain verification",
+          "Reduced operational risk and manual processes",
+          "Scalable infrastructure ready for future expansion"
+        ],
+        "results": [
+          "Automated trustless transactions via smart contracts",
+          "Improved transparency through on-chain verification",
+          "Reduced operational risk and manual processes",
+          "Scalable infrastructure ready for future expansion"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "generative_ai": {
+    "heading": {
+      "title": "Generative AI in Practice",
+      "description": "This demonstrates how Generative AI delivers value when engineered around real business processes."
+    },
+    "projects": [
+      {
+        "title": "Internal Knowledge & Content Automation Platform",
+        "industry": "Professional Services",
+        "summary": "The organisation relied heavily on manual research, document preparation, and internal knowledge sharing. We developed a custom Generative AI system using a Retrieval Augmented Generation architecture.",
+        "technicalFocus": "Generative AI, RAG architecture, internal documentation, policies, structured data, summaries, reports.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "The organisation relied heavily on manual research, document preparation, and internal knowledge sharing. Information was fragmented across systems, leading to duplicated work and inconsistent outputs.",
+        "solution": "We developed a custom Generative AI system using a Retrieval Augmented Generation architecture. The AI was connected to internal documentation, policies, and structured data sources, enabling teams to generate accurate summaries, reports, and responses directly from trusted internal knowledge.",
+        "outcomes": [
+          "Reduced manual research and content preparation time by 40%",
+          "Improved consistency and accuracy of internal outputs",
+          "Enabled teams to access institutional knowledge on demand",
+          "Scalable foundation for future AI-driven workflows"
+        ],
+        "results": [
+          "Reduced manual research and content preparation time by 40%",
+          "Improved consistency and accuracy of internal outputs",
+          "Enabled teams to access institutional knowledge on demand",
+          "Scalable foundation for future AI-driven workflows"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
   }
 }

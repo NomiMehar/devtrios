@@ -54,7 +54,7 @@
 
   .timeline {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(var(--steps-count, 5), 1fr);
     justify-content: center;
     align-items: stretch;
     gap: 20px;

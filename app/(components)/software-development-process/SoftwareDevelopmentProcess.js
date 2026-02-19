@@ -14,6 +14,7 @@ export default function SoftwareDevelopmentProcess({
   }
 
   const steps = data.steps || [];
+  const stepsCount = steps.length;
 
   return (
     <section className={styles.software_dev_process}>
@@ -23,7 +24,10 @@ export default function SoftwareDevelopmentProcess({
           <p>{data.description}</p>
         </div>
 
-        <div className={styles.timeline}>
+        <div 
+          className={styles.timeline}
+          style={{ '--steps-count': stepsCount }}
+        >
           {steps.map((step, index) => {
             return (
               <article key={step.title} className={styles.step_card}>

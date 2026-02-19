@@ -17,6 +17,23 @@
       grid-template-columns: 1fr;
       gap: 12px;
     }
+    
+    &.reverse {
+      .content_wrapper {
+        order: 2;
+      }
+      .image_wrapper {
+        order: 1;
+      }
+      @media screen and (max-width: $breakpoint_tablet) {
+        .content_wrapper {
+          order: 1;
+        }
+        .image_wrapper {
+          order: 2;
+        }
+      }
+    }
    .content_wrapper {
    .heading_wrapper {
      margin-bottom: 20px;

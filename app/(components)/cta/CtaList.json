@@ -240,6 +240,139 @@
       }
     ]
   },
+  "mvp_development": {
+    "title": "Ready to Build Your Dream Product?",
+    "description": "The market is waiting for your solution. Don't let your idea stay just an idea. It's time to take action. At Devtrios, we are ready to bring your vision to life. If you want to hire MVP developers who are committed to your success, contact us today. Let's validate your concept, build your product, and launch your business.",
+    "buttons": [
+      {
+        "text": "Request a Free Consultation",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Contact Our MVP Experts",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Get Started",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "api_development": {
+    "title": "Let's Build Your Connected Future",
+    "description": "Don't let disconnected systems and inefficient workflows limit your potential. It's time to build the powerful, seamless digital experiences your customers expect and the streamlined operational efficiency your business needs. Partner with a trusted API development company that delivers results.",
+    "buttons": [
+      {
+        "text": "Hire API Developers from Devtrios",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Contact Our API Experts for a Free Consultation",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "ai_automation": {
+    "title": "Ready to Build Intelligent Systems That Scale?",
+    "description": "If you are serious about AI that delivers real operational value, not experiments, let's talk.",
+    "buttons": [
+      {
+        "text": "Book a Free AI Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Request a Custom AI Solution",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "ai_chatbots": {
+    "title": "Ready to Build an AI Chatbot That Actually Works?",
+    "description": "If you want automation that reduces workload, improves response times, and supports growth, we can help you build it properly.",
+    "buttons": [
+      {
+        "text": "Get an AI Chatbot Consultation",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your Chatbot Project",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "llm_development": {
+    "title": "Ready to Build a Secure, Scalable LLM?",
+    "description": "Whether you're introducing AI into internal operations or embedding LLMs into your product, we can help you build a controlled, production-ready solution.",
+    "buttons": [
+      {
+        "text": "Get an LLM Strategy Consultation",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your LLM Project",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "automation_workflows": {
+    "title": "Build Automation That Actually Holds Up",
+    "description": "Automation should reduce operational load, not create new dependencies or hidden risks. We design workflows that are clear, resilient, and built for long-term use. If you want automation that works quietly, scales properly, and delivers measurable results, we should talk.",
+    "buttons": [
+      {
+        "text": "Book a Free Automation Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Request a Custom Automation Proposal",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "generative_ai": {
+    "title": "Ready to Deploy Generative AI That Actually Works?",
+    "description": "If you are looking to move beyond experimentation and deploy Generative AI that delivers real operational or commercial impact, we can help. Build secure, scalable Generative AI systems engineered for your business.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Talk to Our AI Engineering Team",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "blockchain_development": {
+    "title": "Ready to Build a Blockchain Product That Actually Works?",
+    "description": "Whether you're launching a Web3 platform or integrating blockchain into existing operations, we help you build secure, scalable systems that deliver real value.",
+    "buttons": [
+      {
+        "text": "Get a Free Blockchain Consultation",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your Blockchain Project",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
   "ios_app_development": {
     "title": "Ready to Build or Improve Your iOS App?",
     "description": "Whether you're launching a new iOS application or rebuilding an existing one, our team can help you create a scalable, high-performance mobile product built for real-world use.",

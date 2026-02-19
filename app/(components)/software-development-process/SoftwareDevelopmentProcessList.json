@@ -91,6 +91,32 @@
         "description": "After launch, we provide comprehensive support including bug fixes, performance monitoring, and feature updates to ensure your software remains secure and effective."
       }
     ]
+  },
+  "api_development": {
+    "heading": "Why Choose Devtrios as Your API Development Company?",
+    "description": "Choosing the right partner is critical. We build trust by delivering real-world results and demonstrating unparalleled expertise.",
+    "steps": [
+      {
+        "number": "Step 1",
+        "title": "Proven Expertise",
+        "description": "Our Portfolio Speaks for Itself We helped a SaaS startup reduce its data processing time by 60% by re-architecting their internal APIs. For a leading e-commerce client, our third-party API integration services automated their inventory management, eliminating stockouts and increasing sales by 15%."
+      },
+      {
+        "number": "Step 2",
+        "title": "A Dedicated Team",
+        "description": "When you work with us, you get more than just a contractor; you get a dedicated team of experts invested in your success. From API consulting and development to full-scale implementation, our team is an extension of yours."
+      },
+      {
+        "number": "Step 3",
+        "title": "Business Outcomes",
+        "description": "We measure our success by your success. Whether you need mobile app API development services to launch a new product or a SaaS API development services to expand your market, our focus is always on driving tangible business value."
+      },
+      {
+        "number": "Step 4",
+        "title": "Quality First",
+        "description": "We are a REST API development company that prides itself on clean, well-documented, and maintainable code. You can be confident that your API is built to the highest standards of quality and reliability."
+      }
+    ]
   }
 }
 

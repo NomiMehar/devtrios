@@ -16,6 +16,7 @@ export default function SoftwareDevelopmentServicesFor({
   }
 
   const items = data.items || [];
+  const itemsCount = items.length;
 
   return (
     <section className={styles.software_dev_services_for}>
@@ -26,7 +27,10 @@ export default function SoftwareDevelopmentServicesFor({
         </div>
 
         <div className={styles.cards_wrapper}>
-          <div className={styles.cards_row}>
+          <div 
+            className={styles.cards_row}
+            style={{ '--items-count': itemsCount }}
+          >
             {items.map((item, index) => (
               <div key={`item-${index}`} className={styles.item_wrapper}>
                 <div

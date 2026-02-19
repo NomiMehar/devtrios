@@ -34,6 +34,14 @@ export default function ServiceList({ data }) {
                 <p className={styles.left_description}>
                 {data.description}
                 </p>
+                {/* {data.cta?.href && (
+                  <Link href={data.cta.href} className={styles.cta_button}>
+                    {data.cta.icon && (
+                      <Image src={data.cta.icon} alt="" width={20} height={20} className={styles.cta_icon} />
+                    )}
+                    {data.cta.text}
+                  </Link>
+                )} */}
                 <Image src="/assets/images/services/development-pg-banner.avif" alt="services-section-bg" width={1000} height={1000} />
               </div>
             </div>
@@ -66,7 +74,7 @@ export default function ServiceList({ data }) {
 
                     {service.link && (
                       <Link href={service.link} className={styles.card_link}>
-                        Learn More
+                        {service.linkText || "Learn More"}
                         <svg
                           width="16"
                           height="16"

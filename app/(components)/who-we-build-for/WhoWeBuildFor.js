@@ -3,11 +3,11 @@ import styles from "./WhoWeBuildFor.module.scss";
 import Button from "@/app/(components)/button/Button";
 import Image from "next/image";
 
-export default function WhoWeBuildFor({ data }) {
+export default function WhoWeBuildFor({ data, reverse = false }) {
   return (
     <section className={styles.who_we_build_for}>
       <div className="container">
-      <div className={styles.block_wrapper}>
+      <div className={`${styles.block_wrapper} ${reverse ? styles.reverse : ''}`}>
       <div className={styles.content_wrapper}>
           <div className={styles.heading_wrapper}>
             <h2 dangerouslySetInnerHTML={{__html:data.heading}} />
@@ -40,7 +40,7 @@ export default function WhoWeBuildFor({ data }) {
           )}
         </div>
         <div className={styles.image_wrapper}>
-          <Image src="/assets/images/services/who-we-build.webp" width={1000} height={1000} alt="who-we-build" />
+          <Image src={data.image || "/assets/images/services/who-we-build.webp"} width={1000} height={1000} alt={data.imageAlt || "who-we-build"} />
         </div>
       </div>
       </div>
