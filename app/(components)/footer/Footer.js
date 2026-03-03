@@ -52,7 +52,7 @@ const footerData = {
         title: "SEO & Digital Marketing",
         link: "https://devtrios.com/services/seo-digital-marketing/",
       },
-      { title: "SEO", link: "https://devtrios.com/services/seo/" },
+      { title: "SEO", link: "https://devtrios.com/services/seo-services/" },
       {
         title: "Social Media Marketing",
         link: "https://devtrios.com/services/social-media-marketing/",

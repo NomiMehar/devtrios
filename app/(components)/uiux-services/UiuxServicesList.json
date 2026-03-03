@@ -1,0 +1,383 @@
+{
+  "uiuxServices": {
+    "heading": "Our UX Research Services",
+    "subtitle": "Flexible research services designed to support products at any stage.",
+    "ctaText": "Get a Free UX Consultation",
+    "ctaHref": "/get-a-quote",
+    "services": [
+      {
+        "title": "Usability Testing",
+        "description": "See how real users interact with your product. We test interfaces, flows, and features with representative users to identify usability issues, confusion points, and barriers to task completion.",
+        "listLabel": "Includes",
+        "items": [
+          "Moderated and unmoderated testing",
+          "Task-based usability evaluation",
+          "Clear findings and prioritised recommendations"
+        ]
+      },
+      {
+        "title": "UX Audit",
+        "description": "Understand what's holding your product back. Our UX audit evaluates your existing product against usability principles, user flows, and behavioural patterns to identify friction and missed opportunities.",
+        "listLabel": "Includes",
+        "items": [
+          "Heuristic analysis",
+          "Journey and flow evaluation",
+          "Actionable improvement roadmap"
+        ]
+      },
+      {
+        "title": "User Journey & Behaviour Analysis",
+        "description": "Understand how users move, hesitate, and drop off. We map real user journeys and analyse behavioural patterns to uncover where users struggle, disengage, or abandon tasks.",
+        "listLabel": "Includes",
+        "items": [
+          "Journey mapping",
+          "Behavioural analysis",
+          "Insight-led recommendations"
+        ]
+      },
+      {
+        "title": "Product UX Research",
+        "description": "Research tailored to your product stage. Whether you are launching an MVP or scaling a mature platform, we adapt research depth and methods to fit your product maturity.",
+        "listLabel": "Supports",
+        "items": [
+          "Startups validating ideas",
+          "SaaS platforms improving adoption",
+          "Enterprises optimising complex systems"
+        ]
+      },
+      {
+        "title": "UX Research for Redesigns",
+        "description": "Reduce risk before major change. Before redesigning, we research what works, what doesn't, and what users actually need. This prevents cosmetic redesigns that fail to improve outcomes.",
+        "listLabel": "Includes",
+        "items": [
+          "Baseline usability assessment",
+          "Concept and direction validation",
+          "Pre-redesign risk mitigation"
+        ]
+      },
+      {
+        "title": "Data-Driven Insights & Reporting",
+        "description": "Insights you can actually use. We translate research findings into clear, prioritised insights that product, design, and engineering teams can act on immediately.",
+        "listLabel": "You receive",
+        "items": [
+          "Clear findings, not raw data",
+          "Practical recommendations",
+          "Decision-ready documentation"
+        ]
+      },
+      {
+        "title": "Custom UX Research Programmes",
+        "description": "Not all research fits a template. We design custom UX research engagements based on your product, users, timelines, and constraints.",
+        "listLabel": "Suitable for",
+        "items": [
+          "Complex platforms",
+          "Regulated industries",
+          "Multi-market products"
+        ]
+      }
+    ]
+  },
+  "ui_design": {
+    "heading": "Our UI Design Services",
+    "subtitle": "End-to-end interface design services, aligned with product goals and development realities.",
+    "ctaText": "Get a Free UI Consultation",
+    "ctaHref": "/get-a-quote",
+    "services": [
+      {
+        "title": "Mobile App UI Design",
+        "description": "Designed for real usage, not screenshots.\nWe design mobile interfaces that follow platform standards while remaining visually distinct. Touch-friendly layouts, readable typography, and clear interaction states are built in from the start.",
+        "listLabel": "Supports",
+        "items": [
+          "iOS and Android apps",
+          "Consumer and enterprise use cases"
+        ]
+      },
+      {
+        "title": "Web & SaaS UI Design",
+        "description": "Interfaces built for complex functionality.\nWeb platforms and SaaS tools often fail because the interface cannot support scale. We design clean, modular UI systems that handle complexity without overwhelming users.",
+        "listLabel": "Ideal for",
+        "items": [
+          "SaaS products",
+          "Internal tools",
+          "Data-driven platforms"
+        ]
+      },
+      {
+        "title": "Dashboard & Data Interface Design",
+        "description": "Make information usable, not intimidating.\nWe translate complex data into clear, scannable interfaces that support faster decisions and better workflows.",
+        "listLabel": "Includes",
+        "items": [
+          "Data hierarchy and layout",
+          "Visual consistency across states",
+          "Action-focused presentation"
+        ]
+      },
+      {
+        "title": "Enterprise UI Design",
+        "description": "Modernise without breaking workflows.\nFor large organisations, we design interfaces that respect existing processes while improving usability and clarity. This reduces training time and improves internal adoption.",
+        "listLabel": "",
+        "items": []
+      },
+      {
+        "title": "Responsive UI Design",
+        "description": "Consistent experiences across devices.\nWe ensure interfaces adapt cleanly across desktop, tablet, and mobile without sacrificing usability or performance.",
+        "listLabel": "",
+        "items": []
+      }
+    ]
+  },
+  "ux_audit": {
+    "heading": "Our UX Audit Services",
+    "subtitle": "Comprehensive audits for websites, apps, SaaS products, and enterprise platforms.",
+    "ctaText": "Get a Free UX Audit Consultation",
+    "ctaHref": "/get-a-quote",
+    "services": [
+      {
+        "title": "UI & UX Audit",
+        "description": "We assess both interface design and overall experience. Visual clarity, consistency, navigation, and interaction logic are reviewed together to ensure the product works as a whole.",
+        "listLabel": "",
+        "items": []
+      },
+      {
+        "title": "Usability & Heuristic Evaluation",
+        "description": "We evaluate your product against established usability principles to uncover issues related to clarity, feedback, error prevention, and user control.\nThis quickly surfaces high-impact problems that often go unnoticed.",
+        "listLabel": "",
+        "items": []
+      },
+      {
+        "title": "User Flow & Journey Audit",
+        "description": "We analyse critical paths such as onboarding, checkout, and key feature usage to identify friction, dead ends, and drop-off points.\nThe result is clearer flows and faster task completion.",
+        "listLabel": "",
+        "items": []
+      },
+      {
+        "title": "UX Performance Audit",
+        "description": "Speed and responsiveness affect perception.\nWe assess interaction delays, cognitive load, and perceived performance issues that frustrate users even when systems are technically “working”.",
+        "listLabel": "",
+        "items": []
+      },
+      {
+        "title": "Website UX Audit",
+        "description": "For marketing sites and e-commerce platforms, we review structure, content clarity, calls to action, and navigation to improve engagement and conversion.",
+        "listLabel": "",
+        "items": []
+      },
+      {
+        "title": "Mobile App UX Audit",
+        "description": "Mobile audits focus on gesture use, touch targets, flow efficiency, and context of use. Small issues on mobile create big drop-offs.",
+        "listLabel": "",
+        "items": []
+      },
+      {
+        "title": "SaaS & Product UX Audit",
+        "description": "SaaS products require clarity at scale.\nWe review onboarding, feature discovery, and workflow efficiency to improve adoption and long-term usage.",
+        "listLabel": "",
+        "items": []
+      },
+      {
+        "title": "CRO-Focused UX Audit",
+        "description": "When conversion is the priority, we align UX findings directly with revenue-impacting actions. Every recommendation ties back to sign-ups, sales, or activation.",
+        "listLabel": "",
+        "items": []
+      },
+      {
+        "title": "UX Audit for Redesign Projects",
+        "description": "Before redesigning, we audit what exists.\nThis ensures redesign efforts fix real problems instead of repeating them with a new visual layer.",
+        "listLabel": "",
+        "items": []
+      }
+    ]
+  },
+  "wireframing_prototyping": {
+    "heading": "Our Wireframing & Prototyping Services",
+    "subtitle": "Structured design support for apps, platforms, and SaaS products.",
+    "ctaText": "Get a Free Wireframing Consultation",
+    "ctaHref": "/get-a-quote",
+    "services": [
+      {
+        "title": "Wireframe Design",
+        "description": "We create low and mid-fidelity wireframes that define layout, hierarchy, and core functionality.",
+        "listLabel": "Includes",
+        "items": [
+          "Screen-by-screen layouts",
+          "Information architecture",
+          "Navigation logic",
+          "Core user journeys"
+        ]
+      },
+      {
+        "title": "User Flow & Interaction Mapping",
+        "description": "We map how users move through your product, identifying friction early.\nThis ensures tasks are intuitive, logical, and efficient.",
+        "listLabel": "",
+        "items": []
+      },
+      {
+        "title": "Interactive Prototyping",
+        "description": "Clickable prototypes that simulate real use.\nPerfect for:",
+        "listLabel": "Perfect for",
+        "items": [
+          "Stakeholder alignment",
+          "User testing",
+          "Feature validation",
+          "Pre-development approval"
+        ]
+      },
+      {
+        "title": "High-Fidelity Prototypes",
+        "description": "When decisions require realism, we create visually accurate prototypes that mirror the final product experience.\nUsed for:",
+        "listLabel": "Used for",
+        "items": [
+          "User testing",
+          "Investor demos",
+          "Final design validation"
+        ]
+      },
+      {
+        "title": "Mobile App Wireframing & Prototyping",
+        "description": "Mobile-first flows designed around gestures, context, and platform conventions.\nSupports iOS and Android products.",
+        "listLabel": "Supports",
+        "items": [
+          "iOS and Android products"
+        ]
+      },
+      {
+        "title": "Web & SaaS Prototyping",
+        "description": "Designed for complex workflows, roles, and scalability.\nIdeal for dashboards, admin panels, and multi-step systems.",
+        "listLabel": "",
+        "items": []
+      },
+      {
+        "title": "Rapid Prototyping",
+        "description": "For early-stage ideas or fast-moving teams, we deliver lean prototypes that allow quick iteration and decision-making.",
+        "listLabel": "",
+        "items": []
+      }
+    ]
+  },
+  "design_system": {
+    "heading": "Our Design System Services",
+    "subtitle": "End-to-end support, from foundations to long-term adoption.",
+    "ctaText": "Get a Free Design System Consultation",
+    "ctaHref": "/get-a-quote",
+    "services": [
+      {
+        "title": "Design System Strategy & Audit",
+        "description": "We assess your current UI, workflows, and team structure.\nThis helps define:",
+        "listLabel": "This helps define",
+        "items": [
+          "What should be standardised",
+          "What needs refactoring",
+          "How the system should evolve"
+        ]
+      },
+      {
+        "title": "UI Component Libraries",
+        "description": "We design reusable components that work across products and platforms.",
+        "listLabel": "Includes",
+        "items": [
+          "Buttons, forms, navigation",
+          "Layout components",
+          "States and variations",
+          "Accessibility considerations"
+        ]
+      },
+      {
+        "title": "Design Tokens & Visual Foundations",
+        "description": "We define the building blocks of your interface.\nThese tokens ensure consistency across design and code.",
+        "listLabel": "Includes",
+        "items": [
+          "Colour systems",
+          "Typography scales",
+          "Spacing and layout rules",
+          "Iconography principles"
+        ]
+      },
+      {
+        "title": "Documentation & Usage Guidelines",
+        "description": "A system only works if teams know how to use it.\nWe create clear, practical documentation covering:",
+        "listLabel": "Covering",
+        "items": [
+          "Component usage",
+          "Do's and don'ts",
+          "Interaction patterns",
+          "Edge cases"
+        ]
+      },
+      {
+        "title": "Developer-Ready Handoff",
+        "description": "Our design systems are built with engineering in mind.\nThis reduces friction between design and development.",
+        "listLabel": "We align components with",
+        "items": [
+          "Frontend frameworks",
+          "Naming conventions",
+          "Reusable logic"
+        ]
+      },
+      {
+        "title": "Design System for SaaS & Enterprise Products",
+        "description": "Built for scale, complexity, and multiple teams.",
+        "listLabel": "Ideal for",
+        "items": [
+          "SaaS platforms",
+          "Internal tools",
+          "Multi-product ecosystems",
+          "Long-term product roadmaps"
+        ]
+      },
+      {
+        "title": "Design System Maintenance & Evolution",
+        "description": "Design systems are living systems.\nThis keeps the system relevant, not rigid.",
+        "listLabel": "We support",
+        "items": [
+          "Updates as products evolve",
+          "New component additions",
+          "Refinements based on usage"
+        ]
+      }
+    ]
+  },
+  "product_design": {
+    "heading": "Our Product Design Services",
+    "subtitle": "End-to-end product design support, from concept to launch and beyond.",
+    "ctaText": "Get a Free Product Design Consultation",
+    "ctaHref": "/get-a-quote",
+    "services": [
+      {
+        "title": "Product Discovery & Design Strategy",
+        "description": "We start by understanding the problem before drawing anything. Through stakeholder workshops, user research inputs, and market analysis, we define what the product should do, who it is for, and why it should exist.\nThis phase reduces guesswork and prevents expensive misalignment later.",
+        "listLabel": "",
+        "items": []
+      },
+      {
+        "title": "UX-Led Product Design",
+        "description": "We design user journeys, flows, and information architecture that feel intuitive from the first interaction. Every decision is grounded in usability, clarity, and real user behaviour, not assumptions.",
+        "listLabel": "",
+        "items": []
+      },
+      {
+        "title": "UI Design for Digital Products",
+        "description": "Clean, consistent, and brand-aligned interfaces designed to support usability and conversion. Our UI work focuses on clarity, hierarchy, and consistency, ensuring the product looks professional without getting in the way of use.",
+        "listLabel": "",
+        "items": []
+      },
+      {
+        "title": "MVP & Early-Stage Product Design",
+        "description": "For startups and new products, we design lean, focused MVPs that validate ideas quickly. We prioritise core flows, reduce scope risk, and create designs that can evolve without rework.",
+        "listLabel": "",
+        "items": []
+      },
+      {
+        "title": "SaaS Product Design",
+        "description": "SaaS products demand clarity, speed, and scalability. We design dashboards, workflows, and feature-heavy interfaces that remain usable as complexity grows and user roles expand.",
+        "listLabel": "",
+        "items": []
+      },
+      {
+        "title": "Design for Product Redesigns",
+        "description": "If your product feels dated, confusing, or difficult to scale, we audit and redesign with purpose. We identify what works, fix what does not, and improve adoption without disrupting existing users.",
+        "listLabel": "",
+        "items": []
+      }
+    ]
+  }
+}

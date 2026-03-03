@@ -1,0 +1,193 @@
+{
+  "ux_research": {
+    "heading": "Why Choose Devtrios for UX Research",
+    "subtitle": "Research that supports decisions, not presentations.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Evidence-led approach, not opinions",
+        "description": "We base every recommendation on real user behaviour, research, and tested insight rather than internal assumptions."
+      },
+      {
+        "number": "02",
+        "title": "Clear business focus, not academic outputs",
+        "description": "Our research is designed to support product, growth, and revenue decisions — not just produce decks or documentation."
+      },
+      {
+        "number": "03",
+        "title": "Actionable insights, not generic reports",
+        "description": "Findings are prioritised, clearly written, and mapped to specific changes your team can implement quickly."
+      },
+      {
+        "number": "04",
+        "title": "Close collaboration with design and development teams",
+        "description": "We work directly with designers, engineers, and product owners so research turns into shipped changes, not shelfware."
+      },
+      {
+        "number": "05",
+        "title": "Experience across SaaS, platforms, and complex systems",
+        "description": "Our team has run UX research on complex, multi-step products – from B2B SaaS platforms to multi-sided marketplaces."
+      }
+    ]
+  },
+  "ui_design": {
+    "heading": "Why Choose Devtrios for UI Design",
+    "subtitle": "Design that works in production, not just in Figma.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Product-first thinking, not visual trends",
+        "description": ""
+      },
+      {
+        "number": "02",
+        "title": "Design systems built for scale",
+        "description": ""
+      },
+      {
+        "number": "03",
+        "title": "Close collaboration with developers",
+        "description": ""
+      },
+      {
+        "number": "04",
+        "title": "Consistency across platforms and features",
+        "description": ""
+      },
+      {
+        "number": "05",
+        "title": "Clear documentation and handoff",
+        "description": ""
+      },
+      {
+        "number": "06",
+        "title": "We design interfaces that engineering teams can actually build and maintain.",
+        "description": ""
+      }
+    ]
+  },
+  "ux_audit": {
+    "heading": "Why Devtrios for UX Audits",
+    "subtitle": "We audit like engineers and designers, not critics.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Product-first, not opinion-driven",
+        "description": ""
+      },
+      {
+        "number": "02",
+        "title": "Experience across SaaS, platforms, and enterprise systems",
+        "description": ""
+      },
+      {
+        "number": "03",
+        "title": "Clear, implementable recommendations",
+        "description": ""
+      },
+      {
+        "number": "04",
+        "title": "Close alignment with design and development teams",
+        "description": ""
+      },
+      {
+        "number": "05",
+        "title": "Our audits are designed to be used, not admired.",
+        "description": ""
+      }
+    ]
+  },
+  "wireframing_prototyping": {
+    "heading": "Why Devtrios",
+    "subtitle": "We design with delivery in mind.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Strong alignment with UX research and UI design",
+        "description": ""
+      },
+      {
+        "number": "02",
+        "title": "Practical, engineering-aware outputs",
+        "description": ""
+      },
+      {
+        "number": "03",
+        "title": "Clear communication and documentation",
+        "description": ""
+      },
+      {
+        "number": "04",
+        "title": "Experience across startups, SaaS, and enterprise platforms",
+        "description": ""
+      },
+      {
+        "number": "05",
+        "title": "Our work reduces friction between design, product, and development.",
+        "description": ""
+      }
+    ]
+  },
+  "design_system": {
+    "heading": "Why Devtrios",
+    "subtitle": "We design systems that teams actually adopt.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Strong alignment with UI and UX workflows",
+        "description": ""
+      },
+      {
+        "number": "02",
+        "title": "Practical, engineering-aware outputs",
+        "description": ""
+      },
+      {
+        "number": "03",
+        "title": "Experience across SaaS and enterprise products",
+        "description": ""
+      },
+      {
+        "number": "04",
+        "title": "Clear documentation and structure",
+        "description": ""
+      },
+      {
+        "number": "05",
+        "title": "Our systems reduce friction, not add process.",
+        "description": ""
+      }
+    ]
+  },
+  "product_design": {
+    "heading": "Why Choose Devtrios for Product Design",
+    "subtitle": "We design products that teams can build, users can use, and businesses can grow with.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Product-first mindset, not design theatre",
+        "description": ""
+      },
+      {
+        "number": "02",
+        "title": "Deep experience with SaaS, platforms, and complex workflows",
+        "description": ""
+      },
+      {
+        "number": "03",
+        "title": "Tight collaboration with engineering teams",
+        "description": ""
+      },
+      {
+        "number": "04",
+        "title": "Design that supports long-term growth, not short-term visuals",
+        "description": ""
+      },
+      {
+        "number": "05",
+        "title": "Clear communication and accountable delivery",
+        "description": ""
+      }
+    ]
+  }
+}

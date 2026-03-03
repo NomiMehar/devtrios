@@ -16,6 +16,8 @@ const serviceItems = [
         title: "AI & Automation",
         items: [
           { name: "AI Chatbots", link: "/services/ai-automation/ai-chatbots/" },
+          { name: "AI Agents", link: "/services/ai-automation/ai-agents/" },
+          { name: "Agentic AI", link: "/services/ai-automation/agentic-ai/" },
           {
             name: "LLM Development",
             link: "/services/ai-automation/llm-development/",
@@ -198,27 +200,29 @@ const serviceItems = [
             name: "Wireframing & Prototyping",
             link: "/services/ui-ux-design/wireframes-prototypes/",
           },
+          { name: "Design Systems", link: "/services/ui-ux-design/design-system/" },
+          { name: "Product Design", link: "/services/ui-ux-design/product-design/" },
         ],
       },
     ],
   },
   {
     id: 6,
-    title: "Digital Marketing",
-    link: "/services/seo/",
+    title: "SEO Services",
+    link: "/services/seo-services/",
     icon: "/assets/images/header/nav-icon-7.svg",
     service_img:
       "/assets/images/services/website_development_about_services.webp",
     sections: [
       {
-        title: "Digital Marketing",
+        title: "SEO Services",
         items: [
-          { name: "SEO", link: "/services/seo/" },
-          { name: "Technical SEO", link: "/services/seo/technical-seo/" },
-          { name: "Local SEO", link: "/services/seo/local-seo/" },
-          { name: "SEO Audit", link: "/services/seo/seo-audit/" },
-          { name: "E-Commerce SEO", link: "/services/seo/ecommerce-seo/" },
-          { name: "Link Building", link: "/services/seo/link-building/" },
+          { name: "SEO", link: "/services/seo-services/" },
+          { name: "Technical SEO", link: "/services/seo-services/technical-seo/" },
+          { name: "Local SEO", link: "/services/seo-services/local-seo/" },
+          { name: "SEO Audit", link: "/services/seo-services/seo-audit/" },
+          { name: "E-Commerce SEO", link: "/services/seo-services/ecommerce-seo/" },
+          { name: "Link Building", link: "/services/seo-services/link-building/" },
           {
             name: "Social Media Marketing",
             link: "/services/digital-marketing/social-media-marketing/",

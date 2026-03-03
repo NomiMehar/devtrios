@@ -6,7 +6,7 @@ import Image from "next/image";
 import styles from "./WebsiteContactForm.module.scss";
 import buttonStyles from "@/app/(components)/button/Button.module.scss";
 
-export default function WebsiteContactForm() {
+export default function WebsiteContactForm({ marginTopOnly = false }) {
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -28,7 +28,7 @@ export default function WebsiteContactForm() {
   };
 
   return (
-    <section className={styles.website_contact_form}>
+    <section className={`${styles.website_contact_form} ${marginTopOnly ? styles.margin_top_only : ""}`}>
       <div className="container">
         <div className={styles.contact_wrapper}>
           {/* Left Column */}

@@ -54,7 +54,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     margin-bottom: 60px;
-    align-items: start;
+    align-items: center;
     border-bottom: 1px solid $white_color;
     padding-bottom: 30px;
 
@@ -335,6 +335,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 50px;
 
     @media screen and (max-width: $breakpoint_tablet) {
       display: none;

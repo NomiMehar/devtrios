@@ -17,7 +17,7 @@ import CtaList from "@/app/(components)/cta/CtaList.json";
 import Awards from "@/app/(components)/awards/Awards";
 import BlogsSlider from "@/app/(components)/blogs-slider/BlogsSlider";
 import Faqs from "@/app/(components)/faqs/Faqs";
-import TechnologyStack from "@/app/(components)/technology-stack/TechnologyStack";
+import WebsiteTechStack from "@/app/(components)/website-tech-stack/WebsiteTechStack";
 import Sustainability from "@/app/(components)/sustainability/Sustainability";
     
 export default function Home() {
@@ -75,7 +75,7 @@ export default function Home() {
       <CaseStudies type="home" />
       <OurExpertise />
       <Sustainability />
-      <TechnologyStack />
+      <WebsiteTechStack type="home" />
       <KeyMetrics />
       <Testimonials list={TestimonialList.home} />
       <OurClients />

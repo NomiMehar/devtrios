@@ -120,6 +120,50 @@
       "desc": "Yes. We provide ongoing maintenance, performance optimisation, updates, and feature enhancements."
     }
   ],
+  "seo_services": [
+    {
+      "title": "How long does SEO take to show results?",
+      "desc": "Early improvements usually appear in 2–3 months. Strong momentum builds over 6–12 months depending on competition."
+    },
+    {
+      "title": "Do you guarantee rankings?",
+      "desc": "No serious SEO partner should. We guarantee disciplined execution and transparent results."
+    },
+    {
+      "title": "Is SEO still worth it with paid ads and AI search?",
+      "desc": "Yes. SEO compounds, reduces acquisition costs, and captures intent that ads cannot sustainably replace."
+    },
+    {
+      "title": "Do you work with existing content and sites?",
+      "desc": "Yes. Most engagements involve optimisation, restructuring, and improvement rather than rebuilds."
+    },
+    {
+      "title": "How do you report progress?",
+      "desc": "Clear dashboards covering rankings, traffic quality, conversions, and impact."
+    }
+  ],
+  "technical_seo": [
+    {
+      "title": "How is technical SEO different from on-page SEO?",
+      "desc": "Technical SEO focuses on site infrastructure, crawlability, performance, and indexation. On-page SEO focuses on content and relevance. Both are essential, but technical SEO comes first."
+    },
+    {
+      "title": "How often should technical SEO be done?",
+      "desc": "A full audit is recommended annually or after major site changes. Monitoring and maintenance should be ongoing."
+    },
+    {
+      "title": "Can technical SEO improve rankings without new content?",
+      "desc": "Yes. Fixing crawl, speed, and indexation issues often leads to immediate ranking and traffic gains."
+    },
+    {
+      "title": "Do you work with development teams?",
+      "desc": "Yes. We collaborate directly with internal or external developers and provide implementation-ready guidance."
+    },
+    {
+      "title": "Will technical SEO affect conversions?",
+      "desc": "Absolutely. Faster sites and cleaner UX improve engagement, trust, and conversion rates."
+    }
+  ],
   "mobile_app_development": [
     {
       "title": "How long does a mobile app development project take?",
@@ -372,6 +416,50 @@
       "desc": "Yes. We offer monitoring, optimisation, and continuous improvement for all AI systems we build."
     }
   ],
+  "ai_agents": [
+    {
+      "title": "What are AI Agents?",
+      "desc": "AI Agents are software components powered by AI that execute specific tasks, interact with systems, and assist teams within defined scopes."
+    },
+    {
+      "title": "Are AI Agents the same as chatbots?",
+      "desc": "No. Chatbots focus on conversation. AI Agents perform actions, interact with systems, and execute tasks."
+    },
+    {
+      "title": "Can AI Agents integrate with our existing tools?",
+      "desc": "Yes. We integrate agents with CRMs, ERPs, databases, APIs, and internal software."
+    },
+    {
+      "title": "Do AI Agents make decisions independently?",
+      "desc": "No. They operate within predefined rules and escalate when human input is required."
+    },
+    {
+      "title": "Is this secure for enterprise use?",
+      "desc": "Yes. We implement permissions, logging, and access controls for safe deployment."
+    }
+  ],
+  "agentic_ai": [
+    {
+      "title": "What is Agentic AI?",
+      "desc": "Agentic AI refers to AI systems that can autonomously plan, decide, and execute actions toward goals, rather than only responding to inputs."
+    },
+    {
+      "title": "How is this different from automation?",
+      "desc": "Traditional automation follows predefined rules. Agentic AI reasons, adapts, and handles variability without breaking."
+    },
+    {
+      "title": "Is Agentic AI safe for enterprise use?",
+      "desc": "Yes, when engineered correctly. We implement permissions, logging, constraints, and escalation mechanisms to ensure control and compliance."
+    },
+    {
+      "title": "Can Agentic AI integrate with our existing systems?",
+      "desc": "Absolutely. Our agents interact directly with APIs, databases, SaaS tools, and internal software."
+    },
+    {
+      "title": "Do humans stay in control?",
+      "desc": "Yes. We design human-in-the-loop models where agents operate autonomously within defined boundaries and escalate when required."
+    }
+  ],
   "ai_chatbots": [
     {
       "title": "What types of chatbots do you build?",
@@ -458,6 +546,116 @@
     {
       "title": "Is blockchain suitable for regulated industries?",
       "desc": "Yes, when designed correctly. We factor compliance and security into architecture decisions."
+    }
+  ],
+  "smart_contract_development": [
+    {
+      "title": "What blockchains do you support?",
+      "desc": "We primarily work with Ethereum and EVM-compatible chains such as Polygon and BSC, with selective support for other networks based on project requirements."
+    },
+    {
+      "title": "Do you provide smart contract audits?",
+      "desc": "Yes. We offer structured security reviews and audit preparation, including vulnerability analysis and optimisation recommendations."
+    },
+    {
+      "title": "Can you upgrade deployed smart contracts?",
+      "desc": "Where appropriate, we design upgrade-safe architectures using established proxy patterns."
+    },
+    {
+      "title": "Do you handle deployment and verification?",
+      "desc": "Yes. We manage contract deployment, verification, and post-deployment monitoring."
+    },
+    {
+      "title": "Can you work with an existing codebase?",
+      "desc": "Yes. We regularly audit, refactor, and extend contracts built by other teams."
+    }
+  ],
+  "nft_development": [
+    {
+      "title": "What is NFT development?",
+      "desc": "NFT development involves creating smart contracts, platforms, and systems that enable the minting, ownership, and transfer of non-fungible digital assets on a blockchain."
+    },
+    {
+      "title": "Which blockchains do you support?",
+      "desc": "We primarily build NFT solutions on Ethereum and compatible networks such as Polygon and BNB Chain, depending on cost, performance, and scalability needs."
+    },
+    {
+      "title": "How long does NFT platform development take?",
+      "desc": "Timelines vary by complexity. A basic NFT platform may take 6–8 weeks, while advanced marketplaces or gaming integrations can take several months."
+    },
+    {
+      "title": "How do you ensure security?",
+      "desc": "We follow best practices in smart contract development, testing, and optional auditing to minimise risk and protect assets."
+    },
+    {
+      "title": "Do you offer post-launch support?",
+      "desc": "Yes. We provide maintenance, feature upgrades, and platform optimisation as your NFT project evolves."
+    }
+  ],
+  "wallet_integration": [
+    {
+      "title": "What types of crypto wallets do you build?",
+      "desc": "We build custodial, non-custodial, Web3, mobile, web, and enterprise wallet solutions based on your requirements."
+    },
+    {
+      "title": "How long does wallet development take?",
+      "desc": "Most wallet projects take 8–16 weeks depending on complexity, supported assets, and integrations."
+    },
+    {
+      "title": "How do you ensure wallet security?",
+      "desc": "We use encrypted key storage, secure signing, authentication layers, and extensive testing to reduce risk."
+    },
+    {
+      "title": "Can you integrate wallets into existing platforms?",
+      "desc": "Yes. We provide wallet integration services for existing Web3 platforms, marketplaces, and enterprise systems."
+    },
+    {
+      "title": "Do you offer post-launch support?",
+      "desc": "Yes. We provide long-term maintenance, upgrades, and security updates."
+    }
+  ],
+  "smart_contract_audits": [
+    {
+      "title": "What is a smart contract audit?",
+      "desc": "A smart contract audit is a detailed review of blockchain code to identify security vulnerabilities, logic errors, and inefficiencies before deployment."
+    },
+    {
+      "title": "Do you only audit Ethereum contracts?",
+      "desc": "We primarily audit Solidity-based contracts on Ethereum and EVM-compatible chains. Other environments can be reviewed on request."
+    },
+    {
+      "title": "How long does a smart contract audit take?",
+      "desc": "Most audits take 1–3 weeks depending on code size, complexity, and scope."
+    },
+    {
+      "title": "Will you help fix the issues found?",
+      "desc": "Yes. We provide remediation guidance and can review fixes to confirm vulnerabilities are resolved."
+    },
+    {
+      "title": "Do you provide audit reports for investors or exchanges?",
+      "desc": "Yes. Our audit reports are suitable for due diligence, partner review, and public disclosure."
+    }
+  ],
+  "web3_app_development": [
+    {
+      "title": "What is a Web3 application?",
+      "desc": "A Web3 application is a decentralised application that runs on blockchain infrastructure, using smart contracts and wallets instead of centralised servers and logins."
+    },
+    {
+      "title": "Which blockchains do you support?",
+      "desc": "We build Web3 applications on Ethereum and EVM-compatible networks such as Polygon and BNB Chain. Blockchain selection depends on performance, cost, and project goals."
+    },
+    {
+      "title": "How long does Web3 app development take?",
+      "desc": "Timelines vary by complexity. A basic dApp may take 6–8 weeks, while complex Web3 platforms can take several months. We provide a clear timeline after discovery."
+    },
+    {
+      "title": "How do you ensure security?",
+      "desc": "Security is built in from day one through best practices, contract reviews, testing, and optional third-party audits."
+    },
+    {
+      "title": "Do you provide post-launch support?",
+      "desc": "Yes. We offer ongoing maintenance, upgrades, and feature expansion as your Web3 product evolves."
     }
   ],
   "generative_ai": [
@@ -568,6 +766,160 @@
     {
       "title": "Do you offer UX testing and validation?",
       "desc": "Yes. Prototyping and usability validation are part of our process."
+    }
+  ],
+  "ui_ux_design": [
+    {
+      "title": "What’s the difference between UI and UX design?",
+      "desc": "UX design focuses on structure, flow, and usability. UI design focuses on visual clarity, hierarchy, and consistency. Both work together to create effective digital experiences."
+    },
+    {
+      "title": "Do you work with existing products or only new ones?",
+      "desc": "Both. We redesign existing platforms, audit and improve live products, and design new products from scratch."
+    },
+    {
+      "title": "Will designs be developer-ready?",
+      "desc": "Yes. Our designs are built with implementation in mind, including design systems, components, and clear handoff documentation."
+    },
+    {
+      "title": "Can you work alongside our internal team?",
+      "desc": "Absolutely. We regularly collaborate with in-house product, marketing, and development teams."
+    },
+    {
+      "title": "Do you offer ongoing design support?",
+      "desc": "Yes. Many clients retain us for continuous design improvements as their product evolves."
+    }
+  ],
+  "ux_research": [
+    {
+      "title": "What's the difference between UX research and UX design?",
+      "desc": "UX research uncovers insight. UX design applies it. Research informs design decisions before and during execution."
+    },
+    {
+      "title": "How long does a UX research project take?",
+      "desc": "From one to two weeks for focused testing, to several weeks for deeper research. Scope is adjusted to your needs."
+    },
+    {
+      "title": "Do you recruit users for testing?",
+      "desc": "Yes. We handle recruitment, screening, and coordination where required."
+    },
+    {
+      "title": "Can UX research work alongside active development?",
+      "desc": "Absolutely. We often run research in parallel with development to inform iterations."
+    },
+    {
+      "title": "Is UX research worth it for early-stage products?",
+      "desc": "Yes. Early research reduces wasted development and helps validate direction before heavy investment."
+    }
+  ],
+  "ui_design": [
+    {
+      "title": "What's the difference between UI and UX design?",
+      "desc": "UX focuses on structure, flow, and experience. UI focuses on visual presentation and interaction clarity. Both work together."
+    },
+    {
+      "title": "Do you redesign existing products?",
+      "desc": "Yes. UI redesigns are often driven by audits, usability issues, or product growth."
+    },
+    {
+      "title": "What tools do you use?",
+      "desc": "Primarily Figma, with structured design systems and component libraries."
+    },
+    {
+      "title": "Can you work with our existing brand guidelines?",
+      "desc": "Yes. We can follow existing systems or help refine and scale them."
+    },
+    {
+      "title": "What do we receive at the end?",
+      "desc": "Design files, components, prototypes, and documentation ready for development."
+    }
+  ],
+  "ux_audit": [
+    {
+      "title": "How long does a UX audit take?",
+      "desc": "Typically 2 to 4 weeks depending on product size and scope."
+    },
+    {
+      "title": "Do you need access to analytics?",
+      "desc": "Helpful but not mandatory. We adapt based on available data."
+    },
+    {
+      "title": "Is a UX audit different from user testing?",
+      "desc": "Yes. A UX audit is expert-led. User testing observes real users. Both complement each other."
+    },
+    {
+      "title": "Can this help SEO?",
+      "desc": "Indirectly, yes. Improved UX often reduces bounce rates and increases engagement, which supports SEO performance."
+    },
+    {
+      "title": "Can you support implementation after the audit?",
+      "desc": "Yes. Many clients continue into UI design or optimisation phases."
+    }
+  ],
+  "wireframing_prototyping": [
+    {
+      "title": "How long does wireframing and prototyping take?",
+      "desc": "From 1 to 4 weeks depending on scope and complexity."
+    },
+    {
+      "title": "Do you work with existing products?",
+      "desc": "Yes. We often prototype redesigns, new features, or improvements."
+    },
+    {
+      "title": "Can prototypes be user tested?",
+      "desc": "Absolutely. Prototypes are ideal for early usability testing."
+    },
+    {
+      "title": "What tools do you use?",
+      "desc": "Primarily Figma, with outputs ready for modern dev workflows."
+    },
+    {
+      "title": "Can this feed directly into development?",
+      "desc": "Yes. Our artefacts are structured for smooth engineering handoff."
+    }
+  ],
+  "design_system": [
+    {
+      "title": "Do we need a design system if we are early-stage?",
+      "desc": "Yes. Even lightweight systems prevent future design debt."
+    },
+    {
+      "title": "Can you build on an existing design system?",
+      "desc": "Absolutely. We audit, refine, and extend existing systems."
+    },
+    {
+      "title": "Does this work with our frontend stack?",
+      "desc": "Yes. We align with modern frameworks and workflows."
+    },
+    {
+      "title": "How long does it take?",
+      "desc": "Typically 3–6 weeks depending on scope and complexity."
+    },
+    {
+      "title": "Is this only for large teams?",
+      "desc": "No. Startups benefit just as much from consistency and speed."
+    }
+  ],
+  "product_design": [
+    {
+      "title": "What is product design?",
+      "desc": "Product design is the process of defining how a digital product works, feels, and evolves. It combines UX, UI, and strategic thinking to ensure the product solves real problems and meets business goals."
+    },
+    {
+      "title": "Do you work with startups and early-stage products?",
+      "desc": "Yes. We regularly design MVPs and early-stage products, helping teams validate ideas, reduce risk, and move to market with confidence."
+    },
+    {
+      "title": "Can you redesign an existing product?",
+      "desc": "Absolutely. We audit existing products, identify usability and adoption issues, and redesign with minimal disruption and clear improvement goals."
+    },
+    {
+      "title": "How long does product design take?",
+      "desc": "Timelines depend on scope. MVPs typically take 4–6 weeks. Larger SaaS or enterprise products may take longer. We provide clear timelines after discovery."
+    },
+    {
+      "title": "Do you work alongside development teams?",
+      "desc": "Yes. Our process is built to integrate tightly with engineering, ensuring designs are practical, buildable, and scalable."
     }
   ],
   "app_maintenance": [

@@ -1,0 +1,140 @@
+{
+    "smart_contract_development": {
+        "heading": "Why Businesses Choose Devtrios for Smart Contract Development",
+        "description": "We treat smart contracts as financial and operational infrastructure, not just code.",
+        "reasons": [
+            {
+                "title": "Security-first engineering approach",
+                "icon": "/assets/images/header/nav-icon-1.svg"
+            },
+            {
+                "title": "Experience with complex, multi-contract systems",
+                "icon": "/assets/images/header/nav-icon-2.svg"
+            },
+            {
+                "title": "Clear documentation and predictable delivery",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "Smart contracts built for audits and scale",
+                "icon": "/assets/images/header/nav-icon-4.svg"
+            }
+        ]
+    },
+    "web3_app_development": {
+        "heading": "Why Choose Us for Web3 App Development?",
+        "description": "We don't just build Web3 applications. We build decentralised products that users can trust and businesses can scale.",
+        "reasons": [
+            {
+                "title": "Security-first development approach",
+                "icon": "/assets/images/header/nav-icon-1.svg"
+            },
+            {
+                "title": "Smart contract driven architecture",
+                "icon": "/assets/images/header/nav-icon-2.svg"
+            },
+            {
+                "title": "Scalable, modular Web3 systems",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "Clean, maintainable codebase",
+                "icon": "/assets/images/header/nav-icon-4.svg"
+            },
+            {
+                "title": "Transparent development process",
+                "icon": "/assets/images/header/nav-icon-5.svg"
+            },
+            {
+                "title": "Long-term support and upgrades",
+                "icon": "/assets/images/header/nav-icon-1.svg"
+            }
+        ]
+    },
+    "nft_development": {
+        "heading": "Why Choose Us for NFT Development?",
+        "description": "We don't build speculative NFT projects. We build NFT platforms designed to last.",
+        "reasons": [
+            {
+                "title": "Security-first smart contract development",
+                "icon": "/assets/images/header/nav-icon-1.svg"
+            },
+            {
+                "title": "Marketplace and minting platform expertise",
+                "icon": "/assets/images/header/nav-icon-2.svg"
+            },
+            {
+                "title": "Scalable NFT architecture",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "Clean, maintainable codebase",
+                "icon": "/assets/images/header/nav-icon-4.svg"
+            },
+            {
+                "title": "Transparent development and delivery",
+                "icon": "/assets/images/header/nav-icon-5.svg"
+            },
+            {
+                "title": "Long-term maintenance and upgrades",
+                "icon": "/assets/images/header/nav-icon-1.svg"
+            }
+        ]
+    },
+    "wallet_integration": {
+        "heading": "Why Choose Us for Crypto Wallet Development?",
+        "description": "We design wallets to protect assets, earn user trust, and scale with your platform.",
+        "reasons": [
+            {
+                "title": "Security-first wallet architecture",
+                "icon": "/assets/images/header/nav-icon-1.svg"
+            },
+            {
+                "title": "Mobile, web, and Web3 wallet expertise",
+                "icon": "/assets/images/header/nav-icon-2.svg"
+            },
+            {
+                "title": "Enterprise-ready integrations",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "Clean, maintainable codebase",
+                "icon": "/assets/images/header/nav-icon-4.svg"
+            },
+            {
+                "title": "Transparent development and delivery",
+                "icon": "/assets/images/header/nav-icon-5.svg"
+            },
+            {
+                "title": "Long-term maintenance and security updates",
+                "icon": "/assets/images/header/nav-icon-1.svg"
+            }
+        ]
+    },
+    "smart_contract_audits": {
+        "heading": "Why Choose Devtrios for Smart Contract Audits?",
+        "description": "Smart contract auditing is not a checkbox exercise. It requires deep technical understanding and real-world experience. We focus on preventing exploits, not just reporting them.",
+        "reasons": [
+            {
+                "title": "Security-first, manual audit approach",
+                "icon": "/assets/images/header/nav-icon-1.svg"
+            },
+            {
+                "title": "Experience auditing production-grade contracts",
+                "icon": "/assets/images/header/nav-icon-2.svg"
+            },
+            {
+                "title": "Clear, actionable audit reports",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "No automated-only audits",
+                "icon": "/assets/images/header/nav-icon-4.svg"
+            },
+            {
+                "title": "Support through remediation and re-audit",
+                "icon": "/assets/images/header/nav-icon-5.svg"
+            }
+        ]
+    }
+}

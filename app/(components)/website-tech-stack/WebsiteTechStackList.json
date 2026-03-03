@@ -1,4 +1,146 @@
 {
+  "home": {
+    "title": "Technology Stack",
+    "description": "We use the latest technologies across web, mobile, software, AI, and blockchain to deliver high-quality solutions. Our tech stack ensures scalable, secure, and maintainable products tailored to your business needs.",
+    "categories": {
+      "AI Development": [
+        {"name": "PyTorch", "logo": "/assets/images/technology_stack/pytorch.webp"},
+        {"name": "TensorFlow", "logo": "/assets/images/technology_stack/Tensorflow.webp"},
+        {"name": "Julia", "logo": "/assets/images/technology_stack/julia.webp"},
+        {"name": "R", "logo": "/assets/images/technology_stack/Rlogo.webp"},
+        {"name": "Python", "logo": "/assets/images/technology_stack/Python_logo.webp"},
+        {"name": "Scikit-learn", "logo": "/assets/images/technology_stack/Scikit_learn_logo.webp"},
+        {"name": "Hugging Face", "logo": "/assets/images/technology_stack/huggingface.webp"},
+        {"name": "OpenCV", "logo": "/assets/images/technology_stack/opencv.webp"},
+        {"name": "Spark", "logo": "/assets/images/technology_stack/spark.webp"},
+        {"name": "spaCy", "logo": "/assets/images/technology_stack/SpaCy_logo.webp"},
+        {"name": "Google AI", "logo": "/assets/images/technology_stack/google-ai.webp"},
+        {"name": "Azure", "logo": "/assets/images/technology_stack/azure.webp"},
+        {"name": "Cohere", "logo": "/assets/images/technology_stack/cohere.webp"},
+        {"name": "Dialogflow", "logo": "/assets/images/technology_stack/dialogflow-logo.webp"},
+        {"name": "ChatGPT", "logo": "/assets/images/technology_stack/ChatGPT-Logo.webp"},
+        {"name": "Grok", "logo": "/assets/images/technology_stack/grok-icon.webp"},
+        {"name": "Anthropic", "logo": "/assets/images/technology_stack/anthropic.webp"},
+        {"name": "NVIDIA", "logo": "/assets/images/technology_stack/nvidia.webp"},
+        {"name": "Pinecone", "logo": "/assets/images/technology_stack/Pinecone.webp"},
+        {"name": "Dask", "logo": "/assets/images/technology_stack/Dask_Logo.webp"},
+        {"name": "Qdrant", "logo": "/assets/images/technology_stack/qdrant-icon-logo.webp"},
+        {"name": "Redis", "logo": "/assets/images/technology_stack/redis.webp"},
+        {"name": "FAISS", "logo": "/assets/images/technology_stack/FAISS.webp"},
+        {"name": "PostgreSQL", "logo": "/assets/images/technology_stack/postgresql-logo-1.webp"}
+      ],
+      "Web Development": [
+        {"name": "React", "logo": "/assets/images/technology_stack/React.webp"},
+        {"name": "Angular", "logo": "/assets/images/technology_stack/angular.webp"},
+        {"name": "Vue.js", "logo": "/assets/images/technology_stack/Vue.js_Logo.webp"},
+        {"name": "Next.js", "logo": "/assets/images/technology_stack/next-js-logo.webp"},
+        {"name": "Node.js", "logo": "/assets/images/technology_stack/Node.js.webp"},
+        {"name": "Express", "logo": "/assets/images/technology_stack/express.webp"},
+        {"name": "Django", "logo": "/assets/images/technology_stack/django-logo.webp"},
+        {"name": "Ruby on Rails", "logo": "/assets/images/technology_stack/ruby-on-rails.webp"},
+        {"name": "Laravel", "logo": "/assets/images/technology_stack/laravel.webp"},
+        {"name": "ASP.NET", "logo": "/assets/images/technology_stack/asp.net.webp"},
+        {"name": "GraphQL", "logo": "/assets/images/technology_stack/graphql.webp"},
+        {"name": "REST API", "logo": "/assets/images/technology_stack/rest_api.webp"},
+        {"name": "HTML5", "logo": "/assets/images/technology_stack/html5-icon.webp"},
+        {"name": "CSS", "logo": "/assets/images/technology_stack/css.webp"},
+        {"name": "JavaScript", "logo": "/assets/images/technology_stack/javascript.webp"},
+        {"name": "TypeScript", "logo": "/assets/images/technology_stack/typescript.webp"},
+        {"name": "jQuery", "logo": "/assets/images/technology_stack/JQuery.webp"},
+        {"name": "Bootstrap", "logo": "/assets/images/technology_stack/bootstrap.webp"},
+        {"name": "Tailwind CSS", "logo": "/assets/images/technology_stack/Tailwind_CSS.webp"},
+        {"name": "Google Cloud", "logo": "/assets/images/technology_stack/google_cloud.webp"},
+        {"name": "Vercel", "logo": "/assets/images/technology_stack/vercel_logo.webp"},
+        {"name": "MongoDB", "logo": "/assets/images/technology_stack/mongodb.webp"},
+        {"name": "PostgreSQL", "logo": "/assets/images/technology_stack/postgresql-logo-1.webp"},
+        {"name": "MySQL", "logo": "/assets/images/technology_stack/mysql-5-logo.webp"},
+        {"name": "Redis", "logo": "/assets/images/technology_stack/redis.webp"},
+        {"name": "Docker", "logo": "/assets/images/technology_stack/docker.webp"},
+        {"name": "Kubernetes", "logo": "/assets/images/technology_stack/kubernetes.webp"},
+        {"name": "Git", "logo": "/assets/images/technology_stack/Git.webp"}
+      ],
+      "Custom Software Development": [
+        {"name": "Python", "logo": "/assets/images/technology_stack/Python_logo.webp"},
+        {"name": "Java", "logo": "/assets/images/technology_stack/Java_logo.webp"},
+        {"name": "C#", "logo": "/assets/images/technology_stack/csharp_logo.webp"},
+        {"name": "C++", "logo": "/assets/images/technology_stack/C++_logo.webp"},
+        {"name": "PHP", "logo": "/assets/images/technology_stack/php.webp"},
+        {"name": "Go", "logo": "/assets/images/technology_stack/Go_Logo_Blue.webp"},
+        {"name": "Rust", "logo": "/assets/images/technology_stack/Rust_logo.webp"},
+        {"name": ".NET", "logo": "/assets/images/technology_stack/NET-Framework-Logo.webp"},
+        {"name": "ASP.NET", "logo": "/assets/images/technology_stack/asp.net.webp"},
+        {"name": "AWS", "logo": "/assets/images/technology_stack/Amazon_Web_Services.webp"},
+        {"name": "Laravel", "logo": "/assets/images/technology_stack/laravel.webp"},
+        {"name": "Django", "logo": "/assets/images/technology_stack/django-logo.webp"},
+        {"name": "Node.js", "logo": "/assets/images/technology_stack/Node.js.webp"},
+        {"name": "Express", "logo": "/assets/images/technology_stack/express.webp"},
+        {"name": "React", "logo": "/assets/images/technology_stack/React.webp"},
+        {"name": "MongoDB", "logo": "/assets/images/technology_stack/mongodb.webp"},
+        {"name": "PostgreSQL", "logo": "/assets/images/technology_stack/postgresql-logo-1.webp"},
+        {"name": "MySQL", "logo": "/assets/images/technology_stack/mysql-5-logo.webp"},
+        {"name": "Redis", "logo": "/assets/images/technology_stack/redis.webp"},
+        {"name": "GraphQL", "logo": "/assets/images/technology_stack/graphql.webp"},
+        {"name": "REST API", "logo": "/assets/images/technology_stack/rest_api.webp"},
+        {"name": "Kubernetes", "logo": "/assets/images/technology_stack/kubernetes.webp"},
+        {"name": "Docker", "logo": "/assets/images/technology_stack/docker.webp"},
+        {"name": "Jenkins", "logo": "/assets/images/technology_stack/jenkins.webp"},
+        {"name": "Git", "logo": "/assets/images/technology_stack/Git.webp"},
+        {"name": "Azure", "logo": "/assets/images/technology_stack/azure.webp"},
+        {"name": "Asana", "logo": "/assets/images/technology_stack/asana-logo.webp"},
+        {"name": "Tableau", "logo": "/assets/images/technology_stack/tableau-logo.webp"},
+        {"name": "Confluence", "logo": "/assets/images/technology_stack/free-confluence-logo-icon.webp"}
+      ],
+      "Blockchain Development": [
+        {"name": "Solidity", "logo": "/assets/images/technology_stack/solidity_logo.webp"},
+        {"name": "Solana", "logo": "/assets/images/technology_stack/solana-logo.webp"},
+        {"name": "Avalanche", "logo": "/assets/images/technology_stack/avalanche-avax-logo.webp"},
+        {"name": "Cardano", "logo": "/assets/images/technology_stack/cardano-logo.webp"},
+        {"name": "Polkadot", "logo": "/assets/images/technology_stack/polkadot-logo.webp"},
+        {"name": "Corda", "logo": "/assets/images/technology_stack/corda-logo.webp"},
+        {"name": "Algorand", "logo": "/assets/images/technology_stack/algorand-algo-logo.webp"},
+        {"name": "Cosmos", "logo": "/assets/images/technology_stack/atom-logo.webp"},
+        {"name": "Base", "logo": "/assets/images/technology_stack/base-logo-in-blue.webp"},
+        {"name": "Bitcoin", "logo": "/assets/images/technology_stack/Bitcoin.webp"},
+        {"name": "Ripple", "logo": "/assets/images/technology_stack/ripple-brandlogo.webp"},
+        {"name": "Rust", "logo": "/assets/images/technology_stack/Rust_logo.webp"},
+        {"name": "Go", "logo": "/assets/images/technology_stack/Go_Logo_Blue.webp"},
+        {"name": "Web3.js", "logo": "/assets/images/technology_stack/web3js-logo.webp"},
+        {"name": "Truffle", "logo": "/assets/images/technology_stack/truffle-logo.webp"},
+        {"name": "IPFS", "logo": "/assets/images/technology_stack/Ipfs-logo.webp"},
+        {"name": "MetaMask", "logo": "/assets/images/technology_stack/MetaMask_Fox.webp"},
+        {"name": "WalletConnect", "logo": "/assets/images/technology_stack/WalletConnect-Logo.webp"},
+        {"name": "OpenZeppelin", "logo": "/assets/images/technology_stack/openzeppelin-logo.webp"},
+        {"name": "Chainalysis", "logo": "/assets/images/technology_stack/chainalysis_logo.webp"}
+      ],
+      "Mobile App Development": [
+        {"name": "Android", "logo": "/assets/images/technology_stack/android-logo.webp"},
+        {"name": "Apple", "logo": "/assets/images/technology_stack/apple-logo.webp"},
+        {"name": "HarmonyOS", "logo": "/assets/images/technology_stack/HMOS_Logo_Icon.webp"},
+        {"name": "Swift", "logo": "/assets/images/technology_stack/swift.webp"},
+        {"name": "Objective-C", "logo": "/assets/images/technology_stack/objc.webp"},
+        {"name": "Kotlin", "logo": "/assets/images/technology_stack/kotlin-icon.webp"},
+        {"name": "Java", "logo": "/assets/images/technology_stack/Java_logo.webp"},
+        {"name": "Dart", "logo": "/assets/images/technology_stack/Dart-logo.webp"},
+        {"name": "Flutter", "logo": "/assets/images/technology_stack/flutter.webp"},
+        {"name": "React Native", "logo": "/assets/images/technology_stack/React.webp"},
+        {"name": "Xamarin", "logo": "/assets/images/technology_stack/xamarin-logo.webp"},
+        {"name": "Ionic", "logo": "/assets/images/technology_stack/free-ionic-logo.webp"},
+        {"name": "Cordova", "logo": "/assets/images/technology_stack/cordova-logo.webp"},
+        {"name": "Unity", "logo": "/assets/images/technology_stack/unity-logo.webp"},
+        {"name": "AWS Amplify", "logo": "/assets/images/technology_stack/aws-amplify.webp"},
+        {"name": "Azure", "logo": "/assets/images/technology_stack/microsoft_azure_logo.webp"},
+        {"name": "GraphQL", "logo": "/assets/images/technology_stack/graphql.webp"},
+        {"name": "Jenkins", "logo": "/assets/images/technology_stack/jenkins.webp"},
+        {"name": "OneSignal", "logo": "/assets/images/technology_stack/onesignal-logo.webp"},
+        {"name": "PayPal", "logo": "/assets/images/technology_stack/paypal.webp"},
+        {"name": "Razorpay", "logo": "/assets/images/technology_stack/Razorpay.webp"},
+        {"name": "Twilio", "logo": "/assets/images/technology_stack/Twillio-Highlight-Logo.webp"},
+        {"name": "Google Play Console", "logo": "/assets/images/technology_stack/Google_Play_Console_icon.webp"},
+        {"name": "TestFlight", "logo": "/assets/images/technology_stack/testflight.webp"},
+        {"name": "ARKit", "logo": "/assets/images/technology_stack/ARKit.webp"}
+      ]
+    }
+  },
   "website_development": {
     "title": "Tech Stack That Powers Our Web Development Services",
     "description": "At Devtrios our web developers use the latest technologies to help businesses stay ahead of the curve. Our robust tech stack ensures high-quality web development services, delivering innovative solutions tailored to meet diverse business needs.",
@@ -389,6 +531,144 @@
         {
           "name": "Azure",
           "logo": "/assets/images/technology_stack/microsoft_azure_logo.webp"
+        }
+      ]
+    }
+  },
+  "ui_ux_design": {
+    "title": "Design Tools & Technologies We Use for UI & UX",
+    "description": "Our UI & UX design work is supported by industry-standard design tools, prototyping platforms, and collaboration software. We choose tools that support clarity, consistency, and smooth handoff to development.",
+    "categories": {
+      "Design & Prototyping": [
+        {
+          "name": "Figma",
+          "logo": "/assets/images/technology_stack/React.webp"
+        },
+        {
+          "name": "Sketch",
+          "logo": "/assets/images/technology_stack/React.webp"
+        },
+        {
+          "name": "Adobe XD",
+          "logo": "/assets/images/technology_stack/React.webp"
+        },
+        {
+          "name": "Framer",
+          "logo": "/assets/images/technology_stack/React.webp"
+        },
+        {
+          "name": "InVision",
+          "logo": "/assets/images/technology_stack/React.webp"
+        }
+      ],
+      "Research & Collaboration": [
+        {
+          "name": "Miro",
+          "logo": "/assets/images/technology_stack/Node.js.webp"
+        },
+        {
+          "name": "Notion",
+          "logo": "/assets/images/technology_stack/Node.js.webp"
+        },
+        {
+          "name": "User Interviews",
+          "logo": "/assets/images/technology_stack/graphql.webp"
+        },
+        {
+          "name": "Hotjar",
+          "logo": "/assets/images/technology_stack/graphql.webp"
+        }
+      ],
+      "Design Systems & Handoff": [
+        {
+          "name": "Storybook",
+          "logo": "/assets/images/technology_stack/javascript.webp"
+        },
+        {
+          "name": "Zeplin",
+          "logo": "/assets/images/technology_stack/javascript.webp"
+        },
+        {
+          "name": "Design Tokens",
+          "logo": "/assets/images/technology_stack/express.webp"
+        },
+        {
+          "name": "Component Libraries",
+          "logo": "/assets/images/technology_stack/express.webp"
+        }
+      ]
+    }
+  },
+  "seo_services": {
+    "title": "Tools & Technologies We Use for SEO",
+    "description": "Our SEO work is powered by industry-standard tools for search analytics, technical audits, rank tracking, and performance measurement. We use platforms that support clarity, accuracy, and outcomes you can act on.",
+    "categories": {
+      "Search & Analytics": [
+        {
+          "name": "Google Search Console",
+          "logo": "/assets/images/technology_stack/google_cloud.webp"
+        },
+        {
+          "name": "Google Analytics",
+          "logo": "/assets/images/technology_stack/google_cloud.webp"
+        },
+        {
+          "name": "Bing Webmaster Tools",
+          "logo": "/assets/images/technology_stack/azure.webp"
+        },
+        {
+          "name": "Google Tag Manager",
+          "logo": "/assets/images/technology_stack/google_cloud.webp"
+        }
+      ],
+      "SEO Research & Strategy": [
+        {
+          "name": "SEMrush",
+          "logo": "/assets/images/technology_stack/graphql.webp"
+        },
+        {
+          "name": "Ahrefs",
+          "logo": "/assets/images/technology_stack/rest_api.webp"
+        },
+        {
+          "name": "Moz",
+          "logo": "/assets/images/technology_stack/Node.js.webp"
+        },
+        {
+          "name": "Screaming Frog",
+          "logo": "/assets/images/technology_stack/express.webp"
+        }
+      ],
+      "Technical & Performance": [
+        {
+          "name": "Lighthouse",
+          "logo": "/assets/images/technology_stack/javascript.webp"
+        },
+        {
+          "name": "PageSpeed Insights",
+          "logo": "/assets/images/technology_stack/google_cloud.webp"
+        },
+        {
+          "name": "Core Web Vitals",
+          "logo": "/assets/images/technology_stack/html5-icon.webp"
+        },
+        {
+          "name": "Schema Markup",
+          "logo": "/assets/images/technology_stack/html5-icon.webp"
+        }
+      ],
+      "Rank Tracking & Reporting": [
+        {
+          "name": "Rank Tracking",
+          "logo": "/assets/images/technology_stack/tableau-logo.webp"
+        },
+        {
+          "name": "Data Studio",
+          "logo": "/assets/images/technology_stack/google_cloud.webp"
+        },
+        {
+          "name": "Custom Dashboards",
+          "logo": "/assets/images/technology_stack/tableau-logo.webp"
         }
       ]
     }

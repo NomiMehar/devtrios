@@ -28,6 +28,17 @@
       "text": "Get a Free Software Consultation",
       "url": "/get-a-quote"
     }
+  },
+  "seo_services": {
+    "heading": "Who Our SEO Is Built For",
+    "description": "This service works best for:",
+    "features": [
+      "Businesses reliant on inbound demand",
+      "Brands competing in crowded markets",
+      "Companies scaling across regions or products",
+      "Organisations frustrated with past SEO agencies",
+      "Teams that want clarity, not jargon"
+    ]
   }
 }
 

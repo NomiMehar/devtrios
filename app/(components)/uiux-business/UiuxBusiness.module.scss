@@ -1,0 +1,179 @@
+@use "../../../styles/variables" as *;
+
+.uiux_business {
+  padding: 130px 0;
+  position: relative;
+
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding: 100px 0;
+  }
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding: 70px 0;
+  }
+
+  .main_heading {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: $dark_color;
+    text-align: center;
+    margin: 0 0 24px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 28px;
+      margin-bottom: 16px;
+    }
+  }
+
+  .intro {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $dark_color;
+    text-align: center;
+    max-width: 880px;
+    margin: 0 auto 80px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      font-size: 16px;
+      margin-bottom: 50px;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 15px;
+      margin-bottom: 40px;
+    }
+  }
+
+  .two_column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      gap: 30px;
+    }
+  }
+
+  .left_column {
+    .impact_heading {
+      font-size: 20px;
+      font-weight: 600;
+      color: $dark_color;
+      margin: 0 0 20px;
+
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+    }
+
+    .impact_list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 70px;
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        gap: 20px;
+      }
+    }
+
+    .impact_item {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      position: relative;
+      &::before {
+        content: "";
+        background: #36363612;
+        width: 6px;
+        height: 45px;
+        position: absolute;
+        bottom: -57px;
+        left: 45px;
+        border-radius: 100px;
+      }
+      &:last-child {
+        &::before {
+          display: none;
+        }
+      }
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        &::before {
+          display: none;
+        }
+      }
+
+      .icon_wrapper {
+        flex-shrink: 0;
+        width: 100px;
+        height: 100px;
+        border-radius: 12px;
+        background: $white_color;
+        box-shadow: 0px 7px 20px 0px #0000000F;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .icon {
+        object-fit: contain;
+        width: 48px;
+        height: 48px;
+      }
+    }
+
+    .item_text {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.6;
+      color: $dark_color;
+
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .right_column {
+    .image_wrapper {
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .illustration {
+      border-radius: 12px;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      display: block;
+    }
+    .closing {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.6;
+      color: $gray_color;
+      text-align: center;
+      max-width: 700px;
+      margin: 10px auto 0;
+  
+      @media screen and (max-width: $breakpoint_tablet) {
+        font-size: 15px;
+      }
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        font-size: 14px;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,180 @@
+@use "../../../styles/variables" as *;
+
+.seo_services_section {
+  padding: 130px 0;
+
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding: 100px 0;
+  }
+
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding: 70px 0;
+  }
+
+  .section_header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .heading {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: $dark_color;
+    margin: 0 0 16px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      font-size: 36px;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 28px;
+      margin-bottom: 12px;
+    }
+  }
+
+  .subtitle {
+    font-size: 16px;
+    line-height: 1.6;
+    color: $gray_color;
+    margin: 0;
+  }
+
+  .card_wrapper {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 24px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      grid-template-columns: 1fr;
+      padding: 20px;
+    }
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      padding: 16px;
+      border-radius: 18px;
+    }
+  }
+
+  .tabs_column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .tab {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 14px 16px;
+    min-height: 80px;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    background-color: #ffffff;
+    color: $dark_color;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease,
+      box-shadow 0.2s ease;
+
+    &:hover {
+      border-color: #cbd5f5;
+    }
+  }
+
+  .tab_left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .tab_label {
+    white-space: normal;
+    text-align: left;
+  }
+
+  .tab_arrow {
+    color: #64748b;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    transform: rotate(35deg);
+  }
+
+  .tab_active {
+    background: linear-gradient(262deg, #005bff 0%, #00b0ff 100%);
+    color: #ffffff;
+    border-color: transparent;
+
+    .tab_arrow {
+      color: #ffffff;
+    }
+  }
+
+  .content_column {
+    flex-direction: column;
+    gap: 18px;
+    display: flex;
+    background-color: #fff;
+    border: 2px dashed #0077ff59;
+    border-radius: 10px;
+    padding: 15px;
+  }
+
+  .image_wrapper {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .image {
+    width: 100%;
+    height: 540px;
+    display: block;
+
+  }
+
+  .content_body {
+    padding: 4px 4px 0;
+  }
+
+  .service_title {
+    font-size: 20px;
+    font-weight: 600;
+    color: $dark_color;
+    margin: 0 0 8px;
+  }
+
+  .service_description {
+    font-size: 15px;
+    line-height: 1.7;
+    color: $gray_color;
+    margin: 0 0 16px;
+  }
+
+  // .cta_button {
+  //   display: inline-flex;
+  //   align-items: center;
+  //   gap: 8px;
+  //   padding: 12px 20px;
+  //   border-radius: 999px;
+  //   background: linear-gradient(268.09deg, #0045ff 0%, #00a3ff 100%);
+  //   color: #ffffff;
+  //   font-size: 14px;
+  //   font-weight: 600;
+  //   text-decoration: none;
+  //   box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+  //   transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+
+  //   &:hover {
+  //     transform: translateY(-1px);
+  //     box-shadow: 0 8px 26px rgba(37, 99, 235, 0.5);
+  //     opacity: 0.96;
+  //   }
+
+  //   svg {
+  //     flex-shrink: 0;
+  //   }
+  // }
+}
+

@@ -112,6 +112,38 @@
       }
     ]
   },
+  "seo_services": {
+    "title": "Build an SEO Engine That Compounds Over Time",
+    "description": "SEO is not a campaign.\nIt is an asset.\nIf you want predictable demand, lower acquisition costs, and long term visibility, it starts here.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your SEO Campaign",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "technical_seo": {
+    "title": "Fix the Foundation Before Scaling SEO",
+    "description": "Content and links cannot compensate for a broken technical base.\nIf you want stable rankings, faster performance, and SEO that scales cleanly, technical SEO is where it starts.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Technical SEO Optimisation",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
   "software_development": {
     "title": "Ready to Build Your Software Product?",
     "description": "Let's turn your idea into a powerful software solution designed to scale and succeed. Whether you need a custom platform, web application, or SaaS product, we're ready to help you build the right solution for your business.",
@@ -309,6 +341,38 @@
       }
     ]
   },
+  "agentic_ai": {
+    "title": "Ready to Deploy Agentic AI That Actually Operates?",
+    "description": "If you are looking to move beyond basic automation and deploy AI systems that can plan, act, and execute reliably, we can help.\nBuild autonomous AI agents engineered for real business environments.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Talk to Our AI Engineering Team",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "ai_agents": {
+    "title": "Ready to Deploy AI Agents That Actually Work?",
+    "description": "If your teams are buried in repetitive work and fragmented systems, AI Agents can deliver immediate value.\nBuild intelligent assistants that scale your operations without adding headcount.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Talk to Our AI Engineering Team",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
   "llm_development": {
     "title": "Ready to Build a Secure, Scalable LLM?",
     "description": "Whether you're introducing AI into internal operations or embedding LLMs into your product, we can help you build a controlled, production-ready solution.",
@@ -369,6 +433,198 @@
       {
         "text": "Start Your Blockchain Project",
         "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "smart_contract_development": {
+    "title": "Ready to Build Secure Smart Contracts?",
+    "description": "Whether you are launching a new blockchain product or securing an existing one, our team can help you build smart contracts designed for real-world use.",
+    "buttons": [
+      {
+        "text": "Get a Smart Contract Consultation",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your Blockchain Project",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "web3_app_development": {
+    "title": "Ready to Build Your Web3 Application?",
+    "description": "Let's build a secure, scalable Web3 solution that delivers real business value and long-term usability.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your Web3 Project",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "nft_development": {
+    "title": "Ready to Build Your NFT Platform?",
+    "description": "Let's create a secure, scalable NFT solution that delivers real business value and long-term usability.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your NFT Project",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "wallet_integration": {
+    "title": "Ready to Build a Secure Crypto Wallet?",
+    "description": "Let's design a wallet solution that protects assets, earns user trust, and scales with your platform.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your Wallet Project",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "ui_ux_design": {
+    "title": "Ready to Design a Better Experience?",
+    "description": "If users struggle to understand your product, conversions suffer and growth slows. Let's design interfaces that remove friction, build trust, and support real business outcomes.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your Design Project",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "ux_research": {
+    "title": "Ready to Make Better Product Decisions?",
+    "description": "If you are relying on assumptions, internal opinions, or gut feel, you are taking unnecessary risk. Let's replace guesswork with evidence and clarity.",
+    "buttons": [
+      {
+        "text": "Book a Free UX Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start a UX Research Project",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "ux_audit": {
+    "title": "Ready to Remove UX Friction?",
+    "description": "If users are hesitating, dropping off, or disengaging, the experience needs attention.\nLet’s identify the real issues and fix them properly.",
+    "buttons": [
+      {
+        "text": "Book a Free UX Audit Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start a UX Audit",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "wireframing_prototyping": {
+    "title": "Ready to Build with Clarity?",
+    "description": "Before you invest in development, make sure you are building the right thing.\nWireframing and prototyping give you confidence, alignment, and speed.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Wireframing & Prototyping",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "design_system": {
+    "title": "Ready to Scale Without Losing Consistency?",
+    "description": "A design system is not overhead.\nIt is infrastructure.\nLet's build a system that supports growth instead of slowing it down.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your Design System",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "product_design": {
+    "title": "Ready to Design a Product That Works",
+    "description": "If your product feels unclear, hard to use, or difficult to scale, the issue is rarely code.\nIt is design.\nLet's design a product that users understand, teams can build, and the business can grow.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your Product Design Project",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "ui_design": {
+    "title": "Ready to Improve How Your Product Feels and Performs?",
+    "description": "If users hesitate, get lost, or disengage, the interface is usually the problem.\nLet's design something clear, usable, and built for growth.",
+    "buttons": [
+      {
+        "text": "Book a Free Design Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your UI Design Project",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "smart_contract_audits": {
+    "title": "Ready to Secure Your Smart Contracts?",
+    "description": "Before deployment, before funding, before users interact with your protocol, make sure your contracts are secure.",
+    "buttons": [
+      {
+        "text": "Request a Smart Contract Audit",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Book a Security Consultation",
+        "href": "/contact-us",
         "icon": "/assets/images/home/arrow-circle-right.webp"
       }
     ]

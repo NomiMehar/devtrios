@@ -1,0 +1,177 @@
+{
+  "smart_contract_development": {
+    "heading": "Our Smart Contract Development Services",
+    "description": "We provide end-to-end smart contract services covering design, development, testing, auditing, deployment, and long-term support.",
+    "services": [
+      {
+        "title": "Smart Contract Architecture & Design",
+        "description": "We define contract logic, permissions, upgrade strategies, and interaction patterns before writing code. This reduces risk and prevents costly refactors later.",
+        "icon": "/assets/images/header/nav-icon-1.svg"
+      },
+      {
+        "title": "Custom Smart Contract Development",
+        "description": "Bespoke contracts built around your product requirements, business rules, and blockchain environment using Solidity and industry best practices.",
+        "icon": "/assets/images/header/nav-icon-2.svg"
+      },
+      {
+        "title": "DeFi Smart Contract Development",
+        "description": "Contracts for decentralised finance use cases including staking, lending, swaps, liquidity pools, governance, and reward mechanisms.",
+        "icon": "/assets/images/header/nav-icon-3.svg"
+      },
+      {
+        "title": "NFT & Token Smart Contracts",
+        "description": "ERC-20, ERC-721, ERC-1155 and custom token standards for minting, trading, royalties, metadata handling, and lifecycle management.",
+        "icon": "/assets/images/header/nav-icon-4.svg"
+      },
+      {
+        "title": "DAO Smart Contract Development",
+        "description": "Governance, voting, treasury, and proposal execution contracts enabling decentralised, rule-based decision making.",
+        "icon": "/assets/images/header/nav-icon-5.svg"
+      },
+      {
+        "title": "Smart Contract Audits & Security Reviews",
+        "description": "Line-by-line code reviews, vulnerability analysis, gas optimisation checks, and attack-surface testing before deployment.",
+        "icon": "/assets/images/header/nav-icon-6.svg"
+      }
+    ]
+  },
+  "web3_app_development": {
+    "heading": "Web3 App Development Solutions",
+    "description": "End-to-end Web3 development services covering strategy, architecture, development, and ongoing support.",
+    "services": [
+      {
+        "title": "Decentralised Application (dApp) Development",
+        "description": "Custom dApps built on secure blockchain networks, designed for performance, reliability, and real-world use cases.",
+        "icon": "/assets/images/header/nav-icon-1.svg"
+      },
+      {
+        "title": "Smart Contract Powered Applications",
+        "description": "Web3 applications driven by audited smart contracts to automate logic, enforce rules, and remove intermediaries.",
+        "icon": "/assets/images/header/nav-icon-2.svg"
+      },
+      {
+        "title": "DeFi & NFT Web3 Platforms",
+        "description": "Decentralised finance platforms, NFT marketplaces, and tokenised ecosystems built with security and scalability at the core.",
+        "icon": "/assets/images/header/nav-icon-3.svg"
+      },
+      {
+        "title": "Web3 Wallet Integration & Authentication",
+        "description": "Secure wallet integration for authentication, transactions, and asset management across Web3 platforms.",
+        "icon": "/assets/images/header/nav-icon-4.svg"
+      },
+      {
+        "title": "Enterprise Web3 Solutions",
+        "description": "Enterprise-grade Web3 applications designed to integrate with existing systems while maintaining decentralisation and compliance.",
+        "icon": "/assets/images/header/nav-icon-5.svg"
+      }
+    ]
+  },
+  "nft_development": {
+    "heading": "NFT Development Solutions",
+    "description": "End-to-end NFT services covering strategy, development, security, and ongoing support.",
+    "services": [
+      {
+        "title": "NFT Marketplace Development",
+        "description": "Custom NFT marketplaces with secure trading, minting, royalties, and wallet integration. Built for usability, performance, and scale.",
+        "icon": "/assets/images/header/nav-icon-1.svg"
+      },
+      {
+        "title": "NFT Smart Contract Development & Audit",
+        "description": "Gas-optimised, standards-compliant NFT smart contracts with optional security audits to protect assets and users.",
+        "icon": "/assets/images/header/nav-icon-2.svg"
+      },
+      {
+        "title": "NFT Minting Platforms",
+        "description": "Custom minting platforms that allow creators or users to mint, manage, and distribute NFTs securely and efficiently.",
+        "icon": "/assets/images/header/nav-icon-3.svg"
+      },
+      {
+        "title": "NFT Token & Collection Development",
+        "description": "Creation of NFT collections with structured metadata, rarity logic, royalties, and utility-based features.",
+        "icon": "/assets/images/header/nav-icon-4.svg"
+      },
+      {
+        "title": "NFT Gaming & Digital Asset Integration",
+        "description": "NFTs representing in-game assets, digital items, or ownership rights, integrated into games and interactive platforms.",
+        "icon": "/assets/images/header/nav-icon-5.svg"
+      },
+      {
+        "title": "Enterprise NFT Solutions",
+        "description": "NFT-based systems for digital identity, access control, asset tracking, and intellectual property management.",
+        "icon": "/assets/images/header/nav-icon-6.svg"
+      }
+    ]
+  },
+  "wallet_integration": {
+    "heading": "Crypto Wallet Development Solutions",
+    "description": "End-to-end wallet services covering architecture, development, security, and ongoing support.",
+    "services": [
+      {
+        "title": "Custom Crypto Wallet Development",
+        "description": "Bespoke wallet solutions built around your business model, asset types, and user flows. Designed for long-term maintainability and scale.",
+        "icon": "/assets/images/header/nav-icon-1.svg"
+      },
+      {
+        "title": "Mobile Crypto Wallet Development",
+        "description": "Secure and intuitive crypto wallet applications for iOS and Android, built with strong encryption and user-focused design.",
+        "icon": "/assets/images/header/nav-icon-2.svg"
+      },
+      {
+        "title": "Web3 & Non-Custodial Wallet Development",
+        "description": "Decentralised wallets that give users full control of private keys and assets, enabling seamless interaction with dApps, DeFi protocols, and NFT platforms.",
+        "icon": "/assets/images/header/nav-icon-3.svg"
+      },
+      {
+        "title": "Multi-Currency & NFT Wallets",
+        "description": "Wallets supporting multiple blockchains, tokens, and NFTs, with structured asset display and transaction management.",
+        "icon": "/assets/images/header/nav-icon-4.svg"
+      },
+      {
+        "title": "White-Label Wallet Solutions",
+        "description": "Brand-ready wallet solutions for faster market entry, fully customisable to match your platform, design, and security requirements.",
+        "icon": "/assets/images/header/nav-icon-5.svg"
+      },
+      {
+        "title": "Enterprise Wallet Solutions",
+        "description": "Institutional-grade wallets with enhanced security, access controls, and integration support for enterprise blockchain platforms.",
+        "icon": "/assets/images/header/nav-icon-6.svg"
+      }
+    ]
+  },
+  "smart_contract_audits": {
+    "heading": "Our Smart Contract Audit Services",
+    "description": "Comprehensive auditing services covering security, logic, and optimisation.",
+    "services": [
+      {
+        "title": "Manual Smart Contract Audits",
+        "description": "Line-by-line manual review of your smart contract code to identify vulnerabilities that automated tools often miss.",
+        "icon": "/assets/images/header/nav-icon-1.svg"
+      },
+      {
+        "title": "DeFi Smart Contract Audits",
+        "description": "Audits for lending protocols, DEXs, staking contracts, yield mechanisms, and tokenomics logic.",
+        "icon": "/assets/images/header/nav-icon-2.svg"
+      },
+      {
+        "title": "NFT Smart Contract Audits",
+        "description": "Security and logic audits for NFT minting contracts, marketplaces, royalty mechanisms, and metadata handling.",
+        "icon": "/assets/images/header/nav-icon-3.svg"
+      },
+      {
+        "title": "Token Smart Contract Audits",
+        "description": "Audits for ERC-20, ERC-721, ERC-1155, and custom token standards, including supply control, permissions, and transfer logic.",
+        "icon": "/assets/images/header/nav-icon-4.svg"
+      },
+      {
+        "title": "DAO & Governance Audits",
+        "description": "Audits focused on voting logic, proposal execution, treasury access, and governance attack vectors.",
+        "icon": "/assets/images/header/nav-icon-5.svg"
+      },
+      {
+        "title": "Gas Optimisation & Performance Review",
+        "description": "Analysis and optimisation recommendations to reduce transaction costs without compromising security.",
+        "icon": "/assets/images/header/nav-icon-6.svg"
+      }
+    ]
+  }
+}

@@ -70,6 +70,10 @@
     }
   }
 
+  &.home_page .tabs_wrapper {
+    max-width: 2000px;
+  }
+
   .tabs {
     display: flex;
     gap: 0;

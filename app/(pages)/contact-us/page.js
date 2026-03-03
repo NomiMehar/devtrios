@@ -8,6 +8,7 @@ import OurClients from "@/app/(components)/our-clients/OurClients";
 import Cta from "@/app/(components)/cta/Cta";
 import CtaList from "@/app/(components)/cta/CtaList.json";
 import Awards from "@/app/(components)/awards/Awards";
+import WebsiteContactForm from "@/app/(components)/website-contact-form/WebsiteContactForm";
 export default function ContactUs() {
   const customBannerData = bannerData.conatct_us;
   const ctaData = CtaList.contact_us;
@@ -50,7 +51,8 @@ export default function ContactUs() {
         description={customBannerData.description}
         buttons={customBannerData.buttons}
       />
-      <ContactInfoForm noPadding={true} />
+      {/* <ContactInfoForm noPadding={true} /> */}
+      <WebsiteContactForm marginTopOnly />
       <Faqs type="home" noPadding={true} />
       <OurClients />
       <Cta data={ctaData} />

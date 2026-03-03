@@ -1,0 +1,61 @@
+{
+  "technical_seo_services": {
+    "heading": "Our Technical SEO Services",
+    "subtitle": "Comprehensive technical optimisation built for performance, scale, and long-term stability.",
+    "ctaText": "Get a Free Consultation",
+    "ctaHref": "/get-a-quote",
+    "image": "/assets/images/services/web-app-solutions.webp",
+    "imageAlt": "Technical SEO services illustration",
+    "services": [
+      {
+        "title": "Technical SEO Audits",
+        "description": "We identify what is broken, bloated, or blocking growth.\nThis includes crawl analysis, indexation review, site architecture evaluation, log file analysis, and prioritised issue mapping based on impact.",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Technical SEO audits"
+      },
+      {
+        "title": "Site Architecture & Crawl Optimisation",
+        "description": "We structure your site so search engines and users can navigate it effortlessly.\nThis includes URL structure, internal linking strategy, crawl depth optimisation, pagination handling, and elimination of orphan pages.",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Site architecture and crawl optimisation"
+      },
+      {
+        "title": "Core Web Vitals & Page Speed Optimisation",
+        "description": "Speed is no longer optional.\nWe optimise LCP, CLS, and INP through performance tuning, asset optimisation, code clean-up, and server-level improvements.",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Core Web Vitals and page speed optimisation"
+      },
+      {
+        "title": "Indexation & Crawl Budget Management",
+        "description": "We control what search engines see and ignore.\nThis includes robots directives, noindex handling, canonicalisation, XML sitemaps, parameter management, and index bloat reduction.",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Indexation and crawl budget management"
+      },
+      {
+        "title": "Schema & Structured Data",
+        "description": "We help search engines understand your content.\nWe implement and validate schema for products, services, FAQs, articles, organisations, reviews, and more to improve SERP visibility.",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Schema and structured data"
+      },
+      {
+        "title": "Mobile SEO & Technical Compatibility",
+        "description": "Your site must perform flawlessly on mobile.\nWe ensure responsive implementation, mobile-first index alignment, and consistency across devices.",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Mobile SEO and technical compatibility"
+      },
+      {
+        "title": "JavaScript SEO",
+        "description": "Modern frameworks require specialised handling.\nWe optimise rendering, hydration, and indexing for React, Next.js, Vue, and other JavaScript-heavy environments.",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "JavaScript SEO"
+      },
+      {
+        "title": "Website Migrations & SEO Safeguards",
+        "description": "Technical SEO is critical during change.\nWe manage redirects, URL mapping, index preservation, and traffic protection during site rebuilds, CMS changes, or domain migrations.",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Website migrations and SEO safeguards"
+      }
+    ]
+  }
+}
+

@@ -163,6 +163,122 @@
       }
     ]
   },
+  "seo_services": {
+    "title": "SEO That Drives Visibility, Demand, and Revenue",
+    "titleStart": "SEO",
+    "titleEnd": "That Drives Visibility, Demand, and Revenue",
+    "description": "SEO is not about rankings for the sake of rankings.\nIt is about capturing demand at the exact moment buyers are searching and converting that attention into revenue.\nAt Devtrios, we deliver performance driven SEO built around search intent, technical precision, and measurable outcomes. We do not chase vanity metrics or short term wins. We build SEO systems that compound over time and support real business growth.\nWhether you are a local business, an eCommerce brand, or a complex multi market organisation, our SEO strategies are engineered to scale with you.",
+    "benefits": [
+      "Sustainable ranking growth",
+      "Qualified, high intent traffic",
+      "Stronger conversion pathways",
+      "Clear attribution and ROI",
+      "SEO foundations that do not break at scale"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free SEO Consultation",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request an SEO Strategy",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "SEO Services",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What our SEO delivers",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Sustainable ranking growth"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Qualified, high intent traffic"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Stronger conversion pathways"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Clear attribution and ROI"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "SEO foundations that do not break at scale"
+      }
+    ]
+  },
+  "technical_seo": {
+    "title": "Technical SEO That Fixes What’s Holding Your Rankings Back",
+    "titleStart": "Technical SEO",
+    "titleEnd": "That Fixes What’s Holding Your Rankings Back",
+    "description": "If search engines cannot crawl, understand, and trust your website, nothing else matters.\nTechnical SEO is the foundation of organic growth. It ensures your site is fast, accessible, structurally sound, and aligned with how modern search engines actually evaluate websites. At Devtrios, we deliver technical SEO that removes friction, eliminates risk, and creates a platform search engines can confidently rank.\nThis is not surface-level optimization. We address the underlying technical issues that quietly suppress visibility, waste crawl budget, and cap growth.",
+    "benefits": [
+      "Faster load times and better Core Web Vitals",
+      "Clean crawlability and indexation",
+      "Stronger trust and ranking stability",
+      "Fewer technical penalties and risks",
+      "A scalable foundation for content and authority"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free Technical SEO Review",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Technical SEO Audit",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "Technical SEO",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What strong technical SEO delivers",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Faster load times and better Core Web Vitals"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Clean crawlability and indexation"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Stronger trust and ranking stability"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Fewer technical penalties and risks"
+      }
+    ]
+  },
   "software_development": {
     "title": "Software Development Services for Scalable, High-Performance Solutions",
     "titleStart": "Software Development Services",
@@ -877,6 +993,116 @@
       }
     ]
   },
+  "ai_agents": {
+    "title": "AI Agent Development Services – Task-driven AI agents built to assist, execute, and scale operations",
+    "titleStart": "AI Agent Development Services",
+    "titleEnd": "Task-driven AI agents built to assist, execute, and scale operations",
+    "description": "AI Agents are designed to assist, execute defined tasks, and interact with systems under clear instructions. They operate within scoped responsibilities, supporting teams by automating actions, responding intelligently, and reducing manual workload.\nAt Devtrios, we build reliable, production-grade AI agents that integrate directly into your business systems. These agents are not experimental assistants. They are engineered tools designed to perform repeatable, valuable work at scale.",
+    "benefits": [
+      "High-volume repetitive tasks",
+      "Manual coordination between tools",
+      "Slow response times in support and operations",
+      "Overloaded teams handling routine requests",
+      "Automation that lacks intelligence or context"
+    ],
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "link": "/contact-us",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Talk to Our AI Engineering Team",
+        "link": "/get-a-quote"
+      }
+    ],
+    "badge": {
+      "text": "AI Agent Development Services",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What AI Agents Solve for Your Business",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "High-volume repetitive tasks"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Manual coordination between tools"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Slow response times in support and operations"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Overloaded teams handling routine requests"
+      }
+    ]
+  },
+  "agentic_ai": {
+    "title": "Agentic AI Development Services – Autonomous AI agents engineered to act, decide, and execute across your systems",
+    "titleStart": "Agentic AI Development Services",
+    "titleEnd": "Autonomous AI agents engineered to act, decide, and execute across your systems",
+    "description": "Most AI today responds.\nAgentic AI acts.\nAgentic AI systems go beyond prompts and predictions. They plan tasks, make decisions, interact with tools, and execute workflows autonomously, while operating within clearly defined constraints.\nAt Devtrios, we design and build Agentic AI systems that function as reliable digital operators inside your business. These are not chatbots. They are engineered agents that reason, take action, monitor outcomes, and adapt, while remaining auditable, secure, and aligned with your business logic.",
+    "benefits": [
+      "Manual orchestration between systems and teams",
+      "AI outputs that require constant human intervention",
+      "Workflows that break when conditions change",
+      "Tools that automate steps but cannot reason or adapt",
+      "Scaling operations without scaling headcount"
+    ],
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "link": "/contact-us",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Talk to Our AI Engineering Team",
+        "link": "/get-a-quote"
+      }
+    ],
+    "badge": {
+      "text": "Agentic AI Development Services",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What Agentic AI Solves for Your Business",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Manual orchestration between systems and teams"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "AI outputs that require constant human intervention"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Workflows that break when conditions change"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Scaling operations without scaling headcount"
+      }
+    ]
+  },
   "llm_development": {
     "title": "LLM Development Services for Secure, Scalable Enterprise AI Solutions",
     "titleStart": "LLM Development Services",
@@ -1100,6 +1326,284 @@
         "overViewCount": "100",
         "overViewSign": "+",
         "overViewDescription": "Scalable infrastructure built for real usage"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Compliance-aware design from day one"
+      }
+    ]
+  },
+  "smart_contract_development": {
+    "title": "Smart Contract Development Services for Secure, Audited Blockchain Applications",
+    "titleStart": "Smart Contract Development Services",
+    "titleEnd": "for Secure, Audited Blockchain Applications",
+    "description": "Smart contracts sit at the core of modern blockchain systems. When designed properly, they automate business logic, remove intermediaries, and enforce trust through code. When designed poorly, they introduce security risks, financial loss, and irreversible failures.\nAs a smart contract development company, Devtrios delivers secure, auditable, and production-ready smart contracts for real-world blockchain applications. We design, develop, test, and deploy contracts that prioritise correctness, security, and long-term maintainability.\nWhether you are building a DeFi protocol, NFT platform, DAO, or enterprise blockchain system, we engineer smart contracts that perform reliably under real network conditions.",
+    "benefits": [
+      "Secure, gas-optimised contract logic",
+      "Audited, production-ready code",
+      "Support for Ethereum, EVM chains, and selected L1s",
+      "Upgrade-safe architecture where required",
+      "Contracts built for real usage, not demos"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Smart Contract Consultation",
+        "link": "/contact-us",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Security Review",
+        "link": "/get-a-quote"
+      }
+    ],
+    "badge": {
+      "text": "Generative Business Intelligence for Analysts",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What our smart contract development delivers",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Secure, gas-optimised contract logic"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Audited, production-ready code"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Support for Ethereum, EVM chains, and selected L1s"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Upgrade-safe architecture where required"
+      }
+    ]
+  },
+  "web3_app_development": {
+    "title": "Web3 App Development – Build Secure, Scalable Web3 Applications That Work in the Real World",
+    "titleStart": "Web3 App Development",
+    "titleEnd": "Build Secure, Scalable Web3 Applications That Work in the Real World",
+    "description": "We design and develop production-ready Web3 applications that combine decentralised architecture with real business logic. From dApps and Web3 platforms to wallet integrations and smart contract powered systems, our Web3 app development services focus on security, usability, and long-term scalability.\nWhether you are launching a Web3 startup, building a decentralised marketplace, or integrating blockchain into an existing product, we deliver Web3 applications that are stable, auditable, and built for real adoption.",
+    "benefits": [
+      "Decentralised, production-ready Web3 applications",
+      "Smart contract driven workflows",
+      "Secure wallet integrations",
+      "Scalable architecture designed for growth"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free Web3 Consultation",
+        "link": "/contact-us",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Project Quote",
+        "link": "/get-a-quote"
+      }
+    ],
+    "badge": {
+      "text": "Web3 App Development",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What we deliver",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Decentralised, production-ready Web3 applications"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Smart contract driven workflows"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Secure wallet integrations"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Scalable architecture designed for growth"
+      }
+    ]
+  },
+  "nft_development": {
+    "title": "NFT Development – Build Secure, Scalable NFT Platforms With Real Business Utility",
+    "titleStart": "NFT Development",
+    "titleEnd": "Build Secure, Scalable NFT Platforms With Real Business Utility",
+    "description": "We design and develop NFT platforms that go beyond collectibles. Our NFT development services focus on secure ownership, scalable infrastructure, and practical use cases across marketplaces, gaming, memberships, and enterprise systems.\nWhether you are launching an NFT marketplace, a branded digital collection, or integrating NFTs into an existing platform, we build production-ready NFT solutions designed for performance, security, and long-term adoption.",
+    "benefits": [
+      "Secure NFT smart contracts",
+      "Scalable NFT marketplaces and minting platforms",
+      "Wallet-based ownership and transactions",
+      "Infrastructure built for growth and compliance"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free NFT Consultation",
+        "link": "/contact-us",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Project Quote",
+        "link": "/get-a-quote"
+      }
+    ],
+    "badge": {
+      "text": "NFT Development",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What we deliver",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Secure NFT smart contracts"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Scalable NFT marketplaces and minting platforms"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Wallet-based ownership and transactions"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Infrastructure built for growth and compliance"
+      }
+    ]
+  },
+  "wallet_integration": {
+    "title": "Crypto Wallet Development – Secure, Scalable Crypto Wallet Solutions Built for Real-World Use",
+    "titleStart": "Crypto Wallet Development",
+    "titleEnd": "Secure, Scalable Crypto Wallet Solutions Built for Real-World Use",
+    "description": "We design and build secure crypto wallets that prioritise asset protection, usability, and long-term scalability. Our crypto wallet development services support businesses building Web3 platforms, NFT ecosystems, payment systems, and enterprise blockchain products.\nFrom non-custodial wallets to enterprise-grade integrations, we deliver wallet solutions engineered for security, performance, and user trust.",
+    "benefits": [
+      "Secure wallet architecture and key management",
+      "Mobile, web, and Web3 wallet development",
+      "Multi-currency and NFT wallet support",
+      "Enterprise-ready integrations and compliance awareness"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free Wallet Consultation",
+        "link": "/contact-us",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Project Quote",
+        "link": "/get-a-quote"
+      }
+    ],
+    "badge": {
+      "text": "Crypto Wallet Development",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What we deliver",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Secure wallet architecture and key management"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Mobile, web, and Web3 wallet development"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Multi-currency and NFT wallet support"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Enterprise-ready integrations and compliance awareness"
+      }
+    ]
+  },
+  "smart_contract_audits": {
+    "title": "Smart Contract Audit – Smart Contract Audit Services Built for Security, Trust, and Deployment Readiness",
+    "titleStart": "Smart Contract Audit",
+    "titleEnd": "Smart Contract Audit Services Built for Security, Trust, and Deployment Readiness",
+    "description": "Smart contracts are immutable by design. Once deployed, there is no undo button. A single vulnerability can expose funds, break logic, or permanently damage trust.\nOur smart contract audit services are designed to identify vulnerabilities, logic flaws, and optimisation issues before deployment. We audit smart contracts used in DeFi platforms, NFT projects, Web3 applications, DAOs, and enterprise blockchain systems.\nWe don't provide surface-level scans. We deliver deep, manual audits that focus on real attack vectors, business logic risks, and production readiness.",
+    "benefits": [
+      "Security vulnerabilities and exploit risks",
+      "Business logic correctness",
+      "Gas efficiency and performance",
+      "Upgradeability and permission controls",
+      "Alignment with intended protocol behaviour"
+    ],
+    "buttons": [
+      {
+        "text": "Request a Smart Contract Audit",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Book a Security Review Call",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "Smart Contract Audit",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What we audit",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Security vulnerabilities and exploit risks"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Business logic correctness"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Gas efficiency and performance"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Upgradeability and permission controls"
       }
     ]
   },
@@ -1320,6 +1824,363 @@
         "overViewCount": "100",
         "overViewSign": "+",
         "overViewDescription": "Faster time to market without sacrificing quality"
+      }
+    ]
+  },
+  "ui_ux_design": {
+    "title": "UI & UX Design That Turns Users Into Customers",
+    "titleStart": "UI & UX Design",
+    "titleEnd": "That Turns Users Into Customers",
+    "description": "Design is not decoration. It is decision-making.\nAt Devtrios, our UI & UX design services focus on clarity, usability, and outcomes. We design digital experiences that help users understand products faster, move with confidence, and take action without friction.\nWhether you’re launching a new product, improving an existing platform, or fixing conversion drop-offs, our design work is grounded in real user behaviour and business goals, not trends or guesswork.\nWe design interfaces that feel simple to users and intentional to stakeholders.",
+    "benefits": [
+      "Clear user journeys and reduced friction",
+      "Interfaces built to support conversions, not distract from them",
+      "Scalable design systems that work with engineering, not against it"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free UX Consultation",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Design Quote",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "UI & UX Design Services",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What this delivers",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Clear user journeys and reduced friction"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Interfaces built to support conversions, not distract from them"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Scalable design systems that work with engineering, not against it"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Scalable design systems that work with engineering, not against it"
+      }
+    ]
+  },
+  "ux_research": {
+    "title": "UX Research That Removes Guesswork From Product Decisions",
+    "titleStart": "UX Research",
+    "titleEnd": "That Removes Guesswork From Product Decisions",
+    "description": "Great products are not built on opinions. They are built on evidence.\nAt Devtrios, our UX research services help teams understand how users actually behave, where they struggle, and why products fail or succeed. We turn user insight into clear direction, reducing risk, improving usability, and supporting better business outcomes.\nWhether you are validating a new idea, fixing adoption issues, or preparing for a redesign, UX research ensures decisions are grounded in reality, not assumptions.",
+    "benefits": [
+      "Clear understanding of user needs and behaviour",
+      "Reduced design and development risk",
+      "Stronger product adoption and retention"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free UX Consultation",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Research Proposal",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "UX Research Services",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What UX research delivers",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Clear understanding of user needs and behaviour"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Reduced design and development risk"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Stronger product adoption and retention"
+      }
+    ]
+  },
+  "ux_audit": {
+    "title": "UX Audits That Reveal What’s Blocking Conversions, Adoption, and Growth",
+    "titleStart": "UX Audits",
+    "titleEnd": "That Reveal What’s Blocking Conversions, Adoption, and Growth",
+    "description": "When users struggle, hesitate, or drop off, the issue is rarely traffic or features. It is usually experience.\nOur UX audit services identify exactly where users get stuck, confused, or disengaged, and why. We analyse your product from a user, usability, and performance perspective to surface the friction points that quietly damage conversions, retention, and trust.\nThis is not guesswork. A UX audit gives you evidence, priorities, and a clear path forward.",
+    "benefits": [
+      "Clear visibility into usability and experience issues",
+      "Prioritised recommendations tied to business impact",
+      "A practical roadmap for design and product improvement"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free UX Audit Consultation",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a UX Audit Proposal",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "UX Audit Services",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What a UX audit delivers",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Clear visibility into usability and experience issues"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Prioritised recommendations tied to business impact"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "A practical roadmap for design and product improvement"
+      }
+    ]
+  },
+  "wireframing_prototyping": {
+    "title": "Wireframing & Prototyping – Turn Ideas Into Clear, Testable Product Blueprints",
+    "titleStart": "Wireframing & Prototyping",
+    "titleEnd": "Turn Ideas Into Clear, Testable Product Blueprints",
+    "description": "Before code, before polish, before commitment, you need clarity.\nOur wireframing and prototyping services help teams visualise, validate, and refine products before development begins. We translate ideas into structured flows, interactive models, and decision-ready artefacts that reduce risk, align stakeholders, and accelerate delivery.\nThis is how strong products are built. Deliberately, not by guesswork.",
+    "benefits": [
+      "A shared understanding of the product",
+      "Validated user flows and structure",
+      "Fewer changes during development",
+      "Faster, more confident decisions"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free Wireframing Consultation",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Prototype Proposal",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "Wireframing & Prototyping Services",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What wireframing and prototyping give you",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "A shared understanding of the product"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Validated user flows and structure"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Fewer changes during development"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Faster, more confident decisions"
+      }
+    ]
+  },
+  "design_system": {
+    "title": "Design Systems – Build Consistent, Scalable Products Without Design Debt",
+    "titleStart": "Design Systems",
+    "titleEnd": "Build Consistent, Scalable Products Without Design Debt",
+    "description": "As products grow, inconsistency creeps in.\nDesign systems solve that.\nOur design system services help teams create a single source of truth for UI components, patterns, and rules. The result is faster delivery, visual consistency, and seamless collaboration between design and development.\nThis is how modern products scale without slowing down.",
+    "benefits": [
+      "Consistent UI across products and teams",
+      "Faster design and development cycles",
+      "Fewer design decisions repeated",
+      "Cleaner handoff to engineering",
+      "Easier onboarding for new team members"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free Design System Consultation",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Design System Proposal",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "Design System Services",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What a design system gives you",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Consistent UI across products and teams"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Faster design and development cycles"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Fewer design decisions repeated"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Cleaner handoff to engineering"
+      }
+    ]
+  },
+  "product_design": {
+    "title": "Product Design – Design Products That Scale, Convert, and Endure",
+    "titleStart": "Product Design",
+    "titleEnd": "Design Products That Scale, Convert, and Endure",
+    "description": "Product design is not about screens. It is about decisions.\nEvery interaction, flow, and visual choice either reduces friction or creates it. At Devtrios, our product design services focus on building digital products that users understand quickly, adopt naturally, and continue using as they scale.\nWe design products that balance user needs, business goals, and technical realities. From early-stage MVPs to mature SaaS platforms, our work turns complex ideas into usable, scalable products that perform in the real world.",
+    "benefits": [
+      "User-led, outcome-driven product design",
+      "Clear alignment between UX, UI, and engineering",
+      "Built for scale, not redesigns every six months",
+      "Designed to support growth, adoption, and retention"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free Product Design Consultation",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Design Proposal",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "Product Design Services",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What defines our approach",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "User-led, outcome-driven product design"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Clear alignment between UX, UI, and engineering"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Built for scale, not redesigns every six months"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Designed to support growth, adoption, and retention"
+      }
+    ]
+  },
+  "ui_design": {
+    "title": "UI Design That Turns Interfaces Into Confident User Actions",
+    "titleStart": "UI Design",
+    "titleEnd": "That Turns Interfaces Into Confident User Actions",
+    "description": "Visual design is not decoration. It is communication.\nAt Devtrios, our UI design services focus on clarity, consistency, and usability. We design interfaces that help users understand products instantly, navigate with confidence, and complete actions without friction.\nWhether you are launching a new product, scaling a SaaS platform, or modernising an existing system, strong UI design ensures your technology feels reliable, intuitive, and professional from the first interaction.",
+    "benefits": [
+      "Clear visual hierarchy and readability",
+      "Consistent, scalable design systems",
+      "Interfaces that support adoption and conversion"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free UI Consultation",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Design Quote",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "UI Design Services",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What strong UI design delivers",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Clear visual hierarchy and readability"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Consistent, scalable design systems"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Interfaces that support adoption and conversion"
       }
     ]
   },

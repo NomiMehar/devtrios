@@ -75,7 +75,7 @@ export default function WebsiteTechStack({ type = "website_development" }) {
   }
 
   return (
-    <div className={styles.tech_stack}>
+    <div className={`${styles.tech_stack} ${type === "home" ? styles.home_page : ""}`}>
       <div className="container">
         <h2 className={styles.heading}>{serviceData.title}</h2>
         <p className={styles.description}>

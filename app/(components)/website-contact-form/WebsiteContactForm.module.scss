@@ -13,6 +13,19 @@
     padding-bottom: 70px;
   }
 
+  &.margin_top_only {
+    padding-bottom: 0;
+    margin-top: 130px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      margin-top: 100px;
+    }
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      margin-top: 70px;
+    }
+  }
+
   .contact_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;

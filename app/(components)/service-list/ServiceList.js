@@ -71,7 +71,16 @@ export default function ServiceList({ data }) {
 
                     <h4 className={styles.card_title}>{service.title}</h4>
                     <p className={styles.card_description}>{service.description}</p>
-
+                    {service.includes_list && (
+                      <div className={styles.card_includes}>
+                        <h5 className={styles.card_includes_title}>{service.includes_title}</h5>
+                        <ul className={styles.card_includes_list}>
+                          {service.includes_list.map((include, index) => (
+                            <li key={index}>{include}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
                     {service.link && (
                       <Link href={service.link} className={styles.card_link}>
                         {service.linkText || "Learn More"}

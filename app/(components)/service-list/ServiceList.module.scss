@@ -267,6 +267,15 @@
         .card_link {
           color: $white_color;
         }
+        .card_includes {
+          color: rgba(255, 255, 255, 0.85);
+        }
+        li {
+          color: rgba(255, 255, 255, 0.85);
+        }
+        .card_includes_title {
+          color: rgba(255, 255, 255, 0.85);
+        }
       }
 
       .card_icon {
@@ -360,6 +369,29 @@
             transform: translateX(4px);
           }
         }
+      }
+      .card_includes {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .card_includes_title {
+        font-size: 18px;
+        font-weight: 600;
+        color: $dark_color;
+        margin: 0;
+      }
+
+      .card_includes_list {
+        padding-left: 20px;
+        margin: 0;
+      }
+      li {
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(54, 54, 54, 0.8);
+        margin: 0;
       }
     }
   }

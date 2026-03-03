@@ -1,1 +1,188 @@
-{"ai_chatbots":{"heading":"Our AI Chatbot Development Services","description":"We deliver end-to-end AI chatbot development services, from strategy and design to deployment and ongoing optimisation.","services":[{"title":"Customer Support AI Chatbots","description":"Automate high-volume support queries while maintaining consistent, accurate responses. Designed to resolve common issues and escalate intelligently when needed.","icon":"/assets/images/header/nav-icon-3.svg"},{"title":"Sales & Lead Qualification Chatbots","description":"Chatbots that engage visitors, qualify leads, capture intent, and route prospects to the right sales flow or team.","icon":"/assets/images/header/nav-icon-3.svg"},{"title":"AI Assistants & Conversational Interfaces","description":"Advanced conversational bots for internal teams or customer-facing use cases, supporting natural language queries and contextual responses.","icon":"/assets/images/header/nav-icon-3.svg"},{"title":"Transactional Chatbots","description":"Enable users to complete actions such as bookings, order placement, and account updates directly within chat interfaces.","icon":"/assets/images/header/nav-icon-3.svg"},{"title":"Multichannel Chatbot Deployment","description":"Chatbots deployed across websites, mobile apps, and messaging platforms such as WhatsApp, Messenger, Slack, and custom environments.","icon":"/assets/images/header/nav-icon-3.svg"}]},"llm_development":{"heading":"Our LLM Development Services","description":"We provide end-to-end LLM development services, from strategy and model design to deployment and ongoing optimisation.","services":[{"title":"Custom LLM Development","description":"Design and development of private large language models trained on your internal data, terminology, and workflows.","icon":"/assets/images/header/nav-icon-3.svg"},{"title":"LLM Fine-Tuning Services","description":"Fine-tuning of existing foundation models (GPT-based, Llama-based, Mistral-based) to improve accuracy, relevance, and task-specific performance.","icon":"/assets/images/header/nav-icon-3.svg"},{"title":"LLM Application Development","description":"Development of production-ready applications powered by LLMs, including internal assistants, analytics tools, automation engines, and customer-facing systems.","icon":"/assets/images/header/nav-icon-3.svg"},{"title":"Enterprise AI Model Development","description":"AI solutions designed for regulated and enterprise environments, supporting governance, access control, auditability, and compliance requirements.","icon":"/assets/images/header/nav-icon-3.svg"},{"title":"LLM Maintenance & Optimisation","description":"Ongoing monitoring, retraining, performance tuning, and cost optimisation as usage and data volumes scale.","icon":"/assets/images/header/nav-icon-3.svg"}]},"automation_workflows":{"heading":"Our Automation & Workflow Engineering Services","description":"We deliver end-to-end automation solutions designed around how your business actually operates.","services":[{"title":"Business Process Automation","description":"We analyse and automate internal workflows across operations, finance, HR, sales, and support. The goal is simple: reduce manual effort, increase consistency, and improve speed.","icon":"/assets/images/header/nav-icon-3.svg"},{"title":"Workflow Orchestration & Logic Design","description":"Automation is not just triggers and actions. We design decision logic, error handling, and process flows that reflect real operational complexity.","icon":"/assets/images/header/nav-icon-3.svg"},{"title":"System Integration & Data Sync","description":"We connect CRMs, ERPs, internal tools, databases, and third-party platforms to eliminate silos and ensure data moves accurately between systems.","icon":"/assets/images/header/nav-icon-3.svg"},{"title":"AI-Assisted Automation","description":"Where appropriate, we introduce AI-driven components such as document processing, classification, and decision support to handle workflows that previously required human judgement.","icon":"/assets/images/header/nav-icon-3.svg"},{"title":"Automation Monitoring & Optimisation","description":"Automation is not \"set and forget\". We provide monitoring, refinement, and optimisation to ensure workflows remain reliable as volumes and systems evolve.","icon":"/assets/images/header/nav-icon-3.svg"}]},"generative_ai":{"heading":"Our Generative AI Development Services","description":"We deliver end-to-end Generative AI development, from strategy and architecture through deployment and optimisation.","services":[{"title":"Custom Generative AI Solutions","description":"We design bespoke Generative AI systems tailored to your business logic, data, and users. These are not generic prompts layered on top of public models, but engineered systems with defined behaviour and controls.","icon":"/assets/images/header/nav-icon-3.svg"},{"title":"Enterprise Generative AI Development","description":"Secure, scalable Generative AI platforms built for enterprise environments. Deployed within your cloud or private infrastructure, aligned with governance and compliance requirements.","icon":"/assets/images/header/nav-icon-3.svg"},{"title":"Retrieval Augmented Generation (RAG)","description":"We build RAG architectures that allow AI models to generate responses grounded in your internal documents, databases, and knowledge sources, improving accuracy and reducing hallucinations.","icon":"/assets/images/header/nav-icon-3.svg"},{"title":"Generative AI for Content & Knowledge Systems","description":"Automate and enhance: Knowledge base generation, internal documentation, reports and summaries, product content and descriptions, structured and unstructured data outputs.","icon":"/assets/images/header/nav-icon-3.svg"},{"title":"AI Model Integration & Orchestration","description":"We integrate Generative AI into your existing platforms, products, and workflows via secure APIs, ensuring it functions as part of your system, not a disconnected tool.","icon":"/assets/images/header/nav-icon-3.svg"}]}}
+{
+    "ai_agents": {
+        "heading": "Our AI Agent Development Services",
+        "description": "We build AI agents that perform clearly defined roles and integrate safely into real workflows.",
+        "services": [
+            {
+                "title": "Task-Based AI Agents",
+                "description": "Agents designed to execute specific tasks such as data processing, ticket handling, reporting, or system updates.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "AI Assistants for Internal Teams",
+                "description": "Agents that support operations, sales, finance, or support teams by retrieving data, generating outputs, and handling routine actions.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "AI Agents Integrated with Business Systems",
+                "description": "We connect AI agents directly to: CRMs and ERPs; databases and internal tools; SaaS platforms and APIs; workflow and automation engines.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "AI Agents for Customer Interaction",
+                "description": "Intelligent agents that handle customer requests, triage issues, and support workflows while maintaining consistency and accuracy.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "Secure AI Agent Deployment",
+                "description": "Every agent is built with scoped permissions, logging, and control layers to ensure predictable behaviour and compliance.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            }
+        ]
+    },
+    "agentic_ai": {
+        "heading": "Our Agentic AI Development Services",
+        "description": "We build agentic systems that operate safely and predictably within real business environments.",
+        "services": [
+            {
+                "title": "Custom Agentic AI Systems",
+                "description": "We design bespoke AI agents that pursue defined goals, make decisions, and execute actions across tools, APIs, and workflows.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "Multi-Agent Architectures",
+                "description": "We build systems where multiple AI agents collaborate, delegate tasks, and coordinate outcomes, each with defined responsibilities and permissions.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "Tool-Using AI Agents",
+                "description": "Our agents interact directly with: CRMs and ERPs; databases and internal tools; APIs and SaaS platforms; automation and workflow engines.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "Agentic AI for Operations & Automation",
+                "description": "Replace brittle rule-based automations with agents that can reason, adapt, and recover when conditions change.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "Secure & Governed Agent Deployment",
+                "description": "We implement strict guardrails, permissions, audit logs, and fail-safes to ensure agent actions remain controlled and compliant.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            }
+        ]
+    },
+    "ai_chatbots": {
+        "heading": "Our AI Chatbot Development Services",
+        "description": "We deliver end-to-end AI chatbot development services, from strategy and design to deployment and ongoing optimisation.",
+        "services": [
+            {
+                "title": "Customer Support AI Chatbots",
+                "description": "Automate high-volume support queries while maintaining consistent, accurate responses. Designed to resolve common issues and escalate intelligently when needed.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "Sales & Lead Qualification Chatbots",
+                "description": "Chatbots that engage visitors, qualify leads, capture intent, and route prospects to the right sales flow or team.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "AI Assistants & Conversational Interfaces",
+                "description": "Advanced conversational bots for internal teams or customer-facing use cases, supporting natural language queries and contextual responses.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "Transactional Chatbots",
+                "description": "Enable users to complete actions such as bookings, order placement, and account updates directly within chat interfaces.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "Multichannel Chatbot Deployment",
+                "description": "Chatbots deployed across websites, mobile apps, and messaging platforms such as WhatsApp, Messenger, Slack, and custom environments.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            }
+        ]
+    },
+    "llm_development": {
+        "heading": "Our LLM Development Services",
+        "description": "We provide end-to-end LLM development services, from strategy and model design to deployment and ongoing optimisation.",
+        "services": [
+            {
+                "title": "Custom LLM Development",
+                "description": "Design and development of private large language models trained on your internal data, terminology, and workflows.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "LLM Fine-Tuning Services",
+                "description": "Fine-tuning of existing foundation models (GPT-based, Llama-based, Mistral-based) to improve accuracy, relevance, and task-specific performance.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "LLM Application Development",
+                "description": "Development of production-ready applications powered by LLMs, including internal assistants, analytics tools, automation engines, and customer-facing systems.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "Enterprise AI Model Development",
+                "description": "AI solutions designed for regulated and enterprise environments, supporting governance, access control, auditability, and compliance requirements.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "LLM Maintenance & Optimisation",
+                "description": "Ongoing monitoring, retraining, performance tuning, and cost optimisation as usage and data volumes scale.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            }
+        ]
+    },
+    "automation_workflows": {
+        "heading": "Our Automation & Workflow Engineering Services",
+        "description": "We deliver end-to-end automation solutions designed around how your business actually operates.",
+        "services": [
+            {
+                "title": "Business Process Automation",
+                "description": "We analyse and automate internal workflows across operations, finance, HR, sales, and support. The goal is simple: reduce manual effort, increase consistency, and improve speed.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "Workflow Orchestration & Logic Design",
+                "description": "Automation is not just triggers and actions. We design decision logic, error handling, and process flows that reflect real operational complexity.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "System Integration & Data Sync",
+                "description": "We connect CRMs, ERPs, internal tools, databases, and third-party platforms to eliminate silos and ensure data moves accurately between systems.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "AI-Assisted Automation",
+                "description": "Where appropriate, we introduce AI-driven components such as document processing, classification, and decision support to handle workflows that previously required human judgement.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "Automation Monitoring & Optimisation",
+                "description": "Automation is not \"set and forget\". We provide monitoring, refinement, and optimisation to ensure workflows remain reliable as volumes and systems evolve.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            }
+        ]
+    },
+    "generative_ai": {
+        "heading": "Our Generative AI Development Services",
+        "description": "We deliver end-to-end Generative AI development, from strategy and architecture through deployment and optimisation.",
+        "services": [
+            {
+                "title": "Custom Generative AI Solutions",
+                "description": "We design bespoke Generative AI systems tailored to your business logic, data, and users. These are not generic prompts layered on top of public models, but engineered systems with defined behaviour and controls.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "Enterprise Generative AI Development",
+                "description": "Secure, scalable Generative AI platforms built for enterprise environments. Deployed within your cloud or private infrastructure, aligned with governance and compliance requirements.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "Retrieval Augmented Generation (RAG)",
+                "description": "We build RAG architectures that allow AI models to generate responses grounded in your internal documents, databases, and knowledge sources, improving accuracy and reducing hallucinations.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "Generative AI for Content & Knowledge Systems",
+                "description": "Automate and enhance: Knowledge base generation, internal documentation, reports and summaries, product content and descriptions, structured and unstructured data outputs.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            },
+            {
+                "title": "AI Model Integration & Orchestration",
+                "description": "We integrate Generative AI into your existing platforms, products, and workflows via secure APIs, ensuring it functions as part of your system, not a disconnected tool.",
+                "icon": "/assets/images/header/nav-icon-3.svg"
+            }
+        ]
+    }
+}

@@ -1,0 +1,152 @@
+{
+  "uiuxBusiness": {
+    "heading": "What UX Research Actually Does for Your Business",
+    "intro": "UX research is not academic. It is practical. By studying how users interact with your product, we uncover friction, confusion, and unmet needs that directly affect conversions, retention, and revenue.",
+    "impactHeading": "Business impact",
+    "impactItems": [
+      {
+        "text": "Fewer failed features and redesigns",
+        "icon": "/assets/images/services/ux-research-business.svg"
+      },
+      {
+        "text": "Faster alignment between product, design, and engineering",
+        "icon": "/assets/images/services/ux-research-business.svg"
+      },
+      {
+        "text": "Better prioritisation based on real user evidence",
+        "icon": "/assets/images/services/ux-research-business.svg"
+      }
+    ],
+    "image": "/assets/images/services/ux-research-business-main.png",
+    "closing": "UX research helps you build the right thing, in the right way, for the right users."
+  },
+  "ui_design": {
+    "heading": "Why UI Design Matters for Product Success",
+    "intro": "Users decide fast.\nIf an interface feels confusing, cluttered, or outdated, trust is lost immediately. Good UI design reduces hesitation, reinforces brand credibility, and supports better decision making at every step of the user journey.",
+    "impactHeading": "Business impact",
+    "impactItems": [
+      {
+        "text": "Lower bounce rates and churn",
+        "icon": "/assets/images/services/ux-research-business.svg"
+      },
+      {
+        "text": "Faster onboarding and task completion",
+        "icon": "/assets/images/services/ux-research-business.svg"
+      },
+      {
+        "text": "Higher engagement and conversion",
+        "icon": "/assets/images/services/ux-research-business.svg"
+      }
+    ],
+    "image": "/assets/images/services/ux-research-business-main.png",
+    "closing": "UI design is not about taste. It is about removing friction between users and outcomes."
+  },
+  "ux_audit": {
+    "heading": "When a UX Audit Is the Right Move",
+    "intro": "A UX audit is most valuable when performance stalls or decisions feel unclear.\nIf these sound familiar, your product is asking for a structured audit before further design or development work.",
+    "impactHeading": "Common signals",
+    "impactItems": [
+      {
+        "text": "Users drop off during sign-up, checkout, or onboarding",
+        "icon": "/assets/images/services/ux-research-business.svg"
+      },
+      {
+        "text": "Conversion rates are flat despite marketing spend",
+        "icon": "/assets/images/services/ux-research-business.svg"
+      },
+      {
+        "text": "Feedback mentions confusion, friction, or poor usability",
+        "icon": "/assets/images/services/ux-research-business.svg"
+      },
+      {
+        "text": "Teams debate changes without clear evidence",
+        "icon": "/assets/images/services/ux-research-business.svg"
+      }
+    ],
+    "image": "/assets/images/services/ux-research-business-main.png",
+    "closing": "Instead of rebuilding blindly, teams move forward with confidence."
+  },
+  "wireframing_prototyping": {
+    "heading": "Why Wireframing and Prototyping Matter",
+    "intro": "Skipping this phase is one of the most expensive mistakes teams make.\nWireframing and prototyping replace assumptions with visibility.",
+    "impactHeading": "Without wireframes and prototypes:",
+    "impactItems": [
+      {
+        "text": "Requirements stay vague",
+        "icon": "/assets/images/services/ux-research-business.svg"
+      },
+      {
+        "text": "Assumptions go untested",
+        "icon": "/assets/images/services/ux-research-business.svg"
+      },
+      {
+        "text": "Development slows due to rework",
+        "icon": "/assets/images/services/ux-research-business.svg"
+      },
+      {
+        "text": "Products launch with usability issues",
+        "icon": "/assets/images/services/ux-research-business.svg"
+      }
+    ],
+    "image": "/assets/images/services/ux-research-business-main.png",
+    "closing": "Wireframing and prototyping replace assumptions with visibility."
+  },
+  "design_system": {
+    "heading": "Why Design Systems Matter",
+    "intro": "Without a design system:\nDesign systems replace fragmentation with structure.\nThey allow teams to move fast without breaking consistency.",
+    "impactHeading": "Without a design system:",
+    "impactItems": [
+      {
+        "text": "Teams reinvent the same components",
+        "icon": "/assets/images/services/ux-research-business.svg"
+      },
+      {
+        "text": "Interfaces drift visually over time",
+        "icon": "/assets/images/services/ux-research-business.svg"
+      },
+      {
+        "text": "Development slows due to inconsistency",
+        "icon": "/assets/images/services/ux-research-business.svg"
+      },
+      {
+        "text": "QA costs increase",
+        "icon": "/assets/images/services/ux-research-business.svg"
+      },
+      {
+        "text": "Brand perception weakens",
+        "icon": "/assets/images/services/ux-research-business.svg"
+      }
+    ],
+    "image": "/assets/images/services/ux-research-business-main.png",
+    "closing": "Design systems replace fragmentation with structure.\nThey allow teams to move fast without breaking consistency."
+  },
+  "product_design": {
+    "heading": "Why Product Design Matters to the Business",
+    "intro": "Good product design is measurable.\nDesign decisions made early compound over time. We help you make the right ones.",
+    "impactHeading": "Key outcomes",
+    "impactItems": [
+      {
+        "text": "Faster user onboarding",
+        "icon": "/assets/images/services/ux-research-business.svg"
+      },
+      {
+        "text": "Higher feature adoption",
+        "icon": "/assets/images/services/ux-research-business.svg"
+      },
+      {
+        "text": "Reduced support tickets",
+        "icon": "/assets/images/services/ux-research-business.svg"
+      },
+      {
+        "text": "Improved retention and lifetime value",
+        "icon": "/assets/images/services/ux-research-business.svg"
+      },
+      {
+        "text": "Fewer rebuilds and redesign cycles",
+        "icon": "/assets/images/services/ux-research-business.svg"
+      }
+    ],
+    "image": "/assets/images/services/ux-research-business-main.png",
+    "closing": "Design decisions made early compound over time. We help you make the right ones."
+  }
+}

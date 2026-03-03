@@ -118,6 +118,101 @@
       }
     ]
   },
+  "ui_ux_design": {
+    "heading": "Our UI & UX Design Services",
+    "description": "End-to-end design services aligned with product strategy, user needs, and development reality.",
+    "cta": {
+      "text": "Get a Free UX Consultation",
+      "href": "/get-a-quote",
+      "icon": "/assets/images/icons/thunder.svg"
+    },
+    "services": [
+      {
+        "title": "UX Research",
+        "description": "We start by understanding users before designing anything. Our UX research focuses on how real users behave, where they struggle, and what blocks them from taking action. This insight becomes the foundation for every design decision that follows.",
+        "includes_title": "Includes:",
+        "includes_list": [
+          "User interviews and behaviour analysis",
+          "Journey mapping and pain-point identification",
+          "Competitor and market analysis"
+        ],
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#ccf1e5",
+        "link": "/services/ui-ux-design/ux-research/",
+        "linkText": "Learn More"
+      },
+      {
+        "title": "UI Design",
+        "description": "Clean, consistent, and purpose-driven interfaces. Our UI design services focus on clarity, hierarchy, and usability across devices. Every visual decision supports comprehension, trust, and interaction.",
+        "includes_title": "Includes:",
+        "includes_list": [
+          "Brand-aligned interface design",
+          "Responsive layouts for web and mobile",
+          "Design systems and component libraries"
+        ],
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#e8f0ff",
+        "link": "/services/ui-ux-design/ui-design/",
+        "linkText": "Learn More"
+      },
+      {
+        "title": "UX Audit",
+        "description": "Identify what’s broken, what’s slowing users down, and what’s costing you conversions. Our UX audit services analyse existing products to uncover usability issues, friction points, and missed opportunities. You get clear, prioritised recommendations, not vague observations.",
+        "includes_title": "Includes:",
+        "includes_list": [
+          "Heuristic usability evaluation",
+          "Conversion and flow analysis",
+          "Actionable improvement roadmap"
+        ],
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#fff4e6",
+        "link": "/services/ui-ux-design/ux-audit/",
+        "linkText": "Learn More"
+      },
+      {
+        "title": "Wireframing & Prototyping",
+        "description": "Test ideas early. Reduce build risk. We create wireframes and interactive prototypes to validate structure, flows, and assumptions before development begins. This saves time, cost, and rework later.",
+        "includes_title": "Includes:",
+        "includes_list": [
+          "Low and high-fidelity wireframes",
+          "Clickable prototypes for testing and feedback",
+          "User flow validation"
+        ],
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#e6f9f0",
+        "link": "/services/ui-ux-design/wireframes-prototypes/",
+        "linkText": "Learn More"
+      },
+      {
+        "title": "Design Systems",
+        "description": "Build consistent, scalable products without design debt. Our design system services create a single source of truth for UI components, patterns, and rules—faster delivery, visual consistency, and seamless design-development collaboration.",
+        "includes_title": "Includes:",
+        "includes_list": [
+          "Design system strategy and audit",
+          "UI component libraries and design tokens",
+          "Documentation and developer-ready handoff"
+        ],
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#f0e8ff",
+        "link": "/services/ui-ux-design/design-system/",
+        "linkText": "Learn More"
+      },
+      {
+        "title": "Product Design",
+        "description": "Design products that scale, convert, and endure. Our product design services focus on building digital products that users understand quickly, adopt naturally, and continue using—from early-stage MVPs to mature SaaS platforms.",
+        "includes_title": "Includes:",
+        "includes_list": [
+          "Product discovery and design strategy",
+          "UX-led product design and UI for digital products",
+          "MVP, SaaS, and redesign support"
+        ],
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#e8f4fd",
+        "link": "/services/ui-ux-design/product-design/",
+        "linkText": "Learn More"
+      }
+    ]
+  },
   "blockchain_development": {
     "heading": "Our Blockchain Development Services",
     "description": "We provide end-to-end blockchain development services covering strategy, design, development, security, and ongoing support.",
@@ -271,6 +366,81 @@
         "backgroundColor": "#ffe6f5",
         "link": "/services/ai-automation/generative-ai/",
         "linkText": "Explore Generative AI"
+      }
+    ]
+  },
+  "seo_services": {
+    "heading": "Our SEO Services",
+    "description": "End to end SEO built around how search engines and buyers actually behave.",
+    "cta": {
+      "text": "Get a Free SEO Consultation",
+      "href": "/get-a-quote",
+      "icon": "/assets/images/icons/thunder.svg"
+    },
+    "services": [
+      {
+        "title": "Technical SEO",
+        "description": "We fix what search engines see first. Site architecture, crawlability, Core Web Vitals, indexing issues, schema, internal linking, and technical debt. Technical SEO creates the foundation that everything else depends on.",
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#ccf1e5",
+        "link": "/services/seo-services/technical-seo/",
+        "linkText": "Learn More"
+      },
+      {
+        "title": "On Page SEO",
+        "description": "We optimise pages for relevance, clarity, and intent alignment. This includes content structure, metadata, internal linking, topical depth, and UX signals that directly influence rankings and engagement.",
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#e8f0ff",
+        "link": "/services/seo-services/",
+        "linkText": "Learn More"
+      },
+      {
+        "title": "Local SEO",
+        "description": "Designed for businesses that depend on geographic visibility. We optimise Google Business Profiles, citations, local landing pages, reviews, and map presence to drive inbound demand from nearby customers.",
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#fff4e6",
+        "link": "/services/seo-services/local-seo/",
+        "linkText": "Learn More"
+      },
+      {
+        "title": "E Commerce SEO",
+        "description": "SEO frameworks built for scale. Product and category optimisation, faceted navigation handling, internal linking systems, index control, and conversion focused optimisation designed specifically for online stores.",
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#e6f9f0",
+        "link": "/services/seo-services/ecommerce-seo/",
+        "linkText": "Learn More"
+      },
+      {
+        "title": "International SEO",
+        "description": "For businesses expanding across regions and languages. Hreflang strategy, regional site structure, localisation, and market specific keyword targeting that avoids cannibalisation and duplication issues.",
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#f0f0ff",
+        "link": "/services/seo-services/",
+        "linkText": "Learn More"
+      },
+      {
+        "title": "Enterprise SEO",
+        "description": "Built for large sites and complex organisations. Governance, automation, reporting, and scalable optimisation frameworks designed to work across thousands of pages and multiple stakeholders.",
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#f0e8ff",
+        "link": "/services/seo-services/",
+        "linkText": "Learn More"
+      },
+      {
+        "title": "SEO Audits & Strategy",
+        "description": "Clarity before execution. We deliver deep technical, content, and authority audits followed by a prioritised roadmap that focuses on impact, not busywork.",
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#e8f4fd",
+        "link": "/services/seo-services/seo-audit/",
+        "linkText": "Learn More"
+      },
+      {
+        "title": "Link Building & Authority Growth",
+        "description": "Authority built properly. We earn high quality, relevant links through white hat outreach and digital PR. No shortcuts, no spam, no risk to your domain.",
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#ffe6f5",
+        "link": "/services/seo-services/link-building/",
+        "linkText": "Learn More"
       }
     ]
   }

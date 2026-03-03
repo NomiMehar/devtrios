@@ -1,0 +1,284 @@
+@use "../../../styles/variables" as *;
+
+.uiux_services {
+  padding: 80px 0;
+  position: relative;
+  background: url("../../../public/assets/images/services/dark_bg.png") center no-repeat;
+  background-size: cover;
+
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding: 60px 0;
+  }
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding: 40px 0;
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  .section_header {
+    text-align: center;
+    margin-bottom: 60px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      margin-bottom: 50px;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      margin-bottom: 40px;
+    }
+  }
+
+  .main_heading {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: $white_color;
+    margin: 0 0 16px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      font-size: 36px;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 28px;
+      margin-bottom: 12px;
+    }
+  }
+
+  .subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: $white_color;
+  }
+
+  .two_column {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 0;
+    align-items: start;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+  }
+
+  /* Left column – scrolls with page, sits on top of content panel background */
+  .tabs_column {
+    position: relative;
+    z-index: 2;
+    min-width: 0;
+    padding-right: 12px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      padding-right: 0;
+      z-index: 1;
+    }
+  }
+
+  .tabs_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    margin-top: -20px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+  }
+
+  .tab {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    padding: 16px 18px;
+    min-height: 100px;
+    justify-content: center;
+    text-align: left;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    background: $white_color;
+    color: $dark_color;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.3;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    position: relative;
+    z-index: 1;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      width: auto;
+      min-width: 140px;
+      padding: 16px 20px;
+      font-size: 14px;
+      min-height: 80px;
+    }
+
+    .tab_icon {
+      flex-shrink: 0;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .tab_icon_img {
+      width: 35px;
+      height: 35px;
+      object-fit: contain;
+      filter: brightness(0) invert(0.3);
+    }
+  }
+
+  .tab_active {
+    background: linear-gradient(268.09deg, #0045FF 0%, #00A3FF 100%);
+    color: $white_color;
+    box-shadow: 0px 4px 50px 0px #0000001A;
+    border-color: transparent;
+    position: relative;
+    z-index: 3;
+
+    .tab_icon_img {
+      filter: brightness(0) invert(1);
+    }
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      margin-right: 0;
+      padding-right: 18px;
+    }
+  }
+
+  /* Right column – wrapper; sticky is on content_panel only */
+  .content_column {
+    min-width: 0;
+    position: sticky;
+    top: 50px;
+    align-self: start;
+    z-index: 1;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      position: relative;
+      top: auto;
+    }
+  }
+
+  .content_panel {
+    background: #E6F4FF;
+    border: 1px solid #ffffff80;
+    border-radius: 10px;
+    margin-left: -120px;
+    padding: 40px 40px 40px 150px;
+    position: sticky;
+    box-shadow: 0 8px 32px #0000001f;
+    top: 0;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      margin-left: 0;
+      padding: 32px;
+      position: relative;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      padding: 24px;
+    }
+  }
+
+  .panel_title {
+    font-size: 24px;
+    font-weight: 600;
+    color: $blue_color;
+    margin: 0 0 16px;
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
+  }
+
+  .panel_description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $gray_color;
+    margin: 0 0 24px;
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 15px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .list_heading {
+    font-size: 16px;
+    font-weight: 600;
+    color: $dark_color;
+    margin: 0 0 12px;
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .panel_list {
+    list-style: none;
+    margin: 0 0 32px;
+    padding: 0;
+
+    li {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 1.6;
+      color: $gray_color;
+      padding-left: 20px;
+      position: relative;
+      margin-bottom: 10px;
+
+      &::before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        color: $blue_color;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .cta_button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 24px;
+    background: linear-gradient(268.09deg, #0045ff 0%, #00a3ff 100%);
+    color: $white_color;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: opacity 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 14px rgba(66, 115, 252, 0.35);
+
+    &:hover {
+      opacity: 0.95;
+      box-shadow: 0 6px 20px rgba(66, 115, 252, 0.45);
+    }
+
+    svg {
+      flex-shrink: 0;
+    }
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 14px;
+      padding: 12px 20px;
+    }
+  }
+}

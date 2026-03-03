@@ -16,11 +16,14 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
+  @media (max-width: $breakpoint_mini_laptop) {
+    padding: 70px 0 150px;
+  }
   @media screen and (max-width: $breakpoint_tablet) {
-    padding: 100px 0;
+    padding: 70px 0 150px;
   }
   @media screen and (max-width: $breakpoint_mobile_portrait) {
-    padding: 70px 0;
+    padding: 70px 0 150px;
   }
 
   .content_wrapper {
@@ -187,15 +190,30 @@
   }  
 }
 .overview_section{
-  padding: 0 0 80px;
   .content_wrapper{
     background: $white_color;
     border-radius: 12px;
-    box-shadow: 0 100px 80px rgba(0, 0, 0, .07), 0 22.3363px 17.869px rgba(0, 0, 0, .042), 0 6.6501px 5.32008px rgba(0, 0, 0, .028);
+    box-shadow: 0px 4px 40px 0px #0000001C;
     padding: 35px;
     margin-top: -100px;
     z-index: 9;
     position: relative;
+    overflow: hidden;
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      padding: 20px;
+    }
+  &::before {
+    content: "";
+    background: url("../../../public/assets/images/services/overview-lines.png") 0 0 / contain no-repeat;
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      display: none;
+    }
+  }
     h2{
       color: rgba(0, 163, 255, 1);
       font-size: 20px;
@@ -270,10 +288,12 @@
       
       @media screen and (max-width: $breakpoint_tablet) {
         grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
       }
       
       @media screen and (max-width: $breakpoint_mobile_portrait) {
         grid-template-columns: 1fr;
+        gap: 0px;
       }
       
       li {
@@ -287,6 +307,8 @@
         
         &:last-child {
           border-right: none;
+          margin-bottom: 0;
+          padding-bottom: 0;
         }
         
         @media screen and (max-width: $breakpoint_tablet) {
@@ -296,9 +318,10 @@
         }
         
         @media screen and (max-width: $breakpoint_mobile_portrait) {
-          flex-direction: column;
-          align-items: center;
-          text-align: center;
+          padding-right: 0;
+          margin-right: 0;
+          margin-bottom: 20px;
+          padding-bottom: 20px;
           border-right: none;
           border-bottom: 1px solid rgba(221, 221, 221, 0.5);
           
@@ -344,7 +367,10 @@
             display: flex;
             align-items: baseline;
             gap: 2px;
-            
+
+            @media screen and (max-width: $breakpoint_mobile_portrait) {
+             font-size: 24px;
+            }
             small {
               font-size: inherit;
               font-weight: inherit;
@@ -357,6 +383,9 @@
             font-weight: 400;
             line-height: 1.5;
             margin: 0;
+            @media screen and (max-width: $breakpoint_mobile_portrait) {
+              font-size: 14px;
+            }
           }
         }
       }

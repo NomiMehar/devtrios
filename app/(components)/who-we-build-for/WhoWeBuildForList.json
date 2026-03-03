@@ -106,7 +106,7 @@
     "imageAlt": "API Modernization and Maintenance"
   },
   "ai_automation": {
-    "heading": "Why Choose Devtrios for AI & Automation",
+    "heading": "Why Choose Devtrios for <span>AI & Automation</span>",
     "description": "We are not a tooling reseller or a prompt-engineering shop.\n We are an engineering partner.",
     "audiences": [
       "Business-first AI system design",
@@ -118,6 +118,20 @@
     ],
     "image": "/assets/images/services/who-we-build.webp",
     "imageAlt": "Why Choose Devtrios for AI & Automation"
+  },
+  "seo_services": {
+    "heading": "Why Choose Devtrios for <span>Technical SEO</span>",
+    "description": "",
+    "audiences": [
+      "Deep engineering and SEO expertise",
+      "Experience with large, complex websites",
+      "Clear technical explanations, no jargon",
+      "SEO aligned with real business goals",
+      "Fixes that last, not temporary patches"
+    ],
+    "closingText": "We do not just audit.\n We fix, validate, and future-proof.",
+    "image": "/assets/images/services/who-we-build.webp",
+    "imageAlt": "Why Choose Devtrios for Technical SEO"
   }
 }
 

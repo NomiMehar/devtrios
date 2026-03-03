@@ -1,0 +1,57 @@
+{
+  "smart_contract_development": {
+    "heading": "Our Smart Contract Development Process",
+    "description": "Our process is designed to minimise risk and ensure predictable delivery for blockchain applications.",
+    "steps": [
+      {"icon": "/assets/images/header/nav-icon-1.svg", "title": "Requirements & Threat Modelling", "desc": "We define contract responsibilities, trust assumptions, attack vectors, and upgrade requirements."},
+      {"icon": "/assets/images/header/nav-icon-2.svg", "title": "Architecture & Design Specification", "desc": "Contract interfaces, access controls, state transitions, and dependency mappings are documented before development."},
+      {"icon": "/assets/images/header/nav-icon-3.svg", "title": "Smart Contract Development", "desc": "We implement contracts using clean, testable Solidity code with strict versioning and linting standards."},
+      {"icon": "/assets/images/header/nav-icon-4.svg", "title": "Testing & Audit Preparation", "desc": "Unit tests, integration tests, edge-case simulations, and gas profiling are performed before audit."},
+      {"icon": "/assets/images/header/nav-icon-5.svg", "title": "Deployment & Post-Launch Support", "desc": "We manage deployment, verification, monitoring, and upgrades where applicable."}
+    ]
+  },
+  "web3_app_development": {
+    "heading": "Our Web3 Development Process",
+    "description": "A structured approach designed to reduce risk and deliver reliable outcomes.",
+    "steps": [
+      {"icon": "/assets/images/header/nav-icon-1.svg", "title": "Discovery & Architecture", "desc": "We define use cases, blockchain selection, and system architecture aligned with business goals."},
+      {"icon": "/assets/images/header/nav-icon-2.svg", "title": "Smart Contract Design", "desc": "Smart contract logic is defined, reviewed, and built with security and upgradeability in mind."},
+      {"icon": "/assets/images/header/nav-icon-3.svg", "title": "Web3 Application Development", "desc": "Front-end and back-end Web3 components are developed with a focus on usability and performance."},
+      {"icon": "/assets/images/header/nav-icon-4.svg", "title": "Integration & Testing", "desc": "Wallets, APIs, and blockchain networks are integrated and tested across environments."},
+      {"icon": "/assets/images/header/nav-icon-5.svg", "title": "Deployment & Support", "desc": "We deploy the Web3 application and provide ongoing maintenance, upgrades, and monitoring."}
+    ]
+  },
+  "nft_development": {
+    "heading": "Our NFT Development Process",
+    "description": "A structured approach designed to reduce risk and ensure delivery.",
+    "steps": [
+      {"icon": "/assets/images/header/nav-icon-1.svg", "title": "Discovery & Use Case Definition", "desc": "We define the NFT use case, platform requirements, and blockchain selection."},
+      {"icon": "/assets/images/header/nav-icon-2.svg", "title": "Smart Contract Design", "desc": "NFT logic, standards, royalties, and upgrade paths are defined and reviewed."},
+      {"icon": "/assets/images/header/nav-icon-3.svg", "title": "Platform Development", "desc": "Marketplace, minting tools, and integrations are developed with usability and performance in mind."},
+      {"icon": "/assets/images/header/nav-icon-4.svg", "title": "Testing & Security Review", "desc": "Smart contracts and platform components are tested for reliability and security."},
+      {"icon": "/assets/images/header/nav-icon-5.svg", "title": "Deployment & Support", "desc": "We deploy the platform and provide ongoing maintenance, updates, and optimisation."}
+    ]
+  },
+  "wallet_integration": {
+    "heading": "Our Crypto Wallet Development Process",
+    "description": "A structured approach designed to reduce risk and ensure delivery.",
+    "steps": [
+      {"icon": "/assets/images/header/nav-icon-1.svg", "title": "Discovery & Architecture", "desc": "We define wallet type, custody model, supported assets, and security requirements."},
+      {"icon": "/assets/images/header/nav-icon-2.svg", "title": "Wallet Design", "desc": "User flows, key management logic, and security layers are mapped and reviewed."},
+      {"icon": "/assets/images/header/nav-icon-3.svg", "title": "Development", "desc": "Wallet logic, UI, and integrations are implemented using proven blockchain libraries and frameworks."},
+      {"icon": "/assets/images/header/nav-icon-4.svg", "title": "Testing & Security Validation", "desc": "Extensive functional, security, and transaction testing is performed before deployment."},
+      {"icon": "/assets/images/header/nav-icon-5.svg", "title": "Deployment & Support", "desc": "We deploy the wallet and provide ongoing maintenance, updates, and optimisation."}
+    ]
+  },
+  "smart_contract_audits": {
+    "heading": "Our Smart Contract Audit Methodology",
+    "description": "We follow a structured audit process designed to uncover both technical and economic risks.",
+    "steps": [
+      {"icon": "/assets/images/header/nav-icon-1.svg", "title": "Scope Definition & Threat Modelling", "desc": "We review contract purpose, architecture, and intended behaviour to understand risk exposure and attack surfaces."},
+      {"icon": "/assets/images/header/nav-icon-2.svg", "title": "Manual Code Review", "desc": "Our auditors perform a detailed line-by-line analysis of the smart contract codebase, focusing on reentrancy, access control, arithmetic issues, state manipulation, and permission misconfigurations."},
+      {"icon": "/assets/images/header/nav-icon-3.svg", "title": "Automated Analysis", "desc": "We supplement manual review with industry-standard automated tools to detect known vulnerability patterns."},
+      {"icon": "/assets/images/header/nav-icon-4.svg", "title": "Business Logic Validation", "desc": "We validate that the contract behaves exactly as intended under real-world conditions, edge cases, and failure scenarios."},
+      {"icon": "/assets/images/header/nav-icon-5.svg", "title": "Findings Report & Risk Classification", "desc": "Each issue is categorised by severity (Critical, High, Medium, Low) with clear explanations and remediation guidance."}
+    ]
+  }
+}

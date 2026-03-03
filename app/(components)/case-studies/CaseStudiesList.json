@@ -155,10 +155,6 @@
           "<strong>18%</strong> ↑ Higher order value with loyalty & subscription features",
           "<strong>Sub-2s</strong> Load times on headless builds, boosting SEO rankings"
         ],
-        "cta": {
-          "text": "See How 40+ Stores Grew",
-          "link": "https://devtrios.com/e-commerce-growth-with-devtrios/"
-        },
         "images": [
           "https://picsum.photos/800/600?random=11",
           "https://picsum.photos/800/600?random=22",
@@ -178,10 +174,6 @@
           "<strong>27%</strong> ↑ User retention boost with UX-first design",
           "<strong>40%</strong> ↓ Cost savings via cross-platform builds"
         ],
-        "cta": {
-          "text": "See How We Build Scalable Apps",
-          "link": "https://devtrios.com/scaling-apps-that-scale-users/"
-        },
         "images": [
           "https://picsum.photos/800/600?random=111",
           "https://picsum.photos/800/600?random=122",
@@ -201,16 +193,48 @@
           "<strong>40%</strong> ↓ Manual work through workflow automation",
           "<strong>30%</strong> ↑ UX-first user adoption"
         ],
-        "cta": {
-          "text": "Explore Custom CRM Development",
-          "link": "https://devtrios.com/smarter-business-with-custom-crm-platforms/"
-        },
         "images": [
           "https://picsum.photos/800/600?random=211",
           "https://picsum.photos/800/600?random=222",
           "https://picsum.photos/800/600?random=233",
           "https://picsum.photos/800/600?random=244",
           "https://picsum.photos/800/600?random=255"
+        ]
+      }
+    ]
+  },
+  "seo_services": {
+    "heading": {
+      "title": "SEO in Practice",
+      "description": "Here's an example of how our SEO services deliver visibility, demand, and revenue impact."
+    },
+    "projects": [
+      {
+        "title": "SEO Strategy & Technical Overhaul",
+        "industry": "B2B / Multi-Market",
+        "summary": "Performance-driven SEO built around search intent, technical precision, and measurable outcomes. Sustainable ranking growth and qualified traffic.",
+        "technicalFocus": "Technical SEO, on-page optimisation, content strategy, authority growth, measurement and attribution.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "The organisation needed SEO that compounded over time and supported real business growth, not vanity metrics or short-term wins.",
+        "solution": "We delivered technical foundation, intent-aligned content, and clear attribution. SEO was built as a system, not a checklist.",
+        "outcomes": [
+          "Sustainable ranking growth",
+          "Qualified, high intent traffic",
+          "Stronger conversion pathways",
+          "Clear attribution and ROI"
+        ],
+        "results": [
+          "Sustainable ranking growth",
+          "Qualified, high intent traffic",
+          "Stronger conversion pathways",
+          "Clear attribution and ROI"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
         ]
       }
     ]
@@ -575,6 +599,260 @@
       }
     ]
   },
+  "ui_ux_design": {
+    "heading": {
+      "title": "UI & UX Design in Practice",
+      "description": "A representative example of how our UI & UX design services reduce friction and support product growth."
+    },
+    "projects": [
+      {
+        "title": "SaaS Platform Redesign – Onboarding and Core Dashboards",
+        "industry": "SaaS / B2B Software",
+        "summary": "Users struggled to understand the product flow, leading to drop-offs during onboarding and low feature adoption.",
+        "technicalFocus": "UX research, journey mapping, onboarding redesign, dashboard UX, design systems, interaction design.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "The product onboarding flow was confusing, with unclear next steps and fragmented navigation. Users dropped off during setup and rarely explored key features beyond the first session.",
+        "solution": "We conducted UX research and journey mapping, redesigned the onboarding flow and key dashboards, and introduced a consistent design system that improved clarity and reduced cognitive load.",
+        "outcomes": [
+          "Reduced onboarding drop-offs by approximately 30%",
+          "Improved task completion rates by approximately 25%",
+          "Clearer navigation and faster user adoption"
+        ],
+        "results": [
+          "Reduced onboarding drop-offs by approximately 30%",
+          "Improved task completion rates by approximately 25%",
+          "Clearer navigation and faster user adoption"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "ux_research": {
+    "heading": {
+      "title": "UX Research in Practice",
+      "description": "A representative example of how UX research informs product decisions and improves outcomes."
+    },
+    "projects": [
+      {
+        "title": "SaaS Product Optimisation",
+        "industry": "SaaS / B2B Software",
+        "summary": "Users struggled during onboarding, leading to low activation and early churn.",
+        "technicalFocus": "Usability testing, journey mapping, UX audit",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "Users struggled during onboarding, leading to low activation and early churn.",
+        "solution": "Research conducted: Usability testing, journey mapping, and UX audit to identify critical friction points and simplify key flows and messaging.",
+        "outcomes": [
+          "Identified critical onboarding friction points",
+          "Simplified key flows and messaging",
+          "Improved activation rate by approximately 15–20%",
+          "Reduced early-stage drop-offs"
+        ],
+        "results": [
+          "Identified critical onboarding friction points",
+          "Simplified key flows and messaging",
+          "Improved activation rate by approximately 15–20%",
+          "Reduced early-stage drop-offs"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "ui_design": {
+    "heading": {
+      "title": "UI Design in Practice (Example)",
+      "description": "A representative example of how UI design improves adoption and conversion."
+    },
+    "projects": [
+      {
+        "title": "SaaS Product Interface Redesign",
+        "industry": "SaaS / B2B Software",
+        "summary": "Users struggled with navigation and feature discovery, leading to poor adoption.",
+        "technicalFocus": "UI audit, component-based redesign, simplified navigation and hierarchy",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "Users struggled with navigation and feature discovery, leading to poor adoption.",
+        "solution": "Work Delivered: UI audit, component-based redesign, simplified navigation and hierarchy.",
+        "outcomes": [
+          "Improved task completion speed",
+          "Reduced user confusion",
+          "Higher engagement across core features"
+        ],
+        "results": [
+          "Improved task completion speed",
+          "Reduced user confusion",
+          "Higher engagement across core features"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "ux_audit": {
+    "heading": {
+      "title": "UX Audit in Practice (Example)",
+      "description": "A representative example of how UX audits improve clarity, conversion, and retention."
+    },
+    "projects": [
+      {
+        "title": "SaaS Funnel UX Audit",
+        "industry": "SaaS / B2B Software",
+        "summary": "Users struggled during sign-up and onboarding, causing drop-offs and stalled growth.",
+        "technicalFocus": "UI & UX audit, user flow and journey audit, CRO-focused UX audit",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "Users struggled during sign-up and onboarding, causing drop-offs and stalled growth.",
+        "solution": "Audit conducted: structured UX audit across sign-up, onboarding, and key flows to identify friction, clarify steps, and improve perceived performance.",
+        "outcomes": [
+          "Higher conversion rates through friction removal",
+          "Better retention and engagement",
+          "Reduced development rework",
+          "Clear prioritisation for redesigns or optimisation"
+        ],
+        "results": [
+          "Higher conversion rates through friction removal",
+          "Better retention and engagement",
+          "Reduced development rework",
+          "Clear prioritisation for redesigns or optimisation"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "wireframing_prototyping": {
+    "heading": {
+      "title": "Wireframing & Prototyping in Practice (Example)",
+      "description": "Teams that prototype early move faster later.\nThis phase pays for itself."
+    },
+    "projects": [
+      {
+        "title": "Product Wireframing & Prototype Validation",
+        "industry": "SaaS / Digital Product",
+        "summary": "Wireframing and prototyping used to clarify scope, validate flows, and reduce development rework.",
+        "technicalFocus": "Wireframe design, user flow & interaction mapping, interactive prototyping, high-fidelity prototypes",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "Requirements were vague, assumptions went untested, and development risked costly rework.",
+        "solution": "Wireframes and prototypes were used to define structure, validate flows, and align stakeholders before development.",
+        "outcomes": [
+          "Reduced development rework",
+          "Clear scope and feature alignment",
+          "Faster stakeholder approval",
+          "Stronger usability before launch",
+          "Better handoff to engineering teams"
+        ],
+        "results": [
+          "Reduced development rework",
+          "Clear scope and feature alignment",
+          "Faster stakeholder approval",
+          "Stronger usability before launch",
+          "Better handoff to engineering teams"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "design_system": {
+    "heading": {
+      "title": "Design System in Practice (Example)",
+      "description": "Well-built design systems reduce friction across the entire organisation.\nDesign systems pay dividends over time."
+    },
+    "projects": [
+      {
+        "title": "SaaS Design System & Component Library",
+        "industry": "SaaS / B2B Software",
+        "summary": "Design system strategy, tokens, component library, and documentation to scale UI consistency and speed.",
+        "technicalFocus": "Design system strategy & audit, UI component libraries, design tokens, documentation & handoff",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "Teams reinvented the same components; interfaces drifted; development slowed due to inconsistency.",
+        "solution": "Design system created: strategy, tokens, component library, and documentation. Developer-ready handoff aligned with frontend frameworks.",
+        "outcomes": [
+          "Faster product iteration",
+          "Reduced design and development effort",
+          "Fewer UI inconsistencies",
+          "Easier scaling across platforms",
+          "Stronger brand consistency"
+        ],
+        "results": [
+          "Faster product iteration",
+          "Reduced design and development effort",
+          "Fewer UI inconsistencies",
+          "Easier scaling across platforms",
+          "Stronger brand consistency"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "product_design": {
+    "heading": {
+      "title": "Product Design in Practice (Example)",
+      "description": "A structured, collaborative process aligned with development teams."
+    },
+    "projects": [
+      {
+        "title": "SaaS Product Design & Redesign",
+        "industry": "SaaS / B2B Software",
+        "summary": "Product discovery, UX-led design, and UI delivery for a scaling SaaS platform.",
+        "technicalFocus": "Product discovery & design strategy, UX-led product design, UI design for digital products, prototyping & validation, design handoff",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "Product felt unclear, hard to use, and difficult to scale.",
+        "solution": "Discovery and alignment, UX structure and flows, interface design, prototyping and validation, and design handoff with clear documentation and developer collaboration.",
+        "outcomes": [
+          "Faster user onboarding",
+          "Higher feature adoption",
+          "Reduced support tickets",
+          "Improved retention and lifetime value",
+          "Fewer rebuilds and redesign cycles"
+        ],
+        "results": [
+          "Faster user onboarding",
+          "Higher feature adoption",
+          "Reduced support tickets",
+          "Improved retention and lifetime value",
+          "Fewer rebuilds and redesign cycles"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
   "app_maintenance": {
     "heading": {
       "title": "App Maintenance in Practice",
@@ -823,6 +1101,78 @@
       }
     ]
   },
+  "ai_agents": {
+    "heading": {
+      "title": "AI Agents in Practice",
+      "description": "Project Type: Operational AI Assistants. This illustrates how AI Agents act as reliable digital assistants, not autonomous decision makers."
+    },
+    "projects": [
+      {
+        "title": "Operational AI Assistants",
+        "industry": "SaaS & Professional Services",
+        "summary": "Teams were spending significant time on repetitive operational tasks. Existing automation lacked flexibility and frequently required manual fixes.",
+        "technicalFocus": "AI agents: retrieve and validate data, execute predefined actions across systems, generate structured outputs, escalate edge cases to humans.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "Teams were spending significant time on repetitive operational tasks such as data entry, report generation, and system updates. Existing automation lacked flexibility and frequently required manual fixes.",
+        "solution": "We deployed AI agents designed to: Retrieve and validate data; Execute predefined actions across systems; Generate structured outputs; Escalate edge cases to humans. The agents operated within strict task boundaries and integrated directly with internal tools.",
+        "outcomes": [
+          "Reduced manual task load by 35–40%",
+          "Faster turnaround on operational requests",
+          "Improved consistency across workflows",
+          "Minimal disruption to existing systems"
+        ],
+        "results": [
+          "Reduced manual task load by 35–40%",
+          "Faster turnaround on operational requests",
+          "Improved consistency across workflows",
+          "Minimal disruption to existing systems"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "agentic_ai": {
+    "heading": {
+      "title": "Agentic AI in Practice",
+      "description": "Project Type: Autonomous Operations & Workflow Orchestration. This demonstrates how Agentic AI moves automation from scripts to systems."
+    },
+    "projects": [
+      {
+        "title": "Autonomous Operations & Workflow Orchestration",
+        "industry": "B2B SaaS",
+        "summary": "The organisation relied on multiple disconnected systems and manual handoffs. Traditional automation broke frequently and required constant human oversight.",
+        "technicalFocus": "Agentic AI system: interpreting requests, planning multi-step actions, interacting with internal tools and APIs, monitoring task completion and exceptions, escalating to humans only when required.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "The organisation relied on multiple disconnected systems and manual handoffs to manage onboarding, internal operations, and customer requests. Traditional automation broke frequently and required constant human oversight.",
+        "solution": "We designed an Agentic AI system capable of: Interpreting incoming requests; Planning multi-step actions; Interacting with internal tools and APIs; Monitoring task completion and exceptions; Escalating to humans only when required. The agent operated within defined constraints and logged every decision and action.",
+        "outcomes": [
+          "Reduced manual operational workload by 45%",
+          "Faster task completion across systems",
+          "Improved reliability compared to rule-based automation",
+          "Scalable foundation for additional autonomous agents"
+        ],
+        "results": [
+          "Reduced manual operational workload by 45%",
+          "Faster task completion across systems",
+          "Improved reliability compared to rule-based automation",
+          "Scalable foundation for additional autonomous agents"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
   "ai_chatbots": {
     "heading": {
       "title": "AI Chatbots in Practice",
@@ -931,6 +1281,42 @@
       }
     ]
   },
+  "smart_contract_development": {
+    "heading": {
+      "title": "Smart Contract Development in Practice",
+      "description": "Here's a representative example of how our smart contract development services deliver secure, real-world outcomes."
+    },
+    "projects": [
+      {
+        "title": "DeFi & Tokenised Platform",
+        "industry": "Blockchain / Financial Infrastructure",
+        "summary": "The project required multiple interacting smart contracts handling token issuance, staking rewards, and governance voting. We designed a modular smart contract architecture with role-based access control, upgrade-safe patterns, and optimised state handling.",
+        "technicalFocus": "Modular smart contract architecture, role-based access control, upgrade-safe patterns, optimised state handling, security review, gas optimisation.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "The project required multiple interacting smart contracts handling token issuance, staking rewards, and governance voting. Security risks, gas inefficiency, and upgrade safety were critical concerns.",
+        "solution": "We designed a modular smart contract architecture with role-based access control, upgrade-safe patterns, and optimised state handling. Comprehensive testing and a full security review were completed prior to deployment.",
+        "outcomes": [
+          "Reduced gas costs by approximately 20–30% through optimisation",
+          "Zero critical vulnerabilities identified during audit",
+          "Stable contract execution under peak transaction volume",
+          "Architecture designed to support future feature expansion"
+        ],
+        "results": [
+          "Reduced gas costs by approximately 20–30% through optimisation",
+          "Zero critical vulnerabilities identified during audit",
+          "Stable contract execution under peak transaction volume",
+          "Architecture designed to support future feature expansion"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
   "blockchain_development": {
     "heading": {
       "title": "Blockchain Development in Practice",
@@ -956,6 +1342,150 @@
           "Improved transparency through on-chain verification",
           "Reduced operational risk and manual processes",
           "Scalable infrastructure ready for future expansion"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "nft_development": {
+    "heading": {
+      "title": "NFT Development in Practice (Generic Case Example)",
+      "description": "This demonstrates how we deliver NFT solutions that function as real products, not experiments."
+    },
+    "projects": [
+      {
+        "title": "Industry: Digital Platforms – Solution Type: NFT Marketplace & Minting Platform",
+        "industry": "Digital Platforms",
+        "summary": "The client required a secure NFT platform to mint, list, and trade digital assets while maintaining control over royalties, ownership verification, and future scalability.",
+        "technicalFocus": "NFT marketplace, audited smart contracts, wallet integration, minting workflow, royalty logic, metadata management, peer-to-peer transactions.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "The client required a secure NFT platform to mint, list, and trade digital assets while maintaining control over royalties, ownership verification, and future scalability.",
+        "solution": "We developed a custom NFT marketplace with audited smart contracts, wallet integration, and a streamlined minting workflow. The platform supported royalty logic, metadata management, and secure peer-to-peer transactions.",
+        "outcomes": [
+          "Secure NFT ownership and trading",
+          "Automated royalty distribution",
+          "Reduced platform management overhead",
+          "Scalable foundation for future NFT collections"
+        ],
+        "results": [
+          "Secure NFT ownership and trading",
+          "Automated royalty distribution",
+          "Reduced platform management overhead",
+          "Scalable foundation for future NFT collections"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "wallet_integration": {
+    "heading": {
+      "title": "Crypto Wallet Development in Practice (Generic Case Example)",
+      "description": "This demonstrates how we deliver secure wallet solutions that protect assets and scale with your platform."
+    },
+    "projects": [
+      {
+        "title": "Industry: Web3 Platform – Solution Type: Non-Custodial Multi-Currency Wallet",
+        "industry": "Web3 Platform",
+        "summary": "The client required a secure wallet to support tokens, NFTs, and Web3 interactions while ensuring users retained full ownership of private keys.",
+        "technicalFocus": "Non-custodial wallet, encrypted key management, multi-chain support, dApp connectivity, platform integration.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "The client required a secure wallet to support tokens, NFTs, and Web3 interactions while ensuring users retained full ownership of private keys.",
+        "solution": "We developed a non-custodial wallet with encrypted key management, multi-chain support, and seamless dApp connectivity. The wallet integrated directly with the client's platform and external protocols.",
+        "outcomes": [
+          "Secure user-controlled asset management",
+          "Support for tokens and NFTs across chains",
+          "Reduced dependency on third-party wallet providers",
+          "Scalable foundation for platform growth"
+        ],
+        "results": [
+          "Secure user-controlled asset management",
+          "Support for tokens and NFTs across chains",
+          "Reduced dependency on third-party wallet providers",
+          "Scalable foundation for platform growth"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "smart_contract_audits": {
+    "heading": {
+      "title": "Smart Contract Audit in Practice (Generic Case Example)",
+      "description": "This demonstrates how we deliver audit outcomes that secure protocols before launch."
+    },
+    "projects": [
+      {
+        "title": "Industry: DeFi Platform – Contract Type: Lending & Staking Contracts",
+        "industry": "DeFi Platform",
+        "summary": "The client planned a public launch involving locked funds and staking incentives but required independent verification of contract security and logic.",
+        "technicalFocus": "Manual audit, reentrancy risks, permission controls, reward calculation logic, upgradeability patterns, gas optimisation.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "The client planned a public launch involving locked funds and staking incentives but required independent verification of contract security and logic.",
+        "solution": "We conducted a full manual audit covering reentrancy risks, permission controls, reward calculation logic, and upgradeability patterns.",
+        "outcomes": [
+          "Critical vulnerabilities identified and resolved pre-launch",
+          "Improved gas efficiency through optimisation recommendations",
+          "Increased investor and user confidence ahead of deployment",
+          "Audit report used for exchange and partner due diligence"
+        ],
+        "results": [
+          "Critical vulnerabilities identified and resolved pre-launch",
+          "Improved gas efficiency through optimisation recommendations",
+          "Increased investor and user confidence ahead of deployment",
+          "Audit report used for exchange and partner due diligence"
+        ],
+        "images": [
+          "https://picsum.photos/800/600?random=1",
+          "https://picsum.photos/800/600?random=2",
+          "https://picsum.photos/800/600?random=3",
+          "https://picsum.photos/800/600?random=4",
+          "https://picsum.photos/800/600?random=5"
+        ]
+      }
+    ]
+  },
+  "web3_app_development": {
+    "heading": {
+      "title": "Web3 App Development in Practice (Generic Case Example)",
+      "description": "This demonstrates how we build Web3 applications that move beyond experimentation and into production."
+    },
+    "projects": [
+      {
+        "title": "Industry: Digital Platforms – Solution Type: Web3 Application",
+        "industry": "Digital Platforms",
+        "summary": "The client needed a decentralised application that allowed users to interact, transact, and authenticate without relying on a central authority, while maintaining performance and usability comparable to traditional platforms.",
+        "technicalFocus": "Web3 application, smart contracts, secure wallet authentication, decentralised transactions, transparent logic execution.",
+        "image": "/assets/images/services/fullstack-back.webp",
+        "challenge": "The client needed a decentralised application that allowed users to interact, transact, and authenticate without relying on a central authority, while maintaining performance and usability comparable to traditional platforms.",
+        "solution": "We designed and developed a Web3 application powered by smart contracts and secure wallet authentication. The platform enabled decentralised transactions, transparent logic execution, and seamless user onboarding across supported wallets.",
+        "outcomes": [
+          "Reduced reliance on centralised infrastructure",
+          "Improved transaction transparency and trust",
+          "Secure user authentication via wallet integration",
+          "Scalable foundation for future Web3 features"
+        ],
+        "results": [
+          "Reduced reliance on centralised infrastructure",
+          "Improved transaction transparency and trust",
+          "Secure user authentication via wallet integration",
+          "Scalable foundation for future Web3 features"
         ],
         "images": [
           "https://picsum.photos/800/600?random=1",
