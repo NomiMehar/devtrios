@@ -59,12 +59,15 @@ export default function SeoServices() {
               <h3 className={styles.service_title}>{active.title}</h3>
               <p className={styles.service_description}>{active.description}</p>
               <div className={styles.cta_button}>
-                <Button href={section.ctaHref || "/get-a-quote"} icon="/assets/images/icons/arrow-circle-right.svg">
-              {section.ctaText || "Get a Free Consultation"}
-            </Button>
+                <Button href={section.ctaHref || "/get-a-quote"}>
+                  {section.ctaText || "Get a Free Consultation"}
+                </Button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
   );
 }
+
