@@ -6,8 +6,8 @@ import Button from "@/app/(components)/button/Button";
 import styles from "./SeoServices.module.scss";
 import data from "./SeoServicesList.json";
 
-export default function SeoServices() {
-  const section = data.technical_seo_services;
+export default function SeoServices({ sectionKey = "technical_seo_services" }) {
+  const section = data[sectionKey];
   const [activeIndex, setActiveIndex] = useState(0);
 
   if (!section || !section.services || section.services.length === 0) {

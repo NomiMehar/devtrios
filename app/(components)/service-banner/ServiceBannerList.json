@@ -163,6 +163,467 @@
       }
     ]
   },
+  "social_media_marketing": {
+    "title": "Social Media That Builds Demand, Credibility, and Long-Term Growth",
+    "titleStart": "Social Media",
+    "titleEnd": "That Builds Demand, Credibility, and Long-Term Growth",
+    "description": "Social media should support your business, not distract from it. At Devtrios, our social media marketing services are built to strengthen positioning, create demand, and support revenue, not chase likes or empty engagement. We approach social media as a strategic growth channel, aligned with your audience, messaging, and commercial goals. Every post, campaign, and platform choice has a purpose. Whether you are a B2B brand, SaaS company, startup, or established organisation, we help you build a social presence that is credible, consistent, and commercially relevant.",
+    "benefits": [
+      "Clear brand positioning across social platforms",
+      "Content aligned with business and sales objectives",
+      "Consistent visibility with the right audience",
+      "Engagement that supports trust and conversions",
+      "Measurable performance, not guesswork"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Social Media Strategy",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Custom Quote",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "Social Media Marketing",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What you get",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Clear brand positioning across social platforms"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Content aligned with business and sales objectives"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Consistent visibility with the right audience"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Measurable performance, not guesswork"
+      }
+    ]
+  },
+  "social_media_management": {
+    "title": "Consistent, Strategic Social Media Without the Noise",
+    "titleStart": "Social Media Management",
+    "titleEnd": "Without the Noise",
+    "description": "Managing social media properly is not about posting more. It is about showing up consistently, clearly, and with intent. Our social media management services are built for businesses that want reliable execution, brand consistency, and strategic oversight, without wasting time or internal resources. We manage your social presence as an extension of your business, not as a content factory.",
+    "benefits": [
+      "A consistent and professional social presence",
+      "Clear brand voice across platforms",
+      "Structured content delivery",
+      "Reduced internal workload",
+      "Measurable engagement and growth"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Social Media Management Plan",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Custom Quote",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "Social Media Management",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What this delivers",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "A consistent and professional social presence"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Clear brand voice across platforms"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Structured content delivery"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Reduced internal workload"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Measurable engagement and growth"
+      }
+    ]
+  },
+  "crm_development": {
+    "title": "CRM Systems Designed to Drive Sales, Retention, and Operational Clarity",
+    "titleStart": "CRM Development",
+    "titleEnd": "That Actually Supports Growth",
+    "description": "A CRM is not a database. It is the operational backbone of your sales, marketing, and customer relationships. At Devtrios, we design and build custom CRM systems that reflect how your business actually works—not how a generic platform assumes it should. Our CRM development services focus on usability, automation, data integrity, and long-term scalability, so teams spend less time managing systems and more time closing deals and serving customers.",
+    "benefits": [
+      "Built around real workflows, not templates",
+      "Designed for adoption, not admin overhead",
+      "Automation-led, data-clean, and scalable",
+      "Aligned with sales, operations, and leadership reporting"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free CRM Consultation",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Custom CRM Proposal",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "CRM Development",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What defines our CRM approach",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Built around real workflows, not templates"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Designed for adoption, not admin overhead"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Automation-led, data-clean, and scalable"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Aligned with sales, operations, and leadership reporting"
+      }
+    ]
+  },
+  "crm_implementation": {
+    "title": "CRM Implementation That Teams Actually Use",
+    "titleStart": "CRM Implementation",
+    "titleEnd": "That Teams Actually Use",
+    "description": "A CRM only creates value when it is implemented properly. Poor CRM implementations lead to low adoption, broken workflows, unreliable reporting, and teams quietly returning to spreadsheets. At Devtrios, we deliver CRM implementation services grounded in real business operations. We configure systems around how your teams actually work, not how software demos suggest they should.",
+    "benefits": [
+      "Workflow-first, not tool-first",
+      "Adoption and usability prioritised from day one",
+      "Clean data and dependable reporting",
+      "Automation that reduces effort, not adds friction"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free CRM Implementation Review",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request an Implementation Plan",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "CRM Implementation",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What defines our CRM implementation approach",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Workflow-first, not tool-first"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Adoption and usability prioritised from day one"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Clean data and dependable reporting"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Automation that reduces effort, not adds friction"
+      }
+    ]
+  },
+  "erp": {
+    "title": "ERP Systems That Run the Business, Not Complicate It",
+    "titleStart": "ERP",
+    "titleEnd": "Systems That Run the Business, Not Complicate It",
+    "description": "An ERP system should simplify operations, not slow teams down. Too many ERP projects fail because they are over engineered, poorly implemented, or disconnected from how the business actually works. The result is low adoption, fragmented data, manual workarounds, and leadership losing trust in reports. At Devtrios, we deliver ERP solutions that are practical, scalable, and grounded in real operational workflows. We focus on clarity, integration, and long term usability so your ERP becomes a reliable backbone for finance, operations, supply chain, and decision making.",
+    "benefits": [
+      "Business process first, software second",
+      "Clean data and reliable reporting",
+      "Integration across departments and systems",
+      "Built for scale, not reimplementation"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free ERP Assessment",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request an ERP Implementation Plan",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "ERP",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What defines our ERP approach",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Business process first, software second"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Clean data and reliable reporting"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Integration across departments and systems"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Built for scale, not reimplementation"
+      }
+    ]
+  },
+  "crm_customization": {
+    "title": "CRM Customisation That Fits Your Business, Not the Other Way Around",
+    "titleStart": "CRM Customisation",
+    "titleEnd": "That Fits Your Business, Not the Other Way Around",
+    "description": "Off the shelf CRM systems rarely match how a business actually operates. Sales teams create workarounds. Operations export data to spreadsheets. Leadership loses visibility. Adoption drops, and the CRM becomes an expensive database instead of a revenue engine. At Devtrios, we specialise in CRM customisation that aligns the system to your real workflows. We adapt your CRM to how your teams sell, manage accounts, report performance, and scale operations. Our goal is simple. Make the CRM work the way your business already works, only better.",
+    "benefits": [
+      "Practical workflows, not theoretical setups",
+      "Clean data structures and reporting",
+      "Sales, operations, and leadership alignment",
+      "High adoption across teams"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free CRM Customisation Assessment",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Custom CRM Plan",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "CRM Customisation",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What our CRM customisation focuses on",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Practical workflows, not theoretical setups"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Clean data structures and reporting"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Sales, operations, and leadership alignment"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "High adoption across teams"
+      }
+    ]
+  },
+  "crm_integration": {
+    "title": "CRM Integration That Connects Your Systems and Your Teams",
+    "titleStart": "CRM Integration",
+    "titleEnd": "That Connects Your Systems and Your Teams",
+    "description": "A CRM on its own is never enough. When your CRM is disconnected from marketing platforms, finance systems, support tools, or internal software, teams operate in silos. Data becomes unreliable, reporting breaks, and automation never reaches its potential. At Devtrios, we deliver CRM integration services that connect your CRM to the systems your business already relies on. The result is a single source of truth, cleaner data, faster workflows, and better decision making across the organisation. We focus on integrations that support real operations, not theoretical architecture.",
+    "benefits": [
+      "Real time data synchronisation",
+      "Reduced manual entry and errors",
+      "End to end visibility across teams",
+      "Automation that actually works",
+      "Systems that scale together"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free CRM Integration Assessment",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request an Integration Plan",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "CRM Integration",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What our CRM integrations deliver",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Real time data synchronisation"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Reduced manual entry and errors"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "End to end visibility across teams"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Automation that actually works"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Systems that scale together"
+      }
+    ]
+  },
+  "crm_automation_ai": {
+    "title": "CRM Automation & AI That Removes Friction and Drives Execution",
+    "titleStart": "CRM Automation & AI",
+    "titleEnd": "That Removes Friction and Drives Execution",
+    "description": "Most CRMs fail for one reason. They rely too heavily on people. Manual updates, delayed follow ups, inconsistent data entry, and broken handovers between teams quietly kill performance. Automation and AI are not add ons, they are what turn a CRM into a system that actually runs the business. At Devtrios, we deliver CRM automation and AI solutions that reduce manual work, improve data accuracy, and help teams move faster without increasing headcount. We do not automate for the sake of automation. We automate what directly improves revenue, efficiency, and decision making.",
+    "benefits": [
+      "Faster sales cycles",
+      "Cleaner, more reliable CRM data",
+      "Consistent follow ups and workflows",
+      "Reduced admin for sales and ops teams",
+      "Better forecasting and visibility",
+      "Scalable operations without chaos"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free CRM Automation Assessment",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request an AI Automation Plan",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "CRM Automation & AI",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What CRM automation and AI unlock",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Faster sales cycles"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Cleaner, more reliable CRM data"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Consistent follow ups and workflows"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Reduced admin for sales and ops teams"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Better forecasting and visibility"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Scalable operations without chaos"
+      }
+    ]
+  },
   "seo_services": {
     "title": "SEO That Drives Visibility, Demand, and Revenue",
     "titleStart": "SEO",
@@ -276,6 +737,421 @@
         "overViewCount": "100",
         "overViewSign": "+",
         "overViewDescription": "Fewer technical penalties and risks"
+      }
+    ]
+  },
+  "local_seo": {
+    "title": "Local SEO That Puts Your Business Where Customers Actually Search",
+    "titleStart": "Local SEO",
+    "titleEnd": "That Puts Your Business Where Customers Actually Search",
+    "description": "Local SEO is not about rankings alone. It is about being visible at the exact moment someone nearby is ready to buy.\nWhen done properly, local SEO drives phone calls, direction requests, bookings, and real footfall. At Devtrios, we build local SEO strategies that dominate map results, strengthen local trust signals, and convert local intent into revenue.\nThis is not checklist SEO. It is location-led optimisation built around how Google surfaces local businesses today.",
+    "benefits": [
+      "Higher visibility in Google Maps and local pack results",
+      "More calls, visits, and enquiries from nearby customers",
+      "Stronger trust through reviews and local authority",
+      "Consistent rankings across service areas",
+      "Long-term local market control"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free Local SEO Review",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Local SEO Strategy",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "Local SEO",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What effective local SEO delivers",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Higher visibility in Google Maps and local pack results"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "More calls, visits, and enquiries from nearby customers"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Stronger trust through reviews and local authority"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Long-term local market control"
+      }
+    ]
+  },
+  "seo_audit": {
+    "title": "SEO Audits That Show You Exactly What's Holding Your Rankings Back",
+    "titleStart": "SEO Audit",
+    "titleEnd": "That Show You Exactly What's Holding Your Rankings Back",
+    "description": "An SEO audit is not a generic report.\nIt is a diagnostic assessment of why your website is underperforming and what needs to change to unlock growth.\nAt Devtrios, our SEO audit services go beyond surface-level checks. We analyse technical foundations, content quality, search intent alignment, authority signals, and competitive gaps to give you a clear, prioritised roadmap for rankings, traffic, and conversions.\nNo vague scores. No recycled tools.\nJust practical insights your team can act on.",
+    "benefits": [
+      "Clear explanation of ranking issues",
+      "Technical and content gaps prioritised by impact",
+      "Competitive insights you can actually use",
+      "A step-by-step action plan, not guesswork",
+      "Direction for developers, content, and marketing"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Free SEO Audit",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Custom Audit Proposal",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "SEO Audit",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What a proper SEO audit delivers",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Clear explanation of ranking issues"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Technical and content gaps prioritised by impact"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Competitive insights you can actually use"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Direction for developers, content, and marketing"
+      }
+    ]
+  },
+  "on_page_seo": {
+    "title": "On-Page SEO That Turns Pages Into Ranking Assets",
+    "titleStart": "On-Page SEO",
+    "titleEnd": "That Turns Pages Into Ranking Assets",
+    "description": "On-page SEO is where rankings are won or lost. You can have strong backlinks and clean technical foundations, but if your pages are poorly structured, misaligned with search intent, or diluted by weak internal linking, Google will not reward them. At Devtrios, our on-page SEO services focus on making every page work harder. We optimise content, structure, and relevance so search engines understand your pages clearly and users move naturally toward conversion. This is not keyword stuffing or cosmetic tweaks. This is precision optimisation built for performance.",
+    "benefits": [
+      "Stronger keyword relevance and topical authority",
+      "Higher rankings for commercial search terms",
+      "Better crawlability and internal link equity",
+      "Improved engagement and conversion rates",
+      "Pages that scale, not decay"
+    ],
+    "buttons": [
+      {
+        "text": "Get an On-Page SEO Review",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request an SEO Strategy",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "On-Page SEO",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What effective on-page SEO delivers",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Stronger keyword relevance and topical authority"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Higher rankings for commercial search terms"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Better crawlability and internal link equity"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Improved engagement and conversion rates"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Pages that scale, not decay"
+      }
+    ]
+  },
+  "off_page_seo": {
+    "title": "Off-Page SEO That Builds Authority, Not Risk",
+    "titleStart": "Off-Page SEO",
+    "titleEnd": "That Builds Authority, Not Risk",
+    "description": "Ranking is not just about what is on your website. It is about how the rest of the internet sees you. Off-page SEO is the discipline of building authority, trust, and credibility signals beyond your website. Done correctly, it strengthens rankings and protects long-term visibility. We focus on sustainable authority growth. No shortcuts. No link farms. This is strategic off-page SEO built for durable search equity.",
+    "benefits": [
+      "Stronger domain authority",
+      "Improved keyword rankings",
+      "Increased referral traffic",
+      "Better trust signals",
+      "Long-term algorithm resilience"
+    ],
+    "buttons": [
+      {
+        "text": "Request an Off-Page SEO Strategy",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Get a Custom Authority Plan",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "Off-Page SEO",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What this delivers",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Stronger domain authority"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Improved keyword rankings"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Increased referral traffic"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Better trust signals"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Long-term algorithm resilience"
+      }
+    ]
+  },
+  "e_commerce_seo": {
+    "title": "E-Commerce SEO That Turns Traffic Into Revenue",
+    "titleStart": "E-Commerce SEO",
+    "titleEnd": "That Turns Traffic Into Revenue",
+    "description": "E-commerce SEO is not about rankings alone. It is about product visibility, buying intent, and conversion efficiency. Most online stores fail at SEO because they treat it like content marketing. At Devtrios, our e-commerce SEO services focus on commercial performance. We optimise your store so products rank when buyers are ready, categories dominate competitive terms, and technical structure supports scale. This is SEO built for stores that want sales, not vanity traffic.",
+    "benefits": [
+      "Higher rankings for product and category keywords",
+      "Increased qualified traffic with purchase intent",
+      "Clean crawlability across large inventories",
+      "Strong internal authority flow to revenue pages",
+      "Measurable growth in conversions and AOV"
+    ],
+    "buttons": [
+      {
+        "text": "Get an E-Commerce SEO Review",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request an SEO Strategy",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "E-Commerce SEO",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What effective e-commerce SEO delivers",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Higher rankings for product and category keywords"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Increased qualified traffic with purchase intent"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Clean crawlability across large inventories"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Strong internal authority flow to revenue pages"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Measurable growth in conversions and AOV"
+      }
+    ]
+  },
+  "link_building": {
+    "title": "Link Building That Grows Authority, Rankings and Trust",
+    "titleStart": "Link Building",
+    "titleEnd": "That Grows Authority, Rankings and Trust",
+    "description": "Link building is not about volume. It is about credibility, relevance, and authority. Most businesses fail at link building because they chase cheap backlinks and short-term tactics. At Devtrios, our link building services focus on earning trust signals that search engines respect. We build links that strengthen your domain authority, support ranking pages, and compound over time. This is link building designed for businesses that want stable rankings, not penalties.",
+    "benefits": [
+      "Stronger domain and page authority",
+      "Higher rankings for competitive keywords",
+      "Improved crawl trust and indexation",
+      "Long-term ranking stability",
+      "Clean Google-compliant backlink profiles"
+    ],
+    "buttons": [
+      {
+        "text": "Get a Backlink Profile Review",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Link Building Strategy",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "Link Building",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What effective link building delivers",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Stronger domain and page authority"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Higher rankings for competitive keywords"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Improved crawl trust and indexation"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Long-term ranking stability"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Clean Google-compliant backlink profiles"
+      }
+    ]
+  },
+  "seo_migration": {
+    "title": "SEO Migration Without Traffic Loss, Ranking Drops or Chaos",
+    "titleStart": "SEO Migration Services",
+    "titleEnd": "Without Traffic Loss, Ranking Drops or Chaos",
+    "description": "Website migrations are one of the highest-risk moments in SEO. A poorly handled migration can wipe out years of organic growth overnight. At Devtrios, our SEO migration services are built to protect visibility, preserve rankings, and stabilise performance before, during, and after migration. Whether you are changing platforms, redesigning your site, consolidating domains, or restructuring URLs, we manage migrations with precision, planning, and zero guesswork. This is SEO migration for businesses that cannot afford mistakes.",
+    "benefits": [
+      "Rankings preserved, not reset",
+      "Traffic stability during transition",
+      "Clean URL and redirect structure",
+      "Crawlability and indexation protection",
+      "Faster post-migration recovery"
+    ],
+    "buttons": [
+      {
+        "text": "Get an SEO Migration Audit",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Request a Migration Strategy",
+        "link": "/contact-us"
+      }
+    ],
+    "badge": {
+      "text": "SEO Migration",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What a correct SEO migration delivers",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Rankings preserved, not reset"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Traffic stability during transition"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Clean URL and redirect structure"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Crawlability and indexation protection"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Faster post-migration recovery"
       }
     ]
   },
@@ -1210,12 +2086,6 @@
         "overViewCount": "100",
         "overViewSign": "+",
         "overViewDescription": "Processes that work at small scale but collapse under growth"
-      },
-      {
-        "overViewImage": "/assets/images/services/overview-4.svg",
-        "overViewCount": "100",
-        "overViewSign": "+",
-        "overViewDescription": "Teams compensating with spreadsheets, emails, and workarounds"
       }
     ]
   },
@@ -1967,6 +2837,12 @@
         "overViewDescription": "Prioritised recommendations tied to business impact"
       },
       {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Prioritised recommendations tied to business impact"
+      },
+      {
         "overViewImage": "/assets/images/services/overview-3.svg",
         "overViewCount": "100",
         "overViewSign": "+",
@@ -2181,6 +3057,12 @@
         "overViewCount": "100",
         "overViewSign": "+",
         "overViewDescription": "Interfaces that support adoption and conversion"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Interfaces that support adoption and conversion"
       }
     ]
   },
@@ -2291,6 +3173,63 @@
         "overViewCount": "100",
         "overViewSign": "+",
         "overViewDescription": "Reliable backups and recovery"
+      }
+    ]
+  },
+  "services_hub": {
+    "title": "Software, AI & Automation Services Built for Performance and Scale",
+    "titleStart": "Software, AI & Automation Services",
+    "titleEnd": "Built for Performance and Scale",
+    "description": "At Devtrios, we combine engineering expertise with modern technologies to create scalable software solutions tailored to your business needs. Our services cover web and mobile development, AI systems, workflow automation, cloud infrastructure, and system integrations—helping organizations reduce operational friction, improve efficiency, and accelerate digital growth.",
+    "benefits": [
+      "Custom Software Development for scalable business platforms",
+      "Web Development Solutions including WordPress, Shopify, and custom frameworks",
+      "Mobile App Development for iOS, Android, and cross-platform applications",
+      "AI & Automation Systems to streamline operations and reduce manual work",
+      "Cloud & DevOps Solutions for reliable infrastructure and deployment",
+      "Digital Marketing Services including SEO, paid ads, and growth strategies"
+    ],
+    "buttons": [
+      {
+        "text": "Talk to an Expert",
+        "link": "/get-a-quote",
+        "icon": "/assets/images/icons/thunder.svg"
+      },
+      {
+        "text": "Book a Strategy Call",
+        "link": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ],
+    "badge": {
+      "text": "Engineering Digital Solutions for Modern Businesses",
+      "icon": "/assets/images/home/stars.webp"
+    },
+    "overview": "What We Deliver Across Our Services",
+    "overviewList": [
+      {
+        "overViewImage": "/assets/images/services/overview-1.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Successful Software & Web Development Projects"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-2.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Custom AI & Automation Solutions Delivered"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-3.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Mobile & Cloud Applications Developed"
+      },
+      {
+        "overViewImage": "/assets/images/services/overview-4.svg",
+        "overViewCount": "100",
+        "overViewSign": "+",
+        "overViewDescription": "Digital Growth & Marketing Campaigns Managed"
       }
     ]
   }

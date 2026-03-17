@@ -5,7 +5,7 @@ import CompaniesSlider from "@/app/(components)/companies-slider/CompaniesSlider
 import CompaniesList from "@/app/(components)/companies-slider/CompaniesList.json";
 import AboutDevtrios from "@/app/(components)/about-devtrios/AboutDevtrios";
 import AboutList from "@/app/(components)/about-devtrios/AboutList.json";
-import DigitalServices from "@/app/(pages)/home/DigitalServices/DigitalServices";
+// import DigitalServices from "@/app/(pages)/home/DigitalServices/DigitalServices";
 import CaseStudies from "@/app/(components)/case-studies/CaseStudies";
 import KeyMetrics from "@/app/(components)/key-metrics/KeyMetrics";
 import OurExpertise from "@/app/(components)/our-expertise/OurExpertise";
@@ -19,6 +19,8 @@ import BlogsSlider from "@/app/(components)/blogs-slider/BlogsSlider";
 import Faqs from "@/app/(components)/faqs/Faqs";
 import WebsiteTechStack from "@/app/(components)/website-tech-stack/WebsiteTechStack";
 import Sustainability from "@/app/(components)/sustainability/Sustainability";
+import MainServices from "@/app/(components)/main-services/MainServices";
+import WebsiteContactForm from "@/app/(components)/website-contact-form/WebsiteContactForm";
     
 export default function Home() {
   const companiesData = CompaniesList.home;
@@ -71,7 +73,8 @@ export default function Home() {
         title={aboutData.title}
         description={aboutData.description}
       />
-      <DigitalServices />
+      <MainServices/>
+      {/* <DigitalServices /> */}
       <CaseStudies type="home" />
       <OurExpertise />
       <Sustainability />
@@ -83,6 +86,7 @@ export default function Home() {
       <Awards noPadding={false} />
       <BlogsSlider noPadding={true} />
       <Faqs type="home" />
+      <WebsiteContactForm/>
     </React.Fragment>
   );
 }

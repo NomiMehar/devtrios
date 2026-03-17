@@ -72,6 +72,65 @@
       }
     ]
   },
+  "crm_development": {
+    "heading": "Our CRM Development Services",
+    "description": "End-to-end CRM development, customisation, and integration services designed around how your business actually operates.",
+    "cta": {
+      "text": "Get a Free CRM Consultation",
+      "href": "/get-a-quote",
+      "icon": "/assets/images/icons/thunder.svg"
+    },
+    "services": [
+      {
+        "title": "Custom CRM Development",
+        "description": "We design and build bespoke CRM platforms tailored to your sales cycles, pipelines, and internal processes. Ideal for businesses outgrowing off-the-shelf tools or needing full ownership of data and workflows.",
+        "link": "/services/crm-development/",
+        "linkText": "Explore Custom CRM Development",
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#ccf1e5"
+      },
+      {
+        "title": "CRM Customisation & Extensions",
+        "description": "Already using a CRM but hitting limitations? We extend and customise existing systems to fit your workflows, reduce friction, and eliminate workarounds that slow teams down.",
+        "link": "/services/crm-development/crm-customization/",
+        "linkText": "Customise Your Existing CRM",
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#e8f0ff"
+      },
+      {
+        "title": "CRM Automation & Workflow Engineering",
+        "description": "Automate lead routing, follow-ups, task assignments, notifications, and reporting. Our automation-first approach improves speed, accuracy, and consistency across teams.",
+        "link": "/services/crm-development/crm-automation-ai/",
+        "linkText": "Automate CRM Workflows",
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#fff4e6"
+      },
+      {
+        "title": "CRM Integrations",
+        "description": "We integrate your CRM with marketing tools, finance systems, customer support platforms, analytics tools, and internal software, creating a single source of truth across the business.",
+        "link": "/services/crm-development/crm-integration/",
+        "linkText": "Integrate Your CRM",
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#e6f9f0"
+      },
+      {
+        "title": "Sales & Pipeline Management Systems",
+        "description": "Design structured pipelines that reflect how deals actually move. We build CRM logic that supports forecasting, deal health tracking, and sales accountability.",
+        "link": "/services/crm-development/",
+        "linkText": "Improve Sales Pipelines",
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#f0f0ff"
+      },
+      {
+        "title": "Customer Data & Reporting Dashboards",
+        "description": "Clear, role-based dashboards for sales leaders, operations, and executives. No clutter, no vanity metrics, just decision-ready data.",
+        "link": "/services/crm-development/",
+        "linkText": "Design CRM Reporting",
+        "icon": "/assets/images/header/nav-icon-3.svg",
+        "backgroundColor": "#ffe6f5"
+      }
+    ]
+  },
   "mobile_app_development": {
     "heading": "Our Mobile App Development Services",
     "description": "We provide end-to-end mobile app development services, from strategy and design to development and ongoing support.",

@@ -1,0 +1,107 @@
+{
+  "crm_who_service": {
+    "heading": "Who This Service Is For",
+    "subtitle": "Our CRM implementation services are ideal for:",
+    "image": {
+      "src": "/assets/images/services/crm-who-service.png",
+      "alt": "CRM implementation illustration"
+    },
+    "items": [
+      "Businesses implementing a CRM for the first time",
+      "Teams migrating from spreadsheets or legacy systems",
+      "Organisations with low CRM adoption",
+      "Sales-led businesses needing reliable forecasting",
+      "Enterprises requiring secure, role-based access"
+    ],
+    "cta": {
+      "href": "/get-a-quote",
+      "icon": "/assets/images/icons/thunder.svg",
+      "text": "Get a Free Consultation"
+    },
+    "cardIcon": "/assets/images/services/crm-service-1.svg"
+  },
+  "erp_who_service": {
+    "heading": "Who This Service Is For",
+    "subtitle": "Our ERP services are ideal for:",
+    "image": {
+      "src": "/assets/images/services/crm-who-service.png",
+      "alt": "ERP implementation illustration"
+    },
+    "items": [
+      "Growing businesses outgrowing spreadsheets or siloed tools",
+      "Organisations needing accurate financial and operational reporting",
+      "Multi department operations requiring system integration",
+      "Enterprises modernising legacy ERP systems",
+      "Businesses preparing for scale, audits, or investment"
+    ],
+    "cta": {
+      "href": "/get-a-quote",
+      "icon": "/assets/images/icons/thunder.svg",
+      "text": "Get a Free Consultation"
+    },
+    "cardIcon": "/assets/images/services/crm-service-1.svg"
+  },
+  "crm_customization_who_service": {
+    "heading": "Who This Service Is For",
+    "subtitle": "CRM customisation is ideal for:",
+    "image": {
+      "src": "/assets/images/services/crm-who-service.png",
+      "alt": "CRM customisation illustration"
+    },
+    "items": [
+      "Growing sales teams",
+      "Businesses with complex sales cycles",
+      "Multi department CRM usage",
+      "Companies with low CRM adoption",
+      "Organisations preparing for scale or automation"
+    ],
+    "cta": {
+      "href": "/get-a-quote",
+      "icon": "/assets/images/icons/thunder.svg",
+      "text": "Get a Free Consultation"
+    },
+    "cardIcon": "/assets/images/services/crm-service-1.svg"
+  },
+  "crm_integration_who_service": {
+    "heading": "Who This Service Is For",
+    "subtitle": "CRM integration is ideal for:",
+    "image": {
+      "src": "/assets/images/services/crm-who-service.png",
+      "alt": "CRM integration illustration"
+    },
+    "items": [
+      "Scaling sales organisations",
+      "Multi department CRM usage",
+      "Businesses with complex reporting needs",
+      "Companies running disconnected tools",
+      "Teams preparing for automation or AI adoption"
+    ],
+    "cta": {
+      "href": "/get-a-quote",
+      "icon": "/assets/images/icons/thunder.svg",
+      "text": "Get a Free Consultation"
+    },
+    "cardIcon": "/assets/images/services/crm-service-1.svg"
+  },
+  "crm_automation_ai_who_service": {
+    "heading": "Who This Service Is For",
+    "subtitle": "CRM automation and AI works best for:",
+    "image": {
+      "src": "/assets/images/services/crm-who-service.png",
+      "alt": "CRM automation and AI illustration"
+    },
+    "items": [
+      "Growing sales teams",
+      "Businesses with high lead volume",
+      "Multi stage sales cycles",
+      "Subscription or renewal driven models",
+      "Teams preparing for scale or international growth"
+    ],
+    "cta": {
+      "href": "/get-a-quote",
+      "icon": "/assets/images/icons/thunder.svg",
+      "text": "Get a Free Consultation"
+    },
+    "cardIcon": "/assets/images/services/crm-service-1.svg"
+  }
+}

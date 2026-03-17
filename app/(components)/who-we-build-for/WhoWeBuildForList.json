@@ -132,6 +132,31 @@
     "closingText": "We do not just audit.\n We fix, validate, and future-proof.",
     "image": "/assets/images/services/who-we-build.webp",
     "imageAlt": "Why Choose Devtrios for Technical SEO"
+  },
+  "crm_development": {
+    "heading": "Who We <span>Build CRM Systems</span> For",
+    "description": "We work with teams that see CRM as a revenue and operations engine, not just a contact database.",
+    "audiences": [
+      "Sales-led organisations needing clearer pipelines and accountability",
+      "B2B and SaaS companies outgrowing generic CRM setups",
+      "Operations-heavy teams wanting automation and clean data across systems",
+      "Leadership teams needing reliable forecasting and reporting",
+      "Businesses replacing spreadsheet-driven or ad-hoc CRM processes"
+    ],
+    "closingText": "If your CRM feels heavy, ignored, or unreliable, it is not a people problem—it is a system problem. We help you fix the system.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "link": "/contact-us",
+        "icon": "/assets/images/icons/thunder.svg",
+        "variant": "primary"
+      },
+      {
+        "text": "Start Your CRM Project",
+        "link": "/get-a-quote",
+        "variant": "secondary"
+      }
+    ]
   }
 }
 

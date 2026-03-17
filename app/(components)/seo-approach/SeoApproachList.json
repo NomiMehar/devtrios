@@ -1,0 +1,131 @@
+{
+  "technical_seo": {
+    "heading": "How We Approach Technical SEO",
+    "subtitle": "Technical SEO is not a one-time fix. It is a system.",
+    "steps": [
+      {
+        "title": "Diagnose Before Optimising",
+        "description": "We identify root causes, not symptoms."
+      },
+      {
+        "title": "Prioritise by Impact",
+        "description": "Issues are ranked by SEO risk and revenue impact, not arbitrary checklists."
+      },
+      {
+        "title": "Fix at the Right Layer",
+        "description": "Server, CMS, codebase, or infrastructure. We fix problems where they actually originate."
+      },
+      {
+        "title": "Build for Scale",
+        "description": "Our solutions are designed to support growth, not create future technical debt."
+      },
+      {
+        "title": "Validate and Monitor",
+        "description": "Every fix is tested, tracked, and monitored for stability."
+      }
+    ]
+  },
+  "local_seo": {
+    "heading": "How We Approach Local SEO",
+    "subtitle": "Local SEO works when every signal aligns.",
+    "steps": [
+      {
+        "title": "Location First, Not Keywords First",
+        "description": "We optimise for proximity, relevance, and trust."
+      },
+      {
+        "title": "Google Maps and Organic Work Together",
+        "description": "Local pack and organic results are treated as a single system."
+      },
+      {
+        "title": "Conversion Matters as Much as Visibility",
+        "description": "Traffic without calls is wasted effort."
+      },
+      {
+        "title": "Scalable, Not Spammy",
+        "description": "We avoid shortcuts that trigger volatility or suspensions."
+      },
+      {
+        "title": "Continuous Optimisation",
+        "description": "Local SEO requires ongoing refinement, not set-and-forget tactics."
+      }
+    ]
+  },
+  "seo_audit": {
+    "heading": "How Our SEO Audit Process Works",
+    "subtitle": "Our audits are structured, transparent, and outcome-driven.",
+    "steps": [
+      {
+        "title": "Step 1: Discovery & Goals Alignment",
+        "description": "We understand your business model, market, and growth objectives."
+      },
+      {
+        "title": "Step 2: Full Data & Platform Review",
+        "description": "We analyse Search Console, analytics, crawl data, and SERP behaviour."
+      },
+      {
+        "title": "Step 3: Issue Identification & Impact Scoring",
+        "description": "We prioritise issues based on ranking and revenue impact, not theory."
+      },
+      {
+        "title": "Step 4: Actionable SEO Roadmap",
+        "description": "You receive a clear plan with: What to fix, Why it matters, How to fix it, What to do first. If you want, we can also execute the fixes."
+      }
+    ]
+  },
+  "on_page_seo": {
+    "heading": "How Our On-Page SEO Process Works",
+    "subtitle": "Clear, repeatable, and execution-ready.",
+    "steps": [
+      {"title": "Step 1: Page & Keyword Audit", "description": "We analyse existing pages, rankings, and intent mismatches."},
+      {"title": "Step 2: Optimisation Blueprint", "description": "Each page receives a clear optimisation plan covering content, structure, and linking."},
+      {"title": "Step 3: Implementation or Guidance", "description": "We either implement changes directly or provide precise instructions for your team."},
+      {"title": "Step 4: Validation & Monitoring", "description": "We track improvements in rankings, engagement, and conversion signals."}
+    ]
+  },
+  "off_page_seo": {
+    "heading": "Our Off-Page SEO Process",
+    "subtitle": "A controlled, measurable framework.",
+    "steps": [
+      {"title": "1. Authority Audit", "description": "We evaluate your backlink profile, authority score, and competitor landscape."},
+      {"title": "2. Strategy Development", "description": "We define anchor distribution, link velocity, and placement priorities."},
+      {"title": "3. Outreach & Acquisition", "description": "Manual outreach with editorial standards."},
+      {"title": "4. Monitoring & Reporting", "description": "We track link quality, growth trends, and ranking movement."},
+      {"title": "5. Risk Management", "description": "We continuously monitor for harmful backlinks and algorithm risks."}
+    ]
+  },
+  "e_commerce_seo": {
+    "heading": "How Our E-Commerce SEO Process Works",
+    "subtitle": "Built for clarity, scale, and execution.",
+    "steps": [
+      {"title": "Step 1: Store & Revenue Audit", "description": "We analyse your products, categories, URLs, filters, and revenue drivers."},
+      {"title": "Step 2: Keyword & Intent Mapping", "description": "Commercial keywords are mapped to the right pages without cannibalisation."},
+      {"title": "Step 3: Technical & Structural Optimisation", "description": "We clean crawl paths, fix indexation, and stabilise site architecture."},
+      {"title": "Step 4: Page-Level Optimisation", "description": "Products and categories are optimised for rankings and conversions."},
+      {"title": "Step 5: Monitoring & Scaling", "description": "We track rankings, revenue pages, and growth opportunities."}
+    ]
+  },
+  "link_building": {
+    "heading": "How Our Link Building Process Works",
+    "subtitle": "Built for safety, scale, and results.",
+    "steps": [
+      {"title": "Step 1: Backlink & Risk Audit", "description": "We assess your current backlink profile for quality, relevance, and risk."},
+      {"title": "Step 2: Authority & Intent Mapping", "description": "We map links to priority pages based on ranking and revenue goals."},
+      {"title": "Step 3: Prospecting & Outreach", "description": "Targets are vetted manually for relevance, authority, and editorial standards."},
+      {"title": "Step 4: Placement & Quality Control", "description": "Every link is reviewed before placement. No automation. No shortcuts."},
+      {"title": "Step 5: Monitoring & Authority Growth", "description": "We track link impact, rankings, and authority signals over time."}
+    ]
+  },
+  "seo_migration": {
+    "heading": "How Our SEO Migration Process Works",
+    "subtitle": "Built to reduce risk and protect performance.",
+    "steps": [
+      {"title": "Step 1: Pre-Migration SEO Audit", "description": "We benchmark current rankings, traffic, URLs, backlinks, and technical signals. Nothing moves without a baseline."},
+      {"title": "Step 2: URL Mapping & Redirect Planning", "description": "Every old URL is mapped to its new equivalent. No blanket redirects. No broken equity."},
+      {"title": "Step 3: Technical SEO Validation", "description": "We review crawlability, internal linking, canonicals, schema, metadata, and site structure."},
+      {"title": "Step 4: Migration Execution Support", "description": "We work alongside developers during launch to catch issues in real time."},
+      {"title": "Step 5: Post-Migration Monitoring & Fixes", "description": "We monitor rankings, coverage reports, crawl errors, and performance daily. Issues are fixed before they compound."}
+    ]
+  }
+}
+

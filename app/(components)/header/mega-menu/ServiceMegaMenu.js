@@ -15,20 +15,20 @@ const serviceItems = [
       {
         title: "AI & Automation",
         items: [
-          { name: "AI Chatbots", link: "/services/ai-automation/ai-chatbots/" },
-          { name: "AI Agents", link: "/services/ai-automation/ai-agents/" },
-          { name: "Agentic AI", link: "/services/ai-automation/agentic-ai/" },
+          { name: "AI Chatbots", link: "/services/ai-chatbots/" },
+          { name: "AI Agents", link: "/services/ai-agents/" },
+          { name: "Agentic AI", link: "/services/agentic-ai/" },
           {
             name: "LLM Development",
-            link: "/services/ai-automation/llm-development/",
+            link: "/services/llm-development/",
           },
           {
             name: "Automation & Workflow Engineering",
-            link: "/services/ai-automation/automation-workflows/",
+            link: "/services/automation-workflows/",
           },
           {
             name: "Generative AI",
-            link: "/services/ai-automation/generative-ai/",
+            link: "/services/generative-ai/",
           },
         ],
       },
@@ -47,23 +47,23 @@ const serviceItems = [
         items: [
           {
             name: "Smart Contract Development",
-            link: "/services/blockchain-development/smart-contract-development/",
+            link: "/services/smart-contract-development/",
           },
           {
             name: "Web3 App Development",
-            link: "/services/blockchain-development/web3-app-development/",
+            link: "/services/web3-app-development/",
           },
           {
             name: "NFT Development",
-            link: "/services/blockchain-development/nft-development/",
+            link: "/services/nft-development/",
           },
           {
             name: "Crypto Wallet Development",
-            link: "/services/blockchain-development/wallet-integration/",
+            link: "/services/wallet-integration/",
           },
           {
             name: "Smart Contract Audit",
-            link: "/services/blockchain-development/smart-contract-audits/",
+            link: "/services/smart-contract-audits/",
           },
         ],
       },
@@ -82,23 +82,23 @@ const serviceItems = [
         items: [
           {
             name: "iOS App Development",
-            link: "/services/mobile-app-development/ios-app-development/",
+            link: "/services/ios-app-development/",
           },
           {
             name: "Android App Development",
-            link: "/services/mobile-app-development/android-app-development/",
+            link: "/services/android-app-development/",
           },
           {
             name: "Flutter App Development",
-            link: "/services/mobile-app-development/flutter-app-development/",
+            link: "/services/flutter-app-development/",
           },
           {
             name: "App UI/UX",
-            link: "/services/mobile-app-development/app-ui-ux/",
+            link: "/services/app-ui-ux/",
           },
           {
             name: "App Maintenance",
-            link: "/services/mobile-app-development/app-maintenance/",
+            link: "/services/app-maintenance/",
           },
         ],
       },
@@ -117,23 +117,23 @@ const serviceItems = [
         items: [
           {
             name: "Custom Software Development",
-            link: "/services/software-development/custom-software-development/",
+            link: "/services/custom-software-development/",
           },
           {
             name: "Web App Development",
-            link: "/services/software-development/web-app-development/",
+            link: "/services/web-app-development/",
           },
           {
             name: "SaaS Development",
-            link: "/services/software-development/saas-development/",
+            link: "/services/saas-development/",
           },
           {
             name: "MVP Development",
-            link: "/services/software-development/mvp-development/",
+            link: "/services/mvp-development/",
           },
           {
             name: "API Development",
-            link: "/services/software-development/api-development/",
+            link: "/services/api-development/",
           },
         ],
       },
@@ -152,31 +152,31 @@ const serviceItems = [
         items: [
           {
             name: "WordPress Development",
-            link: "/services/website-development/wordpress-development/",
+            link: "/services/wordpress-development/",
           },
           {
             name: "Shopify Development",
-            link: "/services/website-development/shopify-development/",
+            link: "/services/shopify-development/",
           },
           {
             name: "E-Commerce Website Development",
-            link: "/services/website-development/ecommerce-website-development/",
+            link: "/services/ecommerce-website-development/",
           },
           {
             name: "Landing Page Development",
-            link: "/services/website-development/landing-page-development/",
+            link: "/services/landing-page-development/",
           },
           {
             name: "Website Maintenance",
-            link: "/services/website-development/website-maintenance/",
+            link: "/services/website-maintenance/",
           },
           {
             name: "Custom Website Development",
-            link: "/services/website-development/custom-website-development/",
+            link: "/services/custom-website-development/",
           },
           {
             name: "Webflow Development",
-            link: "/services/website-development/webflow-development/",
+            link: "/services/webflow-development/",
           },
         ],
       },
@@ -193,48 +193,88 @@ const serviceItems = [
       {
         title: "UI & UX Design",
         items: [
-          { name: "UX Research", link: "/services/ui-ux-design/ux-research/" },
-          { name: "UI Design", link: "/services/ui-ux-design/ui-design/" },
-          { name: "UX Audit", link: "/services/ui-ux-design/ux-audit/" },
+          { name: "UX Research", link: "/services/ux-research/" },
+          { name: "UI Design", link: "/services/ui-design/" },
+          { name: "UX Audit", link: "/services/ux-audit/" },
           {
             name: "Wireframing & Prototyping",
-            link: "/services/ui-ux-design/wireframes-prototypes/",
+            link: "/services/wireframes-prototypes/",
           },
-          { name: "Design Systems", link: "/services/ui-ux-design/design-system/" },
-          { name: "Product Design", link: "/services/ui-ux-design/product-design/" },
+          { name: "Design Systems", link: "/services/design-system/" },
+          { name: "Product Design", link: "/services/product-design/" },
+          {
+            name: "Social Media Marketing",
+            link: "/services/social-media-marketing/",
+          },
+          {
+            name: "Social Media Management",
+            link: "/services/social-media-management/",
+          },
         ],
       },
     ],
   },
   {
     id: 6,
-    title: "SEO Services",
-    link: "/services/seo-services/",
+    title: "SEO",
+    link: "/services/seo/",
     icon: "/assets/images/header/nav-icon-7.svg",
     service_img:
       "/assets/images/services/website_development_about_services.webp",
     sections: [
       {
-        title: "SEO Services",
+        title: "SEO",
         items: [
-          { name: "SEO", link: "/services/seo-services/" },
-          { name: "Technical SEO", link: "/services/seo-services/technical-seo/" },
-          { name: "Local SEO", link: "/services/seo-services/local-seo/" },
-          { name: "SEO Audit", link: "/services/seo-services/seo-audit/" },
-          { name: "E-Commerce SEO", link: "/services/seo-services/ecommerce-seo/" },
-          { name: "Link Building", link: "/services/seo-services/link-building/" },
+          { name: "Technical SEO", link: "/services/technical-seo/" },
+          { name: "Local SEO", link: "/services/local-seo/" },
+          { name: "SEO Audit", link: "/services/seo-audit/" },
+          { name: "On-Page SEO", link: "/services/on-page-seo/" },
+          { name: "Off-page SEO", link: "/services/off-page/" },
+          { name: "E-Commerce SEO", link: "/services/e-commerce-seo/" },
+          { name: "Link Building", link: "/services/link-building/" },
           {
-            name: "Social Media Marketing",
-            link: "/services/digital-marketing/social-media-marketing/",
-          },
-          {
-            name: "Social Media Management",
-            link: "/services/digital-marketing/social-media-management/",
+            name: "SEO Migration Services",
+            link: "/services/seo-migration/",
           },
         ],
       },
     ],
   },
+  {
+    id: 7,
+    title: "CRM Development",
+    link: "/services/crm-development/",
+    icon: "/assets/images/header/nav-icon-3.svg",
+    service_img:
+      "/assets/images/services/website_development_about_services.webp",
+    sections: [
+      {
+        title: "CRM Development",
+        items: [
+          {
+            name: "CRM Implementation",
+            link: "/services/crm-implementation/",
+          },
+          {
+            name: "ERP Development Services",
+            link: "/services/erp-development/",
+          },
+          {
+            name: "Custom CRM",
+            link: "/services/crm-customization/",
+          },
+          {
+            name: "CRM Integration",
+            link: "/services/crm-integration/",
+          },
+          {
+            name: "CRM Automation & AI",
+            link: "/services/crm-automation-ai/",
+          },
+        ],
+      },
+    ],
+  }
 ];
 
 export default function ServiceMegaMenu({ onClick }) {
@@ -262,7 +302,16 @@ export default function ServiceMegaMenu({ onClick }) {
                   <ul>
                     {service.sections[0].items.map((item, i) => (
                       <li key={i}>
-                        <Link href={item.link}>{item.name}</Link>
+                        <Link
+                          href={item.link}
+                          className={
+                            item.link === "/services/social-media-marketing/"
+                              ? style.bold_link
+                              : ""
+                          }
+                        >
+                          {item.name}
+                        </Link>
                       </li>
                     ))}
                   </ul>

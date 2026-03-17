@@ -1,0 +1,93 @@
+{
+  "technical_seo": {
+    "heading": "Who Technical SEO Is For",
+    "subtitle": "This service is ideal if:",
+    "items": [
+      "Rankings have plateaued or declined",
+      "Traffic is inconsistent or volatile",
+      "Your site is slow or bloated",
+      "You are running a large or complex website",
+      "You are planning a rebuild or migration",
+      "Previous SEO work focused only on content and links"
+    ]
+  },
+  "local_seo": {
+    "heading": "Who Local SEO Is For",
+    "subtitle": "This service is ideal if:",
+    "items": [
+      "You rely on local customers or service areas",
+      "You are not showing in Google Maps consistently",
+      "Competitors dominate local results",
+      "You have multiple locations or expansion plans",
+      "Your website traffic exists but calls do not"
+    ]
+  },
+  "seo_audit": {
+    "heading": "Who This SEO Audit Is For",
+    "subtitle": "This service is ideal if:",
+    "items": [
+      "Rankings have stalled or declined",
+      "Traffic exists but conversions are weak",
+      "You are planning a redesign or migration",
+      "You want to scale SEO but lack clarity",
+      "You suspect technical or structural issues",
+      "You want an honest second opinion"
+    ]
+  },
+  "on_page_seo": {
+    "heading": "Who This Service Is For",
+    "subtitle": "On-page SEO is ideal if:",
+    "items": [
+      "Pages rank but do not convert",
+      "Rankings have stalled despite content output",
+      "You suspect keyword cannibalisation",
+      "Content feels bloated or unfocused",
+      "You want predictable SEO growth"
+    ]
+  },
+  "off_page_seo": {
+    "heading": "Who This Is For",
+    "subtitle": "This service is ideal if:",
+    "items": [
+      "You already have strong technical SEO",
+      "You have optimised on-page foundations",
+      "Competitors outrank you on authority",
+      "You want sustainable ranking growth",
+      "You care about long-term domain health"
+    ]
+  },
+  "e_commerce_seo": {
+    "heading": "Who This Service Is For",
+    "subtitle": "E-commerce SEO is ideal if:",
+    "items": [
+      "Products are not ranking despite demand",
+      "Category pages underperform",
+      "Organic traffic does not convert",
+      "The store suffers from crawl or duplication issues",
+      "You want scalable, predictable growth"
+    ]
+  },
+  "link_building": {
+    "heading": "Who This Service Is For",
+    "subtitle": "Link building is ideal if:",
+    "items": [
+      "Rankings are stuck despite good on-page SEO",
+      "Competitors outrank you with weaker content",
+      "Domain authority is holding growth back",
+      "You want safe, scalable authority building",
+      "You need links that actually move rankings"
+    ]
+  },
+  "seo_migration": {
+    "heading": "Who This Service Is For",
+    "subtitle": "SEO migration is critical if you are:",
+    "items": [
+      "Redesigning a high-traffic website",
+      "Changing CMS or platform",
+      "Moving domains or merging sites",
+      "Re-structuring URLs or navigation",
+      "Expanding internationally",
+      "Protecting revenue from organic search"
+    ]
+  }
+}

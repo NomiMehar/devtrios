@@ -1,0 +1,236 @@
+@use "../../../styles/variables" as *;
+
+.seo_approach {
+  padding: 130px 0;
+  background: url("../../../public/assets/images/services/dark_bg.png") center
+    no-repeat;
+  background-size: cover;
+  color: $white_color;
+
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding: 100px 0;
+  }
+
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding: 70px 0;
+  }
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.1fr);
+  gap: 48px;
+
+  @media screen and (max-width: $breakpoint_tablet) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.left_column {
+  position: sticky;
+  top: 50px;
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+
+
+  @media screen and (max-width: $breakpoint_tablet) {
+    position: static;
+    height: auto;
+  }
+}
+
+.left_inner {
+  max-width: 520px;
+}
+
+.heading {
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0 0 12px;
+  color: $white_color;
+
+  @media screen and (max-width: $breakpoint_tablet) {
+    font-size: 36px;
+  }
+
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    font-size: 28px;
+  }
+}
+
+.subtitle {
+  font-size: 16px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0 0 28px;
+  color: $white_color;
+  }
+
+.browser_mock {
+  background: rgba(15, 23, 42, 0.96);
+  border-radius: 16px;
+  border: 1px solid rgba(148, 163, 184, 0.5);
+  overflow: hidden;
+  box-shadow: 0 24px 80px rgba(15, 23, 42, 0.8);
+  margin-bottom: 24px;
+}
+
+.browser_header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  background: linear-gradient(
+    90deg,
+    rgba(15, 23, 42, 0.98),
+    rgba(30, 64, 175, 0.95)
+  );
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(148, 163, 184, 0.9);
+}
+
+.dot_red {
+  background: #f87171;
+}
+
+.dot_yellow {
+  background: #facc15;
+}
+
+.dot_green {
+  background: #4ade80;
+}
+
+.browser_body {
+  padding: 14px 16px 16px;
+  background: radial-gradient(circle at top left, #020617, #020617);
+}
+
+.browser_row {
+  display: grid;
+  grid-template-columns: minmax(0, 2.5fr) minmax(0, 1.2fr) auto;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 0;
+}
+
+.browser_row_title,
+.browser_row_meta {
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(148, 163, 184, 0.55);
+}
+
+.browser_row_meta {
+  background: rgba(148, 163, 184, 0.4);
+}
+
+.browser_row_cta {
+  width: 70px;
+  height: 22px;
+  border-radius: 999px;
+  background: rgba(59, 130, 246, 0.85);
+}
+
+.left_cta {
+  margin-top: 18px;
+  a{
+    padding: 14px 20px;
+    font-size: 16px;
+  }
+}
+
+.right_column {
+  padding-bottom: 80px;
+}
+
+.cards_column {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding-right: 40px;
+}
+
+.cards_column::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 6px;
+  width: 2px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.card {
+  position: relative;
+  padding: 22px 24px;
+  padding-right: 52px;
+  border-radius: 12px;
+  border: 1px solid rgba(148, 163, 184, 0.45);
+  background: rgba($white_color, 0.30);
+  color: rgba(226, 232, 240, 0.9);
+  box-shadow: 0 0 0 rgba(15, 23, 42, 0);
+  transition:
+    background 0.25s ease,
+    box-shadow 0.25s ease,
+    color 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.card_active {
+  background: white;
+  color: $dark_color;
+  border-color: rgba(148, 163, 184, 0.15);
+  box-shadow: 0 22px 55px rgba(15, 23, 42, 0.5);
+}
+
+.card_content {
+  max-width: 520px;
+}
+
+.card_title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 6px;
+}
+
+.card_description {
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.card_dot {
+  position: absolute;
+  right: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background: $body_color;
+  border: 2px solid rgba(148, 163, 184, 0.7);
+  box-shadow: 0 0 0 0 rgba(66, 115, 252, 0);
+  transition:
+    background 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.card_dot_active {
+  background: $blue_color;
+  border-color: $blue_color;
+  box-shadow: 0 0 0 6px rgba(66, 115, 252, 0.4);
+}
+
+a{
+
+}

@@ -1,0 +1,144 @@
+@use "../../../styles/variables" as *;
+
+.section {
+  padding: 130px 0;
+  overflow: hidden;
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding: 100px 0;
+  }
+
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding: 70px 0;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .heading {
+    color: $dark_color;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 10px;
+    
+    @media screen and (max-width: $breakpoint_tablet) {
+      font-size: 36px;
+    }
+    
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 28px;
+    }
+  }
+
+  .subtitle {
+    font-size: 16px;
+    line-height: 1.7;
+    color: $gray_color;
+    margin: 0;
+  }
+
+  .cards_row {
+    margin-top: 32px;
+  }
+
+  .swiper {
+    padding-bottom: 30px;
+  }
+
+  .slide {
+    width: 260px;
+  }
+
+  .card {
+    width: 100%;
+    min-height: 380px;
+    border-radius: 20px;
+    border: 1px solid rgba(59, 130, 246, 0.35);
+    padding: 20px;
+    background: $white_color;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 12px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease,
+      background 0.25s ease, color 0.25s ease;
+  }
+
+  .card_icon {
+    text-align: center;
+    img{
+      width: 55px;
+      height: 55px;
+      object-fit: contain;
+    }
+  }
+
+  .card_title {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 15px 0;
+    color: $dark_color;
+    text-align: center;
+  }
+
+  .card_text {
+    font-size: 14px;
+    line-height: 1.7;
+    color: $gray_color;
+    margin: 0;
+    text-align: center;
+  }
+
+  .card_bullet {
+    border-radius: 999px;
+    margin-top: auto;
+    align-self: flex-start;
+    background: linear-gradient(268.09deg, #0045ff 0%, #00a3ff 100%);
+    width: 60px;
+    height: 60px;
+    border: 4px solid $white_color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 26px;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .card_active, .card:hover {
+    background: linear-gradient(268.09deg, #0045ff 0%, #00a3ff 100%);
+    border-color: transparent;
+
+    .card_title {
+      color: #ffffff;
+    }
+
+    .card_text {
+      color: rgba(239, 246, 255, 0.96);
+    }
+
+    .card_icon {
+      img{
+        filter: brightness(0) invert(1);
+      }
+    }
+  }
+
+  .footer_cta {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+
+    a {
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 8px;
+    }
+  }
+}
+

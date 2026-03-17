@@ -1,0 +1,355 @@
+@use "../../../styles/variables" as *;
+
+.main_services {
+  padding: 130px 0;
+  position: relative;
+  background: url("../../../public/assets/images/services/dark_bg.png") center no-repeat;
+  background-size: cover;
+  margin-top: 130px;
+
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding: 100px 0;
+    margin-top: 100px;
+  }
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding: 70px 0;
+    margin-top: 70px;
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  .section_header {
+    text-align: center;
+    margin-bottom: 100px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      margin-bottom: 80px;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      margin-bottom: 60px;
+    }
+  }
+
+  .main_heading {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: $white_color;
+    margin: 0 0 16px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      font-size: 36px;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 28px;
+      margin-bottom: 12px;
+    }
+  }
+
+  .subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: $white_color;
+  }
+
+  .two_column {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 0;
+    align-items: start;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+  }
+
+  /* Left column – scrolls with page, sits on top of content panel background */
+  .tabs_column {
+    position: relative;
+    z-index: 2;
+    min-width: 0;
+    padding-right: 12px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      padding-right: 0;
+      z-index: 1;
+    }
+  }
+
+  .tabs_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    margin-top: -20px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+  }
+
+  .tab {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    width: 100%;
+    padding: 16px 18px;
+    min-height: 100px;
+    text-align: left;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid #E5E5E5;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    background: $white_color;
+    color: $dark_color;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.3;
+    position: relative;
+    z-index: 1;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      width: auto;
+      min-width: 140px;
+      padding: 16px 20px;
+      font-size: 14px;
+      min-height: 80px;
+    }
+
+    .tab_label {
+      flex: 1;
+      text-align: left;
+    }
+
+    .tab_arrow {
+      flex-shrink: 0;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      svg{
+        width: 30px;
+        height: 30px;
+        transform: rotate(40deg);
+      }
+    }
+  }
+
+  .tab_active {
+    background: linear-gradient(268.09deg, #0045FF 0%, #00A3FF 100%);
+    color: $white_color;
+    box-shadow: 0px 4px 50px 0px #0000001A;
+    border-color: transparent;
+    position: relative;
+    z-index: 3;
+    @media screen and (max-width: $breakpoint_tablet) {
+      margin-right: 0;
+      padding-right: 18px;
+    }
+  }
+
+  /* Right column – wrapper; sticky is on content_panel only */
+  .content_column {
+    min-width: 0;
+    position: sticky;
+    top: 50px;
+    align-self: start;
+    z-index: 1;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      position: relative;
+      top: auto;
+    }
+  }
+
+  .content_panel {
+    background: #E6F4FF;
+    border: 1px solid #ffffff80;
+    border-radius: 10px;
+    margin-left: -120px;
+    padding: 40px 40px 40px 150px;
+    position: sticky;
+    top: 0;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      margin-left: 0;
+      padding: 32px;
+      position: relative;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      padding: 24px;
+    }
+  }
+
+  .panel_inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    align-items: center;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .panel_text {
+    min-width: 0;
+  }
+
+  .panel_title {
+    a{
+      font-size: 32px;
+    font-weight: 600;
+    margin: 0 0 16px;
+    background: linear-gradient(268.09deg, #0045FF 0%, #00A3FF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
+    }
+  }
+
+  .panel_description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $gray_color;
+    margin: 0 0 24px;
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 15px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .list_heading {
+    font-size: 16px;
+    font-weight: 600;
+    color: $dark_color;
+    margin: 0 0 12px;
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .panel_list {
+    list-style: none;
+    margin: 0 0 32px;
+    padding: 0;
+
+    li {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.6;
+      color: $gray_color;
+      padding-left: 20px;
+      position: relative;
+      margin-bottom: 10px;
+
+      &::before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        color: $blue_color;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .panel_cta_row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 8px;
+    a{
+      padding: 12px 20px;
+      font-size: 16px;
+      font-weight: 400;
+      border-radius: 8px;
+      box-shadow: none;
+      &:hover{
+        box-shadow: none;
+      }
+      &:last-child{
+        background: transparent;
+        border: 1px solid $dark_color;
+        &:hover{
+          color: $dark_color;
+          background: $white_color;
+        }
+      }
+    }
+  }
+
+
+  .panel_image {
+    display: flex;
+    justify-content: flex-end;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      justify-content: center;
+    }
+  }
+
+  .panel_image_img {
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+    max-height: 370px;
+  }
+
+  .subservices_row {
+    margin-top: 50px;
+    ul{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      gap: 20px;
+    }
+    li{
+      position: relative;
+      padding-left: 20px;
+      &::before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        color: $blue_color;
+        font-weight: 600;
+      }
+    }
+    }
+  }
+
+  .subservice_link {
+    font-size: 16px;
+    color: $dark_color;
+    text-decoration: none;
+    position: relative;
+
+    &:hover {
+      color: $blue_color;
+    }
+  }
+}

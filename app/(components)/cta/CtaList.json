@@ -144,6 +144,118 @@
       }
     ]
   },
+  "local_seo": {
+    "title": "Own Your Local Market",
+    "description": "Local SEO is one of the highest-ROI digital channels when executed properly.\nIf you want consistent local visibility, qualified enquiries, and long-term dominance in your area, local SEO is the lever.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Local SEO Optimisation",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "seo_audit": {
+    "title": "Get Clarity Before You Spend More on SEO",
+    "description": "If you are investing in SEO without clear direction, you are gambling.\nAn SEO audit gives you certainty, focus, and a plan that compounds.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Request an SEO Audit",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "on_page_seo": {
+    "title": "Make Every Page Earn Its Rankings",
+    "description": "If your pages are not ranking, converting, or supporting growth, they are liabilities.\nOn-page SEO turns them into assets.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start On-Page SEO",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "off_page_seo": {
+    "title": "Build Authority the Right Way",
+    "description": "Strong SEO is not just technical. It's earned. Let's build domain authority that strengthens your rankings and protects your growth.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Building Authority",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "e_commerce_seo": {
+    "title": "Turn Your Store Into a Search-Driven Sales Engine",
+    "description": "If your store depends on paid ads or stagnant organic traffic, e-commerce SEO is the lever you are missing. Let's fix the structure, visibility, and revenue flow.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start E-Commerce SEO",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "link_building": {
+    "title": "Build Authority That Compounds Over Time",
+    "description": "If your site lacks authority, rankings will stall no matter how good your content is. Let's build trust signals that search engines reward.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Link Building",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "seo_migration": {
+    "title": "Migrate With Confidence, Not Hope",
+    "description": "SEO migration is not about luck. It is about preparation, execution, and control. Let's protect what you have built.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Plan Your SEO Migration",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
   "software_development": {
     "title": "Ready to Build Your Software Product?",
     "description": "Let's turn your idea into a powerful software solution designed to scale and succeed. Whether you need a custom platform, web application, or SaaS product, we're ready to help you build the right solution for your business.",
@@ -251,6 +363,118 @@
       },
       {
         "text": "Start Your SaaS Project",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "social_media_marketing": {
+    "title": "Build a Social Presence That Actually Matters",
+    "description": "Social media is not about posting more. It is about posting with purpose. Let's do it properly.",
+    "buttons": [
+      {"text": "Book a Free Strategy Call", "href": "/contact-us", "icon": "/assets/images/home/arrow-circle-right.webp"},
+      {"text": "Start Your Social Media Campaign", "href": "/get-a-quote", "icon": "/assets/images/home/arrow-circle-right.webp"}
+    ]
+  },
+  "social_media_management": {
+    "title": "Reliable Social Media, Without the Overhead",
+    "description": "You don’t need more content. You need consistent, controlled execution. That’s what this service delivers.",
+    "buttons": [
+      {"text": "Book a Free Strategy Call", "href": "/contact-us", "icon": "/assets/images/home/arrow-circle-right.webp"},
+      {"text": "Start Social Media Management", "href": "/get-a-quote", "icon": "/assets/images/home/arrow-circle-right.webp"}
+    ]
+  },
+  "crm_development": {
+    "title": "Ready to Build a CRM That Actually Works",
+    "description": "If your CRM feels heavy, ignored, or unreliable, it is not a people problem. It is a system problem. Let’s design a CRM that supports how your business sells, grows, and operates.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your CRM Project",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "crm_implementation": {
+    "title": "Ready to Implement a CRM That Delivers Value",
+    "description": "If your CRM feels ignored, unreliable, or painful to use, the issue is not the tool. It is the implementation. Let’s fix it properly.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your CRM Implementation",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "erp": {
+    "title": "Ready to Build an ERP That Supports the Business",
+    "description": "If your ERP feels heavy, unreliable, or disconnected from reality, the problem is not ERP itself. It is how it was implemented. Let's build it properly.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your ERP Project",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "crm_customization": {
+    "title": "Build a CRM That Teams Actually Use",
+    "description": "If your CRM feels heavy, ignored, or unreliable, it is not a people problem. It is a system design problem. Let's fix it properly.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your CRM Customisation",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "crm_integration": {
+    "title": "Build a Connected CRM Ecosystem",
+    "description": "Disconnected systems slow teams down and distort decision making. A properly integrated CRM becomes the operational backbone of the business. Let's build it properly.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start Your CRM Integration",
+        "href": "/get-a-quote",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      }
+    ]
+  },
+  "crm_automation_ai": {
+    "title": "Build a Smarter CRM That Works Without Micromanagement",
+    "description": "Manual CRMs do not scale. Automation and AI are what make them reliable. Let's turn your CRM into a system that runs itself.",
+    "buttons": [
+      {
+        "text": "Book a Free Strategy Call",
+        "href": "/contact-us",
+        "icon": "/assets/images/home/arrow-circle-right.webp"
+      },
+      {
+        "text": "Start CRM Automation & AI",
         "href": "/get-a-quote",
         "icon": "/assets/images/home/arrow-circle-right.webp"
       }

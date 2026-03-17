@@ -56,6 +56,252 @@
         "imageAlt": "Website migrations and SEO safeguards"
       }
     ]
+  },
+  "local_seo_services": {
+    "heading": "Our Local SEO Services",
+    "subtitle": "End-to-end local optimisation designed to drive measurable local demand.",
+    "ctaText": "Get a Free Consultation",
+    "ctaHref": "/get-a-quote",
+    "image": "/assets/images/services/seo-services-tech-1.png",
+    "imageAlt": "Local SEO services illustration",
+    "services": [
+      {
+        "title": "Google Business Profile Optimisation",
+        "description": "Your Google Business Profile is the centre of local visibility.\nWe optimise categories, services, descriptions, images, posts, Q&A, and engagement signals to maximise map pack visibility and conversions.",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Google Business Profile optimisation"
+      },
+      {
+        "title": "Local Keyword & Search Intent Mapping",
+        "description": "We identify how real customers search locally.\nThis includes geo-modified keywords, service-area intent, and high-conversion local queries mapped directly to landing pages and GBP assets.",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Local keyword and search intent mapping"
+      },
+      {
+        "title": "Local Landing Pages & On-Page SEO",
+        "description": "Location relevance must be explicit.\nWe build and optimise location and service pages that clearly signal geographic relevance while avoiding thin or duplicate content risks.",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Local landing pages and on-page SEO"
+      },
+      {
+        "title": "Citation & NAP Consistency",
+        "description": "Inconsistent data kills trust.\nWe clean, build, and manage business citations across key directories to reinforce authority and location accuracy.",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Citation and NAP consistency"
+      },
+      {
+        "title": "Reviews & Reputation Management",
+        "description": "Reviews are a ranking factor and a conversion factor.\nWe help you generate, manage, and respond to reviews in a way that improves rankings and customer confidence.",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Reviews and reputation management"
+      },
+      {
+        "title": "Local Link Building & Authority Signals",
+        "description": "Local authority matters.\nWe build high-quality local backlinks through partnerships, local publications, and industry-relevant placements.",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Local link building and authority signals"
+      },
+      {
+        "title": "Multi-Location Local SEO",
+        "description": "Scaling local visibility requires structure.\nWe implement frameworks for businesses with multiple branches, franchises, or service areas without cannibalisation or dilution.",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Multi-location local SEO"
+      },
+      {
+        "title": "Local SEO Audits & Competitive Analysis",
+        "description": "We identify exactly why competitors outrank you.\nThis includes map pack analysis, GBP comparisons, backlink gaps, and local SERP behaviour.",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Local SEO audits and competitive analysis"
+      }
+    ]
+  },
+  "seo_audit_services": {
+    "heading": "Our SEO Audit Services",
+    "subtitle": "Comprehensive audits covering every ranking factor that matters.",
+    "ctaText": "Get a Free Consultation",
+    "ctaHref": "/get-a-quote",
+    "image": "/assets/images/services/seo-services-tech-1.png",
+    "imageAlt": "SEO Audit services illustration",
+    "services": [
+      {
+        "title": "Technical SEO Audit",
+        "description": "We assess how search engines crawl, index, and evaluate your site.\nThis includes site structure, Core Web Vitals, page speed, mobile usability, crawl errors, indexing issues, schema, internal linking, and technical debt.",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Technical SEO audit"
+      },
+      {
+        "title": "On-Page & Content Audit",
+        "description": "Content that does not match intent will not rank.\nWe review page quality, keyword targeting, metadata, internal linking, content depth, duplication risks, and topical relevance.",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "On-page and content audit"
+      },
+      {
+        "title": "Search Intent & Keyword Gap Analysis",
+        "description": "Ranking for the wrong keywords wastes effort.\nWe analyse whether your pages align with real search intent and identify missed keyword opportunities your competitors are capturing.",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Search intent and keyword gap analysis"
+      },
+      {
+        "title": "Backlink & Authority Audit",
+        "description": "Authority still matters.\nWe review backlink quality, anchor text distribution, toxic links, and authority gaps compared to competitors.",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Backlink and authority audit"
+      },
+      {
+        "title": "Competitive SEO Analysis",
+        "description": "We show you why competitors outrank you.\nThis includes SERP positioning, content strengths, backlink advantages, and structural differences.",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Competitive SEO analysis"
+      },
+      {
+        "title": "UX & SEO Signals Review",
+        "description": "Poor UX weakens SEO performance.\nWe analyse bounce rates, engagement signals, page flow, and conversion blockers that indirectly affect rankings.",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "UX and SEO signals review"
+      },
+      {
+        "title": "Local SEO Audit (If Applicable)",
+        "description": "For location-based businesses, we assess Google Business Profile, local rankings, citations, reviews, and map pack visibility.",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Local SEO audit"
+      },
+      {
+        "title": "International SEO Audit (If Applicable)",
+        "description": "For global sites, we review hreflang, geo-targeting, localisation issues, and international indexing risks.",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "International SEO audit"
+      }
+    ]
+  },
+  "on_page_seo_services": {
+    "heading": "Our On-Page SEO Services",
+    "subtitle": "Comprehensive optimisation across content, structure, and intent.",
+    "ctaText": "Get a Free Consultation",
+    "ctaHref": "/get-a-quote",
+    "image": "/assets/images/services/seo-services-tech-1.png",
+    "imageAlt": "On-page SEO services illustration",
+    "services": [
+      {"title": "Keyword Mapping & Search Intent Alignment", "description": "We map keywords to pages based on real intent, not volume alone. Each page is aligned to one primary intent with supporting secondary terms, preventing cannibalisation and dilution.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Keyword mapping and search intent"},
+      {"title": "Content Optimisation", "description": "Content must earn its position. We optimise headings, body copy, structure, and semantic depth to ensure relevance, clarity, and authority without bloating or fluff.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Content optimisation"},
+      {"title": "Meta Titles & Descriptions", "description": "Metadata influences both rankings and click-through rate. We write clean, compelling titles and descriptions that meet length limits, include power terms, and drive qualified clicks.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Meta titles and descriptions"},
+      {"title": "Heading Structure & Page Hierarchy", "description": "Poor hierarchy confuses users and search engines. We fix H-tag structure to improve readability, topical clarity, and crawl efficiency.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Heading structure and page hierarchy"},
+      {"title": "Internal Linking Optimisation", "description": "Internal links control authority flow. We optimise anchor text, contextual linking, and page relationships to strengthen priority URLs and support topical clusters.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Internal linking optimisation"},
+      {"title": "Image SEO & Accessibility", "description": "Images affect performance and discoverability. We optimise file names, alt text, compression, and placement to support SEO, accessibility, and page speed.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Image SEO and accessibility"},
+      {"title": "URL Structure & Page Clean-Up", "description": "Messy URLs weaken relevance. We clean up URLs, resolve duplication risks, and enforce consistent naming conventions aligned with intent.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "URL structure and page clean-up"},
+      {"title": "Conversion-Aware On-Page SEO", "description": "Traffic without action is wasted. We align content structure with conversion paths, CTAs, and user flow without harming SEO signals.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Conversion-aware on-page SEO"}
+    ]
+  },
+  "off_page_seo_services": {
+    "heading": "Our Off-Page SEO Services",
+    "subtitle": "Structured authority building designed for scale.",
+    "ctaText": "Get a Free Consultation",
+    "ctaHref": "/get-a-quote",
+    "image": "/assets/images/services/seo-services-tech-1.png",
+    "imageAlt": "Off-page SEO services illustration",
+    "services": [
+      {"title": "Strategic Link Building", "description": "We acquire high-quality, contextually relevant backlinks from authoritative sources. Includes industry-specific placements, editorial backlinks, guest contributions, and niche outreach campaigns. No automated networks. No bulk spam links.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Strategic link building"},
+      {"title": "Digital PR & Brand Mentions", "description": "We position your brand in credible publications and relevant platforms. Includes media outreach, thought leadership placements, and branded citation building. This strengthens both SEO and brand visibility.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Digital PR and brand mentions"},
+      {"title": "Local Citation Building", "description": "For local and regional businesses. Includes consistent NAP citations, directory management, and local authority listings.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Local citation building"},
+      {"title": "Authority Gap Analysis", "description": "We analyse competitor backlink profiles and identify gaps. Includes link opportunity mapping, anchor strategy review, and competitive authority benchmarking.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Authority gap analysis"},
+      {"title": "Link Profile Audits & Cleanup", "description": "If your domain has toxic links, we identify and neutralise them. Includes toxic link identification, disavow preparation, and risk mitigation strategy.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Link profile audits and cleanup"}
+    ]
+  },
+  "e_commerce_seo_services": {
+    "heading": "Our E-Commerce SEO Services",
+    "subtitle": "End-to-end optimisation for scalable online stores.",
+    "ctaText": "Get a Free Consultation",
+    "ctaHref": "/get-a-quote",
+    "image": "/assets/images/services/seo-services-tech-1.png",
+    "imageAlt": "E-commerce SEO services illustration",
+    "services": [
+      {"title": "Product Page SEO Optimisation", "description": "Product pages win or lose the sale. We optimise titles, descriptions, structured data, internal links, and intent signals so your products rank and convert without duplication or thin content issues.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Product page SEO"},
+      {"title": "Category & Collection Page SEO", "description": "Category pages are your biggest revenue drivers. We optimise structure, copy, and internal linking to ensure they rank for high-volume commercial terms and pass authority to product pages.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Category and collection page SEO"},
+      {"title": "Technical SEO for E-Commerce Platforms", "description": "Online stores create technical debt fast. We fix crawl waste, index bloat, pagination issues, faceted navigation, and Core Web Vitals across Shopify, WooCommerce, Magento, and custom builds.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Technical SEO for e-commerce"},
+      {"title": "Faceted Navigation & Filter Control", "description": "Filters help users but confuse search engines. We control indexation, canonicalisation, and crawl paths to prevent SEO damage while preserving usability.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Faceted navigation and filter control"},
+      {"title": "Internal Linking & Authority Flow", "description": "Most stores waste link equity. We build internal linking systems that push authority toward top-selling categories, seasonal products, and strategic collections.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Internal linking and authority flow"},
+      {"title": "Structured Data & Rich Results", "description": "We implement product, review, price, and availability schema to increase visibility and click-through rates in search results.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Structured data and rich results"},
+      {"title": "International & Multi-Store SEO", "description": "Selling across regions or currencies? We structure stores correctly with hreflang, subfolders or subdomains, and localisation strategies that scale cleanly.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "International and multi-store SEO"},
+      {"title": "Conversion-Aware SEO Optimisation", "description": "Traffic without sales is noise. We align SEO structure with conversion paths, merchandising logic, and buyer psychology.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Conversion-aware SEO"}
+    ]
+  },
+  "link_building_services": {
+    "heading": "Our Link Building Services",
+    "subtitle": "Authority-focused link acquisition aligned with your SEO strategy.",
+    "ctaText": "Get a Free Consultation",
+    "ctaHref": "/get-a-quote",
+    "image": "/assets/images/services/seo-services-tech-1.png",
+    "imageAlt": "Link building services illustration",
+    "services": [
+      {"title": "Editorial Link Building", "description": "We earn links from real publications through relevance and value. These links are placed naturally within editorial content and carry strong authority signals that improve rankings without risk.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Editorial link building"},
+      {"title": "Digital PR and Brand Mentions", "description": "We turn brand stories, insights, and data into authoritative mentions and links. This strengthens both SEO performance and brand credibility.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Digital PR and brand mentions"},
+      {"title": "Contextual Backlinks", "description": "Links are placed within relevant, topically aligned content. Context matters more than metrics alone.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Contextual backlinks"},
+      {"title": "SaaS and B2B Link Building", "description": "Specialised outreach for SaaS, tech, and B2B businesses. We secure links from industry-relevant platforms that support commercial keywords.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "SaaS and B2B link building"},
+      {"title": "E-Commerce Link Building", "description": "Product and category-focused link acquisition that supports transactional pages.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "E-commerce link building"},
+      {"title": "Local and Geo-Relevant Link Building", "description": "For businesses targeting local or regional markets. We build trust signals that support Google Maps visibility and location-based rankings.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Local link building"},
+      {"title": "Competitor Backlink Gap Analysis", "description": "We analyse what your competitors rank with and close the authority gap strategically. No guessing. Just data-backed execution.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Competitor backlink gap analysis"}
+    ]
+  },
+  "seo_migration_services": {
+    "heading": "Our SEO Migration Services",
+    "subtitle": "End-to-end migration planning, execution, and validation.",
+    "ctaText": "Get an SEO Migration Audit",
+    "ctaHref": "/get-a-quote",
+    "image": "/assets/images/services/seo-services-tech-1.png",
+    "imageAlt": "SEO migration services",
+    "services": [
+      {"title": "Website Platform Migration", "description": "Moving between platforms such as WordPress, Shopify, Webflow, custom builds, or headless setups. We ensure SEO signals transfer cleanly without loss.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Website platform migration"},
+      {"title": "Domain Migration", "description": "Changing domains, merging brands, or moving from subdomains to root domains. Handled with strict redirect logic and authority preservation.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Domain migration"},
+      {"title": "URL Structure Changes", "description": "Restructuring URLs, categories, or site architecture. We prevent indexation errors and ranking volatility.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "URL structure changes"},
+      {"title": "Website Redesign SEO Migration", "description": "Design changes often break SEO silently. We align design, development, and SEO so nothing is lost in translation.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "Website redesign SEO migration"},
+      {"title": "International & Multi-Language SEO Migration", "description": "Complex migrations involving hreflang, regional targeting, and country structures. Handled with careful mapping and validation.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "International SEO migration"},
+      {"title": "CMS & Headless SEO Migration", "description": "SEO-safe migrations for modern headless and custom CMS architectures. We manage crawl paths, rendering, and indexing behaviour.", "image": "/assets/images/services/seo-services-tech-1.png", "imageAlt": "CMS and headless SEO migration"}
+    ]
+  },
+  "social_media_marketing_services": {
+    "heading": "Our Social Media Marketing Services",
+    "subtitle": "End-to-end services designed for clarity, consistency, and scale.",
+    "ctaText": "Get a Social Media Strategy",
+    "ctaHref": "/get-a-quote",
+    "image": "/assets/images/services/seo-services-tech-1.png",
+    "imageAlt": "Social media marketing services",
+    "services": [
+      {
+        "title": "Social Media Strategy & Positioning",
+        "description": "We define how your brand shows up, what it says, and who it speaks to.\\n\\nIncludes:\\n- Platform selection\\n- Audience and ICP alignment\\n- Messaging pillars\\n- Content themes\\n- Posting cadence",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Social media strategy and positioning"
+      },
+      {
+        "title": "Content Creation & Publishing",
+        "description": "High-quality, platform-native content designed to build authority and engagement.\\n\\nIncludes:\\n- Static posts and carousels\\n- Short-form content direction\\n- Branded visuals\\n- Caption writing\\n- Hashtag and format optimisation",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Content creation and publishing"
+      },
+      {
+        "title": "B2B Social Media Marketing",
+        "description": "Social media designed for credibility, not noise.\\n\\nIdeal for:\\n- SaaS and technology companies\\n- Professional services\\n- Founders and leadership brands\\n- B2B products and platforms",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "B2B social media marketing"
+      },
+      {
+        "title": "Social Media Management",
+        "description": "We manage the process so you do not have to.\\n\\nIncludes:\\n- Content calendars\\n- Scheduling and publishing\\n- Platform management\\n- Ongoing optimisation",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Social media management"
+      },
+      {
+        "title": "Paid Social Advertising",
+        "description": "Targeted campaigns built to support growth, not burn budget.\\n\\nIncludes:\\n- Campaign planning\\n- Audience targeting\\n- Creative direction\\n- Funnel alignment",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Paid social advertising"
+      },
+      {
+        "title": "Analytics & Performance Reporting",
+        "description": "Clear reporting tied to real outcomes.\\n\\nIncludes:\\n- Engagement and reach insights\\n- Audience growth trends\\n- Content performance analysis\\n- Strategic recommendations",
+        "image": "/assets/images/services/seo-services-tech-1.png",
+        "imageAlt": "Analytics and performance reporting"
+      }
+    ]
   }
 }
 

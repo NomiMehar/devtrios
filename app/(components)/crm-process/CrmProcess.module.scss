@@ -1,0 +1,139 @@
+@use "../../../styles/variables" as *;
+
+.section {
+  padding: 130px 0;
+  background: linear-gradient(180deg, #3150b3 0%, #091336 100%);
+  margin-top: 130px;
+
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding: 100px 0;
+    margin-top: 100px;
+  }
+
+  @media screen and (max-width: $breakpoint_mobile_portrait) {
+    padding: 70px 0;
+    margin-top: 70px;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  .heading {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    color: $white_color;
+  
+    @media screen and (max-width: $breakpoint_tablet) {
+      font-size: 38px;
+    }
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      font-size: 28px;
+  }
+}
+
+  .subtitle {
+    font-size: 16px;
+    line-height: 1.7;
+    color: $white_color;
+    margin: 0;
+  }
+
+  .tabs_row {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    margin: 40px 0 18px;
+    flex-wrap: wrap;
+  }
+
+  .tab {
+    flex: 1 1 0;
+    min-width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 15px 35px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    color: $gray_color;
+    justify-content: space-between;
+  }
+
+  .tab_label {
+    font-size: 13px;
+    line-height: 1.5;
+    color: $white_color;
+    text-align: center;
+  }
+
+  .tab_circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 999px;
+    background: $white_color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #3150b3;
+    border: 8px solid #E6F4FF;
+    transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
+  }
+
+  .tab_active .tab_circle {
+    background: linear-gradient(268.09deg, #0045ff 0%, #00a3ff 100%);
+    color: #ffffff;
+    border: 8px solid #b5c8fd;
+  }
+
+  .panel {
+    background: #e6f4ff;
+    border-radius: 16px;
+    flex-direction: column;
+    gap: 24px;
+    padding: 70px 40px 50px;
+    display: flex;
+    box-shadow: 0 30px 80px #0f172acc;
+    margin-top: -62px;
+
+    @media screen and (max-width: $breakpoint_tablet) {
+      padding: 50px 20px;
+    }
+  }
+
+  .panel_title {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+    color: $dark_color;
+  }
+
+  .panel_text {
+    font-size: 15px;
+    line-height: 1.8;
+    color: $dark_color;
+    margin: 0;
+  }
+
+  .panel_cta {
+
+    a {
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 8px;
+    }
+  }
+}
+

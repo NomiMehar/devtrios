@@ -178,5 +178,35 @@
             "description": "We track rankings, traffic quality, conversions, and revenue impact, not just impressions."
         }
     ]
+  },
+  "crm_development": {
+    "heading": "Our CRM Development Process",
+    "description": "A structured process aligned with business operations and technical reality.",
+    "button": {
+      "text": "Book a Consultation",
+      "link": "#contact"
+    },
+    "steps": [
+      {
+        "title": "Discovery & Workflow Mapping",
+        "description": "We analyse your sales, marketing, and operational workflows to understand how information flows, where friction exists, and what success needs to look like."
+      },
+      {
+        "title": "System Architecture & Data Design",
+        "description": "We design clean data models, permissions, and logic that scale without becoming brittle or over-complicated."
+      },
+      {
+        "title": "UX & Interface Design",
+        "description": "CRM systems fail when people avoid using them. We prioritise usability, clarity, and speed so teams actually use the system."
+      },
+      {
+        "title": "Development & Integration",
+        "description": "We build the CRM and integrate it with your wider ecosystem using secure APIs and automation frameworks."
+      },
+      {
+        "title": "Testing, Rollout & Adoption Support",
+        "description": "We test with real users, refine based on feedback, and support rollout to ensure adoption, not resistance."
+      }
+    ]
 }
 }

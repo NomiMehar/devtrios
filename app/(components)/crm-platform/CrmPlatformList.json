@@ -1,0 +1,137 @@
+{
+  "crm_platform": {
+    "heading": "CRM Platforms We Implement",
+    "description": "We implement and optimise CRM systems across platforms including:",
+    "items": [
+      {
+        "text": "HubSpot",
+        "image": "/assets/images/services/crm-platform.png",
+        "hoverImage": "/assets/images/services/crm-platform.png"
+      },
+      {
+        "text": "Salesforce",
+        "image": "/assets/images/services/crm-platform.png",
+        "hoverImage": "/assets/images/services/crm-platform.png"
+      },
+      {
+        "text": "Custom-built CRM systems",
+        "image": "/assets/images/services/crm-platform.png",
+        "hoverImage": "/assets/images/services/crm-platform.png"
+      },
+      {
+        "text": "API-first and cloud-based CRM platforms",
+        "image": "/assets/images/services/crm-platform.png",
+        "hoverImage": "/assets/images/services/crm-platform.png"
+      }
+    ],
+    "closingText": "Platform selection is driven by business requirements, not vendor bias."
+  },
+  "erp_platform": {
+    "heading": "ERP Platforms We Work With",
+    "description": "We implement and integrate ERP systems across:",
+    "items": [
+      {
+        "text": "SAP",
+        "image": "/assets/images/services/crm-platform.png",
+        "hoverImage": "/assets/images/services/crm-platform.png"
+      },
+      {
+        "text": "Oracle",
+        "image": "/assets/images/services/crm-platform.png",
+        "hoverImage": "/assets/images/services/crm-platform.png"
+      },
+      {
+        "text": "Modular and cloud based ERP platforms",
+        "image": "/assets/images/services/crm-platform.png",
+        "hoverImage": "/assets/images/services/crm-platform.png"
+      },
+      {
+        "text": "Custom ERP solutions for specialised operations",
+        "image": "/assets/images/services/crm-platform.png",
+        "hoverImage": "/assets/images/services/crm-platform.png"
+      }
+    ],
+    "closingText": "Platform choice is driven by operational fit, not brand recognition."
+  },
+  "crm_customization_platform": {
+    "heading": "CRM Platforms We Customise",
+    "description": "We customise and extend leading CRM platforms including:",
+    "items": [
+      {
+        "text": "Salesforce",
+        "image": "/assets/images/services/crm-platform.png",
+        "hoverImage": "/assets/images/services/crm-platform.png"
+      },
+      {
+        "text": "HubSpot",
+        "image": "/assets/images/services/crm-platform.png",
+        "hoverImage": "/assets/images/services/crm-platform.png"
+      },
+      {
+        "text": "Custom and industry specific CRM solutions",
+        "image": "/assets/images/services/crm-platform.png",
+        "hoverImage": "/assets/images/services/crm-platform.png"
+      }
+    ],
+    "closingText": "Platform choice does not limit customisation when done correctly."
+  },
+  "crm_integration_platform": {
+    "heading": "Platforms We Integrate With",
+    "description": "We integrate CRM platforms with a wide range of systems, including:",
+    "items": [
+      {
+        "text": "Salesforce",
+        "image": "/assets/images/services/crm-platform.png",
+        "hoverImage": "/assets/images/services/crm-platform.png"
+      },
+      {
+        "text": "HubSpot",
+        "image": "/assets/images/services/crm-platform.png",
+        "hoverImage": "/assets/images/services/crm-platform.png"
+      },
+      {
+        "text": "ERP and finance tools",
+        "image": "/assets/images/services/crm-platform.png",
+        "hoverImage": "/assets/images/services/crm-platform.png"
+      },
+      {
+        "text": "Marketing automation platforms",
+        "image": "/assets/images/services/crm-platform.png",
+        "hoverImage": "/assets/images/services/crm-platform.png"
+      },
+      {
+        "text": "Customer support systems",
+        "image": "/assets/images/services/crm-platform.png",
+        "hoverImage": "/assets/images/services/crm-platform.png"
+      },
+      {
+        "text": "Custom and legacy software",
+        "image": "/assets/images/services/crm-platform.png",
+        "hoverImage": "/assets/images/services/crm-platform.png"
+      }
+    ],
+    "closingText": "We choose integration methods based on reliability, not convenience."
+  },
+  "crm_automation_ai_platform": {
+    "heading": "Platforms We Automate & Enhance",
+    "description": "We deliver CRM automation and AI across leading platforms including:",
+    "items": [
+      {
+        "text": "Salesforce",
+        "image": "/assets/images/services/crm-platform.png",
+        "hoverImage": "/assets/images/services/crm-platform.png"
+      },
+      {
+        "text": "HubSpot",
+        "image": "/assets/images/services/crm-platform.png",
+        "hoverImage": "/assets/images/services/crm-platform.png"
+      },
+      {
+        "text": "Custom CRM systems",
+        "image": "/assets/images/services/crm-platform.png",
+        "hoverImage": "/assets/images/services/crm-platform.png"
+      }
+    ],
+    "closingText": "Automation is adapted to the platform, not forced into it."
+  }
+}

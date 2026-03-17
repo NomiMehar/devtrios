@@ -1,19 +1,20 @@
 import React from "react";
 import Head from "next/head";
-import CustomBanner from "@/app/(components)/custom-banner/CustomBanner";
-import bannerData from "@/app/(components)/custom-banner/CustomBannerList.json";
+import ServiceBanner from "@/app/(components)/service-banner/ServiceBanner";
+import ServiceBannerList from "@/app/(components)/service-banner/ServiceBannerList.json";
 import CompaniesSlider from "@/app/(components)/companies-slider/CompaniesSlider";
 import CompaniesList from "@/app/(components)/companies-slider/CompaniesList.json";
-import OurServices from "@/app/(pages)/services/our-services/OurServices";
+// import OurServices from "@/app/(pages)/services/our-services/OurServices";
 import Testimonials from "@/app/(components)/testimonials/Testimonials";
 import TestimonialList from "@/app/(components)/testimonials/TestimonialList.json";
 import Cta from "@/app/(components)/cta/Cta";
 import CtaList from "@/app/(components)/cta/CtaList.json";
 import BlogsSlider from "@/app/(components)/blogs-slider/BlogsSlider";
 import Faqs from "@/app/(components)/faqs/Faqs";
+import MainServices from "@/app/(components)/main-services/MainServices";
 
 export default function Services() {
-  const customBannerData = bannerData.services;
+  const bannerData = ServiceBannerList.services_hub;
   const companiesData = CompaniesList.services;
   const ctaData = CtaList.services;
 
@@ -50,19 +51,15 @@ export default function Services() {
           content="/assets/images/header/favicon.webp"
         />
       </Head>
-      <CustomBanner
-        title={customBannerData.title}
-        description={customBannerData.description}
-        buttons={customBannerData.buttons}
-        background={customBannerData.background}
-      />
+      <ServiceBanner data={bannerData} />
       <CompaniesSlider
         title={companiesData.title}
         images={companiesData.images}
         basePath={companiesData.basePath}
         description={companiesData.description}
       />
-      <OurServices />
+      <MainServices/>
+      {/* <OurServices /> */}
       <Testimonials list={TestimonialList.about_us} />
       <Cta data={ctaData} />
       <BlogsSlider />

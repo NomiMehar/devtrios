@@ -1,0 +1,152 @@
+{
+  "crm_implementation": {
+    "heading": "Our CRM Implementation Services",
+    "subtitle": "End-to-end CRM implementation services built for reliability, clarity, and adoption.",
+    "services": [
+      {
+        "title": "CRM Setup & Configuration",
+        "description": "We configure pipelines, fields, permissions, and workflows to match real sales, marketing, and operational processes. No unnecessary complexity. No unused features."
+      },
+      {
+        "title": "CRM Data Migration & Cleanup",
+        "description": "We migrate data from spreadsheets, legacy CRMs, and internal systems while removing duplicates, fixing structure issues, and validating accuracy."
+      },
+      {
+        "title": "Workflow & Automation Implementation",
+        "description": "We implement automation for lead routing, follow-ups, task creation, notifications, and lifecycle stages, reducing manual work and missed actions."
+      },
+      {
+        "title": "CRM Integration Implementation",
+        "description": "We integrate your CRM with marketing platforms, finance systems, customer support tools, analytics, and internal software to create a single source of truth."
+      },
+      {
+        "title": "Dashboards & Reporting Setup",
+        "description": "We design role-based dashboards for sales reps, managers, operations, and leadership, ensuring reporting is trusted and actionable."
+      },
+      {
+        "title": "User Access & Security Configuration",
+        "description": "We implement access controls, approval flows, and data visibility rules that balance security with operational efficiency."
+      }
+    ]
+  },
+  "erp": {
+    "heading": "Our ERP Services",
+    "subtitle": "End to end ERP services covering strategy, implementation, integration, and optimisation.",
+    "services": [
+      {
+        "title": "ERP Strategy & System Selection",
+        "description": "We help you select the right ERP based on your operational needs, industry, and growth plans. No vendor bias, no over buying."
+      },
+      {
+        "title": "ERP Implementation",
+        "description": "We implement ERP systems with a structured, phased approach that prioritises adoption, accuracy, and minimal disruption."
+      },
+      {
+        "title": "ERP Customisation & Configuration",
+        "description": "We configure modules, workflows, permissions, and reporting to reflect how your teams actually operate, not generic templates."
+      },
+      {
+        "title": "ERP Data Migration & Validation",
+        "description": "We migrate financial, operational, and historical data with strict validation to ensure accuracy and continuity."
+      },
+      {
+        "title": "ERP Integration Services",
+        "description": "We integrate ERP systems with CRMs, finance tools, eCommerce platforms, warehouses, and custom software to create a single operational view."
+      },
+      {
+        "title": "ERP Optimisation & Support",
+        "description": "We optimise existing ERP systems that are slow, underused, or misaligned with current operations."
+      }
+    ]
+  },
+  "crm_customization": {
+    "heading": "Our CRM Customisation Services",
+    "subtitle": "We customise CRM platforms to improve efficiency, visibility, and adoption.",
+    "services": [
+      {
+        "title": "Workflow & Process Customisation",
+        "description": "We tailor pipelines, stages, approvals, and automations to reflect how deals actually move through your business."
+      },
+      {
+        "title": "Custom Fields & Data Models",
+        "description": "We design structured data models that support accurate reporting, forecasting, and segmentation."
+      },
+      {
+        "title": "CRM Automation & Business Rules",
+        "description": "We implement automation for follow ups, task creation, deal progression, alerts, and internal handoffs."
+      },
+      {
+        "title": "Custom Dashboards & Reporting",
+        "description": "We build dashboards that leadership actually trusts, with real time visibility into sales, pipeline health, and performance."
+      },
+      {
+        "title": "Role Based Access & Permissions",
+        "description": "We configure access levels so each team sees what they need, nothing more, nothing less."
+      },
+      {
+        "title": "CRM UI & Usability Enhancements",
+        "description": "We simplify layouts, forms, and views to reduce friction and improve day to day usage."
+      }
+    ]
+  },
+  "crm_integration": {
+    "heading": "Our CRM Integration Services",
+    "subtitle": "We integrate CRMs with internal systems, third party platforms, and custom software.",
+    "services": [
+      {
+        "title": "Marketing Automation Integration",
+        "description": "Connect your CRM with marketing platforms to ensure leads, attribution, and engagement data flow cleanly between teams."
+      },
+      {
+        "title": "Sales & Pipeline Integration",
+        "description": "Integrate quoting tools, proposal systems, call tracking, and deal management platforms directly into the CRM."
+      },
+      {
+        "title": "ERP & Finance Integration",
+        "description": "Sync invoices, payments, contracts, and financial data for accurate forecasting and revenue reporting."
+      },
+      {
+        "title": "Customer Support & Helpdesk Integration",
+        "description": "Unify sales and support data by integrating ticketing systems, live chat, and customer service platforms."
+      },
+      {
+        "title": "Custom API & System Integrations",
+        "description": "We build secure, scalable integrations for proprietary systems, internal tools, and legacy software."
+      },
+      {
+        "title": "Data Synchronisation & Automation",
+        "description": "Ensure consistent, real time updates across systems with controlled data logic and conflict handling."
+      }
+    ]
+  },
+  "crm_automation_ai": {
+    "heading": "Our CRM Automation & AI Services",
+    "subtitle": "We design automation and AI around real workflows, not generic templates.",
+    "services": [
+      {
+        "title": "Sales Workflow Automation",
+        "description": "Automate lead routing, task creation, deal stage updates, follow ups, and handovers between sales roles."
+      },
+      {
+        "title": "Marketing & Lead Nurture Automation",
+        "description": "Trigger campaigns, score leads, and sync engagement data automatically inside the CRM."
+      },
+      {
+        "title": "AI Lead Scoring & Prioritisation",
+        "description": "Use AI models to identify high intent leads and prioritise sales effort where it matters."
+      },
+      {
+        "title": "AI Assisted Forecasting & Reporting",
+        "description": "Improve pipeline accuracy with AI driven insights based on historical data and live activity."
+      },
+      {
+        "title": "Customer Lifecycle Automation",
+        "description": "Automate onboarding, renewals, upsells, and churn prevention workflows."
+      },
+      {
+        "title": "Data Hygiene & Enrichment Automation",
+        "description": "Automatically clean, deduplicate, and enrich CRM records to maintain data integrity."
+      }
+    ]
+  }
+}

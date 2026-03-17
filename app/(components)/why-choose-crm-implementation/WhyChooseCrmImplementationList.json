@@ -1,0 +1,167 @@
+{
+  "why_choose_crm_implementation": {
+    "heading": "Why Choose Devtrios for CRM Implementation",
+    "gridTemplateColumns": "1fr 1fr 1fr 1fr 1fr",
+    "gridTemplateRows": "auto auto",
+    "points": [
+      {
+        "text": "Business-first implementation approach",
+        "column": 1,
+        "row": 1
+      },
+      {
+        "text": "Strong focus on usability and adoption",
+        "column": 2,
+        "row": 2
+      },
+      {
+        "text": "Clean data and dependable reporting",
+        "column": 3,
+        "row": 1
+      },
+      {
+        "text": "Clear communication and accountable delivery",
+        "column": 4,
+        "row": 2
+      },
+      {
+        "text": "CRM systems designed to evolve, not be replaced",
+        "column": 5,
+        "row": 1
+      }
+    ],
+    "closing": "We do not just install CRMs. We make them operational assets."
+  },
+  "why_choose_erp": {
+    "heading": "Why Choose Devtrios for ERP Services",
+    "gridTemplateColumns": "1fr 1fr 1fr 1fr 1fr",
+    "gridTemplateRows": "auto auto",
+    "points": [
+      {
+        "text": "Strong operational and systems thinking",
+        "column": 1,
+        "row": 1
+      },
+      {
+        "text": "Clear implementation ownership and accountability",
+        "column": 2,
+        "row": 2
+      },
+      {
+        "text": "Focus on adoption, not just configuration",
+        "column": 3,
+        "row": 1
+      },
+      {
+        "text": "Clean data and dependable reporting",
+        "column": 4,
+        "row": 2
+      },
+      {
+        "text": "ERP systems designed to evolve with the business",
+        "column": 5,
+        "row": 1
+      }
+    ],
+    "closing": "We do not treat ERP as a one time project. We build systems that remain useful as the organisation grows."
+  },
+  "why_choose_crm_customization": {
+    "heading": "Why Choose Devtrios for CRM Customisation",
+    "gridTemplateColumns": "1fr 1fr 1fr 1fr 1fr",
+    "gridTemplateRows": "auto auto",
+    "points": [
+      {
+        "text": "Strong understanding of sales and operational workflows",
+        "column": 1,
+        "row": 1
+      },
+      {
+        "text": "Business first, system second approach",
+        "column": 2,
+        "row": 2
+      },
+      {
+        "text": "Focus on adoption and data accuracy",
+        "column": 3,
+        "row": 1
+      },
+      {
+        "text": "Clean reporting and forecasting structures",
+        "column": 4,
+        "row": 2
+      },
+      {
+        "text": "Customisation that scales without breaking",
+        "column": 5,
+        "row": 1
+      }
+    ],
+    "closing": "We do not over customise. We customise only what improves clarity, efficiency, and performance."
+  },
+  "why_choose_crm_integration": {
+    "heading": "Why Choose Devtrios for CRM Integration",
+    "gridTemplateColumns": "1fr 1fr 1fr 1fr 1fr",
+    "gridTemplateRows": "auto auto",
+    "points": [
+      {
+        "text": "Business first integration design",
+        "column": 1,
+        "row": 1
+      },
+      {
+        "text": "Clean, documented data logic",
+        "column": 2,
+        "row": 2
+      },
+      {
+        "text": "Secure and scalable architecture",
+        "column": 3,
+        "row": 1
+      },
+      {
+        "text": "Strong understanding of sales and operations",
+        "column": 4,
+        "row": 2
+      },
+      {
+        "text": "Integrations built to survive growth",
+        "column": 5,
+        "row": 1
+      }
+    ],
+    "closing": "We do not create fragile integrations. We build systems that hold up under pressure."
+  },
+  "why_choose_crm_automation_ai": {
+    "heading": "Why Choose Devtrios for CRM Automation & AI",
+    "gridTemplateColumns": "1fr 1fr 1fr 1fr 1fr",
+    "gridTemplateRows": "auto auto",
+    "points": [
+      {
+        "text": "Automation tied to business outcomes",
+        "column": 1,
+        "row": 1
+      },
+      {
+        "text": "AI applied pragmatically, not experimentally",
+        "column": 2,
+        "row": 2
+      },
+      {
+        "text": "Clean workflows that teams actually use",
+        "column": 3,
+        "row": 1
+      },
+      {
+        "text": "Strong understanding of sales, ops, and data",
+        "column": 4,
+        "row": 2
+      },
+      {
+        "text": "Systems designed to evolve, not break",
+        "column": 5,
+        "row": 1
+      }
+    ],
+    "closing": "We build automation that people trust and rely on."
+  }
+}

@@ -58,5 +58,18 @@
       "Clear maintenance processes and predictable response times",
       "Ongoing support aligned with business growth"
     ]
+  },
+  "social_media_marketing": {
+    "heading": "Who This Is For",
+    "tagline": "This service is a strong fit if you:",
+    "iconPath": "/assets/images/services/ios-trust-icon.svg",
+    "imagePath": "/assets/images/services/social-media-service-for.png",
+    "features": [
+      "Want credibility over trends",
+      "Need consistent brand presence",
+      "Care about long-term growth",
+      "Prefer strategy over volume",
+      "Expect measurable outcomes"
+    ]
   }
 }

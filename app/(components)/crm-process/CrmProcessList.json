@@ -1,0 +1,207 @@
+{
+  "crm_process": {
+    "heading": "Our CRM Implementation Process",
+    "subtitle": "A structured, repeatable process focused on long-term success.",
+    "steps": [
+      {
+        "label": "Discovery & Process Mapping",
+        "title": "Discovery & Process Mapping",
+        "description": "We document your sales, marketing, and operational workflows before touching the CRM."
+      },
+      {
+        "label": "System Architecture & Configuration",
+        "title": "System Architecture & Configuration",
+        "description": "We configure the CRM to reflect your processes, permissions, and growth plans."
+      },
+      {
+        "label": "Data Migration & Validation",
+        "title": "Data Migration & Validation",
+        "description": "We migrate, clean, and validate data to ensure reporting accuracy from day one."
+      },
+      {
+        "label": "Automation & Integration Setup",
+        "title": "Automation & Integration Setup",
+        "description": "We implement only automation that adds measurable value and reduces manual effort."
+      },
+      {
+        "label": "Testing & User Acceptance",
+        "title": "Testing & User Acceptance",
+        "description": "We test with real users and refine workflows before go-live."
+      },
+      {
+        "label": "Go-Live & Adoption Support",
+        "title": "Go-Live & Adoption Support",
+        "description": "We support rollout, early optimisation, and adoption to ensure teams use the system daily."
+      }
+    ],
+    "cta": {
+      "href": "/get-a-quote",
+      "icon": "/assets/images/icons/thunder.svg",
+      "text": "Get a Free Consultation"
+    }
+  },
+  "erp_process": {
+    "heading": "Our ERP Implementation Process",
+    "subtitle": "A disciplined process designed for stability and long term value.",
+    "steps": [
+      {
+        "label": "Discovery & Process Mapping",
+        "title": "Discovery & Process Mapping",
+        "description": "We document finance, operations, inventory, procurement, and reporting workflows in detail."
+      },
+      {
+        "label": "System Architecture & Module Design",
+        "title": "System Architecture & Module Design",
+        "description": "We design ERP architecture and modules aligned to current operations and future scale."
+      },
+      {
+        "label": "Configuration & Customisation",
+        "title": "Configuration & Customisation",
+        "description": "We configure workflows, approvals, roles, and logic with a focus on usability and accuracy."
+      },
+      {
+        "label": "Data Migration & Reconciliation",
+        "title": "Data Migration & Reconciliation",
+        "description": "We migrate data, reconcile balances, and validate outputs before go live."
+      },
+      {
+        "label": "Integration & Automation",
+        "title": "Integration & Automation",
+        "description": "We connect ERP with upstream and downstream systems to remove manual handoffs."
+      },
+      {
+        "label": "Go Live & Stabilisation",
+        "title": "Go Live & Stabilisation",
+        "description": "We support rollout, resolve early issues, and stabilise reporting and operations."
+      }
+    ],
+    "cta": {
+      "href": "/get-a-quote",
+      "icon": "/assets/images/icons/thunder.svg",
+      "text": "Get a Free Consultation"
+    }
+  },
+  "crm_customization_process": {
+    "heading": "Our CRM Customisation Process",
+    "subtitle": "A structured approach that prioritises adoption and long term stability.",
+    "steps": [
+      {
+        "label": "Discovery & Workflow Mapping",
+        "title": "Discovery & Workflow Mapping",
+        "description": "We document sales, account management, and operational processes in detail."
+      },
+      {
+        "label": "Gap Analysis",
+        "title": "Gap Analysis",
+        "description": "We identify where the CRM setup conflicts with actual workflows or business logic."
+      },
+      {
+        "label": "Customisation Design",
+        "title": "Customisation Design",
+        "description": "We design fields, pipelines, automation rules, and reporting structures."
+      },
+      {
+        "label": "Configuration & Testing",
+        "title": "Configuration & Testing",
+        "description": "We implement changes in stages and validate with real users."
+      },
+      {
+        "label": "Data Clean Up & Validation",
+        "title": "Data Clean Up & Validation",
+        "description": "We clean existing data to ensure accurate reporting and automation."
+      },
+      {
+        "label": "Rollout & Enablement",
+        "title": "Rollout & Enablement",
+        "description": "We support rollout with clear documentation and usage guidelines."
+      }
+    ],
+    "cta": {
+      "href": "/get-a-quote",
+      "icon": "/assets/images/icons/thunder.svg",
+      "text": "Get a Free Consultation"
+    }
+  },
+  "crm_integration_process": {
+    "heading": "Our CRM Integration Process",
+    "subtitle": "A structured approach that prioritises reliability and long term stability.",
+    "steps": [
+      {
+        "label": "System Mapping & Discovery",
+        "title": "System Mapping & Discovery",
+        "description": "We document all systems, data flows, dependencies, and ownership."
+      },
+      {
+        "label": "Integration Architecture Design",
+        "title": "Integration Architecture Design",
+        "description": "We define integration logic, sync rules, error handling, and performance requirements."
+      },
+      {
+        "label": "Secure API & Middleware Setup",
+        "title": "Secure API & Middleware Setup",
+        "description": "We implement integrations using APIs, middleware, or iPaaS tools where appropriate."
+      },
+      {
+        "label": "Testing & Validation",
+        "title": "Testing & Validation",
+        "description": "We test data accuracy, timing, edge cases, and failure scenarios."
+      },
+      {
+        "label": "Rollout & Monitoring",
+        "title": "Rollout & Monitoring",
+        "description": "We deploy integrations with monitoring to ensure stability and performance."
+      },
+      {
+        "label": "Optimisation & Scaling",
+        "title": "Optimisation & Scaling",
+        "description": "We refine integrations as usage grows and business needs evolve."
+      }
+    ],
+    "cta": {
+      "href": "/get-a-quote",
+      "icon": "/assets/images/icons/thunder.svg",
+      "text": "Get a Free Consultation"
+    }
+  },
+  "crm_automation_ai_process": {
+    "heading": "Our CRM Automation & AI Process",
+    "subtitle": "A disciplined approach that avoids over engineering.",
+    "steps": [
+      {
+        "label": "Workflow & Data Analysis",
+        "title": "Workflow & Data Analysis",
+        "description": "We analyse how your teams actually work, not how the CRM was originally configured."
+      },
+      {
+        "label": "Automation Strategy Design",
+        "title": "Automation Strategy Design",
+        "description": "We identify high impact automation opportunities tied to revenue and efficiency."
+      },
+      {
+        "label": "AI Model Selection & Training",
+        "title": "AI Model Selection & Training",
+        "description": "We apply AI where it adds value, such as lead scoring, forecasting, or pattern detection."
+      },
+      {
+        "label": "Build & Configuration",
+        "title": "Build & Configuration",
+        "description": "We implement workflows, triggers, AI logic, and validation rules."
+      },
+      {
+        "label": "Testing & Safeguards",
+        "title": "Testing & Safeguards",
+        "description": "We test edge cases to ensure automation helps teams rather than creating noise."
+      },
+      {
+        "label": "Monitoring & Optimisation",
+        "title": "Monitoring & Optimisation",
+        "description": "We refine automation continuously as behaviour and scale change."
+      }
+    ],
+    "cta": {
+      "href": "/get-a-quote",
+      "icon": "/assets/images/icons/thunder.svg",
+      "text": "Get a Free Consultation"
+    }
+  }
+}

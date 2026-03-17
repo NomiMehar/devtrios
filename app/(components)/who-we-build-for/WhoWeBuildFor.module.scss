@@ -63,7 +63,7 @@
      }
  
      p {
-       font-size: 18px;
+       font-size: 16px;
        line-height: 1.7;
        color: $gray_color;
        margin: 0;
@@ -119,7 +119,7 @@
    }
  
    .closing_text {
-     font-size: 18px;
+     font-size: 16px;
      line-height: 1.7;
      color: $gray_color;
      margin: 0;
@@ -136,7 +136,7 @@
      display: flex;
      gap: 20px;
      flex-wrap: wrap;
-
+    margin-top: 30px;
      a{
        padding: 13px 22px;
        font-size: 16px;

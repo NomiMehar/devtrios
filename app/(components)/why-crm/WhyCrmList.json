@@ -1,0 +1,65 @@
+{
+  "crm_implementation": {
+    "heading": "Why CRM Implementations Fail",
+    "subtitle": "Most CRM projects fail because:",
+    "reasons": [
+      "Systems are configured to match software defaults",
+      "Teams are excluded from early design decisions",
+      "Automation is added without understanding workflows",
+      "Data is migrated without structure or validation",
+      "Reporting is treated as an afterthought"
+    ],
+    "footerNote": "We treat CRM implementation as an operational project, not just a technical one."
+  },
+  "erp": {
+    "heading": "Why ERP Projects Fail",
+    "subtitle": "Most ERP initiatives fail for predictable reasons:",
+    "reasons": [
+      "Over customisation without operational clarity",
+      "Lack of process mapping before implementation",
+      "Poor data structure and migration",
+      "Minimal user involvement",
+      "Reporting designed too late"
+    ],
+    "footerNote": "We eliminate these risks by treating ERP as an operational system, not an IT deployment."
+  },
+  "crm_customization": {
+    "heading": "When CRM Customisation Is Necessary",
+    "subtitle": "CRM customisation becomes critical when:",
+    "reasons": [
+      "Sales teams bypass the CRM",
+      "Data quality is inconsistent",
+      "Reporting feels unreliable",
+      "Pipelines do not reflect reality",
+      "Automation is underutilised",
+      "Teams rely on spreadsheets alongside the CRM"
+    ],
+    "footerNote": "Customisation fixes these issues by aligning the system to real operations."
+  },
+  "crm_integration": {
+    "heading": "When CRM Integration Is Critical",
+    "subtitle": "CRM integration becomes essential when:",
+    "reasons": [
+      "Teams duplicate data across systems",
+      "Reporting shows inconsistent numbers",
+      "Sales, marketing, and finance disagree on metrics",
+      "Automation breaks due to missing data",
+      "Leadership lacks real time visibility",
+      "Scaling creates operational friction"
+    ],
+    "footerNote": "Integration fixes these problems at the system level."
+  },
+  "crm_automation_ai": {
+    "heading": "When CRM Automation & AI Becomes Essential",
+    "subtitle": "This service is critical when:",
+    "reasons": [
+      "Sales teams spend hours updating CRM manually",
+      "Follow ups are inconsistent or missed",
+      "Lead quality is unclear",
+      "Forecasts are unreliable",
+      "Reporting depends on manual exports",
+      "Scaling increases operational drag"
+    ],
+    "footerNote": "Automation fixes the system, not just the symptoms."
+  }
+}

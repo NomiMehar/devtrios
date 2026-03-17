@@ -1,0 +1,132 @@
+{
+  "social_media_marketing": {
+    "heading": "Our Social Media Marketing Services",
+    "subtitle": "End-to-end services designed for clarity, consistency, and scale.",
+    "services": [
+      {
+        "title": "Social Media Strategy & Positioning",
+        "summary": "We define how your brand shows up, what it says, and who it speaks to.",
+        "items": [
+          "Platform selection",
+          "Audience and ICP alignment",
+          "Messaging pillars",
+          "Content themes",
+          "Posting cadence"
+        ],
+        "image": "/assets/images/services/social-media-service-1.png"
+      },
+      {
+        "title": "Content Creation & Publishing",
+        "summary": "High-quality, platform-native content designed to build authority and engagement.",
+        "items": [
+          "Static posts and carousels",
+          "Short-form content direction",
+          "Branded visuals",
+          "Caption writing",
+          "Hashtag and format optimisation"
+        ],
+        "image": "/assets/images/services/social-media-service-1.png"
+      },
+      {
+        "title": "B2B Social Media Marketing",
+        "summary": "Social media designed for credibility, not noise.",
+        "items": [
+          "SaaS and technology companies",
+          "Professional services",
+          "Founders and leadership brands",
+          "B2B products and platforms"
+        ],
+        "image": "/assets/images/services/social-media-service-1.png"
+      },
+      {
+        "title": "Social Media Management",
+        "summary": "We manage the process so you do not have to.",
+        "items": [
+          "Content calendars",
+          "Scheduling and publishing",
+          "Platform management",
+          "Ongoing optimisation"
+        ],
+        "image": "/assets/images/services/social-media-service-1.png"
+      },
+      {
+        "title": "Paid Social Advertising",
+        "summary": "Targeted campaigns built to support growth, not burn budget.",
+        "items": [
+          "Campaign planning",
+          "Audience targeting",
+          "Creative direction",
+          "Funnel alignment"
+        ],
+        "image": "/assets/images/services/social-media-service-1.png"
+      },
+      {
+        "title": "Analytics & Performance Reporting",
+        "summary": "Clear reporting tied to real outcomes.",
+        "items": [
+          "Engagement and reach insights",
+          "Audience growth trends",
+          "Content performance analysis",
+          "Strategic recommendations"
+        ],
+        "image": "/assets/images/services/social-media-service-1.png"
+      }
+    ]
+  },
+  "social_media_management": {
+    "heading": "Our Social Media Management Services",
+    "subtitle": "End-to-end management designed for stability, clarity, and scale.",
+    "services": [
+      {
+        "title": "Account & Channel Management",
+        "summary": "We take full ownership of day-to-day execution.",
+        "items": [
+          "Platform setup and optimisation",
+          "Profile consistency and branding",
+          "Ongoing account management"
+        ],
+        "image": "/assets/images/services/social-media-service-1.png"
+      },
+      {
+        "title": "Content Scheduling & Publishing",
+        "summary": "Planned, structured, and reliable publishing.",
+        "items": [
+          "Content calendars",
+          "Scheduling across platforms",
+          "Posting cadence optimisation"
+        ],
+        "image": "/assets/images/services/social-media-service-1.png"
+      },
+      {
+        "title": "Caption Writing & Content Coordination",
+        "summary": "Clear, brand-aligned messaging that supports visibility and engagement.",
+        "items": [
+          "Caption writing",
+          "Hashtag strategy",
+          "Platform-specific formatting"
+        ],
+        "image": "/assets/images/services/social-media-service-1.png"
+      },
+      {
+        "title": "Community & Engagement Management",
+        "summary": "We keep your brand present and responsive.",
+        "items": [
+          "Monitoring comments and messages",
+          "Basic engagement management",
+          "Escalation handling when required"
+        ],
+        "image": "/assets/images/services/social-media-service-1.png"
+      },
+      {
+        "title": "Performance Tracking & Reporting",
+        "summary": "Simple reporting tied to outcomes, not noise.",
+        "items": [
+          "Reach and engagement tracking",
+          "Growth trends",
+          "Content performance insights"
+        ],
+        "image": "/assets/images/services/social-media-service-1.png"
+      }
+    ]
+  }
+}

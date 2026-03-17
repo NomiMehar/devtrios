@@ -39,6 +39,21 @@
       "Organisations frustrated with past SEO agencies",
       "Teams that want clarity, not jargon"
     ]
+  },
+  "crm_development": {
+    "heading": "Why CRM Design Impacts Revenue",
+    "description": "Poor CRM systems create hidden costs. Well-designed ones compound revenue over time.",
+    "features": [
+      "Missed follow-ups, dirty data, and low adoption quietly hurt sales performance.",
+      "Inaccurate forecasting and manual reporting waste time and undermine decision-making.",
+      "A well-designed CRM improves lead response time, sales consistency, and forecast accuracy.",
+      "Clear accountability and role-based visibility support higher-performing teams.",
+      "Better customer experience driven by cleaner data and more reliable touchpoints."
+    ],
+    "cta": {
+      "text": "Get a Free CRM Consultation",
+      "url": "/get-a-quote"
+    }
   }
 }
 

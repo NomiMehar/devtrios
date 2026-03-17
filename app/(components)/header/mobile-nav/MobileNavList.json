@@ -196,32 +196,75 @@
           {
             "name": "Product Design",
             "link": "/services/ui-ux-design/product-design/"
-          }
+          },
+          { "name": "Social Media Marketing", "link": "/services/social-media-marketing/" },
+          { "name": "Social Media Management", "link": "/services/social-media-management/" }
         ]
       }
     ]
   },
   {
     "id": 6,
-    "title": "SEO Services",
-    "link": "/services/seo-services/",
+    "title": "SEO",
+    "link": "/services/seo/",
     "sections": [
       {
-        "title": "SEO Services",
+        "title": "SEO",
         "items": [
-          { "name": "SEO", "link": "/services/seo-services/" },
-          { "name": "Technical SEO", "link": "/services/seo-services/technical-seo/" },
-          { "name": "Local SEO", "link": "/services/seo-services/local-seo/" },
-          { "name": "SEO Audit", "link": "/services/seo-services/seo-audit/" },
-          { "name": "E-Commerce SEO", "link": "/services/seo-services/ecommerce-seo/" },
-          { "name": "Link Building", "link": "/services/seo-services/link-building/" },
+          { "name": "SEO Services", "link": "/services/seo/" },
+          { "name": "Technical SEO", "link": "/services/seo/technical-seo/" },
+          { "name": "Local SEO", "link": "/services/seo/local-seo/" },
+          { "name": "SEO Audit", "link": "/services/seo/seo-audit/" },
+          { "name": "On-Page SEO", "link": "/services/seo/on-page-seo/" },
+          { "name": "Off-page SEO", "link": "/services/seo/off-page/" },
+          { "name": "E-Commerce SEO", "link": "/services/seo/e-commerce-seo/" },
+          { "name": "Link Building", "link": "/services/seo/link-building/" },
+          { "name": "SEO Migration Services", "link": "/services/seo/seo-migration/" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Social Media Marketing",
+    "link": "/services/social-media-marketing/",
+    "sections": [
+      {
+        "title": "Social Media Marketing",
+        "items": [
+          { "name": "Social Media Marketing", "link": "/services/social-media-marketing/" },
+          { "name": "Social Media Management", "link": "/services/social-media-management/" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "CRM Development",
+    "link": "/services/crm-development/",
+    "sections": [
+      {
+        "title": "CRM Development",
+        "items": [
           {
-            "name": "Social Media Marketing",
-            "link": "/services/digital-marketing/social-media-marketing/"
+            "name": "CRM Implementation",
+            "link": "/services/crm-implementation/"
           },
           {
-            "name": "Social Media Management",
-            "link": "/services/digital-marketing/social-media-management/"
+            "name": "ERP Development Services",
+            "link": "/services/erp-development/"
+          },
+          {
+            "name": "CRM Customisation",
+            "link": "/services/crm-customization/"
+          },
+          {
+            "name": "CRM Integration",
+            "link": "/services/crm-integration/"
+          },
+          {
+            "name": "CRM Automation & AI",
+            "link": "/services/crm-automation-ai/"
           }
         ]
       }

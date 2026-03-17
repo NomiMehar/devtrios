@@ -164,6 +164,137 @@
       "desc": "Absolutely. Faster sites and cleaner UX improve engagement, trust, and conversion rates."
     }
   ],
+  "local_seo": [
+    {
+      "title": "How long does local SEO take to work?",
+      "desc": "Initial improvements are often seen within 4–8 weeks. Competitive markets take longer but compound over time."
+    },
+    {
+      "title": "Is Google Business Profile enough on its own?",
+      "desc": "No. GBP is critical, but it must be supported by strong website, citation, and authority signals."
+    },
+    {
+      "title": "Can you rank multiple locations?",
+      "desc": "Yes. We build structured multi-location frameworks without duplicate content risks."
+    },
+    {
+      "title": "Do reviews really affect rankings?",
+      "desc": "Yes. Review velocity, sentiment, and engagement all influence local visibility and conversions."
+    },
+    {
+      "title": "Is local SEO ongoing?",
+      "desc": "Yes. Competitors, reviews, and Google updates require continuous optimisation."
+    }
+  ],
+  "seo_audit": [
+    {
+      "title": "How long does an SEO audit take?",
+      "desc": "Typically 2–3 weeks depending on site size and complexity."
+    },
+    {
+      "title": "Do you use automated tools only?",
+      "desc": "No. Tools support analysis, but insights come from experience and manual review."
+    },
+    {
+      "title": "Will this audit improve rankings on its own?",
+      "desc": "The audit identifies what to fix. Rankings improve when the recommendations are implemented."
+    },
+    {
+      "title": "Can you implement the fixes after?",
+      "desc": "Yes. Many clients retain us for ongoing SEO after the audit."
+    },
+    {
+      "title": "Is this suitable for large websites?",
+      "desc": "Yes. We regularly audit large, complex, and multi-location sites."
+    }
+  ],
+  "on_page_seo": [
+    {
+      "title": "How long does on-page SEO take to show results?",
+      "desc": "Initial improvements often appear within 4–6 weeks, depending on competition and crawl frequency."
+    },
+    {
+      "title": "Is on-page SEO a one-time task?",
+      "desc": "Core optimisation is foundational, but pages should be reviewed periodically as intent and competition evolve."
+    },
+    {
+      "title": "Do you rewrite content completely?",
+      "desc": "Only when necessary. We optimise existing content first before recommending full rewrites."
+    },
+    {
+      "title": "Can you work with large sites?",
+      "desc": "Yes. We regularly optimise sites with hundreds or thousands of pages."
+    },
+    {
+      "title": "Does on-page SEO affect conversions?",
+      "desc": "Yes. Clear structure, intent alignment, and internal flow directly impact user behaviour."
+    }
+  ],
+  "off_page_seo": [
+    {
+      "title": "How long does off-page SEO take to show results?",
+      "desc": "Typically 3–6 months, depending on competition and current authority levels."
+    },
+    {
+      "title": "Do you guarantee rankings?",
+      "desc": "No serious SEO provider guarantees rankings. We guarantee structured, measurable authority growth."
+    },
+    {
+      "title": "How many links do you build per month?",
+      "desc": "It depends on your industry and strategy. Quality always outweighs quantity."
+    },
+    {
+      "title": "Are backlinks safe?",
+      "desc": "Yes. We follow white-hat practices aligned with Google guidelines."
+    },
+    {
+      "title": "Can you fix past spammy links?",
+      "desc": "Yes. We provide backlink audits and disavow support."
+    }
+  ],
+  "e_commerce_seo": [
+    {
+      "title": "How long does e-commerce SEO take to show results?",
+      "desc": "Initial gains often appear within 6–8 weeks. Strong category growth typically compounds over 3–6 months."
+    },
+    {
+      "title": "Do you optimise Shopify and WooCommerce stores?",
+      "desc": "Yes. We work across Shopify, WooCommerce, Magento, and custom platforms."
+    },
+    {
+      "title": "Can you handle large inventories?",
+      "desc": "Yes. We specialise in SEO for stores with hundreds or thousands of SKUs."
+    },
+    {
+      "title": "Do you write product descriptions?",
+      "desc": "We optimise and structure them first. Full rewrites are recommended only where necessary."
+    },
+    {
+      "title": "Does e-commerce SEO improve conversions?",
+      "desc": "Yes. Intent alignment and structure directly impact buying behaviour."
+    }
+  ],
+  "link_building": [
+    {"title": "Is link building still important for SEO?", "desc": "Yes. High-quality backlinks remain one of the strongest ranking signals."},
+    {"title": "How many links do you build per month?", "desc": "We focus on quality over quantity. Volumes depend on competition, industry, and goals."},
+    {"title": "Do you guarantee links?", "desc": "We guarantee effort, quality standards, and transparency, not artificial numbers."},
+    {"title": "Can you clean up bad backlinks?", "desc": "Yes. We provide backlink audits and disavow guidance where necessary."},
+    {"title": "Is this safe for long-term SEO?", "desc": "Yes. Our methods align with Google's quality guidelines."}
+  ],
+  "social_media_marketing": [
+    {"title": "Which platforms should we use?", "desc": "Only the platforms your audience actually uses. We define this in strategy."},
+    {"title": "Do you create content or only manage accounts?", "desc": "We do both, depending on the engagement model."},
+    {"title": "Is paid social mandatory?", "desc": "No. Paid is optional and used strategically."},
+    {"title": "How long before results show?", "desc": "Visibility improves within weeks. Meaningful traction builds over months."},
+    {"title": "Do you support founder-led content?", "desc": "Yes. Especially effective for B2B and service brands."}
+  ],
+  "seo_migration": [
+    {"title": "Will I lose traffic during a migration?", "desc": "If done correctly, traffic impact is minimal and temporary."},
+    {"title": "When should SEO be involved in a migration?", "desc": "Before design or development begins. Late SEO causes losses."},
+    {"title": "How long does recovery take?", "desc": "Usually 2-6 weeks if executed properly. Longer if errors occur."},
+    {"title": "Do you handle redirects?", "desc": "Yes. Redirect mapping is a core part of our service."},
+    {"title": "Can you fix a bad migration?", "desc": "Yes. We regularly recover sites after failed migrations."}
+  ],
   "mobile_app_development": [
     {
       "title": "How long does a mobile app development project take?",
@@ -680,6 +811,13 @@
       "desc": "Yes. Our Generative AI solutions are designed for production, scalability, and governance, not experimentation."
     }
   ],
+  "social_media_marketing": [
+    {"title": "Do you create content as well?", "desc": "Yes. Depending on the engagement model, we can include content creation along with management."},
+    {"title": "How often do you post?", "desc": "Cadence is defined based on platform, audience, and goals. We agree on this upfront."},
+    {"title": "Can we approve content before posting?", "desc": "Yes. Approval workflows and feedback loops can be built into the process."},
+    {"title": "Do you respond to comments and messages?", "desc": "We handle basic engagement and can escalate sales or support conversations as needed."},
+    {"title": "Is paid advertising included?", "desc": "No. Paid social is a separate service that can be added if required."}
+  ],
   "ios_app_development": [
     {
       "title": "How long does an iOS app development project take?",
@@ -942,6 +1080,138 @@
     {
       "title": "Do you support both iOS and Android apps?",
       "desc": "Yes. We maintain native and cross-platform applications across both platforms."
+    }
+  ],
+  "crm_development": [
+    {
+      "title": "Do we need a custom CRM or can you customise an existing one?",
+      "desc": "It depends on your complexity and growth plans. We assess both options and recommend the most cost-effective long-term approach."
+    },
+    {
+      "title": "Can you integrate our CRM with existing tools?",
+      "desc": "Yes. We specialise in CRM integrations across marketing, finance, analytics, support, and internal systems."
+    },
+    {
+      "title": "Will our team actually use the CRM?",
+      "desc": "That is the point. We prioritise usability and workflow alignment to ensure adoption, not resistance."
+    },
+    {
+      "title": "How long does CRM development take?",
+      "desc": "Simple customisations can take weeks. Full custom CRM platforms typically take 8–16 weeks depending on scope."
+    },
+    {
+      "title": "Do you provide ongoing support?",
+      "desc": "Yes. We support enhancements, optimisation, and scaling as your business evolves."
+    }
+  ],
+  "crm_implementation": [
+    {
+      "title": "How long does CRM implementation take?",
+      "desc": "Typically 4–10 weeks, depending on data complexity, automation, and integrations."
+    },
+    {
+      "title": "Can you fix a failed CRM implementation?",
+      "desc": "Yes. We regularly audit and repair broken CRM setups without starting over."
+    },
+    {
+      "title": "Do you handle data migration?",
+      "desc": "Yes. Migration, cleanup, validation, and post-migration testing are included."
+    },
+    {
+      "title": "Will teams receive onboarding support?",
+      "desc": "We prioritise usability and provide structured adoption support where needed."
+    },
+    {
+      "title": "Can the CRM be extended later?",
+      "desc": "Yes. We design CRM systems to scale and adapt as your business grows."
+    }
+  ],
+  "erp": [
+    {
+      "title": "How long does ERP implementation take?",
+      "desc": "Typically 3–9 months depending on modules, integrations, and data complexity."
+    },
+    {
+      "title": "Can you optimise an existing ERP system?",
+      "desc": "Yes. We regularly audit and restructure underperforming ERP setups."
+    },
+    {
+      "title": "Do you handle data migration and reconciliation?",
+      "desc": "Yes. Data accuracy and validation are core to our ERP delivery."
+    },
+    {
+      "title": "Can ERP integrate with CRM and automation tools?",
+      "desc": "Absolutely. ERP is most effective when tightly integrated with CRM and automation."
+    },
+    {
+      "title": "Is ERP suitable for mid sized businesses?",
+      "desc": "Yes. ERP is not just for large enterprises when implemented correctly."
+    }
+  ],
+  "crm_customization": [
+    {
+      "title": "Can you customise an existing CRM without rebuilding it?",
+      "desc": "Yes. Most customisation improves existing setups without full reimplementation."
+    },
+    {
+      "title": "Will customisation affect CRM upgrades?",
+      "desc": "No. We design changes that remain compatible with platform updates."
+    },
+    {
+      "title": "Can you fix poor CRM adoption?",
+      "desc": "Yes. Adoption issues are usually caused by workflow misalignment, not user resistance."
+    },
+    {
+      "title": "Do you handle automation and reporting as part of customisation?",
+      "desc": "Yes. Automation and reporting are core components of our CRM customisation work."
+    },
+    {
+      "title": "How long does CRM customisation take?",
+      "desc": "Typically 2–6 weeks depending on complexity."
+    }
+  ],
+  "crm_integration": [
+    {
+      "title": "Can you integrate our CRM with custom or legacy systems?",
+      "desc": "Yes. We regularly integrate CRMs with proprietary and legacy platforms."
+    },
+    {
+      "title": "Will integrations slow down our CRM?",
+      "desc": "No. We design integrations with performance and reliability in mind."
+    },
+    {
+      "title": "Can integrations support automation and reporting?",
+      "desc": "Yes. Integration is the foundation for accurate automation and reporting."
+    },
+    {
+      "title": "Do you use middleware tools or direct APIs?",
+      "desc": "We choose the method based on stability, scale, and security requirements."
+    },
+    {
+      "title": "How long does CRM integration take?",
+      "desc": "Typically 2–6 weeks depending on system complexity."
+    }
+  ],
+  "crm_automation_ai": [
+    {
+      "title": "Will automation replace our sales team?",
+      "desc": "No. It removes admin so they can focus on selling."
+    },
+    {
+      "title": "Can AI improve lead quality?",
+      "desc": "Yes. AI scoring highlights leads with the highest likelihood to convert."
+    },
+    {
+      "title": "Is automation risky if configured poorly?",
+      "desc": "Yes. That is why we design safeguards and validation rules."
+    },
+    {
+      "title": "Can automation adapt as we grow?",
+      "desc": "Yes. We build modular workflows that evolve with scale."
+    },
+    {
+      "title": "How long does CRM automation take?",
+      "desc": "Typically 3–6 weeks depending on scope and complexity."
     }
   ]
 }

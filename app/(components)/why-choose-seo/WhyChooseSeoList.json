@@ -1,0 +1,106 @@
+{
+  "technical_seo": {
+    "heading": "Why Choose Devtrios for Technical SEO",
+    "description": "We do not just audit.\n We fix, validate, and future-proof.",
+    "image": "/assets/images/services/choose-technical-seo.png",
+    "imageAlt": "Why Choose Devtrios for Technical SEO",
+    "cards": [
+      "Deep engineering and SEO expertise",
+      "Experience with large, complex websites",
+      "Clear technical explanations, no jargon",
+      "SEO aligned with real business goals",
+      "Fixes that last, not temporary patches"
+    ]
+  },
+  "local_seo": {
+    "heading": "Why Choose Devtrios for Local SEO",
+    "description": "We do not chase rankings.\n We build local demand engines.",
+    "image": "/assets/images/services/choose-technical-seo.png",
+    "imageAlt": "Why Choose Devtrios for Local SEO",
+    "cards": [
+      "Proven experience with service-based and location-driven businesses",
+      "Strong understanding of Google Maps ranking mechanics",
+      "Clear reporting tied to calls, leads, and actions",
+      "No spam, no risky tactics",
+      "Local SEO aligned with long-term brand trust"
+    ]
+  },
+  "seo_audit": {
+    "heading": "Why Choose Devtrios for SEO Audits",
+    "description": "We do not sell audits to look clever.\n We use them to create leverage.",
+    "image": "/assets/images/services/choose-technical-seo.png",
+    "imageAlt": "Why Choose Devtrios for SEO Audits",
+    "cards": [
+      "Deep technical and strategic SEO expertise",
+      "Audits built for real-world execution",
+      "Clear prioritisation, not noise",
+      "Experience across SaaS, eCommerce, service, and enterprise sites",
+      "SEO tied to business outcomes, not vanity metrics"
+    ]
+  },
+  "on_page_seo": {
+    "heading": "Why Choose Devtrios for On-Page SEO",
+    "description": "We optimise pages to perform, not just exist.",
+    "image": "/assets/images/services/choose-technical-seo.png",
+    "imageAlt": "Why Choose Devtrios for On-Page SEO",
+    "cards": [
+      "Search-intent-first optimisation",
+      "Strong technical and content alignment",
+      "Clean, scalable page frameworks",
+      "SEO tied directly to business outcomes",
+      "No shortcuts, no spam tactics"
+    ]
+  },
+  "off_page_seo": {
+    "heading": "Why Devtrios for Off-Page SEO",
+    "description": "Authority is built carefully.\n Not manufactured.",
+    "image": "/assets/images/services/choose-technical-seo.png",
+    "imageAlt": "Why Devtrios for Off-Page SEO",
+    "cards": [
+      "Manual outreach",
+      "High-quality placements",
+      "Controlled anchor strategy",
+      "Clean link velocity",
+      "Long-term safety focus"
+    ]
+  },
+  "e_commerce_seo": {
+    "heading": "Why Choose Devtrios for E-Commerce SEO",
+    "description": "We optimise stores to sell, not just index.",
+    "image": "/assets/images/services/choose-technical-seo.png",
+    "imageAlt": "Why Choose Devtrios for E-Commerce SEO",
+    "cards": [
+      "Commercial intent first, not blog volume",
+      "Deep technical SEO expertise for large stores",
+      "Platform-agnostic execution",
+      "Clean, scalable architectures",
+      "SEO aligned with revenue, not reports"
+    ]
+  },
+  "link_building": {
+    "heading": "Why Choose Devtrios for Link Building",
+    "description": "We build authority that lasts.",
+    "image": "/assets/images/services/choose-technical-seo.png",
+    "imageAlt": "Why Choose Devtrios for Link Building",
+    "cards": [
+      "Google-compliant, risk-aware strategies",
+      "Manual outreach and editorial placements",
+      "Commercial-page focused authority building",
+      "SEO-led, not PR-for-the-sake-of-it",
+      "Long-term ranking stability"
+    ]
+  },
+  "seo_migration": {
+    "heading": "Why Choose Devtrios for SEO Migration",
+    "description": "We treat migrations like engineering projects, not marketing tasks.",
+    "image": "/assets/images/services/choose-technical-seo.png",
+    "imageAlt": "Why Choose Devtrios for SEO Migration",
+    "cards": [
+      "SEO involved before development begins",
+      "Technical and commercial SEO alignment",
+      "Zero-template, site-specific planning",
+      "Real-time launch support",
+      "Proven recovery-focused process"
+    ]
+  }
+}
