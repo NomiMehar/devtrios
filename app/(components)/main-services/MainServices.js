@@ -38,6 +38,8 @@ export default function MainServices({ type }) {
                     className={`${styles.tab} ${
                       isActive ? styles.tab_active : ""
                     }`}
+                    onMouseEnter={() => setActiveIndex(index)}
+                    onFocus={() => setActiveIndex(index)}
                     onClick={() => setActiveIndex(index)}
                   >
                     <span className={styles.tab_label}>{service.title}</span>

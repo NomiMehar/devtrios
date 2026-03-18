@@ -18,6 +18,8 @@ import Cta from "@/app/(components)/cta/Cta";
 import CtaList from "@/app/(components)/cta/CtaList.json";
 import WebsiteContactForm from "@/app/(components)/website-contact-form/WebsiteContactForm";
 import BlogsSlider from "@/app/(components)/blogs-slider/BlogsSlider";
+import Testimonials from "@/app/(components)/testimonials/Testimonials";
+import TestimonialList from "@/app/(components)/testimonials/TestimonialList.json";
 
 export default function websiteDevelopment() {
   const bannerData = ServiceBannerList.website_development;
@@ -70,6 +72,7 @@ export default function websiteDevelopment() {
       <WebsiteTechStack />
       <OurExpertise />
       <WhoWeBuildFor data={whoWeBuildForData} />
+      <Testimonials list={TestimonialList.website_development} />
       <Cta data={ctaData} />
       <BlogsSlider />
       <Faqs type="website_development" />

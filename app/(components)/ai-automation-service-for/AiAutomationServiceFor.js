@@ -36,7 +36,7 @@ export default function AiAutomationServiceFor({ data }) {
                   >
                     <div className={styles.checkmark_icon}>
                       <Image
-                        src="/assets/images/services/automation-ser vice-icon.svg"
+                        src="/assets/images/services/automation-service-icon.svg"
                         alt="checkmark"
                         width={20}
                         height={20}

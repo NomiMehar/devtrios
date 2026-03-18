@@ -12,7 +12,7 @@
         "title": "WordPress Website Development",
         "description": "We build custom WordPress websites that are fast, secure, and easy to manage. Our WordPress development focuses on clean architecture, performance optimisation, and SEO-friendly structures, giving you full control without sacrificing speed or scalability.",
         "idealFor": "content-driven businesses, service providers, and marketing-led teams that need flexibility without technical complexity.",
-        "link": "/services/website-development/wordpress-development/",
+        "link": "/services/wordpress-development/",
         "linkText": "Explore WordPress Development",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#ccf1e5"
@@ -21,7 +21,7 @@
         "title": "Shopify Website Development",
         "description": "Our Shopify development services help brands launch and scale high-converting eCommerce stores. From custom themes and UX optimisation to payment gateways and third-party integrations, we build Shopify stores designed to increase conversions and average order value.",
         "idealFor": "brands that want reliable performance with room to grow.",
-        "link": "/services/website-development/shopify-development/",
+        "link": "/services/shopify-development/",
         "linkText": "View Shopify Solutions",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#e8f0ff"
@@ -30,7 +30,7 @@
         "title": "Custom E-Commerce Website Development",
         "description": "For businesses that need more than off-the-shelf solutions, we deliver custom eCommerce website development tailored to your products, workflows, and customers. We focus on security, performance, and conversion optimisation across every touchpoint.",
         "builtFor": "scale, integrations, and long-term growth.",
-        "link": "/services/website-development/ecommerce-website-development/",
+        "link": "/services/ecommerce-website-development/",
         "linkText": "Build Your Online Store",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#fff4e6"
@@ -39,7 +39,7 @@
         "title": "Landing Page Development for Lead Generation",
         "description": "We design and develop high-converting landing pages built for paid traffic, campaigns, and product launches. Every landing page is structured around user intent, speed, and conversion psychology, ensuring maximum ROI from your traffic.",
         "idealFor": "marketing campaigns, SaaS launches, and lead generation funnels.",
-        "link": "/services/website-development/landing-page-development/",
+        "link": "/services/landing-page-development/",
         "linkText": "Create High-Converting Pages",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#e6f9f0"
@@ -48,7 +48,7 @@
         "title": "Custom Website Development",
         "description": "When templates aren't enough, we deliver fully custom website development using modern frameworks and clean codebases. These solutions are built for unique functionality, complex integrations, and long-term scalability.",
         "bestFor": "businesses with specific technical requirements or growth plans.",
-        "link": "/services/website-development/custom-website-development/",
+        "link": "/services/custom-website-development/",
         "linkText": "Custom Website Solutions",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#f0f0ff"
@@ -57,7 +57,7 @@
         "title": "Webflow Website Development",
         "description": "Our Webflow development services combine design freedom with clean performance. We build visually refined, fast-loading Webflow websites that are easy to maintain and optimised for SEO and responsiveness.",
         "ideal": "design-led brands and marketing teams that value speed and flexibility.",
-        "link": "/services/website-development/webflow-development/",
+        "link": "/services/webflow-development/",
         "linkText": "Explore Webflow Development",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#ffe6f5"
@@ -65,7 +65,7 @@
       {
         "title": "Website Maintenance and Support Services",
         "description": "A website should evolve, not decay. Our website maintenance services keep your site secure, updated, and performing at its best. We handle updates, monitoring, backups, and ongoing improvements so your team can focus on growth.",
-        "link": "/services/website-development/website-maintenance/",
+        "link": "/services/website-maintenance/",
         "linkText": "View Maintenance Plans",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#f8f8f8"
@@ -145,35 +145,35 @@
         "description": "High-performance iOS apps built for iPhone and iPad using modern Apple standards, optimised for security, performance, and App Store compliance.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#ccf1e5",
-        "link": "/services/mobile-app-development/ios-app-development/"
+        "link": "/services/ios-app-development/"
       },
       {
         "title": "Android App Development",
         "description": "Custom Android applications designed to perform consistently across devices, screen sizes, and OS versions.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#e8f0ff",
-        "link": "/services/mobile-app-development/android-app-development/"
+        "link": "/services/android-app-development/"
       },
       {
         "title": "Cross-Platform App Development",
         "description": "We build cross-platform apps using technologies such as Flutter to deliver native-like performance on both iOS and Android from a single codebase.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#fff4e6",
-        "link": "/services/mobile-app-development/flutter-app-development/"
+        "link": "/services/flutter-app-development/"
       },
       {
         "title": "Mobile App UI & UX Design",
         "description": "Intuitive, engaging app design focused on usability, retention, and clear user flows.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#e6f9f0",
-        "link": "/services/mobile-app-development/app-ui-ux/"
+        "link": "/services/app-ui-ux/"
       },
       {
         "title": "Mobile App Maintenance & Support",
         "description": "Ongoing support covering updates, performance monitoring, bug fixes, and feature enhancements.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#f0f0ff",
-        "link": "/services/mobile-app-development/app-maintenance/"
+        "link": "/services/app-maintenance/"
       }
     ]
   },
@@ -197,7 +197,7 @@
         ],
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#ccf1e5",
-        "link": "/services/ui-ux-design/ux-research/",
+        "link": "/services/ux-research/",
         "linkText": "Learn More"
       },
       {
@@ -211,7 +211,7 @@
         ],
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#e8f0ff",
-        "link": "/services/ui-ux-design/ui-design/",
+        "link": "/services/ui-design/",
         "linkText": "Learn More"
       },
       {
@@ -225,7 +225,7 @@
         ],
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#fff4e6",
-        "link": "/services/ui-ux-design/ux-audit/",
+        "link": "/services/ux-audit/",
         "linkText": "Learn More"
       },
       {
@@ -239,7 +239,7 @@
         ],
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#e6f9f0",
-        "link": "/services/ui-ux-design/wireframes-prototypes/",
+        "link": "/services/wireframes-prototypes/",
         "linkText": "Learn More"
       },
       {
@@ -253,7 +253,7 @@
         ],
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#f0e8ff",
-        "link": "/services/ui-ux-design/design-system/",
+        "link": "/services/design-system/",
         "linkText": "Learn More"
       },
       {
@@ -267,7 +267,7 @@
         ],
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#e8f4fd",
-        "link": "/services/ui-ux-design/product-design/",
+        "link": "/services/product-design/",
         "linkText": "Learn More"
       }
     ]
@@ -286,7 +286,7 @@
         "description": "Secure, gas-optimised smart contracts built for automation, accuracy, and long-term reliability across leading blockchain networks.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#ccf1e5",
-        "link": "/services/blockchain-development/smart-contract-development",
+        "link": "/services/smart-contract-development",
         "linkText": "Learn More"
       },
       {
@@ -294,7 +294,7 @@
         "description": "Decentralised Web3 applications with wallet integration, secure data handling, and user-friendly interfaces designed for adoption.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#e8f0ff",
-        "link": "/services/blockchain-development/web3-app-development",
+        "link": "/services/web3-app-development",
         "linkText": "Learn More"
       },
       {
@@ -302,7 +302,7 @@
         "description": "End-to-end NFT solutions including minting platforms, marketplaces, metadata handling, and smart contract logic.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#fff4e6",
-        "link": "/services/blockchain-development/nft-development",
+        "link": "/services/nft-development",
         "linkText": "Learn More"
       },
       {
@@ -310,7 +310,7 @@
         "description": "Custom wallets and wallet integrations enabling secure asset storage, transactions, authentication, and Web3 access.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#e6f9f0",
-        "link": "/services/blockchain-development/wallet-integration",
+        "link": "/services/wallet-integration",
         "linkText": "Learn More"
       },
       {
@@ -318,7 +318,7 @@
         "description": "In-depth audits to identify vulnerabilities, optimise performance, and ensure contract integrity before deployment.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#f0f0ff",
-        "link": "/services/blockchain-development/smart-contract-audits",
+        "link": "/services/smart-contract-audits",
         "linkText": "Learn More"
       }
     ]
@@ -337,35 +337,35 @@
         "description": "Tailor-made software solutions built to address your specific business workflows, user requirements, and challenges. Whether it's a desktop solution or a complex enterprise system, we design software that works for you.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#ccf1e5",
-        "link": "/services/software-development/custom-software-development/"
+        "link": "/services/custom-software-development/"
       },
       {
         "title": "Web Application Development",
         "description": "Build secure, high-performance web applications that are scalable, intuitive, and ready for integrations. We focus on seamless user experiences, performance optimization, and robust security.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#e8f0ff",
-        "link": "/services/software-development/web-app-development/"
+        "link": "/services/web-app-development/"
       },
       {
         "title": "SaaS Development",
         "description": "End-to-end development of SaaS products, including architecture, multi-tenancy, subscription billing systems, security protocols, and scalability. We help bring your SaaS vision to life with the flexibility and growth potential your business needs.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#fff4e6",
-        "link": "/services/software-development/saas-development/"
+        "link": "/services/saas-development/"
       },
       {
         "title": "MVP Development",
         "description": "Get your product to market faster with a lean, cost-effective MVP. We focus on validating your idea, attracting early users, and securing investment so you can scale with confidence.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#e6f9f0",
-        "link": "/services/software-development/mvp-development/"
+        "link": "/services/mvp-development/"
       },
       {
         "title": "API Development & Integration",
         "description": "Develop secure and scalable APIs that allow different systems, applications, and platforms to communicate seamlessly. We integrate APIs with your existing infrastructure for smooth data flow and functionality.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#f0f0ff",
-        "link": "/services/software-development/api-development/"
+        "link": "/services/api-development/"
       }
     ]
   },
@@ -383,7 +383,7 @@
         "description": "Intelligent conversational systems for customer support, sales, and internal teams. Built with natural language understanding, contextual memory, and real integrations.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#ccf1e5",
-        "link": "/services/ai-automation/ai-chatbots/",
+        "link": "/services/ai-chatbots/",
         "linkText": "Explore AI Chatbots"
       },
       {
@@ -391,7 +391,7 @@
         "description": "Task-driven AI agents that reason, plan, and execute actions across tools, APIs, and systems. Designed to automate workflows, not just respond to prompts.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#e8f0ff",
-        "link": "/services/ai-automation/ai-agents/",
+        "link": "/services/ai-agents/",
         "linkText": "Explore AI Agents"
       },
       {
@@ -399,7 +399,7 @@
         "description": "Advanced AI system design focused on autonomy, multi-step reasoning, and agent orchestration. Built for organisations that need decision-making systems, not isolated models.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#fff4e6",
-        "link": "/services/ai-automation/agentic-ai/",
+        "link": "/services/agentic-ai/",
         "linkText": "Explore Agentic AI"
       },
       {
@@ -407,7 +407,7 @@
         "description": "Custom and fine-tuned large language models deployed securely for enterprise use cases. Designed for accuracy, governance, and long-term scalability.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#e6f9f0",
-        "link": "/services/ai-automation/llm-development/",
+        "link": "/services/llm-development/",
         "linkText": "Explore LLM Development"
       },
       {
@@ -415,7 +415,7 @@
         "description": "AI-driven automation that removes manual work across operations, finance, sales, and support using APIs, RPA, and intelligent orchestration.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#f0f0ff",
-        "link": "/services/ai-automation/automation-workflows/",
+        "link": "/services/automation-workflows/",
         "linkText": "Explore Automation"
       },
       {
@@ -423,7 +423,7 @@
         "description": "Production-ready generative AI solutions for content generation, internal tools, data synthesis, and decision support with governance built in.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#ffe6f5",
-        "link": "/services/ai-automation/generative-ai/",
+        "link": "/services/generative-ai/",
         "linkText": "Explore Generative AI"
       }
     ]
@@ -442,7 +442,7 @@
         "description": "We fix what search engines see first. Site architecture, crawlability, Core Web Vitals, indexing issues, schema, internal linking, and technical debt. Technical SEO creates the foundation that everything else depends on.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#ccf1e5",
-        "link": "/services/seo-services/technical-seo/",
+        "link": "/services/technical-seo/",
         "linkText": "Learn More"
       },
       {
@@ -450,7 +450,7 @@
         "description": "We optimise pages for relevance, clarity, and intent alignment. This includes content structure, metadata, internal linking, topical depth, and UX signals that directly influence rankings and engagement.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#e8f0ff",
-        "link": "/services/seo-services/",
+        "link": "/services/on-page-seo",
         "linkText": "Learn More"
       },
       {
@@ -458,7 +458,7 @@
         "description": "Designed for businesses that depend on geographic visibility. We optimise Google Business Profiles, citations, local landing pages, reviews, and map presence to drive inbound demand from nearby customers.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#fff4e6",
-        "link": "/services/seo-services/local-seo/",
+        "link": "/services/local-seo/",
         "linkText": "Learn More"
       },
       {
@@ -466,7 +466,7 @@
         "description": "SEO frameworks built for scale. Product and category optimisation, faceted navigation handling, internal linking systems, index control, and conversion focused optimisation designed specifically for online stores.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#e6f9f0",
-        "link": "/services/seo-services/ecommerce-seo/",
+        "link": "/services/ecommerce-seo/",
         "linkText": "Learn More"
       },
       {
@@ -474,7 +474,7 @@
         "description": "For businesses expanding across regions and languages. Hreflang strategy, regional site structure, localisation, and market specific keyword targeting that avoids cannibalisation and duplication issues.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#f0f0ff",
-        "link": "/services/seo-services/",
+        "link": "/services/",
         "linkText": "Learn More"
       },
       {
@@ -482,7 +482,7 @@
         "description": "Built for large sites and complex organisations. Governance, automation, reporting, and scalable optimisation frameworks designed to work across thousands of pages and multiple stakeholders.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#f0e8ff",
-        "link": "/services/seo-services/",
+        "link": "/services/",
         "linkText": "Learn More"
       },
       {
@@ -490,7 +490,7 @@
         "description": "Clarity before execution. We deliver deep technical, content, and authority audits followed by a prioritised roadmap that focuses on impact, not busywork.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#e8f4fd",
-        "link": "/services/seo-services/seo-audit/",
+        "link": "/services/seo-audit/",
         "linkText": "Learn More"
       },
       {
@@ -498,7 +498,7 @@
         "description": "Authority built properly. We earn high quality, relevant links through white hat outreach and digital PR. No shortcuts, no spam, no risk to your domain.",
         "icon": "/assets/images/header/nav-icon-3.svg",
         "backgroundColor": "#ffe6f5",
-        "link": "/services/seo-services/link-building/",
+        "link": "/services/link-building/",
         "linkText": "Learn More"
       }
     ]

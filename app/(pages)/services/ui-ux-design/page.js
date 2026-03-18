@@ -14,6 +14,8 @@ import CtaList from "@/app/(components)/cta/CtaList.json";
 import WebsiteContactForm from "@/app/(components)/website-contact-form/WebsiteContactForm";
 import OurExpertise from "@/app/(components)/our-expertise/OurExpertise";
 import WebsiteTechStack from "@/app/(components)/website-tech-stack/WebsiteTechStack";
+import Testimonials from "@/app/(components)/testimonials/Testimonials";
+import TestimonialList from "@/app/(components)/testimonials/TestimonialList.json";
 
 export default function UiUxDesign() {
   const bannerData = ServiceBannerList.ui_ux_design;
@@ -68,6 +70,7 @@ export default function UiUxDesign() {
       <ProcessSection data={processData} />
       <OurExpertise />
       <WebsiteTechStack type="ui_ux_design" />
+      <Testimonials list={TestimonialList.ui_ux_design} />
       <Cta data={ctaData} />
       <BlogsSlider />
       <Faqs type="ui_ux_design" />

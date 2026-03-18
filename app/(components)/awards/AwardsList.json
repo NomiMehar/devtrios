@@ -1,17 +1,50 @@
 [
   {
     "id": 1,
-    "image": "/assets/images/home/banner-award-2025-black-winner-devtrios-wordpress.png",
-    "link": "https://techbehemoths.com/awards-2025/certificates/389f4be7-21b0-4f0c-92e7-dcf7c8260b01"
+    "image": "/assets/images/home/awards1.png"
   },
   {
     "id": 2,
-    "image": "/assets/images/home/banner-award-2025-black-winner-devtrios-web-development.png",
-    "link": "https://techbehemoths.com/awards-2025/certificates/389f4be7-21b0-4f0c-92e7-dcf7c8260b01"
+    "image": "/assets/images/home/awards2.png"
   },
   {
     "id": 3,
-    "image": "/assets/images/home/banner-award-2025-black-winner-devtrios-web-design.png",
-    "link": "https://techbehemoths.com/awards-2025/certificates/389f4be7-21b0-4f0c-92e7-dcf7c8260b01"
+    "image": "/assets/images/home/awards3.png"
+  },
+  {
+    "id": 4,
+    "image": "/assets/images/home/awards4.png"
+  },
+  {
+    "id": 5,
+    "image": "/assets/images/home/awards5.png"
+  },
+  {
+    "id": 6,
+    "image": "/assets/images/home/awards6.png"
+  },
+  {
+    "id": 7,
+    "image": "/assets/images/home/awards7.png"
+  },
+  {
+    "id": 8,
+    "image": "/assets/images/home/awards8.png"
+  },
+  {
+    "id": 9,
+    "image": "/assets/images/home/awards9.png"
+  },
+  {
+    "id": 10,
+    "image": "/assets/images/home/awards10.png"
+  },
+  {
+    "id": 11,
+    "image": "/assets/images/home/awards11.png"
+  },
+  {
+    "id": 12,
+    "image": "/assets/images/home/awards12.png"
   }
 ]

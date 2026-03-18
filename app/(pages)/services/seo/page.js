@@ -18,6 +18,8 @@ import WhoWeBuildFor from "@/app/(components)/who-we-build-for/WhoWeBuildFor";
 import WhoWeBuildForList from "@/app/(components)/who-we-build-for/WhoWeBuildForList.json";
 import WhyChoose from "@/app/(components)/why-choose/WhyChoose";
 import WhyChooseList from "@/app/(components)/why-choose/WhyChooseList.json";
+import Testimonials from "@/app/(components)/testimonials/Testimonials";
+import TestimonialList from "@/app/(components)/testimonials/TestimonialList.json";
 
 export default function SeoServices() {
   const bannerData = ServiceBannerList.seo_services;
@@ -70,6 +72,7 @@ export default function SeoServices() {
       <WhyChoose data={whyChooseData} />
       <WebsiteTechStack type="seo_services" />
       <WhoWeBuildFor data={whoWeBuildForData} />
+      <Testimonials list={TestimonialList.seo} />
       <Cta data={ctaData} />
       <BlogsSlider />
       <Faqs type="seo_services" />

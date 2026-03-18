@@ -14,6 +14,8 @@ import CtaList from "@/app/(components)/cta/CtaList.json";
 import WebsiteContactForm from "@/app/(components)/website-contact-form/WebsiteContactForm";
 import OurExpertise from "@/app/(components)/our-expertise/OurExpertise";
 import WebsiteTechStack from "@/app/(components)/website-tech-stack/WebsiteTechStack";
+import Testimonials from "@/app/(components)/testimonials/Testimonials";
+import TestimonialList from "@/app/(components)/testimonials/TestimonialList.json";
 
 
 export default function MobileAppDevelopment() {
@@ -63,6 +65,7 @@ export default function MobileAppDevelopment() {
       <ProcessSection data={processData} />
       <OurExpertise />
       <WebsiteTechStack type="mobile_app_development" />
+      <Testimonials list={TestimonialList.mobile_app_development} />
       <Cta data={ctaData} />
       <BlogsSlider />
       <Faqs type="mobile_app_development" />

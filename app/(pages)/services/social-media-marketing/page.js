@@ -14,6 +14,8 @@ import WebsiteContactForm from "@/app/(components)/website-contact-form/WebsiteC
 import Faqs from "@/app/(components)/faqs/Faqs";
 import BlogsSlider from "@/app/(components)/blogs-slider/BlogsSlider";
 import CaseStudies from "@/app/(components)/case-studies/CaseStudies";
+import Testimonials from "@/app/(components)/testimonials/Testimonials";
+import TestimonialList from "@/app/(components)/testimonials/TestimonialList.json";
 
 export default function SocialMediaMarketing() {
   const bannerData = ServiceBannerList.social_media_marketing;
@@ -36,6 +38,7 @@ export default function SocialMediaMarketing() {
       <BlogsSlider />
       <WhySocialMedia />
       <WhyTrustForMobile data={whoThisIsForData} />
+      <Testimonials list={TestimonialList.social_media_marketing} />
       <Cta data={ctaData} />
       <Faqs type="social_media_marketing" />
       <WebsiteContactForm />

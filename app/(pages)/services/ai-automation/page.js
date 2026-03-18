@@ -16,6 +16,8 @@ import OurExpertise from "@/app/(components)/our-expertise/OurExpertise";
 import WebsiteTechStack from "@/app/(components)/website-tech-stack/WebsiteTechStack";
 import WhoWeBuildFor from "@/app/(components)/who-we-build-for/WhoWeBuildFor";
 import WhoWeBuildForList from "@/app/(components)/who-we-build-for/WhoWeBuildForList.json";
+import Testimonials from "@/app/(components)/testimonials/Testimonials";
+import TestimonialList from "@/app/(components)/testimonials/TestimonialList.json";
 
 
 export default function AiAutomation() {
@@ -67,6 +69,7 @@ export default function AiAutomation() {
       <OurExpertise />
       <WebsiteTechStack type="ai_automation" />
       <WhoWeBuildFor data={whoWeBuildForData} />
+      <Testimonials list={TestimonialList.ai_automation} />
       <Cta data={ctaData} />
       <BlogsSlider />
       <Faqs type="ai_automation" />

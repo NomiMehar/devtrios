@@ -14,6 +14,8 @@ import CtaList from "@/app/(components)/cta/CtaList.json";
 import WebsiteContactForm from "@/app/(components)/website-contact-form/WebsiteContactForm";
 import OurExpertise from "@/app/(components)/our-expertise/OurExpertise";
 import WebsiteTechStack from "@/app/(components)/website-tech-stack/WebsiteTechStack";
+import Testimonials from "@/app/(components)/testimonials/Testimonials";
+import TestimonialList from "@/app/(components)/testimonials/TestimonialList.json";
 
 
 export default function BlockchainDevelopment() {
@@ -63,6 +65,7 @@ export default function BlockchainDevelopment() {
       <ProcessSection data={processData} />
       <OurExpertise />
       <WebsiteTechStack type="blockchain_development" />
+      <Testimonials list={TestimonialList.blockchain_development} />
       <Cta data={ctaData} />
       <BlogsSlider />
       <Faqs type="blockchain_development" />

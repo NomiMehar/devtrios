@@ -16,6 +16,8 @@ import Cta from "@/app/(components)/cta/Cta";
 import CtaList from "@/app/(components)/cta/CtaList.json";
 import WebsiteContactForm from "@/app/(components)/website-contact-form/WebsiteContactForm";
 import BlogsSlider from "@/app/(components)/blogs-slider/BlogsSlider";
+import Testimonials from "@/app/(components)/testimonials/Testimonials";
+import TestimonialList from "@/app/(components)/testimonials/TestimonialList.json";
 
 export default function CrmDevelopment() {
   const bannerData = ServiceBannerList.crm_development;
@@ -72,6 +74,7 @@ export default function CrmDevelopment() {
       <ProcessSection data={processData} />
       <CaseStudies type="website_development" />
       <WhoWeBuildFor data={whoWeBuildForData} />
+      <Testimonials list={TestimonialList.crm_development} />
       <Cta data={ctaData} />
       <BlogsSlider />
       <Faqs type="crm_development" />

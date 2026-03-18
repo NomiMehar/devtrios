@@ -16,6 +16,8 @@ import WebsiteContactForm from "@/app/(components)/website-contact-form/WebsiteC
 import BlogsSlider from "@/app/(components)/blogs-slider/BlogsSlider";
 import WebsiteTechStack from "@/app/(components)/website-tech-stack/WebsiteTechStack";
 import OurExpertise from "@/app/(components)/our-expertise/OurExpertise";
+import Testimonials from "@/app/(components)/testimonials/Testimonials";
+import TestimonialList from "@/app/(components)/testimonials/TestimonialList.json";
 
 export default function SoftwareDevelopment() {
   const bannerData = ServiceBannerList.software_development;
@@ -66,6 +68,7 @@ export default function SoftwareDevelopment() {
       <WebsiteTechStack type="software_development" />
       <OurExpertise />
       <WhoWeBuildFor data={whoWeBuildForData} />
+      <Testimonials list={TestimonialList.software_development} />
       <Cta data={ctaData} />
       <BlogsSlider />
       <Faqs type="software_development" />

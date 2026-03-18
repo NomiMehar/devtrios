@@ -65,7 +65,7 @@ export default function OurClients() {
                     reliable delivery. See what business leaders are saying
                     about us.
                   </p>
-                  <Link href="/our-services" className={styles.services_link}>
+                  <Link href="/services" className={styles.services_link}>
                     Our Services{" "}
                     <Image
                       width={17}

@@ -1,109 +1,411 @@
 {
   "home": [
     {
-      "text": "Working with Devtrios was wonderful—knowledgeable, professional & responsive with insights that added real value.",
-      "name": "Connie Woo",
+      "name": "Sara López",
+      "role": "Marketing Director, RetailPlus Co.",
+      "title": "The analytics and reporting tools are fantastic!",
+      "description": "They provide valuable insights that help us make informed decisions for our business. Since we started using the platform, our campaign performance has improved noticeably.",
       "image": "/assets/images/home/coma.webp"
     },
     {
-      "text": "Professional, efficient team! Our company website turned out beautifully and was a pleasure to build with Devtrios.",
-      "name": "Léna Derigent",
+      "name": "Ross GS",
+      "role": "IT Manager, Nexora Solutions",
+      "title": "The regular updates and new features show that the company is committed to continuous improvement.",
+      "description": "It's great to see such dedication to quality. Every update feels thoughtful, not just cosmetic.",
       "image": "/assets/images/home/coma.webp"
     },
     {
-      "text": "Devtrios understood our vision and turned ideas into actions. A professional, creative, and reliable development partner.",
-      "name": "Juliette Alemany",
+      "name": "Bridder06 Trujillo Beteta",
+      "role": "Operations Manager, LogiTrack Latam",
+      "title": "The pricing is very competitive for the value provided.",
+      "description": "We feel like we're getting a lot for our investment, and it has paid off in many ways. Definitely worth every penny.",
       "image": "/assets/images/home/coma.webp"
     },
     {
-      "text": "Their SEO & marketing boosted traffic, engagement & conversions. Professional, creative & easy to work with.",
-      "name": "Teddy James",
+      "name": "Bermúdez Pérez",
+      "role": "Business Analyst, FinServe Group",
+      "title": "The community support is also a big plus.",
+      "description": "There are plenty of resources available, including forums and tutorials, which have been incredibly helpful when onboarding new team members.",
       "image": "/assets/images/home/coma.webp"
     },
     {
-      "text": "Fast, reliable & amazing developers. Everything delivered on time and as expected—my go-to team for projects.",
-      "name": "XM",
+      "name": "Manuel Alejandro",
+      "role": "CEO, Elevate Digital Agency",
+      "title": "I can't recommend this software company enough.",
+      "description": "They deliver on their promises and truly understand the needs of their clients. Rare to find a team this aligned with your goals.",
       "image": "/assets/images/home/coma.webp"
     },
     {
-      "text": "Beyond skill, their communication stood out—friendly, honest & responsive from start to finish.",
-      "name": "Emma1111-6",
+      "name": "Angel Mtz",
+      "role": "Head of Technology, ClarityOps",
+      "title": "We switched from another software provider, and the transition was seamless.",
+      "description": "The migration process was well-managed, and we didn't experience any downtime. The team handled everything professionally.",
       "image": "/assets/images/home/coma.webp"
     },
     {
-      "text": "The estimate given was the price we paid—no hidden fees or upselling. Just solid, honest delivery.",
-      "name": "MikeM-3026",
+      "name": "Nelson Marca",
+      "role": "Product Manager, BuildSmart Tech",
+      "title": "The features offered are top-notch.",
+      "description": "We've been able to customize the software to fit our specific needs, which has made a huge difference in our day-to-day operations.",
       "image": "/assets/images/home/coma.webp"
     },
     {
-      "text": "Devtrios built our MVP in under 6 weeks on a tight budget. Startup-friendly, fast & on point without cutting corners.",
-      "name": "MichelleM-1264",
+      "name": "Alexandra RP",
+      "role": "Founder, ScaleUp Ventures",
+      "title": "I appreciate the flexibility of the software.",
+      "description": "It scales perfectly with our growing needs, making it a great long-term investment. As we expand, it keeps up without any friction.",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "name": "Chyzzt Ramires",
+      "role": "Systems Integration Lead, TechBridge Corp",
+      "title": "The integration with other tools we use has been flawless.",
+      "description": "It saves us a lot of time and effort, allowing us to focus on what really matters, delivering value to our clients.",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "name": "Alexa RP",
+      "role": "Digital Transformation Manager, Grupo Innova",
+      "title": "Me encanta la interfaz intuitiva.",
+      "description": "Fue fácil empezar, y mi equipo estaba funcionando sin ningún problema. El entrenamiento fue mínimo gracias a lo bien diseñado que es.",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "name": "Luis Perez",
+      "role": "Small Business Owner, LPecom Store",
+      "title": "Super buena experiencia y servicio al cliente.",
+      "description": "Respondieron rápido a todas mis dudas y el resultado fue mejor de lo que esperaba.",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "name": "Alison Rancaño",
+      "role": "Project Coordinator, Launchpad Agency",
+      "title": "During launch week, their team was fully present and proactive.",
+      "description": "That level of support gave us a lot of confidence, especially during a critical rollout. They treated our deadline like their own.",
       "image": "/assets/images/home/coma.webp"
     }
   ],
 
   "about_us": [
     {
-      "text": "Working with Devtrios was wonderful—knowledgeable, professional & responsive with insights that added real value.",
-      "name": "Connie Woo",
+      "name": "Carlos Mendoza",
+      "role": "IT Project Lead",
+      "title": "Project planning was clear from day one.",
+      "description": "Tasks were well organized and timelines were realistic. Overall, a smooth experience.",
       "image": "/assets/images/home/coma.webp"
     },
     {
-      "text": "Professional, efficient team! Our company website turned out beautifully and was a pleasure to build with Devtrios.",
-      "name": "Léna Derigent",
+      "name": "Meta Broughton",
+      "role": "COO, Broughton Retail Tech",
+      "title": "Devtrios built our iOS and Android app from scratch, and the result blew us away.",
+      "description": "Intuitive, fast, and bug-free. Easily one of the most professional mobile app teams we've worked with.",
       "image": "/assets/images/home/coma.webp"
     },
     {
-      "text": "Devtrios understood our vision and turned ideas into actions. A professional, creative, and reliable development partner.",
-      "name": "Juliette Alemany",
+      "name": "Manuel Alejandro",
+      "role": "CEO, Elevate Digital Agency",
+      "title": "I can't recommend this software company enough.",
+      "description": "They deliver on their promises and truly understand the needs of their clients. Rare to find a team this aligned with your goals.",
       "image": "/assets/images/home/coma.webp"
     },
     {
-      "text": "Fast, reliable & amazing developers. Everything delivered on time and as expected—my go-to team for projects.",
-      "name": "XM",
+      "name": "Itzayana Marines",
+      "role": "Innovation Lead, FutureLab MX",
+      "title": "Devtrios knows how to combine cutting-edge technologies like AI and automation with practical solutions.",
+      "description": "They don't just build—they think.",
       "image": "/assets/images/home/coma.webp"
     },
     {
-      "text": "Their SEO & marketing boosted traffic, engagement & conversions. Professional, creative & easy to work with.",
-      "name": "Teddy James",
+      "name": "Digital Solutions",
+      "role": "Blockchain Division, Digital Solutions Ltd.",
+      "title": "We worked with Devtrios on the development of our blockchain application, from architecture through to deployment.",
+      "description": "The team clearly understood our requirements and built a secure, decentralised solution that performs reliably in production.",
       "image": "/assets/images/home/coma.webp"
     },
     {
-      "text": "Beyond skill, their communication stood out—friendly, honest & responsive from start to finish.",
-      "name": "Emma",
+      "name": "Anny Cieza",
+      "role": "Brand Manager, ClearMind Agency",
+      "title": "Our old site was clunky, but Devtrios performed a full UI/UX overhaul.",
+      "description": "The new design is sleek and professional. A genuine and honest collaboration from start to finish.",
       "image": "/assets/images/home/coma.webp"
     },
     {
-      "text": "The estimate given was the price we paid—no hidden fees or upselling. Just solid, honest delivery.",
-      "name": "MikeM",
+      "name": "Mark Daniel",
+      "role": "Owner, Diamond Empire Jewellers",
+      "title": "DevTrios did an excellent job rebranding our website and also developed a custom CRM for my diamond business.",
+      "description": "The results exceeded my expectations. Highly recommended for web development and CRM solutions.",
       "image": "/assets/images/home/coma.webp"
     },
     {
-      "text": "Devtrios built our MVP in under 6 weeks on a tight budget. Startup-friendly, fast & on point without cutting corners.",
-      "name": "Michelle",
+      "name": "Jackie Pearce",
+      "role": "Local Business Owner & SEO Client",
+      "title": "Very happy with my decision to hire Devtrios!",
+      "description": "The SEO team has been so helpful and they're proactive in taking care of everything our site needs. Already seeing an ROI just from working with them!",
       "image": "/assets/images/home/coma.webp"
     }
   ],
 
   "website_development": [
     {
-      "text": "We've trusted Devtrios across multiple projects—web, apps & APIs. Reliable, skilled & always delivering high-quality work on time.",
+      "name": "Carlos Mendoza",
+      "role": "IT Project Lead",
+      "title": "Project planning was clear from day one.",
+      "description": "Tasks were well organized and timelines were realistic. Overall, a smooth experience.",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "name": "Andrew Collins",
+      "role": "Technical Program Manager",
+      "title": "Structured delivery and transparent progress tracking.",
+      "description": "",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "name": "Lucía Fernández",
+      "role": "Marketing Operations Lead",
+      "title": "Implementation was smooth and coordination was easy across teams.",
+      "description": "",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "name": "Ryan Thompson",
+      "role": "Technical Consultant",
+      "title": "They explained technical decisions clearly, which helped us stay aligned during development.",
+      "description": "",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "name": "Mr Sami",
+      "role": "Small Business Owner, Sami's Online Store",
+      "title": "I recently used their web development service, and I'm honestly impressed.",
+      "description": "They are very friendly, responsive, and delivered exactly what was discussed.",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "name": "Elephants and Stars",
+      "role": "Creative Director, Elephants & Stars Studio",
+      "title": "Very friendly and professional.",
+      "description": "Work was delivered exactly as promised and in a very short turnaround. Highly recommended. Will definitely work with them again.",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "name": "David Harrison",
+      "role": "Startup Founder, Harrison Ventures",
+      "title": "Devtrios took our startup from idea to full product launch with a complete web and mobile solution.",
+      "description": "They handled backend, frontend, UI/UX, and even helped define our MVP. The result was investor-ready.",
+      "image": "/assets/images/home/coma.webp"
+    }
+  ],
+
+  "mobile_app_development": [
+    {
+      "name": "Meta Broughton",
+      "role": "COO, Broughton Retail Tech",
+      "title": "Devtrios built our iOS and Android app from scratch, and the result blew us away.",
+      "description": "Intuitive, fast, and bug-free. Easily one of the most professional mobile app teams we've worked with.",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
       "name": "William Shepard",
+      "role": "Technical Lead, Shepard Digital",
+      "title": "We've worked with Devtrios across multiple projects web design, mobile apps, and backend APIs.",
+      "description": "They consistently deliver high-quality work, hit deadlines, and offer solid after-launch support.",
       "image": "/assets/images/home/coma.webp"
     },
     {
-      "text": "Devtrios built my 24-page SEO-optimized WordPress site. Now ranking on 20+ keywords, fast & mobile responsive. Five-star work!",
+      "name": "Alexandra RP",
+      "role": "Founder, ScaleUp Ventures",
+      "title": "I appreciate the flexibility of the software.",
+      "description": "It scales perfectly with our growing needs, making it a great long-term investment. As we expand, it keeps up without any friction.",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "name": "Víctor",
+      "role": "UX Director, Pixel & Co Studio",
+      "title": "Incredible attention to detail.",
+      "description": "The Devtrios team didn't just write code; they designed an experience. Our user engagement has skyrocketed since they revamped our mobile app interface.",
+      "image": "/assets/images/home/coma.webp"
+    }
+  ],
+
+  "software_development": [
+    {
+      "name": "Manuel Alejandro",
+      "role": "CEO, Elevate Digital Agency",
+      "title": "I can't recommend this software company enough.",
+      "description": "They deliver on their promises and truly understand the needs of their clients. Rare to find a team this aligned with your goals.",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "name": "Angel Mtz",
+      "role": "Head of Technology, ClarityOps",
+      "title": "We switched from another software provider, and the transition was seamless.",
+      "description": "The migration process was well-managed, and we didn't experience any downtime. The team handled everything professionally.",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "name": "Nelson Marca",
+      "role": "Product Manager, BuildSmart Tech",
+      "title": "The features offered are top-notch.",
+      "description": "We've been able to customize the software to fit our specific needs, which has made a huge difference in our day-to-day operations.",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "name": "Juan",
+      "role": "Co-Founder, SaaS Startup",
+      "title": "Devtrios feels like a long-term partner rather than a vendor.",
+      "description": "They think beyond the initial build and focus on how the product will evolve and perform over time. That mindset is hard to find.",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "name": "Yunieli Rodriguez",
+      "role": "Compliance Officer, HealthTech Solutions",
+      "title": "Their QA process is rigorous.",
+      "description": "We launched a healthcare app with zero critical bugs in production. Devtrios takes security and compliance very seriously. We trust them completely.",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "name": "Natanael Contreras",
+      "role": "VP of Engineering, CloudBridge Systems",
+      "title": "Devtrios isn't just a vendor; they are an extension of our team.",
+      "description": "They understand our business goals and always deliver scalable, maintainable solutions. Five stars isn't enough.",
+      "image": "/assets/images/home/coma.webp"
+    }
+  ],
+
+  "ai_automation": [
+    {
+      "name": "Itzayana Marines",
+      "role": "Innovation Lead, FutureLab MX",
+      "title": "Devtrios knows how to combine cutting-edge technologies like AI and automation with practical solutions that solve real business problems.",
+      "description": "They don't just build—they think.",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "name": "Yana William",
+      "role": "Head of Data & Analytics, CloudMetrics AWS",
+      "title": "We hired Devtrios to create a real-time AI analytics web app on AWS.",
+      "description": "The results: 60% faster data processing, 40% boost in client engagement, 35% fewer user errors, and near 100% uptime. No drama, just delivery.",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "name": "Greg Cain",
+      "role": "Product Owner, ContentStream AI",
+      "title": "We approached Devtrios to implement AI into our platform for content recommendations.",
+      "description": "They handled the AI development and data pipeline like pros. We're already seeing major value from the tools they built.",
+      "image": "/assets/images/home/coma.webp"
+    }
+  ],
+
+  "blockchain_development": [
+    {
+      "name": "Digital Solutions",
+      "role": "Blockchain Division, Digital Solutions Ltd.",
+      "title": "We worked with Devtrios on the development of our blockchain application, from architecture through to deployment.",
+      "description": "The team clearly understood our requirements and built a secure, decentralised solution that performs reliably in production.",
+      "image": "/assets/images/home/coma.webp"
+    }
+  ],
+
+  "ui_ux_design": [
+    {
+      "name": "Anny Cieza",
+      "role": "Brand Manager, ClearMind Agency",
+      "title": "Our old site was clunky, but Devtrios performed a full UI/UX overhaul.",
+      "description": "The new design is sleek and professional. A genuine and honest collaboration from start to finish.",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "name": "Eduardo García Santos",
+      "role": "Chief Digital Officer, Grupo Santos",
+      "title": "The UI/UX design team at Devtrios completely transformed our platform's user journey.",
+      "description": "They created a modern, intuitive interface that our clients love. Truly a professional and creative group.",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "name": "Víctor",
+      "role": "UX Director, Pixel & Co Studio",
+      "title": "Incredible attention to detail.",
+      "description": "The Devtrios team didn't just write code; they designed an experience. Our user engagement has skyrocketed since they revamped our mobile app interface.",
+      "image": "/assets/images/home/coma.webp"
+    }
+  ],
+
+  "crm_development": [
+    {
+      "name": "Mark Daniel",
+      "role": "Owner, Diamond Empire Jewellers",
+      "title": "DevTrios did an excellent job rebranding our website and also developed a custom CRM for my diamond business.",
+      "description": "The results exceeded my expectations. Highly recommended for web development and CRM solutions.",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "name": "Rajiv Anand",
+      "role": "Director of Technology, FinPath Advisory",
+      "title": "Devtrios built our client portal from scratch—secure login, dashboard, document management, the works.",
+      "description": "The attention to data privacy and clean architecture really impressed our compliance team. Would hire again without hesitation.",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "name": "Daniela Ruiz",
+      "role": "Marketing Coordinator, AgenciaCrece MX",
+      "title": "Trabajamos con Devtrios para desarrollar una landing page de alto rendimiento con integración de CRM.",
+      "description": "Los resultados fueron inmediatos; nuestra tasa de conversión subió significativamente. El equipo es profesional, puntual y muy talentoso.",
+      "image": "/assets/images/home/coma.webp"
+    }
+  ],
+
+  "seo": [
+    {
+      "name": "Jackie Pearce",
+      "role": "Local Business Owner & SEO Client",
+      "title": "Very happy with my decision to hire Devtrios!",
+      "description": "The SEO team has been so helpful and they're proactive in taking care of everything our site needs. Already seeing an ROI just from working with them!",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
       "name": "Tech",
+      "role": "SEO Consultant, IndependentTech",
+      "title": "Devtrios built an impressive 24-page WordPress website with flawless SEO integration.",
+      "description": "The site ranked for over 20 targeted keywords. Fast, mobile-responsive, and visually sharp. A solid five-star experience.",
       "image": "/assets/images/home/coma.webp"
     },
     {
-      "text": "Ali built a modern, functional political website. On time, on budget & exceeded expectations. Highly recommend for public sector.",
-      "name": "Wafa Dridi",
+      "name": "Teddy James",
+      "role": "Digital Marketing Manager, GrowthEdge Media",
+      "title": "Devtrios has been amazing to work with!",
+      "description": "Since working with them, I've seen a big improvement in traffic, engagement, and conversions. Super professional, creative, and easy to communicate with.",
+      "image": "/assets/images/home/coma.webp"
+    }
+  ],
+
+  "social_media_marketing": [
+    {
+      "name": "Sara López",
+      "role": "Marketing Director, RetailPlus Co.",
+      "title": "The analytics and reporting tools are fantastic!",
+      "description": "They provide valuable insights that help us make informed decisions for our business. Since we started using the platform, our campaign performance has improved noticeably.",
       "image": "/assets/images/home/coma.webp"
     },
     {
-      "text": "Our old site looked outdated. Devtrios rebuilt it with Next.js & better SEO—bounce rate cut in half.",
-      "name": "DavidH-5419",
+      "name": "Ross GS",
+      "role": "IT Manager, Nexora Solutions",
+      "title": "The regular updates and new features show that the company is committed to continuous improvement.",
+      "description": "It's great to see such dedication to quality. Every update feels thoughtful, not just cosmetic.",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "name": "Bridder06 Trujillo Beteta",
+      "role": "Operations Manager, LogiTrack Latam",
+      "title": "The pricing is very competitive for the value provided.",
+      "description": "We feel like we're getting a lot for our investment, and it has paid off in many ways. Definitely worth every penny.",
+      "image": "/assets/images/home/coma.webp"
+    },
+    {
+      "name": "Bermúdez Pérez",
+      "role": "Business Analyst, FinServe Group",
+      "title": "The community support is also a big plus.",
+      "description": "There are plenty of resources available, including forums and tutorials, which have been incredibly helpful when onboarding new team members.",
       "image": "/assets/images/home/coma.webp"
     }
   ],
